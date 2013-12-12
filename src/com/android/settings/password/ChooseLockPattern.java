@@ -112,7 +112,8 @@ public class ChooseLockPattern extends SettingsActivity {
         private final Intent mIntent;
 
         public IntentBuilder(Context context) {
-            mIntent = new Intent(context, ChooseLockPattern.class);
+            mIntent = new Intent(context, ChooseLockPatternSize.class);
+            mIntent.putExtra("className", ChooseLockPattern.class.getName());
             mIntent.putExtra(ChooseLockGeneric.CONFIRM_CREDENTIALS, false);
             mIntent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_USE_EXPRESSIVE_STYLE,
                     ThemeHelper.shouldApplyGlifExpressiveStyle(context));
@@ -228,19 +229,14 @@ public class ChooseLockPattern extends SettingsActivity {
         protected FooterButton mSkipOrClearButton;
         protected FooterButton mNextButton;
         @VisibleForTesting protected LockscreenCredential mChosenPattern;
+        private byte mPatternSize = LockPatternUtils.PATTERN_SIZE_DEFAULT;
         private ColorStateList mDefaultHeaderColorList;
         private View mSudContent;
 
         /**
          * The patten used during the help screen to show how to draw a pattern.
          */
-        private final List<LockPatternView.Cell> mAnimatePattern =
-                Collections.unmodifiableList(Lists.newArrayList(
-                        LockPatternView.Cell.of(0, 0),
-                        LockPatternView.Cell.of(0, 1),
-                        LockPatternView.Cell.of(1, 1),
-                        LockPatternView.Cell.of(2, 1)
-                ));
+        private List<LockPatternView.Cell> mAnimatePattern;
 
         @Override
         public void onActivityResult(int requestCode, int resultCode,
@@ -299,11 +295,11 @@ public class ChooseLockPattern extends SettingsActivity {
                     }
 
                     public void onPatternDetected(List<LockPatternView.Cell> pattern,
-                                                  InputMode inputMode) {
+                                                  InputMode inputMode, byte patternSize) {
                         mInputMode = inputMode;
                         mInputPattern = pattern;
                         if (inputMode != InputMode.Click) {
-                            verifyPattern(pattern);
+                            verifyPattern(pattern, patternSize);
                         }
                     }
 
@@ -314,14 +310,14 @@ public class ChooseLockPattern extends SettingsActivity {
                     }
                 };
 
-        private void verifyPattern(List<LockPatternView.Cell> pattern) {
+        private void verifyPattern(List<LockPatternView.Cell> pattern, byte patternSize) {
             if (mUiStage == Stage.NeedToConfirm || mUiStage == Stage.ConfirmWrong) {
                 if (mChosenPattern == null) {
                     throw new IllegalStateException(
                             "null chosen pattern in stage 'need to confirm");
                 }
                 try (LockscreenCredential confirmPattern =
-                             LockscreenCredential.createPattern(pattern)) {
+                             LockscreenCredential.createPattern(pattern, patternSize)) {
                     if (mChosenPattern.equals(confirmPattern)) {
                         updateStage(Stage.ChoiceConfirmed);
                     } else {
@@ -332,7 +328,7 @@ public class ChooseLockPattern extends SettingsActivity {
                 if (pattern.size() < LockPatternUtils.MIN_LOCK_PATTERN_SIZE) {
                     updateStage(Stage.ChoiceTooShort);
                 } else {
-                    mChosenPattern = LockscreenCredential.createPattern(pattern);
+                    mChosenPattern = LockscreenCredential.createPattern(pattern, patternSize);
                     updateStage(Stage.FirstChoiceValid);
                 }
             } else {
@@ -593,6 +589,16 @@ public class ChooseLockPattern extends SettingsActivity {
             mSudContent.setPadding(mSudContent.getPaddingLeft(), 0, mSudContent.getPaddingRight(),
                     0);
 
+            mPatternSize = getActivity().getIntent().getByteExtra("pattern_size",
+                    LockPatternUtils.PATTERN_SIZE_DEFAULT);
+            LockPatternView.Cell.updateSize(mPatternSize);
+            mAnimatePattern = Collections.unmodifiableList(Lists.newArrayList(
+                    LockPatternView.Cell.of(0, 0, mPatternSize),
+                    LockPatternView.Cell.of(0, 1, mPatternSize),
+                    LockPatternView.Cell.of(1, 1, mPatternSize),
+                    LockPatternView.Cell.of(2, 1, mPatternSize)
+                    ));
+
             return layout;
         }
 
@@ -624,6 +630,8 @@ public class ChooseLockPattern extends SettingsActivity {
             mLockPatternView.setFadePattern(false);
             mLockPatternView.setClickable(false);
             mLockPatternView.setClickInputSupported(isPatternInputClickSupported());
+            mLockPatternView.setLockPatternUtils(mLockPatternUtils);
+            mLockPatternView.setLockPatternSize(mPatternSize);
 
             mFooterText = (TextView) view.findViewById(R.id.footerText);
 
@@ -670,6 +678,9 @@ public class ChooseLockPattern extends SettingsActivity {
                 // restore from previous state
                 mChosenPattern = savedInstanceState.getParcelable(KEY_PATTERN_CHOICE);
                 mCurrentCredential = savedInstanceState.getParcelable(KEY_CURRENT_PATTERN);
+                mLockPatternView.setPattern(DisplayMode.Correct,
+                        LockPatternUtils.byteArrayToPattern(
+                                mChosenPattern.getCredential(), mPatternSize));
 
                 updateStage(Stage.values()[savedInstanceState.getInt(KEY_UI_STAGE)]);
 
@@ -747,7 +758,7 @@ public class ChooseLockPattern extends SettingsActivity {
                             + " when button is " + RightButtonMode.Continue);
                 }
                 if (mInputMode == InputMode.Click && mInputPattern != null) {
-                    verifyPattern(mInputPattern);
+                    verifyPattern(mInputPattern, mPatternSize);
                 }
             } else if (mUiStage.rightMode == RightButtonMode.Continue) {
                 if (mUiStage != Stage.FirstChoiceValid) {
@@ -763,7 +774,7 @@ public class ChooseLockPattern extends SettingsActivity {
                             + RightButtonMode.Confirm);
                 }
                 if (mInputMode == InputMode.Click && mInputPattern != null) {
-                    verifyPattern(mInputPattern);
+                    verifyPattern(mInputPattern, mPatternSize);
                 }
             } else if (mUiStage.rightMode == RightButtonMode.Confirm) {
                 if (mUiStage != Stage.ChoiceConfirmed) {
@@ -947,7 +958,7 @@ public class ChooseLockPattern extends SettingsActivity {
                 }
             }
             mSaveAndFinishWorker.start(mLockPatternUtils,
-                    mChosenPattern, mCurrentCredential, mUserId);
+                    mChosenPattern, mCurrentCredential, mUserId, mPatternSize);
         }
 
         @Override
