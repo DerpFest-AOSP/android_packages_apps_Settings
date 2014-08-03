@@ -98,6 +98,7 @@ import com.android.settings.security.screenlock.PatternDotsVisiblePreferenceCont
 import com.android.settings.security.screenlock.PatternErrorVisiblePreferenceController;
 import com.android.settings.security.screenlock.PatternVisiblePreferenceController;
 import com.android.settings.security.screenlock.PinPrivacyPreferenceController;
+import com.android.settings.security.screenlock.PinScramblePreferenceController;
 import com.android.settings.security.screenlock.PowerButtonInstantLockPreferenceController;
 import com.android.settingslib.RestrictedPreference;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -716,6 +717,8 @@ public class ChooseLockGeneric extends SettingsActivity {
             mUnlockSettingsControllers.add(new PatternDotsVisiblePreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new PinPrivacyPreferenceController(
+                    getContext(), mUserId, mLockPatternUtils));
+            mUnlockSettingsControllers.add(new PinScramblePreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new PowerButtonInstantLockPreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
