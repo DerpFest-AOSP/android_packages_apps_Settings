@@ -545,4 +545,5 @@ public class Settings extends SettingsActivity {
     public static class DerpFestCustomizationsActivity extends SettingsActivity {}
     public static class PrivateDnsSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ScreenRefreshRateActivity extends SettingsActivity {}
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
