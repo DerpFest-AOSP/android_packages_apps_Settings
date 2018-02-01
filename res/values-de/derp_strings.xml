@@ -18,4 +18,8 @@
     <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">Gesamter RAM</string>
 
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Benachrichtigungsverlauf anzeigen</string>
+
 </resources>
