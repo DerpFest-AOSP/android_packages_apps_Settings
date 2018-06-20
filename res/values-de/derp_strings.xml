@@ -13,4 +13,8 @@
     <string name="derpfest_version">DerpFest-Version</string>
     <string name="derpfest_version_default">Unbekannt</string>
 
+
+    <!-- Hardware info -->
+    <string name="total_ram">Gesamter RAM</string>
+
 </resources>
