@@ -128,6 +128,16 @@
             android:order="-120"
             settings:keywords="@string/sound_settings"/>
 
+        <!-- Phone ringtone for Slot2 -->
+        <com.android.settings.DefaultRingtonePreference
+            android:key="ringtone2"
+            android:title="@string/ringtone2_title"
+            android:dialogTitle="@string/ringtone_title"
+            android:summary="@string/summary_placeholder"
+            android:ringtoneType="ringtone"
+            settings:allowDividerAbove="false"
+            android:order="-115"/>
+
         <!-- Default notification ringtone -->
         <com.android.settings.DefaultRingtonePreference
             android:key="notification_ringtone"
@@ -153,6 +163,7 @@
         android:key="audio_category"
         android:order="-120"
         android:title="@string/sound_audio_category_title">
+
         <!-- Live Caption -110 and Now Playing -105-->
 
         <!-- Spatial audio -->
