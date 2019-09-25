@@ -200,4 +200,10 @@
 	<!-- Doze on charge -->
     <string name="doze_on_charge_title">Always show when charging</string>
     <string name="doze_on_charge_summary">Show time and info all the time when charging</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
