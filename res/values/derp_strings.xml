@@ -174,4 +174,10 @@
     <string name="factory_reset_battery_low_dialog_title">Battery low</string>
     <string name="factory_reset_battery_low_dialog_message">To perform a factory reset, the battery level must be at least 15%.\n\nPlease connect your charger to continue.</string>
     <string name="factory_reset_battery_low_dialog_button_text">Got it</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>

@@ -147,4 +147,10 @@
     <string name="factory_reset_battery_low_dialog_title">Akkustand niedrig</string>
     <string name="factory_reset_battery_low_dialog_message">Um das Gerät auf die Werkseinstellungen zurückzusetzen, muss der Akkustand mindestens 15 % betragen.\n\nBitte schließen Sie Ihr Ladegerät an, um fortzufahren.</string>
     <string name="factory_reset_battery_low_dialog_button_text">Verstanden</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux-Status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status_permissive">Permissiv</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
