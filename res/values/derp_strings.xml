@@ -220,4 +220,10 @@
     <!-- DerpFest official banner -->
     <string name="derp_official_title">Did you know?</string>
     <string name="derp_official_summary">You\'re currently running an official build of DerpFest.</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
