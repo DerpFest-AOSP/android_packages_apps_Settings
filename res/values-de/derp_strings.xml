@@ -56,4 +56,8 @@
     <string name="doze_gesture_ambient_summary">Inaktivitätsdisplay anzeigen, anstatt den Bildschirm vollständig einzuschalten</string>
     <string name="gesture_wake_ambient">Inaktivitätsdisplay anzeigen</string>
     <string name="gesture_wake">Vollständig einschalten</string>
+
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Musikticker</string>
+    <string name="pulse_on_new_tracks_summary">Bei Titelwechsel Musikticker im Ambient-Modus anzeigen</string>
 </resources>
