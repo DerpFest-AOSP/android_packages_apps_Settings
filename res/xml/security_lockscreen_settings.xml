@@ -105,6 +105,13 @@
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="pulse_on_new_tracks"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
+
         <com.android.settingslib.PrimarySwitchPreference
             android:key="gesture_tap"
             android:title="@string/ambient_display_tap_screen_title"
