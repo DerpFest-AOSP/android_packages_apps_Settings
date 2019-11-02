@@ -55,4 +55,8 @@
     <!-- wake gestures haptics -->
     <string name="doze_gesture_vibrate_title">Haptisches Feedback</string>
     <string name="doze_gesture_vibrate_summary">Bei Auslösen dieser Geste vibrieren</string>
+
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Musikticker</string>
+    <string name="pulse_on_new_tracks_summary">Bei Titelwechsel Musikticker im Ambient-Modus anzeigen</string>
 </resources>
