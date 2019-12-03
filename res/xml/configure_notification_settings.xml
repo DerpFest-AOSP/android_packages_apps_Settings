@@ -141,6 +141,12 @@
         android:key="advanced_section_header"
         android:title="@string/advanced_section_header">
 
+	    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+
         <!--Adaptive Notifications-->
         <Preference
             android:fragment="com.android.settings.notification.PoliteNotificationsPreferenceFragment"
