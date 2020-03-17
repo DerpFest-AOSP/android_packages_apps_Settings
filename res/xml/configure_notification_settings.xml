@@ -187,6 +187,10 @@
         </com.android.settingslib.RestrictedPreference>
 
         <Preference
+            android:title="@string/notification_log_title"
+            android:fragment="com.android.settings.notification.history.NotificationStation" />
+
+        <Preference
             android:key="shade_panels_settings"
             android:title="@string/shade_panels_title"
             android:order="24"
