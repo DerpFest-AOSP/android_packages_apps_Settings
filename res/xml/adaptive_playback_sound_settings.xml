@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2020-2022 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="sound_adaptive_playback_screen"
+    android:title="@string/adaptive_playback_screen_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="adaptive_playback_header"
+        settings:searchable="false"
+        app:lottie_rawRes="@raw/lottie_adaptive_playback"/>
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="sound_adaptive_playback_main_switch"
+        android:title="@string/adaptive_playback_enabled"
+        settings:controller="com.android.settings.sound.AdaptivePlaybackSwitchPreferenceController" />
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="gesture_adaptive_playback_intro_text"
+        android:title="@string/adaptive_playback_intro_text"/>
+
+    <PreferenceCategory
+        android:key="sound_adaptive_playback_category"
+        android:title="@string/adaptive_playback_timeout_title"
+        settings:controller="com.android.settings.sound.AdaptivePlaybackSoundPreferenceController" />
+</PreferenceScreen> 
