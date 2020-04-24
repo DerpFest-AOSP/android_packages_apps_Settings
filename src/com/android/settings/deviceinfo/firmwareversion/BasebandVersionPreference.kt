@@ -18,6 +18,7 @@ package com.android.settings.deviceinfo.firmwareversion
 
 import android.content.Context
 import android.os.SystemProperties
+import android.text.TextUtils;
 import androidx.preference.Preference
 import com.android.settings.R
 import com.android.settings.Utils
@@ -39,8 +40,16 @@ class BasebandVersionPreference :
     override val title: Int
         get() = R.string.baseband_version
 
-    override fun getSummary(context: Context): CharSequence? =
-        SystemProperties.get(BASEBAND_PROPERTY, context.getString(R.string.device_info_default))
+    override fun getSummary(context: Context): CharSequence {
+        val baseband = SystemProperties.get(BASEBAND_PROPERTY,
+            context.getString(R.string.device_info_default)
+        )
+
+        return baseband
+            .split(",")
+            .firstOrNull { it.isNotEmpty() }
+            ?: baseband
+    }
 
     override fun isAvailable(context: Context) =
         Utils.isMobileDataCapable(context) || Utils.isVoiceCapable(context)
