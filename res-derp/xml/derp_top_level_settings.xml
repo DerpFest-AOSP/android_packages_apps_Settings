@@ -37,7 +37,6 @@
             android:key="top_level_derpfest"
             android:order="-160"
             android:title="@string/derpfest_customizations_title"
-            android:summary="@string/derpfest_customizations_summary"
             settings:highlightableMenuKey="@string/menu_key_derpfest"
             settings:controller="org.derpfest.customizations.TopLevelDerpFestCustomizationsPreferenceController"/>
     </PreferenceCategory>
