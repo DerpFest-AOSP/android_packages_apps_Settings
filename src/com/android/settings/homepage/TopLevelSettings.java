@@ -67,12 +67,14 @@ import com.android.settingslib.widget.AdaptiveIcon;
 import com.android.settingslib.widget.SettingsThemeHelper;
 
 import java.util.List;
+import java.util.Random;
 
 @SearchIndexable(forTarget = MOBILE)
 public class TopLevelSettings extends DashboardFragment implements SplitLayoutListener,
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 
     private static final String TAG = "TopLevelSettings";
+    private static final String KEY_DERPFEST = "top_level_derpfest";
     private static final String SAVED_HIGHLIGHT_MIXIN = "highlight_mixin";
     private static final String PREF_KEY_SUPPORT = "top_level_support";
 
@@ -121,12 +123,14 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         super.onAttach(context);
         HighlightableMenu.fromXml(context, getPreferenceScreenResId());
         use(SupportPreferenceController.class).setActivity(getActivity());
+        updateDerpSummary();
     }
 
     @Override
     public void onResume() {
         super.onResume();
         updateTheme();
+        updateDerpSummary();
     }
 
     @Override
@@ -495,6 +499,17 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         return SettingsThemeHelper.isExpressiveTheme(context)
                 ? R.xml.derp_top_level_settings
                 : R.xml.top_level_settings;
+    }
+
+    private void updateDerpSummary() {
+        Preference derpfest = findPreference(KEY_DERPFEST);
+        if (derpfest != null) {
+            String[] summaries = getContext().getResources().getStringArray(
+                    R.array.derpfest_summaries);
+            Random rnd = new Random();
+            int summNO = rnd.nextInt(summaries.length);
+            derpfest.setSummary(summaries[summNO]);
+        }
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
