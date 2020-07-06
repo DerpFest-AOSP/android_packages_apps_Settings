@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_30secs">30 sekúnd</string>
+    <string name="timeout_summary_15secs">15 sekúnd</string>
+    <string name="timeout_summary_never">Nikdy</string>
+    <string name="bluetooth_timeout_summary2">Nevypínať Bluetooth automaticky</string>
+    <string name="bluetooth_timeout_summary">Bluetooth sa vypne po <xliff:g id="timeout_description">%1$s</xliff:g> ak nebude pripojené žiadne zariadenie</string>
+    <string name="bluetooth_timeout">Časový limit Bluetooth</string>
+    <string name="security_restrict_usb_disabled">Vždy povoliť nové USB zariadenia</string>
+    <string name="security_restrict_usb_keyguard">Povoliť nové USB zariadenie pri odomknutí</string>
+    <string name="security_restrict_usb_always">Odmietnuť nové USB zariadenie</string>
+    <string name="security_restrict_usb_summary">Podpora ovládania USB zariadení, ako sú slúchadlá, pamäťové a vstupné zariadenia (myši, klávesnice, joystick)</string>
+    <string name="security_restrict_usb_title">Obmedziť USB</string>
+    <string name="panic_settings_title">Zobraziť možnosti paniky</string>
+    <string name="calyxos_version">Verzia CalyxOS</string>
+    <string name="timeout_summary_2mins">2 minúty</string>
+    <string name="data_usage_app_restrict_background_all_summary">Povoliť používanie pripojenia k internetu na pozadí</string>
+    <string name="panic_settings_summary">Zobraziť tlačidlo napájania, ktoré aktivuje núdzový spúšťač.</string>
+    <string name="wifi_timeout">Automatické vypnutie Wi-Fi</string>
+    <string name="wifi_timeout_summary2">Vypnuté</string>
+    <string name="cleartext_network_policy_summary">Blokuje všetku sieťovú komunikáciu, ktorá nie je TLS. Vyžaduje súkromnú konfiguráciu DNS. Poznámka: Bez explicitných výnimiek nebudú Tor a väčšina sietí VPN fungovať</string>
+    <string name="timeout_summary_2hours">2 hodiny</string>
+    <string name="show_qs_on_secure_keyguard_title">Rýchle nastavenia</string>
+    <string name="wifi_timeout_summary">Ak nie je pripojená žiadna sieť, Wi-Fi sa vypne po <xliff:g id="timeout_description"> %1$s </xliff:g></string>
+    <string name="aosp_module_version">Aktualizácia hlavného modulu</string>
+    <string name="show_qs_on_secure_keyguard_summary">Povoľte prepínanie rýchlych nastavení na zabezpečenej uzamknutej obrazovke</string>
+    <string name="data_usage_app_restrict_background_all">Prístup k sieti na pozadí</string>
+    <string name="timeout_summary_8hours">8 hodín</string>
+    <string name="timeout_summary_4hours">4 hodiny</string>
+    <string name="timeout_summary_1hour">1 hodina</string>
+    <string name="timeout_summary_30mins">30 minút</string>
+    <string name="timeout_summary_10mins">10 minút</string>
+    <string name="timeout_summary_5mins">5 minút</string>
+    <string name="timeout_summary_1min">1 minúta</string>
+    <string name="bugreport_summary">Podáte hlásenie o chybe</string>
+    <string name="view_bugreports_summary_not_developer">Po zobrazení zostanú všetky hlásenia o chybách prístupné, kým nereštartujete zariadenie</string>
+    <string name="detailed_security_patch">Platforma: <xliff:g id="platform_level">%1$s</xliff:g> 
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g> 
+\nPredajca: <xliff:g id="kernel_level">%3$s</xliff:g> 
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, hotspot, VPN, Súkromné DNS</string>
+    <string name="hide_app_desc">Ak túto aplikáciu skryjete, nebude pre systém Android a ostatné aplikácie viditeľná a nemusí fungovať tak, ako má. Majte na pamäti, že skrytie aplikácie zachováva jej dáta. Skrytím túto aplikáciu vypnete a skryjete ju vo svojom zariadení.</string>
+    <string name="global_vpn_summary">Vynúti, aby všetka prevádzka v zariadení prebiehala prostredníctvom tejto siete VPN, vrátane pracovného profilu a ostatných užívateľov.</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobil, Wi-Fi, hotspot, VPN, Súkromné DNS</string>
+    <string name="unhide">Odkryť</string>
+    <string name="keychords_title">Kombinácia tlačidiel pre hlásenie chýb</string>
+    <string name="keychords_summary_adb_enabled">Vždy povolené, keď je zapnuté ladenie</string>
+    <string name="keychords_summary">Zachytíte hlásenie o chybe súčasným podržaním tlačidiel Zvýšiť hlasitosť, Znížiť hlasitosť a Napájanie, aj vtedy, keď je zariadenie uzamknuté</string>
+    <string name="device_reboot_timeout_title">Automatické reštartovanie</string>
+    <string name="device_reboot_timeout_summary">Zariadenie sa automaticky reštartuje, pokiaľ nebolo odomknuté počas posledných <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">Zariadenie sa automaticky nereštartuje</string>
+    <string name="cleartext_network_policy_title">Zakázať nešifrovanú komunikáciu po sieti</string>
+    <string name="hide_app">Skryť aplikáciu</string>
+    <string name="unhide_app_desc">Ak odkryjeťe túto aplikáciu, bude opäť viditeľná pre Android a ďalšie aplikácie.</string>
+    <string name="system_dashboard_summary_calyx">Jazyky, gestá, čas, zálohovanie, používatelia, pracovný profil</string>
+    <string name="timeout_summary_12hours">12 hodín</string>
+    <string name="timeout_summary_24hours">24 hodín</string>
+    <string name="timeout_summary_36hours">36 hodín</string>
+    <string name="timeout_summary_48hours">48 hodín</string>
+    <string name="timeout_summary_72hours">74 hodín</string>
+    <string name="global_vpn_title">Globálna sieť VPN</string>
+    <string name="global_vpn_summary_on">Vynúti, aby všetka prevádzka v zariadení prebiehala prostredníctvom tejto siete VPN, vrátane pracovného profilu a ostatných užívateľov. Upozornenie: Ak je táto funkcia povolená, nebude možné používať samostatnú sieť VPN v pracovnom profile ani u ostatných užívateľov</string>
+    <string name="global_vpn_summary_any_vpn_active">Ak chcete túto funkciu povoliť, musíte najskôr vypnúť všetky aktívne pripojenia k VPN</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, párovanie, NFC</string>
+    <string name="security_dashboard_summary_calyx">Zámok obrazovky, nastavenie paniky, USB obmedzenia, zabezpečenie aplikácií</string>
+    <string name="hidden">Skryté</string>
+    <string name="unhide_app">Odkryť aplikáciu</string>
+    <string name="filter_hidden_apps">Skryté aplikácie</string>
+    <string name="data_usage_app_datura_firewall">Firewall Datura</string>
+    <string name="captive_portal_title">Kontrola pripojenia</string>
+    <string name="captive_portal_summary">Zistenie, či je zariadenie schopné sa pripojiť k internetu kontaktovaním spoločnosti Google. Používa sa tiež na zistenie skrytých portálov.</string>
+    <string name="miscellaneous_settings">Rôzne</string>
+    <string name="other_settings">Ďalšie možnosti</string>
+    <string name="quick_settings">Rýchle nastavenia</string>
+    <string name="view_bugreports_title">Zobraziť hlásenie chyby</string>
+    <string name="hide">Skryť</string>
+    <string name="security_settings_biometric_preference_title_calyx">Biometrické odomknutie</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Biometrické odomknutie pre prácu</string>
+    <string name="cross_profile_sharing_title">Zdieľanie medzi profilmi</string>
+    <string name="cross_profile_sharing_summary">Povoliť tlačidlu zdieľania v aplikáciách zdieľania medzi osobným a pracovným profilom</string>
+    <string name="data_usage_app_datura_firewall_summary">Nastavenie firewallu bola presunutá do novej aplikácie Firewall. Kliknite pre jej otvorenie.</string>
+    <string name="work_hours_title">Pracovné hodiny</string>
+    <string name="work_hours_end_on_summary">Zobraziť oznámenia na vypnutie pracovného profilu každý deň v <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="work_hours_end_off_summary">Zobraziť denné oznámenia na vypnutie pracovného profilu</string>
+    <string name="work_hours_end_notification_title">Koniec pracovného dňa</string>
+    <string name="work_hours_end_notification_description">Kliknite pre vypnutie pracovných aplikácií</string>
+</resources>

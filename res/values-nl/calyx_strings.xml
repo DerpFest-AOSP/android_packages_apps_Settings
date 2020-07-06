@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_30secs">30 Seconden</string>
+    <string name="cleartext_network_policy_title">beperk onbeveiligd netwerkverkeer</string>
+    <string name="timeout_summary_10mins">10 minuten</string>
+    <string name="security_restrict_usb_keyguard">Sta nieuwe USB-gadgets toe als het apparaat ontgrendeld is</string>
+    <string name="timeout_summary_1hour">1 uur</string>
+    <string name="data_usage_app_restrict_background_all_summary">Schakel netwerktoegang op de achtergrond in</string>
+    <string name="timeout_summary_4hours">4 uur</string>
+    <string name="data_usage_app_restrict_background_all">Netwerktoegang op de achtergrond</string>
+    <string name="timeout_summary_5mins">5 minuten</string>
+    <string name="wifi_timeout_summary2">Uitgeschakeld</string>
+    <string name="timeout_summary_2hours">2 uur</string>
+    <string name="security_restrict_usb_disabled">Sta altijd nieuwe USB-gadgets toe</string>
+    <string name="security_restrict_usb_summary">Controleer ondersteuning voor USB-gadgets zoals koptelefoons, opslagapparaten en invoerapparaten (muizen, toetsenborden, joysticks)</string>
+    <string name="security_restrict_usb_always">Weiger nieuwe USB-gadgets</string>
+    <string name="panic_settings_summary">Laat aan-/uit knop optie zien die de paniek-knop activeerd.</string>
+    <string name="security_restrict_usb_title">Beperk USB</string>
+    <string name="wifi_timeout_summary">Wifi schakelt uit na <xliff:g id="timeout_description">%1$s</xliff:g> als geen netwerk verbonden is</string>
+    <string name="cleartext_network_policy_summary">Blokkeer alle niet-TLS netwerkverkeer. Vereist een Privé-DNS configuratie. NB: zonder expliciete uitzonderingen kunnen apps die cleartext-verkeer hebben niet werken</string>
+    <string name="timeout_summary_2mins">2 minuten</string>
+    <string name="timeout_summary_30mins">30 minuten</string>
+    <string name="wifi_timeout">Zet wifi automatisch uit</string>
+    <string name="timeout_summary_8hours">8 uur</string>
+    <string name="timeout_summary_1min">1 minuut</string>
+    <string name="timeout_summary_15secs">15 Seconden</string>
+    <string name="timeout_summary_never">Nooit</string>
+    <string name="bluetooth_timeout_summary2">Zet Bluetooth niet automatisch uit</string>
+    <string name="bluetooth_timeout_summary">Bluetooth wordt uitgeschakeld na <xliff:g id="timeout_description">%1$s</xliff:g> als geen apparaten verbonden zijn</string>
+    <string name="bluetooth_timeout">Bluetoothtime-out</string>
+    <string name="panic_settings_title">Laat Paniek-optie zien</string>
+    <string name="calyxos_version">CalyxOS-versie</string>
+    <string name="show_qs_on_secure_keyguard_title">Snelle instellingen</string>
+    <string name="show_qs_on_secure_keyguard_summary">Sta snel omzetten van instelling toe op vergrendeld scherm</string>
+    <string name="aosp_module_version">Mainline module update</string>
+    <string name="detailed_security_patch">Platform: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nVendor: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobiel, wifi, hotspot, VPN, privé-DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">wifi, hotspot, VPN, privé-DNS</string>
+    <string name="timeout_summary_24hours">24 uur</string>
+    <string name="timeout_summary_36hours">36 uur</string>
+    <string name="timeout_summary_12hours">12 uur</string>
+    <string name="timeout_summary_48hours">48 uur</string>
+    <string name="timeout_summary_72hours">72 uur</string>
+    <string name="global_vpn_title">Globale VPN</string>
+    <string name="global_vpn_summary">Forceer al het verkeer op het apparaat via dit VPN, inclusief werkprofiel en andere gebruikers.</string>
+    <string name="global_vpn_summary_on">Forceer al het verkeer op het apparaat via dit VPN, inclusief werkprofiel en andere gebruikers. Opmerking: Indien ingeschakeld, kunt je geen afzonderlijke VPN gebruiken in een werkprofiel of andere gebruikers</string>
+    <string name="global_vpn_summary_any_vpn_active">Om dit in te schakelen, moet je eerst alle actieve VPN-verbindingen uitschakelen</string>
+    <string name="device_reboot_timeout_title">Automatisch opnieuw opstarten</string>
+    <string name="device_reboot_timeout_summary2">Dit apparaat zal niet automatische opnieuw opstarten</string>
+    <string name="hide">Verbergen</string>
+    <string name="unhide">Tonen</string>
+    <string name="filter_hidden_apps">Verborgen apps</string>
+    <string name="hide_app">Verbergen app</string>
+    <string name="unhide_app">Tonen app</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_title">Panik-Optionen anzeigen</string>
+    <string name="panic_settings_summary">Anzeige der Ein-/Ausschalttastenoption, die einen Notfall-Panikauslöser aktiviert.</string>
+    <string name="security_restrict_usb_summary">Unterstützung für USB-Gadgets wie Kopfhörer, Speichergeräte und Eingabegeräte (Mäuse, Tastaturen, Joysticks) kontrollieren</string>
+    <string name="security_restrict_usb_disabled">Neue USB-Gadgets immer zulassen</string>
+    <string name="security_restrict_usb_keyguard">Neue USB-Gadgets zulassen, wenn entsperrt</string>
+    <string name="security_restrict_usb_always">Neue USB-Gadgets ablehnen</string>
+    <string name="security_restrict_usb_title">USB einschränken</string>
+    <string name="calyxos_version">CalyxOS-Version</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
+    <string name="bluetooth_timeout_summary">Bluetooth schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn keine Geräte verbunden sind</string>
+    <string name="bluetooth_timeout">Bluetooth-Zeitabschaltung</string>
+    <string name="timeout_summary_8hours">8 Stunden</string>
+    <string name="timeout_summary_4hours">4 Stunden</string>
+    <string name="timeout_summary_2hours">2 Stunden</string>
+    <string name="timeout_summary_1hour">1 Stunde</string>
+    <string name="timeout_summary_30mins">30 Minuten</string>
+    <string name="timeout_summary_10mins">10 Minuten</string>
+    <string name="timeout_summary_5mins">5 Minuten</string>
+    <string name="timeout_summary_2mins">2 Minuten</string>
+    <string name="timeout_summary_1min">1 Minute</string>
+    <string name="timeout_summary_30secs">30 Sekunden</string>
+    <string name="timeout_summary_15secs">15 Sekunden</string>
+    <string name="timeout_summary_never">Nie</string>
+    <string name="show_qs_on_secure_keyguard_summary">Umschalten der Schnelleinstellungen auf dem sicheren Sperrbildschirm zulassen</string>
+    <string name="show_qs_on_secure_keyguard_title">Schnelleinstellungen</string>
+    <string name="cleartext_network_policy_title">Klartext-Netzwerkverkehr einschränken</string>
+    <string name="data_usage_app_restrict_background_all">Netzwerkzugriff im Hintergrund</string>
+    <string name="cleartext_network_policy_summary">Blockiert den gesamten Nicht-TLS-Netzwerkverkehr. Erfordert eine private DNS-Konfiguration. Hinweis: Ohne ausdrückliche Ausnahmen funktionieren Apps, die Klartextverkehr verwenden, möglicherweise nicht</string>
+    <string name="wifi_timeout_summary2">Deaktiviert</string>
+    <string name="wifi_timeout_summary">WLAN schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn kein Netzwerk verbunden ist</string>
+    <string name="wifi_timeout">WLAN automatisch ausschalten</string>
+    <string name="data_usage_app_restrict_background_all_summary">Aktivieren der Netzwerknutzung im Hintergrund</string>
+    <string name="aosp_module_version">Mainline-Modul-Aktualisierung</string>
+    <string name="timeout_summary_72hours">72 Stunden</string>
+    <string name="timeout_summary_48hours">48 Stunden</string>
+    <string name="timeout_summary_36hours">36 Stunden</string>
+    <string name="timeout_summary_24hours">24 Stunden</string>
+    <string name="timeout_summary_12hours">12 Stunden</string>
+    <string name="device_reboot_timeout_summary2">Das Gerät wird nicht automatisch neu gestartet</string>
+    <string name="device_reboot_timeout_summary">Das Gerät wird automatisch neu gestartet, wenn es nicht innerhalb der letzten <xliff:g id="timeout_description">%1$s</xliff:g> entsperrt wurde</string>
+    <string name="device_reboot_timeout_title">Automatischer Neustart</string>
+    <string name="global_vpn_title">Globales VPN</string>
+    <string name="global_vpn_summary">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer.</string>
+    <string name="global_vpn_summary_any_vpn_active">Du musst zuerst alle aktiven VPN-Verbindungen deaktivieren, um dies zu aktivieren</string>
+    <string name="detailed_security_patch">Plattform: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nHersteller: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_summary_on">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer. Hinweis: Wenn diese Option aktiviert ist, kannst du kein separates VPN in einem Arbeitsprofil oder für andere Benutzer verwenden</string>
+    <string name="cross_profile_sharing_summary">Aktiviere von In-App-Freigabeschaltflächen für dein Privat- und Arbeitsprofil</string>
+    <string name="cross_profile_sharing_title">Profilübergreifende Freigabe</string>
+    <string name="hide">Ausblenden</string>
+    <string name="unhide">Einblenden</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobil, WLAN, Hotspot, VPN, Privates DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">WLAN, Hotspot, VPN, Privates DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, Kopplung, NFC</string>
+    <string name="security_dashboard_summary_calyx">Bildschirmsperre, Panikeinstellungen, USB-Beschränkungen, App-Sicherheit</string>
+    <string name="system_dashboard_summary_calyx">Sprachen, Gesten, Zeit, Backup, Benutzer, Arbeitsprofil</string>
+    <string name="unhide_app">App einblenden</string>
+    <string name="hide_app_desc">Wenn du diese App ausblendest, ist sie für Android und andere Apps nicht mehr sichtbar, und sie funktioniert möglicherweise nicht mehr wie vorgesehen. Denke daran, dass durch das Ausblenden einer App deren Daten erhalten bleiben. Durch Ausblenden schaltest du diese App aus und versteckst sie auf deinem Gerät.</string>
+    <string name="unhide_app_desc">Wenn du diese App wieder einblendest, wird sie für Android und andere Apps wieder sichtbar.</string>
+    <string name="hide_app">App ausblenden</string>
+    <string name="filter_hidden_apps">Ausgeblendete Apps</string>
+    <string name="captive_portal_summary">Feststellen, ob das Gerät eine Verbindung zum Internet herstellen kann, indem es Google kontaktiert. Wird auch verwendet, um Captive-Portale zu erkennen.</string>
+    <string name="captive_portal_title">Verbindungsprüfung</string>
+    <string name="other_settings">Weitere Optionen</string>
+    <string name="quick_settings">Schnelleinstellungen</string>
+    <string name="keychords_summary_adb_enabled">Immer aktiviert, wenn die Fehlersuche eingeschaltet ist</string>
+    <string name="view_bugreports_title">Fehlerberichte anzeigen</string>
+    <string name="bugreport_summary">Jetzt einen Fehlerbericht erstellen</string>
+    <string name="keychords_title">Tastenkombination für Fehlerbericht</string>
+    <string name="keychords_summary">Erfasse einen Fehlerbericht, indem du die Tasten Lauter, Leiser und Ein/Aus gleichzeitig gedrückt hältst, auch wenn das Gerät gesperrt ist</string>
+    <string name="view_bugreports_summary_not_developer">Nach dem Anzeigen bleiben alle Fehlerberichte zugänglich, bis du das Gerät neu startest</string>
+    <string name="miscellaneous_settings">Verschiedenes</string>
+    <string name="security_settings_biometric_preference_title_calyx">Biometrisches Entsperren</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Biometrisches Entsperren für das Arbeitsprofil</string>
+    <string name="hidden">Ausgeblendet</string>
+    <string name="data_usage_app_datura_firewall">Datura Firewall</string>
+    <string name="data_usage_app_datura_firewall_summary">Firewall-Einstellungen wurden in die neue Firewall-App verschoben. Zum Öffnen antippen.</string>
+    <string name="work_hours_end_on_summary">Anzeige einer Benachrichtigung zum Ausschalten des Arbeitsprofils um <xliff:g id="end_time">%1$s</xliff:g> täglich</string>
+    <string name="work_hours_title">Arbeitszeiten</string>
+    <string name="work_hours_end_off_summary">Täglich eine Benachrichtigung zum Ausschalten des Arbeitsprofils anzeigen</string>
+    <string name="work_hours_end_notification_title">Arbeitstagende</string>
+    <string name="work_hours_end_notification_description">Antippen, um geschäftliche Apps zu deaktivieren</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_summary">Hiện lựa chọn nút nguồn mà kích hoạt một hoảng loạn khẩn cấp.</string>
+    <string name="show_qs_on_secure_keyguard_title">Cài đặt nhanh ở màn hình khóa</string>
+    <string name="show_qs_on_secure_keyguard_summary">Cho phép chuyển đổi cài đặt nhanh trên màn hình khóa an toàn</string>
+    <string name="calyxos_version">Phiên bản CalyxOS</string>
+    <string name="timeout_summary_never">Không bao giờ</string>
+    <string name="panic_settings_title">Hiện lựa chọn của chế độ hoảng loạn</string>
+    <string name="detailed_security_patch">Nền tảng: \u0020<xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nBaseband: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+</resources>

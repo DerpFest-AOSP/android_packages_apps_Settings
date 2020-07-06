@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">ابزارهای USB جدید را همیشه مجاز بگذارید</string>
+    <string name="security_restrict_usb_keyguard">به ابزارهای جدید USB اجازه داده شود در زمانی که قفل باز شد</string>
+    <string name="security_restrict_usb_always">انکار ابزارهای USB جدید</string>
+    <string name="security_restrict_usb_summary">پشتیبانی از ابزارهای USB مانند گوشی، دستگاههای ذخیره سازی و ورودی (موش ، صفحه کلید ، جوی استیک) را کنترل کنید</string>
+    <string name="security_restrict_usb_title">محدود کردن USB</string>
+    <string name="panic_settings_summary">گزینه دکمه روشن/خاموش را نشان دهید که باعث ایجاد اضطراب می شود.</string>
+    <string name="panic_settings_title">نمایش گزینه مشکوک</string>
+    <string name="calyxos_version">نسخه کالیکس او اس (CalyxOS)</string>
+</resources>

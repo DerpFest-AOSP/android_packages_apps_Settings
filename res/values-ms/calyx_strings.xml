@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_8hours">8 jam</string>
+    <string name="timeout_summary_4hours">4 jam</string>
+    <string name="timeout_summary_2hours">2 jam</string>
+    <string name="timeout_summary_1hour">1 jam</string>
+    <string name="timeout_summary_30mins">30 minit</string>
+    <string name="timeout_summary_10mins">10 minit</string>
+    <string name="timeout_summary_5mins">5 minit</string>
+    <string name="timeout_summary_2mins">2 minit</string>
+    <string name="timeout_summary_1min">1 minit</string>
+    <string name="timeout_summary_30secs">30 saat</string>
+    <string name="timeout_summary_15secs">15 saat</string>
+    <string name="calyxos_version">Versi CalyxOS</string>
+</resources>

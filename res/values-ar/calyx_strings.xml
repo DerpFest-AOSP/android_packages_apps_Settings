@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calyxos_version">إصدار CalyxOS</string>
+    <string name="aosp_module_version">تحديث الوحدة الرئيسية</string>
+    <string name="detailed_security_patch">النظام الأساسي: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"platform_level\"&gt;
+\nنواة: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"kernel_level\"&gt;
+\nبائع: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"kernel_level\"&gt;
+\nالبرامج الثابتة: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"firmware_level\"&gt;</string>
+    <string name="bluetooth_timeout_summary2">لا تعطل البلوتوث تلقائيًا</string>
+    <string name="wifi_timeout_summary">سيتم إيقاف تشغيل Wi-Fi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يكن هناك شبكة متصلة</string>
+    <string name="cleartext_network_policy_summary">حظر جميع حركات المرور التي لا تعتمد على شبكة TLS. يتطلب تكوين DNS خاص. ملاحظة: بدون استثناءات صريحة، قد لا تعمل التطبيقات التي تستخدم حركة مرور النص الواضح</string>
+    <string name="panic_settings_title">إظهار خيار الذعر</string>
+    <string name="show_qs_on_secure_keyguard_title">إعدادات السريعة</string>
+    <string name="show_qs_on_secure_keyguard_summary">السماح بتبديل الإعدادات السريعة على شاشة القُفْل</string>
+    <string name="wifi_timeout_summary2">معطلة</string>
+    <string name="bluetooth_timeout_summary">سيتم إيقاف تشغيل البلوتوث بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم تكن هناك أجهزة متصلة</string>
+    <string name="wifi_timeout">قم بإيقاف تشغيل Wi-Fi تلقائيًا</string>
+    <string name="data_usage_app_restrict_background_all">الوصول إلى الشبكة في الخلفية</string>
+    <string name="global_vpn_summary_on">فرض كل حركات المرور على الجهاز بواسطة VPN، بما في ذلك المِلَفّ الشخصي للعمل والمستخدمين الآخرين. ملاحظة: عند التمكين لن تتمكن من استخدام شبكة VPN مستقلة في مِلَفّ الشخصي للعمل أو مستخدمين آخرين</string>
+    <string name="security_restrict_usb_summary">دعم التحكم في أدوات USB مثل سماعات الأذن وأجهزة التخزين والإدخال (الفئران ولوحات المفاتيح وعصا التحكم)</string>
+    <string name="unhide">إظهار</string>
+    <string name="cross_profile_sharing_summary">قم بتمكين أزرار المشاركة داخل التطبيق للعمل عبر ملفك الشخصي وملفك الشخصي للعمل</string>
+    <string name="cross_profile_sharing_title">تبادل الملفات الشخصية</string>
+    <string name="hide">إخفاء</string>
+    <string name="cleartext_network_policy_title">تقييد حركة مرور شبكة النص الواضح</string>
+    <string name="panic_settings_summary">عرض خِيار زر الطاقة الذي ينشط حالة الذعر في حالات الطوارئ.</string>
+    <string name="timeout_summary_never">أبداً</string>
+    <string name="timeout_summary_15secs">15 ثانية</string>
+    <string name="timeout_summary_30secs">30 ثانية</string>
+    <string name="timeout_summary_1min">1 دقيقة</string>
+    <string name="timeout_summary_2mins">2 دقيقة</string>
+    <string name="timeout_summary_5mins">5 دقائق</string>
+    <string name="timeout_summary_10mins">10 دقائق</string>
+    <string name="timeout_summary_30mins">30 دقيقة</string>
+    <string name="timeout_summary_1hour">1 ساعة</string>
+    <string name="timeout_summary_2hours">ساعاتين</string>
+    <string name="timeout_summary_4hours">4 ساعات</string>
+    <string name="timeout_summary_8hours">8 ساعات</string>
+    <string name="timeout_summary_12hours">12 ساعة</string>
+    <string name="timeout_summary_24hours">24 ساعة</string>
+    <string name="timeout_summary_36hours">36 ساعة</string>
+    <string name="timeout_summary_48hours">48 ساعة</string>
+    <string name="timeout_summary_72hours">72 ساعة</string>
+    <string name="bluetooth_timeout">مهلة البلوتوث</string>
+    <string name="global_vpn_title">شبكة VPN عالمية</string>
+    <string name="global_vpn_summary">فرض كل حركات المرور على الجهاز بواسطة VPN، بما في ذلك المِلَفّ الشخصي للعمل والمستخدمين الآخرين.</string>
+    <string name="global_vpn_summary_any_vpn_active">تحتاج إلى تعطيل جميع اتصالات VPN النشطة أولاً لتمكين هذا</string>
+    <string name="data_usage_app_restrict_background_all_summary">تفعيل استخدام الشبكة في الخلفية</string>
+    <string name="security_restrict_usb_title">تقييد USB</string>
+    <string name="security_restrict_usb_always">رفض أدوات USB الجديدة</string>
+    <string name="security_restrict_usb_keyguard">السماح بأدوات USB الجديدة عند إلغاء القُفْل</string>
+    <string name="security_restrict_usb_disabled">السماح بأدوات USB الجديدة دائمًا</string>
+    <string name="device_reboot_timeout_title">إعادة التشغيل التلقائية</string>
+    <string name="device_reboot_timeout_summary">ستتم إعادة تشغيل الجهاز تلقائيًا إذا لم يتم إلغاء قفله خلال <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">لن يتم إعادة تشغيل الجهاز تلقائيًا</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, შეწყვილება, NFC</string>
+    <string name="system_dashboard_summary_calyx">ენები, ჟესტები, დრო, მარქაფი, მომხმარებლები, მუშაობის პროფილი</string>
+    <string name="security_dashboard_summary_calyx">ეკრანის ჩაკეტვა, პანიკის მორგება, USB-ის შეზღუდვა, აპების დაცვა</string>
+    <string name="show_qs_on_secure_keyguard_title">სწრაფი მორგება</string>
+    <string name="cleartext_network_policy_title">დაუშიფრავი ქსელის ტრაფიკის შეზღუდვა</string>
+    <string name="aosp_module_version">მოდულის მთავარი ხაზის განახლება</string>
+    <string name="panic_settings_summary">ჩართვის ღილაკის ჩვენება, რომელიც საწრაფო პანიკის ტრიგერს ააქტიურებს.</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth ავტომატურად არ გაითიშება</string>
+    <string name="panic_settings_title">პანიკის პარამეტრის ჩვენება</string>
+    <string name="calyxos_version">CalyxOS -ის ვერსია</string>
+    <string name="wifi_timeout">Wi-Fi-ის ავტომატური გამორთვა</string>
+    <string name="show_qs_on_secure_keyguard_summary">დაცულ ჩაკეტილ ეკრანზე სწრაფი პარამეტრების გადართვა</string>
+    <string name="data_usage_app_restrict_background_all">ქსელთან ფონური წვდომა</string>
+    <string name="data_usage_app_restrict_background_all_summary">ქსელის ფონური გამოყენების ნების დართვა</string>
+    <string name="cross_profile_sharing_title">პროფილთაშორისი გაზიარება</string>
+    <string name="timeout_summary_12hours">12 საათი</string>
+    <string name="network_dashboard_summary_mobile_calyx">მობილური, Wi‑Fi, hotspot, VPN, პირადი DNS</string>
+    <string name="timeout_summary_24hours">24 საათი</string>
+    <string name="timeout_summary_36hours">36 საათი</string>
+    <string name="timeout_summary_48hours">48 საათი</string>
+    <string name="security_restrict_usb_title">USB-ის შეზღუდვა</string>
+    <string name="bluetooth_timeout_summary">თუ მოწყობილობა მიერთებული არ იქნება, Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g>-ის შემდეგ გაითიშება</string>
+    <string name="timeout_summary_72hours">72 საათი</string>
+    <string name="global_vpn_title">გლობალური VPN</string>
+    <string name="hide_app">აპის დამალვა</string>
+    <string name="wifi_timeout_summary">თუ ქსელთან არ მივერთდებით, Wi-F <xliff:g id="timeout_description">%1$s</xliff:g>-ის შემდეგ გაითიშება</string>
+    <string name="cross_profile_sharing_summary">პერსონალურსა და სამუშაო პროფილებს შორის გასაზიარებლად აპის შიდა-გაზიარების ღილაკი გამოიყენეთ</string>
+    <string name="cleartext_network_policy_summary">ყველა არა-TLS ტრაფიკის დაბლოკვა. მოითხოვს პირად DNS-ს. შენიშვნა: ხელით მითითების გარეშე, დაუშიფრავი ტრაფიკის მქონე აპებმა შეიძლება არ იმუშაონ</string>
+    <string name="detailed_security_patch">პლატფორმა: <xliff:g id="platform_level">%1$s</xliff:g>
+\nბირთვი: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nმომწოდებელი: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nმიკროკოდი: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="timeout_summary_30mins">30 წუთი</string>
+    <string name="timeout_summary_1hour">1 საათი</string>
+    <string name="timeout_summary_2hours">2 საათი</string>
+    <string name="timeout_summary_4hours">4 საათი</string>
+    <string name="timeout_summary_8hours">8 საათი</string>
+    <string name="global_vpn_summary_any_vpn_active">ამის ჩასართავად ჯერ სხვა აქტიური VPN შეერთებები უნდა გამორთოთ</string>
+    <string name="global_vpn_summary">ამ მოწყობილობიდან ტრაფიკის, სამუშაო პროფილებისა და სხვა მომხმარებლის ჩათვლით, VPN-ით გაშვება.</string>
+    <string name="device_reboot_timeout_title">ავტომატური გადატვირთვა</string>
+    <string name="security_restrict_usb_always">ახალი USB გაჯეტების შეზღუდვა</string>
+    <string name="security_restrict_usb_disabled">ახალი USB გაჯეტების ყოველთვის მიღება</string>
+    <string name="security_restrict_usb_keyguard">ახალი USB გაჯეტების დაშვება, როცა ბლოკი მოხსნილია</string>
+    <string name="security_restrict_usb_summary">კონტროლის მხარდაჭერა USB გაჯეტეტებისთვის, როგორიცაა ყურსაცვამები, საცავის და შეყვანის მოწყობილობები (თაგუნა, კლავიატურა, ჯოისტიკი)</string>
+    <string name="device_reboot_timeout_summary">ეს მოწყობილობა ავტომატურად გადაიტვირთება, თუ ის არ განბლოკილა ბოლო <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">მოწყობილობა ავტომატურად გადაიტვირთება</string>
+    <string name="timeout_summary_never">არასოდეს</string>
+    <string name="filter_hidden_apps">დამალული აპები</string>
+    <string name="unhide_app">აპის გამოჩენა</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, პირადი DNS</string>
+    <string name="unhide_app_desc">თუ ამ აპს გამოაჩენთ, ის Android-ისა და სხვა აპებისთვის კიდევ ერთხელ გახდება ხილული.</string>
+</resources>

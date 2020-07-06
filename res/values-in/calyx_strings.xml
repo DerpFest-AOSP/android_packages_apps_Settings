@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_always">Tolak gadget USB baru</string>
+    <string name="panic_settings_summary">Tampilkan opsi tombol daya yang mengaktifkan pemicu panik darurat.</string>
+    <string name="security_restrict_usb_disabled">Izinkan selalu gadget USB baru</string>
+    <string name="security_restrict_usb_keyguard">Izinkan gadget USB baru saat tidak terkunci</string>
+    <string name="security_restrict_usb_summary">Kontrol dukungan untuk gadget USB seperti earphone, perangkat penyimpanan dan input (mouse, keyboard, joystick)</string>
+    <string name="security_restrict_usb_title">Batasi USB</string>
+    <string name="panic_settings_title">Tampilkan opsi Panik</string>
+    <string name="calyxos_version">versi CalyxOS</string>
+    <string name="timeout_summary_8hours">8 jam</string>
+    <string name="timeout_summary_4hours">4 jam</string>
+    <string name="timeout_summary_2hours">2 jam</string>
+    <string name="timeout_summary_1hour">1 jam</string>
+    <string name="timeout_summary_30mins">30 menit</string>
+    <string name="timeout_summary_10mins">10 menit</string>
+    <string name="timeout_summary_5mins">5 menit</string>
+    <string name="timeout_summary_2mins">2 menit</string>
+    <string name="timeout_summary_1min">1 menit</string>
+    <string name="timeout_summary_30secs">30 detik</string>
+    <string name="timeout_summary_15secs">15 detik</string>
+    <string name="timeout_summary_never">Tidak pernah</string>
+    <string name="bluetooth_timeout_summary2">Jangan matikan Bluetooth secara otomatis</string>
+    <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat yang terhubung</string>
+    <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
+    <string name="data_usage_app_restrict_background_all">Akses jaringan latar belakang</string>
+    <string name="show_qs_on_secure_keyguard_title">Pengaturan cepat</string>
+    <string name="wifi_timeout_summary">Wi-Fi akan mati setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan yang terhubung</string>
+    <string name="cleartext_network_policy_summary">Blokir semua lalu lintas jaringan non-TLS. Memerlukan konfigurasi DNS Pribadi. Catatan: Tanpa pengecualian eksplisit, Tor dan sebagian besar VPN tidak akan berfungsi</string>
+    <string name="cleartext_network_policy_title">Batasi lalu lintas jaringan cleartext</string>
+    <string name="show_qs_on_secure_keyguard_summary">Izinkan beralih pengaturan cepat pada layar kunci aman</string>
+    <string name="data_usage_app_restrict_background_all_summary">Aktifkan penggunaan jaringan di latar belakang</string>
+    <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
+    <string name="wifi_timeout_summary2">Nonaktif</string>
+    <string name="aosp_module_version">Pembaruan modul utama</string>
+    <string name="timeout_summary_12hours">12 jam</string>
+    <string name="timeout_summary_24hours">24 jam</string>
+    <string name="timeout_summary_36hours">36 jam</string>
+    <string name="device_reboot_timeout_title">Mulai ulang otomatis</string>
+    <string name="device_reboot_timeout_summary2">Perangkat tidak akan mulai ulang secara otomatis</string>
+    <string name="device_reboot_timeout_summary">Perangkat akan secara otomatis memulai ulang jika belum dibuka dalam<xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="timeout_summary_48hours">48 jam</string>
+    <string name="timeout_summary_72hours">72 jam</string>
+    <string name="global_vpn_summary_any_vpn_active">Anda perlu menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengatkfikan VPN Global</string>
+    <string name="global_vpn_title">VPN Global</string>
+</resources>

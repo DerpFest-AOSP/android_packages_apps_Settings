@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="network_dashboard_summary_mobile_calyx">Mobile, Wi‑Fi, hotspot, VPN, DNS privé</string>
+    <string name="security_dashboard_summary_calyx">Verrouillage de l\'écran, paramètres de panique, restrictions USB, sécurité des applications</string>
+    <string name="show_qs_on_secure_keyguard_summary">Autoriser le basculement des paramètres rapides sur l\'écran de verrouillage sécurisé</string>
+    <string name="aosp_module_version">Mise à jour du module principal</string>
+    <string name="cleartext_network_policy_title">Restreindre le trafic réseau en texte clair</string>
+    <string name="calyxos_version">Version CalyxOS</string>
+    <string name="hide">Cacher</string>
+    <string name="unhide">Afficher</string>
+    <string name="captive_portal_title">Vérification de la connectivité</string>
+    <string name="captive_portal_summary">Déterminez si l\'appareil peut se connecter à Internet en contactant Google. Également utilisé pour détecter les portails captifs.</string>
+    <string name="panic_settings_title">Afficher l\'option Panique</string>
+    <string name="panic_settings_summary">Afficher l\'option du bouton d\'alimentation qui active un déclencheur de panique d\'urgence.</string>
+    <string name="show_qs_on_secure_keyguard_title">Réglages rapides</string>
+    <string name="timeout_summary_never">Jamais</string>
+    <string name="timeout_summary_1min">1 minute</string>
+    <string name="timeout_summary_2mins">2 minutes</string>
+    <string name="timeout_summary_5mins">5 minutes</string>
+    <string name="timeout_summary_10mins">10 minutes</string>
+    <string name="timeout_summary_30mins">30 minutes</string>
+    <string name="timeout_summary_1hour">1 heure</string>
+    <string name="timeout_summary_2hours">2 heures</string>
+    <string name="timeout_summary_4hours">4 heures</string>
+    <string name="timeout_summary_8hours">8 heures</string>
+    <string name="timeout_summary_12hours">12 heures</string>
+    <string name="timeout_summary_36hours">36 heures</string>
+    <string name="timeout_summary_48hours">48 heures</string>
+    <string name="timeout_summary_72hours">72 heures</string>
+    <string name="bluetooth_timeout">Délai d\'attente Bluetooth</string>
+    <string name="bluetooth_timeout_summary2">Ne pas désactiver automatiquement le Bluetooth</string>
+    <string name="wifi_timeout_summary2">Désactivé</string>
+    <string name="global_vpn_title">VPN global</string>
+    <string name="global_vpn_summary">Forcez tout le trafic sur l\'appareil via ce VPN, y compris le profil professionnel et les autres utilisateurs.</string>
+    <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN avant d\'activer ceci</string>
+    <string name="security_restrict_usb_title">Restreindre USB</string>
+    <string name="security_restrict_usb_always">Refuser les nouveaux gadgets USB</string>
+    <string name="security_restrict_usb_keyguard">Autoriser les nouveaux gadgets USB lorsqu\'ils sont déverrouillés</string>
+    <string name="device_reboot_timeout_title">Redémarrage automatique</string>
+    <string name="device_reboot_timeout_summary2">L\'appareil ne redémarrera pas automatiquement</string>
+    <string name="device_reboot_timeout_summary">L\'appareil redémarrera automatiquement s\'il n\'a pas été déverrouillé au cours des dernières<xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="cleartext_network_policy_summary">Bloque tout le trafic réseau non-TLS. Nécessite une configuration DNS privé. Remarque : Sans exemptions explicites, les applications qui utilisent le trafic en cleartext peuvent ne pas fonctionner</string>
+    <string name="filter_hidden_apps">Applications cachées</string>
+    <string name="hide_app">Cacher l\'application</string>
+    <string name="unhide_app">Afficher l\'application</string>
+    <string name="unhide_app_desc">Si vous affichez cette application, elle sera à nouveau visible pour Android et d\'autres applications.</string>
+    <string name="hide_app_desc">Si vous masquez cette application, elle ne sera pas visible pour Android et les autres applications, et elles pourraient ne plus fonctionner comme prévu. N\'oubliez pas que le masquage d\'une application préserve ses données. En vous cachant, vous désactivez cette application et la masquez sur votre appareil.</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, DNS privé</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, appairage, NFC</string>
+    <string name="system_dashboard_summary_calyx">Langues, gestes, heure, sauvegarde, utilisateurs, profil professionnel</string>
+    <string name="data_usage_app_restrict_background_all">Accès au réseau en arrière-plan</string>
+    <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
+    <string name="cross_profile_sharing_title">Partage entre profils</string>
+    <string name="cross_profile_sharing_summary">Activer le partage intégrés à l\'application sur votre profil personnel et professionnel</string>
+    <string name="detailed_security_patch">Plate-forme : <xliff:g id="platform_level">%1$s</xliff:g>
+\nNoyau : <xliff:g id="kernel_level">%2$s</xliff:g>
+\nFournisseur : <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware : <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="timeout_summary_15secs">15 secondes</string>
+    <string name="timeout_summary_30secs">30 secondes</string>
+    <string name="timeout_summary_24hours">24 heures</string>
+    <string name="security_restrict_usb_disabled">Toujours autoriser les nouveaux gadgets USB</string>
+    <string name="bluetooth_timeout_summary">Le Bluetooth s\'éteindra après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
+    <string name="wifi_timeout">Désactiver le Wi-Fi automatiquement</string>
+    <string name="wifi_timeout_summary">Le Wi-Fi s\'éteindra après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun réseau n\'est connecté</string>
+    <string name="global_vpn_summary_on">Forcez tout le trafic sur l\'appareil via ce VPN, y compris le profil professionnel et les autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne pourrez pas utiliser un VPN distinct dans un profil professionnel ou d\'autres utilisateurs</string>
+    <string name="security_restrict_usb_summary">Prise en charge du contrôle des gadgets USB tels que les écouteurs, les périphériques de stockage et les entrées (souris, claviers, joysticks)</string>
+</resources>
