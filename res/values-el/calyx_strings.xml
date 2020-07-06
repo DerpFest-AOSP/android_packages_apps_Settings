@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_title">Εμφάνιση επιλογής Πανικού</string>
+    <string name="panic_settings_summary">Εμφάνιση επιλογής κουμπιού λειτουργίας που ενεργοποιεί μια ενέργεια πανικού έκτακτης ανάγκης.</string>
+    <string name="calyxos_version">Έκδοση CalyxOS</string>
+    <string name="security_restrict_usb_always">Να μην επιτρέπονται νέες συσκευές USB</string>
+    <string name="security_restrict_usb_disabled">Να επιτρέπονται πάντα νέες συσκευές USB</string>
+    <string name="security_restrict_usb_keyguard">Να επιτρέπονται νέες συσκευές USB όταν η συσκευή είναι ξεκλείδωτη</string>
+    <string name="security_restrict_usb_summary">Ελέγξτε την υποστήριξη για συσκευές USB, όπως ακουστικά, συσκευές αποθήκευσης και εισόδου (ποντίκια, πληκτρολόγια, χειριστήρια)</string>
+    <string name="security_restrict_usb_title">Περιορισμός USB</string>
+    <string name="show_qs_on_secure_keyguard_summary">Να επιτρέπονται οι γρήγορες ρυθμίσεις σε ασφαλή οθόνη κλειδώματος</string>
+    <string name="show_qs_on_secure_keyguard_title">Γρήγορες ρυθμίσεις</string>
+    <string name="cleartext_network_policy_summary">Αποκλείει όλη την κυκλοφορία δικτύου εκτός TLS. Απαιτεί ρύθμιση παραμέτρων ιδιωτικού DNS. Σημείωση: Χωρίς ρητές εξαιρέσεις, οι εφαρμογές που χρησιμοποιούν κυκλοφορία cleartext ενδέχεται να μην λειτουργούν</string>
+    <string name="cleartext_network_policy_title">Περιορισμός της κυκλοφορίας δικτύου cleartext</string>
+    <string name="wifi_timeout_summary2">Απενεργοποιημένο</string>
+    <string name="wifi_timeout_summary">Το Wi-Fi θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχει συνδεδεμένο δίκτυο</string>
+    <string name="wifi_timeout">Αυτόματη απενεργοποίηση Wi-Fi</string>
+    <string name="data_usage_app_restrict_background_all_summary">Ενεργοποίηση χρήσης δικτύου στο παρασκήνιο</string>
+    <string name="data_usage_app_restrict_background_all">Πρόσβαση δικτύου στο παρασκήνιο</string>
+    <string name="timeout_summary_8hours">8 ώρες</string>
+    <string name="timeout_summary_4hours">4 ώρες</string>
+    <string name="timeout_summary_2hours">2 ώρες</string>
+    <string name="timeout_summary_1hour">1 ώρα</string>
+    <string name="timeout_summary_30mins">30 λεπτά</string>
+    <string name="timeout_summary_10mins">10 λεπτά</string>
+    <string name="timeout_summary_5mins">5 λεπτά</string>
+    <string name="timeout_summary_2mins">2 λεπτά</string>
+    <string name="timeout_summary_1min">1 λεπτό</string>
+    <string name="timeout_summary_30secs">30 δευτερόλεπτα</string>
+    <string name="timeout_summary_15secs">15 δευτερόλεπτα</string>
+    <string name="timeout_summary_never">Ποτέ</string>
+    <string name="bluetooth_timeout_summary2">Να μην απενεργοποιείται αυτόματα το Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Το Bluetooth θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχουν συνδεδεμένες συσκευές</string>
+    <string name="bluetooth_timeout">Χρονικό όριο Bluetooth</string>
+    <string name="detailed_security_patch">Πλατφόρμα: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nΚατασκευαστής: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="aosp_module_version">Ενημέρωση μονάδων Mainline</string>
+    <string name="timeout_summary_36hours">36 ώρες</string>
+    <string name="timeout_summary_48hours">48 ώρες</string>
+    <string name="global_vpn_summary">Εξαναγκάστε όλη την κίνηση δικτύου της συσκευής μέσω αυτού του VPN, συμπεριλαμβανομένων των προφίλ εργασίας και άλλων χρηστών.</string>
+    <string name="global_vpn_summary_on">Εξαναγκάστε όλη την κίνηση δικτύου της συσκευής μέσω αυτού του VPN, συμπεριλαμβανομένων των προφίλ εργασίας και άλλων χρηστών. Σημείωση: Όταν είναι ενεργοποιημένο, δεν θα μπορείτε να χρησιμοποιήσετε ένα ξεχωριστό VPN σε ένα προφίλ εργασίας ή σε άλλους χρήστες</string>
+    <string name="global_vpn_summary_any_vpn_active">Πρέπει πρώτα να απενεργοποιήσετε όλες τις ενεργές συνδέσεις VPN για να το ενεργοποιήσετε</string>
+    <string name="device_reboot_timeout_title">Αυτόματη επανεκκίνηση</string>
+    <string name="device_reboot_timeout_summary2">Η συσκευή δεν θα επανεκκινηθεί αυτόματα</string>
+    <string name="global_vpn_title">Καθολικό VPN</string>
+    <string name="timeout_summary_72hours">72 ώρες</string>
+    <string name="timeout_summary_24hours">24 ώρες</string>
+    <string name="timeout_summary_12hours">12 ώρες</string>
+    <string name="device_reboot_timeout_summary">Η συσκευή θα επανεκκινηθεί αυτόματα εάν δεν έχει ξεκλειδωθεί μέσα σε <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="cross_profile_sharing_summary">Επιτρέψτε στα κουμπιά κοινής χρήσης εντός εφαρμογών να λειτουργούν μεταξύ του προσωπικού προφίλ και του προφίλ εργασίας σας</string>
+    <string name="cross_profile_sharing_title">Κοινή χρήση μεταξύ προφίλ</string>
+    <string name="hide">Απόκρυψη</string>
+    <string name="unhide">Επανεμφάνιση</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, ιδιωτικό DNS</string>
+    <string name="network_dashboard_summary_mobile_calyx">Κινητό, Wi‑Fi, hotspot, VPN, ιδιωτικό DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, σύζευξη, NFC</string>
+    <string name="security_dashboard_summary_calyx">Κλείδωμα οθόνης, ρυθμίσεις πανικού, περιορισμοί USB, ασφάλεια εφαρμογών</string>
+    <string name="hide_app">Απόκρυψη εφαρμογής</string>
+    <string name="unhide_app">Επανεμφάνιση εφαρμογής</string>
+    <string name="system_dashboard_summary_calyx">Γλώσσες, χειρονομίες, ώρα, αντίγραφα ασφαλείας, χρήστες, προφίλ εργασίας</string>
+    <string name="unhide_app_desc">Εάν επανεμφανίσετε αυτήν την εφαρμογή, θα είναι ξανά ορατή στο Android και σε άλλες εφαρμογές.</string>
+    <string name="hide_app_desc">Εάν αποκρύψετε αυτήν την εφαρμογή, δεν θα είναι ορατή στο Android και σε άλλες εφαρμογές και ενδέχεται να μην λειτουργούν πλέον όπως θα έπρεπε. Λάβετε υπόψη ότι η απόκρυψη μιας εφαρμογής διατηρεί τα δεδομένα της. Με την απόκρυψη, απενεργοποιείτε αυτήν την εφαρμογή και την αποκρύπτετε στη συσκευή σας.</string>
+    <string name="filter_hidden_apps">Κρυφές εφαρμογές</string>
+    <string name="captive_portal_title">Έλεγχος συνδεσιμότητας</string>
+    <string name="captive_portal_summary">Προσδιορίστε εάν η συσκευή μπορεί να συνδεθεί στο διαδίκτυο, επικοινωνώντας με την Google. Χρησιμοποιείται επίσης για τον εντοπισμό captive portal.</string>
+    <string name="other_settings">Άλλες επιλογές</string>
+    <string name="quick_settings">Γρήγορες ρυθμίσεις</string>
+    <string name="bugreport_summary">Δημιουργία μιας αναφοράς σφαλμάτων τώρα</string>
+    <string name="keychords_title">Συνδυασμός πλήκτρων αναφοράς σφαλμάτων</string>
+    <string name="keychords_summary_adb_enabled">Πάντα ενεργοποιημένο όταν ο εντοπισμός σφαλμάτων είναι ενεργοποιημένος</string>
+    <string name="view_bugreports_title">Προβολή αναφορών σφαλμάτων</string>
+    <string name="view_bugreports_summary_not_developer">Μόλις προβληθούν, όλες οι αναφορές σφαλμάτων θα παραμείνουν προσβάσιμες μέχρι να επανεκκινήσετε τη συσκευή</string>
+    <string name="keychords_summary">Καταγράψτε μια αναφορά σφαλμάτων κρατώντας ταυτόχρονα πατημένα τα πλήκτρα αύξησης και μείωσης της έντασης ήχου και του πλήκτρου λειτουργίας, ακόμη και όταν η συσκευή είναι κλειδωμένη</string>
+    <string name="miscellaneous_settings">Διάφορες ρυθμίσεις</string>
+    <string name="security_settings_biometric_preference_title_calyx">Βιομετρικό ξεκλείδωμα</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Βιομετρικό ξεκλείδωμα εργασίας</string>
+    <string name="data_usage_app_datura_firewall">Τείχος προστασίας Datura</string>
+    <string name="data_usage_app_datura_firewall_summary">Οι ρυθμίσεις του τείχους προστασίας έχουν μετακινηθεί στη νέα εφαρμογή Τείχος προστασίας. Πατήστε για άνοιγμα.</string>
+    <string name="hidden">Κρυφή</string>
+    <string name="work_hours_end_on_summary">Εμφάνιση ειδοποίησης για απενεργοποίηση του προφίλ εργασίας στις <xliff:g id="end_time">%1$s</xliff:g> καθημερινά</string>
+    <string name="work_hours_end_off_summary">Εμφάνιση καθημερινής ειδοποίησης για απενεργοποίηση του προφίλ εργασίας</string>
+    <string name="work_hours_end_notification_title">Τέλος της εργάσιμης ημέρας</string>
+    <string name="work_hours_end_notification_description">Πατήστε για να απενεργοποιήσετε τις εφαρμογές εργασίας</string>
+    <string name="work_hours_title">Ώρες εργασίας</string>
+</resources>

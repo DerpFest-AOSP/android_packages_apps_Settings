@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">תמיד לאפשר אביזרי USB חדשים</string>
+    <string name="security_restrict_usb_keyguard">לאפשר אביזרי USB חדשים כשהמכשיר לא נעול</string>
+    <string name="security_restrict_usb_always">דחיית אביזרי USB חדשים</string>
+    <string name="security_restrict_usb_summary">שליטה בתמיכה באביזרי USB כגון אוזניות, התקני אחסון וקלט (עכברים, מקלדות, בקרי משחק)</string>
+    <string name="security_restrict_usb_title">הגבלת USB</string>
+    <string name="panic_settings_summary">הצגת אפשרויות בכפתור הכיבוי שמפעילה את לחצן המצוקה בחירום.</string>
+    <string name="panic_settings_title">הצגת אפשרויות מצוקה</string>
+    <string name="calyxos_version">גרסת CalyxOS</string>
+    <string name="timeout_summary_2mins">2 דקות</string>
+    <string name="timeout_summary_15secs">15 שניות</string>
+    <string name="wifi_timeout">כיבוי רשת אלחוטית אוטומטית</string>
+    <string name="data_usage_app_restrict_background_all">גישה לרשת ברקע</string>
+    <string name="timeout_summary_10mins">10 דקות</string>
+    <string name="timeout_summary_1min">דקה</string>
+    <string name="aosp_module_version">עדכון גרסאות של מודולים עיקריים</string>
+    <string name="cleartext_network_policy_title">הגבלת תעבורת רשת בטקסט פשוט</string>
+    <string name="timeout_summary_4hours">4 שעות</string>
+    <string name="data_usage_app_restrict_background_all_summary">הפעלת שימוש ברשת ברקע</string>
+    <string name="cleartext_network_policy_summary">לחסום את כל התעבורה שאינה TLS. דורש הגדרות DNS פרטי. לתשומת לבך: ללא החרגות מפורשות, יישומונים שמשתמשים בתעבורה בלתי מוצפנת לא יעבדו</string>
+    <string name="timeout_summary_30mins">חצי שעה</string>
+    <string name="timeout_summary_30secs">חצי דקה</string>
+    <string name="timeout_summary_1hour">שעה</string>
+    <string name="wifi_timeout_summary2">מושבתת</string>
+    <string name="bluetooth_timeout_summary">Bluetooth יכבה לאחר <xliff:g id="timeout_description">%1$s</xliff:g> אם אין התקנים מחוברים</string>
+    <string name="timeout_summary_5mins">5 דקות</string>
+    <string name="wifi_timeout_summary">הרשת האלחוטית תכבה לאחר <xliff:g id="timeout_description">%1$s</xliff:g> אם אין רשת מחוברת</string>
+    <string name="show_qs_on_secure_keyguard_summary">לאפשר החלפת מצב הגדרות מהירות על מסך נעילה מאובטח</string>
+    <string name="bluetooth_timeout">תום זמן המתנה של Bluetooth</string>
+    <string name="show_qs_on_secure_keyguard_title">הגדרות מהירות</string>
+    <string name="timeout_summary_2hours">שעתיים</string>
+    <string name="timeout_summary_8hours">8 שעות</string>
+    <string name="bluetooth_timeout_summary2">לא לכבות את ה־Bluetooth אוטומטית</string>
+    <string name="timeout_summary_never">לעולם לא</string>
+    <string name="device_reboot_timeout_title">הפעלה אוטומטית מחדש</string>
+    <string name="device_reboot_timeout_summary">המכשיר יופעל אוטומטית מחדש אם הנעילה לא שוחררה במשך <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="timeout_summary_36hours">36 שעות</string>
+    <string name="timeout_summary_12hours">12 שעות</string>
+    <string name="timeout_summary_24hours">24 שעות</string>
+    <string name="timeout_summary_48hours">48 שעות</string>
+    <string name="timeout_summary_72hours">72 שעות</string>
+    <string name="device_reboot_timeout_summary2">המכשיר לא יופעל מחדש אוטומטית</string>
+    <string name="global_vpn_title">VPN גלובלי</string>
+    <string name="global_vpn_summary">לאלץ שכל תעבורת המכשיר תועבר דרך ה־VPN הזה כולל פרופיל עבודה ומשתמשים אחרים.</string>
+    <string name="global_vpn_summary_on">לאלץ שכל תעבורת המכשיר תועבר דרך ה־VPN הזה כולל פרופיל עבודה ומשתמשים אחרים. לתשומת לבך: כאשר האפשרות פעילה, לא תהיה לך אפשרות להשתמש ב־VPN נפרד לפרופיל העבודה או למשתמשים אחרים</string>
+    <string name="global_vpn_summary_any_vpn_active">עליך להשבית את כל חיבורי ה־VPN הפעילים תחילה כדי לאפשר זאת</string>
+    <string name="detailed_security_patch">פלטפורמה: <xliff:g id="platform_level">%1$s</xliff:g>
+\nליבה: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nיצרן: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nקושחה: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="cross_profile_sharing_summary">הפעלת כפתורי שיתוף בתוך היישומון כדי לעבוד על פני הפרופיל הפרטי ופרופיל העבודה שלך</string>
+    <string name="hide">הסתרה</string>
+    <string name="unhide">הצגה</string>
+    <string name="cross_profile_sharing_title">שיתוף חוצה פרופילים</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">אלחוטי, וייפיי, רשת וירטואלית, נקודה חמה, נקודת גישה, מערכת פענוח כתובות פרטית, DNS, VPN</string>
+    <string name="security_dashboard_summary_calyx">נעילת מסך, הגדרות בהלה, הגבלות USB, אבטחת יישומים</string>
+    <string name="network_dashboard_summary_mobile_calyx">סלולרי, נייד, אלחוטי, וייפיי, רשת וירטואלית, נקודה חמה, נקודת גישה, מערכת פענוח כתובות פרטית, DNS, VPN</string>
+    <string name="connected_devices_dashboard_summary_calyx">בלוטות׳, צימוד, תקשורת קרבה</string>
+    <string name="system_dashboard_summary_calyx">שפות, מחוות, שעה, גיבוי, משתמשים, פרופיל עבודה</string>
+    <string name="filter_hidden_apps">יישומונים נסתרים</string>
+    <string name="unhide_app">ביטול הסתרת יישומונים</string>
+    <string name="hide_app">הסתרת יישומון</string>
+    <string name="unhide_app_desc">ביטול הסתרת היישומון הזה יחשוף אותו ל־Android וליישומונים נוספים שוב.</string>
+    <string name="hide_app_desc">הסתרת היישומון הזה לא תחשוף אותו בפני Android ושר היישומונים, ופעילותם עלולה להיפגע. נא לשים לב שהסתרת יישומון משמרת את הנתונים שלו. ההסתרה מכבה את היישומון ומסתירה אותו במכשיר שלך.</string>
+    <string name="captive_portal_title">בדיקת חיבוריות</string>
+    <string name="captive_portal_summary">איתור מצב החיבור לאינטרנט על ידי יצירת קשר עם Google. משמש גם לאיתור שערי לכידה.</string>
+    <string name="other_settings">אפשרויות אחרות</string>
+    <string name="quick_settings">הגדרות מהירות</string>
+    <string name="keychords_title">צירוף כפתורים לדיווח תקלות</string>
+    <string name="view_bugreports_title">הצגת דיווחי תקלות</string>
+    <string name="bugreport_summary">דיווח על תקלה כעת</string>
+    <string name="keychords_summary">אפשר ללכוד דיווח על תקלה על ידי החזרת כפתור עצמת שמע למעלה, כפתור עצמת שמע למטה והכיבוי ביחד, אפילו כשהמכשיר נעול</string>
+    <string name="keychords_summary_adb_enabled">תמיד פעיל כשניפוי שגיאות פעיל</string>
+    <string name="view_bugreports_summary_not_developer">לאחר שהוצגו, כל דיווחי התקלות יישארו זמינים עד להפעלת המכשיר מחדש</string>
+    <string name="miscellaneous_settings">שונות</string>
+    <string name="hidden">מוסתר</string>
+    <string name="security_settings_biometric_preference_title_calyx">שחרור נעילה ביומטרי</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">שחרור נעילה ביומטרי לעבודה</string>
+    <string name="data_usage_app_datura_firewall">חומת אש של Datura</string>
+    <string name="data_usage_app_datura_firewall_summary">הגדרות חומת האש הועברו ליישומון חומת האש החדש. נגיעה כאן תפתח אותו.</string>
+    <string name="work_hours_title">שעות עבודה</string>
+    <string name="work_hours_end_off_summary">הצגת התראה יומית לכיבוי פרופיל העבודה</string>
+    <string name="work_hours_end_on_summary">הצגת התראה לכיבוי פרופיל העבודה ב־<xliff:g id="end_time">%1$s</xliff:g> daily</string>
+    <string name="work_hours_end_notification_title">סוף יום העבודה</string>
+    <string name="work_hours_end_notification_description">נגיעה תכבה את יישומוני העבודה</string>
+</resources>

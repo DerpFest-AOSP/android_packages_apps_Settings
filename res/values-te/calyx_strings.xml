@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_8hours">8 ఘంటలు</string>
+    <string name="timeout_summary_4hours">4 ఘంటలు</string>
+    <string name="timeout_summary_2hours">2 ఘంటలు</string>
+    <string name="timeout_summary_1hour">1ఘంట</string>
+    <string name="timeout_summary_2mins">2 నిమిషాలు</string>
+    <string name="timeout_summary_30mins">30 నిమిషాలు</string>
+    <string name="timeout_summary_10mins">10 నిమిషాలు</string>
+    <string name="timeout_summary_5mins">5 నిమిషాలు</string>
+    <string name="timeout_summary_1min">1 నిమిషము</string>
+    <string name="timeout_summary_30secs">30 క్షణాలు</string>
+    <string name="timeout_summary_15secs">15 క్షణాలు</string>
+    <string name="timeout_summary_never">ఎప్పుడూ</string>
+    <string name="calyxos_version">CalyxOS సంస్కరణ</string>
+</resources>

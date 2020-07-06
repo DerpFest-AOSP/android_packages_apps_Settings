@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_timeout_summary">接続されているデバイスがない場合、Bluetoothは<xliff:g id="timeout_description">%1$s</xliff:g>後にオフになります</string>
+    <string name="security_restrict_usb_disabled">常に新しい USB ガジェットを許可する</string>
+    <string name="security_restrict_usb_keyguard">アンロック中は新しい USB ガジェットを許可する</string>
+    <string name="security_restrict_usb_always">常に新しい USB ガジェットを拒否する</string>
+    <string name="timeout_summary_never">しない</string>
+    <string name="bluetooth_timeout">Bluetooth タイムアウト</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth を自動的に無効化しない</string>
+    <string name="show_qs_on_secure_keyguard_title">クイック設定</string>
+    <string name="cleartext_network_policy_title">平文のトラフィックを制御する</string>
+    <string name="wifi_timeout_summary2">無効</string>
+    <string name="wifi_timeout_summary">Wi-Fi 接続がない場合、 Wi-Fi は<xliff:g id="timeout_description">%1$s</xliff:g>後にオフになります</string>
+    <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
+    <string name="data_usage_app_restrict_background_all_summary">バックグラウンドでのネットワークの使用を有効にする</string>
+    <string name="data_usage_app_restrict_background_all">バックグラウンド ネットワークアクセス</string>
+    <string name="timeout_summary_8hours">8 時間</string>
+    <string name="timeout_summary_4hours">4 時間</string>
+    <string name="timeout_summary_2hours">2 時間</string>
+    <string name="timeout_summary_1hour">1 時間</string>
+    <string name="timeout_summary_30mins">30 分</string>
+    <string name="timeout_summary_10mins">10 分</string>
+    <string name="timeout_summary_5mins">5 分</string>
+    <string name="timeout_summary_2mins">2 分</string>
+    <string name="timeout_summary_1min">1 分</string>
+    <string name="timeout_summary_30secs">30 秒</string>
+    <string name="timeout_summary_15secs">15 秒</string>
+    <string name="security_restrict_usb_title">USB の制御</string>
+    <string name="panic_settings_title">パニック 設定を表示する</string>
+    <string name="calyxos_version">CalyxOS のバージョン</string>
+    <string name="panic_settings_summary">緊急時のパニックトリガーを作動させる電源ボタンオプションを表示する。</string>
+    <string name="cleartext_network_policy_summary">TLS 以外のすべてのネットワークトラフィックをブロックします。プライベート DNS 構成が必要です。注：明示的な除外がないと、平文のトラフィックを使用するアプリが機能しなくなる可能性があります</string>
+    <string name="show_qs_on_secure_keyguard_summary">セキュアロック画面でのクイック設定の切り替えを許可する</string>
+    <string name="security_restrict_usb_summary">イヤホン、ストレージデバイス、入力機器（マウス、キーボード、ジョイスティック）などの USB ガジェットのサポートを制御します</string>
+    <string name="aosp_module_version">メインラインモジュールの更新</string>
+    <string name="device_reboot_timeout_title">自動再起動</string>
+    <string name="device_reboot_timeout_summary2">デバイスは自動的に再起動しません</string>
+    <string name="device_reboot_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g>、ロック解除されていない場合、自動的に再起動します</string>
+    <string name="timeout_summary_48hours">48 時間</string>
+    <string name="timeout_summary_72hours">72 時間</string>
+    <string name="timeout_summary_12hours">12 時間</string>
+    <string name="timeout_summary_24hours">24 時間</string>
+    <string name="timeout_summary_36hours">36 時間</string>
+    <string name="cross_profile_sharing_title">クロスプロファイル共有</string>
+    <string name="cross_profile_sharing_summary">アプリ内共有ボタンを有効にすると、個人用と仕事用のプロファイルを横断して作業することができます。</string>
+    <string name="hide">隠す</string>
+    <string name="unhide">表示する</string>
+    <string name="global_vpn_summary">仕事用プロファイルや他のユーザーを含め、デバイス上のすべてのトラフィックは、この VPN を経由するようになります。</string>
+    <string name="global_vpn_summary_any_vpn_active">これを有効にするには、最初にすべてのアクティブなVPN接続を無効にする必要があります</string>
+    <string name="global_vpn_title">グローバル VPN</string>
+    <string name="detailed_security_patch">プラットホーム: <xliff:g id="platform_level">%1$s</xliff:g>
+\nカーネル: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nベンダー: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nファームウェア: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_summary_on">仕事用プロファイルや他のユーザーを含め、デバイス上のすべてのトラフィックは、この VPN を経由するようになります。注：有効にすると、仕事用プロファイルや他のユーザーは別のVPNを使用できなくなります</string>
+</resources>

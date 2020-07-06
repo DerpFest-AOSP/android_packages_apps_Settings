@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="show_qs_on_secure_keyguard_title">퀵 패널</string>
+    <string name="aosp_module_version">메인라인 모듈 업데이트</string>
+    <string name="panic_settings_title">패닉 옵션 보기</string>
+    <string name="bluetooth_timeout">블루투스 자동 비활성화</string>
+    <string name="bluetooth_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g>동안 연결된 기기가 없으면 자동으로 블루투스 끔</string>
+    <string name="wifi_timeout_summary2">비활성화됨</string>
+    <string name="calyxos_version">CalyxOS 버전</string>
+    <string name="bluetooth_timeout_summary2">블루투스 자동 비활성화 사용안함</string>
+    <string name="hide">숨기기</string>
+    <string name="unhide">보이기</string>
+    <string name="cross_profile_sharing_title">프로필간의 공유</string>
+    <string name="detailed_security_patch">플랫폼: <xliff:g id="platform_level">%1$s</xliff:g>
+\n커널: <xliff:g id="kernel_level">%2$s</xliff:g>
+\n벤더: <xliff:g id="kernel_level">%3$s</xliff:g>
+\n펌웨어: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="panic_settings_summary">패닉 트리거를 실행하는 전원 메뉴 버튼을 보여줍니다.</string>
+    <string name="show_qs_on_secure_keyguard_summary">잠금 화면에서 퀵 패널 사용을 허락함</string>
+    <string name="timeout_summary_never">안함</string>
+    <string name="wifi_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g>동안 연결된 네트워크가 없으면 Wi-Fi를 자동으로 끔</string>
+    <string name="timeout_summary_15secs">15초</string>
+    <string name="timeout_summary_30secs">30초</string>
+    <string name="timeout_summary_1min">1분</string>
+    <string name="timeout_summary_2mins">2분</string>
+    <string name="timeout_summary_5mins">5분</string>
+    <string name="timeout_summary_10mins">10분</string>
+    <string name="timeout_summary_30mins">30분</string>
+    <string name="timeout_summary_1hour">1시간</string>
+    <string name="timeout_summary_2hours">2시간</string>
+    <string name="timeout_summary_4hours">4시간</string>
+    <string name="timeout_summary_8hours">8시간</string>
+    <string name="timeout_summary_12hours">12시간</string>
+    <string name="timeout_summary_24hours">24시간</string>
+    <string name="timeout_summary_36hours">36시간</string>
+    <string name="timeout_summary_48hours">48시간</string>
+    <string name="timeout_summary_72hours">72시간</string>
+    <string name="wifi_timeout">Wi-Fi 자동 비활성화</string>
+    <string name="global_vpn_title">전역 VPN</string>
+    <string name="global_vpn_summary">직장 프로필, 다른 사용자를 포함한 모든 트래픽을 강제로 이 VPN으로 라우팅합니다.</string>
+    <string name="global_vpn_summary_on">직장 프로필, 다른 사용자를 포함한 모든 트래픽을 강제로 이 VPN으로 라우팅합니다. 주의: 이 기능을 활성화 했을 때, 직장 프로필이나 다른 사용자 상태에서 각각의 VPN 사용이 불가능 합니다</string>
+    <string name="global_vpn_summary_any_vpn_active">활성화 하기 전에 사용중인 모든 VPN의 연결 해제가 필요합니다</string>
+    <string name="data_usage_app_restrict_background_all">백그라운드 네트워크 액세스</string>
+    <string name="security_restrict_usb_summary">이어폰, 저장 장치, 입력 장치(마이크, 키보드, 조이스틱)과 같은 USB 가젯 제한 설정</string>
+    <string name="data_usage_app_restrict_background_all_summary">백그라운드 상태에서 네트워크 사용을 활성화</string>
+    <string name="security_restrict_usb_title">USB 제한</string>
+    <string name="device_reboot_timeout_title">자동 재부팅</string>
+    <string name="security_restrict_usb_always">새 USB 가젯을 허용하지 않음</string>
+    <string name="security_restrict_usb_keyguard">잠금해제된 상태에서만 새 USB 가젯 허용</string>
+    <string name="security_restrict_usb_disabled">항상 새 USB 가젯 허용</string>
+    <string name="device_reboot_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g>동안 기기가 잠금해제 되지 않을 경우 기기는 자동적으로 재부팅 됨</string>
+    <string name="device_reboot_timeout_summary2">자동 재부팅 사용 안함</string>
+    <string name="network_dashboard_summary_mobile_calyx">모바일, 와이파이, 핫스팟, VPN, 비공개 DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">와이파이, 핫스팟, VPN, 비공개 DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">블루투스, 페어링, NFC</string>
+    <string name="security_dashboard_summary_calyx">화면 잠금, 패닉 설정, USB 제한, 앱 보안</string>
+    <string name="system_dashboard_summary_calyx">언어, 제스처, 시간, 백업, 사용자, 직장 프로필</string>
+    <string name="cleartext_network_policy_summary">TLS 이외의 모든 네트워크 트래픽을 차단합니다. 비공개 DNS 구성이 필요합니다. 참고: 명시적 예외가 없으면, 일반 텍스트 트래픽을 사용하는 앱이 작동하지 않을 수 있습니다</string>
+    <string name="cleartext_network_policy_title">일반 텍스트 네트워크 트래픽 제한</string>
+    <string name="cross_profile_sharing_summary">개인 및 회사 프로필에서 작동하도록 앱 내 공유 버튼 활성화</string>
+    <string name="unhide_app_desc">이 앱의 숨김을 해제하면, Android 및 기타 앱에 다시 표시됩니다.</string>
+    <string name="hide_app_desc">이 앱을 숨기면 Android 및 기타 앱에 표시되지 않으며, 더 이상 의도한 대로 작동하지 않을 수 있습니다. 앱을 숨기면 데이터가 보존됩니다. 숨기면 이 앱이 꺼지고 기기에서 숨겨집니다.</string>
+    <string name="hide_app">앱 숨김</string>
+    <string name="filter_hidden_apps">숨겨진 앱</string>
+    <string name="unhide_app">앱 숨김 해제</string>
+</resources>

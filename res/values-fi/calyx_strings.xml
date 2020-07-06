@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_8hours">8 tunnissa</string>
+    <string name="timeout_summary_4hours">4 tunnissa</string>
+    <string name="timeout_summary_2hours">2 tunnissa</string>
+    <string name="timeout_summary_1hour">Tunnissa</string>
+    <string name="timeout_summary_30mins">30 minuutissa</string>
+    <string name="timeout_summary_10mins">10 minuutissa</string>
+    <string name="timeout_summary_5mins">5 minuutissa</string>
+    <string name="timeout_summary_2mins">2 minuutissa</string>
+    <string name="timeout_summary_1min">Minuutissa</string>
+    <string name="timeout_summary_30secs">30 sekunnissa</string>
+    <string name="timeout_summary_15secs">15 sekunnissa</string>
+    <string name="timeout_summary_never">Ei koskaan</string>
+    <string name="bluetooth_timeout_summary2">Älä katkaise automaattisesti Bluetooth-yhteyttä</string>
+    <string name="bluetooth_timeout_summary">Bluetooth aikakatkaistaan <xliff:g id="timeout_description">%1$s</xliff:g> mikäli laitetta ei yhdistetä</string>
+    <string name="bluetooth_timeout">Bluetoothin aikakatkaisu</string>
+    <string name="security_restrict_usb_disabled">Salli kaikki USB-laitteet aina</string>
+    <string name="security_restrict_usb_keyguard">Salli uudet USB-laitteet kun näyttö avattu</string>
+    <string name="security_restrict_usb_always">Estä uudet USB-laitteet</string>
+    <string name="security_restrict_usb_summary">Hallitse USB-tukea laitteille kuten kuulokkeiden, tallennuslaitteiden ja tulolähteitä (hiiret, näppäimistöt, peliohjaimet)</string>
+    <string name="security_restrict_usb_title">Rajoita USB</string>
+    <string name="panic_settings_summary">Näyttää virtapainike-valinnan, joka aktivoi hätäpaniikki-toiminnon.</string>
+    <string name="panic_settings_title">Näytä Paniikki-valinta</string>
+    <string name="calyxos_version">CalyxOS-versio</string>
+    <string name="cleartext_network_policy_title">Rajoita selkokielistä verkkoliikennettä</string>
+    <string name="wifi_timeout_summary2">Pois päältä</string>
+    <string name="show_qs_on_secure_keyguard_summary">Salli turvatussa lukitusnäytössä pika-asetuksiin vaihtaminen</string>
+    <string name="show_qs_on_secure_keyguard_title">Pika-asetukset</string>
+    <string name="cleartext_network_policy_summary">Estää kaiken ei-TLS -muotoisen verkkoliikenteen. Vaatii yksityisen DNS-asetuksen. Huomioi: Ilman selkeitä erivapauksia Tor ja suurin osa VPN:sta ei toimi</string>
+    <string name="data_usage_app_restrict_background_all">Taustalla toimiva verkkoyhteys</string>
+    <string name="wifi_timeout_summary">Wi-Fi sammuu <xliff:g id="timeout_description">%1$s</xliff:g> jälkeen, jos verkkoon ei ole yhdistetty</string>
+    <string name="wifi_timeout">Poista käytöstä Wi-Fi automaattisesti</string>
+    <string name="data_usage_app_restrict_background_all_summary">Salli verkon käyttö taustalla</string>
+    <string name="aosp_module_version">Päälinjan moduulipäivitys</string>
+    <string name="device_reboot_timeout_summary2">Laite ei käynnisty automaattisesti uudelleen</string>
+    <string name="timeout_summary_24hours">24 tuntia</string>
+    <string name="timeout_summary_72hours">72 tuntia</string>
+    <string name="device_reboot_timeout_title">Automaattinen uudelleenkäynnistys</string>
+    <string name="device_reboot_timeout_summary">Laite käynnistyy automaattisesti uudelleen, jos sitä ei ole avattu viimeisen <xliff:g id="timeout_description">%1$s</xliff:g> aikana</string>
+    <string name="timeout_summary_12hours">12 tuntia</string>
+    <string name="timeout_summary_48hours">48 tuntia</string>
+    <string name="timeout_summary_36hours">36 tuntia</string>
+</resources>

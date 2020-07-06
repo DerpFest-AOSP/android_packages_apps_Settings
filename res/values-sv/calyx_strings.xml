@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calyxos_version">CalyxOS-version</string>
+    <string name="timeout_summary_1min">1 minut</string>
+    <string name="timeout_summary_30secs">30 sekunder</string>
+    <string name="hide_app">Dölj app</string>
+    <string name="timeout_summary_48hours">48 timmar</string>
+    <string name="timeout_summary_36hours">36 timmar</string>
+    <string name="security_restrict_usb_title">Begränsa USB</string>
+    <string name="wifi_timeout_summary2">Inaktiverad</string>
+    <string name="timeout_summary_8hours">8 timmar</string>
+    <string name="timeout_summary_5mins">5 minuter</string>
+    <string name="other_settings">Andra alternativ</string>
+    <string name="timeout_summary_30mins">30 minuter</string>
+    <string name="filter_hidden_apps">Dolda appar</string>
+    <string name="timeout_summary_24hours">24 timmar</string>
+    <string name="unhide_app">Visa app</string>
+    <string name="timeout_summary_2hours">2 timmar</string>
+    <string name="timeout_summary_72hours">72 timmar</string>
+    <string name="timeout_summary_4hours">4 timmar</string>
+    <string name="unhide">Visa</string>
+    <string name="hide">Dölj</string>
+    <string name="timeout_summary_2mins">2 minuter</string>
+    <string name="timeout_summary_12hours">12 timmar</string>
+    <string name="timeout_summary_10mins">10 minuter</string>
+    <string name="timeout_summary_15secs">15 sekunder</string>
+    <string name="timeout_summary_never">Aldrig</string>
+    <string name="timeout_summary_1hour">1 timme</string>
+    <string name="wifi_timeout">Stäng av Wi-Fi automatiskt</string>
+</resources>

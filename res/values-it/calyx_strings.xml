@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">Permetti sempre nuove periferiche USB</string>
+    <string name="security_restrict_usb_keyguard">Permetti nuove periferiche USB quando sbloccato</string>
+    <string name="security_restrict_usb_always">Blocca nuove periferiche USB</string>
+    <string name="security_restrict_usb_summary">Controlla il supporto per dispositivi USB quali cuffie, memorie e input (mouse, tastiere, joystick)</string>
+    <string name="security_restrict_usb_title">Limita nuovi dispositivi USB</string>
+    <string name="panic_settings_summary">Visualizza l\'opzione nel menu di spegimento che genera un panic d\'emergenza.</string>
+    <string name="panic_settings_title">Mostra l\'opzione Panic</string>
+    <string name="calyxos_version">Versione di CalyxOS</string>
+    <string name="bluetooth_timeout_summary">Il Bluetooth si spegnera\' dopo <xliff:g id="timeout_description">%1$s</xliff:g> se non e\' connesso nessun dispositivo</string>
+    <string name="timeout_summary_8hours">8 ore</string>
+    <string name="timeout_summary_4hours">4 ore</string>
+    <string name="timeout_summary_2hours">2 ore</string>
+    <string name="timeout_summary_1hour">1 ora</string>
+    <string name="timeout_summary_30mins">30 minuti</string>
+    <string name="timeout_summary_10mins">10 minuti</string>
+    <string name="timeout_summary_5mins">5 minuti</string>
+    <string name="timeout_summary_2mins">2 minuti</string>
+    <string name="timeout_summary_1min">1 minuto</string>
+    <string name="timeout_summary_30secs">30 secondi</string>
+    <string name="timeout_summary_15secs">15 secondi</string>
+    <string name="timeout_summary_never">Mai</string>
+    <string name="bluetooth_timeout_summary2">Non spegnere automaticamente il Bluetooth</string>
+    <string name="bluetooth_timeout">timeout Bluetooth</string>
+    <string name="wifi_timeout">Spegni il Wi-Fi automaticamente</string>
+    <string name="cleartext_network_policy_summary">Blocca tutto il traffico di rete non TLS. Richiede la configurazione del DNS Privato. Nota: Senza esclusioni esplicite, le app che utilizzano il traffico in chiaro potrebbero non funzionare</string>
+    <string name="wifi_timeout_summary">Il Wi-Fi si spegnerà dopo <xliff:g id="timeout_description">%1$s</xliff:g> se nessuna rete è connessa</string>
+    <string name="show_qs_on_secure_keyguard_title">Impostazioni rapide</string>
+    <string name="data_usage_app_restrict_background_all_summary">Abilita l\'utilizzo della rete in background</string>
+    <string name="wifi_timeout_summary2">Disabilitato</string>
+    <string name="data_usage_app_restrict_background_all">Accesso rete in background</string>
+    <string name="cleartext_network_policy_title">Limita il traffico di rete in chiaro</string>
+    <string name="show_qs_on_secure_keyguard_summary">Consenti di attivare/disattivare le impostazioni rapide sulla schermata di blocco</string>
+    <string name="aosp_module_version">Aggiornamento del modulo principale</string>
+    <string name="cross_profile_sharing_summary">Abilitate i pulsanti di condivisione nell\'app per funzionare sui vostri profili personale e professionale</string>
+    <string name="detailed_security_patch">Piattaforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nNocciolo: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nDistributore: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="timeout_summary_12hours">12 ore</string>
+    <string name="timeout_summary_24hours">24 ore</string>
+    <string name="timeout_summary_36hours">36 ore</string>
+    <string name="global_vpn_summary_any_vpn_active">Devi prima disabilitare tutte le connessioni VPN attive per abilitarlo</string>
+    <string name="device_reboot_timeout_title">Riavvio automatico</string>
+    <string name="timeout_summary_48hours">48 ore</string>
+    <string name="timeout_summary_72hours">72 ore</string>
+    <string name="global_vpn_title">VPN globale</string>
+    <string name="global_vpn_summary">Forzare tutto il traffico di rete sul dispositivo attraverso questo VPN, inclusi il profilo lavorativo e gli altri utenti.</string>
+    <string name="global_vpn_summary_on">Forzare tutto il traffico di rete sul dispositivo attraverso questo VPN, inclusi il profilo lavorativo e gli altri utenti. Nota: Quando abilitata, non vi sarà permesso di utilizzare un VPN differente in un profilo lavorativo o in altri utenti</string>
+    <string name="device_reboot_timeout_summary2">Il dispositivo non si riavvierà automaticamente</string>
+    <string name="hide">Nascondi</string>
+    <string name="device_reboot_timeout_summary">Questo dispositivo si riavvierà automaticamente se non è stato sbloccato entro <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="cross_profile_sharing_title">Condivisione tra i profili</string>
+    <string name="unhide">Mostra</string>
+    <string name="captive_portal_summary">Determina se il dispositivo può connettersi a internet, contattando Google. Utilizzato anche per rilevare i portali captive.</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobili, Wi-Fi, hotspot, VPN, DNS Privato</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, hotspot, VPN, DNS Privato</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, accoppiamento, NFC</string>
+    <string name="security_dashboard_summary_calyx">Blocco schermo, impostazioni di panico, restrizioni USB, sicurezza app</string>
+    <string name="system_dashboard_summary_calyx">Lingue, gesti, ora, backup, utenti, profilo di lavoro</string>
+    <string name="other_settings">Altre opzioni</string>
+    <string name="quick_settings">Impostazioni rapide</string>
+    <string name="captive_portal_title">Controllo della connettività</string>
+    <string name="filter_hidden_apps">App nascoste</string>
+    <string name="hide_app">Nascondi app</string>
+    <string name="unhide_app">Mostra app</string>
+    <string name="unhide_app_desc">Se mostri questa app, sarà visibile di nuovo ad Android e a tutte le altre applicazioni.</string>
+    <string name="hide_app_desc">Se si nasconde questa applicazione, non sarà visibile ad Android e altre applicazioni, e potrebbero non funzionare più come previsto. Tieni a mente che nascondere un\'app conserva i suoi dati. Nascondendola, la spegni e la nascondi sul tuo dispositivo.</string>
+</resources>

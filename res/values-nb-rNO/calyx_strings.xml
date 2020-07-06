@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_summary">Vis av/på-knapp som aktiverer panikkforetagende i nødsfall.</string>
+    <string name="panic_settings_title">Vis panikk-alternativ</string>
+    <string name="calyxos_version">CalyxOS versjon</string>
+    <string name="security_restrict_usb_disabled">Alltid tillat nye USB-enheter</string>
+    <string name="security_restrict_usb_keyguard">Tillat nye USB-enheter når opplåst</string>
+    <string name="security_restrict_usb_always">Nekt nye USB-enheter</string>
+    <string name="security_restrict_usb_summary">Kontroller støtte for USB-enheter som hodetelefoner, lagrings- og inndataenheter (mus, tastatur, styrespaker)</string>
+    <string name="security_restrict_usb_title">Begrens USB</string>
+    <string name="timeout_summary_8hours">åtte timer</string>
+    <string name="timeout_summary_4hours">fire timer</string>
+    <string name="timeout_summary_2hours">to timer</string>
+    <string name="timeout_summary_1hour">en time</string>
+    <string name="timeout_summary_30mins">en halvtime</string>
+    <string name="timeout_summary_10mins">ti minutter</string>
+    <string name="timeout_summary_5mins">fem minutter</string>
+    <string name="timeout_summary_1min">ett minutt</string>
+    <string name="timeout_summary_2mins">to minutter</string>
+    <string name="timeout_summary_30secs">30 sekunder</string>
+    <string name="timeout_summary_15secs">15 sekunder</string>
+    <string name="timeout_summary_never">Aldri</string>
+    <string name="bluetooth_timeout_summary2">Ikke skru av Blåtann automatisk</string>
+    <string name="bluetooth_timeout_summary">Blåtann vil bli skrudd av etter <xliff:g id="timeout_description">%1$s</xliff:g> hvis ingen enheter tilknyttes</string>
+    <string name="bluetooth_timeout">Blåtannstidsavbrudd</string>
+    <string name="wifi_timeout_summary2">Avskrudd</string>
+    <string name="show_qs_on_secure_keyguard_title">Hurtiginnstillinger</string>
+    <string name="cleartext_network_policy_title">Begrens klartekst-nettverkstrafikk</string>
+    <string name="show_qs_on_secure_keyguard_summary">Tillat veksling av hurtiginnstillinger på sikker låseskjerm</string>
+    <string name="aosp_module_version">Oppdatering av hovedlinjemodulen</string>
+    <string name="cross_profile_sharing_title">Deling på tvers av profiler</string>
+    <string name="cross_profile_sharing_summary">Skru på delingsknapp i programmer i din arbeids- og personlige profil</string>
+    <string name="hide">Skjul</string>
+    <string name="unhide">Vis</string>
+    <string name="wifi_timeout">Skru av Wi-Fi automatisk</string>
+    <string name="timeout_summary_48hours">48 timer</string>
+    <string name="timeout_summary_12hours">12 timer</string>
+    <string name="timeout_summary_24hours">24 timer</string>
+    <string name="timeout_summary_36hours">36 timer</string>
+    <string name="timeout_summary_72hours">72 timer</string>
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">Tving all trafikken på enheten gjennom denne VPN-kanalen, inkludert arbeidsprofil og andre brukere.</string>
+    <string name="global_vpn_summary_any_vpn_active">Du må skru av alle aktive VPN-tilkoblinger for å skru på dette</string>
+    <string name="data_usage_app_restrict_background_all">Bakgrunnsnettverkstilgang</string>
+    <string name="data_usage_app_restrict_background_all_summary">Skru på nettverksbruk i bakgrunnen</string>
+    <string name="device_reboot_timeout_summary2">Enheten vil ikke starte på ny automatisk</string>
+    <string name="detailed_security_patch">Plattform: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKjerne: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nLeverandør: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nBrannmur: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">Automatisk omstart</string>
+    <string name="device_reboot_timeout_summary">Enheten vil starte på ny automatisk hvis den ikke har blitt låst opp de siste <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="cleartext_network_policy_summary">Blokkerer all ikke-TLS-nettverkstrafikk. Krever privat DNS-oppsett. Merk: Uten eksplisitte unntak, kan det hende programmer som bruker klarteksttrafikk ikke virker.</string>
+    <string name="wifi_timeout_summary">Wi-Fi vil bli skrudd av etter <xliff:g id="timeout_description">%1$s</xliff:g> hvis ikke tilknyttet et nettverk</string>
+    <string name="global_vpn_summary_on">Tving all trafikk på enheten gjennom denne VPN-kanalen, inkludert arbeidsprofil og andre brukere. Merk: Når påskrudd, vil du ikke kunne bruke en egen VPN i en arbeidsprofil eller for andre brukere.</string>
+</resources>

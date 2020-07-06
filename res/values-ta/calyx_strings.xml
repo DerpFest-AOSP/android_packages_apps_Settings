@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calyxos_version">CalyxOS பதிப்பு</string>
+    <string name="panic_settings_summary">அவசர பீதி தூண்டுதலைச் செயல்படுத்தும் பவர் பட்டன் விருப்பத்தைக் காட்டு.</string>
+    <string name="security_restrict_usb_title">USB ஐ கட்டுப்படுத்து</string>
+    <string name="security_restrict_usb_keyguard">திறக்கப்படும்போது புதிய USB உபகரணங்களை அனுமதிக்கவும்</string>
+    <string name="security_restrict_usb_always">புதிய USB உபகரணங்களை மறுக்கவும்</string>
+    <string name="security_restrict_usb_summary">இயர்போன்கள், சேமிப்பு சாதனங்கள் மற்றும் உள்ளீடு (எலிகள், விசைப்பலகைகள், ஜாய்ஸ்டிக்ஸ்) போன்ற USB கேஜெட்களுக்கான ஆதரவு கட்டுப்பாடு</string>
+    <string name="panic_settings_title">பீதி விருப்பத்தைக் காட்டு</string>
+</resources>

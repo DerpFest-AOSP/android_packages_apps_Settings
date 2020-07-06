@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_summary">Afficher l’option du bouton d’alimentation qui active un bouton d’urgence.</string>
+    <string name="panic_settings_title">Afficher l’option Urgence</string>
+    <string name="calyxos_version">Version de CalyxOS</string>
+    <string name="security_restrict_usb_disabled">Toujours autoriser les nouveaux périphériques USB</string>
+    <string name="security_restrict_usb_keyguard">Autoriser les nouveaux périphériques USB quand déverrouillé</string>
+    <string name="security_restrict_usb_always">Refuser les nouveaux périphériques USB</string>
+    <string name="security_restrict_usb_summary">Contrôle de la prise en charge des périphériques USB tels que les écouteurs, les dispositifs de stockage et les entrées (souris, claviers, joysticks)</string>
+    <string name="security_restrict_usb_title">Restreindre l\'USB</string>
+    <string name="timeout_summary_8hours">8 heures</string>
+    <string name="timeout_summary_4hours">4 heures</string>
+    <string name="timeout_summary_2hours">2 heures</string>
+    <string name="timeout_summary_1hour">1 heure</string>
+    <string name="timeout_summary_30mins">30 minutes</string>
+    <string name="timeout_summary_10mins">10 minutes</string>
+    <string name="timeout_summary_5mins">5 minutes</string>
+    <string name="timeout_summary_2mins">2 minutes</string>
+    <string name="timeout_summary_1min">1 minute</string>
+    <string name="timeout_summary_30secs">30 secondes</string>
+    <string name="timeout_summary_15secs">15 secondes</string>
+    <string name="timeout_summary_never">Jamais</string>
+    <string name="bluetooth_timeout_summary2">Ne pas désactiver automatiquement le Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Le Bluetooth s\'éteindra après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
+    <string name="bluetooth_timeout">Délai d\'attente Bluetooth</string>
+    <string name="cleartext_network_policy_summary">Bloque tout le trafic réseau non TLS. Nécessite de configurer un DNS privé. Remarque : sans exemptions explicites, les applications qui utilisent le trafic en clair peuvent ne pas fonctionner</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permettre de basculer les paramètres rapides sur un écran de verrouillage sécurisé</string>
+    <string name="show_qs_on_secure_keyguard_title">Réglages rapides</string>
+    <string name="cleartext_network_policy_title">Restreindre le trafic réseau en clair</string>
+    <string name="wifi_timeout_summary2">Désactivé</string>
+    <string name="wifi_timeout_summary">Le Wi-Fi sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun réseau n\'est connecté</string>
+    <string name="wifi_timeout">Désactiver automatiquement le Wi-Fi</string>
+    <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
+    <string name="data_usage_app_restrict_background_all">Accès réseau en arrière plan</string>
+    <string name="aosp_module_version">Mise à jour du module principal</string>
+    <string name="timeout_summary_72hours">72 heures</string>
+    <string name="timeout_summary_48hours">48 heures</string>
+    <string name="timeout_summary_36hours">36 heures</string>
+    <string name="timeout_summary_24hours">24 heures</string>
+    <string name="timeout_summary_12hours">12 heures</string>
+    <string name="device_reboot_timeout_summary2">L\'appareil ne redémarrera pas automatiquement</string>
+    <string name="device_reboot_timeout_summary">L\'appareil redémarrera automatiquement s\'il n\'a pas été déverrouillé au cours des dernières <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">Redémarrage automatique</string>
+    <string name="detailed_security_patch">Plateforme : <xliff:g id="platform_level">%1$s</xliff:g>
+\nNoyau : <xliff:g id="kernel_level">%2$s</xliff:g>
+\nDistributeur : <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware : <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_title">VPN général</string>
+    <string name="global_vpn_summary">Forcez tout le trafic sur l\'appareil a passer par ce VPN, y compris le profil de travail et les autres utilisateurs.</string>
+    <string name="global_vpn_summary_on">Forcer tout le trafic sur l\'appareil a passer par ce VPN, y compris le profil de travail et les autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne pourrez pas utiliser un VPN distinct dans un profil de travail ou pour d\'autres utilisateurs</string>
+    <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN actives pour activer cette fonction</string>
+    <string name="cross_profile_sharing_title">Partage entre les profils</string>
+    <string name="cross_profile_sharing_summary">Activez les boutons de partage dans l\'application pour qu\'ils fonctionnent sur vos profils personnel et professionnel</string>
+    <string name="hide">Masquer</string>
+    <string name="unhide">Montrer</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, point d\'accès, VPN, DNS privé</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, appairage, NFC</string>
+    <string name="network_dashboard_summary_mobile_calyx">Données mobiles, Wi‑Fi, point d\'accès, VPN, DNS privé</string>
+    <string name="security_dashboard_summary_calyx">Écran de verrouillage, paramètres de panique, restrictions USB, sécurité d\'application</string>
+    <string name="system_dashboard_summary_calyx">Langues, gestes, temps, sauvegarde, utilisateurs, profil professionnel</string>
+    <string name="hide_app">Masquer l\'application</string>
+    <string name="other_settings">Autres options</string>
+    <string name="view_bugreports_title">Afficher le rapport de bug</string>
+    <string name="view_bugreports_summary_not_developer">Une fois afficher, tous les rapports de bugs resteront accessible jusqu\'au redémarrage de l\'appareil</string>
+    <string name="keychords_summary_adb_enabled">Toujours activé lorsque le débogage est allumé</string>
+    <string name="filter_hidden_apps">Applications masquées</string>
+    <string name="unhide_app">Montrer l\'application</string>
+    <string name="work_hours_title">Heures de travail</string>
+    <string name="work_hours_end_notification_description">Appuyer pour désactiver les applications professionnelles</string>
+    <string name="work_hours_end_off_summary">Afficher une notification journalière pour désactiver le profil professionnel</string>
+    <string name="data_usage_app_datura_firewall">Pare-feu Datura</string>
+    <string name="work_hours_end_on_summary">Afficher une notification journalière pour désactiver le profil professionnel à <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="quick_settings">Paramètres rapides</string>
+    <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à internet, en contactant Google. Aussi utilisé pour détecter des portails captifs.</string>
+    <string name="miscellaneous_settings">Divers</string>
+    <string name="hidden">Masqué</string>
+    <string name="security_settings_biometric_preference_title_calyx">Déverrouillage biométrique</string>
+    <string name="unhide_app_desc">Si vous montrez cette application, elle sera visible à Android et aux autres applications.</string>
+    <string name="work_hours_end_notification_title">Fin de la journée de travail</string>
+</resources>

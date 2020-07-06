@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">Sempre permitir novos aparelhos USB</string>
+    <string name="security_restrict_usb_keyguard">Permitir conexões USB quando desbloqueado</string>
+    <string name="security_restrict_usb_always">Negar novos aparelhos USB</string>
+    <string name="security_restrict_usb_summary">Controle o suporte às conexões USB como fones, armazenamento portátil, e de entrada (mouses, teclados, joysticks)</string>
+    <string name="security_restrict_usb_title">Restringir USB</string>
+    <string name="panic_settings_summary">Exibir a opção do botão liga/desliga que ativa um gatilho de pânico de emergência.</string>
+    <string name="panic_settings_title">Mostrar opção de pânico</string>
+    <string name="calyxos_version">Versão do CalyxOS</string>
+    <string name="timeout_summary_8hours">8 horas</string>
+    <string name="timeout_summary_4hours">4 horas</string>
+    <string name="timeout_summary_2hours">2 horas</string>
+    <string name="timeout_summary_1hour">1 hora</string>
+    <string name="timeout_summary_30mins">30 minutos</string>
+    <string name="timeout_summary_10mins">10 minutos</string>
+    <string name="timeout_summary_5mins">5 minutos</string>
+    <string name="timeout_summary_2mins">2 minutos</string>
+    <string name="timeout_summary_1min">1 minuto</string>
+    <string name="timeout_summary_30secs">30 segundos</string>
+    <string name="timeout_summary_15secs">15 segundos</string>
+    <string name="timeout_summary_never">Nunca</string>
+    <string name="bluetooth_timeout_summary2">Não desligar o Bluetooth automaticamente</string>
+    <string name="bluetooth_timeout_summary">Bluetooth irá desligar após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum aparelho estiver conectado</string>
+    <string name="bluetooth_timeout">timeout do Bluetooth</string>
+    <string name="wifi_timeout_summary2">Desativada</string>
+    <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
+    <string name="data_usage_app_restrict_background_all">Acesso a rede em segundo plano</string>
+    <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
+    <string name="aosp_module_version">Atualização do módulo principal</string>
+    <string name="cleartext_network_policy_title">Restringir o tráfego de texto claro na rede</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, aplicativos que usam tráfego de texto simples podem não funcionar</string>
+    <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as configurações rápidas no ecrã de bloqueio seguro</string>
+    <string name="data_usage_app_restrict_background_all_summary">Ativar uso da rede em segundo plano</string>
+    <string name="timeout_summary_72hours">72 horas</string>
+    <string name="timeout_summary_48hours">48 horas</string>
+    <string name="timeout_summary_36hours">36 horas</string>
+    <string name="timeout_summary_24hours">24 horas</string>
+    <string name="timeout_summary_12hours">12 horas</string>
+    <string name="device_reboot_timeout_summary2">O aparelho não irá reiniciar automaticamente</string>
+    <string name="device_reboot_timeout_summary">O aparelho será reiniciado automaticamente se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">Reinicialização automática</string>
+    <string name="global_vpn_summary_any_vpn_active">Você precisa primeiro desativar todas as conexões VPN para ativar essa</string>
+    <string name="unhide">Mostrar</string>
+    <string name="global_vpn_title">VPN Global</string>
+    <string name="hide">Ocultar</string>
+    <string name="filter_hidden_apps">Apps ocultas</string>
+    <string name="hide_app">Ocultar apps</string>
+    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nFornecedor: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_summary">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores.</string>
+    <string name="global_vpn_summary_on">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores. Nota: Quando ativado, não poderá utilizar uma VPN separada num perfil de trabalho ou outros utilizadores</string>
+    <string name="cross_profile_sharing_title">Compartilhamento entre perfis</string>
+    <string name="cross_profile_sharing_summary">Permitir que botões de compartilhamento dentro de aplicativos funcionem entre seu perfil pessoal e de trabalho</string>
+    <string name="view_bugreports_title">Ver relatórios de erro</string>
+    <string name="other_settings">Outras opções</string>
+    <string name="quick_settings">Configurações Rápidas</string>
+    <string name="network_dashboard_summary_mobile_calyx">Redes móveis, Wi-Fi, ponto de acesso, VPN, DNS particular</string>
+    <string name="captive_portal_title">Verificação de conectividade</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pareamento, NFC</string>
+    <string name="system_dashboard_summary_calyx">Idiomas, gestos, horário, backup, usuários, perfil de trabalho</string>
+    <string name="captive_portal_summary">Determina se o dispositivo consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detectar redes com páginas de login.</string>
+    <string name="miscellaneous_settings">Miscelâneas</string>
+    <string name="bugreport_summary">Fazer um relatório de bug agora</string>
+    <string name="keychords_title">Combinação de botões para relatório de bug</string>
+    <string name="keychords_summary">Capture um relatório de bug segurando os botões de volume, e Power ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
+    <string name="keychords_summary_adb_enabled">Sempre ativado quando a depuração está ativa</string>
+    <string name="view_bugreports_summary_not_developer">Quando visualizado, todos os relatórios de bug continuarão acessíveis até o dispositivo ser reiniciado</string>
+    <string name="security_settings_biometric_preference_title_calyx">Desbloqueio biométrico</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueio biométrico para trabalho</string>
+    <string name="data_usage_app_datura_firewall">Firewall Datura</string>
+    <string name="data_usage_app_datura_firewall_summary">Configurações de firewall foram movidas para o novo aplicativo Firewall. Toque para abrir ele.</string>
+    <string name="work_hours_title">Horas de trabalho</string>
+    <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente ás <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
+    <string name="work_hours_end_off_summary">Mostrar uma notificação diária para desativar o perfil de trabalho</string>
+    <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
+    <string name="work_hours_end_notification_description">Toque para desativar apps de trabalho</string>
+    <string name="security_dashboard_summary_calyx">Bloqueio de tela, configurações de pânico, restrições USB, segurança de aplicativos</string>
+    <string name="hide_app_desc">Se você ocultar esta aplicação, ela não será visível para o Android e outras aplicações, e elas podem não funcionar mais como deveriam. Lembrando que, ocultar uma aplicação preserva seus dados. Escondendo a aplicação, você a desliga e esconde do seu dispositivo.</string>
+    <string name="unhide_app">Revelar aplicativo</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ponto de acesso, VPN, DNS particular</string>
+    <string name="unhide_app_desc">Se você revelar esta aplicação, ela ficará visível para o Android e outras aplicações novamente.</string>
+    <string name="hidden">Oculto</string>
+</resources>
