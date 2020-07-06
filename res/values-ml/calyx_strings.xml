@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_summary">ഇയർഫോണുകൾ, സംഭരണ ഉപകരണങ്ങൾ, ഇൻപുട്ട് (മൗസുകൾ, കീബോർഡുകൾ, ജോയ്സ്റ്റിക്കുകൾ) പോലുള്ള യുഎസ്ബി ഗാഡ്‌ജെറ്റുകൾക്കുള്ള പിന്തുണ നിയന്ത്രിക്കുക</string>
+    <string name="bluetooth_timeout_summary2">ബ്ലൂടൂത്ത് യാന്ത്രികമായി ഓഫാക്കരുത്</string>
+    <string name="aosp_module_version">മെയിൻലൈൻ മൊഡ്യൂൾ പുതുക്കൽ</string>
+    <string name="bluetooth_timeout_summary">ഉപകരണങ്ങളൊന്നും ബന്ധിപ്പിച്ചില്ലെങ്കിൽ <xliff:g id="timeout_description">%1$s</xliff:g> ക്ക് ശേഷം ബ്ലൂടൂത്ത് ഓഫാകും</string>
+    <string name="timeout_summary_8hours">8 മണിക്കൂർ</string>
+    <string name="timeout_summary_10mins">10 മിനിറ്റ്</string>
+    <string name="timeout_summary_30mins">30 മിനിറ്റ്</string>
+    <string name="timeout_summary_2hours">2 മണിക്കൂർ</string>
+    <string name="panic_settings_title">പരിഭ്രാന്തി ഓപ്ഷൻ കാണിക്കുക</string>
+    <string name="bluetooth_timeout">ബ്ലൂടൂത്ത് സമയപരിധി</string>
+    <string name="security_restrict_usb_title">USB നിയന്ത്രിക്കുക</string>
+    <string name="cleartext_network_policy_title">ക്ലിയർ ടെക്സ്റ്റ് നെറ്റ്‌വർക്ക് ട്രാഫിക് നിയന്ത്രിക്കുക</string>
+    <string name="security_restrict_usb_keyguard">അൺലോക്ക് ചെയ്താൽ പുതിയ USB ഗാഡ്ജെറ്റുകൾ അനുവദിക്കുക</string>
+    <string name="cleartext_network_policy_summary">TLS അല്ലാത്ത എല്ലാ നെറ്റ്‌വർക്ക് ട്രാഫിക്കും തടയുന്നു. സ്വകാര്യ DNS കോൺഫിഗറേഷൻ ആവശ്യമാണ്. കുറിപ്പ്: വ്യക്തമായ ഇളവുകളില്ലാതെ, ടോറും മിക്ക VPN- കളും പ്രവർത്തിക്കില്ല</string>
+    <string name="calyxos_version">CalyxOS പതിപ്പ്</string>
+    <string name="wifi_timeout_summary">നെറ്റ്‌വർക്ക് ബന്ധിപ്പിച്ചില്ലെങ്കിൽ <xliff:g id="timeout_description">%1$s</xliff:g> ന് ശേഷം വൈഫൈ ഓഫാകും</string>
+    <string name="security_restrict_usb_always">പുതിയ USB ഗാഡ്ജറ്റുകൾ നിരസിക്കുക</string>
+    <string name="show_qs_on_secure_keyguard_summary">സുരക്ഷിത ലോക്ക് സ്ക്രീനിൽ ദ്രുത ക്രമീകരണങ്ങൾ ടോഗിൾ ചെയ്യാൻ അനുവദിക്കുക</string>
+    <string name="timeout_summary_4hours">4 മണിക്കൂർ</string>
+    <string name="timeout_summary_1hour">1 മണിക്കൂർ</string>
+    <string name="security_restrict_usb_disabled">എപ്പോഴും പുതിയ USB ഗാഡ്ജെറ്റുകൾ അനുവദിക്കുക</string>
+    <string name="data_usage_app_restrict_background_all_summary">പശ്ചാത്തലത്തിൽ നെറ്റ്‌വർക്ക് ഉപയോഗം സജ്ജമാക്കുക</string>
+    <string name="wifi_timeout">വൈഫൈ തനിയെ ഓഫാക്കുക</string>
+    <string name="data_usage_app_restrict_background_all">പശ്ചാത്തല നെറ്റ്‌വർക്ക് ഉപയോഗം</string>
+    <string name="show_qs_on_secure_keyguard_title">ദ്രുത ക്രമീകരണങ്ങൾ</string>
+    <string name="wifi_timeout_summary2">പ്രവർത്തനരഹിതം</string>
+    <string name="timeout_summary_5mins">5 മിനിറ്റ്</string>
+    <string name="panic_settings_summary">ഒരു അടിയന്തര പാനിക് ട്രിഗർ സജീവമാക്കുന്ന പവർ ബട്ടൺ ഓപ്ഷൻ പ്രദർശിപ്പിക്കുക.</string>
+    <string name="timeout_summary_2mins">2 മിനിറ്റ്</string>
+    <string name="timeout_summary_1min">1 മിനിറ്റ്</string>
+    <string name="timeout_summary_30secs">30 സെക്കന്റുകൾ</string>
+    <string name="timeout_summary_15secs">15 സെക്കന്റുകൾ</string>
+    <string name="timeout_summary_never">ഒരിക്കലും വേണ്ട</string>
+    <string name="timeout_summary_72hours">72 മണിക്കൂറുകൾ</string>
+    <string name="timeout_summary_48hours">48 മണിക്കൂറുകൾ</string>
+    <string name="timeout_summary_36hours">36 മണിക്കൂറുകൾ</string>
+    <string name="timeout_summary_24hours">24 മണിക്കൂറുകൾ</string>
+    <string name="timeout_summary_12hours">12 മണിക്കൂറുകൾ</string>
+    <string name="device_reboot_timeout_summary2">ഉപകരണം തനിയെ റീബൂട്ട് ചെയ്യില്ല</string>
+    <string name="device_reboot_timeout_summary">കഴിഞ്ഞ <xliff:g id="timeout_description">%1$s</xliff:g> നുള്ളിൽ ഉപകരണം അൺലോക്ക് ചെയ്തിട്ടില്ലെങ്കിൽ ഉപകരണം തനിയെ റീബൂട്ട് ചെയ്യും</string>
+    <string name="device_reboot_timeout_title">ഓട്ടോ റീബൂട്ട്</string>
+    <string name="global_vpn_title">ആഗോള വിപിഎൻ</string>
+    <string name="hide">മറയ്ക്കുക</string>
+    <string name="quick_settings">ദ്രുത ക്രമീകരണങ്ങൾ</string>
+</resources>

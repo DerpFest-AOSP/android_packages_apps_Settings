@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_timeout_summary">Wi-Fi išsijungs po <xliff:g id="timeout_description">%1$s</xliff:g>, jei nėra prisijungta prie tinklo</string>
+    <string name="security_restrict_usb_always">Neleisti naujų USB įtaisų</string>
+    <string name="calyxos_version">CalyxOS versija</string>
+    <string name="bluetooth_timeout_summary2">Automatiškai neišjungti Bluetooth</string>
+    <string name="panic_settings_title">Rodyti panikos parinktį</string>
+    <string name="security_restrict_usb_summary">Valdykite USB įtaisų, tokių kaip ausinės, atminties įrenginiai ir įvestis (pelės, klaviatūros, vairasvirtės), palaikymą</string>
+    <string name="timeout_summary_2hours">2 valandos</string>
+    <string name="timeout_summary_1min">1 minutė</string>
+    <string name="bluetooth_timeout_summary">Bluetooth išsijungs po <xliff:g id="timeout_description">%1$s</xliff:g>, jei nebus prijungti jokie įrenginiai</string>
+    <string name="timeout_summary_5mins">5 minutės</string>
+    <string name="timeout_summary_30secs">30 sekundžių</string>
+    <string name="timeout_summary_2mins">2 minutės</string>
+    <string name="show_qs_on_secure_keyguard_title">Spartieji nustatymai</string>
+    <string name="timeout_summary_1hour">1 valanda</string>
+    <string name="timeout_summary_never">Niekada</string>
+    <string name="cleartext_network_policy_summary">Blokuoja visą ne TLS tinklo srautą. Reikalinga privataus DNS konfigūracija. Pastaba: jei nėra aiškių išimčių, programėlės, naudojančios nešifruoto teksto duomenų srautą, gali neveikti</string>
+    <string name="data_usage_app_restrict_background_all">Foninė tinklo prieiga</string>
+    <string name="wifi_timeout">Automatinis Wi-Fi išjungimas</string>
+    <string name="panic_settings_summary">Ekrano įjungimo mygtuko parinktis, kuria įjungiamas kritinės padėties pavojaus signalas.</string>
+    <string name="bluetooth_timeout">Bluetooth laiko limitas</string>
+    <string name="show_qs_on_secure_keyguard_summary">Leisti perjungti sparčiuosius nustatymus saugiame užrakinimo ekrane</string>
+    <string name="wifi_timeout_summary2">Išjungta</string>
+    <string name="security_restrict_usb_disabled">Leisti naujus USB įtaisus visada</string>
+    <string name="security_restrict_usb_keyguard">Leisti naujus USB įtaisus, kai įrenginys atrakintas</string>
+    <string name="timeout_summary_30mins">30 minučių</string>
+    <string name="data_usage_app_restrict_background_all_summary">Įgalinti tinklo naudojimą fone</string>
+    <string name="security_restrict_usb_title">Apriboti USB</string>
+    <string name="timeout_summary_10mins">10 minučių</string>
+    <string name="timeout_summary_15secs">15 sekundžių</string>
+    <string name="cleartext_network_policy_title">Apriboti neužšifruoto teksto tinklo duomenų srautą</string>
+    <string name="aosp_module_version">Pagrindinio modulio atnaujinimas</string>
+    <string name="timeout_summary_8hours">8 valandos</string>
+    <string name="timeout_summary_4hours">4 valandos</string>
+    <string name="timeout_summary_72hours">72 valandos</string>
+    <string name="timeout_summary_48hours">48 valandos</string>
+    <string name="timeout_summary_36hours">36 valandos</string>
+    <string name="timeout_summary_24hours">24 valandos</string>
+    <string name="timeout_summary_12hours">12 valandų</string>
+    <string name="device_reboot_timeout_summary2">Įrenginys nebus automatiškai perkraunamas</string>
+    <string name="device_reboot_timeout_summary">Įrenginys bus automatiškai perkrautas, jei jis nebuvo atrakintas per <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">Automatinis perkrovimas</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, prieigos taškas, VPN, privatus DNS</string>
+    <string name="security_dashboard_summary_calyx">Ekrano užraktas, panikos nustatymai, USB apribojimai, programėlių saugumas</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobilusis ryšys, Wi-Fi, prieigos taškas, VPN, privatus DNS</string>
+    <string name="cross_profile_sharing_title">Dalijimasis tarp profilių</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, susiejimas, NFC</string>
+    <string name="hide">Slėpti</string>
+    <string name="unhide">Neslėpti</string>
+    <string name="filter_hidden_apps">Paslėptos programėlės</string>
+    <string name="hide_app">Slėpti programėlę</string>
+    <string name="unhide_app">Neslėpti programėlės</string>
+    <string name="system_dashboard_summary_calyx">Kalbos, gestai, laikas, atsarginė kopija, naudotojai, darbo profilis</string>
+    <string name="cross_profile_sharing_summary">Įgalinkite programėlėje esančius bendrinimo mygtukus, kad jie veiktų jūsų asmeniniame ir darbiniame profiliuose</string>
+    <string name="global_vpn_summary_any_vpn_active">Norėdami įjungti šią funkciją, pirmiausia turite išjungti visus aktyvius VPN ryšius</string>
+    <string name="captive_portal_title">Ryšio patikra</string>
+    <string name="captive_portal_summary">Susisiekę su Google nustatykite, ar įrenginys gali prisijungti prie interneto. Taip pat tai naudojama fiksuotųjų portalų aptikimui.</string>
+    <string name="detailed_security_patch">Platforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nBranduolys: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nTiekėjas: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nPrograminė įranga: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_title">Globalus VPN</string>
+    <string name="global_vpn_summary">Priversti visą srautą įrenginyje perduoti per šį VPN, įskaitant darbo profilį ir kitus naudotojus.</string>
+    <string name="global_vpn_summary_on">Priversti visą srautą įrenginyje perduoti per šį VPN, įskaitant darbo profilį ir kitus naudotojus. Pastaba: Kai ši funkcija įjungta, negalėsite naudoti atskiro VPN darbo profilyje ar kituose naudotojuose</string>
+    <string name="unhide_app_desc">Jei panaikinsite šios programėlės slėpimą, ji vėl bus matoma Android ir kitoms programėlėms.</string>
+    <string name="hide_app_desc">Jei paslėpsite šią programėlę, ji nebus matoma Android ir kitoms programėlėms ir jos gali nebeveikti taip, kaip numatyta. Atminkite, kad paslėpus programėlę yra išsaugomi jos duomenys. Paslėpdami išjungiate šią programėlę ir paslepiate ją savo įrenginyje.</string>
+</resources>

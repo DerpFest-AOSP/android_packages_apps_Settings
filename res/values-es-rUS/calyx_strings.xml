@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">Permitir nuevos dispositivos USB siempre</string>
+    <string name="security_restrict_usb_keyguard">Permitir nuevos dispositivos USB cuando esté desbloqueado</string>
+    <string name="security_restrict_usb_always">Negar nuevos dispositivos USB</string>
+    <string name="security_restrict_usb_title">Restringir USB</string>
+    <string name="panic_settings_title">Mostrar opción de Pánico</string>
+    <string name="calyxos_version">Versión de CalyxOS</string>
+    <string name="show_qs_on_secure_keyguard_title">Ajustes rápidos</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permitir alternar configuraciones rápidas en la pantalla de bloqueo segura</string>
+    <string name="wifi_timeout">Desactivar Wi-Fi automáticamente</string>
+    <string name="bluetooth_timeout_summary2">No apague automáticamente Bluetooth</string>
+    <string name="timeout_summary_never">Nunca</string>
+    <string name="timeout_summary_15secs">15 segundos</string>
+    <string name="timeout_summary_30secs">30 segundos</string>
+    <string name="timeout_summary_1min">1 minuto</string>
+    <string name="timeout_summary_2mins">2 minutos</string>
+    <string name="timeout_summary_5mins">5 minutos</string>
+    <string name="timeout_summary_10mins">10 minutos</string>
+    <string name="timeout_summary_30mins">30 minutos</string>
+    <string name="timeout_summary_1hour">1 hora</string>
+    <string name="timeout_summary_2hours">2 horas</string>
+    <string name="timeout_summary_4hours">4 horas</string>
+    <string name="timeout_summary_8hours">8 horas</string>
+    <string name="timeout_summary_12hours">12 horas</string>
+    <string name="timeout_summary_24hours">24 horas</string>
+    <string name="timeout_summary_36hours">36 horas</string>
+    <string name="timeout_summary_48hours">48 horas</string>
+    <string name="timeout_summary_72hours">72 horas</string>
+    <string name="bluetooth_timeout">Tiempo de espera de Bluetooth</string>
+</resources>

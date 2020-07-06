@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_36hours">36 óra</string>
+    <string name="detailed_security_patch">Platform: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nVendor: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="timeout_summary_4hours">4 óra</string>
+    <string name="timeout_summary_1min">1 perc</string>
+    <string name="timeout_summary_2mins">2 perc</string>
+    <string name="timeout_summary_5mins">5 perc</string>
+    <string name="timeout_summary_10mins">10 perc</string>
+    <string name="timeout_summary_2hours">2 óra</string>
+    <string name="timeout_summary_8hours">8 óra</string>
+    <string name="timeout_summary_12hours">12 óra</string>
+    <string name="timeout_summary_24hours">24 óra</string>
+    <string name="wifi_timeout_summary">A Wi-Fi kikapcsol, ha <xliff:g id="timeout_description">%1$s</xliff:g> ideig nincs csatlakoztatott eszköz</string>
+    <string name="wifi_timeout_summary2">Letiltva</string>
+    <string name="panic_settings_title">Pánik opció mutatása</string>
+    <string name="panic_settings_summary">Megjelenít egy kikapcsoló menű gombot ami aktiválja a pánik módot.</string>
+    <string name="calyxos_version">CalyxOS verzió</string>
+    <string name="show_qs_on_secure_keyguard_title">Gyorsbeállítások</string>
+    <string name="bluetooth_timeout">Bluetooth időkorlát</string>
+    <string name="show_qs_on_secure_keyguard_summary">Gyorsgombokkal való interakciók engedélyezése lezárt képernyőn</string>
+    <string name="aosp_module_version">Fő modul frissítése</string>
+    <string name="wifi_timeout">Wi-Fi időkorlát</string>
+    <string name="bluetooth_timeout_summary2">Ne kapcsolja ki automatikusan a Bluetooth-t</string>
+    <string name="bluetooth_timeout_summary">A Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> múlva kikapcsol, ha nincsenek eszközök csatlakoztatva</string>
+    <string name="hide">Elrejtés</string>
+    <string name="timeout_summary_never">Soha</string>
+    <string name="timeout_summary_15secs">15 másodperc</string>
+    <string name="timeout_summary_30secs">30 másodperc</string>
+    <string name="timeout_summary_30mins">30 perc</string>
+    <string name="timeout_summary_1hour">1 óra</string>
+    <string name="timeout_summary_48hours">48 óra</string>
+    <string name="timeout_summary_72hours">72 óra</string>
+    <string name="global_vpn_title">Globális VPN</string>
+</resources>

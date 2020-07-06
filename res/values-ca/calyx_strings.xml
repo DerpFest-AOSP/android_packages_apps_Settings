@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hide">Amaga</string>
+    <string name="unhide">Mostra</string>
+    <string name="timeout_summary_30secs">30 segons</string>
+    <string name="timeout_summary_10mins">10 minuts</string>
+    <string name="timeout_summary_30mins">30 minuts</string>
+    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nVenedor: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="panic_settings_title">Mostra l\'opció Panic</string>
+    <string name="timeout_summary_2mins">2 minuts</string>
+    <string name="timeout_summary_8hours">8 hores</string>
+    <string name="panic_settings_summary">Mostra l\'opció del botó d\'engegada que activa un disparador de pànic d\'emergència.</string>
+    <string name="timeout_summary_never">Mai</string>
+    <string name="timeout_summary_15secs">15 segons</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permet activar/desactivar paràmetres ràpids en la pantalla de bloqueig segura</string>
+    <string name="timeout_summary_5mins">5 minuts</string>
+    <string name="timeout_summary_2hours">2 hores</string>
+    <string name="timeout_summary_24hours">24 hores</string>
+    <string name="timeout_summary_1hour">1 hora</string>
+    <string name="timeout_summary_4hours">4 hores</string>
+    <string name="timeout_summary_1min">1 minut</string>
+    <string name="timeout_summary_12hours">12 hores</string>
+    <string name="timeout_summary_36hours">36 hores</string>
+    <string name="timeout_summary_48hours">48 hores</string>
+    <string name="timeout_summary_72hours">72 hores</string>
+    <string name="bluetooth_timeout">Temps d\'espera del Bluetooth</string>
+    <string name="bluetooth_timeout_summary2">No apaguis el Bluetooth automàticament</string>
+    <string name="bluetooth_timeout_summary">El Bluetooth s\'apagarà després de <xliff:g id="timeout_description">%1$s</xliff:g> si no hi ha dispositius connectats</string>
+    <string name="security_restrict_usb_summary">Control de suport per a dispositius USB com auriculars, dispositius d\'emmagatzematge i entrada (ratolí, teclats, joysticks)</string>
+    <string name="security_restrict_usb_title">Restringir USB</string>
+    <string name="data_usage_app_restrict_background_all">Accés a la xarxa en segon pla</string>
+    <string name="security_restrict_usb_disabled">Permet sempre els nous dispositius USB</string>
+    <string name="device_reboot_timeout_title">Reinicia automàticament</string>
+    <string name="global_vpn_summary_any_vpn_active">Cal desactivar totes les connexions VPN actives abans d\'activar-ho</string>
+    <string name="global_vpn_summary_on">Força tot el trànsit del dispositiu a través d\'aquesta VPN, inclosos el perfil de treball i altres usuaris. Nota: Quan estigui habilitat, no podràs utilitzar una VPN separada en un perfil professional o altres usuaris</string>
+    <string name="security_restrict_usb_always">Denega els nous dispositius USB</string>
+    <string name="data_usage_app_restrict_background_all_summary">Habilita l\'ús de la xarxa en segon pla</string>
+    <string name="security_restrict_usb_keyguard">Permetre nous dispositius USB quan està desbloquejat</string>
+    <string name="cross_profile_sharing_title">Compartició entre perfils</string>
+    <string name="cross_profile_sharing_summary">Activa els botons de compartició de les aplicacions per treballar a través dels teus perfils personal i professional</string>
+    <string name="calyxos_version">Versió de CalyxOS</string>
+    <string name="aosp_module_version">Actualització del mòdul principal</string>
+    <string name="show_qs_on_secure_keyguard_title">Configuració ràpida</string>
+    <string name="wifi_timeout">Apaga el Wi-Fi automàticament</string>
+    <string name="wifi_timeout_summary">El Wi-Fi s\'apagarà després de <xliff:g id="timeout_description">%1$s</xliff:g> si no hi ha cap xarxa connectada</string>
+    <string name="wifi_timeout_summary2">Deshabilitat</string>
+    <string name="global_vpn_title">VPN Global</string>
+    <string name="global_vpn_summary">Força tot el trànsit del dispositiu a través d\'aquesta VPN, inclosos el perfil de treball i altres usuaris.</string>
+    <string name="device_reboot_timeout_summary">El dispositiu es reiniciarà automàticament si no s\'ha desbloquejat en l\'últim <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">El dispositiu no es reiniciarà automàticament</string>
+    <string name="cleartext_network_policy_title">Restringeix el trànsit de la xarxa de text clar</string>
+    <string name="cleartext_network_policy_summary">Bloqueja tot el trànsit de xarxa no TLS. Requereix la configuració DNS privada. Nota: Sense exempcions explícites, les aplicacions que utilitzen el trànsit de cleartext poden no funcionar</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, punt d\'accés Wi-Fi, VPN, DNS privat</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mòbil, Wi-Fi, punt d\'accés Wi-Fi, VPN, DNS privat</string>
+    <string name="system_dashboard_summary_calyx">Idiomes, gestos, temps, còpia de seguretat, usuaris, perfil de treball</string>
+    <string name="security_dashboard_summary_calyx">Bloqueig de pantalla, configuració del pànic, restriccions USB, seguretat d\'aplicacions</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, aparellament, NFC</string>
+    <string name="filter_hidden_apps">Aplicacions ocultes</string>
+    <string name="hide_app">Amaga aplicació</string>
+    <string name="unhide_app">Mostra aplicació</string>
+    <string name="unhide_app_desc">Si nostreu aquesta aplicació, tornarà a ser visible per a Android i altres aplicacions.</string>
+    <string name="hide_app_desc">Si amagueu aquesta aplicació, no serà visible per a Android i altres aplicacions, i és possible que ja no funcionin com s\'espera. Tingueu en compte, amagar una aplicació conserva les dades. En amagar-se, es desactiva aquesta aplicació i s\'amaga del dispositiu.</string>
+    <string name="captive_portal_title">Comprovació de connectivitat</string>
+    <string name="captive_portal_summary">Determineu si el dispositiu pot connectar-se a Internet, contactant amb Google. També s\'utilitza per detectar portals captius.</string>
+    <string name="bugreport_summary">Fer un informe d\'error</string>
+    <string name="keychords_title">Combinació de botons d\'informe d\'error</string>
+    <string name="keychords_summary">Captura un informe d\'error mantenint premut Volum amunt, Volum avall i el botó d\'Engegada al mateix temps, fins i tot quan el dispositiu està bloquejat</string>
+    <string name="keychords_summary_adb_enabled">Sempre habilitat quan la depuració està activada</string>
+    <string name="view_bugreports_title">Mostra els informes d\'error</string>
+    <string name="view_bugreports_summary_not_developer">Un cop vist, tots els informes d\'error romandran accessibles fins que reinicieu el dispositiu</string>
+    <string name="other_settings">Altres opcions</string>
+    <string name="quick_settings">Configuració ràpida</string>
+</resources>

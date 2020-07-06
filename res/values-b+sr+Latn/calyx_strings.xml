@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_summary">Prikažite opciju dugmeta za napajanje koja aktivira okidač za paniku u hitnim slučajevima.</string>
+    <string name="security_restrict_usb_disabled">Dozvoli uvek nove USB gadžete</string>
+    <string name="security_restrict_usb_keyguard">Dozvoli nove USB gadžete kada je uređaj otključan</string>
+    <string name="security_restrict_usb_always">Odbij nove USB gadžete</string>
+    <string name="security_restrict_usb_summary">Kontroliši podršku za USB gadžete kao što su slušalice, uređaji za skladištenje i ulaz (miševi, tastature, džojstici)</string>
+    <string name="security_restrict_usb_title">Ograniči USB</string>
+    <string name="panic_settings_title">Prikaži opciju panike</string>
+    <string name="calyxos_version">CalyxOS verzija</string>
+</resources>

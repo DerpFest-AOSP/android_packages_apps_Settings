@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_5mins">5 хвилин</string>
+    <string name="timeout_summary_never">Ніколи</string>
+    <string name="bluetooth_timeout">Час вимикання Bluetooth</string>
+    <string name="panic_settings_summary">Відображення опції кнопки живлення, яка задіює тривожну кнопку.</string>
+    <string name="security_restrict_usb_title">Обмежити USB</string>
+    <string name="timeout_summary_10mins">10 хвилин</string>
+    <string name="wifi_timeout_summary">Wi-Fi вимкнеться через <xliff:g id="timeout_description">%1$s</xliff:g> якщо не під\'єднано до жодної мережі</string>
+    <string name="timeout_summary_2mins">2 хвилини</string>
+    <string name="aosp_module_version">Оновлення основного модуля</string>
+    <string name="timeout_summary_30secs">30 секунд</string>
+    <string name="wifi_timeout_summary2">Вимкнено</string>
+    <string name="security_restrict_usb_summary">Підтримка управління для USB-пристроїв, таких як навушники, пристрої зберігання даних і пристрої введення (миші, клавіатури, джойстики)</string>
+    <string name="timeout_summary_1hour">1 година</string>
+    <string name="timeout_summary_30mins">30 хвилин</string>
+    <string name="bluetooth_timeout_summary2">Не вимикати Bluetooth автоматично</string>
+    <string name="cleartext_network_policy_summary">Блокує весь мережевий трафік, відмінний від TLS. Потрібна конфігурація приватного DNS. Примітка: Без явних винятків застосунки, які використовують відкритий трафік, можуть не працювати</string>
+    <string name="timeout_summary_8hours">8 годин</string>
+    <string name="timeout_summary_1min">1 хвилина</string>
+    <string name="security_restrict_usb_keyguard">Дозволити нові USB-пристрої під час розблокування</string>
+    <string name="security_restrict_usb_disabled">Завжди дозволяти нові USB-пристрої</string>
+    <string name="show_qs_on_secure_keyguard_title">Швидкі налаштування</string>
+    <string name="bluetooth_timeout_summary">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо жоден пристрій не під\'єднано</string>
+    <string name="security_restrict_usb_always">Заборонити нові USB-присторої</string>
+    <string name="panic_settings_title">Показати опцію \"Тривожна кнопка\"</string>
+    <string name="timeout_summary_4hours">4 години</string>
+    <string name="timeout_summary_15secs">15 секунд</string>
+    <string name="show_qs_on_secure_keyguard_summary">Дозволити швидкі налаштування на екрані блокування</string>
+    <string name="cleartext_network_policy_title">Обмежити відкритий мережевий трафік</string>
+    <string name="wifi_timeout">Вимкнення Wi-Fi автоматично</string>
+    <string name="data_usage_app_restrict_background_all_summary">Увімкнути використання мережі у фоновому режимі</string>
+    <string name="data_usage_app_restrict_background_all">Доступ до фонової мережі</string>
+    <string name="timeout_summary_2hours">2 години</string>
+    <string name="calyxos_version">Версія CalyxOS</string>
+    <string name="timeout_summary_72hours">72 години</string>
+    <string name="timeout_summary_48hours">48 годин</string>
+    <string name="timeout_summary_36hours">36 годин</string>
+    <string name="timeout_summary_24hours">24 години</string>
+    <string name="timeout_summary_12hours">12 годин</string>
+    <string name="device_reboot_timeout_summary">Пристрій автоматично перезавантажиться, якщо його не розблоковано протягом останніх/останньої <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">Пристрій не перезавантажиться автоматично</string>
+    <string name="device_reboot_timeout_title">Автоматичне перезавантаження</string>
+    <string name="network_dashboard_summary_mobile_calyx">Мобільний інтернет, Wi-Fi, точка доступу, VPN, приватний DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, точка доступу, VPN, приватний DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, з\'єднання, NFC</string>
+    <string name="security_dashboard_summary_calyx">Блокування екрана, налаштування паніки, обмеження USB, безпека застосунка</string>
+    <string name="system_dashboard_summary_calyx">Мови, жести, час, резервне копіювання, користувачі, робочий профіль</string>
+    <string name="hide">Приховати</string>
+    <string name="unhide">Показати</string>
+    <string name="captive_portal_title">Перевірка підключення</string>
+    <string name="captive_portal_summary">Перевірте, чи може пристрій підключитися до інтернету, звернувшись до Google. Також використовується для виявлення порталів приєднання.</string>
+    <string name="global_vpn_title">Глобальний VPN</string>
+    <string name="global_vpn_summary_on">Примусово завантажувати весь трафік на пристрої через цю VPN-службу, в тому числі робочий профіль та інших користувачів. Примітка: Якщо ввімкнено, ви не зможете використовувати окрему VPN-службу в робочому профілі або інших користувачах</string>
+    <string name="global_vpn_summary">Примусово пропускати весь трафік на пристрій через цей VPN, в тому числі робочий профіль та інших користувачах.</string>
+    <string name="global_vpn_summary_any_vpn_active">Спочатку потрібно вимкнути всі активні VPN-з\'єднання, щоб увімкнути це</string>
+    <string name="hide_app">Приховати застосунок</string>
+    <string name="filter_hidden_apps">Приховані застосунки</string>
+    <string name="unhide_app">Показати застосунок</string>
+    <string name="unhide_app_desc">Якщо ви відкриєте цей застосунок, він знову стане видимим для Android та інших застосунків.</string>
+    <string name="cross_profile_sharing_title">Міжпрофільний спільний доступ</string>
+    <string name="cross_profile_sharing_summary">Увімкніть кнопки надсилання в застосунку, щоб працювати в особистому та робочому профілі</string>
+    <string name="detailed_security_patch">Платформа:
+\n<xliff:g id="platform_level">
+\n%1$s</xliff:g>
+\nЯдро:
+\n<xliff:g id="kernel_level">
+\n%2$s</xliff:g>
+\nПостачальник:
+\n<xliff:g id="kernel_level">
+\n%3$s</xliff:g>
+\nПрошивка:
+\n<xliff:g id="firmware_level">
+\n%4$s</xliff:g></string>
+    <string name="hide_app_desc">Якщо приховати цей застосунок, вона не буде видимою для Android та інших застосунків, і вони можуть більше не працювати за призначенням. Пам\'ятайте, що приховування застосунку зберігає його дані. Приховавши, ви вимикаєте цей застосунок та приховуєте його на своєму пристрої.</string>
+    <string name="other_settings">Інші параметри</string>
+    <string name="quick_settings">Швидке налаштування</string>
+    <string name="bugreport_summary">Зробити звіт про помилку зараз</string>
+    <string name="view_bugreports_summary_not_developer">Після перегляду всі звіти про помилки залишатимуться доступними, доки ви не перезавантажите пристрій</string>
+    <string name="keychords_title">Комбінація кнопок повідомлення про помилку</string>
+    <string name="keychords_summary">Зробити звіт про помилку, утримуючи одночасно кнопки збільшення гучності, зменшення гучності та живлення, навіть якщо пристрій заблоковано</string>
+    <string name="keychords_summary_adb_enabled">Завжди увімкнено, коли ввімкнено налагодження</string>
+    <string name="view_bugreports_title">Перегляд звітів про помилки</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Біометричне розблокування для роботи</string>
+    <string name="work_hours_end_on_summary">Показувати сповіщення про вимкнення робочого профілю о <xliff:g id="end_time">%1$s</xliff:g> годині щодня</string>
+    <string name="miscellaneous_settings">Різне</string>
+    <string name="hidden">Приховане</string>
+    <string name="security_settings_biometric_preference_title_calyx">Біометричне розблокування</string>
+    <string name="data_usage_app_datura_firewall_summary">Налаштування брандмауера було перенесено до нового застосунку Firewall. Натисніть, щоби відкрити.</string>
+    <string name="data_usage_app_datura_firewall">Брандмауер Datura</string>
+    <string name="work_hours_title">Час роботи</string>
+    <string name="work_hours_end_off_summary">Показувати щоденне сповіщення про вимкнення робочого профілю</string>
+    <string name="work_hours_end_notification_title">Кінець робочого дня</string>
+    <string name="work_hours_end_notification_description">Натисніть, щоби вимкнути робочі зачтосунки</string>
+</resources>

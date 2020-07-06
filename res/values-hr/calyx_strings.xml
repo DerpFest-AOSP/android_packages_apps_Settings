@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">Uvijek dozvoli nove USB uređaje</string>
+    <string name="security_restrict_usb_keyguard">Dozvoli nove USB uređaje kad su otključani</string>
+    <string name="security_restrict_usb_always">Odbij nove USB uređaje</string>
+    <string name="security_restrict_usb_summary">Upravljaj podrškom za USB uređaje poput slušalica, uređaja za spremanje i unos podataka (miš, tipkovnica, joystick)</string>
+    <string name="security_restrict_usb_title">Ograniči USB</string>
+    <string name="panic_settings_summary">Prikaži opciju gumba za napajanje koja aktivira gumb panike za hitne slučajeve.</string>
+    <string name="panic_settings_title">Prikaži opciju panike</string>
+    <string name="calyxos_version">CalyxOS verzija</string>
+    <string name="bluetooth_timeout_summary">Bluetooth će se isključiti nakon <xliff:g id="timeout_description">%1$s</xliff:g> ako nijedan uređaj nije spojen</string>
+    <string name="data_usage_app_restrict_background_all">Pristup mreži u pozadini</string>
+    <string name="aosp_module_version">Aktualiziranje glavnog modula</string>
+    <string name="show_qs_on_secure_keyguard_summary">Dopusti uklj./isklj. brzih postavki na sigurnom zaključanom ekranu</string>
+    <string name="wifi_timeout_summary2">Deaktivirano</string>
+    <string name="timeout_summary_8hours">8 sati</string>
+    <string name="cleartext_network_policy_summary">Blokira sav mrežni promet koji nije TLS. Zahtijeva konfiguraciju privatnog DNS-a. Napomena: Bez eksplicitnih izuzeća, Tor i većina VPN-ova neće raditi</string>
+    <string name="timeout_summary_1hour">1 sat</string>
+    <string name="wifi_timeout_summary">Wi-Fi će se isključiti nakon <xliff:g id="timeout_description">%1$s</xliff:g> ako nijedna mreža nije povezana</string>
+    <string name="cleartext_network_policy_title">Ograniči mrežni promet otvorenog teksta</string>
+    <string name="bluetooth_timeout_summary2">Nemoj automatski isključiti Bluetooth</string>
+    <string name="timeout_summary_4hours">4 sata</string>
+    <string name="show_qs_on_secure_keyguard_title">Brze postavke</string>
+    <string name="bluetooth_timeout">Istek Bluetootha</string>
+    <string name="data_usage_app_restrict_background_all_summary">Aktiviraj korištenje mreže u pozadini</string>
+    <string name="timeout_summary_15secs">15 sekundi</string>
+    <string name="timeout_summary_30secs">30 sekundi</string>
+    <string name="timeout_summary_5mins">5 minuta</string>
+    <string name="timeout_summary_30mins">30 minuta</string>
+    <string name="timeout_summary_2mins">2 minute</string>
+    <string name="timeout_summary_1min">1 minuta</string>
+    <string name="timeout_summary_10mins">10 minuta</string>
+    <string name="timeout_summary_2hours">2 sata</string>
+    <string name="timeout_summary_never">Nikada</string>
+    <string name="wifi_timeout">Isključi Wi-Fi automatski</string>
+    <string name="device_reboot_timeout_title">Automatsko ponovno pokretanje</string>
+    <string name="device_reboot_timeout_summary2">Uređaj se neće automatski ponovno pokrenuti</string>
+    <string name="timeout_summary_12hours">12 sati</string>
+    <string name="timeout_summary_24hours">24 sata</string>
+    <string name="timeout_summary_36hours">36 sati</string>
+    <string name="timeout_summary_48hours">48 sati</string>
+    <string name="timeout_summary_72hours">72 sata</string>
+    <string name="device_reboot_timeout_summary">Uređaj će se automatski ponovno pokrenuti ako nije otključan u zadnjih <xliff:g id="timeout_description">%1$s</xliff:g></string>
+</resources>

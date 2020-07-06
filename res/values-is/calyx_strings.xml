@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">Leyfa ný USB tæki alltaf</string>
+    <string name="security_restrict_usb_keyguard">Leyfa ný USB tæki þegar tækið er ólæst</string>
+    <string name="security_restrict_usb_always">Hafna nýjum USB tækjum</string>
+    <string name="security_restrict_usb_summary">Stjórna stuðningi við USB tengdan búnað, t.d. heyrnartól, geymslumiðla og ílagstæki (mýs, lyklaborð o.s.frv.)</string>
+    <string name="security_restrict_usb_title">Hamla USB</string>
+    <string name="panic_settings_summary">Sýna ræsihnappsmöguleika sem virkjar neyðarviðbragð</string>
+    <string name="panic_settings_title">Sýna neyðarvalkost</string>
+    <string name="calyxos_version">CalyxOS útgáfa</string>
+    <string name="timeout_summary_8hours">8 klukkustundir</string>
+    <string name="timeout_summary_4hours">4 klukkustundir</string>
+    <string name="timeout_summary_2hours">2 klukkustundir</string>
+    <string name="timeout_summary_1hour">1 klukkustund</string>
+    <string name="timeout_summary_30mins">30 mínútur</string>
+    <string name="timeout_summary_10mins">10 mínútur</string>
+    <string name="timeout_summary_5mins">5 mínútur</string>
+    <string name="timeout_summary_2mins">2 mínútur</string>
+    <string name="timeout_summary_1min">1 mínútu</string>
+    <string name="timeout_summary_30secs">30 sekúndur</string>
+    <string name="timeout_summary_15secs">15 sekúndur</string>
+    <string name="timeout_summary_never">Aldrei</string>
+    <string name="bluetooth_timeout_summary2">Ekki slökkva sjálfvirkt á Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Slökkt verður á Bluetooth eftir <xliff:g id="timeout_description">%1$s</xliff:g> ef engin tæki tengjast</string>
+    <string name="bluetooth_timeout">Bluetooth tímamörk</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_8hours">8 stundas</string>
+    <string name="timeout_summary_4hours">4 stundas</string>
+    <string name="timeout_summary_2hours">2 stundas</string>
+    <string name="timeout_summary_1hour">1 stunda</string>
+    <string name="timeout_summary_30mins">30 minūtes</string>
+    <string name="timeout_summary_10mins">10 minūtes</string>
+    <string name="timeout_summary_5mins">5 minūtes</string>
+    <string name="timeout_summary_2mins">2 minūtes</string>
+    <string name="timeout_summary_1min">1 minūte</string>
+    <string name="timeout_summary_30secs">30 sekundes</string>
+    <string name="timeout_summary_15secs">15 sekundes</string>
+    <string name="timeout_summary_never">Nekad</string>
+    <string name="bluetooth_timeout_summary2">Neizslēgt Bluetooth automātiski</string>
+    <string name="bluetooth_timeout_summary">Bluetooth izslēgsies pēc <xliff:g id="timeout_description">%1$s</xliff:g> ja neviena ierīce nav savienota</string>
+    <string name="bluetooth_timeout">Bluetooth taimauts</string>
+    <string name="security_restrict_usb_disabled">Atļaut jaunus USB gadžetus vienmēr</string>
+    <string name="security_restrict_usb_keyguard">Atļaut jaunus USB gadžetus, kad telefons ir atbloķēts</string>
+    <string name="security_restrict_usb_always">Aizliegt jaunus USB gadžetus</string>
+    <string name="security_restrict_usb_summary">Kontrolēt atbalstu USB gadžetiem, kā austiņām, atmiņas ierīcēm un ievadei (pelēm, tastatūrām)</string>
+    <string name="security_restrict_usb_title">Ierobežot USB</string>
+    <string name="panic_settings_summary">Rādīt pie izslēgšanas, restartēšanas pogām opciju, kas aktivizē ārkārtas situāciju.</string>
+    <string name="panic_settings_title">Rādīt Panikas opciju</string>
+    <string name="calyxos_version">CalyxOS versija</string>
+</resources>
