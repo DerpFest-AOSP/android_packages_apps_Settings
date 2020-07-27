@@ -73,4 +73,8 @@
     <string name="incall_vibrate_call_wait_summary">Aktivieren, um zu vibrieren, während der Anruf in der Warteschleife ist</string>
     <string name="incall_vibrate_disconnect_title">Vibrieren beim Trennen</string>
     <string name="incall_vibrate_disconnect_summary">Aktivieren, um nach dem Trennen des Anrufs zu vibrieren</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Wechseln zwischen den Modi</string>
+    <string name="prevent_ringing_option_cycle_summary">Ein (Wechseln zwischen den Modi)</string>
 </resources>

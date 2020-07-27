@@ -101,4 +101,8 @@
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <string name="incall_vibrate_disconnect_summary">Enable to vibrate after call disconnect</string>
 
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+
 </resources>
