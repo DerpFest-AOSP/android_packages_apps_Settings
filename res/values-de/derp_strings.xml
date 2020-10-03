@@ -77,4 +77,11 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Wechseln zwischen den Modi</string>
     <string name="prevent_ringing_option_cycle_summary">Ein (Wechseln zwischen den Modi)</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Apps dazu zwingen, die Display-Aussparung zu ignorieren</string>
+    <string name="display_cutout_force_fullscreen_search">Suchen</string>
+    <string name="display_cutout_force_fullscreen_search_apps">Apps suchen</string>
+    <string name="display_cutout_force_fullscreen_loading">Apps werden geladen\u2026</string>
 </resources>
