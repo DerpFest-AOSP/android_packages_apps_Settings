@@ -101,6 +101,7 @@ import com.android.settings.security.screenlock.PatternVisiblePreferenceControll
 import com.android.settings.security.screenlock.PinPrivacyPreferenceController;
 import com.android.settings.security.screenlock.PinScramblePreferenceController;
 import com.android.settings.security.screenlock.PowerButtonInstantLockPreferenceController;
+import com.android.settings.security.screenlock.StatusBarPreferenceController;
 import com.android.settingslib.RestrictedPreference;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.widget.FooterPreference;
@@ -714,6 +715,8 @@ public class ChooseLockGeneric extends SettingsActivity {
             mUnlockSettingsControllers.add(new PinPrivacyPreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new PinScramblePreferenceController(
+                    getContext(), mUserId, mLockPatternUtils));
+            mUnlockSettingsControllers.add(new StatusBarPreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new PowerButtonInstantLockPreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
