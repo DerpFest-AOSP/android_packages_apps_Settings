@@ -138,4 +138,8 @@
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux-Status</string>
     <string name="selinux_status_disabled">Deaktiviert</string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB-Konfiguration</string>
+    <string name="usb_default_config_summary">Standardverhalten beim Verbinden mit einem Gerät über USB wählen</string>
 </resources>
