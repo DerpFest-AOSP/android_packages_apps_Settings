@@ -42,6 +42,9 @@ java_library {
     libs: [
         "app-compat-annotations",
     ],
+    optimize: {
+         proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 android_library {
@@ -55,17 +58,23 @@ android_library {
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
+        "DerpFestCustomizations/src/**/*.java",
+        "DerpFestCustomizations/src/**/*.kt",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
     ],
     use_resource_processor: true,
+
+    aaptflags: ["--extra-packages org.derpfest.customizations"],
+
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
         "res-derp",
-        "stub/ui/res"
+        "stub/ui/res",
+        "DerpFestCustomizations/res",
     ],
 
     static_libs: [

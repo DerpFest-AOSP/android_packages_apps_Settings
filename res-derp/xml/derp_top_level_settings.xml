@@ -22,9 +22,24 @@
     android:key="top_level_settings">
 
     <PreferenceCategory
-        android:order="-140"
+        android:order="-150"
         android:key="top_level_account_category"
         android:layout="@layout/settingslib_preference_category_no_title">
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:order="-140"
+        android:key="top_level_derpfest_category"
+        android:layout="@layout/settingslib_preference_category_no_title">
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="org.derpfest.customizations.DerpFestCustomizations"
+            android:icon="@drawable/ic_homepage_derpfest"
+            android:key="top_level_derpfest"
+            android:order="-160"
+            android:title="@string/derpfest_customizations_title"
+            android:summary="@string/derpfest_customizations_summary"
+            settings:highlightableMenuKey="@string/menu_key_derpfest"
+            settings:controller="org.derpfest.customizations.TopLevelDerpFestCustomizationsPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory

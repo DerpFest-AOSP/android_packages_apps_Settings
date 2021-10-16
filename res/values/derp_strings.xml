@@ -204,4 +204,9 @@
     <string name="doze_on_charge_title">Always show when charging</string>
     <string name="doze_on_charge_summary">Show time and info all the time when charging</string>
 
+    <!-- DerpFest Customizations on homepage -->
+    <string name="derpfest_customizations_title">DerpFest Customizations</string>
+    <string name="derpfest_customizations_summary">Where the broken stuff is placed</string>
+    <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
+
 </resources>

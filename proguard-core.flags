@@ -1,0 +1,2 @@
+# DerpFestCustomizations
+-keep class org.derpfest.customizations.**
