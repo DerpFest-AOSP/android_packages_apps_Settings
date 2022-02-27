@@ -65,6 +65,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "res-derp",
     ],
     optional_uses_libs: ["com.android.extensions.appfunctions"],
     static_libs: [
