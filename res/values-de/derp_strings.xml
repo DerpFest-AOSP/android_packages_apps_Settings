@@ -29,4 +29,9 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s heute</string>
 
+
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">In Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Lange drücken zum Kopieren</string>
+
 </resources>
