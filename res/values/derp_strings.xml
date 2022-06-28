@@ -356,4 +356,9 @@
     <string name="transient_task_mode_default">Disable (Default)</string>
     <string name="transient_task_mode_allow">Enable (Some apps will stay)</string>
     <string name="transient_task_mode_force">Force (Override app behaviour)</string>
+
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">Reset preference</string>
+    <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
+    <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
 </resources>
