@@ -279,4 +279,6 @@
     <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
     <string name="haptic_on_qs_title">QS tiles</string>
     <string name="haptic_on_qs_summary">Feel a vibration upon touching quick tiles</string>
+    <string name="haptic_on_power_menu_title">Power menu</string>
+    <string name="haptic_on_power_menu_summary">Provide haptic feedback on power menu actions</string>
 </resources>
