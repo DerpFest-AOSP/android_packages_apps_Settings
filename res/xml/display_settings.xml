@@ -123,6 +123,9 @@
             android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
             settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"/>
 
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:title="@string/developer_smallest_width" />
     </PreferenceCategory>
 
     <PreferenceCategory
