@@ -355,4 +355,9 @@
     <!-- Ambient timeout -->
     <string name="ambient_time_out_title">Ambient notification time out</string>
     <string name="ambient_time_out_summary">%1$d seconds</string>
+
+    <!-- Per-app volume -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Show per-app volume button into volume dialog</string>
 </resources>
