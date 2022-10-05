@@ -26,6 +26,7 @@ import com.android.settings.R
 import com.android.settings.Settings.MyDeviceInfoActivity
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionScreen
+import com.android.settings.deviceinfo.firmwareversion.DerpFestVersionDetailPreference
 import com.android.settings.deviceinfo.hardwareinfo.HardwareInfoScreen
 import com.android.settings.deviceinfo.imei.ImeiPreference
 import com.android.settings.deviceinfo.imei.getImeiList
@@ -101,6 +102,7 @@ open class MyDeviceInfoScreen :
                         +ImeiPreference(context, i, activeModemCount, imeiList) order (i + 33)
                     }
                     +FirmwareVersionScreen.KEY order 42
+                    +DerpFestVersionDetailPreference() order 43
                 }
         }
 
