@@ -30,13 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Lineage version -->
+    <!-- DerpFest version -->
     <Preference
-        android:key="lineage_version"
-        android:title="@*lineageos.platform:string/lineage_version"
+        android:key="derpfest_version"
+        android:title="@string/derpfest_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestVersionPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
