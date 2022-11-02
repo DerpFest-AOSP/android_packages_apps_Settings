@@ -67,4 +67,13 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Wischen für Screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Mit drei Fingern wischen, um einen Screenshot zu erstellen</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationsoptionen während des Gesprächs</string>
+    <string name="incall_vibrate_connect_title">Vibrieren beim Verbinden</string>
+    <string name="incall_vibrate_connect_summary">Aktivieren, um nach dem Verbinden des Anrufs zu vibrieren</string>
+    <string name="incall_vibrate_call_wait_title">Vibrieren bei Warteschleife</string>
+    <string name="incall_vibrate_call_wait_summary">Aktivieren, um zu vibrieren, während der Anruf in der Warteschleife ist</string>
+    <string name="incall_vibrate_disconnect_title">Vibrieren beim Trennen</string>
+    <string name="incall_vibrate_disconnect_summary">Aktivieren, um nach dem Trennen des Anrufs zu vibrieren</string>
 </resources>
