@@ -158,10 +158,7 @@ public class AppLocaleDetails extends SettingsPreferenceFragment {
     }
 
     private void setDisclaimerPreference() {
-        if (FeatureFlagUtils.isEnabled(
-                getContext(), FeatureFlagUtils.SETTINGS_APP_LOCALE_OPT_IN_ENABLED)) {
-            mPrefOfDisclaimer.setVisible(false);
-        }
+        mPrefOfDisclaimer.setVisible(false);
     }
 
     private void setDescription() {

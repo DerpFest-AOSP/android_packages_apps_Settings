@@ -100,10 +100,10 @@ public class AppLocaleUtil {
             return localeList.size() > 0;
         }
 
-        if (FeatureFlagUtils.isEnabled(
+        /*if (FeatureFlagUtils.isEnabled(
                 context, FeatureFlagUtils.SETTINGS_APP_LOCALE_OPT_IN_ENABLED)) {
             return false;
-        }
+        }*/
 
         return getAssetLocales(context, packageName).length > 0;
     }
