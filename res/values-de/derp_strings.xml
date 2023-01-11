@@ -50,4 +50,10 @@
     <!-- DerpFest official banner -->
     <string name="derp_official_title">Wusstest Du schon?</string>
     <string name="derp_official_summary">Du verwendest derzeit eine offizielle Build von DerpFest.</string>
+
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">Inaktivitätsdisplay anzeigen</string>
+    <string name="doze_gesture_ambient_summary">Inaktivitätsdisplay anzeigen, anstatt den Bildschirm vollständig einzuschalten</string>
+    <string name="gesture_wake_ambient">Inaktivitätsdisplay anzeigen</string>
+    <string name="gesture_wake">Vollständig einschalten</string>
 </resources>
