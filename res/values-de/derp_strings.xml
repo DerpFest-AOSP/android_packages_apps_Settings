@@ -15,6 +15,7 @@
 
 
     <!-- Hardware info -->
+    <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">Gesamter RAM</string>
 
 </resources>
