@@ -216,4 +216,8 @@
     <!-- DerpFest maintainer -->
     <string name="derpfest_summary">Built by %s</string>
     <string name="derpfest_maintainer">Unofficial Maintainer</string>
+
+    <!-- DerpFest official banner -->
+    <string name="derp_official_title">Did you know?</string>
+    <string name="derp_official_summary">You\'re currently running an official build of DerpFest.</string>
 </resources>
