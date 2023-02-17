@@ -41,4 +41,9 @@
     <!-- DerpFest maintainer -->
     <string name="derpfest_summary">Gebaut von %s</string>
 
+
+    <!-- DerpFest official banner -->
+    <string name="derp_official_title">Wusstest Du schon?</string>
+    <string name="derp_official_summary">Du verwendest derzeit eine offizielle Build von DerpFest.</string>
+
 </resources>
