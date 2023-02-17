@@ -199,4 +199,8 @@
     <!-- Default Timeouts -->
     <string name="custom_timeout_summary_1hour_def">1 hour (Default)</string>
 
+	<!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Show time and info all the time when charging</string>
+
 </resources>
