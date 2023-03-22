@@ -344,4 +344,8 @@
     <!-- wake gestures haptics -->
     <string name="doze_gesture_vibrate_title">Haptic Feedback</string>
     <string name="doze_gesture_vibrate_summary">Vibrate when this gesture is invoked</string>
+
+    <!-- Ambient timeout -->
+    <string name="ambient_time_out_title">Ambient notification time out</string>
+    <string name="ambient_time_out_summary">%1$d seconds</string>
 </resources>
