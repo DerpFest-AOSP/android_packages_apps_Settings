@@ -150,6 +150,13 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
+        <ListPreference
+            android:key="ambient_notif_timeout"
+            android:title="@string/ambient_time_out_title"
+            android:entries="@array/ambient_time_out_entries"
+            android:entryValues="@array/ambient_time_out_values"
+            android:persistent="false" />
+
         <lineageos.preference.RemotePreference
             android:key="doze_device_settings"
             android:title="@string/ambient_display_screen_title"
