@@ -343,4 +343,8 @@
     <string name="cycle_type_weekly_sub">Day of each week:\n1 = Monday</string>
     <string name="cycle_type_daily_title">Usage cycle reset hour</string>
     <string name="cycle_type_daily_sub">Hour of each day:</string>
+
+    <!-- Ambient timeout -->
+    <string name="ambient_time_out_title">Ambient notification time out</string>
+    <string name="ambient_time_out_summary">%1$d seconds</string>
 </resources>
