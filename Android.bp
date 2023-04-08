@@ -130,6 +130,9 @@ android_library {
         // Lineage dependencies
         "org.lineageos.platform.internal",
         "LineagePreferenceLib",
+
+        // DerpFest dependencies
+        "VendorSupport-preference",
     ],
 
     plugins: [
