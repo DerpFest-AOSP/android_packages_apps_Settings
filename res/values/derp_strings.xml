@@ -348,4 +348,12 @@
     <string name="android_security_title">AOSP security patch level</string>
     <string name="android_security_summary">Android security updates are a collection of patches to the Android platform and the vendor binaries that help it run. Since these binaries are closed source, we have to rely on the vendors to supply them to the OEMs and the OEMs to ship them to users so we can add them to our builds. As we cannot control this process at all, we want to make it clear that we only update the security patch level in the repos that come from the Android Open Source Project. Generally, the vendor security patch level will be whatever patch level the latest stock ROM is on.</string>
     <string name="vendor_security_title">Vendor patch level</string>
+
+    <!-- Transient task mode (Tadi mode) -->
+    <string name="transient_task_mode_title">Transient task mode</string>
+    <string name="transient_task_mode_dialog_title">Transient task mode (Reboot your device to apply changes)</string>
+    <string name="transient_task_mode_summary">Dismiss apps from recents when last activity gets closed using back button.</string>
+    <string name="transient_task_mode_default">Disable (Default)</string>
+    <string name="transient_task_mode_allow">Enable (Some apps will stay)</string>
+    <string name="transient_task_mode_force">Force (Override app behaviour)</string>
 </resources>
