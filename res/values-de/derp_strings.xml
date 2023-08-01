@@ -51,4 +51,8 @@
     <string name="doze_gesture_ambient_summary">Inaktivitätsdisplay anzeigen, anstatt den Bildschirm vollständig einzuschalten</string>
     <string name="gesture_wake_ambient">Inaktivitätsdisplay anzeigen</string>
     <string name="gesture_wake">Vollständig einschalten</string>
+
+    <!-- wake gestures haptics -->
+    <string name="doze_gesture_vibrate_title">Haptisches Feedback</string>
+    <string name="doze_gesture_vibrate_summary">Bei Auslösen dieser Geste vibrieren</string>
 </resources>
