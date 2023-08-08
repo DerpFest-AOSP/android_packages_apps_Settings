@@ -207,4 +207,8 @@ Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meiste
     <string name="doze_vibrate_summary">Vibrationsdauer bei kurz angezeigten Benachrichtigungen</string>
     <string name="caution">Vorsicht</string>
     <string name="sensor_warning_message">Einstellungen, die auf Sensoren basieren, unterliegen der Hardware-Kompatibilität. Die Aktivierung von Ambient-Modus-Sensoren kann die Stromaufnahme erhöhen.</string>
+
+    <!-- Fling scroll edge haptics -->
+    <string name="scroll_fling_haptic_feedback_title">Haptik beim Wischen am Rand</string>
+    <string name="scroll_fling_haptic_feedback_summary">Mit Klick-Effekt vibrieren, wenn ein Wisch-Scrollen den Rand einer Liste oder Seite erreicht</string>
 </resources>

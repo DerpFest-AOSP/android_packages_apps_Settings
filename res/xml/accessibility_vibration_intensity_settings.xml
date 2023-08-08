@@ -106,6 +106,13 @@
             app:keywords="@string/keywords_keyboard_vibration"
             app:controller="com.android.settings.accessibility.KeyboardVibrationTogglePreferenceController"/>
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="scroll_fling_haptic_feedback"
+            android:title="@string/scroll_fling_haptic_feedback_title"
+            android:summary="@string/scroll_fling_haptic_feedback_summary"
+            android:defaultValue="false"
+            app:controller="com.android.settings.accessibility.ScrollFlingHapticFeedbackPreferenceController" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
