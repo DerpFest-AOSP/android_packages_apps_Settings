@@ -228,6 +228,8 @@
     <!-- Haptic feedback -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
+    <string name="scroll_fling_haptic_feedback_title">Vibrate on scroll flings</string>
+    <string name="scroll_fling_haptic_feedback_summary">Vibrate on reaching edges when scrolling with fling gesture</string>
 
     <!-- Advanced VPN -->
     <string name="advanced_vpn_preference_group_title">Built-in</string>
