@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2021-2023 DerpFest Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+         http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<LinearLayout 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<LinearLayout 
+		android:orientation="vertical" 
+		android:background="@drawable/about_header_background"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="@dimen/derpfest_card_side_margin" 
+		android:layout_marginRight="@dimen/derpfest_card_side_margin">
+        
+        <LinearLayout 
+            android:orientation="horizontal" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.0dip">
+            <LinearLayout 
+                android:gravity="center_vertical"
+                android:orientation="vertical" 
+                android:layout_width="0.0dip" 
+                android:layout_height="wrap_content" 
+                android:layout_marginStart="@dimen/derpfest_card_side_margin" 
+                android:layout_marginEnd="@dimen/derpfest_card_side_margin"
+                android:layout_weight="5.0">
+                    <ImageView
+                        android:src="@drawable/ic_about_device"
+                        android:gravity="start" 
+                        android:layout_gravity="start" 
+                        android:layout_width="@dimen/derpfest_hw_info_icons"
+                        android:layout_height="@dimen/derpfest_hw_info_icons" />
+                    <TextView 
+                        android:id="@+id/device_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/derpfest_device_title"
+                        style="@style/TextAppearance.derpfestInfoTitle"/>
+                    <TextView 
+                        android:id="@+id/device_summary"
+                        style="@style/TextAppearance.derpfestInfoSummary"
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2.0dip"/>
+            </LinearLayout>
+
+            <LinearLayout 
+                android:gravity="center_vertical"
+                android:orientation="vertical" 
+                android:layout_width="0.0dip" 
+                android:layout_height="wrap_content" 
+                android:layout_marginStart="@dimen/derpfest_card_side_margin" 
+                android:layout_marginEnd="@dimen/derpfest_card_side_margin"
+                android:layout_weight="5.0">
+                    <ImageView
+                        android:src="@drawable/ic_about_storage"
+                        android:gravity="start" 
+                        android:layout_gravity="start" 
+                        android:layout_width="@dimen/derpfest_hw_info_icons"
+                        android:layout_height="@dimen/derpfest_hw_info_icons" />
+                    <TextView 
+                        android:id="@+id/memory_storage_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/derpfest_memory_storage_title"
+                        style="@style/TextAppearance.derpfestInfoTitle"/>
+                    <TextView 
+                        android:id="@+id/memory_storage_summary"
+                        style="@style/TextAppearance.derpfestInfoSummary"
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout 
+            android:orientation="horizontal" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.0dip">
+            <LinearLayout 
+                android:gravity="center_vertical"
+                android:orientation="vertical" 
+                android:paddingTop="20.0dip" 
+                android:paddingBottom="20.0dip" 
+                android:layout_width="0.0dip" 
+                android:layout_height="wrap_content" 
+                android:layout_marginStart="@dimen/derpfest_card_side_margin" 
+                android:layout_marginEnd="@dimen/derpfest_card_side_margin"
+                android:layout_weight="5.0">
+                    <ImageView
+                        android:src="@drawable/ic_about_battery"
+                        android:gravity="start" 
+                        android:layout_gravity="start" 
+                        android:layout_width="@dimen/derpfest_hw_info_icons"
+                        android:layout_height="@dimen/derpfest_hw_info_icons" />
+                    <TextView 
+                        android:id="@+id/battery_size_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/derpfest_battery_size_title"
+                        style="@style/TextAppearance.derpfestInfoTitle"/>
+
+                    <TextView 
+                        android:id="@+id/battery_size_summary"
+                        style="@style/TextAppearance.derpfestInfoSummary"
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2.0dip"/>
+            </LinearLayout>
+
+            <LinearLayout 
+                android:gravity="center_vertical"
+                android:orientation="vertical" 
+                android:paddingTop="20.0dip" 
+                android:layout_width="0.0dip" 
+                android:layout_height="wrap_content" 
+                android:layout_marginStart="@dimen/derpfest_card_side_margin" 
+                android:layout_marginEnd="@dimen/derpfest_card_side_margin"
+                android:layout_weight="5.0">
+                    <ImageView
+                        android:src="@drawable/ic_about_display"
+                        android:gravity="start" 
+                        android:layout_gravity="start" 
+                        android:layout_width="@dimen/derpfest_hw_info_icons"
+                        android:layout_height="@dimen/derpfest_hw_info_icons" />                 
+                    <TextView 
+                        android:id="@+id/screen_res_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:text="@string/derpfest_screen_res_title"
+                        style="@style/TextAppearance.derpfestInfoTitle"/>
+                    <TextView 
+                        android:id="@+id/screen_res_summary"
+                        style="@style/TextAppearance.derpfestInfoSummary"
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

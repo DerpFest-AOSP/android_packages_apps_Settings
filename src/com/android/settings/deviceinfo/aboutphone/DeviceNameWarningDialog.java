@@ -35,6 +35,17 @@ public class DeviceNameWarningDialog extends InstrumentedDialogFragment
 
     public static final String TAG = "DeviceNameWarningDlg";
 
+    public static void show(AboutDevice host) {
+        final FragmentManager manager = host.getActivity().getSupportFragmentManager();
+        if (manager.findFragmentByTag(TAG) != null) {
+            return;
+        }
+
+        final DeviceNameWarningDialog dialog = new DeviceNameWarningDialog();
+        dialog.setTargetFragment(host, 0 /* requestCode */);
+        dialog.show(manager, TAG);
+    }
+
     public static void show(MyDeviceInfoFragment host) {
         final FragmentManager manager = host.getActivity().getSupportFragmentManager();
         if (manager.findFragmentByTag(TAG) != null) {
@@ -64,11 +75,21 @@ public class DeviceNameWarningDialog extends InstrumentedDialogFragment
 
     @Override
     public void onClick(DialogInterface dialog, int which) {
-        final MyDeviceInfoFragment host = (MyDeviceInfoFragment) getTargetFragment();
-        if (which == DialogInterface.BUTTON_POSITIVE) {
-            host.onSetDeviceNameConfirm(true);
-        } else {
-            host.onSetDeviceNameConfirm(false);
+        final androidx.fragment.app.Fragment targetFragment = getTargetFragment();
+        if (targetFragment instanceof AboutDevice) {
+            final AboutDevice host = (AboutDevice) targetFragment;
+            if (which == DialogInterface.BUTTON_POSITIVE) {
+                host.onSetDeviceNameConfirm(true);
+            } else {
+                host.onSetDeviceNameConfirm(false);
+            }
+        } else if (targetFragment instanceof MyDeviceInfoFragment) {
+            final MyDeviceInfoFragment host = (MyDeviceInfoFragment) targetFragment;
+            if (which == DialogInterface.BUTTON_POSITIVE) {
+                host.onSetDeviceNameConfirm(true);
+            } else {
+                host.onSetDeviceNameConfirm(false);
+            }
         }
     }
 }
