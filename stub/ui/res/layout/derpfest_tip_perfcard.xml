@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_single_background_ripple"
+    android:layout_marginHorizontal="@dimen/derpfest_cardview_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_marginVertical="@dimen/derpfest_pref_vert"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/derpfest_cardview_margin_list"
+            android:layout_marginBottom="@dimen/derpfest_cardview_margin_list"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:layout_marginEnd="@dimen/derpfest_cardview_padding">
+
+            <FrameLayout
+                android:id="@id/icon_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/derpfest_cardview_padding">
+                <androidx.preference.internal.PreferenceImageView
+                    android:id="@android:id/icon"
+                    android:padding="1.5dip"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@android:id/title"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/derpfest_cardview_padding"
+                android:singleLine="true"
+                style="@style/derpfest_about_cardview_text_primary" />
+
+
+            <TextView
+                android:id="@android:id/summary"
+                android:fadingEdge="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/derpfest_cardview_padding"
+                android:maxLines="4"
+                style="@style/derpfest_about_cardview_text_secondary" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@android:id/widget_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"/>
+    </LinearLayout>
+</LinearLayout>

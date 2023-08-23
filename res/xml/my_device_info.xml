@@ -30,16 +30,7 @@
     <PreferenceCategory
         android:key="basic_info_category"
         android:selectable="false"
-        android:title="@string/my_device_info_basic_info_category_title">
-
-        <!-- Device name -->
-        <com.android.settings.widget.ValidatedEditTextPreference
-            android:key="device_name"
-            android:order="1"
-            android:title="@string/my_device_info_device_name_preference_title"
-            android:summary="@string/summary_placeholder"
-            settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
-            settings:enableCopying="true"/>
+        android:title="@string/sim_num_info_cat">
 
         <!-- Account name -->
         <Preference
@@ -137,15 +128,6 @@
             settings:isPreferenceVisible="@bool/config_show_sim_info"
             settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
 
-        <!-- Android version -->
-        <Preference
-            android:key="firmware_version"
-            android:order="42"
-            android:title="@string/firmware_version"
-            android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
-
         <!-- DerpFest version -->
         <Preference
             android:key="derpfest_version"
@@ -226,15 +208,6 @@
             android:order="52"
             android:title="@string/fcc_equipment_id"
             android:summary="@string/summary_placeholder"/>
-
-        <!-- Build number -->
-        <Preference
-            android:key="build_number"
-            android:order="53"
-            android:title="@string/build_number"
-            android:summary="@string/summary_placeholder"
-            settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

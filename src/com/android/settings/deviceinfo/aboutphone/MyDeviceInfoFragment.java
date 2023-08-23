@@ -32,8 +32,6 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.deviceinfo.BluetoothAddressPreferenceController;
-import com.android.settings.deviceinfo.BuildNumberPreferenceController;
-import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 import com.android.settings.deviceinfo.FeedbackPreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
@@ -61,14 +59,11 @@ import java.util.concurrent.Executors;
 import java.util.function.Consumer;
 
 @SearchIndexable
-public class MyDeviceInfoFragment extends DashboardFragment
-        implements DeviceNamePreferenceController.DeviceNamePreferenceHost {
+public class MyDeviceInfoFragment extends DashboardFragment {
 
     private static final String LOG_TAG = "MyDeviceInfoFragment";
     private static final String KEY_EID_INFO = "eid_info";
     private static final String KEY_MY_DEVICE_INFO_HEADER = "my_device_info_header";
-
-    private BuildNumberPreferenceController mBuildNumberPreferenceController;
 
     @Override
     public int getMetricsCategory() {
@@ -83,9 +78,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(DeviceNamePreferenceController.class).setHost(this /* parent */);
-        mBuildNumberPreferenceController = use(BuildNumberPreferenceController.class);
-        mBuildNumberPreferenceController.setHost(this /* parent */);
     }
 
     @Override
@@ -163,14 +155,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
         return controllers;
     }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (mBuildNumberPreferenceController.onActivityResult(requestCode, resultCode, data)) {
-            return;
-        }
-        super.onActivityResult(requestCode, resultCode, data);
-    }
-
     private void initHeader() {
         // TODO: Migrate into its own controller.
         final LayoutPreference headerPreference =
@@ -201,16 +185,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
         }
 
         controller.done(true /* rebindActions */);
-    }
-
-    @Override
-    public void showDeviceNameWarningDialog(String deviceName) {
-        DeviceNameWarningDialog.show(this);
-    }
-
-    public void onSetDeviceNameConfirm(boolean confirm) {
-        final DeviceNamePreferenceController controller = use(DeviceNamePreferenceController.class);
-        controller.updateDeviceName(confirm);
     }
 
     @Override
