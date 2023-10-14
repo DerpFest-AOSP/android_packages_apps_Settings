@@ -61,7 +61,7 @@ public class CombinedBiometricStatusUtils {
      * Returns whether the combined biometric settings entity should be shown.
      */
     public boolean isAvailable() {
-        return Utils.hasFingerprintHardware(mContext) && Utils.hasFaceHardware(mContext);
+        return Utils.hasFingerprintHardware(mContext) || Utils.hasFaceHardware(mContext);
     }
 
     /**
@@ -103,9 +103,10 @@ public class CombinedBiometricStatusUtils {
             return mContext.getString(
                     Utils.isPrivateProfile(mUserId, mContext)
                             ? R.string.private_space_biometric_unlock_title
-                            : R.string.security_settings_work_biometric_preference_title);
+                            : R.string.security_settings_work_biometric_preference_title_calyx);
         } else {
-            return mContext.getString(R.string.security_settings_biometric_preference_title);
+            return mContext.getString(
+                    R.string.security_settings_biometric_preference_title_calyx);
         }
     }
 
