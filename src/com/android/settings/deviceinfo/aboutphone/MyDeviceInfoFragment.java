@@ -21,7 +21,6 @@ import static androidx.core.content.ContextCompat.getMainExecutor;
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.UserInfo;
 import android.os.Bundle;
 import android.os.UserManager;
@@ -35,8 +34,6 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.deviceinfo.BluetoothAddressPreferenceController;
-import com.android.settings.deviceinfo.BuildNumberPreferenceController;
-import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 import com.android.settings.deviceinfo.FeedbackPreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
@@ -66,16 +63,17 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.function.Consumer;
 
+import static com.android.settings.deviceinfo.aboutphone.UtilsKt.updateDeviceName;
+
 // LINT.IfChange
 @SearchIndexable
-public class MyDeviceInfoFragment extends DashboardFragment
-        implements DeviceNamePreferenceController.DeviceNamePreferenceHost {
+public class MyDeviceInfoFragment extends DashboardFragment {
 
     private static final String LOG_TAG = "MyDeviceInfoFragment";
     private static final String KEY_EID_INFO = "eid_info";
     private static final String KEY_MY_DEVICE_INFO_HEADER = "my_device_info_header";
 
-    private BuildNumberPreferenceController mBuildNumberPreferenceController;
+    private String mPendingDeviceName;
 
     @Override
     public int getMetricsCategory() {
@@ -90,9 +88,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(DeviceNamePreferenceController.class).setHost(this /* parent */);
-        mBuildNumberPreferenceController = use(BuildNumberPreferenceController.class);
-        mBuildNumberPreferenceController.setHost(this /* parent */);
     }
 
     @Override
@@ -195,14 +190,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
         return controllers;
     }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (mBuildNumberPreferenceController.onActivityResult(requestCode, resultCode, data)) {
-            return;
-        }
-        super.onActivityResult(requestCode, resultCode, data);
-    }
-
     private void initHeader() {
         // TODO: Migrate into its own controller.
         final LayoutPreference headerPreference =
@@ -236,19 +223,20 @@ public class MyDeviceInfoFragment extends DashboardFragment
     }
 
     @Override
+    public @Nullable String getPreferenceScreenBindingKey(@NonNull Context context) {
+        return MyDeviceInfoScreen.KEY;
+    }
+
     public void showDeviceNameWarningDialog(String deviceName) {
+        mPendingDeviceName = deviceName;
         DeviceNameWarningDialog.show(this);
     }
 
     public void onSetDeviceNameConfirm(boolean confirm) {
-        final DeviceNamePreferenceController controller = use(
-                DeviceNamePreferenceController.class);
-        controller.updateDeviceName(confirm);
-    }
-
-    @Override
-    public @Nullable String getPreferenceScreenBindingKey(@NonNull Context context) {
-        return MyDeviceInfoScreen.KEY;
+        if (confirm && mPendingDeviceName != null) {
+            updateDeviceName(requireContext(), mPendingDeviceName);
+        }
+        mPendingDeviceName = null;
     }
 
     /**
