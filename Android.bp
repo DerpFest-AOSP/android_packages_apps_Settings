@@ -64,7 +64,9 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "stub/ui/res"
     ],
+
     static_libs: [
         // External dependencies
         "androidx.navigation_navigation-fragment-ktx",
