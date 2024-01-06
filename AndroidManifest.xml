@@ -5761,5 +5761,18 @@
                        android:value="org.derpfest.customizations.DerpFestCustomizations"/>
         </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Screen refresh rate -->
+        <activity android:name="Settings$ScreenRefreshRateActivity"
+            android:label="@string/screen_refresh_rate_title"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="org.derpfest.settings.display.refreshrate.ScreenRefreshRateFragment"/>
+        </activity>
+
     </application>
 </manifest>
