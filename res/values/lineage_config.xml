@@ -32,6 +32,9 @@
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">false</bool>
 
+    <!-- Battery Info: mAh -->
+    <integer name="config_battery_divider" translatable="false">1000</integer>
+
     <!-- ComponentName to launch a vendor-specific enrollment activity if available -->
     <string name="config_face_enroll">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollActivityDirector</string>
 
