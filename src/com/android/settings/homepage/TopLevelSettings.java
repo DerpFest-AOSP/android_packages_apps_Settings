@@ -237,6 +237,18 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     }
 
     @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        super.onCreatePreferences(savedInstanceState, rootKey);
+        // Hide the injected Digital Wellbeing tile. The homepage uses the integrated
+        // top_level_wb preference instead. homepageRevamp is always on in this tree.
+        iteratePreferences(preference -> {
+            if (TextUtils.equals(preference.getKey(), "top_level_wellbeing")) {
+                preference.setVisible(false);
+            }
+        });
+    }
+
+    @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         highlightPreferenceIfNeeded();
@@ -348,6 +360,14 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         if (mHighlightMixin != null) {
             mHighlightMixin.setHighlightMenuKey(menuKey, scrollNeeded);
         }
+    }
+
+    @Override
+    protected boolean displayTile(Tile tile) {
+        if (tile.hasKey() && TextUtils.equals(tile.getKey(getContext()), "top_level_wellbeing")) {
+            return false;
+        }
+        return super.displayTile(tile);
     }
 
     @Override
