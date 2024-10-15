@@ -138,4 +138,9 @@
     <string name="doze_on_charge_title">Beim Laden immer anzeigen</string>
     <string name="doze_on_charge_summary">Informationen beim Laden des Geräts anzeigen</string>
     <string name="doze_on_charge_category">Ladeoptionen</string>
+
+    <!-- Factory reset battery low dialog -->
+    <string name="factory_reset_battery_low_dialog_title">Akkustand niedrig</string>
+    <string name="factory_reset_battery_low_dialog_message">Um das Gerät auf die Werkseinstellungen zurückzusetzen, muss der Akkustand mindestens 15 % betragen.\n\nBitte schließen Sie Ihr Ladegerät an, um fortzufahren.</string>
+    <string name="factory_reset_battery_low_dialog_button_text">Verstanden</string>
 </resources>

@@ -165,4 +165,9 @@
     <string name="doze_on_charge_title">Always show when charging</string>
     <string name="doze_on_charge_summary">Show time and info all the time when charging</string>
     <string name="doze_on_charge_category">Charging options</string>
+
+    <!-- Factory reset battery low dialog -->
+    <string name="factory_reset_battery_low_dialog_title">Battery low</string>
+    <string name="factory_reset_battery_low_dialog_message">To perform a factory reset, the battery level must be at least 15%.\n\nPlease connect your charger to continue.</string>
+    <string name="factory_reset_battery_low_dialog_button_text">Got it</string>
 </resources>
