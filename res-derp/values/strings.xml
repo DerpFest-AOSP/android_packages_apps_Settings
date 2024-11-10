@@ -22,4 +22,5 @@
     <string name="top_level_personalize">Personalize</string>
     <string name="top_level_security" translatable="false">@string/security_settings_title</string>
     <string name="top_level_system">System</string>
+    <string name="top_level_info">Information</string>
 </resources>
