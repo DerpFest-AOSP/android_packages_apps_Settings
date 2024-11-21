@@ -26,10 +26,9 @@ import android.view.View
 
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
-import androidx.preference.forEach
 
 import com.android.internal.logging.nano.MetricsProto
-import com.android.internal.util.clover.Utils
+import com.android.internal.util.derp.derpUtils
 
 import com.android.settings.R
 import com.android.settings.core.SubSettingLauncher
@@ -55,7 +54,7 @@ class AppLockPackageListFragment : DashboardFragment() {
         super.onAttach(context)
         appLockManager = context.getSystemService(AppLockManager::class.java)!!
         pm = context.packageManager
-        launchablePackages = Utils.launchablePackages(context)
+        launchablePackages = derpUtils.launchablePackages(context)
         whiteListedPackages = resources.getStringArray(
             com.android.internal.R.array.config_appLockAllowedSystemApps)
     }
@@ -77,9 +76,9 @@ class AppLockPackageListFragment : DashboardFragment() {
             }.map { packageInfo ->
                 createPreference(packageInfo, selectedPackages.contains(packageInfo.packageName))
             }
-            preferenceScreen?.let {
-                preferences.forEach { pref ->
-                    it.addPreference(pref)
+            preferenceScreen?.let { preferenceScreen ->
+                for (pref in preferences) {
+                    preferenceScreen.addPreference(pref)
                 }
             }
         }
@@ -89,9 +88,12 @@ class AppLockPackageListFragment : DashboardFragment() {
         super.onResume()
         lifecycleScope.launch {
             val selectedPackages = getSelectedPackages()
-            preferenceScreen?.forEach {
-                if (it is PrimarySwitchPreference) {
-                    it.isChecked = selectedPackages.contains(it.key)
+            preferenceScreen?.let { preferenceScreen ->
+                for (i in 0 until preferenceScreen.preferenceCount) {
+                    val pref = preferenceScreen.getPreference(i)
+                    if (pref is PrimarySwitchPreference) {
+                        pref.isChecked = selectedPackages.contains(pref.key)
+                    }
                 }
             }
         }
@@ -140,7 +142,7 @@ class AppLockPackageListFragment : DashboardFragment() {
         }
     }
 
-    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.CLOVER
+    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.DERPFEST
 
     override protected fun getPreferenceScreenResId() = R.xml.app_lock_package_list_settings
 
