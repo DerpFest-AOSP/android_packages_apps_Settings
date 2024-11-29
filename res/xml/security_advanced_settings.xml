@@ -30,15 +30,6 @@
         android:key="security_category" />
 
     <Preference
-        android:order="220"
-        android:key="app_lock_settings_entry"
-        android:title="@string/app_lock_settings_title"
-        android:summary="@string/summary_placeholder"
-        android:fragment="com.android.settings.security.applock.AppLockSettings"
-        settings:searchable="false"
-        settings:controller="com.android.settings.security.applock.AppLockPreferenceController" />
-
-    <Preference
         android:order="230"
         android:key="content_protection_preference"
         android:title="@string/content_protection_preference_title"
