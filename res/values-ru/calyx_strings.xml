@@ -77,5 +77,6 @@
     <string name="hidden">Скрытое</string>
     <string name="security_settings_biometric_preference_title_calyx">Разблокировка по биометрии</string>
     <string name="data_usage_app_datura_firewall_summary">Настройки брандмауэра были перенесены в новое приложение Firewall. Нажмите, чтобы открыть.</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Биометрическая разблокировка для работы</string>
     <string name="private_space_hide_apps_summary_calyx">Создайте пространство для личных приложений, которое можно скрыть или защитить с помощью блокировки.</string>
 </resources>
