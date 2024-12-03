@@ -67,5 +67,24 @@
     <string name="unhide_app">Mostra app</string>
     <string name="unhide_app_desc">Se mostri questa app, sarà visibile di nuovo ad Android e a tutte le altre applicazioni.</string>
     <string name="hide_app_desc">Se si nasconde questa applicazione, non sarà visibile ad Android e altre applicazioni, e potrebbero non funzionare più come previsto. Tieni a mente che nascondere un\'app conserva i suoi dati. Nascondendola, la spegni e la nascondi sul tuo dispositivo.</string>
+    <string name="keychords_summary">Crea una segnalazione di bug tenendo premuti Volume +, Volume -, ed il tasto di accensione nello stesso momento, anche quando il dispositivo è bloccato</string>
+    <string name="keychords_summary_adb_enabled">Sempre attivo quando il debugging è attivo</string>
+    <string name="keychords_title">Combinazione di pulsanti per la segnalazione di bug</string>
+    <string name="work_hours_title">Orario di lavoro</string>
+    <string name="work_hours_end_off_summary">Mostra una notifica ogni giorno per disattivare il profilo di lavoro</string>
+    <string name="security_settings_biometric_preference_title_calyx">Sblocco biometrico</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Sblocco biometrico per lavoro</string>
+    <string name="data_usage_app_datura_firewall">Firewall Datura</string>
+    <string name="data_usage_app_datura_firewall_summary">Le impostazioni del firewall sono state spostate nella nuova app Firewall. Tocca per aprire.</string>
+    <string name="miscellaneous_settings">Varie</string>
+    <string name="bugreport_summary">Segnala subito un bug</string>
+    <string name="view_bugreports_title">Vedi le segnalazioni di bug</string>
+    <string name="view_bugreports_summary_not_developer">Una volta viste, tutte le segnalazioni di bug rimarranno accessibili finchè non riavvierai il dispositivo</string>
+    <string name="hidden">Nascosto</string>
+    <string name="strict_location_redaction_title">Oscura i dati sulla posizione quando condividi i media</string>
+    <string name="strict_location_redaction_description">Solo la galleria ed i gestori dei file possono leggere i metadati della posizione dalle tue foto ed i tuoi media. (Le app di terze parti devono avere i permessi di Accesso a Tutti i File o i permessi di Gestione dei Media.)</string>
+    <string name="work_hours_end_on_summary">Mostra una notifica per disattivare il profilo di lavoro alle <xliff:g id="end_time">%1$s</xliff:g> di ogni giorno</string>
+    <string name="work_hours_end_notification_title">Fine della giornata lavorativa</string>
+    <string name="work_hours_end_notification_description">Tocca per disattivare le app di lavoro</string>
     <string name="private_space_hide_apps_summary_calyx">Nascondi o blocca le app private in uno spazio separato.</string>
 </resources>

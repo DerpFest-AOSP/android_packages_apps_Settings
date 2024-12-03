@@ -84,5 +84,7 @@
     <string name="work_hours_end_on_summary">הצגת התראה לכיבוי פרופיל העבודה ב־<xliff:g id="end_time">%1$s</xliff:g> daily</string>
     <string name="work_hours_end_notification_title">סוף יום העבודה</string>
     <string name="work_hours_end_notification_description">נגיעה תכבה את יישומוני העבודה</string>
+    <string name="strict_location_redaction_description">רק גלריות ומנהלי קבצים יכולים לקרוא נתוני על של מיקום מהתמונות ומהמדיה שלך. (יישומוני צד־שלישי חייבים הרשאות גישה לכל הקבצים או ניהול מדיה.)</string>
+    <string name="strict_location_redaction_title">לשנות את מקום הנתונים כשמדיה משותפת</string>
     <string name="private_space_hide_apps_summary_calyx">‏אפשר להסתיר או לנעול אפליקציות פרטיות במרחב נפרד.</string>
 </resources>

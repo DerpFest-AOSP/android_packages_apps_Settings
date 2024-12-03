@@ -84,5 +84,7 @@
     <string name="work_hours_end_notification_title">Τέλος της εργάσιμης ημέρας</string>
     <string name="work_hours_end_notification_description">Πατήστε για να απενεργοποιήσετε τις εφαρμογές εργασίας</string>
     <string name="work_hours_title">Ώρες εργασίας</string>
+    <string name="strict_location_redaction_title">Αφαίρεση των δεδομένων τοποθεσίας κατά την κοινή χρήση πολυμέσων</string>
+    <string name="strict_location_redaction_description">Μόνο οι συλλογές και οι διαχειριστές αρχείων μπορούν να διαβάζουν μεταδεδομένα τοποθεσίας από τις φωτογραφίες και τα πολυμέσα σας. (Οι εφαρμογές τρίτων πρέπει να έχουν δικαιώματα πρόσβασης σε όλα τα αρχεία ή δικαιώματα διαχείρισης πολυμέσων.)</string>
     <string name="private_space_hide_apps_summary_calyx">Απόκρυψη ή κλείδωμα ιδιωτικών εφαρμογών σε ξεχωριστό χώρο.</string>
 </resources>

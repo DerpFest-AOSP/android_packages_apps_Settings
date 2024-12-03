@@ -7,8 +7,8 @@
     <string name="bluetooth_timeout_summary">Bluetooth sa vypne po <xliff:g id="timeout_description">%1$s</xliff:g> ak nebude pripojené žiadne zariadenie</string>
     <string name="bluetooth_timeout">Časový limit Bluetooth</string>
     <string name="security_restrict_usb_disabled">Vždy povoliť nové USB zariadenia</string>
-    <string name="security_restrict_usb_keyguard">Povoliť nové USB zariadenie pri odomknutí</string>
-    <string name="security_restrict_usb_always">Odmietnuť nové USB zariadenie</string>
+    <string name="security_restrict_usb_keyguard">Povoliť nové USB zariadenia pri odomknutí</string>
+    <string name="security_restrict_usb_always">Odmietnuť nové USB zariadenia</string>
     <string name="security_restrict_usb_summary">Podpora ovládania USB zariadení, ako sú slúchadlá, pamäťové a vstupné zariadenia (myši, klávesnice, joystick)</string>
     <string name="security_restrict_usb_title">Obmedziť USB</string>
     <string name="panic_settings_title">Zobraziť možnosti paniky</string>
@@ -18,7 +18,7 @@
     <string name="panic_settings_summary">Zobraziť tlačidlo napájania, ktoré aktivuje núdzový spúšťač.</string>
     <string name="wifi_timeout">Automatické vypnutie Wi-Fi</string>
     <string name="wifi_timeout_summary2">Vypnuté</string>
-    <string name="cleartext_network_policy_summary">Blokuje všetku sieťovú komunikáciu, ktorá nie je TLS. Vyžaduje súkromnú konfiguráciu DNS. Poznámka: Bez explicitných výnimiek nebudú Tor a väčšina sietí VPN fungovať</string>
+    <string name="cleartext_network_policy_summary">Blokuje všetku sieťovú komunikáciu, ktorá nie je TLS. Vyžaduje súkromnú konfiguráciu DNS. Poznámka: Bez špecifických výnimiek nebudú aplikáce využívajúce prenos otvoreného textu fungovať</string>
     <string name="timeout_summary_2hours">2 hodiny</string>
     <string name="show_qs_on_secure_keyguard_title">Rýchle nastavenia</string>
     <string name="wifi_timeout_summary">Ak nie je pripojená žiadna sieť, Wi-Fi sa vypne po <xliff:g id="timeout_description"> %1$s </xliff:g></string>
@@ -84,5 +84,7 @@
     <string name="work_hours_end_off_summary">Zobraziť denné oznámenia na vypnutie pracovného profilu</string>
     <string name="work_hours_end_notification_title">Koniec pracovného dňa</string>
     <string name="work_hours_end_notification_description">Kliknite pre vypnutie pracovných aplikácií</string>
+    <string name="strict_location_redaction_description">Metadáta o polohe z vašich fotografií a médií môžu čítať iba galérie a správcovia súborov. (Aplikácie tretích strán musia mať povolenia na prístup k všetkým súborom alebo na správu médií.)</string>
+    <string name="strict_location_redaction_title">Odstraniť údaje o polohe pri zdieľaní médií</string>
     <string name="private_space_hide_apps_summary_calyx">Skryte alebo uzamknite súkromné aplikácie v samostatnom priestore.</string>
 </resources>
