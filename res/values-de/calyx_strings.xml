@@ -84,5 +84,7 @@
     <string name="work_hours_end_off_summary">Täglich eine Benachrichtigung zum Ausschalten des Arbeitsprofils anzeigen</string>
     <string name="work_hours_end_notification_title">Arbeitstagende</string>
     <string name="work_hours_end_notification_description">Antippen, um geschäftliche Apps zu deaktivieren</string>
+    <string name="strict_location_redaction_title">Standortdaten beim Teilen von Medien entfernen</string>
+    <string name="strict_location_redaction_description">Nur Galerien und Dateimanager können Standort-Metadaten von deinen Fotos und Medien lesen. (Apps von Drittanbietern müssen über die Berechtigung „Zugriff auf alle Dateien“ oder „Medienverwaltung“ verfügen.)</string>
     <string name="private_space_hide_apps_summary_calyx">Du kannst private Apps in einem separaten Profil verbergen, das sich sperren lässt.</string>
 </resources>
