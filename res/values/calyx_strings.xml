@@ -25,4 +25,7 @@
     <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+
+    <!-- Text shown in private space setup screen which explains that apps in private space use their own VPN unless Global VPN is in effect. [CHAR LIMIT=NONE] -->
+    <string name="private_space_separate_vpn_text"><b>Apps don\u2019t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>
 </resources>
