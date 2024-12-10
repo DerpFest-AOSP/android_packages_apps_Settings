@@ -53,4 +53,5 @@
 \nベンダー: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nファームウェア: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="global_vpn_summary_on">仕事用プロファイルや他のユーザーを含め、デバイス上のすべてのトラフィックは、この VPN を経由するようになります。注：有効にすると、仕事用プロファイルや他のユーザーは別のVPNを使用できなくなります</string>
+    <string name="private_space_hide_apps_summary_calyx">隔離スペースでプライベート アプリを非表示またはロックできます。</string>
 </resources>

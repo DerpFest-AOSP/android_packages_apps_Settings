@@ -55,4 +55,5 @@
     <string name="filter_hidden_apps">Apps ocultas</string>
     <string name="hide_app">Ocultar apps</string>
     <string name="cross_profile_sharing_summary">Permitir que botões de compartilhamento dentro de aplicativos funcionem entre seu perfil pessoal e de trabalho</string>
+    <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie apps privadas num espaço separado.</string>
 </resources>

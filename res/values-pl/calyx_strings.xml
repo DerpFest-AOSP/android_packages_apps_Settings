@@ -86,4 +86,5 @@
     <string name="work_hours_end_notification_title">Koniec dnia pracy</string>
     <string name="strict_location_redaction_description">Tylko galerie i menedżery plików mogą odczytywać metadane lokalizacji ze zdjęć i multimediów. (Aplikacje innych firm muszą mieć uprawnienia typu \"dostęp do wszystkich plików\" lub \"zarządzanie multimediami\").</string>
     <string name="strict_location_redaction_title">Redagowanie danych o lokalizacji podczas udostępniania multimediów</string>
+    <string name="private_space_hide_apps_summary_calyx">Ukryj lub zablokuj aplikacje prywatne w oddzielnym obszarze.</string>
 </resources>

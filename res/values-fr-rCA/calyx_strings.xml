@@ -65,4 +65,5 @@
     <string name="wifi_timeout_summary">Le Wi-Fi s\'éteindra après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun réseau n\'est connecté</string>
     <string name="global_vpn_summary_on">Forcez tout le trafic sur l\'appareil via ce VPN, y compris le profil professionnel et les autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne pourrez pas utiliser un VPN distinct dans un profil professionnel ou d\'autres utilisateurs</string>
     <string name="security_restrict_usb_summary">Prise en charge du contrôle des gadgets USB tels que les écouteurs, les périphériques de stockage et les entrées (souris, claviers, joysticks)</string>
+    <string name="private_space_hide_apps_summary_calyx">Masquez ou verrouillez les applis privées dans un espace à part.</string>
 </resources>

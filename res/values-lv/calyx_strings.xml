@@ -23,4 +23,5 @@
     <string name="panic_settings_summary">Rādīt pie izslēgšanas, restartēšanas pogām opciju, kas aktivizē ārkārtas situāciju.</string>
     <string name="panic_settings_title">Rādīt Panikas opciju</string>
     <string name="calyxos_version">CalyxOS versija</string>
+    <string name="private_space_hide_apps_summary_calyx">Varat paslēpt vai bloķēt privātās lietotnes atsevišķā vietā.</string>
 </resources>

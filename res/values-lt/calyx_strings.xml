@@ -65,4 +65,5 @@
     <string name="global_vpn_summary_on">Priversti visą srautą įrenginyje perduoti per šį VPN, įskaitant darbo profilį ir kitus naudotojus. Pastaba: Kai ši funkcija įjungta, negalėsite naudoti atskiro VPN darbo profilyje ar kituose naudotojuose</string>
     <string name="unhide_app_desc">Jei panaikinsite šios programėlės slėpimą, ji vėl bus matoma Android ir kitoms programėlėms.</string>
     <string name="hide_app_desc">Jei paslėpsite šią programėlę, ji nebus matoma Android ir kitoms programėlėms ir jos gali nebeveikti taip, kaip numatyta. Atminkite, kad paslėpus programėlę yra išsaugomi jos duomenys. Paslėpdami išjungiate šią programėlę ir paslepiate ją savo įrenginyje.</string>
+    <string name="private_space_hide_apps_summary_calyx">Paslėpkite ir užrakinkite privačias programas atskiroje erdvėje.</string>
 </resources>

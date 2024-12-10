@@ -84,4 +84,5 @@
     <string name="work_hours_end_notification_title">Τέλος της εργάσιμης ημέρας</string>
     <string name="work_hours_end_notification_description">Πατήστε για να απενεργοποιήσετε τις εφαρμογές εργασίας</string>
     <string name="work_hours_title">Ώρες εργασίας</string>
+    <string name="private_space_hide_apps_summary_calyx">Απόκρυψη ή κλείδωμα ιδιωτικών εφαρμογών σε ξεχωριστό χώρο.</string>
 </resources>

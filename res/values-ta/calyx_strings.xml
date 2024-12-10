@@ -7,4 +7,5 @@
     <string name="security_restrict_usb_always">புதிய USB உபகரணங்களை மறுக்கவும்</string>
     <string name="security_restrict_usb_summary">இயர்போன்கள், சேமிப்பு சாதனங்கள் மற்றும் உள்ளீடு (எலிகள், விசைப்பலகைகள், ஜாய்ஸ்டிக்ஸ்) போன்ற USB கேஜெட்களுக்கான ஆதரவு கட்டுப்பாடு</string>
     <string name="panic_settings_title">பீதி விருப்பத்தைக் காட்டு</string>
+    <string name="private_space_hide_apps_summary_calyx">தனிப்பட்ட ஆப்ஸைத் தனி இடத்தில் மறைக்கலாம்/பூட்டலாம்.</string>
 </resources>

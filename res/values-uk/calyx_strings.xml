@@ -92,4 +92,5 @@
     <string name="work_hours_end_off_summary">Показувати щоденне сповіщення про вимкнення робочого профілю</string>
     <string name="work_hours_end_notification_title">Кінець робочого дня</string>
     <string name="work_hours_end_notification_description">Натисніть, щоби вимкнути робочі зачтосунки</string>
+    <string name="private_space_hide_apps_summary_calyx">Приховуйте або блокуйте приватні додатки в окремому просторі.</string>
 </resources>

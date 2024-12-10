@@ -10,4 +10,5 @@
 \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nBaseband: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="private_space_hide_apps_summary_calyx">Ẩn hoặc khoá các ứng dụng riêng tư trong một không gian riêng biệt.</string>
 </resources>

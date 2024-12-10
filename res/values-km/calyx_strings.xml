@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calyxos_version">កំណែ CalyxOS</string>
+    <string name="private_space_hide_apps_summary_calyx">លាក់ ឬចាក់សោកម្មវិធីឯកជននៅក្នុងលំហដាច់ដោយឡែក។</string>
 </resources>

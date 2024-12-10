@@ -86,4 +86,5 @@
     <string name="work_hours_end_notification_description">Klepněte pro vypnutí pracovních aplikací</string>
     <string name="strict_location_redaction_title">Odstranit údaje o poloze při sdílení médií</string>
     <string name="strict_location_redaction_description">Pouze galerie a správci souborů mohou číst metadata o poloze z vašich fotek a médií. (Aplikace třetích stran musejí mít oprávnění Přístup ke všem souborům nebo Správa médií.)</string>
+    <string name="private_space_hide_apps_summary_calyx">Můžete si skrýt nebo uzamknout soukromé aplikace v odděleném prostoru.</string>
 </resources>

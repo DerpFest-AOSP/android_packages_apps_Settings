@@ -84,4 +84,5 @@
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ponto de acesso, VPN, DNS particular</string>
     <string name="unhide_app_desc">Se você revelar esta aplicação, ela ficará visível para o Android e outras aplicações novamente.</string>
     <string name="hidden">Oculto</string>
+    <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie espaços privados em um espaço separado.</string>
 </resources>
