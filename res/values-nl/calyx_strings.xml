@@ -55,4 +55,5 @@
     <string name="filter_hidden_apps">Verborgen apps</string>
     <string name="hide_app">Verbergen app</string>
     <string name="unhide_app">Tonen app</string>
+    <string name="private_space_hide_apps_summary_calyx">Verberg of vergrendel privé-apps in een afzonderlijk gedeelte.</string>
 </resources>

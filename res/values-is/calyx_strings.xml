@@ -23,4 +23,5 @@
     <string name="bluetooth_timeout_summary2">Ekki slökkva sjálfvirkt á Bluetooth</string>
     <string name="bluetooth_timeout_summary">Slökkt verður á Bluetooth eftir <xliff:g id="timeout_description">%1$s</xliff:g> ef engin tæki tengjast</string>
     <string name="bluetooth_timeout">Bluetooth tímamörk</string>
+    <string name="private_space_hide_apps_summary_calyx">Feldu eða læstu einkaforritum í sérrými.</string>
 </resources>

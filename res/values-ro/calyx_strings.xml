@@ -85,4 +85,5 @@
     <string name="work_hours_end_off_summary">Afișează o notificare zilnică pentru a dezactiva profilul de serviciu</string>
     <string name="work_hours_end_notification_description">Atinge pentru a dezactiva aplicațiile de serviciu</string>
     <string name="strict_location_redaction_title">Redactați datele privind locația atunci când partajați conținut media</string>
+    <string name="private_space_hide_apps_summary_calyx">Ascunde sau blochează aplicațiile private într-un spațiu separat.</string>
 </resources>

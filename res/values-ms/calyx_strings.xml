@@ -12,4 +12,5 @@
     <string name="timeout_summary_30secs">30 saat</string>
     <string name="timeout_summary_15secs">15 saat</string>
     <string name="calyxos_version">Versi CalyxOS</string>
+    <string name="private_space_hide_apps_summary_calyx">Sembunyikan atau kunci apl peribadi dalam ruang berasingan.</string>
 </resources>

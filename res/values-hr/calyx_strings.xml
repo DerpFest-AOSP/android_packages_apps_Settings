@@ -41,4 +41,5 @@
     <string name="timeout_summary_48hours">48 sati</string>
     <string name="timeout_summary_72hours">72 sata</string>
     <string name="device_reboot_timeout_summary">Uređaj će se automatski ponovno pokrenuti ako nije otključan u zadnjih <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="private_space_hide_apps_summary_calyx">Sakrijte ili zaključajte privatne aplikacije u zasebnom prostoru.</string>
 </resources>

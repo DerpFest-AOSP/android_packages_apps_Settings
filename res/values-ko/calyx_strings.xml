@@ -63,4 +63,5 @@
     <string name="hide_app">앱 숨김</string>
     <string name="filter_hidden_apps">숨겨진 앱</string>
     <string name="unhide_app">앱 숨김 해제</string>
+    <string name="private_space_hide_apps_summary_calyx">별도의 스페이스에서 비공개 앱을 숨기거나 잠급니다.</string>
 </resources>

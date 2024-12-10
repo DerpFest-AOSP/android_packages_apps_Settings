@@ -50,4 +50,5 @@
     <string name="device_reboot_timeout_title">ସ୍ଵତଃ ପୁନଃ ବୁଟ୍</string>
     <string name="device_reboot_timeout_summary2">ଡିଭାଇସ୍ ସ୍ୱୟଂଚାଳିତ ଭାବରେ ପୁନଃ ବୁଟ୍ ହେବ ନାହିଁ</string>
     <string name="security_restrict_usb_disabled">ସବୁବେଳେ ନୂତନ ୟୁ ଏସ୍ ବି ଗ୍ୟାଜେଟଗୁଡ଼ିକୁ ଅନୁମତି ଦିଅନ୍ତୁ</string>
+    <string name="private_space_hide_apps_summary_calyx">ଏକ ଅଲଗା ସ୍ପେସରେ ପ୍ରାଇଭେଟ ଆପ୍ସକୁ ଲୁଚାନ୍ତୁ କିମ୍ବା ଲକ କରନ୍ତୁ।</string>
 </resources>

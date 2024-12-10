@@ -27,4 +27,5 @@
     <string name="timeout_summary_never">Aldrig</string>
     <string name="timeout_summary_1hour">1 timme</string>
     <string name="wifi_timeout">Stäng av Wi-Fi automatiskt</string>
+    <string name="private_space_hide_apps_summary_calyx">Dölj eller lås privata appar i ett separat område.</string>
 </resources>

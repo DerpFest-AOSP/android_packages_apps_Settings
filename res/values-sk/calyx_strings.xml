@@ -84,4 +84,5 @@
     <string name="work_hours_end_off_summary">Zobraziť denné oznámenia na vypnutie pracovného profilu</string>
     <string name="work_hours_end_notification_title">Koniec pracovného dňa</string>
     <string name="work_hours_end_notification_description">Kliknite pre vypnutie pracovných aplikácií</string>
+    <string name="private_space_hide_apps_summary_calyx">Skryte alebo uzamknite súkromné aplikácie v samostatnom priestore.</string>
 </resources>

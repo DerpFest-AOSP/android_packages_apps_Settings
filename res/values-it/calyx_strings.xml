@@ -67,4 +67,5 @@
     <string name="unhide_app">Mostra app</string>
     <string name="unhide_app_desc">Se mostri questa app, sarà visibile di nuovo ad Android e a tutte le altre applicazioni.</string>
     <string name="hide_app_desc">Se si nasconde questa applicazione, non sarà visibile ad Android e altre applicazioni, e potrebbero non funzionare più come previsto. Tieni a mente che nascondere un\'app conserva i suoi dati. Nascondendola, la spegni e la nascondi sul tuo dispositivo.</string>
+    <string name="private_space_hide_apps_summary_calyx">Nascondi o blocca le app private in uno spazio separato.</string>
 </resources>

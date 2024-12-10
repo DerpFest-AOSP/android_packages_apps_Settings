@@ -53,4 +53,5 @@
     <string name="device_reboot_timeout_title">إعادة التشغيل التلقائية</string>
     <string name="device_reboot_timeout_summary">ستتم إعادة تشغيل الجهاز تلقائيًا إذا لم يتم إلغاء قفله خلال <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">لن يتم إعادة تشغيل الجهاز تلقائيًا</string>
+    <string name="private_space_hide_apps_summary_calyx">‏يمكنك إخفاء التطبيقات الخاصة أو قفلها في مساحة منفصلة.</string>
 </resources>

@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="private_space_hide_apps_summary_calyx">Жеке колдонмолоруңуз үчүн мейкиндик түзүп, каалаган учурда жашырып же кулпулап коёсуз.</string>
+</resources>

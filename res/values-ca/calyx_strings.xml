@@ -73,4 +73,5 @@
     <string name="view_bugreports_summary_not_developer">Un cop vist, tots els informes d\'error romandran accessibles fins que reinicieu el dispositiu</string>
     <string name="other_settings">Altres opcions</string>
     <string name="quick_settings">Configuració ràpida</string>
+    <string name="private_space_hide_apps_summary_calyx">Amaga o bloqueja les aplicacions privades en un espai separat.</string>
 </resources>

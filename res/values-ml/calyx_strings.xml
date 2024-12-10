@@ -44,4 +44,5 @@
     <string name="global_vpn_title">ആഗോള വിപിഎൻ</string>
     <string name="hide">മറയ്ക്കുക</string>
     <string name="quick_settings">ദ്രുത ക്രമീകരണങ്ങൾ</string>
+    <string name="private_space_hide_apps_summary_calyx">സ്വകാര്യ ആപ്പുകൾ ഒരു പ്രത്യേക സ്പേസിൽ മറയ്ക്കുക അല്ലെങ്കിൽ ലോക്ക് ചെയ്യുക.</string>
 </resources>
