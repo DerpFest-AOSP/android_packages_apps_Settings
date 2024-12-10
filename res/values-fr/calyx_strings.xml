@@ -77,4 +77,5 @@
     <string name="security_settings_biometric_preference_title_calyx">Déverrouillage biométrique</string>
     <string name="unhide_app_desc">Si vous montrez cette application, elle sera visible à Android et aux autres applications.</string>
     <string name="work_hours_end_notification_title">Fin de la journée de travail</string>
+    <string name="private_space_hide_apps_summary_calyx">Masquez ou verrouillez vos applis privées en les regroupant dans un espace séparé.</string>
 </resources>

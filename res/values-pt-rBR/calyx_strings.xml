@@ -86,4 +86,5 @@
     <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
     <string name="strict_location_redaction_title">Omitir dados de localização ao compartilhar mídia</string>
     <string name="strict_location_redaction_description">Somente galerias e gerenciadores de arquivos devem poder ler metadados das suas fotos e mídia. (Apps de terceiros devem ter o acesso à todos os arquivos, ou permissões de mídia.)</string>
+    <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie espaços privados em um espaço separado.</string>
 </resources>

@@ -8,4 +8,5 @@
     <string name="security_restrict_usb_title">Ograniči USB</string>
     <string name="panic_settings_title">Prikaži opciju panike</string>
     <string name="calyxos_version">CalyxOS verzija</string>
+    <string name="private_space_hide_apps_summary_calyx">Sakrijte ili zaključajte privatne aplikacije u zasebnom prostoru.</string>
 </resources>

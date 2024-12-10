@@ -13,4 +13,5 @@
     <string name="timeout_summary_15secs">15 క్షణాలు</string>
     <string name="timeout_summary_never">ఎప్పుడూ</string>
     <string name="calyxos_version">CalyxOS సంస్కరణ</string>
+    <string name="private_space_hide_apps_summary_calyx">ప్రైవేట్ యాప్‌లను ప్రత్యేక స్పేస్‌లో దాచండి లేదా లాక్ చేయండి.</string>
 </resources>

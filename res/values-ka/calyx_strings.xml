@@ -51,4 +51,5 @@
     <string name="unhide_app">აპის გამოჩენა</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, პირადი DNS</string>
     <string name="unhide_app_desc">თუ ამ აპს გამოაჩენთ, ის Android-ისა და სხვა აპებისთვის კიდევ ერთხელ გახდება ხილული.</string>
+    <string name="private_space_hide_apps_summary_calyx">დამალეთ ან ჩაკეტეთ პირადი აპები ცალკე სივრცეში.</string>
 </resources>

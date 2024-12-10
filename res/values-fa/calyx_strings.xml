@@ -8,4 +8,5 @@
     <string name="panic_settings_summary">گزینه دکمه روشن/خاموش را نشان دهید که باعث ایجاد اضطراب می شود.</string>
     <string name="panic_settings_title">نمایش گزینه مشکوک</string>
     <string name="calyxos_version">نسخه کالیکس او اس (CalyxOS)</string>
+    <string name="private_space_hide_apps_summary_calyx">‏برنامه‌های خصوصی را در فضای جداگانه‌ای پنهان یا قفل کنید.</string>
 </resources>

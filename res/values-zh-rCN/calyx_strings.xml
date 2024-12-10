@@ -86,4 +86,5 @@
     <string name="work_hours_end_notification_title">工作日结束</string>
     <string name="strict_location_redaction_description">仅图库和文件管理器可以从你的相片和媒体文件读取位置元数据。（第三方应用必须有“访问所有文件”或“媒体管理”权限才做得到。）</string>
     <string name="strict_location_redaction_title">分享媒体文件时删除位置信息</string>
+    <string name="private_space_hide_apps_summary_calyx">在独立空间中隐藏或锁定专用应用。</string>
 </resources>

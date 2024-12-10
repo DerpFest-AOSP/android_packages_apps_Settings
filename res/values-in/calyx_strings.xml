@@ -43,4 +43,5 @@
     <string name="timeout_summary_72hours">72 jam</string>
     <string name="global_vpn_summary_any_vpn_active">Anda perlu menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengatkfikan VPN Global</string>
     <string name="global_vpn_title">VPN Global</string>
+    <string name="private_space_hide_apps_summary_calyx">Sembunyikan atau kunci aplikasi pribadi di ruang terpisah.</string>
 </resources>

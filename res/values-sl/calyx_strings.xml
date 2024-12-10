@@ -7,4 +7,5 @@
     <string name="security_restrict_usb_title">Prepovej USB</string>
     <string name="security_restrict_usb_disabled">Vedno dovoli nove USB priključke</string>
     <string name="panic_settings_title">Pokaži opcijo za paniko</string>
+    <string name="private_space_hide_apps_summary_calyx">Skrijte ali zaklenite zasebne aplikacije v ločenem prostoru.</string>
 </resources>

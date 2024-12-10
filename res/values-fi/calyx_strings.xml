@@ -41,4 +41,5 @@
     <string name="timeout_summary_12hours">12 tuntia</string>
     <string name="timeout_summary_48hours">48 tuntia</string>
     <string name="timeout_summary_36hours">36 tuntia</string>
+    <string name="private_space_hide_apps_summary_calyx">Piilota tai lukitse yksityiset sovellukset erilliseen tilaan.</string>
 </resources>

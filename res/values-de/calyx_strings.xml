@@ -84,4 +84,5 @@
     <string name="work_hours_end_off_summary">Täglich eine Benachrichtigung zum Ausschalten des Arbeitsprofils anzeigen</string>
     <string name="work_hours_end_notification_title">Arbeitstagende</string>
     <string name="work_hours_end_notification_description">Antippen, um geschäftliche Apps zu deaktivieren</string>
+    <string name="private_space_hide_apps_summary_calyx">Du kannst private Apps in einem separaten Profil verbergen, das sich sperren lässt.</string>
 </resources>
