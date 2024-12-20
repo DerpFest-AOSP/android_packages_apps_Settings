@@ -15,7 +15,7 @@
     <string name="timeout_summary_1hour">1 година</string>
     <string name="timeout_summary_30mins">30 хвилин</string>
     <string name="bluetooth_timeout_summary2">Не вимикати Bluetooth автоматично</string>
-    <string name="cleartext_network_policy_summary">Блокує весь мережевий трафік, відмінний від TLS. Потрібна конфігурація приватного DNS. Примітка: Без явних винятків застосунки, які використовують відкритий трафік, можуть не працювати</string>
+    <string name="cleartext_network_policy_summary">Блокує весь мережевий трафік, відмінний від TLS. Потрібна конфігурація приватного DNS. Примітка: Без явних винятків програми, які використовують відкритий трафік, можуть не працювати</string>
     <string name="timeout_summary_8hours">8 годин</string>
     <string name="timeout_summary_1min">1 хвилина</string>
     <string name="security_restrict_usb_keyguard">Дозволити нові USB-пристрої під час розблокування</string>
@@ -44,22 +44,22 @@
     <string name="network_dashboard_summary_mobile_calyx">Мобільний інтернет, Wi-Fi, точка доступу, VPN, приватний DNS</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, точка доступу, VPN, приватний DNS</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, з\'єднання, NFC</string>
-    <string name="security_dashboard_summary_calyx">Блокування екрана, налаштування паніки, обмеження USB, безпека застосунка</string>
+    <string name="security_dashboard_summary_calyx">Блокування екрана, налаштування паніки, обмеження USB, безпека програм</string>
     <string name="system_dashboard_summary_calyx">Мови, жести, час, резервне копіювання, користувачі, робочий профіль</string>
     <string name="hide">Приховати</string>
     <string name="unhide">Показати</string>
     <string name="captive_portal_title">Перевірка підключення</string>
     <string name="captive_portal_summary">Перевірте, чи може пристрій підключитися до інтернету, звернувшись до Google. Також використовується для виявлення порталів приєднання.</string>
     <string name="global_vpn_title">Глобальний VPN</string>
-    <string name="global_vpn_summary_on">Примусово завантажувати весь трафік на пристрої через цю VPN-службу, в тому числі робочий профіль та інших користувачів. Примітка: Якщо ввімкнено, ви не зможете використовувати окрему VPN-службу в робочому профілі або інших користувачах</string>
+    <string name="global_vpn_summary_on">Примусово завантажувати весь трафік на пристрої через цю VPN-службу, в тому числі робочий профіль та трафік інших користувачів. Примітка: Якщо увімкнено, Ви не зможете використовувати окрему VPN-службу в робочому профілі або в профілях інших користувачів</string>
     <string name="global_vpn_summary">Примусово пропускати весь трафік на пристрій через цей VPN, в тому числі робочий профіль та інших користувачах.</string>
     <string name="global_vpn_summary_any_vpn_active">Спочатку потрібно вимкнути всі активні VPN-з\'єднання, щоб увімкнути це</string>
-    <string name="hide_app">Приховати застосунок</string>
-    <string name="filter_hidden_apps">Приховані застосунки</string>
-    <string name="unhide_app">Показати застосунок</string>
-    <string name="unhide_app_desc">Якщо ви відкриєте цей застосунок, він знову стане видимим для Android та інших застосунків.</string>
+    <string name="hide_app">Сховати програму</string>
+    <string name="filter_hidden_apps">Приховані програми</string>
+    <string name="unhide_app">Показати програму</string>
+    <string name="unhide_app_desc">Якщо Ви покажете цю програму, вона знову стане видимою для Android та інших програм.</string>
     <string name="cross_profile_sharing_title">Міжпрофільний спільний доступ</string>
-    <string name="cross_profile_sharing_summary">Увімкніть кнопки надсилання в застосунку, щоб працювати в особистому та робочому профілі</string>
+    <string name="cross_profile_sharing_summary">Увімкніть кнопки спільного доступу в програмі для домашнього та робочого профілів</string>
     <string name="detailed_security_patch">Платформа:
 \n<xliff:g id="platform_level">
 \n%1$s</xliff:g>
@@ -72,11 +72,11 @@
 \nПрошивка:
 \n<xliff:g id="firmware_level">
 \n%4$s</xliff:g></string>
-    <string name="hide_app_desc">Якщо приховати цей застосунок, вона не буде видимою для Android та інших застосунків, і вони можуть більше не працювати за призначенням. Пам\'ятайте, що приховування застосунку зберігає його дані. Приховавши, ви вимикаєте цей застосунок та приховуєте його на своєму пристрої.</string>
+    <string name="hide_app_desc">Якщо приховати цю програму, вона не буде видимою для Android та інших програм, і вони можуть більше не працюватимуть як потрібно. Пам\'ятайте, що приховування програми зберігає її дані. Приховавши, Ви вимикаєте цю програму та приховуєте її на своєму пристрої.</string>
     <string name="other_settings">Інші параметри</string>
     <string name="quick_settings">Швидке налаштування</string>
     <string name="bugreport_summary">Зробити звіт про помилку зараз</string>
-    <string name="view_bugreports_summary_not_developer">Після перегляду всі звіти про помилки залишатимуться доступними, доки ви не перезавантажите пристрій</string>
+    <string name="view_bugreports_summary_not_developer">Після перегляду всі звіти про помилки залишатимуться доступними, доки Ви не перезавантажите пристрій</string>
     <string name="keychords_title">Комбінація кнопок повідомлення про помилку</string>
     <string name="keychords_summary">Зробити звіт про помилку, утримуючи одночасно кнопки збільшення гучності, зменшення гучності та живлення, навіть якщо пристрій заблоковано</string>
     <string name="keychords_summary_adb_enabled">Завжди увімкнено, коли ввімкнено налагодження</string>
@@ -86,11 +86,13 @@
     <string name="miscellaneous_settings">Різне</string>
     <string name="hidden">Приховане</string>
     <string name="security_settings_biometric_preference_title_calyx">Біометричне розблокування</string>
-    <string name="data_usage_app_datura_firewall_summary">Налаштування брандмауера було перенесено до нового застосунку Firewall. Натисніть, щоби відкрити.</string>
+    <string name="data_usage_app_datura_firewall_summary">Налаштування брандмауера було перенесено до нової програми Firewall. Торкніться, щоб відкрити.</string>
     <string name="data_usage_app_datura_firewall">Брандмауер Datura</string>
     <string name="work_hours_title">Час роботи</string>
     <string name="work_hours_end_off_summary">Показувати щоденне сповіщення про вимкнення робочого профілю</string>
     <string name="work_hours_end_notification_title">Кінець робочого дня</string>
     <string name="work_hours_end_notification_description">Натисніть, щоби вимкнути робочі зачтосунки</string>
+    <string name="strict_location_redaction_title">Видаліть дані про місце під час обміну медіафайлами</string>
+    <string name="strict_location_redaction_description">З Ваших фотографій та медіа читати метадані про місце можуть лише галереї та файлові менеджери. (Програми сторонніх розробників повинні мати дозвіл на доступ до всіх файлів або до керування медіафайлами.)</string>
     <string name="private_space_hide_apps_summary_calyx">Приховуйте або блокуйте приватні додатки в окремому просторі.</string>
 </resources>
