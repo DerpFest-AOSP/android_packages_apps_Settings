@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="security_restrict_usb_disabled">Uvijek dozvoli nove USB uređaje</string>
-    <string name="security_restrict_usb_keyguard">Dozvoli nove USB uređaje kad su otključani</string>
+    <string name="security_restrict_usb_keyguard">Dozvoli nove USB uređaje u otključanom stanju</string>
     <string name="security_restrict_usb_always">Odbij nove USB uređaje</string>
-    <string name="security_restrict_usb_summary">Upravljaj podrškom za USB uređaje poput slušalica, uređaja za spremanje i unos podataka (miš, tipkovnica, joystick)</string>
+    <string name="security_restrict_usb_summary">Upravljaj podrškom za USB uređaje poput slušalica, uređaja za spremanje i unos (miš, tipkovnica, joystick)</string>
     <string name="security_restrict_usb_title">Ograniči USB</string>
     <string name="panic_settings_summary">Prikaži opciju gumba za napajanje koja aktivira gumb panike za hitne slučajeve.</string>
     <string name="panic_settings_title">Prikaži opciju panike</string>
@@ -34,12 +34,39 @@
     <string name="timeout_summary_never">Nikada</string>
     <string name="wifi_timeout">Isključi Wi-Fi automatski</string>
     <string name="device_reboot_timeout_title">Automatsko ponovno pokretanje</string>
-    <string name="device_reboot_timeout_summary2">Uređaj se neće automatski ponovno pokrenuti</string>
+    <string name="device_reboot_timeout_summary2">Uređaj se neće automatski ponovo pokrenuti</string>
     <string name="timeout_summary_12hours">12 sati</string>
     <string name="timeout_summary_24hours">24 sata</string>
     <string name="timeout_summary_36hours">36 sati</string>
     <string name="timeout_summary_48hours">48 sati</string>
     <string name="timeout_summary_72hours">72 sata</string>
     <string name="device_reboot_timeout_summary">Uređaj će se automatski ponovno pokrenuti ako nije otključan u zadnjih <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="unhide">Prikaži</string>
+    <string name="security_settings_biometric_preference_title_calyx">Biometrijsko otključavanje</string>
+    <string name="cross_profile_sharing_title">Dijeljenje između profila</string>
+    <string name="detailed_security_patch">Platforma: <xliff:g id="platform_level">%1$s</xliff:g>\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>\nProizvođač: <xliff:g id="kernel_level">%3$s</xliff:g>\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="hide">Sakrij</string>
+    <string name="hide_app">Sakrij aplikaciju</string>
+    <string name="unhide_app">Prikaži aplikaciju</string>
+    <string name="captive_portal_title">Provjera povezanosti</string>
+    <string name="filter_hidden_apps">Skrivene aplikacije</string>
+    <string name="unhide_app_desc">Ako prikažeš ovu aplikaciju, Android i druge aplikacije će je opet vidjeti.</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, privatni DNS</string>
+    <string name="quick_settings">Brze postavke</string>
+    <string name="global_vpn_title">Globalni VPN</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobitel, Wi‑Fi, hotspot, VPN, privatni DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, spajanje, NFC</string>
+    <string name="security_dashboard_summary_calyx">Zaključavanje ekrana, postavke panike, USB ograničenja, sigurnost aplikacije</string>
+    <string name="system_dashboard_summary_calyx">Jezici, geste, vrijeme, sigurnosna kopija, korisnici, radni profil</string>
+    <string name="captive_portal_summary">Utvrdi može li se uređaj povezati s internetom kontaktiranjem Googlea. Također se koristi za otkrivanje tzv. captive portala.</string>
+    <string name="miscellaneous_settings">Razno</string>
+    <string name="other_settings">Druge opcije</string>
+    <string name="hidden">Skriveno</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Biometrijsko otključavanje za posao</string>
+    <string name="strict_location_redaction_title">Izbriši podatke o lokaciji prilikom dijeljenja medija</string>
+    <string name="cross_profile_sharing_summary">Aktiviraj tipke za dijeljenje unutar aplikacije za rad između tvojeg osobnog i poslovnog profila</string>
+    <string name="work_hours_title">Radno vrijeme</string>
+    <string name="work_hours_end_notification_title">Kraj radnog dana</string>
+    <string name="work_hours_end_notification_description">Dodirni za isključivanje poslovnih aplikacija</string>
     <string name="private_space_hide_apps_summary_calyx">Sakrijte ili zaključajte privatne aplikacije u zasebnom prostoru.</string>
 </resources>
