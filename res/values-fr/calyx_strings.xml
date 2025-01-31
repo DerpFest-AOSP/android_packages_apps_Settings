@@ -31,7 +31,7 @@
     <string name="wifi_timeout_summary">Le Wi-Fi sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun réseau n\'est connecté</string>
     <string name="wifi_timeout">Désactiver automatiquement le Wi-Fi</string>
     <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
-    <string name="data_usage_app_restrict_background_all">Accès réseau en arrière plan</string>
+    <string name="data_usage_app_restrict_background_all">Accès réseau en arrière-plan</string>
     <string name="aosp_module_version">Mise à jour du module principal</string>
     <string name="timeout_summary_72hours">72 heures</string>
     <string name="timeout_summary_48hours">48 heures</string>
@@ -71,7 +71,7 @@
     <string name="data_usage_app_datura_firewall">Pare-feu Datura</string>
     <string name="work_hours_end_on_summary">Afficher une notification journalière pour désactiver le profil professionnel à <xliff:g id="end_time">%1$s</xliff:g></string>
     <string name="quick_settings">Paramètres rapides</string>
-    <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à internet, en contactant Google. Aussi utilisé pour détecter des portails captifs.</string>
+    <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à Internet, en contactant Google. Aussi utilisé pour détecter des portails captifs.</string>
     <string name="miscellaneous_settings">Divers</string>
     <string name="hidden">Masqué</string>
     <string name="security_settings_biometric_preference_title_calyx">Déverrouillage biométrique</string>
