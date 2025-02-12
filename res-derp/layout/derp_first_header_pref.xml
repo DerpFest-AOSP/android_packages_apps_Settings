@@ -28,7 +28,6 @@
         android:background="@drawable/preference_category_background"
         android:paddingVertical="10dp"
         android:paddingHorizontal="16dp"
-        android:layout_marginTop="16dip"
         android:layout_marginBottom="10dip"
         android:textAppearance="@android:style/TextAppearance.Material.Body2"
         android:textColor="?android:attr/colorControlNormal"
