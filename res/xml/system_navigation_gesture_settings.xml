@@ -30,4 +30,11 @@
         settings:controller="com.android.settings.gestures.NavigationSettingsContextualSearchController"
         settings:highlightableMenuKey="@string/menu_key_system" />
 
+    <SwitchPreferenceCompat
+       android:key="enable_taskbar"
+       android:title="@string/navigation_bar_enable_taskbar_title"
+       android:order="110"
+       settings:controller="com.android.settings.gestures.TaskbarSettingsController"
+       settings:highlightableMenuKey="@string/menu_key_system" />
+
 </PreferenceScreen>
