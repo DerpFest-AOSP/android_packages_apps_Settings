@@ -20,6 +20,7 @@ import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Intent;
 import android.hardware.face.FaceManager;
+import android.view.Surface;
 
 import com.android.settings.biometrics.BiometricEnrollSidecar;
 
@@ -33,6 +34,8 @@ public class FaceEnrollSidecar extends BiometricEnrollSidecar {
     private final int[] mDisabledFeatures;
 
     private FaceUpdater mFaceUpdater;
+    private Surface mPreviewSurface;
+    private boolean mEnrollmentRequested = false;
 
     private Intent mIntent;
 
@@ -50,8 +53,26 @@ public class FaceEnrollSidecar extends BiometricEnrollSidecar {
     @Override
     public void startEnrollment() {
         super.startEnrollment();
+
+        if (mPreviewSurface != null) {
+            doStartEnrollment();
+        } else {
+            mEnrollmentRequested = true;
+        }
+    }
+
+    public void setPreviewSurface(Surface surface) {
+        mPreviewSurface = surface;
+
+        if (mEnrollmentRequested && mPreviewSurface != null) {
+            doStartEnrollment();
+            mEnrollmentRequested = false;
+        }
+    }
+
+    private void doStartEnrollment() {
         mFaceUpdater.enroll(mUserId, mToken, mEnrollmentCancel,
-                mEnrollmentCallback, mDisabledFeatures, mIntent);
+                mEnrollmentCallback, mDisabledFeatures, mPreviewSurface, false, mIntent);
     }
 
     private FaceManager.EnrollmentCallback mEnrollmentCallback

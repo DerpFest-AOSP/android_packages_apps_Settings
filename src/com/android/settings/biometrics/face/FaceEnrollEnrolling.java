@@ -26,6 +26,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Surface;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
@@ -153,6 +154,20 @@ public class FaceEnrollEnrolling extends BiometricsEnrollEnrolling {
                     .commitAllowingStateLoss();
         }
         mPreviewFragment.setListener(mListener);
+
+        if (mSidecar != null && mPreviewFragment != null) {
+            mPreviewFragment.setPreviewSurfaceCallback(new FaceEnrollPreviewFragment.PreviewSurfaceCallback() {
+                @Override
+                public void onPreviewSurfaceCreated(Surface surface) {
+                    ((FaceEnrollSidecar) mSidecar).setPreviewSurface(surface);
+                }
+            });
+
+            Surface previewSurface = mPreviewFragment.getPreviewSurface();
+            if (previewSurface != null) {
+                ((FaceEnrollSidecar) mSidecar).setPreviewSurface(previewSurface);
+            }
+        }
     }
 
     @Override
