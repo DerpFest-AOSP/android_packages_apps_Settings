@@ -80,11 +80,27 @@
     <string name="data_usage_app_datura_firewall_summary">Οι ρυθμίσεις του τείχους προστασίας έχουν μετακινηθεί στη νέα εφαρμογή Τείχος προστασίας. Πατήστε για άνοιγμα.</string>
     <string name="hidden">Κρυφή</string>
     <string name="work_hours_end_on_summary">Εμφάνιση ειδοποίησης για απενεργοποίηση του προφίλ εργασίας στις <xliff:g id="end_time">%1$s</xliff:g> καθημερινά</string>
-    <string name="work_hours_end_off_summary">Εμφάνιση καθημερινής ειδοποίησης για απενεργοποίηση του προφίλ εργασίας</string>
+    <string name="work_hours_end_off_summary">Απενεργοποιήστε αυτόματα το προφίλ εργασίας ή λάβετε μια ειδοποίηση για να το κάνετε</string>
     <string name="work_hours_end_notification_title">Τέλος της εργάσιμης ημέρας</string>
     <string name="work_hours_end_notification_description">Πατήστε για να απενεργοποιήσετε τις εφαρμογές εργασίας</string>
     <string name="work_hours_title">Ώρες εργασίας</string>
     <string name="strict_location_redaction_title">Αφαίρεση των δεδομένων τοποθεσίας κατά την κοινή χρήση πολυμέσων</string>
     <string name="strict_location_redaction_description">Μόνο οι συλλογές και οι διαχειριστές αρχείων μπορούν να διαβάζουν μεταδεδομένα τοποθεσίας από τις φωτογραφίες και τα πολυμέσα σας. (Οι εφαρμογές τρίτων πρέπει να έχουν δικαιώματα πρόσβασης σε όλα τα αρχεία ή δικαιώματα διαχείρισης πολυμέσων.)</string>
     <string name="private_space_hide_apps_summary_calyx">Απόκρυψη ή κλείδωμα ιδιωτικών εφαρμογών σε ξεχωριστό χώρο.</string>
+    <string name="user_switch_on_lockscreen_summary">Να επιτρέπεται η εναλλαγή όταν αυτός ο χρήστης είναι κλειδωμένος</string>
+    <string name="work_hours_end_on_summary2">Απενεργοποίηση του προφίλ εργασίας στις <xliff:g id="end_time">%1$s</xliff:g> καθημερινά</string>
+    <string name="notify">Ειδοποίηση</string>
+    <string name="private_space_separate_vpn_text"><b>Οι εφαρμογές δεν χρησιμοποιούν το υπάρχον VPN σας</b>\nΓια να μπορούν οι ιδιωτικές εφαρμογές σας να χρησιμοποιούν VPN, πρέπει να ρυθμίσετε ένα και στον προσωπικό χώρο σας. Εναλλακτικά, μπορείτε να ενεργοποιήσετε το Καθολικό VPN</string>
+    <string name="user_switch_on_lockscreen">Εναλλαγή χρηστών από την οθόνη κλειδώματος</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Η εναλλαγή χρήστη πρέπει να είναι ενεργή για την προσθήκη χρηστών από την οθόνη κλειδώματος</string>
+    <string name="turn_off">Απενεργοποίηση</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Διαγραφή όλων των δεδομένων μετά από 5 αποτυχημένες προσπάθειες ξεκλειδώματος</string>
+    <string name="update_info_channel_desc">Ειδοποιήσεις με σημαντικές λεπτομέρειες σχετικά με τις επερχόμενες ενημερώσεις</string>
+    <string name="update_info_title">Πληροφορίες ενημέρωσης CalyxOS</string>
+    <string name="update_info_desc">Κατάργηση του καθολικού περιορισμού cleartext</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="update_info_desc_long">Το CalyxOS 6.5 θα είναι διαθέσιμο την τρίτη εβδομάδα του Μαρτίου. Σε αυτήν την ενημέρωση, ο καθολικός περιορισμός cleartext θα καταργηθεί. Πατήστε για να μάθετε γιατί το κάνουμε αυτό.</string>
+    <string name="update_info_channel_title">Πληροφορίες ενημερώσεων</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Επαναφορά μετά από αποτυχημένες προσπάθειες ξεκλειδώματος</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Διαγραφή όλων των δεδομένων μετά από 10 αποτυχημένες προσπάθειες ξεκλειδώματος</string>
 </resources>

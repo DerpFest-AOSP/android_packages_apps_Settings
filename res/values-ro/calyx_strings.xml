@@ -82,9 +82,24 @@
     <string name="hide_app_desc">Dacă ascunzi această aplicație, aceasta nu va fi vizibilă pentru Android și pentru alte aplicații și este posibil ca acestea să nu mai funcționeze conform intenției. Reține că ascunderea unei aplicații păstrează datele acesteia. Ascunzând, dezactivezi această aplicație și o ascunzi pe dispozitiv.</string>
     <string name="work_hours_end_notification_title">Sfârșitul zilei de lucru</string>
     <string name="work_hours_title">Ore de lucru</string>
-    <string name="work_hours_end_off_summary">Afișează o notificare zilnică pentru a dezactiva profilul de serviciu</string>
+    <string name="work_hours_end_off_summary">Oprește automat profilul de serviciu sau primește o notificare pentru a face acest lucru</string>
     <string name="work_hours_end_notification_description">Atinge pentru a dezactiva aplicațiile de serviciu</string>
     <string name="strict_location_redaction_title">Redactați datele privind locația atunci când partajați conținut media</string>
     <string name="strict_location_redaction_description">Numai galeriile și managerii de fișiere pot citi metadatele locației din fotografii și media. (Aplicațiile de la terțe părți trebuie să aibă permisiuni Acces la toate fișierele sau Gestionare media.)</string>
     <string name="private_space_hide_apps_summary_calyx">Ascunde sau blochează aplicațiile private într-un spațiu separat.</string>
+    <string name="update_info_channel_title">Informații</string>
+    <string name="update_info_channel_desc">Notificări cu detalii importante despre actualizările viitoare</string>
+    <string name="update_info_title">Informații despre actualizările CalyxOS</string>
+    <string name="work_hours_end_on_summary2">Oprește profilul de serviciu zilnic la <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="notify">Notifică</string>
+    <string name="private_space_separate_vpn_text"><b> Aplicațiile nu folosesc VPN-ul existent </b>\nPentru ca aplicațiile private să utilizeze un VPN, trebuie să configurezi și unul în spațiul privat. În mod alternativ, poți activa un VPN global</string>
+    <string name="user_switch_on_lockscreen">Schimbă utilizatorii de pe ecranul de blocare</string>
+    <string name="user_switch_on_lockscreen_summary">Permite comutarea atunci când acest utilizator este blocat</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Comutatorul utilizatorului este necesar pentru a adăuga utilizatori de pe ecranul de blocare</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Șterge încercările de deblocare eșuate</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Șterge toate datele după 5 încercări de deblocare eșuate</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Șterge toate datele după 10 încercări de deblocare eșuate</string>
+    <string name="turn_off">Oprește</string>
+    <string name="update_info_desc">Eliminarea restricției globale de limitare</string>
 </resources>
