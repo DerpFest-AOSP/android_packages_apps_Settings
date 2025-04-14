@@ -44,4 +44,9 @@
     <string name="global_vpn_summary_any_vpn_active">Anda perlu menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengatkfikan VPN Global</string>
     <string name="global_vpn_title">VPN Global</string>
     <string name="private_space_hide_apps_summary_calyx">Sembunyikan atau kunci aplikasi pribadi di ruang terpisah.</string>
+    <string name="update_info_channel_title">Perbarui informasi</string>
+    <string name="update_info_channel_desc">Notifikasi dengan rincian penting mengenai pembaruan yang akan datang</string>
+    <string name="update_info_title">Informasi pembaruan CalyxOS</string>
+    <string name="update_info_desc">Mematikan pembatasan cleartext global</string>
+    <string name="global_vpn_summary">Paksa lalu lintas pada perangkat melalui VPN ini, termasuk profil pekerjaan dan pengguna lainnya.</string>
 </resources>

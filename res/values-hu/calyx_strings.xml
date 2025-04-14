@@ -14,19 +14,19 @@
     <string name="timeout_summary_8hours">8 óra</string>
     <string name="timeout_summary_12hours">12 óra</string>
     <string name="timeout_summary_24hours">24 óra</string>
-    <string name="wifi_timeout_summary">A Wi-Fi kikapcsol, ha <xliff:g id="timeout_description">%1$s</xliff:g> ideig nincs csatlakoztatott eszköz</string>
+    <string name="wifi_timeout_summary">A Wi-Fi kikapcsol, ha <xliff:g id="timeout_description">%1$s</xliff:g> ideig nincs csatlakoztatott hálózat</string>
     <string name="wifi_timeout_summary2">Letiltva</string>
-    <string name="panic_settings_title">Pánik opció mutatása</string>
-    <string name="panic_settings_summary">Megjelenít egy kikapcsoló menű gombot ami aktiválja a pánik módot.</string>
+    <string name="panic_settings_title">Pánik opció megjelenítése</string>
+    <string name="panic_settings_summary">A kikapcsolási opcióknál új opcióként jelenik meg a vészhelyzeti pánik kioldó.</string>
     <string name="calyxos_version">CalyxOS verzió</string>
     <string name="show_qs_on_secure_keyguard_title">Gyorsbeállítások</string>
-    <string name="bluetooth_timeout">Bluetooth időkorlát</string>
+    <string name="bluetooth_timeout">Bluetooth időtúllépés</string>
     <string name="show_qs_on_secure_keyguard_summary">Gyorsgombokkal való interakciók engedélyezése lezárt képernyőn</string>
     <string name="aosp_module_version">Fő modul frissítése</string>
-    <string name="wifi_timeout">Wi-Fi időkorlát</string>
+    <string name="wifi_timeout">Wi-Fi automatikus kikapcsolása</string>
     <string name="bluetooth_timeout_summary2">Ne kapcsolja ki automatikusan a Bluetooth-t</string>
     <string name="bluetooth_timeout_summary">A Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> múlva kikapcsol, ha nincsenek eszközök csatlakoztatva</string>
-    <string name="hide">Elrejtés</string>
+    <string name="hide">Elrejt</string>
     <string name="timeout_summary_never">Soha</string>
     <string name="timeout_summary_15secs">15 másodperc</string>
     <string name="timeout_summary_30secs">30 másodperc</string>
@@ -35,5 +35,72 @@
     <string name="timeout_summary_48hours">48 óra</string>
     <string name="timeout_summary_72hours">72 óra</string>
     <string name="global_vpn_title">Globális VPN</string>
-    <string name="private_space_hide_apps_summary_calyx">Elrejthet vagy zárolhat privát alkalmazásokat egy külön területen.</string>
+    <string name="private_space_hide_apps_summary_calyx">Elrejthet vagy zárolhat privát appokat egy külön térben.</string>
+    <string name="global_vpn_summary">Az eszköz összes adatforgalma ezen a VPN-en halad át, beleértve a munka és más profilt.</string>
+    <string name="global_vpn_summary_on">Az eszköz minden adatforgalma áthalad ezen a VPN-en, beleértve a munka és más profilokat. Megjegyzés: Ha bekapcsolásra kerül, nem fog tudni más VPN-t is használni párhuzamosan a munka vagy más profilban vagy felhasználóban</string>
+    <string name="global_vpn_summary_any_vpn_active">Ki kell kapcsolnia más aktív VPN-t, hogy ez be tudja kapcsolni</string>
+    <string name="security_restrict_usb_summary">Irányítás támogatás USB eszközök számára, pl.: fülhallgatók, meghajtók, és beviteli eszközök (egér, billentyűzet, joystick)</string>
+    <string name="security_restrict_usb_title">USB korlátozása</string>
+    <string name="security_restrict_usb_disabled">Új USB eszközöket mindig engedélyezi</string>
+    <string name="security_restrict_usb_keyguard">Feloldáskor engedélyezi az új USB eszközöket</string>
+    <string name="device_reboot_timeout_title">Automata újraindítás</string>
+    <string name="device_reboot_timeout_summary">Az eszköz automatikusan újraindul, ha nem volt feloldva az utóbbi <xliff:g id="timeout_description">%1$s</xliff:g> időben</string>
+    <string name="security_restrict_usb_always">Új USB eszközök elutasítása</string>
+    <string name="bugreport_summary">Küldjön be egy hiba jelentést most</string>
+    <string name="keychords_title">Hiba jelentés gomb kombináció</string>
+    <string name="update_info_channel_desc">Értesítések az elkövetkező frissítésekről szóló fontos részletekről</string>
+    <string name="update_info_title">ClayxOS Frissítés információ</string>
+    <string name="update_info_desc">Az átfogó cleartext korlátozások eltávolítása</string>
+    <string name="update_info_desc_long">A CalyxOS 6.5 március harmadik hetében lesz elérhető. Az átfogó cleartext korlátozások eltávolításra kerülnek ebben a frissítésben. Koppintson ide, ha többet akar erről megtudni.</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobiladat, Wi-Fi, hotspot, VPN, Privát DNS</string>
+    <string name="update_info_channel_title">Információ frissítése</string>
+    <string name="security_dashboard_summary_calyx">Képernyőzár, pánik beállítások, USB korlátozások, app biztonság</string>
+    <string name="system_dashboard_summary_calyx">Nyelvek, gesztusok, idő, biztonsági mentés, felhasználók, munka profil</string>
+    <string name="data_usage_app_restrict_background_all">Hálózati elérés a háttérben</string>
+    <string name="data_usage_app_restrict_background_all_summary">Hálózat hozzáférés engedélyezése háttérben futás közben</string>
+    <string name="view_bugreports_title">Hiba jelentések megtekintése</string>
+    <string name="hidden">Elrejtve</string>
+    <string name="hide_app">App elrejtése</string>
+    <string name="unhide_app">App mutatása</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Biometrikás feloldás munkához</string>
+    <string name="cross_profile_sharing_title">Profilok közötti megosztás</string>
+    <string name="data_usage_app_datura_firewall">Datura Tűzfal</string>
+    <string name="cross_profile_sharing_summary">Kapcsolja be az appon belüli megosztás gombot, hogy áthidalja munka és magán profilokat</string>
+    <string name="data_usage_app_datura_firewall_summary">A tűzfal beállítások áthelyezésre kerültek az új tűzfal applikációba. Koppintson a megnyitáshoz.</string>
+    <string name="turn_off">Kikapcsolás</string>
+    <string name="work_hours_end_notification_title">Munkaidő vége</string>
+    <string name="work_hours_end_notification_description">Koppintson a munka appok kikapcsolására</string>
+    <string name="notify">Értesít</string>
+    <string name="user_switch_on_lockscreen_summary">Váltás engedélyezése, amikor ez a felhasználó zárolásra kerül</string>
+    <string name="private_space_separate_vpn_text"><b>Az appok nem használják a meglevő VPN-ét</b>\nAhhoz hogy a privát applikációi a VPN-t használják, a saját terében is be kell állítania. Esetlegesen beállíthat egy Átfogó VPN-t is</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">A felhasználó váltó bekapcsolása szükséges a falhasználók képernyőzárhoz való hozzáadásához</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Törlés a sikertelen feloldási kísérleteket követően</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Minden adat törlése 5 sikertelen feloldást követően</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Minden adat törlése 10 sikertelen feloldást követően</string>
+    <string name="captive_portal_title">Kapcsolódási ellenőrzés</string>
+    <string name="unhide">Megmutat</string>
+    <string name="cleartext_network_policy_title">Cleartext hálózati forgalmának korlátozása</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, párosítás, NFC</string>
+    <string name="captive_portal_summary">Ellenőrzi, hogy az eszköz online e, azáltal, hogy kapcsolódik a Google-höz. Captive Portálokhoz feltárásához is használt.</string>
+    <string name="keychords_summary_adb_enabled">Mindig bekapcsolva, ha a hibakereső aktív</string>
+    <string name="view_bugreports_summary_not_developer">Egyszeri megtekintés után elérhető marad az eszköz újraindításáig</string>
+    <string name="device_reboot_timeout_summary2">Az eszköz nem indul újra automatikusan</string>
+    <string name="other_settings">Egyéb opciók</string>
+    <string name="quick_settings">Gyors Beállítások</string>
+    <string name="strict_location_redaction_title">Lokációs adat szerkesztése média megosztásakor</string>
+    <string name="user_switch_on_lockscreen">Felhasználók váltása képernyőzáron</string>
+    <string name="keychords_summary">Vegyen fel egy hiba jelentést a Hangerő FEL, Hangerő LE, és a Bekapcsoló gomb egyszerre való lenyomásával, akár lezárt készülék esetén is</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, Privát DNS</string>
+    <string name="miscellaneous_settings">Egyebek</string>
+    <string name="cleartext_network_policy_summary">Minden nem-TLS hálózati forgalom blokkolása. Privát DNS konfiguráció szükséges. Megjegyzés: Különlegesebb kivételeket leszámítva egyik titkosítatlan szöveg (cleartext) forgalommal rendelkező app sem fog feltétlenül működni</string>
+    <string name="unhide_app_desc">Ha elrejtés után megjeleníti, láthatóvá válik az Android és más appok számára.</string>
+    <string name="work_hours_end_on_summary">Jelenítsen meg egy értesítőt a munka profil kikapcsolására minden nap <xliff:g id="end_time">%1$s</xliff:g> órakor</string>
+    <string name="work_hours_end_on_summary2">munka profil kikapcsolása minden nap <xliff:g id="end_time">%1$s</xliff:g> órakor</string>
+    <string name="filter_hidden_apps">Elrejtett appok</string>
+    <string name="hide_app_desc">Ha elrejti ezt az appot, nem lesz látható az Android vagy más appok számára, és nem feltétlenül fognak megfelelően működni. Tartsa azonban észben, hogy az elrejtéssel megvédheti adatát. Az elrejtéssel kikapcsolja az appot és elrejti a rendszer elől.</string>
+    <string name="work_hours_end_off_summary">Automatikusan kikapcsolja a munka profilt vagy értesítőt küld a kikapcsolásáról</string>
+    <string name="security_settings_biometric_preference_title_calyx">Biometrikus Feloldás</string>
+    <string name="work_hours_title">Munkaidő</string>
+    <string name="strict_location_redaction_description">Csak a galéria és a fájl managerek férhetnek hozzá a fotók és más médiák lokációs meta-adatihoz. (Harmadik féltől származó appoknak szükséges a Minden Fájlhoz Hozzáférés vagy a Média Management engedély.)</string>
 </resources>

@@ -79,7 +79,7 @@
     <string name="security_settings_work_biometric_preference_title_calyx">İş için Biyometrik Kilit Açma</string>
     <string name="data_usage_app_datura_firewall">Datura Güvenlik Duvarı</string>
     <string name="data_usage_app_datura_firewall_summary">Güvenlik duvarı ayarları yeni Güvenlik Duvarı uygulamasına taşındı. Açmak için dokunun.</string>
-    <string name="work_hours_end_off_summary">Çalışma profilini kapatmak için günlük bir bildirim göster</string>
+    <string name="work_hours_end_off_summary">Çalışma profilini otomatik olarak kapat ya da kapatmak için bildirim al</string>
     <string name="work_hours_end_notification_title">Çalışma gününün sonu</string>
     <string name="work_hours_end_notification_description">İş uygulamalarını kapatmak için dokunun</string>
     <string name="work_hours_title">Çalışma saatleri</string>
@@ -87,4 +87,20 @@
     <string name="strict_location_redaction_title">Medya paylaşırken konum verilerini gizle</string>
     <string name="strict_location_redaction_description">Yalnızca galeriler ve dosya yöneticileri fotoğraflarınızdan ve medyanızdan konum üst verilerini okuyabilir. (Üçüncü taraf uygulamaların Tüm Dosyalara Erişim veya Medya Yönetimi izinlerine sahip olması gerekir.)</string>
     <string name="private_space_hide_apps_summary_calyx">Özel uygulamaları ayrı bir alanda gizleyin veya kilitleyin.</string>
+    <string name="update_info_channel_title">Güncelleme bilgisi</string>
+    <string name="update_info_channel_desc">Gelecek güncellemelerin önemli detayları hakkında bildirimler</string>
+    <string name="update_info_desc_long">CalyxOS 6.5 Martın üçüncü haftasında kullanılabilir olacaktır. Bu özellik güncellemesinde global cleartext kısıtlaması kaldırılacaktır. Bunu neden yaptığımızı öğrenmek için dokunun.</string>
+    <string name="work_hours_end_on_summary2">İş profilini her gün <xliff:g id="end_time">%1$s</xliff:g> zamanında kapat</string>
+    <string name="notify">Bildir</string>
+    <string name="private_space_separate_vpn_text"><b>Uygulamalar varolan VPN\'nizi kullanmıyor</b>\nÖzel uygulamalarınızın VPN kullanması için, boşluğunuzda da kurmanız gerekli. Alternatif olarak, Küresel VPN\'i açabilirsiniz</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Kilit ekranından kullanıcı eklemek için kullanıcı değiştirici gerekli</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Başarısız kilidi açma teşebbüslerinde cihazı temizle</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Bütün verileri 10 başarısız kilit açma teşebbüsünden sonra sil</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Bütün verileri 5 başarısız kilit açma teşebbüsünden sonra sil</string>
+    <string name="turn_off">Kapat</string>
+    <string name="user_switch_on_lockscreen">Kilit ekranından kullanıcı değiştirin</string>
+    <string name="user_switch_on_lockscreen_summary">Bu kullanıcı kilitliyken kullanıcı değiştirmeye izin ver</string>
+    <string name="update_info_title">CalyxOS Güncelleme bilgisi</string>
+    <string name="update_info_desc">Global cleartext kısıtlaması kaldırılıyor</string>
 </resources>

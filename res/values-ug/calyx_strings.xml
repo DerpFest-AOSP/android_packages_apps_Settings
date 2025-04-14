@@ -1,2 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_1hour">1 سائەت</string>
+    <string name="timeout_summary_2hours">2 سائەت</string>
+    <string name="timeout_summary_8hours">8 سائەت</string>
+    <string name="timeout_summary_4hours">4 سائەت</string>
+    <string name="timeout_summary_12hours">12 سائەت</string>
+    <string name="timeout_summary_24hours">24 سائەت</string>
+    <string name="timeout_summary_36hours">36 سائەت</string>
+    <string name="timeout_summary_48hours">48 سائەت</string>
+    <string name="timeout_summary_72hours">72 سائەت</string>
+    <string name="bluetooth_timeout">كۆكچىش مۆھلىتى</string>
+    <string name="bluetooth_timeout_summary2">كۆكچىشنى ئۆزلۈكىدىن تاقىمايدۇ</string>
+    <string name="wifi_timeout">Wi-Fi نى ئۆزلۈكىدىن تاقايدۇ</string>
+    <string name="wifi_timeout_summary2">چەكلەنگەن</string>
+    <string name="global_vpn_title">ئومۇمىيەت VPN</string>
+    <string name="global_vpn_summary">بۇ ئۈسكۈنىدىكى بارلىق ئېقىمنى بۇ VPN دىن ئۆتۈشكە مەجبۇرلايدۇ، خىزمەت تەرجىمىھالى ۋە باشقا ئىشلەتكۈچىمۇ شۇنىڭ ئىچىدە.</string>
+    <string name="global_vpn_summary_on">بۇ ئۈسكۈنىدىكى بارلىق ئېقىمنى بۇ VPN دىن ئۆتۈشكە مەجبۇرلايدۇ، خىزمەت تەرجىمىھالى ۋە باشقا ئىشلەتكۈچىمۇ شۇنىڭ ئىچىدە. ئەسكەرتىش: قوزغىتىلسا، سىز خىزمەت تەرجىمىھالىڭىزدا ئايرىم VPN ئىشلىتەلمەيسىز ياكى باشقا ئىشلەتكۈچىمۇ ئىشلىتەلمەيدۇ</string>
+    <string name="global_vpn_summary_any_vpn_active">ئالدى بىلەن بارلىق ئاكتىپ VPN نى چەكلەپ ئاندىن بۇنى قوزغىتالايسىز</string>
+    <string name="security_restrict_usb_title">USB چەكلە</string>
+    <string name="security_restrict_usb_summary">تىڭشىغۇچ، ساقلىغۇچ ۋە كىرگۈزۈش (چاشقىنەك، ھەرپتاختا، ئويۇن دەستىسى) ئۈسكۈنىسىگە ئوخشاش USB ئۈسكۈنىسىنى تىزگىنلەشنى قوللايدۇ</string>
+    <string name="security_restrict_usb_always">يېڭى USB ئۈسكۈنىسىنى رەت قىلىدۇ</string>
+    <string name="security_restrict_usb_keyguard">قۇلۇپ ئېچىلغاندا يېڭى USB ئۈسكۈنىسىگە يول قويىدۇ</string>
+    <string name="security_restrict_usb_disabled">ھەمىشە يېڭى USB ئۈسكۈنىسىگە يول قويىدۇ</string>
+    <string name="device_reboot_timeout_title">ئۆزلۈكىدىن قايتا قوزغىتىدۇ</string>
+    <string name="device_reboot_timeout_summary2">ئۈسكۈنە ئۆزلۈكىدىن قايتا قوزغىتىلمايدۇ</string>
+    <string name="cleartext_network_policy_title">ئوچۇق تېكىس تور ئېقىمىنى چەكلەيدۇ</string>
+    <string name="cleartext_network_policy_summary">بارلىق غەيرى TLS تور ئېقىمىنى توسىدۇ. شەخسىي DNS سەپلىمىسى زۆرۈر. ئەسكەرتىش: ئەگەر ئېنىق مۇستەسنا بولمىسا، ئوچۇق تېكىست ئېقىمنى ئىشلىتىدىغان ئەپ ئىشلىمەسلىكى مۇمكىن</string>
+    <string name="network_dashboard_summary_mobile_calyx">كۆچمە سانلىق مەلۇمات، Wi‑Fi، قىزىق نۇقتا، VPN، شەخسىي DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi، قىزىق نۇقتا، VPN، شەخسىي DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">كۆكچىش، چۈپلەش، NFC</string>
+    <string name="security_dashboard_summary_calyx">ئېكران قۇلۇپى، جىددىي ئۇقتۇرۇش تەڭشىكى، USB چەكلىمىسى، ئەپ بىخەتەرلىكى</string>
+    <string name="system_dashboard_summary_calyx">تىل، قول ئىشارىتى، ۋاقىت، زاپاسلاش، ئىشلەتكۈچى، خىزمەت تەرجىمىھالى</string>
+    <string name="data_usage_app_restrict_background_all">ئارقا سۇپا تور زىيارىتى</string>
+    <string name="data_usage_app_restrict_background_all_summary">ئارقا سۇپىدا تور ئىشلىتىشنى قوزغىتىدۇ</string>
+    <string name="captive_portal_title">باغلىنىش تەكشۈرۈش</string>
+    <string name="captive_portal_summary">Google بىلەن ئالاقىلىشىش ئارقىلىق ئۈسكۈنىنىڭ ئىنتېرنېتقا باغلىنالايدىغان ياكى باغلىنالمايدىغانلىقىنى جەزملەيدۇ. مەجبۇرىي ئېغىزنى تەكشۈرۈشكىمۇ ئىشلىتىلىدۇ.</string>
+    <string name="miscellaneous_settings">باشقىلار</string>
+    <string name="quick_settings">تېز تەڭشەك</string>
+    <string name="other_settings">باشقا تاللانما</string>
+    <string name="bugreport_summary">دەرھال كەمتۈكلۈك دوكلاتى ھاسىللا</string>
+    <string name="keychords_title">كەمتۈكلۈك دوكلاتى توپچە بىرىكمىسى</string>
+    <string name="keychords_summary">ئۈسكۈنە قۇلۇپلانغان تەقدىردىمۇ ئاۋاز يۇقىرىلىتىش، ئاۋاز تۆۋەنلىتىش ۋە توك مەنبە توپچىسى بىرلا ۋاقىتتا بېسىپ تۇرۇلسىمۇ بىر كەمتۈكلۈك دوكلاتى قۇرىدۇ</string>
+    <string name="hidden">يوشۇرۇن</string>
+    <string name="unhide">يوشۇرما</string>
+    <string name="hide_app">ئەپنى يوشۇر</string>
+    <string name="unhide_app">ئەپنى يوشۇرما</string>
+    <string name="unhide_app_desc">ئەگەر بۇ ئەپنى ئاشكارىلىسىڭىز، ئۇ Android ۋە باشقا ئەپلەرگە قايتا كۆرۈنىدۇ.</string>
+    <string name="hide_app_desc">ئەگەر بۇ ئەپنى يوشۇرسىڭىز، ئۇ Android ۋە باشقا ئەپلەردە كۆرۈنمەيدۇ ۋە ئۇلار ئويلىغاندەك ئىجرا بولماسلىقى مۇمكىن. ئېسىڭىزدە بولسۇن، ئەپ يوشۇرۇلسا ئۇنىڭ سانلىق مەلۇماتى ساقلاپ قېلىنىدۇ. يوشۇرۇش ئارقىلىق، ئەپنى تاقاپ ۋە ئۇنى ئۈسكۈنىڭىزدە يوشۇرالايسىز.</string>
+    <string name="filter_hidden_apps">يوشۇرۇن ئەپ</string>
+    <string name="security_settings_biometric_preference_title_calyx">بىيولوگىيەلىك خاسلىقتا قۇلۇپ ئېچىش</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">خىزمەت ئۈچۈن بىيولوگىيەلىك خاسلىقتا قۇلۇپ ئېچىش</string>
+    <string name="cross_profile_sharing_title">سەپلىمە ھۆججەت ئاتلاپ ھەمبەھىرلەش</string>
+    <string name="cross_profile_sharing_summary">ئەپ ئىچىدىكى ھەمبەھىر توپچە قوزغىتىلسا شەخسىي ۋە خىزمەت تەرجىمىھالىدا ئىشلەيدۇ</string>
+    <string name="data_usage_app_datura_firewall">Datura مۇداپىئە تام</string>
+    <string name="data_usage_app_datura_firewall_summary">مۇداپىئە تام تەڭشىكى يېڭى مۇداپىئە تام ئەپكە يۆتكەلدى. چېكىلسە ئاچىدۇ.</string>
+    <string name="work_hours_title">خىزمەت ۋاقتى</string>
+    <string name="work_hours_end_notification_title">خىزمەت كۈنى ئاخىرلىشىدۇ</string>
+    <string name="work_hours_end_notification_description">چېكىلسە خىزمەت ئەپنى تاقايدۇ</string>
+    <string name="strict_location_redaction_description">پەقەت سۈرەتدان ۋە ھۆججەت باشقۇرغۇچلا سۈرەت ۋە ۋاسىتىنىڭ ئورۇن ئۇچۇرى تەپسىلاتىنى ئوقۇشى مۇمكىن. (ئۈچىنچى تەرەپ ئەپنىڭ چوقۇم «ھەممە ھۆججەتنى زىيارەت ئىجازىتى» ياكى «ۋاسىتە باشقۇرۇش ئىجازىتى» بولۇشى كېرەك.)</string>
+    <string name="work_hours_end_off_summary">خىزمەت تەرجىمىھالىنى ئۆزلۈكىدىن تاقايدۇ ياكى تاقاش ئۇقتۇرۇشىنى تاپشۇرۇۋالىدۇ</string>
+    <string name="private_space_separate_vpn_text"><b>ئەپ مەۋجۇت VPN ڭىزنى ئىشلەتمەيدۇ</b>\nشەخسىيە ئەپىڭىزگە VPN ئىشلىتىدۇ، بوشلۇقىڭىزدىمۇ بىرنى تەڭشىشىڭىز كېرەك. ئۇنىڭدىن باشقا ئومۇمىيەت VPN نى ئاچالايسىز</string>
+    <string name="work_hours_end_on_summary2">كۈندە <xliff:g id="end_time">%1$s</xliff:g> خىزمەت تەرجىمىھالىنى تاقاش ئۇقتۇرۇشىنى كۆرسىتىدۇ</string>
+    <string name="turn_off">تاقا</string>
+    <string name="notify">ئۇقتۇر</string>
+    <string name="strict_location_redaction_title">ۋاسىتىنى ھەمبەھىرلىگەندە ئورۇن ئۇچۇرىنى ئۆچۈرۈۋېتىدۇ</string>
+    <string name="private_space_hide_apps_summary_calyx">ئايرىم بوشلۇقتىكى شەخسىي ئەپنى يوشۇرىدۇ ياكى قۇلۇپلايدۇ.</string>
+    <string name="user_switch_on_lockscreen">قۇلۇپ ئېكراندىن ئىشلەتكۈچىنى ئالماشتۇرىدۇ</string>
+    <string name="user_switch_on_lockscreen_summary">ئىشلەتكۈچى قۇلۇپلانغاندا ئالماشتۇرۇشقا يول قويىدۇ</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">ئىشلەتكۈچى ئالماشتۇرغۇچ قۇلۇپ ئېكراندىن ئىشلەتكۈچى قوشۇشى كېرەك</string>
+    <string name="calyxos_version">CalyxOS نەشرى</string>
+    <string name="aosp_module_version">ئاساسلىق بۆلەك يېڭىلاش</string>
+    <string name="panic_settings_title">ئاگاھلاندۇرۇش تاللانمىسىنى كۆرسىتىدۇ</string>
+    <string name="panic_settings_summary">جىددىي ئاگاھلاندۇرۇش قوزغىتىلغاندا توك مەنبە توپچە تاللانمىسىنى كۆرسىتىدۇ.</string>
+    <string name="show_qs_on_secure_keyguard_title">تېز تەڭشەك</string>
+    <string name="show_qs_on_secure_keyguard_summary">بىخەتەر قۇلۇپ ئېكراندا تېز تەڭشەكنى ئالماشتۇرۇشقا يول قويىدۇ</string>
+    <string name="timeout_summary_never">ھەرگىز</string>
+    <string name="timeout_summary_15secs">15 سېكۇنت</string>
+    <string name="timeout_summary_30secs">30 سېكۇنت</string>
+    <string name="timeout_summary_1min">1 مىنۇت</string>
+    <string name="timeout_summary_2mins">2 مىنۇت</string>
+    <string name="timeout_summary_5mins">5 مىنۇت</string>
+    <string name="timeout_summary_10mins">10 مىنۇت</string>
+    <string name="timeout_summary_30mins">30 مىنۇت</string>
+    <string name="detailed_security_patch">سۇپا: <xliff:g id="platform_level">%1$s</xliff:g>\nيادرو: <xliff:g id="kernel_level">%2$s</xliff:g>\nتەمىنلىگۈچى: <xliff:g id="kernel_level">%3$s</xliff:g>\nمۇقىم دېتال: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="bluetooth_timeout_summary">ئەگەر ھېچقانداق ئۈسكۈنە باغلانمىغان بولسا كۆكچىش <xliff:g id="timeout_description">%1$s</xliff:g> كېيىن تاقىلىدۇ</string>
+    <string name="wifi_timeout_summary">ئەگەر ھېچقانداق تور باغلانمىغان بولسا Wi-Fi تورى <xliff:g id="timeout_description">%1$s</xliff:g> دىن كېيىن تاقىلىدۇ</string>
+    <string name="device_reboot_timeout_summary">ئەگەر ئۆتكەن <xliff:g id="timeout_description">%1$s</xliff:g> ئىچىدە قۇلۇپى ئېچىلمىغان بولسا بۇ ئۈسكۈنە ئۆزلۈكىدىن قايتا قوزغىلىدۇ</string>
+    <string name="keychords_summary_adb_enabled">سازلاش ئوچۇق بولسا ھەمىشە قوزغىتىدۇ</string>
+    <string name="view_bugreports_title">كەمتۈكلۈك دوكلاتىنى كۆرسىتىدۇ</string>
+    <string name="view_bugreports_summary_not_developer">بىر قېتىم كۆرۈلسىلا، ئۈسكۈنىنى قايتا قوزغىتىشتىن ئىلگىرى بارلىق كەمتۈكلۈك دوكلاتىنى زىيارەت قىلغىلى بولىدۇ</string>
+    <string name="hide">يوشۇر</string>
+    <string name="work_hours_end_on_summary">كۈندە <xliff:g id="end_time">%1$s</xliff:g> خىزمەت تەرجىمىھالىنى تاقاش ئۇقتۇرۇشىنى كۆرسىتىدۇ</string>
+    <string name="update_info_channel_title">يېڭىلاش ئۇچۇرى</string>
+    <string name="update_info_desc_long">CalyxOS 6.5 مارتنىڭ ئۈچىنچى ھەپتىسى ئېلان قىلىنىدۇ. بۇ ئىقتىدار يېڭىلاشتا، ئومۇمىيەت ئوچۇق تېكىست چەكلىمىسى چىقىرىۋېتىلىدۇ. چېكىپ نېمە ئۈچۈن بۇنداق قىلغانلىقىمىزنى بىلەلەيسىز.</string>
+    <string name="maximum_failed_passwords_for_wipe_title">قۇلۇپ ئېچىشنى سىناش مەغلۇپ بولسا سانلىق مەلۇماتلار ئۆچۈرۈلىدۇ</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">قۇلۇپ ئېچىش 5 قېتىم مەغلۇپ بولسا بارلىق سانلىق مەلۇمات ئۆچۈرۈلىدۇ</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">قۇلۇپ ئېچىشنى سىناش 10 قېتىم مەغلۇپ بولسا بارلىق سانلىق مەلۇمات ئۆچۈرۈلىدۇ</string>
+    <string name="update_info_desc">ئومۇمىيەت ئوچۇق تېكىست چەكلىمىسىنى چىقىرىۋېتىدۇ</string>
+    <string name="update_info_channel_desc">كەلگۈسى يېڭىلاش ھەققىدىكى مۇھىم تەپسىلاتنىڭ ئۇقتۇرۇشى</string>
+    <string name="update_info_title">CalyxOS يېڭىلاش ئۇچۇرى</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+</resources>

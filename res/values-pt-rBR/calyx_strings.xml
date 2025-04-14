@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="security_restrict_usb_disabled">Sempre permitir conexões USB</string>
-    <string name="security_restrict_usb_always">Bloquear conexões USB</string>
-    <string name="security_restrict_usb_keyguard">Permitir conexões USB quando desbloqueado</string>
-    <string name="security_restrict_usb_summary">Controle o suporte às conexões USB como fones, armazenamento portátil, e de entrada (mouses, teclados, joysticks)</string>
+    <string name="security_restrict_usb_disabled">Sempre permitir novas conexões USB</string>
+    <string name="security_restrict_usb_always">Bloquear novas conexões USB</string>
+    <string name="security_restrict_usb_keyguard">Permitir novas conexões USB quando desbloqueado</string>
+    <string name="security_restrict_usb_summary">Controle o suporte às conexões USB como fones, dispositivos de armazenamento, e de entrada (mouses, teclados, joysticks)</string>
     <string name="security_restrict_usb_title">Restringir USB</string>
-    <string name="panic_settings_summary">Exibir uma opção no menu liga/desliga que ativa um gatilho de pânico de emergência.</string>
-    <string name="panic_settings_title">Mostrar opção de pânico</string>
+    <string name="panic_settings_summary">Exibe uma opção no menu liga/desliga que aciona o pânico de emergência.</string>
+    <string name="panic_settings_title">Mostrar opção de Pânico</string>
     <string name="calyxos_version">Versão do CalyxOS</string>
     <string name="timeout_summary_5mins">5 minutos</string>
     <string name="timeout_summary_2mins">2 minutos</string>
@@ -14,7 +14,7 @@
     <string name="timeout_summary_30secs">30 segundos</string>
     <string name="timeout_summary_15secs">15 segundos</string>
     <string name="timeout_summary_never">Nunca</string>
-    <string name="bluetooth_timeout_summary2">Não desativar automaticamente o Bluetooth</string>
+    <string name="bluetooth_timeout_summary2">Não desativar o Bluetooth automaticamente</string>
     <string name="timeout_summary_8hours">8 horas</string>
     <string name="timeout_summary_4hours">4 horas</string>
     <string name="timeout_summary_2hours">2 horas</string>
@@ -25,14 +25,14 @@
     <string name="bluetooth_timeout">Desativar o Bluetooth automaticamente</string>
     <string name="show_qs_on_secure_keyguard_summary">Permitir modificar as configurações rápidas na tela de bloqueio segura</string>
     <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
-    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede que não usa TLS. A configuração do DNS particular é obrigatória. Nota: Sem isenções explícitas, apps que usam tráfego de texto simples podem não funcionar</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede que não é TLS. A configuração do DNS particular é necessária. Observação: Sem isenções explícitas, apps que usam tráfego não-TLS podem não funcionar</string>
     <string name="wifi_timeout_summary2">Desativado</string>
     <string name="wifi_timeout_summary">O Wi-Fi será desativado depois de <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado à nenhuma rede</string>
     <string name="wifi_timeout">Desativar o Wi-Fi automaticamente</string>
-    <string name="data_usage_app_restrict_background_all_summary">Permitir uso da rede em segundo plano</string>
+    <string name="data_usage_app_restrict_background_all_summary">Permitir o uso da rede em segundo plano</string>
     <string name="data_usage_app_restrict_background_all">Acesso à rede em segundo plano</string>
     <string name="aosp_module_version">Atualização dos módulos Mainline</string>
-    <string name="cleartext_network_policy_title">Restringir o tráfego de rede de texto simples</string>
+    <string name="cleartext_network_policy_title">Restringir tráfego de rede sem criptografia</string>
     <string name="device_reboot_timeout_title">Reinicialização automática</string>
     <string name="device_reboot_timeout_summary2">O dispositivo não reiniciará automaticamente</string>
     <string name="timeout_summary_12hours">12 horas</string>
@@ -46,45 +46,58 @@
     <string name="hide">Ocultar</string>
     <string name="unhide">Revelar</string>
     <string name="global_vpn_title">VPN Global</string>
-    <string name="global_vpn_summary">Fazer com que todo o tráfego do dispositivo passe por essa VPN, incluindo do perfil de trabalho e de outros usuários.</string>
-    <string name="global_vpn_summary_on">Fazer com que todo o tráfego do dispositivo passe por essa VPN, incluindo do perfil de trabalho e de outros usuários. Nota: Quando ativado, você não poderá utilizar uma VPN separada no perfil de trabalho ou em outros usuários</string>
-    <string name="global_vpn_summary_any_vpn_active">Você precisa desativar todas as conexões VPN ativas antes de ativar isso</string>
-    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g>
-\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
-\nFornecedor: <xliff:g id="kernel_level">%3$s</xliff:g>
-\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_summary">Forçar todo o tráfego do dispositivo por esta VPN, incluindo do perfil de trabalho e de outros usuários.</string>
+    <string name="global_vpn_summary_on">Forçar todo o tráfego do dispositivo por esta VPN, incluindo do perfil de trabalho e de outros usuários. Observação: Quando ativado, você não poderá usar uma VPN separada no perfil de trabalho ou em outros usuários</string>
+    <string name="global_vpn_summary_any_vpn_active">Você precisa desativar todas as conexões VPN ativas antes para ativar isso</string>
+    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g> \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g> \nFabricante: <xliff:g id="kernel_level">%3$s</xliff:g> \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="filter_hidden_apps">Apps ocultos</string>
     <string name="hide_app">Ocultar app</string>
     <string name="unhide_app">Revelar app</string>
-    <string name="view_bugreports_title">Visualizar relatórios de bugs</string>
+    <string name="view_bugreports_title">Ver relatórios de bugs</string>
     <string name="other_settings">Outras opções</string>
-    <string name="quick_settings">Configurações rápidas</string>
+    <string name="quick_settings">Configurações Rápidas</string>
     <string name="system_dashboard_summary_calyx">Idiomas, gestos, horário, backup, usuários, perfil de trabalho</string>
     <string name="keychords_summary_adb_enabled">Sempre ativado quando a depuração está ativa</string>
     <string name="network_dashboard_summary_mobile_calyx">Redes móveis, Wi-Fi, ponto de acesso, VPN, DNS particular</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ponto de acesso, VPN, DNS particular</string>
     <string name="unhide_app_desc">Se você revelar este app, ele ficará visível para o Android e outros apps novamente.</string>
-    <string name="bugreport_summary">Fazer um relatório de bugs agora</string>
-    <string name="hide_app_desc">Se você ocultar este app, ele não será mais visível para o Android e outros apps, e eles podem não funcionar mais como deveriam. Lembrando que, ocultando um app, seus dados são preservados, mas ele é de desativado e escondido do seu dispositivo.</string>
-    <string name="captive_portal_title">Verificação de conectividade</string>
+    <string name="bugreport_summary">Obter um relatório de bugs agora</string>
+    <string name="hide_app_desc">Se você ocultar este app, ele não ficará mais visível para o Android e outros apps, e eles podem não funcionar mais como deveriam. Tenha em mente que ao ocultar um app seus dados são preservados, mas ele é de desativado e escondido do seu dispositivo.</string>
+    <string name="captive_portal_title">Teste de conectividade</string>
     <string name="captive_portal_summary">Determinar se o dispositivo consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detectar redes com páginas de login.</string>
     <string name="keychords_title">Combinação de botões para relatório de bugs</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pareamento, NFC</string>
     <string name="miscellaneous_settings">Miscelâneas</string>
-    <string name="view_bugreports_summary_not_developer">Quando visualizado, todos os relatórios de bugs continuarão acessíveis até o dispositivo ser reiniciado</string>
+    <string name="view_bugreports_summary_not_developer">Uma vez vistos, todos os relatórios de bugs continuarão acessíveis até que o dispositivo seja reiniciado</string>
     <string name="hidden">Oculto</string>
-    <string name="security_settings_biometric_preference_title_calyx">Desbloqueio biométrico</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueio biométrico para trabalho</string>
+    <string name="security_settings_biometric_preference_title_calyx">Desbloqueio Biométrico</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueio Biométrico de trabalho</string>
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
     <string name="data_usage_app_datura_firewall_summary">Configurações de firewall foram movidas para o novo app Firewall. Toque para abrir ele.</string>
     <string name="security_dashboard_summary_calyx">Bloqueio de tela, configurações de pânico, restrições USB, segurança de apps</string>
-    <string name="keychords_summary">Capture um relatório de bugs segurando os botões de volume, e Power ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
+    <string name="keychords_summary">Capture um relatório de bugs segurando os dois botões de volume e o botão liga/desliga ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
     <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente ás <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
-    <string name="work_hours_end_off_summary">Mostrar uma notificação diária para desativar o perfil de trabalho</string>
-    <string name="work_hours_end_notification_description">Toque para desligar apps de trabalho</string>
-    <string name="work_hours_title">Horas de trabalho</string>
-    <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
-    <string name="strict_location_redaction_title">Omitir dados de localização ao compartilhar mídia</string>
-    <string name="strict_location_redaction_description">Somente galerias e gerenciadores de arquivos devem poder ler metadados das suas fotos e mídia. (Apps de terceiros devem ter o acesso à todos os arquivos, ou permissões de mídia.)</string>
-    <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie espaços privados em um espaço separado.</string>
+    <string name="work_hours_end_off_summary">Automaticamente desative o perfil de trabalho ou receba uma notificação para isso</string>
+    <string name="work_hours_end_notification_description">Toque para desligar os apps de trabalho</string>
+    <string name="work_hours_title">Horário de trabalho</string>
+    <string name="work_hours_end_notification_title">Fim da jornada de trabalho</string>
+    <string name="strict_location_redaction_title">Eliminar dados de localização ao compartilhar mídia</string>
+    <string name="strict_location_redaction_description">Somente galerias e gerenciadores de arquivos devem poder ler metadados das suas fotos e mídia. (Apps de terceiros devem ter o acesso à todos os arquivos, ou permissões de gerenciamento de mídia.)</string>
+    <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie apps privados em um espaço separado.</string>
+    <string name="private_space_separate_vpn_text"><b>Apps não usam a sua VPN existente</b>\nPara que seus apps privados usem uma VPN, você precisará configurar uma no seu espaço também. Alternativamente, você também pode ativar a VPN Global</string>
+    <string name="work_hours_end_on_summary2">Desligar o perfil de trabalho diariamente ás <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="turn_off">Desligar</string>
+    <string name="notify">Notificar</string>
+    <string name="user_switch_on_lockscreen">Alternar usuários pela tela de bloqueio</string>
+    <string name="user_switch_on_lockscreen_summary">Permitir alternar mesmo quando o usuário está bloqueado</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">O alternador de usuários é necessário para adicionar usuários pela tela de bloqueio</string>
+    <string name="update_info_channel_desc">Notificações com detalhes importantes sobre atualizações futuras</string>
+    <string name="update_info_channel_title">Informações de atualização</string>
+    <string name="update_info_title">Informações de atualização do CalyxOS</string>
+    <string name="update_info_desc">Removendo a restrição global de redes sem-criptografia</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Apagar todos os dados após 5 tentativas de desbloqueio falhas</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Apagar todos os dados após 10 tentativas de desbloqueio falhas</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_title">Apagar ao errar a senha da tela de bloqueio</string>
+    <string name="update_info_desc_long">O CalyxOS 6.5 estará disponível na terceira semana de Março. Nessa atualização de recursos, a restrição global de redes sem-criptografia será removida. Toque para saber o porquê estamos fazendo isso.</string>
 </resources>

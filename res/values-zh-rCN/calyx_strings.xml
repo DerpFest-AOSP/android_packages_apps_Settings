@@ -81,10 +81,26 @@
     <string name="miscellaneous_settings">杂项</string>
     <string name="work_hours_title">工作小时</string>
     <string name="work_hours_end_on_summary">每天 <xliff:g id="end_time">%1$s</xliff:g> 显示一则关闭工作配置文件的通知</string>
-    <string name="work_hours_end_off_summary">显示关闭工作配置文件的每日通知</string>
+    <string name="work_hours_end_off_summary">自动关闭工作配置或接收这样做的通知</string>
     <string name="work_hours_end_notification_description">轻按关闭工作应用</string>
     <string name="work_hours_end_notification_title">工作日结束</string>
     <string name="strict_location_redaction_description">仅图库和文件管理器可以从你的相片和媒体文件读取位置元数据。（第三方应用必须有“访问所有文件”或“媒体管理”权限才做得到。）</string>
     <string name="strict_location_redaction_title">分享媒体文件时删除位置信息</string>
-    <string name="private_space_hide_apps_summary_calyx">在独立空间中隐藏或锁定专用应用。</string>
+    <string name="private_space_hide_apps_summary_calyx">在独立空间中隐藏或锁定私密应用。</string>
+    <string name="turn_off">关闭</string>
+    <string name="private_space_separate_vpn_text"><b>应用不使用你现有的 VPN</b>\n要让私密应用使用 VPN, 你需要在你的空间内也设置一个 VPN。你也可以选择打开全局 VPN</string>
+    <string name="user_switch_on_lockscreen_summary">允许用户被锁定时切换</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">需要用户切换程序才能从锁屏添加用户</string>
+    <string name="work_hours_end_on_summary2">每天 <xliff:g id="end_time">%1$s</xliff:g> 关闭工作配置</string>
+    <string name="notify">通知</string>
+    <string name="user_switch_on_lockscreen">从锁屏切换用户</string>
+    <string name="update_info_channel_title">更新信息</string>
+    <string name="update_info_title">CalyxOS 更新信息</string>
+    <string name="update_info_desc">删除全局明文限制</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">5 次失败的解锁尝试后擦除所有数据</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">10 次失败的解锁尝试后擦除数据</string>
+    <string name="update_info_desc_long">CalyxOS 6.5 将在 3 月的第三周发布。在这一功能更新中，全局明文限制将被删除。轻按了解我们为何这么做。</string>
+    <string name="update_info_channel_desc">即将来临更新重要详情的通知</string>
+    <string name="maximum_failed_passwords_for_wipe_title">若解锁尝试失败擦除数据</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
 </resources>

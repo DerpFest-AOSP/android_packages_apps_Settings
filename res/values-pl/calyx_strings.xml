@@ -82,9 +82,25 @@
     <string name="work_hours_title">Czas pracy</string>
     <string name="work_hours_end_on_summary">Wyświetlanie powiadomienia o wyłączeniu profilu zawodowego o <xliff:g id="end_time">%1$s</xliff:g> dziennie</string>
     <string name="work_hours_end_notification_description">Dotknij, aby wyłączyć aplikacje służbowe</string>
-    <string name="work_hours_end_off_summary">Wyświetla codzienne powiadomienia o wyłączeniu profilu zawodowego</string>
+    <string name="work_hours_end_off_summary">Automatyczne wyłączaj profil roboczy lub otrzymuj powiadomienie, aby to zrobić</string>
     <string name="work_hours_end_notification_title">Koniec dnia pracy</string>
     <string name="strict_location_redaction_description">Tylko galerie i menedżery plików mogą odczytywać metadane lokalizacji ze zdjęć i multimediów. (Aplikacje innych firm muszą mieć uprawnienia typu \"dostęp do wszystkich plików\" lub \"zarządzanie multimediami\").</string>
     <string name="strict_location_redaction_title">Redagowanie danych o lokalizacji podczas udostępniania multimediów</string>
-    <string name="private_space_hide_apps_summary_calyx">Ukryj lub zablokuj aplikacje prywatne w oddzielnym obszarze.</string>
+    <string name="private_space_hide_apps_summary_calyx">Ukryj lub zablokuj aplikacje prywatne w oddzielnym obszarze.</string>
+    <string name="private_space_separate_vpn_text"><b>Aplikacje nie korzystają z istniejącej sieci VPN</b>\nAby prywatne aplikacje korzystały z VPN, musisz skonfigurować ją również w swojej przestrzeni. Alternatywnie możesz włączyć Global VPN</string>
+    <string name="work_hours_end_on_summary2">Wyłączaj profil roboczy codziennie o godzinie <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="turn_off">Wyłącz</string>
+    <string name="notify">Powiadom</string>
+    <string name="user_switch_on_lockscreen">Przełączaj użytkowników z poziomu blokady ekranu</string>
+    <string name="user_switch_on_lockscreen_summary">Zezwalaj na przełączanie, gdy użytkownik jest zablokowany</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Przełącznik użytkowników jest potrzebny do dodawania użytkowników z poziomu blokady ekranu</string>
+    <string name="update_info_channel_title">Informacje o aktualizacji</string>
+    <string name="update_info_channel_desc">Powiadomienia z ważnymi informacjami o nadchodzących aktualizacjach</string>
+    <string name="update_info_title">Informacje o aktualizacji CalyxOS</string>
+    <string name="update_info_desc">Usunięcie globalnego ograniczenia cleartext</string>
+    <string name="update_info_desc_long">CalyxOS 6.5 będzie dostępny w trzecim tygodniu marca. W tej aktualizacji funkcji usunięte zostanie globalne ograniczenie czystego tekstu (cleartext). Dotknij, aby dowiedzieć się, dlaczego to robimy.</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Czyszczenie po nieudanych próbach odblokowania</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Usunięcie wszystkich danych po 5 nieudanych próbach odblokowania</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Usunięcie wszystkich danych po 10 nieudanych próbach odblokowania</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
 </resources>

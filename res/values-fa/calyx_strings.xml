@@ -9,4 +9,27 @@
     <string name="panic_settings_title">نمایش گزینه مشکوک</string>
     <string name="calyxos_version">نسخه کالیکس او اس (CalyxOS)</string>
     <string name="private_space_hide_apps_summary_calyx">‏برنامه‌های خصوصی را در فضای جداگانه‌ای پنهان یا قفل کنید.</string>
+    <string name="update_info_channel_title">بروزرسانی اطلاعات</string>
+    <string name="update_info_channel_desc">اعلان‌هایی با جزئیات مهم درباره به‌روزرسانی‌های آینده</string>
+    <string name="update_info_title">اطلاعات بروزرسانی CalyxOS</string>
+    <string name="wifi_timeout_summary2">غیر فعال</string>
+    <string name="timeout_summary_15secs">15 ثانیه</string>
+    <string name="timeout_summary_30secs">30 ثانیه</string>
+    <string name="timeout_summary_4hours">4 ساعت</string>
+    <string name="timeout_summary_8hours">8 ساعت</string>
+    <string name="timeout_summary_12hours">12 ساعت</string>
+    <string name="other_settings">دیگر امکانات</string>
+    <string name="timeout_summary_30mins">30 دقیقه</string>
+    <string name="timeout_summary_never">هرگز</string>
+    <string name="timeout_summary_1min">1 دقیقه</string>
+    <string name="timeout_summary_2mins">2 دقیقه</string>
+    <string name="timeout_summary_5mins">5 دقیقه</string>
+    <string name="timeout_summary_10mins">10 دقیقه</string>
+    <string name="timeout_summary_1hour">1 ساعت</string>
+    <string name="timeout_summary_2hours">2 ساعت</string>
+    <string name="timeout_summary_24hours">24 ساعت</string>
+    <string name="timeout_summary_36hours">36 ساعت</string>
+    <string name="timeout_summary_48hours">48 ساعت</string>
+    <string name="timeout_summary_72hours">72 ساعت</string>
+    <string name="global_vpn_title">وی پی ان جهانی</string>
 </resources>

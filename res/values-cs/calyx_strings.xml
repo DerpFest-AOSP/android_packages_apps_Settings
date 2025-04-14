@@ -80,11 +80,27 @@
     <string name="data_usage_app_datura_firewall_summary">Nastavení firewallu byla přesunuta do nové aplikace Firewall. Klepněte pro její otevření.</string>
     <string name="miscellaneous_settings">Různé</string>
     <string name="work_hours_title">Pracovní hodiny</string>
-    <string name="work_hours_end_on_summary">Zobrazit oznámení na vypnutí pracovního profilu každý den v <xliff:g id="end_time">%1$s</xliff:g></string>
-    <string name="work_hours_end_off_summary">Zobrazit denní oznámení na vypnutí pracovního profilu</string>
+    <string name="work_hours_end_on_summary">Každý den v <xliff:g id="end_time">%1$s</xliff:g> zobrazit oznámení na vypnutí pracovního profilu</string>
+    <string name="work_hours_end_off_summary">Automaticky vypnout pracovní profil nebo o tom obdržet oznámení</string>
     <string name="work_hours_end_notification_title">Konec pracovního dne</string>
     <string name="work_hours_end_notification_description">Klepněte pro vypnutí pracovních aplikací</string>
     <string name="strict_location_redaction_title">Odstranit údaje o poloze při sdílení médií</string>
     <string name="strict_location_redaction_description">Pouze galerie a správci souborů mohou číst metadata o poloze z vašich fotek a médií. (Aplikace třetích stran musejí mít oprávnění Přístup ke všem souborům nebo Správa médií.)</string>
-    <string name="private_space_hide_apps_summary_calyx">Můžete si skrýt nebo uzamknout soukromé aplikace v odděleném prostoru.</string>
+    <string name="private_space_hide_apps_summary_calyx">Skryjte nebo uzamkněte své soukromé aplikace v odděleném prostoru.</string>
+    <string name="work_hours_end_on_summary2">Každý den v <xliff:g id="end_time">%1$s</xliff:g> vypnout pracovní profil</string>
+    <string name="notify">Oznámit</string>
+    <string name="user_switch_on_lockscreen">Přepínání uživatelů ze zamykací obrazovky</string>
+    <string name="user_switch_on_lockscreen_summary">Umožnit přepínání, když je tento uživatel uzamčen</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Pro přidávání uživatelů ze zamykací obrazovky je potřeba přepínač uživatelů</string>
+    <string name="turn_off">Vypnout</string>
+    <string name="private_space_separate_vpn_text"><b>Aplikace nepoužívají vaší stávající VPN</b>\nAby vaše soukromé aplikace používaly VPN, budete ji muset nastavit i v soukromém profilu. Můžete také zapnout globální VPN</string>
+    <string name="update_info_channel_title">Aktualizovat informace</string>
+    <string name="update_info_channel_desc">Oznámení s důležitými podrobnostmi ohledně nadcházejících aktualizací</string>
+    <string name="update_info_title">Informace o aktualizaci CalyxOS</string>
+    <string name="update_info_desc">Odstraňování globálního omezení prostého textu</string>
+    <string name="update_info_desc_long">Systém CalyxOS 6.5 bude k dispozici ve třetím březnovém týdnu. V této aktualizaci funkcí bude odstraněno globální omezení prostého textu (cleartext). Klepnutím se dozvíte, proč to děláme.</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Vymazat všechna data po 5 neúspěšných pokusech o odemknutí</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Vymazat po neúspěšných pokusech o odemknutí</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Vymazat všechna data po 10 neúspěšných pokusech o odemknutí</string>
 </resources>
