@@ -89,10 +89,26 @@
     <string name="data_usage_app_datura_firewall_summary">Налаштування брандмауера було перенесено до нової програми Firewall. Торкніться, щоб відкрити.</string>
     <string name="data_usage_app_datura_firewall">Брандмауер Datura</string>
     <string name="work_hours_title">Час роботи</string>
-    <string name="work_hours_end_off_summary">Показувати щоденне сповіщення про вимкнення робочого профілю</string>
+    <string name="work_hours_end_off_summary">Автоматично вимикайте робочий профіль або отримуйте сповіщення про це</string>
     <string name="work_hours_end_notification_title">Кінець робочого дня</string>
     <string name="work_hours_end_notification_description">Натисніть, щоби вимкнути робочі зачтосунки</string>
     <string name="strict_location_redaction_title">Видаліть дані про місце під час обміну медіафайлами</string>
     <string name="strict_location_redaction_description">З Ваших фотографій та медіа читати метадані про місце можуть лише галереї та файлові менеджери. (Програми сторонніх розробників повинні мати дозвіл на доступ до всіх файлів або до керування медіафайлами.)</string>
-    <string name="private_space_hide_apps_summary_calyx">Приховуйте або блокуйте приватні додатки в окремому просторі.</string>
+    <string name="private_space_hide_apps_summary_calyx">Приховати або заблокувати приватні програми в окремому просторі.</string>
+    <string name="user_switch_on_lockscreen_summary">Дозволити перемикання, коли цього користувача заблоковано</string>
+    <string name="turn_off">Вимкнути</string>
+    <string name="notify">Повідомити</string>
+    <string name="user_switch_on_lockscreen">Переключити користувачів із заблокованого екрана</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Перемикач користувачів потрібен, щоб додавати користувачів із заблокованого екрана</string>
+    <string name="private_space_separate_vpn_text"><b>Програми не використовують існуючу мережу VPN</b>\nЩоб ваші приватні програми використовували VPN, вам також потрібно налаштувати його у своєму просторі. Крім того, ви можете ввімкнути Global VPN</string>
+    <string name="work_hours_end_on_summary2">Щодня вимикайте робочий профіль у <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="update_info_channel_title">Оновлення інформації</string>
+    <string name="update_info_title">Інформація про оновлення CalyxOS</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Стирання при невдалих спробах розблокування</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Видалити всі дані після 10 невдалих спроб розблокування</string>
+    <string name="update_info_desc_long">CalyxOS 6.5 буде доступна на третьому тижні березня. У цьому оновленні функції глобальне обмеження відкритого тексту буде знято. Натисніть, щоб дізнатися, чому ми це робимо.</string>
+    <string name="update_info_desc">Зняття глобального обмеження відкритого тексту</string>
+    <string name="update_info_channel_desc">Сповіщення з важливою інформацією про майбутні оновлення</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Видалити всі дані після 5 невдалих спроб розблокування</string>
 </resources>

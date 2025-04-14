@@ -81,10 +81,23 @@
     <string name="data_usage_app_datura_firewall_summary">Firewall-Einstellungen wurden in die neue Firewall-App verschoben. Zum Öffnen antippen.</string>
     <string name="work_hours_end_on_summary">Anzeige einer Benachrichtigung zum Ausschalten des Arbeitsprofils um <xliff:g id="end_time">%1$s</xliff:g> täglich</string>
     <string name="work_hours_title">Arbeitszeiten</string>
-    <string name="work_hours_end_off_summary">Täglich eine Benachrichtigung zum Ausschalten des Arbeitsprofils anzeigen</string>
+    <string name="work_hours_end_off_summary">Automatisches Ausschalten des Arbeitsprofils oder Erhalt einer entsprechenden Benachrichtigung</string>
     <string name="work_hours_end_notification_title">Arbeitstagende</string>
     <string name="work_hours_end_notification_description">Antippen, um geschäftliche Apps zu deaktivieren</string>
     <string name="strict_location_redaction_title">Standortdaten beim Teilen von Medien entfernen</string>
     <string name="strict_location_redaction_description">Nur Galerien und Dateimanager können Standort-Metadaten von deinen Fotos und Medien lesen. (Apps von Drittanbietern müssen über die Berechtigung „Zugriff auf alle Dateien“ oder „Medienverwaltung“ verfügen.)</string>
-    <string name="private_space_hide_apps_summary_calyx">Du kannst private Apps in einem separaten Profil verbergen, das sich sperren lässt.</string>
+    <string name="private_space_hide_apps_summary_calyx">Verstecke oder sperre private Apps in einem separaten Bereich.</string>
+    <string name="update_info_channel_title">Aktualisierungsinformationen</string>
+    <string name="update_info_desc_long">CalyxOS 6.5 wird in der dritten Märzwoche verfügbar sein. In dieser Funktionsaktualisierung wird die globale Klartextbeschränkung entfernt. Tippen Sie, um zu erfahren, warum wir dies tun.</string>
+    <string name="update_info_channel_desc">Benachrichtigung mit wichtigen Details zu kommenden Aktualisierungen</string>
+    <string name="update_info_title">CalyxOS Aktualisierungsinformation</string>
+    <string name="user_switch_on_lockscreen">Benutzer vom Sperrbildschirm aus wechseln</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Alle Daten nach 5 fehlgeschlagenen Entsperrungsversuchen löschen</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Alle Daten nach 10 fehlgeschlagenen Entsperrungsversuchen löschen</string>
+    <string name="notify">Benachrichtigen</string>
+    <string name="user_switch_on_lockscreen_summary">Wechseln erlauben, wenn dieser Benutzer gesperrt ist</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Löschen bei fehlgeschlagenen Entsperrversuchen</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="work_hours_end_on_summary2">Arbeitsprofil täglich um <xliff:g id="end_time">%1$s</xliff:g> ausschalten</string>
+    <string name="turn_off">Ausschalten</string>
 </resources>

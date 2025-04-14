@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="panic_settings_summary">Afficher le bouton d\'urgence dans les options du bouton d\'alimentation.</string>
-    <string name="panic_settings_title">Afficher l’option Urgence</string>
+    <string name="panic_settings_summary">Afficher le déclencheur Panic dans les options du bouton d\'alimentation.</string>
+    <string name="panic_settings_title">Afficher l’option Panic</string>
     <string name="calyxos_version">Version de CalyxOS</string>
     <string name="security_restrict_usb_disabled">Toujours autoriser les nouveaux périphériques USB</string>
     <string name="security_restrict_usb_keyguard">Autoriser les nouveaux périphériques USB quand déverrouillé</string>
@@ -46,8 +46,8 @@
 \nDistributeur : <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware : <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="global_vpn_title">VPN global</string>
-    <string name="global_vpn_summary">Forcer tout le trafic sur l\'appareil à passer par ce VPN, y compris le profil de travail et les autres utilisateurs.</string>
-    <string name="global_vpn_summary_on">Forcer tout le trafic sur l\'appareil à passer par ce VPN, y compris le profil de travail et les autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne pourrez pas utiliser un VPN distinct dans un profil de travail ou pour d\'autres utilisateurs</string>
+    <string name="global_vpn_summary">Forcer tout le trafic sur l\'appareil à passer par ce VPN, y compris le profil professionnel et les autres utilisateurs.</string>
+    <string name="global_vpn_summary_on">Forcer tout le trafic sur l\'appareil à passer par ce VPN, y compris le profil professionnel et les autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne pourrez pas utiliser un VPN distinct dans un profil professionnel ou pour d\'autres utilisateurs</string>
     <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN actives pour activer cette fonction</string>
     <string name="cross_profile_sharing_title">Partage entre les profils</string>
     <string name="cross_profile_sharing_summary">Activez les boutons de partage dans l\'application pour qu\'ils fonctionnent sur vos profils personnel et professionnel</string>
@@ -56,18 +56,18 @@
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, point d\'accès, VPN, DNS privé</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, appairage, NFC</string>
     <string name="network_dashboard_summary_mobile_calyx">Données mobiles, Wi‑Fi, point d\'accès, VPN, DNS privé</string>
-    <string name="security_dashboard_summary_calyx">Écran de verrouillage, paramètres de panique, restrictions USB, sécurité d\'application</string>
+    <string name="security_dashboard_summary_calyx">Verrouillage de l\'écran, paramètres Panic, restrictions USB, sécurité des applications</string>
     <string name="system_dashboard_summary_calyx">Langues, gestes, date et heure, sauvegarde, utilisateurs, profil professionnel</string>
     <string name="hide_app">Masquer l\'application</string>
     <string name="other_settings">Autres options</string>
-    <string name="view_bugreports_title">Afficher les rapports de bugs</string>
-    <string name="view_bugreports_summary_not_developer">Une fois affichés, tous les rapports de bugs resteront accessibles jusqu\'au redémarrage de l\'appareil</string>
+    <string name="view_bugreports_title">Voir les rapports de bugs</string>
+    <string name="view_bugreports_summary_not_developer">Une fois consultés, tous les rapports de bugs resteront accessibles jusqu\'au redémarrage de l\'appareil</string>
     <string name="keychords_summary_adb_enabled">Toujours activé lorsque le débogage est allumé</string>
     <string name="filter_hidden_apps">Applications masquées</string>
     <string name="unhide_app">Montrer l\'application</string>
     <string name="work_hours_title">Heures de travail</string>
-    <string name="work_hours_end_notification_description">Appuyer pour désactiver les applications professionnelles</string>
-    <string name="work_hours_end_off_summary">Afficher une notification journalière pour désactiver le profil professionnel</string>
+    <string name="work_hours_end_notification_description">Appuyez pour désactiver les applications professionnelles</string>
+    <string name="work_hours_end_off_summary">Désactiver automatiquement le profil professionnel ou recevoir une notification de rappel</string>
     <string name="data_usage_app_datura_firewall">Pare-feu Datura</string>
     <string name="work_hours_end_on_summary">Afficher une notification journalière pour désactiver le profil professionnel à <xliff:g id="end_time">%1$s</xliff:g></string>
     <string name="quick_settings">Paramètres rapides</string>
@@ -75,10 +75,10 @@
     <string name="miscellaneous_settings">Divers</string>
     <string name="hidden">Masqué</string>
     <string name="security_settings_biometric_preference_title_calyx">Déverrouillage biométrique</string>
-    <string name="unhide_app_desc">Si vous montrez cette application, elle sera visible à Android et aux autres applications.</string>
+    <string name="unhide_app_desc">Si vous montrez cette application, elle sera de nouveau visible pour Android et les autres applications.</string>
     <string name="work_hours_end_notification_title">Fin de la journée de travail</string>
     <string name="hide_app_desc">Si vous masquez cette application, elle ne sera pas visible pour Android et les autres applications, et celles-ci risquent de ne plus fonctionner comme prévu. Gardez à l\'esprit que le masquage d\'une application préserve ses données. En masquant cette application, vous la désactivez et la masquez sur votre appareil.</string>
-    <string name="data_usage_app_datura_firewall_summary">Les paramètres du pare-feu ont été déplacés dans la nouvelle application Pare-feu. Touchez pour ouvrir.</string>
+    <string name="data_usage_app_datura_firewall_summary">Les paramètres du pare-feu ont été déplacés dans la nouvelle application Pare-feu. Appuyez pour ouvrir.</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Déverrouillage biométrique pour profil professionnel</string>
     <string name="captive_portal_title">Vérification de la connectivité</string>
     <string name="bugreport_summary">Créer un rapport de bug maintenant</string>
@@ -87,4 +87,20 @@
     <string name="strict_location_redaction_title">Expurger les données de localisation lors du partage de médias</string>
     <string name="strict_location_redaction_description">Seuls les galeries et les gestionnaires de fichiers peuvent lire les métadonnées de localisation de vos photos et de vos médias. (Les applications tierces doivent disposer des autorisations Accès à tous les fichiers ou Gestion des médias.)</string>
     <string name="private_space_hide_apps_summary_calyx">Masquez ou verrouillez vos applis privées en les regroupant dans un espace séparé.</string>
+    <string name="update_info_channel_title">Informations de mise à jour</string>
+    <string name="update_info_channel_desc">Notifications comprenant des détails importants concernant les futures mises à jour</string>
+    <string name="update_info_title">Information de mise à jour CalyxOS</string>
+    <string name="update_info_desc">Suppression de la restriction globale de texte en clair</string>
+    <string name="update_info_desc_long">CalyxOS 6.5 sera disponible durant la troisième semaine de mars. Dans cette mise à jour, la restriction globale de texte en clair sera supprimée. Appuyez pour en savoir plus.</string>
+    <string name="user_switch_on_lockscreen">Changer d\'utilisateur depuis l\'écran de verrouillage</string>
+    <string name="user_switch_on_lockscreen_summary">Autoriser le changement lorsque cet utilisateur est verrouillé</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Activez le changement d\'utilisateur pour ajouter de nouveaux utilisateurs depuis l\'écran de verrouillage</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Effacer les données après échec des tentatives de déverrouillage</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Effacer toutes les données après 5 tentatives de déverrouillage échouées</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Effacer toutes les données après 10 tentatives de déverrouillage échouées</string>
+    <string name="private_space_separate_vpn_text"><b>Les applications n\'utilisent pas votre VPN actuel</b>\nPour que les applications privées utilisent un VPN, vous devez en configurer un dans votre espace. Vous pouvez également activer le VPN global</string>
+    <string name="work_hours_end_on_summary2">Désactiver quotidiennement le profil professionnel à <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="turn_off">Eteindre</string>
+    <string name="notify">Notifier</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
 </resources>

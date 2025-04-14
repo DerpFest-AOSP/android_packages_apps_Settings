@@ -80,11 +80,14 @@
     <string name="data_usage_app_datura_firewall">חומת אש של Datura</string>
     <string name="data_usage_app_datura_firewall_summary">הגדרות חומת האש הועברו ליישומון חומת האש החדש. נגיעה כאן תפתח אותו.</string>
     <string name="work_hours_title">שעות עבודה</string>
-    <string name="work_hours_end_off_summary">הצגת התראה יומית לכיבוי פרופיל העבודה</string>
+    <string name="work_hours_end_off_summary">לכבות את פרופיל העבודה אוטומטית או לקבל התראות לעשות זאת</string>
     <string name="work_hours_end_on_summary">הצגת התראה לכיבוי פרופיל העבודה ב־<xliff:g id="end_time">%1$s</xliff:g> daily</string>
     <string name="work_hours_end_notification_title">סוף יום העבודה</string>
     <string name="work_hours_end_notification_description">נגיעה תכבה את יישומוני העבודה</string>
     <string name="strict_location_redaction_description">רק גלריות ומנהלי קבצים יכולים לקרוא נתוני על של מיקום מהתמונות ומהמדיה שלך. (יישומוני צד־שלישי חייבים הרשאות גישה לכל הקבצים או ניהול מדיה.)</string>
     <string name="strict_location_redaction_title">לשנות את מקום הנתונים כשמדיה משותפת</string>
     <string name="private_space_hide_apps_summary_calyx">‏אפשר להסתיר או לנעול אפליקציות פרטיות במרחב נפרד.</string>
+    <string name="update_info_channel_title">עדכון הפרטים</string>
+    <string name="update_info_channel_desc">התראות עם פרטים חשובים על עדכונים שיגיעו בקרוב</string>
+    <string name="update_info_title">פרטי עדכון CalyxOS</string>
 </resources>

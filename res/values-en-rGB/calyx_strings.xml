@@ -83,8 +83,24 @@
     <string name="data_usage_app_datura_firewall_summary">Firewall settings have been moved to the new Firewall app. Tap to open.</string>
     <string name="work_hours_title">Work hours</string>
     <string name="work_hours_end_on_summary">Show a notification to turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
-    <string name="work_hours_end_off_summary">Show a daily notification to turn off the work profile</string>
+    <string name="work_hours_end_off_summary">Automatically turn off the work profile or receive a notification to do so</string>
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
     <string name="private_space_hide_apps_summary_calyx">Hide or lock private apps in a separate space.</string>
+    <string name="update_info_channel_title">Update information</string>
+    <string name="update_info_channel_desc">Notifications with important details about upcoming updates</string>
+    <string name="update_info_title">CalyxOS Update information</string>
+    <string name="update_info_desc_long">CalyxOS 6.5 will be available in the third week of March. In this feature update, global cleartext restriction will be removed. Tap to learn why we are doing this.</string>
+    <string name="update_info_desc">Removing the global cleartext restriction</string>
+    <string name="work_hours_end_on_summary2">Turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
+    <string name="notify">Notify</string>
+    <string name="private_space_separate_vpn_text"><b>Apps don’t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>
+    <string name="user_switch_on_lockscreen_summary">Allow switching when this user is locked</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">User switcher is needed to add users from lock screen</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Wipe on failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Erase all data after 5 failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Erase all data after 10 failed unlock attempts</string>
+    <string name="turn_off">Turn off</string>
+    <string name="user_switch_on_lockscreen">Switch users from lock screen</string>
 </resources>
