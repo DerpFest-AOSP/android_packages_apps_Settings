@@ -73,7 +73,6 @@
     <string name="keychords_title">Комбинация кнопок уведомления об ошибке</string>
     <string name="view_bugreports_summary_not_developer">После просмотра все отчеты об ошибках будут доступны до перезапуска устройства</string>
     <string name="view_bugreports_title">Просмотр отчетов об ошибках</string>
-    <string name="miscellaneous_settings">Прочее</string>
     <string name="hidden">Скрытое</string>
     <string name="security_settings_biometric_preference_title_calyx">Разблокировка по биометрии</string>
     <string name="data_usage_app_datura_firewall_summary">Настройки брандмауэра были перенесены в новое приложение Firewall. Нажмите, чтобы открыть.</string>

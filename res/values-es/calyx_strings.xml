@@ -77,7 +77,6 @@
     <string name="security_settings_biometric_preference_title_calyx">Desbloqueo biométrico</string>
     <string name="data_usage_app_datura_firewall">Cortafuegos de datos</string>
     <string name="data_usage_app_datura_firewall_summary">Los ajustes del cortafuegos se han trasladado a la nueva aplicación Cortafuegos. Toca para abrirla.</string>
-    <string name="miscellaneous_settings">Varios</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueo biométrico para funcionar</string>
     <string name="work_hours_end_off_summary">Mostrar una notificación diaria para desactivar el perfil de trabajo</string>
     <string name="work_hours_end_on_summary">Mostrar una notificación para desactivar el perfil de trabajo diario a <xliff:g id="end_time">%1$s</xliff:g></string>

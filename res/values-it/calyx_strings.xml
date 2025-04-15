@@ -76,7 +76,6 @@
     <string name="security_settings_work_biometric_preference_title_calyx">Sblocco biometrico per lavoro</string>
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
     <string name="data_usage_app_datura_firewall_summary">Le impostazioni del firewall sono state spostate nella nuova app Firewall. Tocca per aprire.</string>
-    <string name="miscellaneous_settings">Varie</string>
     <string name="bugreport_summary">Segnala subito un bug</string>
     <string name="view_bugreports_title">Vedi le segnalazioni di bug</string>
     <string name="view_bugreports_summary_not_developer">Una volta viste, tutte le segnalazioni di bug rimarranno accessibili finchè non riavvierai il dispositivo</string>

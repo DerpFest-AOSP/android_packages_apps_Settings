@@ -83,7 +83,6 @@
     <string name="view_bugreports_title">Перегляд звітів про помилки</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Біометричне розблокування для роботи</string>
     <string name="work_hours_end_on_summary">Показувати сповіщення про вимкнення робочого профілю о <xliff:g id="end_time">%1$s</xliff:g> годині щодня</string>
-    <string name="miscellaneous_settings">Різне</string>
     <string name="hidden">Приховане</string>
     <string name="security_settings_biometric_preference_title_calyx">Біометричне розблокування</string>
     <string name="data_usage_app_datura_firewall_summary">Налаштування брандмауера було перенесено до нової програми Firewall. Торкніться, щоб відкрити.</string>

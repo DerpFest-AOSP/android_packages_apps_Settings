@@ -92,7 +92,6 @@
     <string name="user_switch_on_lockscreen">Felhasználók váltása képernyőzáron</string>
     <string name="keychords_summary">Vegyen fel egy hiba jelentést a Hangerő FEL, Hangerő LE, és a Bekapcsoló gomb egyszerre való lenyomásával, akár lezárt készülék esetén is</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, Privát DNS</string>
-    <string name="miscellaneous_settings">Egyebek</string>
     <string name="cleartext_network_policy_summary">Minden nem-TLS hálózati forgalom blokkolása. Privát DNS konfiguráció szükséges. Megjegyzés: Különlegesebb kivételeket leszámítva egyik titkosítatlan szöveg (cleartext) forgalommal rendelkező app sem fog feltétlenül működni</string>
     <string name="unhide_app_desc">Ha elrejtés után megjeleníti, láthatóvá válik az Android és más appok számára.</string>
     <string name="work_hours_end_on_summary">Jelenítsen meg egy értesítőt a munka profil kikapcsolására minden nap <xliff:g id="end_time">%1$s</xliff:g> órakor</string>

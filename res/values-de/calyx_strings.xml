@@ -73,7 +73,6 @@
     <string name="keychords_title">Tastenkombination für Fehlerbericht</string>
     <string name="keychords_summary">Erfasse einen Fehlerbericht, indem du die Tasten Lauter, Leiser und Ein/Aus gleichzeitig gedrückt hältst, auch wenn das Gerät gesperrt ist</string>
     <string name="view_bugreports_summary_not_developer">Nach dem Anzeigen bleiben alle Fehlerberichte zugänglich, bis du das Gerät neu startest</string>
-    <string name="miscellaneous_settings">Verschiedenes</string>
     <string name="security_settings_biometric_preference_title_calyx">Biometrisches Entsperren</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Biometrisches Entsperren für das Arbeitsprofil</string>
     <string name="hidden">Ausgeblendet</string>

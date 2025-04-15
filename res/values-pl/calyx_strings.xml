@@ -71,7 +71,6 @@
     <string name="system_dashboard_summary_calyx">Języki, gesty, czas, kopia zapasowa, użytkownicy, profil zawodowy</string>
     <string name="global_vpn_summary_on">Wymuś aby wszystkie połączenia przechodziły przez ten VPN, dotyczy to również profilu zawodowego i innych użytkowników. Uwaga: Kiedy ta opcja jest aktywna, nie będziesz mógł korzystać z innego VPN\'a w profilu zawodowym lub innych użytkowników</string>
     <string name="captive_portal_summary">Określa, czy urządzenie może połączyć się z internetem, kontaktując się z Google. Służy również do wykrywania portali typu \"captive\".</string>
-    <string name="miscellaneous_settings">Różne</string>
     <string name="keychords_title">Kombinacja przycisków zgłaszania błędów</string>
     <string name="hidden">Ukryte</string>
     <string name="security_settings_biometric_preference_title_calyx">Odblokowywanie biometryczne</string>
