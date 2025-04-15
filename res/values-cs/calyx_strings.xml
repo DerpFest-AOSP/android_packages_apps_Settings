@@ -78,7 +78,6 @@
     <string name="security_settings_work_biometric_preference_title_calyx">Biometrické odemčení pro práci</string>
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
     <string name="data_usage_app_datura_firewall_summary">Nastavení firewallu byla přesunuta do nové aplikace Firewall. Klepněte pro její otevření.</string>
-    <string name="miscellaneous_settings">Různé</string>
     <string name="work_hours_title">Pracovní hodiny</string>
     <string name="work_hours_end_on_summary">Každý den v <xliff:g id="end_time">%1$s</xliff:g> zobrazit oznámení na vypnutí pracovního profilu</string>
     <string name="work_hours_end_off_summary">Automaticky vypnout pracovní profil nebo o tom obdržet oznámení</string>

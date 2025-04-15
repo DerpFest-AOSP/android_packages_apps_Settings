@@ -59,7 +59,6 @@
     <string name="security_restrict_usb_always">Respinge noile gadgeturi USB</string>
     <string name="device_reboot_timeout_summary">Dispozitivul va reporni automat dacă nu a fost deblocat în ultimele <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="cleartext_network_policy_title">Restricționează traficul de rețea cu text clar</string>
-    <string name="miscellaneous_settings">Diverse</string>
     <string name="other_settings">Alte opțiuni</string>
     <string name="keychords_summary">Creează un raport de eroare ținând apăsat Volum Creștere, Reducere volum și Alimentare în același timp, chiar și atunci când dispozitivul este blocat</string>
     <string name="keychords_summary_adb_enabled">Întotdeauna activat când depanarea este activată</string>

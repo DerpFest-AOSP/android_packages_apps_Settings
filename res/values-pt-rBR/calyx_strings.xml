@@ -67,7 +67,6 @@
     <string name="captive_portal_summary">Determinar se o dispositivo consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detectar redes com páginas de login.</string>
     <string name="keychords_title">Combinação de botões para relatório de bugs</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pareamento, NFC</string>
-    <string name="miscellaneous_settings">Miscelâneas</string>
     <string name="view_bugreports_summary_not_developer">Uma vez vistos, todos os relatórios de bugs continuarão acessíveis até que o dispositivo seja reiniciado</string>
     <string name="hidden">Oculto</string>
     <string name="security_settings_biometric_preference_title_calyx">Desbloqueio Biométrico</string>

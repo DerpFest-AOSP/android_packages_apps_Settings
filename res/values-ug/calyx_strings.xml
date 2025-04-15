@@ -35,7 +35,6 @@
     <string name="data_usage_app_restrict_background_all_summary">ئارقا سۇپىدا تور ئىشلىتىشنى قوزغىتىدۇ</string>
     <string name="captive_portal_title">باغلىنىش تەكشۈرۈش</string>
     <string name="captive_portal_summary">Google بىلەن ئالاقىلىشىش ئارقىلىق ئۈسكۈنىنىڭ ئىنتېرنېتقا باغلىنالايدىغان ياكى باغلىنالمايدىغانلىقىنى جەزملەيدۇ. مەجبۇرىي ئېغىزنى تەكشۈرۈشكىمۇ ئىشلىتىلىدۇ.</string>
-    <string name="miscellaneous_settings">باشقىلار</string>
     <string name="quick_settings">تېز تەڭشەك</string>
     <string name="other_settings">باشقا تاللانما</string>
     <string name="bugreport_summary">دەرھال كەمتۈكلۈك دوكلاتى ھاسىللا</string>

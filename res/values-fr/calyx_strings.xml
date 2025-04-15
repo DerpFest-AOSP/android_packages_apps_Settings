@@ -72,7 +72,6 @@
     <string name="work_hours_end_on_summary">Afficher une notification journalière pour désactiver le profil professionnel à <xliff:g id="end_time">%1$s</xliff:g></string>
     <string name="quick_settings">Paramètres rapides</string>
     <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à Internet, en contactant Google. Aussi utilisé pour détecter des portails captifs.</string>
-    <string name="miscellaneous_settings">Divers</string>
     <string name="hidden">Masqué</string>
     <string name="security_settings_biometric_preference_title_calyx">Déverrouillage biométrique</string>
     <string name="unhide_app_desc">Si vous montrez cette application, elle sera de nouveau visible pour Android et les autres applications.</string>

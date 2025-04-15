@@ -66,7 +66,6 @@
     <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, Private DNS</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pairing, NFC</string>
     <string name="data_usage_app_restrict_background_all_summary">Enable network usage in the background</string>
-    <string name="miscellaneous_settings">Miscellaneous</string>
     <string name="bugreport_summary">Take a bug report now</string>
     <string name="keychords_title">Bug report button combination</string>
     <string name="hide">Hide</string>

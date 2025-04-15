@@ -78,7 +78,6 @@
     <string name="security_settings_work_biometric_preference_title_calyx">工作配置生物特征解锁</string>
     <string name="data_usage_app_datura_firewall">Datura 防火墙</string>
     <string name="data_usage_app_datura_firewall_summary">防火墙设置已移动到新的防火墙应用。轻按打开。</string>
-    <string name="miscellaneous_settings">杂项</string>
     <string name="work_hours_title">工作小时</string>
     <string name="work_hours_end_on_summary">每天 <xliff:g id="end_time">%1$s</xliff:g> 显示一则关闭工作配置文件的通知</string>
     <string name="work_hours_end_off_summary">自动关闭工作配置或接收这样做的通知</string>

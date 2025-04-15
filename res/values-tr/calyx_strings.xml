@@ -73,7 +73,6 @@
     <string name="keychords_title">Hata raporu düğmesi kombinasyonu</string>
     <string name="keychords_summary_adb_enabled">Hata ayıklama açıkken her zaman etkin</string>
     <string name="view_bugreports_summary_not_developer">Görüntülendikten sonra, tüm hata raporları siz aygıtı yeniden başlatana kadar erişilebilir kalacaktır</string>
-    <string name="miscellaneous_settings">Çeşitli</string>
     <string name="hidden">Gizli</string>
     <string name="security_settings_biometric_preference_title_calyx">Biyometrik Kilit Açma</string>
     <string name="security_settings_work_biometric_preference_title_calyx">İş için Biyometrik Kilit Açma</string>

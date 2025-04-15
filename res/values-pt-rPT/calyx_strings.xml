@@ -91,7 +91,6 @@
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ponto de acesso, VPN, DNS particular</string>
     <string name="security_dashboard_summary_calyx">Bloqueio de ecrã, configurações de pânico, restrições USB, segurança de apps</string>
     <string name="captive_portal_summary">Determinar se o dispositivo consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detetar redes com páginas de login.</string>
-    <string name="miscellaneous_settings">Miscelâneas</string>
     <string name="bugreport_summary">Obter um relatório de bugs agora</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueio Biométrico de trabalho</string>
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
