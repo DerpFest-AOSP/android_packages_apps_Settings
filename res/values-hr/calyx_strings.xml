@@ -59,7 +59,6 @@
     <string name="security_dashboard_summary_calyx">Zaključavanje ekrana, postavke panike, USB ograničenja, sigurnost aplikacije</string>
     <string name="system_dashboard_summary_calyx">Jezici, geste, vrijeme, sigurnosna kopija, korisnici, radni profil</string>
     <string name="captive_portal_summary">Utvrdi može li se uređaj povezati s internetom kontaktiranjem Googlea. Također se koristi za otkrivanje tzv. captive portala.</string>
-    <string name="miscellaneous_settings">Razno</string>
     <string name="other_settings">Druge opcije</string>
     <string name="hidden">Skriveno</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Biometrijsko otključavanje za posao</string>

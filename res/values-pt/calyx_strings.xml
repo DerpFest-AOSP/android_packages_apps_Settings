@@ -63,7 +63,6 @@
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pareamento, NFC</string>
     <string name="system_dashboard_summary_calyx">Idiomas, gestos, horário, backup, utilizadores, perfil de trabalho</string>
     <string name="captive_portal_summary">Determinar se o dispositivo consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detetar redes com páginas de login.</string>
-    <string name="miscellaneous_settings">Miscelâneas</string>
     <string name="bugreport_summary">Obter um relatório de bugs agora</string>
     <string name="keychords_title">Combinação de botões para relatório de bugs</string>
     <string name="keychords_summary">Capture um relatório de bugs segurando os dois botões de volume e o botão liga/desliga ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>

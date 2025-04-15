@@ -73,7 +73,6 @@
     <string name="keychords_summary">אפשר ללכוד דיווח על תקלה על ידי החזרת כפתור עצמת שמע למעלה, כפתור עצמת שמע למטה והכיבוי ביחד, אפילו כשהמכשיר נעול</string>
     <string name="keychords_summary_adb_enabled">תמיד פעיל כשניפוי שגיאות פעיל</string>
     <string name="view_bugreports_summary_not_developer">לאחר שהוצגו, כל דיווחי התקלות יישארו זמינים עד להפעלת המכשיר מחדש</string>
-    <string name="miscellaneous_settings">שונות</string>
     <string name="hidden">מוסתר</string>
     <string name="security_settings_biometric_preference_title_calyx">שחרור נעילה ביומטרי</string>
     <string name="security_settings_work_biometric_preference_title_calyx">שחרור נעילה ביומטרי לעבודה</string>

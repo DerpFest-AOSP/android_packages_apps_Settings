@@ -69,7 +69,6 @@
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
     <string name="captive_portal_title">Kontrola pripojenia</string>
     <string name="captive_portal_summary">Zistenie, či je zariadenie schopné sa pripojiť k internetu kontaktovaním spoločnosti Google. Používa sa tiež na zistenie skrytých portálov.</string>
-    <string name="miscellaneous_settings">Rôzne</string>
     <string name="other_settings">Ďalšie možnosti</string>
     <string name="quick_settings">Rýchle nastavenia</string>
     <string name="view_bugreports_title">Zobraziť hlásenie chyby</string>

@@ -53,7 +53,6 @@
     <string name="data_usage_app_restrict_background_all">பின்னணி பிணைய அணுகல்</string>
     <string name="data_usage_app_restrict_background_all_summary">பின்னணியில் பிணைய பயன்பாட்டை இயக்கவும்</string>
     <string name="captive_portal_summary">Google ஐ தொடர்புகொள்வதன் மூலம் சாதனம் இணையத்துடன் இணைக்க முடியுமா என்பதை தீர்மானிக்கவும். சிறைப்பிடிக்கப்பட்ட போர்ட்டல்களைக் கண்டறியவும் பயன்படுத்தப்படுகிறது.</string>
-    <string name="miscellaneous_settings">மற்றவை</string>
     <string name="other_settings">பிற விருப்பங்கள்</string>
     <string name="quick_settings">விரைவான அமைப்புகள்</string>
     <string name="view_bugreports_title">பிழை அறிக்கைகளைக் காண்க</string>

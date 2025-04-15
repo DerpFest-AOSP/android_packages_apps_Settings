@@ -73,7 +73,6 @@
     <string name="view_bugreports_title">Προβολή αναφορών σφαλμάτων</string>
     <string name="view_bugreports_summary_not_developer">Μόλις προβληθούν, όλες οι αναφορές σφαλμάτων θα παραμείνουν προσβάσιμες μέχρι να επανεκκινήσετε τη συσκευή</string>
     <string name="keychords_summary">Καταγράψτε μια αναφορά σφαλμάτων κρατώντας ταυτόχρονα πατημένα τα πλήκτρα αύξησης και μείωσης της έντασης ήχου και του πλήκτρου λειτουργίας, ακόμη και όταν η συσκευή είναι κλειδωμένη</string>
-    <string name="miscellaneous_settings">Διάφορες ρυθμίσεις</string>
     <string name="security_settings_biometric_preference_title_calyx">Βιομετρικό ξεκλείδωμα</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Βιομετρικό ξεκλείδωμα εργασίας</string>
     <string name="data_usage_app_datura_firewall">Τείχος προστασίας Datura</string>
