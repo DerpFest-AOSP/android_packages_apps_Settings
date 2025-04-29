@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <solid android:color="@color/derpfest_brand_background" />
+    <corners
+		android:topLeftRadius="@dimen/derpfest_card_radius" 
+		android:topRightRadius="@dimen/derpfest_card_radius" 
+		android:bottomLeftRadius="@dimen/derpfest_card_radius" 
+		android:bottomRightRadius="@dimen/derpfest_card_radius" />
+</shape>

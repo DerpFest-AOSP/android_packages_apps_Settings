@@ -14,42 +14,53 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.google.android.material.card.MaterialCardView 
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginHorizontal="@dimen/derpfest_card_side_margin"
-    android:layout_marginTop="16dp"
-    android:layout_marginBottom="16dp"
-    app:cardCornerRadius="@dimen/derpfest_card_radius"
-    app:cardElevation="0dp">
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView 
-            android:layout_width="match_parent" 
-            android:layout_height="match_parent" 
-            android:src="@drawable/ui_scrim" 
-            android:alpha="0.1"/>
-            
+<LinearLayout 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<LinearLayout 
+		android:orientation="vertical" 
+		android:background="@drawable/brand_header_background"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="@dimen/derpfest_card_side_margin" 
+		android:layout_marginRight="@dimen/derpfest_card_side_margin">
+        
         <LinearLayout 
-            android:gravity="center" 
-            android:layout_width="match_parent" 
+            android:orientation="horizontal" 
+            android:layout_width="fill_parent" 
             android:layout_height="wrap_content"
-            android:paddingVertical="24dp">
-            
-            <ImageView 
-                android:id="@+id/derp_branding_image" 
-                android:layout_width="260dp"
-                android:layout_height="48dp"
-                android:src="@drawable/derp_branding_image"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"
-                android:tint="?android:attr/colorAccent" />
-                
+            android:layout_marginTop="15.0dip"
+            android:layout_marginBottom="15.0dip">
+            <LinearLayout 
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical" 
+                android:layout_width="0.0dip" 
+                android:layout_height="wrap_content" 
+                android:layout_marginStart="@dimen/derpfest_card_side_margin" 
+                android:layout_marginEnd="@dimen/derpfest_card_side_margin"
+                android:layout_weight="5.0">
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15.0dip" />         
+                    <ImageView 
+                        android:id="@+id/derp_branding_image" 
+                        android:layout_width="260dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/derp_branding_image"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:tint="?android:attr/colorAccent"
+                        android:layout_gravity="center_vertical|center_horizontal" />
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15.0dip" />                
+            </LinearLayout>
         </LinearLayout>
-    </FrameLayout>
-</com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20.0dip" />         
+</LinearLayout>
