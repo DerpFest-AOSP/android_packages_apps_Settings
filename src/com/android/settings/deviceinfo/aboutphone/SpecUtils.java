@@ -27,6 +27,9 @@ import android.view.Display;
 import android.view.WindowManager;
 import android.util.DisplayMetrics;
 import android.graphics.Point;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.BatteryManager;
 
 import com.android.internal.os.PowerProfile;
 import com.android.internal.util.MemInfoReader;
@@ -93,10 +96,16 @@ public class SpecUtils {
     }
 
     public static int getBatteryCapacity(Context context) {
-        PowerProfile powerProfile = new PowerProfile(context);
-        double batteryCapacity = powerProfile.getBatteryCapacity();
-        String str = Double.toString(batteryCapacity);
-        String strArray[] = str.split("\\.");
-        return Integer.parseInt(strArray[0]);
+        Intent batteryIntent = context.registerReceiver(null,
+                new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
+        if (batteryIntent == null) {
+            return 0;
+        }
+        final int designCapacityUah = batteryIntent.getIntExtra(
+                BatteryManager.EXTRA_DESIGN_CAPACITY, -1);
+        if (designCapacityUah > 0) {
+            return designCapacityUah / 1000; // Convert from uAh to mAh
+        }
+        return 0;
     }
 }
