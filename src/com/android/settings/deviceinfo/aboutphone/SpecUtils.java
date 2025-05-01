@@ -96,16 +96,24 @@ public class SpecUtils {
     }
 
     public static int getBatteryCapacity(Context context) {
+        // Try BatteryManager first
         Intent batteryIntent = context.registerReceiver(null,
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
-        if (batteryIntent == null) {
+        if (batteryIntent != null) {
+            final int designCapacityUah = batteryIntent.getIntExtra(
+                    BatteryManager.EXTRA_DESIGN_CAPACITY, -1);
+            if (designCapacityUah > 0) {
+                return designCapacityUah / 1000; // Convert from uAh to mAh
+            }
+        }
+
+        // Fallback to PowerProfile
+        try {
+            PowerProfile powerProfile = new PowerProfile(context);
+            double batteryCapacity = powerProfile.getBatteryCapacity();
+            return (int) batteryCapacity;
+        } catch (Exception e) {
             return 0;
         }
-        final int designCapacityUah = batteryIntent.getIntExtra(
-                BatteryManager.EXTRA_DESIGN_CAPACITY, -1);
-        if (designCapacityUah > 0) {
-            return designCapacityUah / 1000; // Convert from uAh to mAh
-        }
-        return 0;
     }
 }
