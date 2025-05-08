@@ -40,6 +40,17 @@ import com.android.settings.R;
 
 public class SpecUtils {
 
+    private static final long BYTES_PER_GB = 1024 * 1024 * 1024; // 1GB in bytes
+    private static final int[] KNOWN_RAM_SIZES = {1, 2, 3, 4, 6, 8, 10, 12, 16, 32, 48, 64}; // Known RAM sizes in GB
+
+    private static int roundToNearestKnownRamSize(double memoryGB) {
+        if (memoryGB <= 0) return 1;
+        for (int size : KNOWN_RAM_SIZES) {
+            if (memoryGB <= size) return size;
+        }
+        return KNOWN_RAM_SIZES[KNOWN_RAM_SIZES.length - 1];
+    }
+
     public static String getTotalInternalMemorySize() {
         File path = Environment.getDataDirectory();
         StatFs stat = new StatFs(path.getPath());
@@ -65,12 +76,18 @@ public class SpecUtils {
     }
 
     public static int getTotalRAM() {
-        MemInfoReader memReader = new MemInfoReader();
-        memReader.readMemInfo();
-        double totalMemB = memReader.getTotalSize();
-        double totalMemGB = (totalMemB / 1073741824) + 0.3f; // Cause 4gig devices show memory as 3.48 .-.
-        int totalMemRounded = (int) Math.round(totalMemGB);
-        return totalMemRounded;
+        try {
+            MemInfoReader memReader = new MemInfoReader();
+            memReader.readMemInfo();
+            double totalMemB = memReader.getTotalSize();
+            if (totalMemB <= 0) {
+                return 0;
+            }
+            double totalMemGB = totalMemB / BYTES_PER_GB;
+            return roundToNearestKnownRamSize(totalMemGB);
+        } catch (Exception e) {
+            return 0;
+        }
     }
 
     public static String getScreenRes(Context context) {
