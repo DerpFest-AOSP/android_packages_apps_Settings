@@ -22,7 +22,8 @@
     <com.android.settingslib.widget.LayoutPreference
         android:key="derpfest_branding_header"
         android:layout="@layout/brand_header_about"
-        android:selectable="false"/>
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.aboutphone.DerpFestHeaderPreferenceController" />
 
     <!-- Abput phone info header -->
     <com.android.settingslib.widget.LayoutPreference

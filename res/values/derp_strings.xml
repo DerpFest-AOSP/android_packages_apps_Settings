@@ -43,4 +43,8 @@
 
     <!-- My Device - Phone Number Category -->
     <string name="sim_num_info_cat">Phone number</string>
+
+    <!-- DerpFest maintainer -->
+    <string name="derpfest_summary">Built by %s</string>
+    <string name="derpfest_maintainer">Unofficial Maintainer</string>
 </resources>
