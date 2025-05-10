@@ -213,4 +213,7 @@
     <string name="derpfest_customizations_summary">Where the broken stuff is placed</string>
     <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
 
+    <!-- DerpFest maintainer -->
+    <string name="derpfest_summary">Built by %s</string>
+    <string name="derpfest_maintainer">Unofficial Maintainer</string>
 </resources>
