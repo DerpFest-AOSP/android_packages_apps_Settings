@@ -37,4 +37,8 @@
 
     <!-- My Device - Phone Number Category -->
     <string name="sim_num_info_cat">Telefonnummer</string>
+
+    <!-- DerpFest maintainer -->
+    <string name="derpfest_summary">Gebaut von %s</string>
+
 </resources>
