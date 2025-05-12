@@ -16,6 +16,7 @@
 
 package com.android.settings.notification.history;
 
+import static android.provider.Settings.Secure.LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS;
 import static android.provider.Settings.Secure.NOTIFICATION_HISTORY_ENABLED;
 
 import static androidx.core.view.accessibility.AccessibilityEventCompat.TYPE_VIEW_ACCESSIBILITY_FOCUSED;
@@ -24,9 +25,11 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.INotificationManager;
+import android.app.KeyguardManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.content.pm.UserInfo;
 import android.content.res.TypedArray;
 import android.graphics.Outline;
 import android.os.Bundle;
@@ -54,6 +57,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.android.internal.logging.UiEvent;
 import com.android.internal.logging.UiEventLogger;
 import com.android.internal.logging.UiEventLoggerImpl;
+import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
 import com.android.settings.notification.NotificationBackend;
 import com.android.settings.widget.SwitchBar;
@@ -61,6 +65,7 @@ import com.android.settingslib.utils.ThreadUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
@@ -84,6 +89,9 @@ public class NotificationHistoryActivity extends Activity {
     private CountDownLatch mCountdownLatch;
     private Future mCountdownFuture;
     private UiEventLogger mUiEventLogger = new UiEventLoggerImpl();
+
+    // List of users that have the setting "hide sensitive content" enabled on the lockscreen
+    private ArrayList<Integer> mContentRestrictedUsers = new ArrayList<>();
 
     enum NotificationHistoryEvent implements UiEventLogger.UiEventEnum {
         @UiEvent(doc = "User turned on notification history")
@@ -191,7 +199,7 @@ public class NotificationHistoryActivity extends Activity {
 
             final NotificationHistoryRecyclerView rv =
                     viewForPackage.findViewById(R.id.notification_list);
-            rv.setAdapter(new NotificationHistoryAdapter(mNm, rv,
+            rv.setAdapter(new NotificationHistoryAdapter(NotificationHistoryActivity.this, mNm, rv,
                     newCount -> {
                         count.setText(getResources().getQuantityString(
                                 R.plurals.notification_history_count,
@@ -199,7 +207,7 @@ public class NotificationHistoryActivity extends Activity {
                         if (newCount == 0) {
                             viewForPackage.setVisibility(View.GONE);
                         }
-                    }, mUiEventLogger));
+                    }, mUiEventLogger, mContentRestrictedUsers));
             ((NotificationHistoryAdapter) rv.getAdapter()).onRebuildComplete(
                     new ArrayList<>(nhp.notifications));
 
@@ -234,6 +242,21 @@ public class NotificationHistoryActivity extends Activity {
 
         mPm = getPackageManager();
         mUm = getSystemService(UserManager.class);
+
+        mContentRestrictedUsers.clear();
+        List<UserInfo> users = mUm.getProfiles(getUserId());
+        mContentRestrictedUsers.clear();
+        for (UserInfo user : users) {
+            if (Settings.Secure.getIntForUser(getContentResolver(),
+                    LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS, 0, user.id) == 0) {
+                LockPatternUtils lpu = new LockPatternUtils(this);
+                KeyguardManager km = getSystemService(KeyguardManager.class);
+                if (lpu.isSecure(user.id) && km.isDeviceLocked(user.id)) {
+                    mContentRestrictedUsers.add(user.id);
+                }
+            }
+        }
+
         // wait for history loading and recent/snooze loading
         mCountdownLatch = new CountDownLatch(2);
 
@@ -288,6 +311,7 @@ public class NotificationHistoryActivity extends Activity {
         if (mCountdownFuture != null) {
             mCountdownFuture.cancel(true);
         }
+        mContentRestrictedUsers.clear();
         super.onDestroy();
     }
 
@@ -375,7 +399,7 @@ public class NotificationHistoryActivity extends Activity {
             mSnoozedRv.setLayoutManager(lm);
             mSnoozedRv.setAdapter(
                     new NotificationSbnAdapter(NotificationHistoryActivity.this, mPm, mUm,
-                            true, mUiEventLogger));
+                            true, mUiEventLogger, mContentRestrictedUsers));
             mSnoozedRv.setNestedScrollingEnabled(false);
 
             if (snoozed == null || snoozed.length == 0) {
@@ -391,7 +415,7 @@ public class NotificationHistoryActivity extends Activity {
             mDismissedRv.setLayoutManager(dismissLm);
             mDismissedRv.setAdapter(
                     new NotificationSbnAdapter(NotificationHistoryActivity.this, mPm, mUm,
-                            false , mUiEventLogger));
+                            false, mUiEventLogger, mContentRestrictedUsers));
             mDismissedRv.setNestedScrollingEnabled(false);
 
             if (dismissed == null || dismissed.length == 0) {
