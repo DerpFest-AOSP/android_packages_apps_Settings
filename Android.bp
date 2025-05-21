@@ -143,6 +143,8 @@ android_library {
 
         // DerpFest dependencies
         "VendorSupport-preference",
+        "colorpickerview",
+        "androidx.palette_palette",
     ],
 
     plugins: [
@@ -216,6 +218,11 @@ android_library_import {
 android_library_import {
     name: "device-state-schema",
     aars: ["libs/appfunctions_schema_androidx_archive.aar"],
+}
+
+android_library_import {
+    name: "colorpickerview",
+    aars: ["libs/colorpickerview-release.aar"],
 }
 
 filegroup {
