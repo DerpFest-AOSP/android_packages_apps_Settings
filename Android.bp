@@ -135,6 +135,8 @@ android_library {
 
         // DerpFest dependencies
         "VendorSupport-preference",
+        "colorpickerview",
+        "androidx.palette_palette",
     ],
 
     plugins: [
@@ -202,6 +204,11 @@ android_app {
 android_library_import {
     name: "contextualcards",
     aars: ["libs/contextualcards.aar"],
+}
+
+android_library_import {
+    name: "colorpickerview",
+    aars: ["libs/colorpickerview-release.aar"],
 }
 
 filegroup {
