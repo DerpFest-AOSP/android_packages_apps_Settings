@@ -19,14 +19,14 @@
 
     <item>
         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-            android:width="@dimen/dashboard_tile_image_size"
-            android:height="@dimen/dashboard_tile_image_size"
+            android:width="@dimen/derpfest_dashboard_tile_image_size"
+            android:height="@dimen/derpfest_dashboard_tile_image_size"
             android:color="@color/derpfest_icon_background" />
     </item>
 
     <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
+        android:width="@dimen/derpfest_dashboard_tile_foreground_image_size"
+        android:height="@dimen/derpfest_dashboard_tile_foreground_image_size"
         android:gravity="center"
         android:drawable="@drawable/derpfest_ic_settings_battery_white"
         android:tint="?android:attr/textColorSecondary"/>
