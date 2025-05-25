@@ -5,6 +5,6 @@
 
     <color name="derpfest_card_background">@android:color/system_neutral1_10</color>
 
-    <color name="derpfest_icon_background">@android:color/system_neutral1_10</color>
+    <color name="derpfest_icon_background">@android:color/system_neutral2_50</color>
 
 </resources>
