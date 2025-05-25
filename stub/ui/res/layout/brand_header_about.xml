@@ -62,7 +62,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/summary_placeholder"
-                        android:textAppearance="@style/TextAppearance.AdminDialogMessage" />
+                        android:textAppearance="@style/TextAppearance.derpfestInfoTitle" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
