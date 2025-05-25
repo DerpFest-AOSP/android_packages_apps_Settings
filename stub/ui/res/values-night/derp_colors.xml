@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="derpfest_brand_background">@android:color/system_neutral2_900</color>
+    <color name="derpfest_brand_background">@android:color/system_neutral2_800</color>
 
     <color name="derpfest_card_background">@android:color/system_neutral2_800</color>
 
