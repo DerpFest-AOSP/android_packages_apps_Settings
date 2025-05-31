@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- DerpFest -->
+    <string name="derpfest_title" translatable="false">DerpFest</string>
+    <string name="about_device_name">Dispositivo</string>
+
+    <!-- About phone screen, DerpFest version -->
+    <string name="derpfest_version">Versione di DerpFest</string>
+    <string name="derpfest_version_default">Sconosciuto</string>
+
+    <!-- Hardware info -->
+    <string name="soc_model">Modello SoC</string>
+    <string name="total_ram">RAM totale</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostra registro della cronologia notifiche</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+     <string name="duration_less_than_one_minute">Meno di 1 minuto</string> 
+ 
+     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+     <string name="screen_time_summary_usage_today">%1$s oggi</string>
+
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">Copiato negli appunti</string>
+    <string name="longpress_to_clipboard">Tieni premuto per copiare</string>
+
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">Mostra Ambient</string>
+    <string name="doze_gesture_ambient_summary">Mostra Ambient Display invece di accendere completamente lo schermo</string>
+    <string name="gesture_wake_ambient">Mostra Ambient</string>
+    <string name="gesture_wake">Accendi completamente</string>
+
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Mostra Ambient Display quando viene riprodotta una nuova traccia</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Migliora la tua esperienza di gioco</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifiche assillanti</string>
+    <string name="notification_sound_vib_screen_on_summary">Riproduci suono e vibrazione per le notifiche quando lo schermo è acceso</string>
+
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Abilita sfocature</string>
+    <string name="enable_blurs_on_windows_summary">Abilita effetto sfocature in alcuni elementi UI</string>
+
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Scorri per fare uno screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Scorri con tre dita per fare uno screenshot</string>
+
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">Pausa intelligente</string>
+    <string name="adaptive_playback_enabled">Usa pausa intelligente</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_intro_text">Pausa automaticamente riproduzione se il volume viene azzerato e la riprende se viene rialzato nel periodo di tempo stabilito</string>
+    <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
+    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondi</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 secondi)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuti</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minuti)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuti</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minuti)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuti</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minuti)</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opzioni vibrazione nelle chiamate</string>
+    <string name="incall_vibrate_connect_title">Vibra quando la chiamata viene connessa</string>
+    <string name="incall_vibrate_call_wait_title">Vibra quando la chiamata è in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra quando la chiamata viene terminata</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Alterna tra modalità</string>
+    <string name="prevent_ringing_option_cycle_summary">On (alterna tra modalità)</string>
+    <string name="prevent_ringing_option_normal">Normale</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Applicazioni a schermo intero</string>
+    <string name="display_cutout_force_fullscreen_summary">Forza le applicazioni a ignorare lo spazio del ritaglio della fotocamera</string>
+    <string name="display_cutout_force_fullscreen_search">Ricerca</string>
+    <string name="display_cutout_force_fullscreen_search_apps">Applicazioni di ricerca</string>
+
+    <!-- Timeout entries -->
+    <string name="timeout_summary_never">Mai</string>
+    <string name="timeout_summary_15secs">15 secondi</string>
+    <string name="timeout_summary_30secs">30 secondi</string>
+    <string name="timeout_summary_1min">1 minuto</string>
+    <string name="timeout_summary_2mins">2 minuti</string>
+    <string name="timeout_summary_5mins">5 minuti</string>
+    <string name="timeout_summary_10mins">10 minuti</string>
+    <string name="timeout_summary_30mins">30 minuti</string>
+    <string name="timeout_summary_1hour">1 ora</string>
+    <string name="timeout_summary_2hours">2 ore</string>
+    <string name="timeout_summary_4hours">4 ore</string>
+    <string name="timeout_summary_8hours">8 ore</string>
+    <string name="timeout_summary_12hours">12 ore</string>
+    <string name="timeout_summary_24hours">24 ore</string>
+    <string name="timeout_summary_36hours">36 ore</string>
+    <string name="timeout_summary_48hours">48 ore</string>
+    <string name="timeout_summary_72hours">72 ore</string>
+
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Abilita il Wi-Fi automaticamente</string>
+
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Il Wi-Fi si spegnerà dopo <xliff:g id="timeout_description">%1$s</xliff:g> se non connesso ad alcuna rete</string>
+    <string name="wifi_timeout_summary2">Disabilitato</string>
+
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Timeout Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Il Bluetooth si spegnerà dopo <xliff:g id="timeout_description">%1$s</xliff:g> se non è connesso ad alcun dispositivo</string>
+    <string name="bluetooth_timeout_summary2">Non spegnere automaticamente il Bluetooth</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_enable_taskbar_title">Abilita taskbar</string>
+
+    <!-- Ver cool DerpFest Branding -->
+    <string name="very_cool_branding">h.</string>
+    <string name="very_cool_version">Ursinia</string>
+
+    <!-- About Phone -->
+    <string name="keywords_top_level_device_info">about phone, derpfest, device name</string>
+    <string name="more_device_info">Più informazioni</string>
+    <string name="more_device_info_summary">Mostra più informazioni sul dispositivo</string>
+
+    <!-- About Phone Header -->
+    <string name="derpfest_device_title">Dispositivo</string>
+    <string name="derpfest_memory_storage_title">Memoria</string>
+    <string name="derpfest_battery_size_title">Capacità batteria</string>
+    <string name="derpfest_screen_res_title">Risoluzione schermo</string>
+
+    <!-- My Device - Phone Number Category -->
+    <string name="sim_num_info_cat">Numero di telefono</string>
+
+    <!-- DerpFest Customizations on homepage -->
+    <string name="derpfest_customizations_title">Personalizzazioni DerpFest</string>
+    <string name="derpfest_customizations_summary">Dove puoi trovare tutte le robe rotte</string>
+    <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
+
+    <!-- Per-app volume -->
+    <string name="app_volume">Volume app</string>
+    <string name="app_volume_title">Controllo volume per app singolarmente</string>
+    <string name="app_volume_summary">Mostra il pulsante di controllo singolo nel pannello volume</string>
+
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_ap_band_title">Banda AP</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rete nascosta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo hotspot mobile non apparirà nella lista delle reti WLAN disponibili.</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_client_manager_summary">Mostra e gestisci i dispositivi connessi all\'hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mostra i dispositivi connessi all\'hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limite dispositivi connessi</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivi bloccati</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blocca dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Questa azione disconnetterà \"<xliff:g id="device_name">%1$s</xliff:g>\" da questo dispositivo e lo aggiungerà alla lista di blocco</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Sblocca dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Il dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" potrà connettersi a questo hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nessun client è attualmente disponibile. I dispositivi connessi e bloccati verranno mostrati qui quando disponibile.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz" translatable="false">60 GHz</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Fino a <xliff:g id="device_num">%1$d</xliff:g> dispositivi possono connettersi a questo hotspot</item>
+        <item quantity="one">Fino a <xliff:g id="device_num">%1$d</xliff:g> dispositivo può connettersi a questo hotspot</item>
+    </plurals>
+
+    <!-- Custom Timeouts -->
+    <string name="custom_timeout_summary_never">Mai</string>
+    <string name="custom_timeout_summary_5secs">5 secondi</string>
+    <string name="custom_timeout_summary_10secs">10 secondi</string>
+    <string name="custom_timeout_summary_15secs">15 secondi</string>
+    <string name="custom_timeout_summary_30secs">30 secondi</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_2mins">2 minuti</string>
+    <string name="custom_timeout_summary_5mins">5 minuti</string>
+    <string name="custom_timeout_summary_10mins">10 minuti</string>
+    <string name="custom_timeout_summary_20mins">20 minuti</string>
+    <string name="custom_timeout_summary_30mins">30 minuti</string>
+    <string name="custom_timeout_summary_1hour">1 ora</string>
+    <string name="custom_timeout_summary_2hours">2 ore</string>
+    <string name="custom_timeout_summary_4hours">4 ore</string>
+    <string name="custom_timeout_summary_8hours">8 ore</string>
+    <string name="custom_timeout_summary_12hours">12 ore</string>
+    <string name="custom_timeout_summary_24hours">24 ore</string>
+    <string name="custom_timeout_summary_36hours">36 ore</string>
+    <string name="custom_timeout_summary_48hours">48 ore</string>
+    <string name="custom_timeout_summary_72hours">72 ore</string>
+
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 ora (Default)</string>
+
+	<!-- Doze on charge -->
+    <string name="doze_on_charge_title">Mostra sempre quando in ricarica</string>
+    <string name="doze_on_charge_summary">Mostra sempre ora e informazioni quando in ricarica</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">Stato SELinux</string>
+    <string name="selinux_status_disabled">Disabilitato</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Configurazione USB</string>
+    <string name="usb_default_config_summary">Scegli il comportamento predefinito quando si connette un dispositivo USB</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Informazioni radio</string>
+
+    <!-- Units -->
+    <string name="unit_milliseconds">millisecondi</string>
+    <string name="unit_pixels">dp</string>
+    <string name="unit_hz">hz</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Sequenza vibrazione suoneria</string>
+    <string name="notification_vibration_pattern_title">Sequenza vibrazione notifiche</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizzato</string>
+    <string name="custom_vibration_pattern_title">Sequenza personalizzata</string>
+    <string name="custom_vibration_pattern_summary">Imposta una sequenza di vibrazione personalizzata</string>
+
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Sequenza vibrazione personalizzata</string>
+    <string name="notification_custom_vibrate_summary">Rimpiazza solo la sequenza predefinita\nLa sequenza impostata dall\'app ha la precedenza</string>
+    <string name="notification_custom_vibrate_slider1">Vibra per</string>
+    <string name="notification_custom_vibrate_slider2">Pausa per</string>
+
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Non validare</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Nessun certificato specificato. La tua connessione non sarà privata.</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Mostra overlay appunti</string>
+    <string name="show_clipboard_overlay_summary">Mostra un overlay in basso a sinistra allo schermo quando qualcosa viene copiato negli appunti</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Blocca sensori</string>
+    <string name="sensor_block_summary">Blocca selettivamente alcune app dall\'accesso ad alcuni sensori che consumano batteria</string>
+    <string name="sensor_block_app_picker_title">Blocca sensori per queste app</string>
+    <string name="add_sensor_block_package_title">Aggiungi app per blocco sensori</string>
+    <string name="add_sensor_block_package_summary">I sensori di movimento significativo, accelerometro, e accelerazione lineare saranno bloccati per queste app</string>
+    <string name="profile_choose_app">Scegli app</string>
+    <string name="dialog_delete_title">Cancella</string>
+    <string name="dialog_delete_message">Rimuovi l\'elemento selezionato?</string>
+
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_summary">Personalizza grandezza visualizzazione, font &amp; testo</string>
+
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Programma orario Always-on Display</string>
+    <string name="always_on_display_schedule_sunset">Tramonto</string>
+    <string name="always_on_display_schedule_sunrise">Alba</string>
+    <string name="always_on_display_schedule_mixed_sunset">Abilita dal tramonto a un certo orario</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Abilita dall\'alba a un certo orario</string>
+    <string name="disabled">Disabilitato</string>
+
+    <!-- Pocket mode -->
+    <string name="pocket_judge_title">Rilevamento tasca</string>
+    <string name="pocket_judge_summary">Blocca input di schermo e tasti quando il dispositivo è in tasca</string>
+
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Animazione Pixel</string>
+    <string name="pixel_navbar_anim_summary">Abilita animazione pulsante home</string>
+
+    <!-- Back gesture animation -->
+    <string name="navbar_gesture_handle_category">Barra gesti</string>
+    <string name="back_gesture_arrow_title">Animazione gesto indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro</string>
+
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">Feedback di vibrazione</string>
+    <string name="back_gesture_haptic_summary">Vibra quando si performa il gesto indietro</string>
+
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Opzioni vibrazione aggiuntive</string>
+
+    <!-- Haptic feedback -->
+    <string name="touch_haptic_title">Impostazioni miste per feedback di vibrazione</string>
+    <string name="touch_haptic_summary">Personalizza feedback di vibrazione per i widget di sistema</string>
+    <string name="haptic_on_qs_title">Riquadri Impostazioni Rapide</string>
+    <string name="haptic_on_qs_summary">Vibrazione al tocco dei riquadri rapidi</string>
+    <string name="haptic_on_power_menu_title">Menu spegnimento</string>
+    <string name="haptic_on_power_menu_summary">Vibrazione al tocco delle azioni nel menu spegnimento</string>
+
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processi background</string>
+
+    <!-- Enforce DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Disabilita per VPN</string>
+    <string name="vpn_enforce_dns_summary">Disabilita il DNS privato quando connesso a una VPN. Verrà ripristinato una volta disconnesso.</string>
+
+    <!-- DerpFest maintainer -->
+    <string name="derpfest_summary">Compilato da %s</string>
+
+    <!-- Ramping ringer -->
+    <string name="unit_seconds">Secondo(i)</string>
+    <string name="ramping_ringer_duration_title">Durata incrementale</string>
+    <string name="ramping_ringer_duration_summary">Tempo necessario per incrementare al volume massimo</string>
+    <string name="ramping_ringer_start_volume_title">Volume iniziale</string>
+    <string name="ramping_ringer_start_volume_summary">Livello di volume da cui iniziare l\'incremento</string>
+    <string name="ramping_ringer_no_silence_title">Salta il silenzio</string>
+    <string name="ramping_ringer_no_silence_summary_on">Inizia a incrementare non appena inizia la suoneria</string>
+    <string name="ramping_ringer_no_silence_summary_off">Vibra solo per metà della durata prima di incrementare</string>
+
+    <!-- IME button space -->
+    <string name="show_ime_space_title">Mostra spazio pulsante IME</string>
+    <string name="show_ime_space_summary">Abilità la funzionalità per cambiare rapidamente metodo di input e nascondere la tastiera sullo schermo dalla barra funzionalità sul fondo dello schermo mentre si scrive</string>
+
+    <!-- DerpFest official banner -->
+    <string name="derp_official_title">Lo sapevi?</string>
+    <string name="derp_official_summary">Stai attualmente utilizzando una build ufficiale di DerpFest.</string>
+</resources>
