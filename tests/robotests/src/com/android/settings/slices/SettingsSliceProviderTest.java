@@ -43,6 +43,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources.Theme;
 import android.net.Uri;
+import android.os.Build;
 import android.os.StrictMode;
 import android.provider.Settings;
 import android.provider.SettingsSlicesContract;
@@ -82,6 +83,7 @@ import org.robolectric.shadow.api.Shadow;
 import org.robolectric.shadows.ShadowAccessibilityManager;
 import org.robolectric.shadows.ShadowBinder;
 import org.robolectric.shadows.ShadowPackageManager;
+import org.robolectric.util.ReflectionHelpers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -637,6 +639,7 @@ public class SettingsSliceProviderTest {
     @Test
     @Config(qualifiers = "mcc999")
     public void grantWhitelistedPackagePermissions_hasPackageWhitelist_shouldGrant() {
+        ReflectionHelpers.setStaticField(Build.class, "IS_DEBUGGABLE", false);
         final List<Uri> uris = new ArrayList<>();
         uris.add(Uri.parse("content://settings/slice"));
 
@@ -644,6 +647,9 @@ public class SettingsSliceProviderTest {
 
         verify(mManager)
                 .grantSlicePermission("com.android.settings.slice_whitelist_package", uris.get(0));
+        verify(mManager, never())
+                .grantSlicePermission("com.android.settings.slice_whitelist_package_dev",
+                        uris.get(0));
     }
 
     @Test
