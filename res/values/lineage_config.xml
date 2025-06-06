@@ -39,9 +39,6 @@
          Example: If device reports 4000uAh instead of 4000mAh, set this to 1 -->
     <integer name="config_battery_divider" translatable="false">1000</integer>
 
-    <!-- Whether to show peak refresh rate in display settings -->
-    <bool name="config_show_peak_refresh_rate_switch">false</bool>
-
     <!-- ComponentName to launch a vendor-specific enrollment activity if available -->
     <string name="config_face_enroll">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollActivityDirector</string>
 
