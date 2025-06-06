@@ -281,4 +281,8 @@
     <string name="haptic_on_qs_summary">Feel a vibration upon touching quick tiles</string>
     <string name="haptic_on_power_menu_title">Power menu</string>
     <string name="haptic_on_power_menu_summary">Provide haptic feedback on power menu actions</string>
+
+    <!-- HDR Display -->
+    <string name="hdr_display_title">Enhanced HDR brightness</string>
+    <string name="hdr_display_summary">Brighten and expand the color range and clarity in High Dynamic Range (HDR) images and videos. HDR content will appear brighter. This will increase battery usage</string>
 </resources>
