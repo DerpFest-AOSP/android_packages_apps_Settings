@@ -40,6 +40,7 @@ import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.password.ChooseLockSettingsHelper;
+import com.android.settings.password.PasswordUtils;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -145,10 +146,18 @@ public class FaceSettings extends DashboardFragment {
 
         mUserManager = context.getSystemService(UserManager.class);
         mFaceManager = context.getSystemService(FaceManager.class);
-        mToken = getIntent().getByteArrayExtra(KEY_TOKEN);
 
-        mUserId = getActivity().getIntent().getIntExtra(
-                Intent.EXTRA_USER_ID, UserHandle.myUserId());
+        final SettingsActivity activity = (SettingsActivity) requireActivity();
+        final String callingPackage = PasswordUtils.getCallingAppPackageName(
+                      getActivity().getActivityToken());
+        if (callingPackage == null || !callingPackage.equals(activity.getPackageName())) {
+            mUserId = UserHandle.myUserId();
+        } else {
+            // only allow these extras when called internally by Settings
+            mToken = getIntent().getByteArrayExtra(KEY_TOKEN);
+            mUserId = getIntent().getIntExtra(Intent.EXTRA_USER_ID, UserHandle.myUserId());
+        }
+
         mFaceFeatureProvider = FeatureFactory.getFactory(getContext()).getFaceFeatureProvider();
 
         if (mUserManager.getUserInfo(mUserId).isManagedProfile()) {
