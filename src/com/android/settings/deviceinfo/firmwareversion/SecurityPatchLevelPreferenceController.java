@@ -24,9 +24,13 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
+import com.android.settings.deviceinfo.firmwareversion.SecurityDialogFragment;
 import com.android.settingslib.DeviceInfoUtils;
 
 public class SecurityPatchLevelPreferenceController extends BasePreferenceController {
@@ -37,11 +41,16 @@ public class SecurityPatchLevelPreferenceController extends BasePreferenceContro
 
     private final PackageManager mPackageManager;
     private final String mCurrentPatch;
+    private Fragment mHost;
 
     public SecurityPatchLevelPreferenceController(Context context, String key) {
         super(context, key);
         mPackageManager = mContext.getPackageManager();
         mCurrentPatch = DeviceInfoUtils.getSecurityPatch();
+    }
+
+    public void setFragment(Fragment host) {
+        mHost = host;
     }
 
     @Override
@@ -61,17 +70,14 @@ public class SecurityPatchLevelPreferenceController extends BasePreferenceContro
             return false;
         }
 
-        final Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(INTENT_URI_DATA);
-        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
-            // Don't send out the intent to stop crash
-            Log.w(TAG, "queryIntentActivities() returns empty");
+        // Show security dialog instead of opening web page
+        if (mHost != null) {
+            SecurityDialogFragment fragment = SecurityDialogFragment.newInstance();
+            FragmentManager fragmentManager = mHost.getChildFragmentManager();
+            fragment.show(fragmentManager, SecurityDialogFragment.TAG);
             return true;
         }
-
-        mContext.startActivity(intent);
-        return true;
+        return false;
     }
 }
 // LINT.ThenChange(SecurityPatchLevelPreference.kt)

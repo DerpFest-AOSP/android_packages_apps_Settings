@@ -9,4 +9,7 @@
     <!-- Dashboard/homepage icon colors -->
     <color name="homepage_derpfest_foreground">@color/homepage_blue_variant_fg</color>
     <color name="homepage_derpfest_background">@color/homepage_blue_variant_bg</color>
+
+    <!-- Security dialog -->
+    <color name="BottomBarBackgroundColor">?android:attr/colorBackground</color>
 </resources>
