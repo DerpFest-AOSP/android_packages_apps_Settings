@@ -12,4 +12,7 @@
     <color name="wifi_qr_secondary_background">@android:color/system_on_surface_light</color>
     <color name="wifi_qr_secondary_foreground">@android:color/system_secondary_light</color>
     <color name="wifi_qr_tertiary_background">@android:color/system_tertiary_container_light</color>
+
+    <!-- Security dialog -->
+    <color name="BottomBarBackgroundColor">?android:attr/colorBackground</color>
 </resources>

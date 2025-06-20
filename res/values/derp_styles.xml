@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources>
+    <style name="SecurityDialogButton" parent="@android:style/Widget.Material.Button">
+        <item name="android:textColor">?android:attr/colorAccent</item>
+        <item name="android:textColorPrimary">?android:attr/colorAccent</item>
+        <item name="colorAccent">?android:attr/colorAccent</item>
+    </style>
+
+    <style name="SecurityDialog" parent="@style/Theme.AlertDialog">
+        <item name="android:windowBackground">@drawable/security_dialog_corners</item>
+        <item name="buttonBarButtonStyle">@style/SecurityDialogButton</item>
+        <item name="colorAccent">?android:attr/colorAccent</item>
+    </style>
+</resources> 
