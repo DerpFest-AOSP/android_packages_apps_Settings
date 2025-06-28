@@ -72,7 +72,7 @@ public class TapPreferenceController extends AbstractPreferenceController
 
     public void setChecked(boolean isChecked) {
         if (mSwitch != null) {
-            mSwitch.updateStatus(isChecked);
+            mSwitch.setChecked(isChecked);
         }
         updateAmbientEnablement(isChecked);
     }
