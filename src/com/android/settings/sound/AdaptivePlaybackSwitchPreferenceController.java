@@ -26,18 +26,22 @@ import android.provider.Settings;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import com.android.settings.widget.SettingsMainSwitchPreferenceController;
+import com.android.settings.core.TogglePreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
 import com.android.settingslib.widget.MainSwitchPreference;
 
 public class AdaptivePlaybackSwitchPreferenceController extends
-        SettingsMainSwitchPreferenceController implements LifecycleObserver, OnStart, OnStop {
+        TogglePreferenceController implements LifecycleObserver, OnStart, OnStop, OnCheckedChangeListener {
 
     private MainSwitchPreference mPreference;
+    private @Nullable Preference mTogglePreference;
     private final SettingsObserver mSettingsObserver;
 
     public AdaptivePlaybackSwitchPreferenceController(Context context, String preferenceKey) {
@@ -65,9 +69,10 @@ public class AdaptivePlaybackSwitchPreferenceController extends
     }
 
     @Override
-    public void displayPreference(PreferenceScreen screen) {
+    public void displayPreference(@NonNull PreferenceScreen screen) {
         super.displayPreference(screen);
         mPreference = screen.findPreference(getPreferenceKey());
+        mTogglePreference = screen.findPreference(getPreferenceKey());
     }
 
     @Override
@@ -109,7 +114,9 @@ public class AdaptivePlaybackSwitchPreferenceController extends
         public void onChange(boolean selfChange, Uri uri) {
             super.onChange(selfChange, uri);
             if (ADAPTIVE_PLAYBACK.equals(uri)) {
-                mPreference.setChecked(isChecked());
+                if (mTogglePreference != null) {
+                    updateState(mTogglePreference);
+                }
             }
         }
     }
