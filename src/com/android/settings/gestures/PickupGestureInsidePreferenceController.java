@@ -74,7 +74,7 @@ public class PickupGestureInsidePreferenceController extends AbstractPreferenceC
 
     public void setChecked(boolean isChecked) {
         if (mSwitch != null) {
-            mSwitch.updateStatus(isChecked);
+            mSwitch.setChecked(isChecked);
         }
         updateAmbientEnablement(isChecked);
     }
