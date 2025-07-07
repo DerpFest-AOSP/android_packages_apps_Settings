@@ -15,8 +15,8 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     android:background="@drawable/derp_official_banner_bg"
-    android:paddingTop="16dp"
-    android:paddingBottom="16dp">
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
