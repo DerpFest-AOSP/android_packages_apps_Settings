@@ -196,7 +196,7 @@
             settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
-            android:icon="@drawable/ic_digital_wellbeing_settings_default"
+            android:icon="@drawable/ic_digital_wellbeing_settings_default_expressive"
             android:key="top_level_wb"
             android:order="-5"
             android:title="@string/wellbeing_title"
