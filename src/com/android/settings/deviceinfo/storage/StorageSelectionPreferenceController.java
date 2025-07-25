@@ -128,13 +128,23 @@ public class StorageSelectionPreferenceController extends BasePreferenceControll
             }
 
             TextView textView = null;
-            try {
+            if (view instanceof TextView) {
                 textView = (TextView) view;
-            } catch (ClassCastException e) {
-                throw new IllegalStateException("Default view should be a TextView, ", e);
+            } else {
+                // If the view is not a TextView, try to find a TextView within it
+                textView = view.findViewById(android.R.id.text1);
+                if (textView == null) {
+                    // Fallback: search for any TextView in the view hierarchy
+                    textView = findTextViewInView(view);
+                }
             }
+            
+            if (textView == null) {
+                throw new IllegalStateException("Could not find TextView in view");
+            }
+            
             textView.setText(getItem(position).getDescription());
-            return textView;
+            return view;
         }
 
         @Override
@@ -144,13 +154,39 @@ public class StorageSelectionPreferenceController extends BasePreferenceControll
             }
 
             TextView textView = null;
-            try {
+            if (view instanceof TextView) {
                 textView = (TextView) view;
-            } catch (ClassCastException e) {
-                throw new IllegalStateException("Default drop down view should be a TextView, ", e);
+            } else {
+                // If the view is not a TextView, try to find a TextView within it
+                textView = view.findViewById(android.R.id.text1);
+                if (textView == null) {
+                    // Fallback: search for any TextView in the view hierarchy
+                    textView = findTextViewInView(view);
+                }
             }
+            
+            if (textView == null) {
+                throw new IllegalStateException("Could not find TextView in dropdown view");
+            }
+            
             textView.setText(getItem(position).getDescription());
-            return textView;
+            return view;
+        }
+        
+        private TextView findTextViewInView(View view) {
+            if (view instanceof TextView) {
+                return (TextView) view;
+            }
+            if (view instanceof ViewGroup) {
+                ViewGroup viewGroup = (ViewGroup) view;
+                for (int i = 0; i < viewGroup.getChildCount(); i++) {
+                    TextView textView = findTextViewInView(viewGroup.getChildAt(i));
+                    if (textView != null) {
+                        return textView;
+                    }
+                }
+            }
+            return null;
         }
     }
 }
