@@ -372,7 +372,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         for (int i = 0; i < prefGroup.getPreferenceCount(); i++) {
             Preference pref = prefGroup.getPreference(i);
             if (pref instanceof PreferenceGroup) {
-                themePreferences(prefGroup);
+                themePreferences((PreferenceGroup) pref);
             } else {
                 themePreference(pref);
             }
