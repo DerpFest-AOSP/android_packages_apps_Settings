@@ -16,7 +16,10 @@
 
 package com.android.settings.network.telephony.wificalling
 
+import android.content.ComponentName
 import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager;
 import android.telephony.AccessNetworkConstants
 import android.telephony.CarrierConfigManager
 import android.telephony.CarrierConfigManager.KEY_USE_WFC_HOME_NETWORK_MODE_IN_ROAMING_NETWORK_BOOL
@@ -30,6 +33,7 @@ import com.android.settings.network.telephony.ims.ImsMmTelRepositoryImpl
 import com.android.settings.network.telephony.telephonyManager
 import com.android.settingslib.spa.framework.util.collectLatestWithLifecycle
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 
 interface IWifiCallingRepository {
     /** TODO: Move this to UI layer, when UI layer migrated to Kotlin. */
@@ -59,6 +63,24 @@ constructor(
             .getConfigForSubId(subId, KEY_USE_WFC_HOME_NETWORK_MODE_IN_ROAMING_NETWORK_BOOL)
             .getBoolean(KEY_USE_WFC_HOME_NETWORK_MODE_IN_ROAMING_NETWORK_BOOL)
 
+    private fun isCarrierWfcAppPresentIfRequired(): Boolean {
+        val appStr = carrierConfigManager
+            .getConfigForSubId(
+                subId,
+                CarrierConfigManager.KEY_WFC_EMERGENCY_ADDRESS_CARRIER_APP_STRING
+            )
+            .getString(CarrierConfigManager.KEY_WFC_EMERGENCY_ADDRESS_CARRIER_APP_STRING)
+        if (appStr.isNullOrBlank()) return true
+
+        val component = ComponentName.unflattenFromString(appStr) ?: return false
+        val intent = Intent().setComponent(component)
+
+        return context.packageManager.resolveActivity(
+            intent,
+            PackageManager.MATCH_SYSTEM_ONLY
+        ) != null
+    }
+
     /** TODO: Move this to UI layer, when UI layer migrated to Kotlin. */
     override fun collectIsWifiCallingReadyFlow(
         lifecycleOwner: LifecycleOwner,
@@ -72,5 +94,7 @@ constructor(
             capability = MmTelFeature.MmTelCapabilities.CAPABILITY_TYPE_VOICE,
             tech = ImsRegistrationImplBase.REGISTRATION_TECH_IWLAN,
             transportType = AccessNetworkConstants.TRANSPORT_TYPE_WLAN,
-        )
+        ).map { isImsReady ->
+            isImsReady && isCarrierWfcAppPresentIfRequired()
+        }
 }
