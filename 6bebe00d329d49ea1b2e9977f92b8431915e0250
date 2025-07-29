@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50a7e590_258c7382",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2025-07-29T18:19:44Z",
+      "side": 1,
+      "message": "Maybe it makes more sense to grey out the preference and explain that the app isn\u0027t present instead of hiding it outright?",
+      "revId": "6bebe00d329d49ea1b2e9977f92b8431915e0250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
