@@ -42,15 +42,6 @@
 
     <PreferenceCategory
         android:order="-180">
-        <!-- Abput phone info header -->
-        <com.android.settingslib.widget.LayoutPreference
-            android:key="about_phone_info_header"
-            android:layout="@layout/about_phone_info_header"
-            android:selectable="false" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:order="-170">
         <!-- Device Name -->
         <com.android.settings.widget.ValidatedEditTextPreference
             android:key="device_name"
@@ -60,30 +51,37 @@
             settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
             settings:enableCopying="true"/>
 
-        <!-- Android version -->
+        <!-- Abput phone info header -->
         <com.android.settingslib.widget.LayoutPreference
-            android:key="firmware_version"
-            android:title="@string/firmware_version"
-            android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
-            android:layout="@layout/derpfest_about_card_single_entry"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
-
-        <!-- Build number -->
-        <com.android.settingslib.widget.LayoutPreference
-            android:key="build_number"
-            android:title="@string/build_number"
-            android:summary="@string/summary_placeholder"
-            settings:enableCopying="true"
-            android:layout="@layout/derpfest_about_card_single_entry"
-            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+            android:key="about_phone_info_header"
+            android:layout="@layout/about_phone_info_header"
+            android:selectable="false" />
     </PreferenceCategory>
 
+    <!-- Android version -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="firmware_version"
+        android:title="@string/firmware_version"
+        android:summary="@string/summary_placeholder"
+        android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
+        android:layout="@layout/derpfest_about_card_single_entry"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+
+    <!-- Build number -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="build_number"
+        android:title="@string/build_number"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        android:layout="@layout/derpfest_about_card_single_entry"
+        settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+
     <!-- Device Info -->
-    <Preference
+    <com.android.settingslib.widget.LayoutPreference
         android:key="top_level_about_device"
         android:title="@string/more_device_info"
-        settings:layout="@layout/derpfest_about_card_single_entry_expressive"
-        android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"/>
+        android:layout="@layout/derpfest_about_card_single_entry"
+        android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.MoreInfoPreferenceController"/>        
 
 </PreferenceScreen>
