@@ -159,4 +159,8 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20.0dip" />
 </LinearLayout>
