@@ -28,10 +28,13 @@ import android.os.UserHandle;
 import android.os.UserManager;
 import android.text.BidiFormatter;
 import android.text.TextUtils;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -49,6 +52,7 @@ import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 import com.android.settingslib.utils.StringUtil;
+import com.android.settingslib.widget.LayoutPreference;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
@@ -274,5 +278,30 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
     @VisibleForTesting
     protected boolean isUserAMonkey() {
         return ActivityManager.isUserAMonkey();
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        
+        LayoutPreference preference = (LayoutPreference) screen.findPreference(getPreferenceKey());
+        if (preference != null) {
+            // Get the root view of your custom layout
+            View widgetFrame = preference.findViewById(android.R.id.widget_frame);
+            if (widgetFrame != null && widgetFrame.getParent() instanceof View) {
+                ((View) widgetFrame.getParent()).setBackground(null);
+            }
+            
+            // Populate the TextViews manually
+            TextView titleView = preference.findViewById(android.R.id.title);
+            TextView summaryView = preference.findViewById(android.R.id.summary);
+            
+            if (titleView != null) {
+                titleView.setText(mContext.getString(R.string.build_number));
+            }
+            if (summaryView != null) {
+                summaryView.setText(getSummary());
+            }
+        }
     }
 }

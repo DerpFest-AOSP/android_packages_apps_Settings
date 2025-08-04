@@ -18,60 +18,72 @@
     android:title="@string/about_settings"
     settings:keywords="@string/keywords_top_level_device_info">
 
-    <!-- DerpFest Cool Branding -->
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="derpfest_branding_header"
-        android:layout="@layout/brand_header_about"
-        android:selectable="false"
-        settings:controller="com.android.settings.deviceinfo.aboutphone.DerpFestHeaderPreferenceController" />
+    <PreferenceCategory
+        android:order="-200">
+        <!-- DerpFest Cool Branding -->
+        <com.android.settingslib.widget.LayoutPreference
+            android:key="derpfest_branding_header"
+            android:layout="@layout/brand_header_about"
+            android:selectable="false"
+            settings:controller="com.android.settings.deviceinfo.aboutphone.DerpFestHeaderPreferenceController" />
+    </PreferenceCategory>
 
-    <!-- DerpFest official banner -->
-    <Preference
-        android:key="derp_official_banner"
-        android:title="@string/derp_official_title"
-        android:summary="@string/derp_official_summary"
-        settings:layout="@layout/derp_official_banner"
-        settings:enableCopying="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestOfficialBannerController"/>
+    <PreferenceCategory
+        android:order="-190">
+        <!-- DerpFest official banner -->
+        <com.android.settingslib.widget.LayoutPreference
+            android:key="derp_official_banner"
+            android:title="@string/derp_official_title"
+            android:summary="@string/derp_official_summary"
+            android:layout="@layout/derp_official_banner"
+            settings:enableCopying="false"
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestOfficialBannerController"/>
+    </PreferenceCategory>
 
-    <!-- Abput phone info header -->
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="about_phone_info_header"
-        android:layout="@layout/about_phone_info_header"
-        android:selectable="false" />
+    <PreferenceCategory
+        android:order="-180">
+        <!-- Abput phone info header -->
+        <com.android.settingslib.widget.LayoutPreference
+            android:key="about_phone_info_header"
+            android:layout="@layout/about_phone_info_header"
+            android:selectable="false" />
+    </PreferenceCategory>
 
-    <!-- Device Name -->
-    <com.android.settings.widget.ValidatedEditTextPreference
-        android:key="device_name"
-        android:title="@string/my_device_info_device_name_preference_title"
-        android:summary="@string/summary_placeholder"
-        settings:layout="@layout/derpfest_about_card_top"
-        settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
-        settings:enableCopying="true"/>
+    <PreferenceCategory
+        android:order="-170">
+        <!-- Device Name -->
+        <com.android.settings.widget.ValidatedEditTextPreference
+            android:key="device_name"
+            android:title="@string/my_device_info_device_name_preference_title"
+            android:summary="@string/summary_placeholder"
+            settings:layout="@layout/derpfest_about_card_single_entry_expressive"
+            settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
+            settings:enableCopying="true"/>
 
-    <!-- Android version -->
-    <Preference
-        android:key="firmware_version"
-        android:title="@string/firmware_version"
-        android:summary="@string/summary_placeholder"
-        android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
-        settings:layout="@layout/derpfest_about_card_middle"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+        <!-- Android version -->
+        <com.android.settingslib.widget.LayoutPreference
+            android:key="firmware_version"
+            android:title="@string/firmware_version"
+            android:summary="@string/summary_placeholder"
+            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
+            android:layout="@layout/derpfest_about_card_single_entry"
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-    <!-- Build number -->
-    <Preference
-        android:key="build_number"
-        android:title="@string/build_number"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:layout="@layout/derpfest_about_card_bottom"
-        settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+        <!-- Build number -->
+        <com.android.settingslib.widget.LayoutPreference
+            android:key="build_number"
+            android:title="@string/build_number"
+            android:summary="@string/summary_placeholder"
+            settings:enableCopying="true"
+            android:layout="@layout/derpfest_about_card_single_entry"
+            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+    </PreferenceCategory>
 
-    <!--- Device Info -->
+    <!-- Device Info -->
     <Preference
         android:key="top_level_about_device"
         android:title="@string/more_device_info"
-        settings:layout="@layout/derpfest_about_card_single"
+        settings:layout="@layout/derpfest_about_card_single_entry_expressive"
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"/>
 
 </PreferenceScreen>

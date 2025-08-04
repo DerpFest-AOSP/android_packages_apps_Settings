@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_marginVertical="@dimen/derpfest_pref_vert"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp">
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/derpfest_cardview_margin_list"
+            android:layout_marginBottom="@dimen/derpfest_cardview_margin_list"
+            android:layout_weight="1.0">
+            <TextView
+                android:id="@android:id/title"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="146dp"
+                android:singleLine="true"
+                android:maxLines="1"
+                style="@style/derpfest_about_cardview_text_primary" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@android:id/summary"
+                android:ellipsize="marquee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:paddingStart="146dp"
+                android:gravity="center_vertical"
+                android:layout_marginStart="18dp"
+                android:maxLines="1"
+                style="@style/derpfest_about_cardview_text_secondary"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
