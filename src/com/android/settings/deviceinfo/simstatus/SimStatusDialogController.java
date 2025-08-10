@@ -43,6 +43,8 @@ import android.telephony.TelephonyManager;
 import android.telephony.euicc.EuiccManager;
 import android.text.TextUtils;
 import android.util.Log;
+import android.provider.Settings;
+import android.os.UserHandle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -479,12 +481,8 @@ public class SimStatusDialogController implements DefaultLifecycleObserver {
             dataNetworkTypeName = "NR NSA";
         }
 
-        boolean show4GForLTE = false;
-        final PersistableBundle carrierConfig = mCarrierConfigManager.getConfigForSubId(subId);
-        if (carrierConfig != null) {
-            show4GForLTE = carrierConfig.getBoolean(
-                    CarrierConfigManager.KEY_SHOW_4G_FOR_LTE_DATA_ICON_BOOL);
-        }
+        boolean show4GForLTE = Settings.System.getIntForUser(mContext.getContentResolver(),
+                Settings.System.SHOW_FOURG_ICON, 0, UserHandle.USER_CURRENT) == 1;
 
         if (show4GForLTE) {
             if ("LTE".equals(dataNetworkTypeName)) {
