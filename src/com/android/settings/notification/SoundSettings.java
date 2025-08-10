@@ -21,6 +21,7 @@ import static android.app.admin.DevicePolicyResources.Strings.Settings.WORK_PROF
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -34,6 +35,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.RingtonePreference;
@@ -63,6 +65,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
 
     private static final String EXTRA_OPEN_PHONE_RINGTONE_PICKER =
             "EXTRA_OPEN_PHONE_RINGTONE_PICKER";
+    private static final String KEY_NOW_PLAYING = "dashboard_tile_pref_com.google.intelligence.sense.ambientmusic.AmbientMusicSettingsActivity";
 
     @VisibleForTesting
     static final int STOP_SAMPLE = 1;
@@ -120,6 +123,19 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
             }
             return null;
         });
+        updateAmbientMusicPref();
+    }
+
+    private void updateAmbientMusicPref() {
+        final PreferenceScreen screen = getPreferenceScreen();
+        if (Build.MANUFACTURER.equals("Google") || screen == null) {
+            return;
+        }
+
+        final Preference preference = screen.findPreference(KEY_NOW_PLAYING);
+        if (preference != null) {
+            screen.removePreference(preference);
+        }
     }
 
     @Override
@@ -308,6 +324,17 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider(R.xml.sound_settings) {
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+
+                    if (!Build.MANUFACTURER.equals("Google")) {
+                        keys.add(KEY_NOW_PLAYING);
+                    }
+
+                    return keys;
+                }
 
                 @Override
                 public List<AbstractPreferenceController> createPreferenceControllers(
