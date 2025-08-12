@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78bb3e4c_27b8cb29",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-08-12T01:03:00Z",
+      "side": 1,
+      "message": "gen_picks is mostly phased out at this point as bringup is mostly stable.",
+      "revId": "bd90e134ead12a9043db6dfca325121b1e808a2d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
