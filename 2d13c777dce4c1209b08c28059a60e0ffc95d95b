@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "357d2485_86954b0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2025-08-14T15:53:43Z",
+      "side": 1,
+      "message": "ditto as sdk",
+      "revId": "2d13c777dce4c1209b08c28059a60e0ffc95d95b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c7b46cc_1d092ef6",
+        "filename": "src/com/android/settings/fuelgauge/ChargingSpeedPreferenceController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2025-08-14T15:53:43Z",
+      "side": 1,
+      "message": "early ret if !\u003d AVAILABLE?",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 51
+      },
+      "revId": "2d13c777dce4c1209b08c28059a60e0ffc95d95b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
