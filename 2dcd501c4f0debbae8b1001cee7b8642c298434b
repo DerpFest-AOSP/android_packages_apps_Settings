@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a90ef7c5_e0f0e265",
+        "filename": "res/xml/screen_lock_settings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-16T23:34:41Z",
+      "side": 1,
+      "message": "Slide is not a secure lockscreen method.",
+      "range": {
+        "startLine": 68,
+        "startChar": 43,
+        "endLine": 68,
+        "endChar": 48
+      },
+      "revId": "2dcd501c4f0debbae8b1001cee7b8642c298434b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
