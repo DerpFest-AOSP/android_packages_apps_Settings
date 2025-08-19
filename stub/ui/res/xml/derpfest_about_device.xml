@@ -42,21 +42,21 @@
 
     <PreferenceCategory
         android:order="-180">
-        <!-- Device Name -->
-        <com.android.settings.widget.ValidatedEditTextPreference
-            android:key="device_name"
-            android:title="@string/my_device_info_device_name_preference_title"
-            android:summary="@string/summary_placeholder"
-            settings:layout="@layout/derpfest_about_card_single_entry_expressive"
-            settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
-            settings:enableCopying="true"/>
-
         <!-- Abput phone info header -->
         <com.android.settingslib.widget.LayoutPreference
             android:key="about_phone_info_header"
             android:layout="@layout/about_phone_info_header"
             android:selectable="false" />
     </PreferenceCategory>
+
+    <!-- Device Name -->
+    <com.android.settings.widget.ValidatedEditTextAboutPreference
+        android:key="device_name"
+        android:title="@string/my_device_info_device_name_preference_title"
+        android:summary="@string/summary_placeholder"
+        settings:layout="@layout/derpfest_about_card_single_entry"
+        settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
+        settings:enableCopying="true"/>
 
     <!-- Android version -->
     <com.android.settingslib.widget.LayoutPreference
