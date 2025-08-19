@@ -33,7 +33,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.bluetooth.BluetoothLengthDeviceNameFilter;
 import com.android.settings.core.BasePreferenceController;
-import com.android.settings.widget.ValidatedEditTextPreference;
+import com.android.settings.widget.ValidatedEditTextAboutPreference;
 import com.android.settings.wifi.tether.WifiDeviceNameTextValidator;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnCreate;
@@ -41,7 +41,7 @@ import com.android.settingslib.core.lifecycle.events.OnSaveInstanceState;
 
 // LINT.IfChange
 public class DeviceNamePreferenceController extends BasePreferenceController
-        implements ValidatedEditTextPreference.Validator,
+        implements ValidatedEditTextAboutPreference.Validator,
         Preference.OnPreferenceChangeListener,
         LifecycleObserver,
         OnSaveInstanceState,
@@ -53,7 +53,7 @@ public class DeviceNamePreferenceController extends BasePreferenceController
     protected WifiManager mWifiManager;
     private final BluetoothAdapter mBluetoothAdapter;
     private final WifiDeviceNameTextValidator mWifiDeviceNameTextValidator;
-    private ValidatedEditTextPreference mPreference;
+    private ValidatedEditTextAboutPreference mPreference;
     private DeviceNamePreferenceHost mHost;
     private String mPendingDeviceName;
 
