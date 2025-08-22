@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Wifi settings.  The delay in inactivity before wifi is turned off. These are shown in a list dialog. -->
+    <string-array name="wifi_timeout_entries">
+        <item>@string/timeout_summary_never</item>
+        <item>@string/timeout_summary_15secs</item>
+        <item>@string/timeout_summary_30secs</item>
+        <item>@string/timeout_summary_1min</item>
+        <item>@string/timeout_summary_2mins</item>
+        <item>@string/timeout_summary_5mins</item>
+        <item>@string/timeout_summary_10mins</item>
+        <item>@string/timeout_summary_30mins</item>
+        <item>@string/timeout_summary_1hour</item>
+        <item>@string/timeout_summary_2hours</item>
+        <item>@string/timeout_summary_4hours</item>
+        <item>@string/timeout_summary_8hours</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="wifi_timeout_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>15000</item>
+        <!-- Do not translate. -->
+        <item>30000</item>
+        <!-- Do not translate. -->
+        <item>60000</item>
+        <!-- Do not translate. -->
+        <item>120000</item>
+        <!-- Do not translate. -->
+        <item>300000</item>
+        <!-- Do not translate. -->
+        <item>600000</item>
+        <!-- Do not translate. -->
+        <item>1800000</item>
+        <!-- Do not translate. -->
+        <item>3600000</item>
+        <!-- Do not translate. -->
+        <item>7200000</item>
+        <!-- Do not translate. -->
+        <item>14400000</item>
+        <!-- Do not translate. -->
+        <item>28800000</item>
+    </string-array>
+
+    <!-- Bluetooth settings.  The delay in inactivity before bluetooth is turned off. These are shown in a list dialog. -->
+    <string-array name="bluetooth_timeout_entries">
+        <item>@string/timeout_summary_never</item>
+        <item>@string/timeout_summary_15secs</item>
+        <item>@string/timeout_summary_30secs</item>
+        <item>@string/timeout_summary_1min</item>
+        <item>@string/timeout_summary_2mins</item>
+        <item>@string/timeout_summary_5mins</item>
+        <item>@string/timeout_summary_10mins</item>
+        <item>@string/timeout_summary_30mins</item>
+        <item>@string/timeout_summary_1hour</item>
+        <item>@string/timeout_summary_2hours</item>
+        <item>@string/timeout_summary_4hours</item>
+        <item>@string/timeout_summary_8hours</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="bluetooth_timeout_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>15000</item>
+        <!-- Do not translate. -->
+        <item>30000</item>
+        <!-- Do not translate. -->
+        <item>60000</item>
+        <!-- Do not translate. -->
+        <item>120000</item>
+        <!-- Do not translate. -->
+        <item>300000</item>
+        <!-- Do not translate. -->
+        <item>600000</item>
+        <!-- Do not translate. -->
+        <item>1800000</item>
+        <!-- Do not translate. -->
+        <item>3600000</item>
+        <!-- Do not translate. -->
+        <item>7200000</item>
+        <!-- Do not translate. -->
+        <item>14400000</item>
+        <!-- Do not translate. -->
+        <item>28800000</item>
+    </string-array>
+
+    <!-- Custom timeout for Wifi/Bluetooth -->
+    <string-array name="custom_timeout_entries">
+        <item>@string/custom_timeout_summary_never</item>
+        <item>@string/custom_timeout_summary_15secs</item>
+        <item>@string/custom_timeout_summary_30secs</item>
+        <item>@string/custom_timeout_summary_1min</item>
+        <item>@string/custom_timeout_summary_2mins</item>
+        <item>@string/custom_timeout_summary_5mins</item>
+        <item>@string/custom_timeout_summary_10mins</item>
+        <item>@string/custom_timeout_summary_30mins</item>
+        <item>@string/custom_timeout_summary_1hour</item>
+        <item>@string/custom_timeout_summary_2hours</item>
+        <item>@string/custom_timeout_summary_4hours</item>
+        <item>@string/custom_timeout_summary_8hours</item>
+    </string-array>
+
+    <string-array name="custom_timeout_values" translatable="false">
+        <item>0</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>14400000</item>
+        <item>28800000</item>
+    </string-array>
+
+    <!-- Random summary -->
+    <string-array name="derpfest_summaries">
+        <item>Розробка заміість донатів</item>
+        <item>Увага! Неймовірні штуки попереду</item>
+        <item>Якась цікава фраза. Бла бла бла...</item>
+        <item>Готуйся та поринь до світу уяви</item>
+        <item>Дерпація попереду</item>
+        <item>Кастомізації DerpFest. Вони того варті</item>
+        <item>Простір всього Дерпнутого</item>
+        <item>Фічі такі смачні, що хочеться лизати</item>
+        <item>Обережно! ПОЗАДУ!</item>
+        <item>Якщо всі рівні — ти приречений програти.</item>
+        <item>Мені потрібні ДОРОСЛІ СТОСУНКИ з ДИСКЕТОЮ</item>
+        <item>Навчання — це добре, освіта — ще краще</item>
+        <item>Життя було б нудне, якби нічого не шкодувати</item>
+        <item>Слава летюча, забуття вічне</item>
+        <item>Цей запис самознищиться за 5 хвилин</item>
+        <item>Не все те золото, що блищить</item>
+        <item>Треба зібрати</item>
+        <item>Хто сміється останнім — не зрозумів жарт</item>
+        <item>Якщо все йде тобі назустріч — ти не в тій смузі</item>
+        <item>Де є воля — там і податок на спадщину</item>
+        <item>Це неавторизоване кібероголошення</item>
+        <item>Не стояти, не зупинятися</item>
+        <item>Якщо мене оберуть, я роздаватиму вафлі на Темпельгофер Фельді!</item>
+        <item>Якщо жодні з комунікацій не працюють — пробуй слова</item>
+        <item>Ніколи не їж нічого більшого за твою голову</item>
+        <item>Занадто багато логів про вхід/вихід = старість близько</item>
+        <item>Хай прибуде з тобою сова</item>
+        <item>Най хейтери хейтять</item>
+        <item>Налаштовуй, поки не втратиш розум</item>
+        <item>Думай менше, депай більше</item>
+        <item>FBI: Feature Base Isolation</item>
+        <item>Так виглядає справжня крутість</item>
+        <item>З великими фічами приходить велика відповідальність</item>
+        <item>Твій дружелюбний сусід Дерпнута Сова</item>
+        <item>Не мрій, а роби</item>
+        <item>Гордо представлено без донатів</item>
+        <item>Деволюції не знайдено</item>
+        <item>Дерпи трапляються, інколи з тобою</item>
+        <item>Страшно бути в Таїланді нормальним мужикам...</item>
+        <item>#YoureDerpedNow!</item>
+        <item>Море налаштувань!</item>
+        <item>Там, де тусуються круті діти...</item>
+        <item>(Швиряє телефон у Девіда)</item>
+        <item>Саме так, як звучить...</item>
+        <item>Круті штуки всередині</item>
+        <item>Безкоштовні цукерки!!</item>
+        <item>&#8593; &#8593; &#8595; &#8595; &#8592; &#8594; &#8592; &#8594; B A</item> 
+    </string-array>
+
+    <!-- Vibration patterns -->
+    <string-array name="vibration_pattern_entries">
+        <item>@string/pattern_dzzz_dzzz</item>
+        <item>@string/pattern_dzzz_da</item>
+        <item>@string/pattern_mm_mm_mm</item>
+        <item>@string/pattern_da_da_dzzz</item>
+        <item>@string/pattern_da_dzzz_da</item>
+        <item>@string/pattern_custom</item>
+    </string-array>
+    <string-array name="vibration_pattern_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="notification_vibration_pattern_entries">
+        <item>@string/locale_default</item>
+        <item>@string/pattern_dzzz_da</item>
+        <item>@string/pattern_mm_mm_mm</item>
+        <item>@string/pattern_da_da_dzzz</item>
+        <item>@string/pattern_da_dzzz_da</item>
+        <item>@string/pattern_custom</item>
+    </string-array>
+
+    <!-- AOD Schedule -->
+    <string-array name="doze_always_on_auto_mode_entries">
+        <item>@string/disabled</item>
+        <item>@string/night_display_auto_mode_twilight</item>
+        <item>@string/always_on_display_schedule_mixed_sunset</item>
+        <item>@string/always_on_display_schedule_mixed_sunrise</item>
+        <item>@string/night_display_auto_mode_custom</item>
+    </string-array>
+
+    <string-array name="doze_always_on_auto_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Transient task mode -->
+    <string-array name="transient_task_mode_entries">
+        <item>@string/transient_task_mode_default</item>
+        <item>@string/transient_task_mode_allow</item>
+        <item>@string/transient_task_mode_force</item>
+    </string-array>
+    <string-array name="transient_task_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
