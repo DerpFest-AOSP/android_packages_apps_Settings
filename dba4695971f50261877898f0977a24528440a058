@@ -16,6 +16,24 @@
       "message": "This overwrites the custom DNS hostname. \n\nSteps to reproduce:\n1. Set a custom private DNS hostname.\n2. Switch to Cloudflare DNS and switch back to custom DNS.",
       "revId": "dba4695971f50261877898f0977a24528440a058",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84947029_81d0e6b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-08-28T10:41:16Z",
+      "side": 1,
+      "message": "This is the same as lineage-22.2 so I will not be blocking the feature for this issue. It can be fixed in a future commit",
+      "parentUuid": "49c5749c_afe43014",
+      "revId": "dba4695971f50261877898f0977a24528440a058",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
