@@ -522,10 +522,12 @@ public class SubscriptionUtil {
             Log.d(TAG, "Unable to toggle subscription due to sim switch is in progress.");
             return;
         }
-        if (enable && Flags.isDualSimOnboardingEnabled()) {
-            SimOnboardingActivity.startSimOnboardingActivity(context, subId, isNewTask);
-            return;
-        }
+        // Skip sim onboarding since toggling a sim will launch SimDialogActivity which in turn
+        // starts sim onboarding.
+        // if (enable && Flags.isDualSimOnboardingEnabled()) {
+        //     SimOnboardingActivity.startSimOnboardingActivity(context, subId, isNewTask);
+        //     return;
+        // }
         Intent intent = ToggleSubscriptionDialogActivity.getIntent(context, subId, enable);
         if (isNewTask) {
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

@@ -90,10 +90,6 @@ class SimOnboardingService {
             return targetSubInfo?.isEmbedded ?: false
         }
 
-    var isUsableTargetSubscriptionId = false
-        get() {
-            return SubscriptionManager.isUsableSubscriptionId(targetSubId)
-        }
     var getActiveModemCount = 0
         get() {
             return (telephonyManager?.getActiveModemCount() ?: 0)
@@ -160,6 +156,10 @@ class SimOnboardingService {
         Log.d(
             TAG, "startInit: targetSubId:$targetSubId, activeSubInfoList: $activeSubInfoList"
         )
+        if (targetSubId == INVALID_SUBSCRIPTION_ID && activeSubInfoList.isNotEmpty()) {
+            targetSubId = activeSubInfoList.first().getSubscriptionId()
+            Log.d(TAG, "startInit: targetSubId is invalid, use first active subId $targetSubId")
+        }
 
         ThreadUtils.postOnBackgroundThread {
             availableSubInfoList = SubscriptionUtil.getAvailableSubscriptions(context)

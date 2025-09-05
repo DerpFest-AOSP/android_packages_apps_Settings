@@ -44,6 +44,7 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.flags.Flags;
 import com.android.settings.network.CarrierConfigCache;
+import com.android.settings.network.SimOnboardingActivity;
 import com.android.settings.network.ims.WifiCallingQueryImsState;
 import com.android.settings.network.telephony.MobileNetworkUtils;
 import com.android.settings.network.telephony.SubscriptionActionDialogActivity;
@@ -146,6 +147,7 @@ public class SimDialogActivity extends FragmentActivity {
                 && (dialogType == DATA_PICK
                 || dialogType == CALLS_PICK
                 || dialogType == SMS_PICK)) {
+            SimOnboardingActivity.startSimOnboardingActivity(this);
             Log.d(TAG, "Finish the sim dialog since the sim onboarding is shown");
             finish();
             return;

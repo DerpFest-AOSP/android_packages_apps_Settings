@@ -65,10 +65,12 @@ class SubscriptionActivationRepository(
             context.startActivity(intent)
             return
         }
-        if (active && Flags.isDualSimOnboardingEnabled()) {
-            startSimOnboardingActivity(context, subId)
-            return
-        }
+        // Skip sim onboarding since toggling a sim will launch SimDialogActivity which in turn
+        // starts sim onboarding.
+        // if (active && Flags.isDualSimOnboardingEnabled()) {
+        //     startSimOnboardingActivity(context, subId)
+        //     return
+        // }
         context.startActivity(ToggleSubscriptionDialogActivity.getIntent(context, subId, active))
     }
 
