@@ -42,6 +42,22 @@ public class SpecUtils {
 
     private static final long BYTES_PER_GB = 1024 * 1024 * 1024; // 1GB in bytes
     private static final int[] KNOWN_RAM_SIZES = {1, 2, 3, 4, 6, 8, 10, 12, 16, 32, 48, 64}; // Known RAM sizes in GB
+    private static int sBatteryDivider = 1000; // Default divider, will be initialized from config
+
+    private static void initializeBatteryDivider(Context context) {
+        if (sBatteryDivider == 1000) { // Only initialize once
+            try {
+                sBatteryDivider = context.getResources().getInteger(R.integer.config_battery_divider);
+                // Validate divider value to prevent division by zero or unreasonable values
+                if (sBatteryDivider <= 0 || sBatteryDivider > 10000) {
+                    sBatteryDivider = 1000; // Default fallback
+                }
+            } catch (Exception e) {
+                // Fallback to default value if resource is not found
+                sBatteryDivider = 1000;
+            }
+        }
+    }
 
     private static int roundToNearestKnownRamSize(double memoryGB) {
         if (memoryGB <= 0) return 1;
@@ -113,6 +129,9 @@ public class SpecUtils {
     }
 
     public static int getBatteryCapacity(Context context) {
+        // Initialize battery divider from config
+        initializeBatteryDivider(context);
+        
         // Try BatteryManager first
         Intent batteryIntent = context.registerReceiver(null,
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
@@ -120,7 +139,7 @@ public class SpecUtils {
             final int designCapacityUah = batteryIntent.getIntExtra(
                     BatteryManager.EXTRA_DESIGN_CAPACITY, -1);
             if (designCapacityUah > 0) {
-                return designCapacityUah / 1000; // Convert from uAh to mAh
+                return designCapacityUah / sBatteryDivider; // Convert using configurable divider
             }
         }
 
