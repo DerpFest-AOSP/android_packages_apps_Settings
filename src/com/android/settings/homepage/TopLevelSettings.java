@@ -347,6 +347,11 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     }
 
     private void themePreference(Preference pref) {
+        // Skip theming entirely for case 0 (AOSP default)
+        if (mIconStyle == 0) {
+            return;
+        }
+        
         Drawable icon = pref.getIcon();
         if (icon != null) {
             if (icon instanceof AdaptiveIcon) {
@@ -354,9 +359,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 // Clear colors from previous calls
                 aIcon.resetCustomColors();
                 switch (mIconStyle) {
-                    case 0:
-                    default:
-                        break;
                     case 1:
                         aIcon.setCustomForegroundColor(getResources().getColor(android.R.color.white));
                         break;
@@ -381,9 +383,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                     bg.setTintList(null);
                     fg.setTintList(null);
                     switch (mIconStyle) {
-                        case 0:
-                        default:
-                            break;
                         case 1:
                             fg.setTint(getResources().getColor(android.R.color.white));
                             break;
