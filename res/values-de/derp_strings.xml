@@ -166,4 +166,11 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Wechselt automatisch zwischen 5G und 4G, um den Akkuverbrauch zu reduzieren</string>
+
+   <!-- Clear calling -->
+    <string name="clear_calling_footer">"Um deine Privatsphäre zu schützen, sendet die Funktion „Glasklare Anrufe“ keine Audioinhalte oder Gespräche an Google.
+Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meisten Mobilfunknetzen verfügbar, nicht jedoch in 3G-Netzen."</string>
+    <string name="clear_calling_title">Glasklare Anrufe</string>
+    <string name="clear_calling_toggle">„Glasklare Anrufe“ verwenden</string>
+    <string name="clear_calling_topintro">Reduziert Hintergrundgeräusche während deiner Anrufe</string>
 </resources>

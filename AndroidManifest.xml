@@ -6136,6 +6136,17 @@
         </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
 
+        <!-- Clear calling -->
+        <activity android:name="com.google.android.settings.notification.ClearCallingSettingsActivity"
+                  android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.settings.notification.CLEAR_CALLING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:value="com.google.android.settings.notification.ClearCallingSettings"
+                       android:name="com.android.settings.FRAGMENT_CLASS"/>
+        </activity>
+
         <activity-alias
             android:name="DisplayCutoutForceFullscreenSettings"
             android:label="@string/display_cutout_force_fullscreen_title"

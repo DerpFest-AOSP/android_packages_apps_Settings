@@ -196,6 +196,14 @@
         android:order="-120"
         android:title="@string/sound_audio_category_title">
 
+    <Preference
+        android:key="clear_calling"
+        android:order="-115"
+        android:summary="@string/clear_calling_topintro"
+        android:title="@string/clear_calling_title"
+        android:fragment="com.google.android.settings.notification.ClearCallingSettings"
+        settings:controller="com.google.android.settings.notification.ClearCallingPreferenceController"/>
+
     <!-- Adaptive Playback -->
     <Preference
         android:key="sound_adaptive_playback_summary"
