@@ -248,4 +248,11 @@
     <string name="derpfest_suggestion_spoofing_summary">Geräte-Fingerprint und Eigenschaften verwalten</string>
     <string name="derpfest_suggestion_button_settings_title">Tasteneinstellungen</string>
     <string name="derpfest_suggestion_button_settings_summary">Aktionen der Hardwaretasten festlegen</string>
+
+    <!-- Clear calling -->
+    <string name="clear_calling_footer">"Um deine Privatsphäre zu schützen, sendet die Funktion „Glasklare Anrufe“ keine Audioinhalte oder Gespräche an Google.
+Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meisten Mobilfunknetzen verfügbar, nicht jedoch in 3G-Netzen."</string>
+    <string name="clear_calling_title">Glasklare Anrufe</string>
+    <string name="clear_calling_toggle">„Glasklare Anrufe“ verwenden</string>
+    <string name="clear_calling_topintro">Reduziert Hintergrundgeräusche während deiner Anrufe</string>
 </resources>
