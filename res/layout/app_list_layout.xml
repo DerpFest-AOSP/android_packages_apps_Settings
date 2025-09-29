@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_gravity="center"
-        android:text="@string/display_cutout_force_fullscreen_loading"
+        android:text="@string/app_list_loading"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="?android:attr/textColorSecondary" />
 </FrameLayout>
