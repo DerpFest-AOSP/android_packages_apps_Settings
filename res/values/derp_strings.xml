@@ -101,6 +101,7 @@
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="display_cutout_force_fullscreen_search">Search</string>
     <string name="display_cutout_force_fullscreen_search_apps">Search apps</string>
+    <string name="display_cutout_force_fullscreen_loading">Loading apps\u2026</string>
 
     <!-- Timeout entries -->
     <string name="timeout_summary_never">Never</string>
