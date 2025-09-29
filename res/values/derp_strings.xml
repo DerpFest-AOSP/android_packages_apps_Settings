@@ -399,4 +399,8 @@
     <string name="smart_battery_a11y_collapse_label">Collapse, Adaptive Battery</string>
     <string name="smart_battery_title">Adaptive Battery</string>
     <string name="unified_battery_saver_page_intro">Save power to help your phone battery last longer between charges</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status to selected apps</string>
 </resources>
