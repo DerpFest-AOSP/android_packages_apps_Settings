@@ -52,9 +52,14 @@ abstract class BaseAppListSettingsFragment : Fragment(R.layout.app_list_layout) 
     }
     private var searchText = ""
 
-    val excludeSystemApps = true
-    val restartPackageOnChange = true
-    val appFilter: (LauncherActivityInfo) -> Boolean = { true }
+    /** Whether to exclude system apps from the list. Subclasses may override. */
+    protected open fun excludeSystemApps(): Boolean = true
+
+    /** Whether to restart the selected package after change. Subclasses may override. */
+    protected open fun restartPackageOnChange(): Boolean = true
+
+    /** Optional additional app filter. Subclasses may override. */
+    protected open fun appFilter(info: LauncherActivityInfo): Boolean = true
 
     @StringRes
     abstract fun getTitleResId(): Int
@@ -142,10 +147,9 @@ abstract class BaseAppListSettingsFragment : Fragment(R.layout.app_list_layout) 
                     .getActivityList(null, Process.myUserHandle())
                     .distinctBy { it.componentName.packageName } // filter out duplicates
                     .filter {
-                        (!excludeSystemApps || !it.applicationInfo!!.isSystemApp()) &&
+                        (!excludeSystemApps() || !it.applicationInfo!!.isSystemApp()) &&
                             it.label.contains(searchText, ignoreCase = true) &&
                             appFilter(it)
-
                     }
                     .map { it.toAppInfo() }
                     .sortedWith(
@@ -196,7 +200,7 @@ abstract class BaseAppListSettingsFragment : Fragment(R.layout.app_list_layout) 
                         selectedIndices.add(position)
                         onListUpdate(packageName, true)
                     }
-                    if (restartPackageOnChange) {
+                    if (restartPackageOnChange()) {
                         runCatching { activityManager?.forceStopPackage(packageName) }
                     }
                     notifyItemChanged(position)
