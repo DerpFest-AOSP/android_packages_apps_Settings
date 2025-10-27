@@ -59,6 +59,7 @@ class MobileNetworkListFragment : DashboardFragment() {
 
         findPreference<Preference>(KEY_ADD_SIM)!!.isVisible =
             EuiccRepository(requireContext()).showEuiccSettings()
+        findPreference<Preference>(KEY_ESIM_SETTINGS)!!.isVisible = true
     }
 
     override fun getPreferenceScreenResId() = R.xml.network_provider_sims_list
@@ -70,6 +71,7 @@ class MobileNetworkListFragment : DashboardFragment() {
     companion object {
         private const val LOG_TAG = "NetworkListFragment"
         private const val KEY_ADD_SIM = "add_sim"
+        private const val KEY_ESIM_SETTINGS = "esim_device_settings"
 
         @JvmStatic
         fun SettingsPreferenceFragment.collectAirplaneModeAndFinishIfOn() {

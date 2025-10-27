@@ -27,6 +27,19 @@
         settings:controller="com.android.settings.network.NetworkProviderSimListController"/>
 
     <com.android.settingslib.RestrictedPreference
+        android:key="esim_device_settings"
+        settings:isPreferenceVisible="false"
+        settings:userRestriction="no_config_mobile_networks"
+        settings:useAdminDisabledSummary="true"
+        settings:searchable="false"
+        android:title="@string/esim_settings_title"
+        android:order="99">
+        <intent android:action="org.lineageos.settings.device.ESIM_SETTINGS"
+                android:targetPackage="org.lineageos.settings.esimswitcher">
+        </intent>
+    </com.android.settingslib.RestrictedPreference>
+
+    <com.android.settingslib.RestrictedPreference
         android:key="add_sim"
         settings:isPreferenceVisible="false"
         settings:userRestriction="no_config_mobile_networks"
