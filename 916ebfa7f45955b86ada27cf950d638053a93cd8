@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4dafe645_295a3b0c",
+        "filename": "src/com/android/settings/spa/network/SimsSection.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-27T21:21:00Z",
+      "side": 1,
+      "message": "`subscriptionManager.allSubscriptionInfoList.any { it.isEmbedded }` instead?",
+      "range": {
+        "startLine": 175,
+        "startChar": 0,
+        "endLine": 181,
+        "endChar": 5
+      },
+      "revId": "916ebfa7f45955b86ada27cf950d638053a93cd8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
