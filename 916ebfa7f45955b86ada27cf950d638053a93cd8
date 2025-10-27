@@ -22,6 +22,30 @@
       },
       "revId": "916ebfa7f45955b86ada27cf950d638053a93cd8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9dc237cd_d3c1d713",
+        "filename": "src/com/android/settings/spa/network/SimsSection.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-27T21:45:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4dafe645_295a3b0c",
+      "range": {
+        "startLine": 175,
+        "startChar": 0,
+        "endLine": 181,
+        "endChar": 5
+      },
+      "revId": "916ebfa7f45955b86ada27cf950d638053a93cd8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
