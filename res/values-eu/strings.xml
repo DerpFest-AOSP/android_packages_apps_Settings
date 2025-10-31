@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Pantaila blokeatzeko aukerak"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Pantaila blokeatzeko aukerak"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"PINa automatikoki berresten duen desblokeoa"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Desblokeatu automatikoki gailua sei digitu edo gehiagoko PIN zuzena idazten baduzu. Ez da PINa berresteko Sartu sakatzea bezain segurua."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Desblokeatu automatikoki gailua lau digitu edo gehiagoko PIN zuzena idazten baduzu. Ez da PINa berresteko Sartu sakatzea bezain segurua."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Berretsi automatikoki PIN zuzena"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Berrespen automatikoa erabiltzea baino seguruagoa da PINa berresteko Sartu sakatzea"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Automatikoki berresteko aukera gaitzeko, idatzi PINa"</string>

@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"화면 잠금 옵션"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"화면 잠금 옵션"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"잠금 해제 자동 확인"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"6자리 이상의 PIN을 정확하게 입력하면 자동으로 잠금 해제됩니다. Enter 키를 눌러 확인하는 방식보다는 다소 취약한 보안 설정입니다."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"4자리 이상의 PIN을 정확하게 입력하면 자동으로 잠금 해제됩니다. Enter 키를 눌러 확인하는 방식보다는 다소 취약한 보안 설정입니다."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"올바른 PIN 입력 여부 자동 확인"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"자동 확인보다는 Enter 키를 눌러 PIN을 확인하는 방법이 더 안전합니다."</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"자동 확인을 사용 설정하려면 기기의 PIN을 입력하세요."</string>

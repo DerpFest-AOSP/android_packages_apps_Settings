@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Opsionet e kyçjes së ekranit"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Opsionet e kyçjes së ekranit"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Shkyçje me konfirmim automatik"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Shkyç automatikisht nëse fut një kod të saktë PIN prej 6 shifrash ose më shumë. Ky është disi më pak i sigurt sesa trokitja e \"Fut\" për të konfirmuar."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Shkyç automatikisht nëse fut një kod të saktë PIN prej 4 shifrash ose më shumë. Ky është disi më pak i sigurt sesa trokitja e \"Fut\" për të konfirmuar."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Konfirmo automatikisht kodin e saktë PIN"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Konfirmimi i kodit tënd PIN duke trokitur \"Enter\" është më i sigurt se sa përdorimi i konfirmimit automatik"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Fut kodin PIN të pajisjes për të aktivizuar konfirmimin automatik"</string>

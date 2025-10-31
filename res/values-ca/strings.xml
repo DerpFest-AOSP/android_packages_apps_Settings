@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Opcions de bloqueig de pantalla"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Opcions de bloqueig de pantalla"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Desbloqueig amb confirmació automàtica"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Desbloqueja automàticament en introduir un PIN correcte de 6 dígits o més. Aquesta opció és una mica menys segura que tocar Retorn per confirmar."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Desbloqueja automàticament en introduir un PIN correcte de 4 dígits o més. Aquesta opció és una mica menys segura que tocar Retorn per confirmar."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Confirma el PIN correcte automàticament"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Confirmar el PIN tocant Retorn és més segur que utilitzar la confirmació automàtica"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Introdueix el PIN del dispositiu per activar la confirmació automàtica"</string>

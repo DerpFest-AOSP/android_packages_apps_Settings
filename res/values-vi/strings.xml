@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Các phương thức khoá màn hình"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Các phương thức khoá màn hình"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Mở khoá bằng cách tự động xác nhận"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Tự động mở khoá nếu bạn nếu nhập đúng mã PIN gồm từ 6 chữ số trở lên. Cách này sẽ kém bảo mật hơn một chút so với việc nhấn Enter để xác nhận."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Tự động mở khoá nếu bạn nếu nhập đúng mã PIN gồm từ 4 chữ số trở lên. Cách này sẽ kém bảo mật hơn một chút so với việc nhấn Enter để xác nhận."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Tự động xác nhận bằng mã PIN chính xác"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Thao tác xác nhận mã PIN bằng cách nhấn Enter sẽ bảo mật hơn so với sử dụng tính năng tự động xác nhận"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Nhập mã PIN thiết bị để bật tuỳ chọn tự động xác nhận"</string>

@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"තිරයේ අගුලු විකල්ප"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"තිර අගුලු විකල්ප"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"අගුළු හැරීම ස්වයංව තහවුරු කරන්න"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"ඔබ නිවැරදි සංඛ්‍යා 6ක හෝ ඊට වැඩි PIN එකක් ආදානය කරන්නේ නම් ස්වයංක්‍රීයව අගුළු හරින්න. මෙය තහවුරු කිරීමට Enter තට්ටු කිරීමට වඩා තරමක් අඩුවෙන් සුරක්ෂිතයි."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"ඔබ නිවැරදි සංඛ්‍යා 4ක හෝ ඊට වැඩි PIN එකක් ආදානය කරන්නේ නම් ස්වයංක්‍රීයව අගුළු හරින්න. මෙය තහවුරු කිරීමට Enter තට්ටු කිරීමට වඩා තරමක් අඩුවෙන් සුරක්ෂිතයි."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"නිවැරදි PIN අංකය ස්වයංව තහවුරු කරන්න"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Enter තට්ටු කිරීමෙන් ඔබේ PIN අංකය තහවුරු කිරීම ස්වයංව තහවුරු කිරීම භාවිතා කරනවාට වඩා සුරක්ෂිතයි"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"ස්වයං තහවුරු කිරීම සබල කිරීමට උපාංග PIN ඇතුළු කරන්න"</string>

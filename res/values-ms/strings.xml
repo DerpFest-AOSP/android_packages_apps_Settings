@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Pilihan kunci skrin"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Pilihan kunci skrin"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Buka kunci pengesahan automatik"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Buka kunci secara automatik jika anda memasukkan PIN 6 digit atau lebih dengan betul. Ciri ini kurang selamat berbanding dengan mengetik Enter untuk membuat pengesahan."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Buka kunci secara automatik jika anda memasukkan PIN 4 digit atau lebih dengan betul. Ciri ini kurang selamat berbanding dengan mengetik Enter untuk membuat pengesahan."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Pengesahan PIN yang betul secara automatik"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Tindakan mengetik Enter untuk mengesahkan PIN anda adalah lebih selamat berbanding dengan menggunakan pengesahan automatik"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Masukkan PIN peranti untuk mendayakan pengesahan automatik"</string>

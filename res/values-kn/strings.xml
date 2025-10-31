@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಆಯ್ಕೆಗಳು"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಆಯ್ಕೆಗಳು"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"ಸ್ವಯಂ-ದೃಢೀಕರಣ ಅನ್‌ಲಾಕ್‌"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"ನೀವು 6 ಅಥವಾ ಹೆಚ್ಚಿನ ಅಂಕಿಗಳ ಸರಿಯಾದ ಪಿನ್ ಅನ್ನು ನಮೂದಿಸಿದರೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅನ್‌ಲಾಕ್ ಮಾಡಿ. ಖಚಿತಪಡಿಸಲು Enter ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡುವುದಕ್ಕಿಂತ ಇದು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಅಸುರಕ್ಷಿತ ಮಾರ್ಗವಾಗಿದೆ."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"ನೀವು 4 ಅಥವಾ ಹೆಚ್ಚಿನ ಅಂಕಿಗಳ ಸರಿಯಾದ ಪಿನ್ ಅನ್ನು ನಮೂದಿಸಿದರೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅನ್‌ಲಾಕ್ ಮಾಡಿ. ಖಚಿತಪಡಿಸಲು Enter ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡುವುದಕ್ಕಿಂತ ಇದು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಅಸುರಕ್ಷಿತ ಮಾರ್ಗವಾಗಿದೆ."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"ಸರಿಯಾದ ಪಿನ್ ಅನ್ನು ಸ್ವಯಂ-ದೃಢೀಕರಿಸಿ"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Enter ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡುವ ಮೂಲಕ ಪಿನ್ ಅನ್ನು ದೃಢೀಕರಿಸುವುದು ಸ್ವಯಂಚಾಲಿತ ದೃಢೀಕರಣವನ್ನು ಬಳಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು ಸುರಕ್ಷಿತವಾಗಿದೆ"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"ಸ್ವಯಂ-ದೃಢೀಕರಣವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಸಾಧನದ ಪಿನ್ ನಮೂದಿಸಿ"</string>

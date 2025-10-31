@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"屏锁方式"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"屏锁方式"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"自动确认解锁"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"如果输入的 PIN 码（6 位以上）正确，设备会自动解锁。与通过点按 Enter 键确认 PIN 相比，前者的安全性略低。"</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"如果输入的 PIN 码（4 位以上）正确，设备会自动解锁。与通过点按 Enter 键确认 PIN 相比，前者的安全性略低。"</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"自动确认正确的 PIN 码"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"通过点按 Enter 键确认 PIN 码比使用自动确认功能更加安全"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"输入设备 PIN 码以启用自动确认功能"</string>

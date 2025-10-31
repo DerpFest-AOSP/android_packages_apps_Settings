@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Mga opsyon sa lock ng screen"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Mga opsyon sa lock ng screen"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Awtomatikong kumpirmahin ang pag-unlock"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Awtomatikong mag-unlock kung maglagay ka ng tamang PIN na may 6 na digit pataas. Hindi ito kasing-secure ng pag-tap sa Enter para kumpirmahin."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Awtomatikong mag-unlock kung maglagay ka ng tamang PIN na may 4 na digit pataas. Hindi ito kasing-secure ng pag-tap sa Enter para kumpirmahin."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Awtomatikong kumpirmahin ang tamang PIN"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Mas secure ang pagkumpirma sa iyong PIN sa pamamagitan ng pag-tap sa Enter kumpara sa paggamit ng awtomatikong pagkumpirma"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Ilagay ang PIN ng device para i-enable ang awtomatikong pagkumpirma"</string>

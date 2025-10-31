@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Chaguo za kufunga skrini"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Chaguo za kufunga skrini"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Thibitisha kufungua kiotomatiki"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Fungua kiotomatiki ukiweka PIN sahihi yenye tarakimu 6 au zaidi. Hatua hii ina usalama kidogo kuliko kugusa \'Weka\' ili kuthibitisha."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Fungua kiotomatiki ukiweka PIN sahihi yenye tarakimu 4 au zaidi. Hatua hii ina usalama kidogo kuliko kugusa \'Weka\' ili kuthibitisha."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Thibitisha PIN sahihi kiotomatiki"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Kuthibitisha PIN yako kwa kugusa \'Weka\' ni salama zaidi kuliko kuthibitisha kiotomatiki"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Weka PIN ya kifaa ili uwashe mipangilio ya kuthibitisha kiotomatiki"</string>

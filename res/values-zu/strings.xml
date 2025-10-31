@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Izinketho zokukhiya isikrini"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Izinketho zokukhiya isikrini"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Qinisekisa ngokuzenzakalelayo ukuvula"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Vula ngokuzenzakalelayo uma ufaka iphinikhodi efanele enamadijithi ayi-6 noma ngaphezulu. Lokhu kuvikeleke kancane kunokuthepha u-Enter ukuze uqinisekise."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Vula ngokuzenzakalelayo uma ufaka iphinikhodi efanele enamadijithi ayi-4 noma ngaphezulu. Lokhu kuvikeleke kancane kunokuthepha u-Enter ukuze uqinisekise."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Qinisekisa ngokuzenzakalelayo Iphinikhodi elungile"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Ukuqinisekisa Iphinikhodi yakho ngokuthepha u-Enter kuphephe kakhulu kunokusebenzisa ukuqinisekisa okuzenzakalelayo"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Faka iphinikhodi yedivayisi ukuze unike amandla ukuqinisekisa okuzenzakalelayo"</string>

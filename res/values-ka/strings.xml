@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"ეკრანის დაბლოკვის ვარიანტები"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"ეკრანის დაბლოკვის ვარიანტები"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"განბლოკვის ავტომატურად დადასტურება"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"მინიმუმ 6-ნიშნა სწორი PIN-კოდის შეყვანისას ავტომატური განბლოკვა. ეს შედარებით ნაკლებად უსაფრთხო მეთოდია, ვიდრე Enter-ის მეშვეობით დადასტურება."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"მინიმუმ 4-ნიშნა სწორი PIN-კოდის შეყვანისას ავტომატური განბლოკვა. ეს შედარებით ნაკლებად უსაფრთხო მეთოდია, ვიდრე Enter-ის მეშვეობით დადასტურება."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"სწორი PIN-კოდის ავტომატური დადასტურება"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"თქვენი PIN-კოდის დადასტურება Enter-ზე შეხებით უფრო უსაფრთხოა, ვიდრე ავტომატური დადასტურება"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"შეიყვანეთ მოწყობილობის PIN-კოდი ავტომატური დადასტურების ჩასართველად"</string>

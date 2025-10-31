@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"സ്‌ക്രീൻ ലോക്ക് ഓപ്ഷനുകള്‍"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"സ്‌ക്രീൻ ലോക്ക് ഓപ്ഷനുകള്‍"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"അൺലോക്ക് ചെയ്തു എന്ന് സ്വയമേവ സ്ഥിരീകരിക്കുക"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"നിങ്ങൾ 6 അക്കങ്ങളോ അതിൽ കൂടുതലോ ഉള്ള ശരിയായ പിൻ നൽകിയാൽ സ്വയമേവ അൺലോക്ക് ചെയ്യുന്നു. സ്ഥിരീകരിക്കാൻ Enter ടാപ്പ് ചെയ്യുന്നത്ര സുരക്ഷിതമായിരിക്കില്ല ഇത്."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"നിങ്ങൾ 4 അക്കങ്ങളോ അതിൽ കൂടുതലോ ഉള്ള ശരിയായ പിൻ നൽകിയാൽ സ്വയമേവ അൺലോക്ക് ചെയ്യുന്നു. സ്ഥിരീകരിക്കാൻ Enter ടാപ്പ് ചെയ്യുന്നത്ര സുരക്ഷിതമായിരിക്കില്ല ഇത്."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"ശരിയായ പിൻ സ്വയമേവ സ്ഥിരീകരിക്കുക"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Enter ടാപ്പ് ചെയ്യുന്നതിലൂടെ പിൻ സ്ഥിരീകരിക്കുന്നത്, \'സ്വയമേവ സ്ഥിരീകരിക്കൽ\' ഉപയോഗിക്കുന്നതിനേക്കാളും സുരക്ഷിതമാണ്"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"സ്വയമേവയുള്ള സ്ഥിരീകരണം പ്രവർത്തനക്ഷമമാക്കാൻ ഉപകരണത്തിന്റെ പിൻ നൽകുക"</string>

@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Valkostir skjálæsingar"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Valkostir skjálæsingar"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Taka úr lás með sjálfvirkri staðfestingu"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Taka sjálfkrafa úr lás ef þú slærð inn rétt PIN-númer sem er 6 tölustafir eða lengra. Þetta er örlítið ótraustara en að ýta á „Enter“ til að staðfesta."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Taka sjálfkrafa úr lás ef þú slærð inn rétt PIN-númer sem er 4 tölustafir eða lengra. Þetta er örlítið ótraustara en að ýta á „Enter“ til að staðfesta."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Staðfesta rétt PIN-númer sjálfkrafa"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Öruggara er að staðfesta PIN-númer með því að ýta á „Enter“ en að nota sjálfvirka staðfestingu"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Sláðu inn PIN-númer tækis til að kveikja á sjálfvirkri staðfestingu"</string>

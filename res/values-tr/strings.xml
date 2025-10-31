@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Ekran kilidi seçenekleri"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Ekran kilidi seçenekleri"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Kilit açmayı otomatik olarak onayla"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"En az 6 basamaklı doğru bir PIN girerseniz kilit otomatik olarak açılır. Bu, Enter\'a dokunarak onaylamaktan biraz daha az güvenli bir yöntemdir."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"En az 4 basamaklı doğru bir PIN girerseniz kilit otomatik olarak açılır. Bu, Enter\'a dokunarak onaylamaktan biraz daha az güvenli bir yöntemdir."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Doğru PIN\'i otomatik olarak onaylayın"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"PIN\'inizi onaylamak için Enter\'a dokunmak, otomatik onaylama özelliğini kullanmaktan daha güvenlidir"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Otomatik olarak onaylamayı etkinleştirmek için cihaz PIN\'ini girin"</string>

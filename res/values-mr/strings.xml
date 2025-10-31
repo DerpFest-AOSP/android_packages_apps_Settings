@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"स्क्रीन लॉक पर्याय"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"स्क्रीन लॉक पर्याय"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"ऑटो-कन्फर्म अनलॉक"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"तुम्ही सहा किंवा त्याहून अधिक अंकी योग्य पिन इनपुट केल्यास आपोआप अनलॉक करा. हे कन्फर्म करण्यासाठी एंटर वर टॅप करण्यापेक्षा थोडेसे कमी सुरक्षित आहे."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"तुम्ही चार किंवा त्याहून अधिक अंकी योग्य पिन इनपुट केल्यास आपोआप अनलॉक करा. हे कन्फर्म करण्यासाठी एंटर वर टॅप करण्यापेक्षा थोडेसे कमी सुरक्षित आहे."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"योग्य पिन ऑटो-कन्फर्म करा"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"ऑटो-कन्फर्म वापरण्यापेक्षा एंटर वर टॅप करून तुमचा पिन कन्फर्म करणे अधिक सुरक्षित आहे"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"ऑटो-कन्फर्म सुरू करण्यासाठी डिव्हाइस पिन एंटर करा"</string>

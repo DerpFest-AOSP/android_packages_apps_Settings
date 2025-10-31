@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Možnosti zámky obrazovky"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Možnosti zámky obrazovky"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Odomykať automatickým potvrdením"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Ak zadáte správny kód PIN s minimálne šiestimi číslicami, odomkne sa automaticky. Je to o niečo menej bezpečné než potvrdenie klepnutím na Enter."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Ak zadáte správny kód PIN so štyrmi alebo viac číslicami, odomkne sa automaticky. Je to o niečo menej bezpečné než potvrdenie klepnutím na Enter."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Automatické potvrdenie správneho kódu PIN"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Potvrdzovanie kódu PIN klepnutím na Enter je bezpečnejšie než používanie automatického potvrdenia"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Ak chcete zapnúť automatické potvrdenie, zadajte PIN zariadenia"</string>

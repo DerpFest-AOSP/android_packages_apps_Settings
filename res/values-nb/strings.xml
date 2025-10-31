@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Alternativer for skjermlås"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Alternativer for skjermlås"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Bekreft opplåsning automatisk"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Lås opp automatisk hvis du legger inn en riktig PIN-kode på minst 6 sifre. Dette er litt mindre sikkert enn å bekrefte med Enter."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Lås opp automatisk hvis du legger inn en riktig PIN-kode på minst 4 sifre. Dette er litt mindre sikkert enn å bekrefte med Enter."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Bekreft korrekt PIN-kode automatisk"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Det er sikrere å bekrefte PIN-koden med Enter enn å bruke automatisk bekreftelse"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Legg inn PIN-koden for enheten for å slå på automatisk bekreftelse"</string>

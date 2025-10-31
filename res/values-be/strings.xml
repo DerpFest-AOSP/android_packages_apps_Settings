@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Параметры экрана блакіроўкі"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Параметры экрана блакіроўкі"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Аўтаматычнае пацвярджэнне разблакіроўкі"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Аўтаматычна разблакіраваць пры ўводзе правільнага PIN-кода з 6 ці болей лічбаў. Гэта менш бяспечна, чым націскаць кнопку \"Увод\" для пацвярджэння."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Аўтаматычна разблакіраваць пры ўводзе правільнага PIN-кода з 4 ці болей лічбаў. Гэта менш бяспечна, чым націскаць кнопку \"Увод\" для пацвярджэння."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Аўтаматычнае пацвярджэнне правільнасці PIN-кода"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Пацвярджаць PIN-код націсканнем кнопкі \"Увод\" бяспечней, чым ужываць аўтаматычнае пацвярджэнне"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Увядзіце PIN-код прылады, каб уключыць аўтаматычнае пацвярджэнне"</string>

@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Képernyőzárolási lehetőségek"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Képernyőzárolási lehetőségek"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Feloldás automatikus megerősítéssel"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Automatikusan feloldja a zárolást, ha helyesen ad meg egy hat vagy annál több jegyű PIN-kódot. Ez a megoldás valamelyest kevésbé biztonságos, mint az Enterre koppintással történő megerősítés."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Automatikusan feloldja a zárolást, ha helyesen ad meg egy négy vagy annál több jegyű PIN-kódot. Ez a megoldás valamelyest kevésbé biztonságos, mint az Enterre koppintással történő megerősítés."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"PIN-kód helyességének automatikus megerősítése"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"A PIN-kód Enterre koppintással történő megerősítése biztonságosabb, mint az automatikus megerősítés használata"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Eszköz PIN-kódjának megadása az automatikus megerősítés bekapcsolásához"</string>

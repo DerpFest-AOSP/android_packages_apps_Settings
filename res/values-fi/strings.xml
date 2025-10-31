@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Näytön lukitusvaihtoehdot"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Näytön lukitusvaihtoehdot"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Lukituksen avaamisen automaattinen vahvistaminen"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Avaa lukitus automaattisesti, jos lisätyssä PIN-koodissa on vähintään kuusi numeroa ja se on oikein. Tämä ei ole aivan yhtä turvallista kuin vahvistaminen naputtamalla Enteriä."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Avaa lukitus automaattisesti, jos lisätyssä PIN-koodissa on vähintään neljä numeroa ja se on oikein. Tämä ei ole aivan yhtä turvallista kuin vahvistaminen naputtamalla Enteriä."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Vahvista PIN-koodi automaattisesti"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"PIN-koodin vahvistaminen napauttamalla Enteriä on turvallisempaa kuin automaattinen vahvistaminen"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Lisää laitteen PIN-koodi, jos haluat ottaa automaattisen vahvistuksen käyttöön"</string>

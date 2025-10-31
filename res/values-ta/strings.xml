@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"திரைப் பூட்டு விருப்பங்கள்"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"திரைப் பூட்டு விருப்பங்கள்"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"தானாக உறுதிப்படுத்தி அன்லாக் செய்தல்"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"6 அல்லது அதற்கு மேற்பட்ட இலக்கங்களுடைய சரியான பின்னை உள்ளிட்டால் தானாக அன்லாக் ஆகும். உறுதிப்படுத்த Enter பட்டனைத் தட்டுவதை விட இது சற்று குறைந்த பாதுகாப்புடையதாகும்."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"4 அல்லது அதற்கு மேற்பட்ட இலக்கங்களுடைய சரியான பின்னை உள்ளிட்டால் தானாக அன்லாக் ஆகும். உறுதிப்படுத்த Enter பட்டனைத் தட்டுவதை விட இது சற்று குறைந்த பாதுகாப்புடையதாகும்."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"சரியான பின்னைத் தானாக உறுதிப்படுத்தும்"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"தானியங்கு உறுதிப்படுத்தல் அம்சத்தைப் பயன்படுத்துவதை விட, Enter பட்டனைத் தட்டி உங்கள் பின்னை உறுதிப்படுத்துவது மிகப் பாதுகாப்பானதாகும்"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"தானியங்கி உறுதிப்படுத்தலை இயக்க, சாதனத்தின் பின்னை உள்ளிடுங்கள்"</string>

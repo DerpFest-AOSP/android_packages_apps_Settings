@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Дэлгэцийн түгжээний сонголт"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Дэлгэцийн түгжээний сонголт"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Түгжээг автоматаар тайлахыг баталгаажуулах"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Хэрэв та 6 буюу түүнээс дээш оронтой зөв ПИН код оруулбал түгжээ автоматаар тайлагдана. Энэ нь Enter дарж баталгаажуулахаас арай бага хамгаалалттай."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Хэрэв та 4 буюу түүнээс дээш оронтой зөв ПИН код оруулбал түгжээ автоматаар тайлагдана. Энэ нь Enter дарж баталгаажуулахаас арай бага хамгаалалттай."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Зөв PIN кодоо автоматаар баталгаажуулна уу"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Enter товчийг дарж ПИН кодоо баталгаажуулах нь автоматаар баталгаажуулахаас илүү аюулгүй юм"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Автомат баталгаажуулалтыг идэвхжүүлэхийн тулд төхөөрөмжийн ПИН-г оруулна уу"</string>

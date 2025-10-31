@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"ជម្រើស​ចាក់សោអេក្រង់"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"ជម្រើស​ចាក់សោអេក្រង់"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"បញ្ជាក់ការដោះសោដោយស្វ័យប្រវត្តិ"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"ដោះសោដោយស្វ័យប្រវត្តិ ប្រសិនបើអ្នកបញ្ចូលកូដ PIN ត្រឹមត្រូវដែលមាន 6 ខ្ទង់ ឬច្រើនជាងនេះ។ ដំណើរការនេះមានសុវត្ថិភាពតិចជាងការចុច \"Enter\" ដើម្បីបញ្ជាក់។"</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"ដោះសោដោយស្វ័យប្រវត្តិ ប្រសិនបើអ្នកបញ្ចូលកូដ PIN ត្រឹមត្រូវដែលមាន 4 ខ្ទង់ ឬច្រើនជាងនេះ។ ដំណើរការនេះមានសុវត្ថិភាពតិចជាងការចុច \"Enter\" ដើម្បីបញ្ជាក់។"</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"បញ្ជាក់កូដ PIN ដែលត្រឹមត្រូវដោយស្វ័យប្រវត្តិ"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"ការបញ្ជាក់កូដ PIN របស់អ្នកតាមរយៈការចុច \"Enter\" គឺមានសុវត្ថិភាពជាងការប្រើការបញ្ជាក់ដោយស្វ័យប្រវត្តិ"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"បញ្ចូលកូដ PIN ឧបករណ៍ ដើម្បីបើក​ការបញ្ជាក់ស្វ័យប្រវត្តិ"</string>

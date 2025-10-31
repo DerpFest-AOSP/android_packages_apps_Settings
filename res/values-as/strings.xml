@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"স্ক্ৰীন লক সম্পৰ্কীয় বিকল্প"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"স্ক্ৰীন লক সম্পৰ্কীয় বিকল্প"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"আনলক কৰাটো স্বয়ংক্ৰিয়ভাৱে নিশ্চিত কৰক"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"আপুনি ৬ টা অথবা তাতকৈ অধিক অংকৰ সঠিক পিন ইনপুট কৰি স্বয়ংক্ৰিয়ভাৱে আনলক কৰক। নিশ্চিত কৰিবলৈ এণ্টাৰ টিপাতকৈ এইটো অলপ কম সুৰক্ষিত।"</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"আপুনি ৪ টা অথবা তাতকৈ অধিক অংকৰ সঠিক পিন ইনপুট কৰি স্বয়ংক্ৰিয়ভাৱে আনলক কৰক। নিশ্চিত কৰিবলৈ এণ্টাৰ টিপাতকৈ এইটো অলপ কম সুৰক্ষিত।"</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"সঠিক পিনটো স্বয়ংক্ৰিয়ভাৱে নিশ্চিত কৰক"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"এণ্টাৰ টিপি আপোনাৰ পিন নিশ্চিত কৰাটো স্বয়ংক্ৰিয়-নিশ্চিতকৰণ ব্যৱহাৰ কৰাতকৈ অধিক সুৰক্ষিত"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"স্বয়ংক্ৰিয় নিশ্চিতকৰণ সক্ষম কৰিবলৈ ডিভাইচৰ পিনটো দিয়ক"</string>

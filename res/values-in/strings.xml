@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Opsi kunci layar"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Opsi kunci layar"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Konfirmasi otomatis untuk membuka kunci"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Otomatis membuka kunci jika Anda memasukkan PIN 6 digit atau lebih dengan benar. Cara ini agak kurang aman dibandingkan mengetuk Enter untuk mengonfirmasi."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Otomatis membuka kunci jika Anda memasukkan PIN 4 digit atau lebih dengan benar. Cara ini agak kurang aman dibandingkan mengetuk Enter untuk mengonfirmasi."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Konfirmasi otomatis PIN yang benar"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Mengonfirmasi PIN Anda dengan mengetuk Enter lebih aman daripada menggunakan konfirmasi otomatis"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Masukkan PIN perangkat untuk mengaktifkan konfirmasi otomatis"</string>

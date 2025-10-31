@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"স্ক্রিন লকের বিকল্প"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"স্ক্রিন লকের বিকল্প"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"পিন অটোমেটিক কনফার্ম করে ডিভাইস আনলক করা"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"৬ বা তার বেশি সংখ্যার সঠিক পিন লিখলে অটোমেটিক আনলক করুন। \'এন্টার\' ট্যাপ করে কনফার্ম করার থেকে এই প্রক্রিয়াটি সামান্য কম নিরাপদ।"</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"৪ বা তার বেশি সংখ্যার সঠিক পিন লিখলে অটোমেটিক আনলক করুন। \'এন্টার\' ট্যাপ করে কনফার্ম করার থেকে এই প্রক্রিয়াটি সামান্য কম নিরাপদ।"</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"সঠিক পিন অটোমেটিক কনফার্ম করুন"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"অটোমেটিক কনফার্মেশনের চেয়ে Enter ট্যাপ করে আপনার পিন কনফার্ম করা অনেক বেশি নিরাপদ"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"\'অটো-কনফার্ম\' সেটিং চালু করতে ডিভাইসের পিন লিখুন"</string>

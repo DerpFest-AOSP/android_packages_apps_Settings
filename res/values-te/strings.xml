@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"స్క్రీన్ లాక్ ఆప్షన్‌లు"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"స్క్రీన్ లాక్ ఆప్షన్‌లు"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"అన్‌లాక్‌ను ఆటోమేటిక్‌గా నిర్ధారించండి"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"మీరు 6 అంకెలు లేదా అంతకంటే ఎక్కువ అంకెల సరైన PINను ఇన్‌పుట్‌గా ఉపయోగిస్తే ఆటోమేటిక్‌గా అన్‌లాక్ అవుతుంది. నిర్ధారించడానికి Enter కీని ట్యాప్ చేయడం కంటే ఇది కొంచెం తక్కువ సురక్షితమైనది."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"మీరు 4 అంకెలు లేదా అంతకంటే ఎక్కువ అంకెల సరైన PINను ఇన్‌పుట్‌గా ఉపయోగిస్తే ఆటోమేటిక్‌గా అన్‌లాక్ అవుతుంది. నిర్ధారించడానికి Enter కీని ట్యాప్ చేయడం కంటే ఇది కొంచెం తక్కువ సురక్షితమైనది."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"సరైన PINను ఆటోమేటిక్‌గా నిర్ధారించండి"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Enter కీని ట్యాప్ చేయడం ద్వారా మీ PINను నిర్ధారించడం ఆటోమేటిక్-నిర్ధారణను ఉపయోగించడం కంటే మరింత సురక్షితం"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"ఆటోమేటిక్‌గా-నిర్ధారించడాన్ని ఎనేబుల్ చేయడానికి డివైజ్‌ PINను ఎంటర్ చేయండి"</string>

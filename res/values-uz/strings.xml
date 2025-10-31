@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Ekran qulfi usullari"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Ekran qulfi usullari"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Qulfni ochishni avtomatik tasdiqlash"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Agar siz 6 yoki undan ortiq raqamdan iborat PIN kodni bexato kiritsangiz, avtomatik ravishda qulfdan chiqariladi. Tasdiqlash uchun Enter tugmasini bosgandan koʻra, bu xavfsizroq."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Agar siz 4 yoki undan ortiq raqamdan iborat PIN kodni bexato kiritsangiz, avtomatik ravishda qulfdan chiqariladi. Tasdiqlash uchun Enter tugmasini bosgandan koʻra, bu xavfsizroq."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Toʻgʻri PIN kodni avtomatik tasdiqlash"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Enter tugmasini bosish orqali PIN kodni tasdiqlash avtomatik tasdiqlashdan koʻra xavfsizroqdir"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Avtomatik tasdiqlashni yoqish uchun qurilmangiz PIN kodini kiriting."</string>

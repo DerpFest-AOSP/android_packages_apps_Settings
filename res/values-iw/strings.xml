@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"אפשרויות לנעילת המסך"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"אפשרויות לנעילת המסך"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"ביטול נעילה באמצעות אישור אוטומטי"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"‏הנעילה תתבטל אוטומטית כשלוחצים את קוד האימות הנכון, באורך של 6 ספרות או יותר. הפעולה הזו מעט פחות מאובטחת מאשר לחיצה של Enter כדי לאשר."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"‏הנעילה תתבטל אוטומטית כשלוחצים את קוד האימות הנכון, באורך של 4 ספרות או יותר. הפעולה הזו מעט פחות מאובטחת מאשר לחיצה של Enter כדי לאשר."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"אישור אוטומטי של קוד האימות הנכון"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"‏אישור קוד האימות באמצעות לחיצה על Enter הוא מאובטח יותר מאשר שימוש באישור אוטומטי"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"יש להזין את קוד האימות של המכשיר כדי להפעיל את האישור האוטומטי"</string>

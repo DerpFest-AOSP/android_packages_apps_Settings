@@ -789,7 +789,7 @@
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Способи розблокування екрана"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Способи розблокування екрана"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Автоматично підтверджувати розблокування"</string>
-    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Пристрій розблокується автоматично, якщо ви введете правильний PIN-код щонайменше із 6 цифр. Це трохи менш безпечно, ніж натиснути для підтвердження клавішу Enter."</string>
+    <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"Пристрій розблокується автоматично, якщо ви введете правильний PIN-код щонайменше із 4 цифр. Це трохи менш безпечно, ніж натиснути для підтвердження клавішу Enter."</string>
     <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"Підтверджуйте правильний PIN-код автоматично"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"Підтверджувати PIN-код натисканням клавіші Enter безпечніше, ніж використовувати автоматичне підтвердження"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"Введіть PIN-код пристрою, щоб увімкнути автоматичне підтвердження"</string>
