@@ -46,6 +46,10 @@
     <string name="game_space_title">游戏空间</string>
     <string name="game_space_summary">增强您的游戏体验</string>
 
+    <!-- Heads up notifications -->
+    <string name="heads_up_notifications_title">悬浮通知</string>
+    <string name="heads_up_blacklist_title">悬浮通知黑名单</string>
+
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">亮屏通知提醒</string>
     <string name="notification_sound_vib_screen_on_summary">在屏幕打开时播放通知音效并振动</string>
@@ -94,8 +98,9 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全面屏应用</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用程序忽略挖孔空间</string>
-    <string name="display_cutout_force_fullscreen_search">搜索</string>
-    <string name="display_cutout_force_fullscreen_search_apps">搜索应用</string>
+    <string name="app_list_search">搜索</string>
+    <string name="app_list_search_apps">搜索应用</string>
+    <string name="app_list_loading">正在加载应用\u2026</string>
 
     <!-- Timeout entries -->
     <string name="timeout_summary_never">从不</string>
@@ -351,4 +356,50 @@
     <string name="reset_auto_brightness_adjustment_title">重置偏好设置</string>
     <string name="reset_auto_brightness_adjustment_summary">清除系统记录的亮度偏好设置并重置为默认值</string>
     <string name="reset_auto_brightness_adjustment_done">自动亮度偏好设置已重置</string>
+
+    <!-- Data Usage Cycle -->
+    <string name="billing_cycle_type_title">移动数据用量周期类型</string>
+    <string name="billing_cycle_type_monthly">按月计费</string>
+    <string name="billing_cycle_type_weekly">按周计费</string>
+    <string name="billing_cycle_type_daily">按日计费</string>
+    <string name="billing_cycle_less_than_one_hour_left">剩余不到 1 小时</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {剩余 # 小时}
+        other   {剩余 # 小时}
+        }</string>
+    <string name="cycle_type_weekly_title">用量周期重置日</string>
+    <string name="cycle_type_weekly_sub">每周的星期几：\n1 = 星期一</string>
+    <string name="cycle_type_daily_title">用量周期重置时刻</string>
+    <string name="cycle_type_daily_sub">每日的具体小时：</string>
+
+    <!-- wake gestures haptics -->
+    <string name="doze_gesture_vibrate_title">振动反馈</string>
+    <string name="doze_gesture_vibrate_summary">执行此手势时振动</string>
+
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">使用自适应电池</string>
+    <string name="basic_battery_saver_title">标准省电模式</string>
+    <string name="basic_battery_saver_summary">限制视觉效果和后台活动。如果未开启深色主题，将自动开启。</string>
+    <string name="battery_saver_reminder_category">提醒设置</string>
+    <string name="battery_saver_reminder_switch_title">省电模式提醒</string>
+    <string name="battery_saver_reminder_switch_summary">电量不足时接收提醒</string>
+    <string name="battery_saver_schedule_category">计划设置</string>
+    <string name="battery_saver_schedule_switch_title">根据电量自动开启</string>
+    <string name="battery_saver_schedule_switch_summary">当电量降至设定值时自动开启省电模式</string>
+    <string name="battery_schedule_title">计划与提醒</string>
+    <string name="battery_schedule_summary">管理省电模式的开启时机</string>
+    <string name="extreme_battery_saver_title">超级省电</string>
+    <string name="extreme_battery_saver_summary">包含以上所有措施，同时暂停非必要应用及其通知。</string>
+    <string name="smart_battery_a11y_expand_label">展开，自适应电池</string>
+    <string name="smart_battery_a11y_collapse_label">收起，自适应电池</string>
+    <string name="smart_battery_title">自适应电池</string>
+    <string name="unified_battery_saver_page_intro">开启省电模式可延长充电后的设备使用时间</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">隐藏开发者状态</string>
+    <string name="hide_developer_status_summary">对选定应用隐藏开发者状态</string>
+
+    <!-- Ambient timeout -->
+    <string name="ambient_time_out_title">息屏通知超时</string>
+    <string name="ambient_time_out_summary">%1$d 秒</string>
 </resources>
