@@ -200,6 +200,7 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
     }
 
     public int getPhoneType(int slotIndex) {
+        mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
         SubscriptionInfo subInfo = getSubscriptionInfo(slotIndex);
         return mTelephonyManager.getCurrentPhoneType(subInfo != null ? subInfo.getSubscriptionId()
                 : SubscriptionManager.DEFAULT_SUBSCRIPTION_ID);
