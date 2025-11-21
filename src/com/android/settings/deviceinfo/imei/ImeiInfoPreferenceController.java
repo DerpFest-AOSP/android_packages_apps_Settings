@@ -52,7 +52,7 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
     private static final String KEY_PREFERENCE_CATEGORY = "device_detail_category";
     public static final String DEFAULT_KEY = "imei_info";
 
-    private TelephonyManager mTelephonyManager;
+    private TelephonyManager mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
     private Fragment mFragment;
     private SlotSimStatus mSlotSimStatus;
 
@@ -89,7 +89,6 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
         if (!isAvailable() || (mSlotSimStatus == null)) {
             return;
         }
-        mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
         Preference preference = screen.findPreference(DEFAULT_KEY);
         if (preference == null || !preference.isVisible()) {
             return;
