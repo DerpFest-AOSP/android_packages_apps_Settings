@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38722ec8_f0e19838",
+        "filename": "src/com/android/settings/deviceinfo/imei/ImeiInfoPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-21T18:20:55Z",
+      "side": 1,
+      "message": "Would look better here.",
+      "revId": "6a7129faa8e5cf490efb03be143b2bbe15c421cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
