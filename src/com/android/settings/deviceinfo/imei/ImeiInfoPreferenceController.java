@@ -57,6 +57,7 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
 
     public ImeiInfoPreferenceController(Context context, String key) {
         super(context, key);
+        mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
     }
 
     public void init(Fragment fragment, SlotSimStatus slotSimStatus) {
@@ -88,7 +89,6 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
         if (!isAvailable() || (mSlotSimStatus == null)) {
             return;
         }
-        mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
         Preference preference = screen.findPreference(DEFAULT_KEY);
         if (preference == null || !preference.isVisible()) {
             return;
