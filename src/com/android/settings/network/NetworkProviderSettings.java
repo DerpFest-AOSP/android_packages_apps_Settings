@@ -580,6 +580,8 @@ public class NetworkProviderSettings extends RestrictedDashboardFragment
         };
 
         if (mIsInSetupWizard) {
+            mConfigureWifiSettingsPreference = findPreference(PREF_KEY_CONFIGURE_NETWORK_SETTINGS);
+            mDataUsagePreference = findPreference(PREF_KEY_DATA_USAGE);
             mConfigureWifiSettingsPreference.setVisible(false);
             mDataUsagePreference.setVisible(false);
         }
