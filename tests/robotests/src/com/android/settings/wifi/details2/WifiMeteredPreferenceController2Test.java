@@ -70,7 +70,7 @@ public class WifiMeteredPreferenceController2Test {
     @Mock
     private PreferenceScreen mScreen;
     @Mock
-    private DropDownPreference mPreference;
+    private ListPreference mPreference;
 
     private WifiMeteredPreferenceController2 mPreferenceController;
     private Context mContext;
