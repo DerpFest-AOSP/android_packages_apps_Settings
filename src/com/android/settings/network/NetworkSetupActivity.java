@@ -27,8 +27,10 @@ import com.android.settings.network.NetworkProviderSettings;
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;
 import com.android.settings.SetupWizardUtils;
+import com.android.settings.Utils;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
+import com.android.settingslib.widget.SettingsThemeHelper;
 
 import com.google.android.setupdesign.util.ThemeHelper;
 
@@ -38,9 +40,16 @@ public class NetworkSetupActivity extends SettingsActivity implements ButtonBarH
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTheme(SetupWizardUtils.getTheme(this, getIntent()));
-        setTheme(R.style.SettingsPreferenceTheme_SetupWizard);
+        if (SettingsThemeHelper.isExpressiveTheme(this)) {
+            setTheme(R.style.SettingsPreferenceTheme_SetupWizard_Expressive);
+        } else {
+            setTheme(R.style.SettingsPreferenceTheme_SetupWizard);
+        }
         ThemeHelper.trySetDynamicColor(this);
-        findViewById(R.id.content_parent).setFitsSystemWindows(false);
+        if (ThemeHelper.shouldApplyGlifExpressiveStyle(getApplicationContext())) {
+            ThemeHelper.trySetSuwTheme(this);
+        }
+        Utils.setupEdgeToEdge(this);
     }
 
     @Override
