@@ -33,7 +33,7 @@ import android.platform.test.flag.junit.SetFlagsRule;
 import android.service.notification.SystemZenRules;
 import android.service.notification.ZenModeConfig;
 
-import androidx.preference.DropDownPreference;
+import androidx.preference.ListPreference;
 import androidx.preference.PreferenceCategory;
 import androidx.test.core.app.ApplicationProvider;
 
@@ -65,7 +65,7 @@ public class ZenModeSetCalendarPreferenceControllerTest {
 
     @Mock
     private PreferenceCategory mPrefCategory;
-    private DropDownPreference mCalendar, mReply;
+    private ListPreference mCalendar, mReply;
 
     private ZenModeSetCalendarPreferenceController mPrefController;
 
@@ -74,8 +74,8 @@ public class ZenModeSetCalendarPreferenceControllerTest {
         MockitoAnnotations.initMocks(this);
         mContext = ApplicationProvider.getApplicationContext();
 
-        mCalendar = new DropDownPreference(mContext);
-        mReply = new DropDownPreference(mContext);
+        mCalendar = new ListPreference(mContext);
+        mReply = new ListPreference(mContext);
         when(mPrefCategory.findPreference(KEY_CALENDAR)).thenReturn(mCalendar);
         when(mPrefCategory.findPreference(KEY_REPLY)).thenReturn(mReply);
 
