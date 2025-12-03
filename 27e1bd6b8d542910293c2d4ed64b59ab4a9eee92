@@ -34,6 +34,24 @@
       "parentUuid": "8906ac1b_048f6c77",
       "revId": "27e1bd6b8d542910293c2d4ed64b59ab4a9eee92",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "980b1089_a80581a8",
+        "filename": "src/com/android/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-03T20:44:55Z",
+      "side": 1,
+      "message": "Ignoring old files, it is.",
+      "parentUuid": "2341b0b7_05897afd",
+      "revId": "27e1bd6b8d542910293c2d4ed64b59ab4a9eee92",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
