@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc6cf80b_c189d796",
+        "filename": "src/com/android/settings/deviceinfo/firmwareversion/BasebandVersionPreference.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-03T17:56:49Z",
+      "side": 1,
+      "message": "To be removed",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 30
+      },
+      "revId": "7e4bb20369028619ac2886025a16ec741c7a6972",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
