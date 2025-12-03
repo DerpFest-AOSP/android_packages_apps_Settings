@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5351b7a7_1faf8978",
+        "filename": "res/xml/screen_lock_settings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-03T21:00:53Z",
+      "side": 1,
+      "message": "No need to touch here.",
+      "revId": "97c1d24a7f57b89110fb018f0ee0c4f881496dc8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
