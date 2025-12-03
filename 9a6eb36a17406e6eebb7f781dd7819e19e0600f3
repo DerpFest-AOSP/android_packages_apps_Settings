@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "080008d4_34080c2e",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 3210,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-03T20:59:33Z",
+      "side": 1,
+      "message": "TODO - add:\n\nandroid:enableOnBackInvokedCallback\u003d\"false\"",
+      "revId": "9a6eb36a17406e6eebb7f781dd7819e19e0600f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
