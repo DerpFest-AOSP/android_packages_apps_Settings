@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb1d95f4_242c7caf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-03T16:09:19Z",
+      "side": 1,
+      "message": "Is this fully working? firmware_version changes are broken from what I can tell",
+      "revId": "a5b0df5ba1fe30a15dc1d142e9213e57c0078c07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
