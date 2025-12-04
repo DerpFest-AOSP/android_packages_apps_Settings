@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "051d6413_dd96b261",
+        "filename": "src/com/android/settings/network/NetworkProviderSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-04T23:49:24Z",
+      "side": 1,
+      "message": "```suggestion\n        if (view instanceof GlifPreferenceLayout layout) {\n```",
+      "range": {
+        "startLine": 303,
+        "startChar": 0,
+        "endLine": 304,
+        "endChar": 70
+      },
+      "revId": "6cfcd8c16a3661a5a2cfec0f1b69755fd85c3145",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "428b26ee_5a44a805",
+        "filename": "src/com/android/settings/network/NetworkProviderSettings.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 411,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-04T23:49:24Z",
+      "side": 1,
+      "message": "```suggestion\n        if (parent instanceof GlifPreferenceLayout layout) {\n```",
+      "range": {
+        "startLine": 410,
+        "startChar": 0,
+        "endLine": 411,
+        "endChar": 72
+      },
+      "revId": "6cfcd8c16a3661a5a2cfec0f1b69755fd85c3145",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
