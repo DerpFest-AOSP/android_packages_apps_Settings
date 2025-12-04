@@ -16,6 +16,24 @@
       "message": "TODO - add:\n\nandroid:enableOnBackInvokedCallback\u003d\"false\"",
       "revId": "9a6eb36a17406e6eebb7f781dd7819e19e0600f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dcc6d439_65b8a4fb",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 3210,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-04T18:22:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "080008d4_34080c2e",
+      "revId": "9a6eb36a17406e6eebb7f781dd7819e19e0600f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
