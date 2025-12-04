@@ -46,6 +46,8 @@ public class ChooseLockPatternSize extends SettingsActivity {
     public Intent getIntent() {
         Intent modIntent = new Intent(super.getIntent());
         modIntent.putExtra(EXTRA_SHOW_FRAGMENT, ChooseLockPatternSizeFragment.class.getName());
+        modIntent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_USE_EXPRESSIVE_STYLE,
+                ThemeHelper.shouldApplyGlifExpressiveStyle(getApplicationContext()));
         return modIntent;
     }
 
@@ -64,6 +66,9 @@ public class ChooseLockPatternSize extends SettingsActivity {
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(SetupWizardUtils.getTheme(this, getIntent()));
         ThemeHelper.trySetDynamicColor(this);
+        if (ThemeHelper.shouldApplyGlifExpressiveStyle(getApplicationContext())) {
+            ThemeHelper.trySetSuwTheme(this);
+        }
         super.onCreate(savedInstanceState);
         findViewById(R.id.content_parent).setFitsSystemWindows(false);
     }
@@ -108,6 +113,11 @@ public class ChooseLockPatternSize extends SettingsActivity {
         @Override
         public void onViewCreated(View view, Bundle savedInstanceState) {
             super.onViewCreated(view, savedInstanceState);
+
+            if (!(view instanceof GlifPreferenceLayout)) {
+                return;
+            }
+
             GlifPreferenceLayout layout = (GlifPreferenceLayout) view;
             layout.setDividerItemDecoration(new SettingsDividerItemDecoration(getContext()));
 
@@ -120,7 +130,7 @@ public class ChooseLockPatternSize extends SettingsActivity {
             layout.setHeaderText(R.string.lock_settings_picker_pattern_size_message);
 
             // Remove the padding on the start of the header text.
-            if (ThemeHelper.shouldApplyMaterialYouStyle(getContext())) {
+            if (ThemeHelper.shouldApplyGlifExpressiveStyle(getContext())) {
                 final LinearLayout headerLayout = layout.findManagedViewById(
                         com.google.android.setupdesign.R.id.sud_layout_header);
                 if (headerLayout != null) {
@@ -137,8 +147,12 @@ public class ChooseLockPatternSize extends SettingsActivity {
         @Override
         public RecyclerView onCreateRecyclerView(LayoutInflater inflater, ViewGroup parent,
                 Bundle savedInstanceState) {
-            GlifPreferenceLayout layout = (GlifPreferenceLayout) parent;
-            return layout.onCreateRecyclerView(inflater, parent, savedInstanceState);
+            if (parent instanceof GlifPreferenceLayout layout) {
+                // Usually for setup wizard
+                return layout.onCreateRecyclerView(inflater, parent, savedInstanceState);
+            } else {
+                return super.onCreateRecyclerView(inflater, parent, savedInstanceState);
+            }
         }
 
         @Override
