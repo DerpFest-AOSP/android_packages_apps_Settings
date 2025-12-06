@@ -1287,6 +1287,7 @@
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"Настройки роуминга"</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
+    <string name="wifi_calling_roaming_mode_summary"><xliff:g id="wfc_roaming_preference" example="Wi-Fi">%1$s</xliff:g></string>
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Настройки роуминга"</string>
   <string-array name="wifi_calling_mode_choices_v2">
     <item msgid="6052353275413974742">"Wi-Fi"</item>
@@ -1301,7 +1302,7 @@
     <string name="wifi_calling_mode_cellular_preferred_summary" msgid="3746914244902314059">"Использовать Wi‑Fi, если мобильная сеть недоступна."</string>
     <string name="wifi_calling_mode_wifi_only_summary" msgid="3155660680014892641">"Звонки по Wi‑Fi. Если подключение прервется, звонок будет завершен."</string>
     <string name="wifi_calling_off_explanation" msgid="6295526820826322895">"Когда функция \"Звонки по Wi-Fi\" включена, для исходящих вызовов может использоваться как Wi-Fi, так и мобильная сеть (в зависимости от ваших предпочтений и уровня сигнала). Прежде чем включать эту функцию, свяжитесь со своим оператором и уточните стоимость и другие детали.<xliff:g id="ADDITIONAL_TEXT">%1$s</xliff:g>"</string>
-    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
+    <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183">\n\nВы можете\u2019t делать экстренные звонки через Wi-Fi вызов. Еслы вы попытатесь сделать экстренный вызов, ваше устройство будет автоматически использовать мобильную сеть. Экстренные вызовы могут быть сделаны только там, где есть покрытие мобильной сети.</string>
     <string name="emergency_address_title" msgid="8102786488994263815">"Адрес на случай чрезвычайных ситуаций"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Ваше местоположение при экстренном вызове по Wi‑Fi"</string>
     <string name="private_dns_title" msgid="1180823690693258572">"Имя хоста"</string>
@@ -1499,6 +1500,7 @@
     <string name="view_saved_network" msgid="1232387673095080910">"Для просмотра выберите сохраненную сеть"</string>
     <string name="status_imei" msgid="5719752369250485007">"IMEI-код"</string>
     <string name="status_imei_sv" msgid="6908985558726440951">"IMEISV-код"</string>
+    <string name="status_iccid">ICCID</string>
     <string name="status_min_number" msgid="4492899165438225714">"MIN"</string>
     <string name="status_msid_number" msgid="3871958248824595774">"MSID"</string>
     <string name="status_prl_version" msgid="9002131357502714281">"Версия PRL"</string>
@@ -2001,11 +2003,13 @@
     <string name="service_started_by_app" msgid="6845028506417670179">"Запущено приложением."</string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
     <skip />
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> свободно"</string>
     <string name="service_foreground_processes" msgid="6380905887193621704">"<xliff:g id="MEMORY">%1$s</xliff:g> занято"</string>
     <string name="memory" msgid="5253757199926592074">"ОЗУ"</string>
     <!-- no translation found for service_process_name (7827318358399776412) -->
     <skip />
+    <string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
     <string name="running_process_item_user_label" msgid="1444898861984132133">"Пользователь: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="running_process_item_removed_user_label" msgid="4812732296696662613">"Удаление пользователя…"</string>
     <string name="running_processes_item_description_s_s" msgid="6835918861352501671">"Процессов: <xliff:g id="NUMPROCESS">%1$d</xliff:g>; служб: <xliff:g id="NUMSERVICES">%2$d</xliff:g>"</string>
@@ -2215,6 +2219,7 @@
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"Для всех языков"</string>
     <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"Другой язык"</string>
     <string name="testing" msgid="6294172343766732037">"Проверка"</string>
+    <string name="testing_sim_toolkit">Инструменты SIM</string>
     <string name="keyboard_settings_summary" msgid="9188442758316476986">"Экранная клавиатура, инструменты"</string>
     <string name="keyboard_settings_with_physical_keyboard_summary" msgid="2240779804018260938">"Экранная клавиатура, физическая клавиатура, инструменты"</string>
     <string name="builtin_keyboard_settings_title" msgid="5096171620714179661">"Физическая клавиатура"</string>
@@ -2767,7 +2772,7 @@
     <string name="battery_tip_charge_to_full_button" msgid="9172893341338732733">"Изменить"</string>
     <string name="battery_tip_incompatible_charging_title" msgid="1567827436103364999">"Проверьте зарядное устройство"</string>
     <string name="battery_tip_incompatible_charging_content_description" msgid="355668467640367701">"Подробнее об использовании несовместимых зарядных устройств"</string>
-    <string name="smart_battery_manager_title" msgid="3677620516657920364">"Battery Manager"</string>
+    <string name="smart_battery_manager_title" msgid="3677620516657920364">Менеджер батареи</string>
     <string name="smart_battery_title" msgid="9095903608520254254">"Автоматическое управление приложениями"</string>
     <string name="smart_battery_footer" msgid="8407121907452993645">"Battery Manager определяет, какие приложения быстрее всего расходуют заряд батареи, и предлагает ограничить их работу. Ограничение фоновых процессов может привести к нарушениям функциональности приложений и задержке поступающих от них уведомлений."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"Приложения с ограниченным доступом"</string>
@@ -2828,6 +2833,7 @@
     <string name="battery_saver_sticky_description_new" msgid="8543277078136947874">"Режим энергосбережения отключается, когда батарея заряжается больше чем на <xliff:g id="BATTERY_PERCENTAGE">%1$s</xliff:g>"</string>
     <!-- no translation found for battery_saver_seekbar_title (3712266470054006641) -->
     <skip />
+    <string name="battery_saver_seekbar_title"><xliff:g id="процент">%1$s</xliff:g></string>
     <string name="battery_saver_seekbar_title_placeholder" msgid="7141264642540687540">"Включить"</string>
     <string name="battery_saver_master_switch_title" msgid="3474312070095834915">"Режим энергосбережения"</string>
     <string name="battery_saver_turn_on_automatically_title" msgid="7857393318205740864">"Включать автоматически"</string>
@@ -4112,6 +4118,7 @@
     <string name="zen_mode_repeat_callers_list" msgid="181819778783743847">"повторные вызовы"</string>
     <!-- no translation found for zen_mode_calls_summary_one (1928015516061784276) -->
     <skip />
+    <string name="zen_mode_calls_summary_one"><xliff:g id="caller type" example="contacts">%1$s</xliff:g></string>
     <string name="zen_mode_calls_summary_two" msgid="6351563496898410742">"<xliff:g id="CALLER_TYPE_0">%1$s</xliff:g> и <xliff:g id="CALLER_TYPE_1">%2$s</xliff:g>"</string>
     <string name="zen_mode_repeat_callers_summary" msgid="4121054819936083025">"Если абонент звонит повторно в течение <xliff:g id="MINUTES">%d</xliff:g> мин."</string>
     <string name="zen_mode_start_time" msgid="1252665038977523332">"Начало"</string>
@@ -4903,6 +4910,7 @@
     <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"Показывать изменение настроек совместимости приложений"</string>
     <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"Изменения, включенные по умолчанию"</string>
     <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"Изменения, отключенные по умолчанию"</string>
+    <string name="platform_compat_target_sdk_title">Включен для targetSdkVersion &gt;= <xliff:g id="number" example="29">%d</xliff:g></string>
     <string name="platform_compat_dialog_text_no_apps" msgid="5715226015751055812">"Настраивать изменение параметров совместимости можно только для приложений, доступных для отладки. Установите такое приложение и повторите попытку."</string>
     <string name="disabled_dependent_setting_summary" msgid="4508635725315852504">"Эту настройку нельзя изменить, так как она зависит от других параметров."</string>
     <string name="my_device_info_account_preference_title" msgid="9197139254007133175">"Аккаунт"</string>
@@ -5217,7 +5225,7 @@
     <string name="content_capture" msgid="868372905432812238">"Контент приложений"</string>
     <string name="content_capture_summary" msgid="49720773699715531">"Разрешить приложениям передавать контент системе Android"</string>
     <string name="capture_system_heap_dump_title" msgid="9210974110606886455">"Создать дамп системной кучи"</string>
-    <string name="development_memtag_page_title" msgid="3546667618748029188">"Memory Tagging Extension"</string>
+    <string name="development_memtag_page_title" msgid="3546667618748029188">Расширение тегов памяти</string>
     <string name="development_memtag_intro" msgid="8032596625527637164">"Memory Tagging Extension (MTE) облегчает поиск проблем с безопасным доступом к памяти в приложении и защищает нативный код."</string>
     <string name="development_memtag_footer" msgid="5681925148773626562">"Когда функция MTE включена, устройство может работать медленнее."</string>
     <string name="development_memtag_learn_more" msgid="8961984806973926704">"Подробнее об MTE"</string>
@@ -5445,7 +5453,7 @@
     <string name="uwb_settings_summary" msgid="3074271396764672268">"Помогает определять относительное местоположение устройств поблизости, у которых есть сверхширокополосная связь"</string>
     <string name="uwb_settings_summary_airplane_mode" msgid="1328864888135086484">"Выключает режим полета, чтобы использовать сверхширокополосную связь"</string>
     <string name="uwb_settings_summary_no_uwb_regulatory" msgid="3465456428217979428">"Сверхширокополосная связь недоступна в вашем регионе"</string>
-    <string name="thread_network_settings_title" msgid="4212301030523859220">"Thread"</string>
+    <string name="thread_network_settings_title" msgid="4212301030523859220">Поток</string>
     <string name="thread_network_settings_main_switch_title" msgid="3859168481929323474">"Использовать Thread"</string>
     <string name="thread_network_settings_footer_title" msgid="7385600318850220927">"Thread помогает связать устройства умного дома, повышая эффективность всей системы.\n\nЕсли настройка включена, этот телефон можно присоединить к сети Thread и с него управлять устройствами с поддержкой Matter."</string>
     <string name="thread_network_settings_learn_more" msgid="8278498005848565050">"Подробнее о Thread…"</string>

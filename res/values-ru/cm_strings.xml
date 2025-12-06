@@ -21,8 +21,8 @@
     <string name="adb_enable_summary_root">Разрешить запуск отладки Android с правами суперпользователя</string>
     <string name="backup_transport_setting_label">Сменить поставщика резервного копирования</string>
     <string name="backup_transport_title">Выберите поставщика резервного копирования</string>
-    <string name="berry_black_theme_title">Натурально черный</string>
-    <string name="berry_black_theme_summary">Натурально черный фон для темной темы</string>
+    <string name="berry_black_theme_title">Натуральный черный</string>
+    <string name="berry_black_theme_summary">Натуральный черный фон для темной темы</string>
     <string name="lineagelicense_title">Политика конфиденциальности LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Вы в # шаге от включения настроек разработчика.}
@@ -100,9 +100,9 @@
     <string name="battery_health_unknown">Неизвестно</string>
     <string name="battery_temperature">Температура</string>
     <string name="battery_voltage">Напряжение</string>
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <string name="battery_charge_counter_summary">%1$d мАч</string>
     <string name="battery_design_capacity">Расчетная емкость</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_summary">%1$d мАч</string>
     <string name="battery_maximum_capacity">Максимальная емкость</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
 </resources>

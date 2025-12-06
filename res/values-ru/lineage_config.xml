@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_finish_description_with_bp">Теперь вы можете использовать свое лицо, чтобы разблокировать телефон или подтвердить, что это вы, например, когда вы входите в приложения или подтверждаете покупку.</string>
+</resources>
