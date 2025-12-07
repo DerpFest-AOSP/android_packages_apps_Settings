@@ -18,6 +18,9 @@ package com.android.settings.display
 import android.app.settings.SettingsEnums
 import android.app.settings.SettingsEnums.ACTION_AMBIENT_DISPLAY_ALWAYS_ON
 import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.content.pm.ResolveInfo
 import android.hardware.display.AmbientDisplayConfiguration
 import android.os.SystemProperties
 import android.os.UserHandle
@@ -100,9 +103,19 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
     override fun isEnabled(context: Context) = super<PreferenceRestrictionMixin>.isEnabled(context)
 
     override fun isAvailable(context: Context): Boolean {
+        if (isExternallyManaged(context)) return false
         if (!ambientAod()) return false
         return !SystemProperties.getBoolean(PROP_AWARE_AVAILABLE, false) &&
             AmbientDisplayConfiguration(context).alwaysOnAvailableForUser(UserHandle.myUserId())
+    }
+
+    private fun isExternallyManaged(context: Context): Boolean {
+        val dozeIntent = Intent("org.lineageos.settings.device.DOZE_SETTINGS")
+        val dozePackages = context.packageManager.queryIntentActivities(
+            dozeIntent,
+            PackageManager.ResolveInfoFlags.of(0)
+        )
+        return dozePackages != null && dozePackages.isNotEmpty()
     }
 
     override fun getSummary(context: Context): CharSequence? =

@@ -17,6 +17,9 @@ import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.hardware.display.AmbientDisplayConfiguration;
 import android.os.UserHandle;
 import android.provider.Settings;
@@ -29,6 +32,8 @@ import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+
+import java.util.List;
 
 public class AmbientDisplayNotificationsPreferenceController extends
         TogglePreferenceController implements Preference.OnPreferenceChangeListener {
@@ -80,6 +85,9 @@ public class AmbientDisplayNotificationsPreferenceController extends
 
     @Override
     public int getAvailabilityStatus() {
+        if (isExternallyManaged()) {
+            return CONDITIONALLY_UNAVAILABLE;
+        }
         return getAmbientConfig().pulseOnNotificationAvailable()
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
@@ -105,5 +113,12 @@ public class AmbientDisplayNotificationsPreferenceController extends
     @Override
     public int getSliceHighlightMenuRes() {
         return R.string.menu_key_display;
+    }
+
+    private boolean isExternallyManaged() {
+        final Intent dozeIntent = new Intent("org.lineageos.settings.device.DOZE_SETTINGS");
+        final List<ResolveInfo> dozePackages = mContext.getPackageManager()
+                .queryIntentActivities(dozeIntent, PackageManager.ResolveInfoFlags.of(0));
+        return dozePackages != null && !dozePackages.isEmpty();
     }
 }
