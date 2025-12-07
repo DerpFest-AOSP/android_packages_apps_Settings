@@ -30,6 +30,7 @@ import com.android.settings.R
 import com.android.settings.contract.KEY_AMBIENT_DISPLAY_ALWAYS_ON
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController.isAodSuppressedByBedtime
+import com.android.settings.display.AmbientDisplayExternalSettingsController
 import com.android.settings.display.ambient.AmbientDisplayMainSwitchPreference
 import com.android.settings.display.ambient.AmbientDisplayStorage
 import com.android.settings.display.ambient.AmbientDisplayTopIntroPreference
@@ -100,6 +101,7 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
     override fun isEnabled(context: Context) = super<PreferenceRestrictionMixin>.isEnabled(context)
 
     override fun isAvailable(context: Context): Boolean {
+        if (AmbientDisplayExternalSettingsController.isExternallyManaged(context)) return false
         if (!ambientAod()) return false
         return !SystemProperties.getBoolean(PROP_AWARE_AVAILABLE, false) &&
             AmbientDisplayConfiguration(context).alwaysOnAvailableForUser(UserHandle.myUserId())
