@@ -16,6 +16,24 @@
       "message": "Gotta hide AOD preference as well, otherwise we need to remove it from external Doze packages.",
       "revId": "9779f6222702b2b53d0b3b4f1668ae13ecea094d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e885429_09797a0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-12-07T20:30:22Z",
+      "side": 1,
+      "message": "Will make sure that gets covered",
+      "parentUuid": "de860365_558e53f3",
+      "revId": "9779f6222702b2b53d0b3b4f1668ae13ecea094d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
