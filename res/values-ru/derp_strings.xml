@@ -202,7 +202,6 @@
     <string name="derp_official_title">Знаете ли вы?</string>
     <string name="derpfest_customizations_summary">Где хранятся сломанные вещи</string>
     <string name="derpfest_customizations_title">Настройки DerpFest</string>
-    <string name="derpfest_maintainer">Неофициальный</string>
     <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
     <string name="derpfest_summary">Создал %s</string>
     <string name="haptic_on_power_menu_title">Меню питания</string>
