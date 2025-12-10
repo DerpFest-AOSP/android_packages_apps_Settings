@@ -162,4 +162,8 @@
 
     <string name="settings_suggestions_title">Weitere Einstellungen gesucht?</string>
     <string name="button_settings_title">Tasteneinstellungen</string>
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Wechselt automatisch zwischen 5G und 4G, um den Akkuverbrauch zu reduzieren</string>
 </resources>

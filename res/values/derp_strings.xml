@@ -305,6 +305,10 @@
     <string name="derpfest_suggestion_spoofing_summary">Manage device fingerprint and properties</string>
     <string name="derpfest_suggestion_button_settings_summary">Configure hardware button actions</string>
 
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Always on display schedule</string>
     <string name="always_on_display_schedule_sunset">Sunset</string>
