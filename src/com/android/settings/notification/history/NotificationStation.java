@@ -214,8 +214,6 @@ public class NotificationStation extends SettingsPreferenceFragment {
     public void onResume() {
         logd("onResume()");
         super.onResume();
-        // Set correct title on the action bar
-        getActivity().setTitle(R.string.notification_log_title);
 
         mContentRestrictedUsers.clear();
         List<UserInfo> users =
