@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c38d6b3_c82989ff",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 855,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-15T22:14:26Z",
+      "side": 1,
+      "message": "```suggestion\n                android:theme\u003d\"@style/Theme.SubSettingsBase.Expressive\"\u003e\n```",
+      "range": {
+        "startLine": 855,
+        "startChar": 38,
+        "endLine": 855,
+        "endChar": 59
+      },
+      "revId": "1a80cb71f72d4a7619611d95abf07a387e4f599e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
