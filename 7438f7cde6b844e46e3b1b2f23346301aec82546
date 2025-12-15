@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a81c6523_0e208637",
+        "filename": "res/xml/auto_brightness_detail.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-15T22:50:20Z",
+      "side": 1,
+      "message": "no longer applicable",
+      "range": {
+        "startLine": 44,
+        "startChar": 8,
+        "endLine": 44,
+        "endChar": 41
+      },
+      "revId": "7438f7cde6b844e46e3b1b2f23346301aec82546",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
