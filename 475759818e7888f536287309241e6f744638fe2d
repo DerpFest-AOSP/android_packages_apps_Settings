@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c255670_74e11d98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-15T22:59:08Z",
+      "side": 1,
+      "message": "I can\u0027t verify this since it seems to be only used in mi845. Let\u0027s drop it.",
+      "revId": "475759818e7888f536287309241e6f744638fe2d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
