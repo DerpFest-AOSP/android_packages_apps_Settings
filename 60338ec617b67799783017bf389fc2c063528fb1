@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23293a21_383acc27",
+        "filename": "src/com/android/settings/password/ChooseLockPatternSize.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-15T09:20:10Z",
+      "side": 1,
+      "message": "This was a hack to prevent crashing in Settings. Must be fixed properly so that icon and title show up in the page.",
+      "range": {
+        "startLine": 118,
+        "startChar": 16,
+        "endLine": 118,
+        "endChar": 22
+      },
+      "revId": "60338ec617b67799783017bf389fc2c063528fb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
