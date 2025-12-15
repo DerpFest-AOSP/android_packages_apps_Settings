@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8284cac_abe09cca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-15T22:10:44Z",
+      "side": 1,
+      "message": "I really like this.",
+      "revId": "112c1f50e5bd268426cad646c6a97543a21f8837",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af567ffd_24931ebb",
+        "filename": "src/com/android/settings/display/AmbientDisplayWhenToShowPreferenceController.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-15T22:10:44Z",
+      "side": 1,
+      "message": "```suggestion\n            if (!mConfig.doubleTapSensorAvailable() \u0026\u0026 !mConfig.tapSensorAvailable()) {\n```",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 55
+      },
+      "revId": "112c1f50e5bd268426cad646c6a97543a21f8837",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
