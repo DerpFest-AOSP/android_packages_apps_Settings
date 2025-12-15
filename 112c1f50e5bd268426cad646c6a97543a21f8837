@@ -39,6 +39,30 @@
       },
       "revId": "112c1f50e5bd268426cad646c6a97543a21f8837",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80ec7895_88763cad",
+        "filename": "src/com/android/settings/display/AmbientDisplayWhenToShowPreferenceController.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-12-15T22:19:19Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "af567ffd_24931ebb",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 55
+      },
+      "revId": "112c1f50e5bd268426cad646c6a97543a21f8837",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
