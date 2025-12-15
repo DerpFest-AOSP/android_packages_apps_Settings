@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e52f1f2_face323f",
+        "filename": "res/xml/configure_notification_settings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-15T22:52:28Z",
+      "side": 1,
+      "message": "```suggestion\n            android:order\u003d\"30\"\n```",
+      "range": {
+        "startLine": 232,
+        "startChar": 27,
+        "endLine": 232,
+        "endChar": 29
+      },
+      "revId": "ef3d36ad2e5b50227fc47823f68e2ff4f01cfe9d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
