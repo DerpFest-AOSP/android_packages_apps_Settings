@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6386af7_2b385241",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-16T00:48:57Z",
+      "side": 1,
+      "message": "This change is not needed anymore. I checked without it, by running the following command:\n\n```\nadb shell am start \\\n  -a android.bluetooth.devicepicker.action.LAUNCH \\\n  -c android.intent.category.DEFAULT\n```",
+      "revId": "1a80cb71f72d4a7619611d95abf07a387e4f599e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6c38d6b3_c82989ff",
