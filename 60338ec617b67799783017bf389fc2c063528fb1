@@ -22,6 +22,30 @@
       },
       "revId": "60338ec617b67799783017bf389fc2c063528fb1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fc479eb_5fb688ff",
+        "filename": "src/com/android/settings/password/ChooseLockPatternSize.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-12-16T20:44:40Z",
+      "side": 1,
+      "message": "I changed the code to match the other AOSP files but the issue is still present.",
+      "parentUuid": "23293a21_383acc27",
+      "range": {
+        "startLine": 118,
+        "startChar": 16,
+        "endLine": 118,
+        "endChar": 22
+      },
+      "revId": "60338ec617b67799783017bf389fc2c063528fb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
