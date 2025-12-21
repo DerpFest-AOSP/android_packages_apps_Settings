@@ -16,6 +16,24 @@
       "message": "Restore https://review.lineageos.org/c/LineageOS/android_packages_apps_Settings/+/460631 then?",
       "revId": "9c71282dba64c5adfedf1754c70ac675f4a29ccb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdff8e77_8c886c08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-21T13:58:24Z",
+      "side": 1,
+      "message": "Unrelated.",
+      "parentUuid": "0b9be8ea_f6fac164",
+      "revId": "9c71282dba64c5adfedf1754c70ac675f4a29ccb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
