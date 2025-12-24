@@ -152,4 +152,10 @@
     <!-- IME button space -->
     <string name="show_ime_space_title">IME-Schaltflächenfreiraum anzeigen</string>
     <string name="show_ime_space_summary">Aktiviert die Schnellwechselfunktion der Eingabemethode, um die Eingabemethode zu wechseln oder die Bildschirmtastatur beim Tippen über die Funktionsleiste am unteren Bildschirmrand auszublenden</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Suche löschen</string>
+    <string name="language_picker_page">Sprachauswahlseite</string>
+    <string name="search_region">Regionen suchen</string>
+    <string name="search_region_page">Regionssuchseite</string>
 </resources>
