@@ -58,11 +58,6 @@ public class ChooseLockPatternSize extends SettingsActivity {
     }
 
     @Override
-    protected boolean isToolbarEnabled() {
-        return false;
-    }
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(SetupWizardUtils.getTheme(this, getIntent()));
         ThemeHelper.trySetDynamicColor(this);
@@ -81,6 +76,7 @@ public class ChooseLockPatternSize extends SettingsActivity {
                 throw new SecurityException("Fragment contained in wrong activity");
             }
             addPreferencesFromResource(R.xml.security_settings_pattern_size);
+            setHeaderView(R.layout.choose_lock_generic_biometric_header);
         }
 
         @Override
