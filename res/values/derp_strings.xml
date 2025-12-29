@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- DerpFest -->
+    <string name="derpfest_title" translatable="false">DerpFest</string>
+    <string name="about_device_name">Device</string>
+
+    <!-- About phone screen, DerpFest version -->
+    <string name="derpfest_version">DerpFest version</string>
+    <string name="derpfest_version_default">Unknown</string>
+
+</resources>
