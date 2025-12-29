@@ -60,6 +60,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -77,6 +78,10 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
     public static final String CATEGORY = "category";
     private static final String TAG = "DashboardFragment";
     private static final long TIMEOUT_MILLIS = 50L;
+
+    private static final Map<String, Integer> KEY_ORDER = new ArrayMap<>();
+    private static final Set<String> ACCOUNT_INJECTED_KEYS = new HashSet<>();
+    private static final Set<String> SECURITY_PRIVACY_INJECTED_KEYS = new HashSet<>();
 
     @VisibleForTesting
     final ArrayMap<String, List<DynamicDataObserver>> mDashboardTilePrefKeys = new ArrayMap<>();
@@ -605,13 +610,19 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
                 observers = mDashboardFeatureProvider.bindPreferenceToTileAndGetObservers(
                         getActivity(), this, forceRoundedIcons, pref, tile, key,
                         mPlaceholderPreferenceController.getOrder());
-                if (tile.hasGroupKey()) {
-                    Preference group = screen.findPreference(tile.getGroupKey());
-                    if (group instanceof PreferenceCategory) {
-                        ((PreferenceCategory) group).addPreference(pref);
-                    } else {
-                        screen.addPreference(pref);
-                    }
+                if (KEY_ORDER.containsKey(key)) {
+                    pref.setOrder(KEY_ORDER.get(key));
+                }
+                Preference group = null;
+                if (ACCOUNT_INJECTED_KEYS.contains(key)) {
+                    group = screen.findPreference("top_level_account_category");
+                } else if (SECURITY_PRIVACY_INJECTED_KEYS.contains(key)) {
+                    group = screen.findPreference("top_level_security_privacy_category");
+                } else if (tile.hasGroupKey()) {
+                    group = screen.findPreference(tile.getGroupKey());
+                }
+                if (group instanceof PreferenceCategory) {
+                    ((PreferenceCategory) group).addPreference(pref);
                 } else {
                     screen.addPreference(pref);
                 }
