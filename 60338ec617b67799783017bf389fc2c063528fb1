@@ -46,6 +46,30 @@
       },
       "revId": "60338ec617b67799783017bf389fc2c063528fb1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "986790ba_40d467f2",
+        "filename": "src/com/android/settings/password/ChooseLockPatternSize.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-30T12:30:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1fc479eb_5fb688ff",
+      "range": {
+        "startLine": 118,
+        "startChar": 16,
+        "endLine": 118,
+        "endChar": 22
+      },
+      "revId": "60338ec617b67799783017bf389fc2c063528fb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
