@@ -20,4 +20,8 @@
     <string name="panic_settings_title">Show Panic option</string>
     <!-- Text shown for the description of the panic option -->
     <string name="panic_settings_summary">Display power button option that activates an emergency panic trigger.</string>
+
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 </resources>
