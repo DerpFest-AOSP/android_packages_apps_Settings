@@ -220,4 +220,7 @@
         <item quantity="one">1 App gesperrt</item>
         <item quantity="other"><xliff:g id="count" example="3">%d</xliff:g> Apps gesperrt</item>
     </plurals>
+
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
 </resources>

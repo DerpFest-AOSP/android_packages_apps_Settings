@@ -261,4 +261,7 @@
         <item quantity="one">1 app locked</item>
         <item quantity="other"><xliff:g id="count" example="3">%d</xliff:g> apps locked</item>
     </plurals>
+
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
