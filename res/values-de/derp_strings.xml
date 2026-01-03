@@ -145,4 +145,7 @@
 
     <!-- Radio Info -->
     <string name="radio_info_title">Empfangsinfo</string>
+
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
 </resources>
