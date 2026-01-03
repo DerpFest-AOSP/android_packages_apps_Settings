@@ -13,4 +13,41 @@
     <string name="derpfest_version">DerpFest-Version</string>
     <string name="derpfest_version_default">Unbekannt</string>
 
+    <!-- Hardware info -->
+    <string name="soc_model">SoC-Modell</string>
+    <string name="total_ram">Gesamter RAM</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Benachrichtigungsverlauf anzeigen</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Weniger als 1 Minute</string> 
+    
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s heute</string>
+
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">In Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Lange drücken zum Kopieren</string>
+
+    <!-- About Phone -->
+    <string name="keywords_top_level_device_info">über Telefon, derpfest, Gerätename</string>
+    <string name="more_device_info">Weitere Informationen</string>
+    <string name="more_device_info_summary">Weitere Geräteinformationen anzeigen</string>
+
+    <!-- About Phone Header -->
+    <string name="derpfest_device_title">Gerät</string>
+    <string name="derpfest_memory_storage_title">Speicher</string>
+    <string name="derpfest_battery_size_title">Batteriekapazität</string>
+    <string name="derpfest_screen_res_title">Bildschirmauflösung</string>
+
+    <!-- My Device - Phone Number Category -->
+    <string name="sim_num_info_cat">Telefonnummer</string>
+
+    <!-- DerpFest maintainer -->
+    <string name="derpfest_summary">Gebaut von %s</string>
+
+    <!-- DerpFest official banner -->
+    <string name="derp_official_title">Wusstest Du schon?</string>
+    <string name="derp_official_summary">Du verwendest derzeit eine offizielle Build von DerpFest.</string>
 </resources>
