@@ -36,6 +36,16 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 
+import androidx.preference.PreferenceScreen;
+
+import android.bluetooth.BluetoothAdapter;
+import android.net.wifi.SoftApConfiguration;
+import android.net.wifi.WifiManager;
+import android.os.Build;
+import android.provider.Settings;
+import android.text.SpannedString;
+import com.android.settings.bluetooth.BluetoothLengthDeviceNameFilter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,6 +56,9 @@ public class AboutDevice extends DashboardFragment
     private static final String LOG_TAG = "DerpFestAboutDevice";
 
     private BuildNumberPreferenceController mBuildNumberPreferenceController;
+    private DerpFestInfoPreferenceController mDerpFestInfoPreferenceController;
+    private DeviceNamePreferenceController mDeviceNamePreferenceController;
+    private String mPendingDeviceName;
 
     @Override
     protected int getPreferenceScreenResId() {
@@ -60,7 +73,10 @@ public class AboutDevice extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(DeviceNamePreferenceController.class).setHost(this /* parent */);
+        mDeviceNamePreferenceController = use(DeviceNamePreferenceController.class);
+        if (mDeviceNamePreferenceController != null) {
+            mDeviceNamePreferenceController.setHost(this /* parent */);
+        }
         mBuildNumberPreferenceController = use(BuildNumberPreferenceController.class);
         mBuildNumberPreferenceController.setHost(this /* parent */);
     }
@@ -72,18 +88,62 @@ public class AboutDevice extends DashboardFragment
 
     @Override
     public void showDeviceNameWarningDialog(String deviceName) {
+        mPendingDeviceName = deviceName;
         DeviceNameWarningDialog.show(this);
     }
 
     public void onSetDeviceNameConfirm(boolean confirm) {
-        final DeviceNamePreferenceController controller = use(DeviceNamePreferenceController.class);
-        controller.updateDeviceName(confirm);
+        if (mDeviceNamePreferenceController == null) {
+            return;
+        }
+        if (confirm && mPendingDeviceName != null) {
+            // Update device name directly since we don't have a preference
+            String deviceName = mPendingDeviceName;
+            // Update Settings.Global
+            Settings.Global.putString(getContext().getContentResolver(), 
+                    Settings.Global.DEVICE_NAME, deviceName);
+            // Update Bluetooth name
+            BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+            if (bluetoothAdapter != null) {
+                bluetoothAdapter.setName(
+                        DeviceNamePreferenceController.getFilteredBluetoothString(deviceName));
+            }
+            // Update WiFi tether SSID
+            WifiManager wifiManager = (WifiManager) getContext().getSystemService(
+                    Context.WIFI_SERVICE);
+            if (wifiManager != null) {
+                SoftApConfiguration config = wifiManager.getSoftApConfiguration();
+                wifiManager.setSoftApConfiguration(
+                        new SoftApConfiguration.Builder(config).setSsid(deviceName).build());
+            }
+        }
+        // Update device name display in the card
+        if (mDerpFestInfoPreferenceController != null) {
+            mDerpFestInfoPreferenceController.updateDeviceNameDisplay();
+        }
+        mPendingDeviceName = null;
     }
 
     @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.add(new DerpFestInfoPreferenceController(context));
+        mDerpFestInfoPreferenceController = new DerpFestInfoPreferenceController(context);
+        mDerpFestInfoPreferenceController.setFragment(this);
+        controllers.add(mDerpFestInfoPreferenceController);
+        // Create DeviceNamePreferenceController manually since we removed it from XML
+        // Use a dummy key since we won't be using the preference
+        mDeviceNamePreferenceController = new DeviceNamePreferenceController(context, "device_name") {
+            @Override
+            public void displayPreference(PreferenceScreen screen) {
+                // Override to prevent crash when preference doesn't exist in screen
+                // We handle device name editing in the card instead
+                // Only call super if preference exists, otherwise skip
+                if (screen.findPreference(getPreferenceKey()) != null) {
+                    super.displayPreference(screen);
+                }
+            }
+        };
+        controllers.add(mDeviceNamePreferenceController);
         return controllers;
     }
 
