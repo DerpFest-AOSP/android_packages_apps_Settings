@@ -25,8 +25,8 @@
 		android:background="@drawable/brand_header_background"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
-		android:layout_marginLeft="@dimen/derpfest_card_side_margin"
-		android:layout_marginRight="@dimen/derpfest_card_side_margin">
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -56,17 +56,17 @@
                         android:layout_gravity="center_vertical|center_horizontal" />
                     <Space
                         android:layout_width="match_parent"
-                        android:layout_height="15.0dip" />
+                        android:layout_height="10.0dip" />
                     <TextView
                         android:id="@+id/status_summary"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/summary_placeholder"
                         android:textAppearance="@style/TextAppearance.derpfestInfoTitle" />
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10.0dip" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="20.0dip" />
 </LinearLayout>
