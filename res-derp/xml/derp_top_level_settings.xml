@@ -57,6 +57,16 @@
         android:title="@string/top_level_personalize"
         android:layout="@layout/derp_first_header_pref">
         <com.android.settings.widget.HomepagePreference
+            android:fragment="org.derpfest.customizations.DerpFestCustomizations"
+            android:icon="@drawable/ic_homepage_derpfest"
+            android:key="top_level_derpfest"
+            android:order="-160"
+            android:title="@string/derpfest_customizations_title"
+            android:summary="@string/derpfest_customizations_summary"
+            settings:highlightableMenuKey="@string/menu_key_derpfest"
+            settings:controller="org.derpfest.customizations.TopLevelDerpFestCustomizationsPreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.DisplaySettings"
             android:icon="@drawable/ic_homepage_display"
             android:key="top_level_display"

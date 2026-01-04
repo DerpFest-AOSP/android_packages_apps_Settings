@@ -226,6 +226,8 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 import org.derpfest.settings.display.refreshrate.ScreenRefreshRateFragment;
 
+import org.derpfest.customizations.DerpFestCustomizations;
+
 public class SettingsGateway {
 
     /**
@@ -433,6 +435,7 @@ public class SettingsGateway {
             SystemLocalePickerFragment.class.getName(),
             AppLocalePickerFragment.class.getName(),
             SupervisionDashboardFragment.class.getName(),
+            DerpFestCustomizations.class.getName(),
             SummarizationPreferenceFragment.class.getName(),
             SafetyCenterFragment.class.getName(),
             SafetyCenterQsFragment.class.getName(),
@@ -486,6 +489,7 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.ShadeSettingsActivity.class.getName(),
+            Settings.DerpFestCustomizationsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.PrivateDnsSettingsActivity.class.getName(),
             Settings.ScreenRefreshRateActivity.class.getName(),
