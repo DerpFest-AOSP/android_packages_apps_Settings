@@ -18,6 +18,7 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.Build;
+import androidx.preference.Preference;
 
 import com.android.settings.core.BasePreferenceController;
 
@@ -35,5 +36,10 @@ public class FirmwareVersionPreferenceController extends BasePreferenceControlle
     @Override
     public CharSequence getSummary() {
         return Build.VERSION.RELEASE_OR_PREVIEW_DISPLAY;
+    }
+
+    @Override
+    public boolean handlePreferenceTreeClick(Preference preference) {
+        return false;
     }
 }
