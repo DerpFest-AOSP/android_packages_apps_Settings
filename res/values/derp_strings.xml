@@ -251,6 +251,11 @@
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
 
+    <!-- DerpFest Customizations on homepage -->
+    <string name="derpfest_customizations_title">DerpFest Customizations</string>
+    <string name="derpfest_customizations_summary">Where the broken stuff is placed</string>
+    <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
+
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Background processes</string>
 </resources>

@@ -52,6 +52,8 @@ import com.android.settings.supervision.SupervisionDashboardFragment;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
+import org.derpfest.customizations.DerpFestCustomizations;
+
 import java.util.Map;
 
 /**
@@ -134,6 +136,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_MORE_SECURITY_PRIVACY_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(SupervisionDashboardFragment.class.getName(),
                 CategoryKey.CATEGORY_SUPERVISION);
+        PARENT_TO_CATEGORY_KEY_MAP.put(DerpFestCustomizations.class.getName(),
+                CategoryKey.CATEGORY_DERPFEST);
         PARENT_TO_CATEGORY_KEY_MAP.put(MediaControlsSettings.class.getName(),
                 CategoryKey.CATEGORY_MEDIA_CONTROLS_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(PrivacyControlsFragment.class.getName(),

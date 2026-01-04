@@ -654,4 +654,9 @@ public class Settings extends SettingsActivity {
     }
     public static class SafetyCenterActivity extends SettingsActivity { }
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+
+    /**
+     * DerpFest Customizations Activity
+     */
+    public static class DerpFestCustomizationsActivity extends SettingsActivity {}
 }

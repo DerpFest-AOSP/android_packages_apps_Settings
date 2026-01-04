@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
+    <!-- Dashboard/homepage icon colors -->
+    <color name="homepage_derpfest_foreground">@color/homepage_blue_variant_fg</color>
+    <color name="homepage_derpfest_background">@color/homepage_blue_variant_bg</color>
+</resources>
