@@ -16,4 +16,12 @@
         <item name="buttonBarButtonStyle">@style/SecurityDialogButton</item>
         <item name="colorAccent">?android:attr/colorAccent</item>
     </style>
+
+    <style name="TextAppearance_SettingsSuggestions_Title" parent="TextAppearance.SettingsLib.TitleMedium">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance_SettingsSuggestions_Item" parent="TextAppearance.SettingsLib.BodyMedium">
+        <item name="android:textColor">?android:attr/colorAccent</item>
+    </style>
 </resources> 

@@ -158,4 +158,7 @@
     <string name="language_picker_page">Sprachauswahlseite</string>
     <string name="search_region">Regionen suchen</string>
     <string name="search_region_page">Regionssuchseite</string>
+
+    <string name="settings_suggestions_title">Weitere Einstellungen gesucht?</string>
+    <string name="button_settings_title">Tasteneinstellungen</string>
 </resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources>
+    <!-- Settings suggestions dimensions -->
+    <dimen name="suggestions_item_padding_vertical">6dp</dimen>
+
+    <!-- Settings suggestions card -->
+    <dimen name="derpfest_card_radius">22dp</dimen>
+</resources>

@@ -282,4 +282,11 @@
     <string name="language_picker_page">Language picker page</string>
     <string name="search_region">Search regions</string>
     <string name="search_region_page">Search region page</string>
+
+    <!-- Settings suggestions title shown at the bottom of system settings [CHAR LIMIT=60] -->
+    <string name="settings_suggestions_title">Looking for other settings?</string>
+
+    <!-- Button settings title [CHAR LIMIT=60] -->
+    <string name="button_settings_title">Button settings</string>
+    <string name="gamespace_title">GameSpace</string>
 </resources>
