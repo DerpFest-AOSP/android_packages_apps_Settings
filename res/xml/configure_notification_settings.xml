@@ -250,4 +250,15 @@
             settings:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
             settings:replacesKey="notification_pulse" />
     </PreferenceCategory>
+
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="notification_suggestions_category"
+        android:order="1000">
+
+        <com.android.settings.widget.SettingsSuggestionsPreference
+            android:key="notification_suggestions"
+            android:order="0"
+            settings:controller="com.android.settings.notification.NotificationSuggestionsController"/>
+
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
 </PreferenceScreen>

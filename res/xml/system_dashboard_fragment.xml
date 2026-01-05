@@ -194,4 +194,15 @@
             settings:controller="com.android.settings.system.ResetPreferenceController"/>
 
     </PreferenceCategory>
+
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="settings_suggestions_category"
+        android:order="1000">
+
+        <com.android.settings.widget.SettingsSuggestionsPreference
+            android:key="settings_suggestions"
+            android:order="0"
+            settings:controller="com.android.settings.system.SystemSuggestionsController"/>
+
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
 </PreferenceScreen>
