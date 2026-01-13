@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01afa9c8_11eeb8e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-01-13T18:05:33Z",
+      "side": 1,
+      "message": "Luk said it\u0027s ok to blindly merge",
+      "revId": "508df0d3d9efa14537e3d0ef3cd88a003f527f40",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
