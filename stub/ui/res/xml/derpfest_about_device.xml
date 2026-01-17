@@ -56,7 +56,7 @@
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
         android:layout="@layout/derpfest_about_card_single_entry"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.aboutphone.AboutDeviceFirmwareVersionPreferenceController"/>
 
     <!-- Build number -->
     <com.android.settingslib.widget.LayoutPreference
