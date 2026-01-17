@@ -51,7 +51,7 @@ class DarkModeBlackThemePreference(context: Context, private val darkModeStorage
     fun isAvailable(context: Context): Boolean {
         return try {
             context.packageManager.getPackageInfo(
-                "org.lineageos.overlay.customization.blacktheme",
+                "org.derpfest.overlay.customization.blacktheme",
                 0,
             )
             true
