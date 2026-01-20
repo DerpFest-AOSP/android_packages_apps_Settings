@@ -22,6 +22,7 @@ import android.content.pm.PackageManager;
 import android.database.ContentObserver;
 import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
+import android.provider.DeviceConfig;
 import android.provider.Settings;
 import android.util.FeatureFlagUtils;
 import android.util.Log;
@@ -76,6 +77,9 @@ public class SettingsApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+        // Force enable catalyst flag if not already set (fallback for builds that don't pick up aconfig values)
+        ensureCatalystFlagEnabled();
+
         if (Flags.catalyst()) {
             PreferenceScreenRegistry.INSTANCE.setPreferenceScreenMetadataFactories(
                     preferenceScreenFactories());
@@ -111,6 +115,26 @@ public class SettingsApplication extends Application {
 
         if (Flags.msdlFeedback()) {
             MSDLPlayerWrapper.INSTANCE.createPlayer(this);
+        }
+    }
+
+    /**
+     * Ensures the catalyst flag is enabled. This is a fallback for builds where aconfig values
+     * aren't properly picked up from the build system.
+     */
+    private void ensureCatalystFlagEnabled() {
+        try {
+            // Use the namespace from the aconfig declaration: "android_settings"
+            final String namespace = "android_settings";
+            // Check if flag is already set
+            String flagValue = DeviceConfig.getProperty(namespace, "catalyst");
+            if (flagValue == null || !Boolean.parseBoolean(flagValue)) {
+                // Force enable the flag programmatically
+                DeviceConfig.setProperty(namespace, "catalyst", "true", false /* makeDefault */);
+                Log.d(TAG, "Catalyst flag enabled programmatically (fallback)");
+            }
+        } catch (Exception e) {
+            Log.w(TAG, "Failed to ensure catalyst flag is enabled", e);
         }
     }
 
