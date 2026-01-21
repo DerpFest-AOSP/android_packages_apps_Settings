@@ -32,12 +32,6 @@ import com.android.settingslib.search.SearchIndexable;
 public class FirmwareVersionSettings extends DashboardFragment {
 
     @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        use(SecurityPatchLevelPreferenceController.class).setFragment(this);
-    }
-
-    @Override
     public @Nullable String getPreferenceScreenBindingKey(@NonNull Context context) {
         return FirmwareVersionScreen.KEY;
     }

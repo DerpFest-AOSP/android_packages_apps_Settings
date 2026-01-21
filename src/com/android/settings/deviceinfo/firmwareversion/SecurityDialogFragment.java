@@ -19,6 +19,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.FragmentManager;
 
 import com.android.settings.R;
 import com.android.settingslib.DeviceInfoUtils;
@@ -35,6 +36,13 @@ public class SecurityDialogFragment extends DialogFragment {
 
     public static SecurityDialogFragment newInstance() {
         return new SecurityDialogFragment();
+    }
+
+    public static void show(@NonNull FragmentManager fragmentManager) {
+        if (fragmentManager.findFragmentByTag(TAG) == null) {
+            SecurityDialogFragment fragment = newInstance();
+            fragment.show(fragmentManager, TAG);
+        }
     }
 
     @NonNull
