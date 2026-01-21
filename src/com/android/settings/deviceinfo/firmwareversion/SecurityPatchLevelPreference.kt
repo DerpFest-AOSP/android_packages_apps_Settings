@@ -17,8 +17,7 @@
 package com.android.settings.deviceinfo.firmwareversion
 
 import android.content.Context
-import android.content.Intent
-import android.net.Uri
+import androidx.fragment.app.FragmentManager
 import androidx.preference.Preference
 import com.android.settings.R
 import com.android.settings.utils.getLocale
@@ -26,6 +25,8 @@ import com.android.settingslib.DeviceInfoUtils
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.metadata.PersistentPreference
 import com.android.settingslib.metadata.PreferenceAvailabilityProvider
+import com.android.settingslib.metadata.PreferenceLifecycleContext
+import com.android.settingslib.metadata.PreferenceLifecycleProvider
 import com.android.settingslib.metadata.preferencesapi.preconditions.PreconditionStability
 import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
@@ -37,7 +38,8 @@ class SecurityPatchLevelPreference :
     PreferenceMetadata,
     PreferenceAvailabilityProvider,
     PreferenceSummaryProvider,
-    PreferenceBinding {
+    PreferenceBinding,
+    PreferenceLifecycleProvider {
 
     private var currentPatch: String? = null
 
@@ -50,9 +52,7 @@ class SecurityPatchLevelPreference :
     override val title: Int
         get() = R.string.security_patch
 
-    override fun intent(context: Context): Intent? =
-        Intent(Intent.ACTION_VIEW)
-            .setData(Uri.parse("https://source.android.com/docs/security/bulletin/"))
+    override fun intent(context: Context): android.content.Intent? = null
 
     override val availabilityDescription =
         "The device must have a security patch level."
@@ -76,6 +76,14 @@ class SecurityPatchLevelPreference :
     override fun bind(preference: Preference, metadata: PreferenceMetadata) {
         super.bind(preference, metadata)
         preference.isCopyingEnabled = true
+    }
+
+    override fun onCreate(context: PreferenceLifecycleContext) {
+        val preference = context.requirePreference<Preference>(key)
+        preference.onPreferenceClickListener = Preference.OnPreferenceClickListener {
+            SecurityDialogFragment.show(context.childFragmentManager)
+            true
+        }
     }
 }
 // LINT.ThenChange(SecurityPatchLevelPreferenceController.java)
