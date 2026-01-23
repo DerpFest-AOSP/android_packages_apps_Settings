@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49c57a90_9b75a6bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2026-01-23T15:28:44Z",
+      "side": 1,
+      "message": "wfm on gta4xlveu (no official device), thanks!",
+      "revId": "8eeb7a07ed3bc416678c216c29254075a94b70d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
