@@ -52,6 +52,24 @@
       "parentUuid": "e5d8a3c5_d0b4d79e",
       "revId": "72377403560b083f0c15d036c64c4f486d5d135c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84b264db_157af5e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36555
+      },
+      "writtenOn": "2026-01-23T12:14:20Z",
+      "side": 1,
+      "message": "Ah, thanks for the link My grep failed because I was searching inside packages/apps/Settings and didn\u0027t realize SettingsLib was pulled in from frameworks/base I will update the patch to use SettingsThemeHelper.isTablet(getContext()) now, Thanks!",
+      "parentUuid": "431cd40b_dc09a475",
+      "revId": "72377403560b083f0c15d036c64c4f486d5d135c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
