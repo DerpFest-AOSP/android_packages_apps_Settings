@@ -239,7 +239,10 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     public void onSplitLayoutChanged(boolean isRegularLayout) {
         iteratePreferences(preference -> {
             if (preference instanceof HomepagePreferenceLayout) {
-                ((HomepagePreferenceLayout) preference).getHelper().setIconVisible(isRegularLayout);
+                ((HomepagePreferenceLayout) preference).getHelper().setIconVisible(isRegularLayout || 
+                        android.os.SystemProperties.get("ro.build.characteristics", "").contains("tablet") ||
+                        (getContext() != null && getContext().getApplicationContext()
+                        .getResources().getConfiguration().smallestScreenWidthDp >= 600));
             }
         });
     }
