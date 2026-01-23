@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce10cfb2_92df9c1a",
+        "filename": "src/com/android/settings/homepage/TopLevelSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-23T12:55:35Z",
+      "side": 1,
+      "message": "```suggestion\n                Context context \u003d getContext();\n                boolean isLargeScreen \u003d SettingsThemeHelper.isTablet(context) ||\n                        (context !\u003d null \u0026\u0026 context.getApplicationContext()\n                                .getResources().getConfiguration().smallestScreenWidthDp \u003e\u003d 600);\n                boolean visible \u003d isRegularLayout || isLargeScreen;\n```",
+      "range": {
+        "startLine": 224,
+        "startChar": 0,
+        "endLine": 227,
+        "endChar": 89
+      },
+      "revId": "8e0ec717fda17d9fae4394a348adbb564c0b03b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
