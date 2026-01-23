@@ -63,6 +63,30 @@
       },
       "revId": "8e0ec717fda17d9fae4394a348adbb564c0b03b5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a345d8c_b5b587ca",
+        "filename": "src/com/android/settings/homepage/TopLevelSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 36555
+      },
+      "writtenOn": "2026-01-23T13:35:09Z",
+      "side": 1,
+      "message": "good catch on the magic number, I\u0027ve refactored the logic into variables and swapped in WindowManager.LARGE_SCREEN_SMALLEST_SCREEN_WIDTH_DP as suggested.\n\nSince the constant maps to 600, the logic stays consistent with what I tested, Thanks for the review",
+      "parentUuid": "32530f07_023dd93d",
+      "range": {
+        "startLine": 224,
+        "startChar": 0,
+        "endLine": 227,
+        "endChar": 89
+      },
+      "revId": "8e0ec717fda17d9fae4394a348adbb564c0b03b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
