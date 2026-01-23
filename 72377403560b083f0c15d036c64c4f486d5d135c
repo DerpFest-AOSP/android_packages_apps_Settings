@@ -34,6 +34,24 @@
       "parentUuid": "5a01f5f0_a7128a88",
       "revId": "72377403560b083f0c15d036c64c4f486d5d135c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "431cd40b_dc09a475",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-23T12:08:16Z",
+      "side": 1,
+      "message": "Here: https://cs.android.com/android/platform/superproject/+/android-latest-release:frameworks/base/packages/SettingsLib/SettingsTheme/src/com/android/settingslib/widget/SettingsThemeHelper.kt;l\u003d31",
+      "parentUuid": "e5d8a3c5_d0b4d79e",
+      "revId": "72377403560b083f0c15d036c64c4f486d5d135c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
