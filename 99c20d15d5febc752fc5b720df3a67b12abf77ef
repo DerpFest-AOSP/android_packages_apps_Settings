@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "707ebc50_a9a56359",
+        "filename": "src/com/android/settings/homepage/TopLevelSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-23T11:25:45Z",
+      "side": 1,
+      "message": "Move all of this to a new variable, e.g. \"visible\".",
+      "range": {
+        "startLine": 242,
+        "startChar": 83,
+        "endLine": 245,
+        "endChar": 88
+      },
+      "revId": "99c20d15d5febc752fc5b720df3a67b12abf77ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
