@@ -16,6 +16,24 @@
       "message": "wfm on gta4xlveu (no official device), thanks!",
       "revId": "8eeb7a07ed3bc416678c216c29254075a94b70d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c050592e_cf28bcc0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36555
+      },
+      "writtenOn": "2026-01-23T19:40:14Z",
+      "side": 1,
+      "message": "Thanks for verifying on gta4xlveu! I\u0027ve also confirmed it works locally on Xiaomi Pad 5 (nabu)",
+      "parentUuid": "49c57a90_9b75a6bd",
+      "revId": "8eeb7a07ed3bc416678c216c29254075a94b70d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
