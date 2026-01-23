@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e45ef0e8_6271e52f",
+        "filename": "src/com/android/settings/homepage/TopLevelSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-23T11:33:35Z",
+      "side": 1,
+      "message": "use SettingsThemeHelper.isTablet() instead?",
+      "range": {
+        "startLine": 243,
+        "startChar": 24,
+        "endLine": 243,
+        "endChar": 106
+      },
+      "revId": "99c20d15d5febc752fc5b720df3a67b12abf77ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "707ebc50_a9a56359",
         "filename": "src/com/android/settings/homepage/TopLevelSettings.java",
         "patchSetId": 1
