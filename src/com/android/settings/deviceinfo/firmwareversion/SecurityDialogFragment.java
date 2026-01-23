@@ -58,17 +58,15 @@ public class SecurityDialogFragment extends DialogFragment {
         final TextView vendorPatchSummary = content.findViewById(R.id.vendor_patch_level_summary);
         if (vendorPatchSummary != null && vendorPatchText != null) {
             String vendorPatchLevel = SystemProperties.get(KEY_AOSP_VENDOR_SECURITY_PATCH);
-            if (vendorPatchLevel.isEmpty()) {
+            
+            if (vendorPatchLevel == null || vendorPatchLevel.isEmpty()) {
                 vendorPatchLevel = SystemProperties.get(KEY_LINEAGE_VENDOR_SECURITY_PATCH);
             }
-            if (vendorPatchLevel.isEmpty()) {
-                vendorPatchLevel = "unknown";
-            }
             
-            // Format vendor patch level to match Android security patch format
-            if (!"unknown".equals(vendorPatchLevel)) {
+            if (vendorPatchLevel != null && !vendorPatchLevel.isEmpty()) {
+                // Format vendor patch level to match Android security patch format
                 try {
-                    java.text.SimpleDateFormat template = new java.text.SimpleDateFormat("yyyy-MM-dd");
+                    java.text.SimpleDateFormat template = new java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.US);
                     java.util.Date patchLevelDate = template.parse(vendorPatchLevel);
                     String format = DateFormat.getBestDateTimePattern(
                             java.util.Locale.getDefault(), "dMMMMyyyy");
@@ -76,10 +74,9 @@ public class SecurityDialogFragment extends DialogFragment {
                 } catch (java.text.ParseException e) {
                     // If parsing fails, use the raw string
                 }
-            }
-            
-            vendorPatchSummary.setText(vendorPatchLevel);
-            if ("unknown".equals(vendorPatchLevel)) {
+                vendorPatchSummary.setText(vendorPatchLevel);
+            } else {
+                // Hide vendor patch section if not available
                 vendorPatchText.setVisibility(View.GONE);
                 vendorPatchSummary.setVisibility(View.GONE);
             }
