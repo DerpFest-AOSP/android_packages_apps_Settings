@@ -221,7 +221,14 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     public void onSplitLayoutChanged(boolean isRegularLayout) {
         iteratePreferences(preference -> {
             if (preference instanceof HomepagePreferenceLayout) {
-                ((HomepagePreferenceLayout) preference).getHelper().setIconVisible(isRegularLayout);
+                Context context = getContext();
+                boolean isLargeScreen = SettingsThemeHelper.isTablet(context) ||
+                        (context != null && context.getApplicationContext()
+                        .getResources().getConfiguration().smallestScreenWidthDp >= 
+                        android.view.WindowManager.LARGE_SCREEN_SMALLEST_SCREEN_WIDTH_DP);
+                boolean visible = isRegularLayout || isLargeScreen;
+
+                ((HomepagePreferenceLayout) preference).getHelper().setIconVisible(visible);
             }
         });
     }
