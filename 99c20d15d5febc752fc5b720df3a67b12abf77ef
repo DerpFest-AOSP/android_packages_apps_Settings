@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "82dab6f7_b6eaf6eb",
+        "filename": "src/com/android/settings/homepage/TopLevelSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 36555
+      },
+      "writtenOn": "2026-01-23T11:39:58Z",
+      "side": 1,
+      "message": "Good call, I will check if I can use SettingsThemeHelper and apply it to the new change (469514) on the correct branch, Abandoning this to avoid confusion.",
+      "parentUuid": "e45ef0e8_6271e52f",
+      "range": {
+        "startLine": 243,
+        "startChar": 24,
+        "endLine": 243,
+        "endChar": 106
+      },
+      "revId": "99c20d15d5febc752fc5b720df3a67b12abf77ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "707ebc50_a9a56359",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-01-23T11:25:45Z",
       "side": 1,
       "message": "Move all of this to a new variable, e.g. \"visible\".",
+      "range": {
+        "startLine": 242,
+        "startChar": 83,
+        "endLine": 245,
+        "endChar": 88
+      },
+      "revId": "99c20d15d5febc752fc5b720df3a67b12abf77ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c42808f7_138efd6e",
+        "filename": "src/com/android/settings/homepage/TopLevelSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 36555
+      },
+      "writtenOn": "2026-01-23T11:39:58Z",
+      "side": 1,
+      "message": "Thanks for the review! I realized I targeted the wrong branch (23.0)\n\nI have moved this to lineage-23.2 (Change 469514) and applied your \u0027visible\u0027 variable suggestion there, Abandoning this one now.",
+      "parentUuid": "707ebc50_a9a56359",
       "range": {
         "startLine": 242,
         "startChar": 83,
