@@ -29,7 +29,6 @@ import com.android.settings.Settings.NightDisplaySuggestionActivity;
 import com.android.settings.biometrics.fingerprint.FingerprintEnrollSuggestionActivity;
 import com.android.settings.biometrics.fingerprint.FingerprintSuggestionActivity;
 import com.android.settings.display.NightDisplayPreferenceController;
-import com.android.settings.flags.Flags;
 import com.android.settings.password.ScreenLockSuggestionActivity;
 import com.android.settings.wallpaper.StyleSuggestionActivity;
 import com.android.settings.wallpaper.WallpaperSuggestionActivity;
@@ -82,10 +81,6 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     @Nullable
     @Override
     public Class<? extends Fragment> getSuggestionFragment() {
-        if (Flags.updatedSuggestionCardAosp()) {
-            return SuggestionFragment.class;
-        } else {
-            return null;
-        }
+        return DerpFestSuggestionFragment.class;
     }
 }

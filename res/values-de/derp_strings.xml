@@ -236,4 +236,16 @@
 
     <string name="settings_suggestions_title">Weitere Einstellungen gesucht?</string>
     <string name="button_settings_title">Tasteneinstellungen</string>
+
+    <!-- DerpFest homepage suggestion cards [CHAR LIMIT=55] -->
+    <string name="derpfest_suggestion_welcome_title">Willkommen bei DerpFest</string>
+    <string name="derpfest_suggestion_welcome_summary">Entdecke deine neue ROM und passe sie an, wie es dir gefällt</string>
+    <string name="derpfest_suggestion_gamespace_title">GameSpace</string>
+    <string name="derpfest_suggestion_gamespace_summary">Optimiere dein Spielerlebnis</string>
+    <string name="derpfest_suggestion_customizations_title">DerpFest-Einstellungen</string>
+    <string name="derpfest_suggestion_customizations_summary">Passe Aussehen und Verhalten deines Geräts an</string>
+    <string name="derpfest_suggestion_spoofing_title">Spoofing</string>
+    <string name="derpfest_suggestion_spoofing_summary">Geräte-Fingerprint und Eigenschaften verwalten</string>
+    <string name="derpfest_suggestion_button_settings_title">Tasteneinstellungen</string>
+    <string name="derpfest_suggestion_button_settings_summary">Aktionen der Hardwaretasten festlegen</string>
 </resources>
