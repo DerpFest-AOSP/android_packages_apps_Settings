@@ -83,7 +83,8 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     @Override
     public Class<? extends Fragment> getSuggestionFragment() {
         if (Flags.updatedSuggestionCardAosp()) {
-            return SuggestionFragment.class;
+            // Use DerpFest suggestion fragment for custom suggestions
+            return DerpFestSuggestionFragment.class;
         } else {
             return null;
         }
