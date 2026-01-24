@@ -31,6 +31,7 @@ import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
+import com.android.settings.deviceinfo.aboutphone.AboutDeviceSecurityPatchLevelPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.search.Indexable;
@@ -58,6 +59,7 @@ public class AboutDevice extends DashboardFragment
     private BuildNumberPreferenceController mBuildNumberPreferenceController;
     private DerpFestInfoPreferenceController mDerpFestInfoPreferenceController;
     private DeviceNamePreferenceController mDeviceNamePreferenceController;
+    private AboutDeviceSecurityPatchLevelPreferenceController mSecurityPatchLevelPreferenceController;
     private String mPendingDeviceName;
 
     @Override
@@ -79,6 +81,10 @@ public class AboutDevice extends DashboardFragment
         }
         mBuildNumberPreferenceController = use(BuildNumberPreferenceController.class);
         mBuildNumberPreferenceController.setHost(this /* parent */);
+        mSecurityPatchLevelPreferenceController = use(AboutDeviceSecurityPatchLevelPreferenceController.class);
+        if (mSecurityPatchLevelPreferenceController != null) {
+            mSecurityPatchLevelPreferenceController.setHost(this /* parent */);
+        }
     }
 
     @Override

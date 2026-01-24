@@ -58,6 +58,14 @@
         android:layout="@layout/derpfest_about_card_single_entry"
         settings:controller="com.android.settings.deviceinfo.aboutphone.AboutDeviceFirmwareVersionPreferenceController"/>
 
+    <!-- Security patch level -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="security_patch_level"
+        android:title="@string/security_patch"
+        android:summary="@string/summary_placeholder"
+        android:layout="@layout/derpfest_about_card_single_entry"
+        settings:controller="com.android.settings.deviceinfo.aboutphone.AboutDeviceSecurityPatchLevelPreferenceController"/>
+
     <!-- Build number -->
     <com.android.settingslib.widget.LayoutPreference
         android:key="build_number"
