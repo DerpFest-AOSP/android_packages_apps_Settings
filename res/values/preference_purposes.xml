@@ -639,6 +639,8 @@
     <string name="shortcut_volume_keys_pref_purpose" translatable="false">shortcut_volume_keys_pref</string>
     <string name="shortcut_top_row_key_pref_purpose" translatable="false">shortcut_top_row_key_pref</string>
     <string name="ambient_wallpaper_group_purpose" translatable="false">ambient_wallpaper_group</string>
+    <string name="ambient_charging_group_purpose" translatable="false">ambient_charging_group</string>
+    <string name="doze_on_charge_purpose" translatable="false">Whether to keep always-on display active while the device is charging</string>
     <string name="recent_app_location_access_purpose" translatable="false">recent_app_location_access</string>
     <string name="adaptive_connectivity_enabled_purpose" translatable="false">adaptive_connectivity_enabled</string>
     <string name="enabled_networks_key_purpose" translatable="false">The preferred mobile network type, such as 5G, LTE, or 3G.</string>
