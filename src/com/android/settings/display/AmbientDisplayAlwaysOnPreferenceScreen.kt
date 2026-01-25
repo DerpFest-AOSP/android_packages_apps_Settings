@@ -35,6 +35,7 @@ import com.android.settings.display.ambient.AmbientDisplayIllustration
 import com.android.settings.display.ambient.AmbientDisplayMainSwitchPreference
 import com.android.settings.display.ambient.AmbientDisplayStorage
 import com.android.settings.display.ambient.AmbientDisplayTopIntroPreference
+import com.android.settings.display.ambient.AmbientDozeOnChargePreference
 import com.android.settings.display.ambient.AmbientWallpaperPreference
 import com.android.settings.metrics.PreferenceActionMetricsProvider
 import com.android.settings.restriction.PreferenceRestrictionMixin
@@ -75,6 +76,7 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
     PreferenceSummaryProvider {
 
     private val ambientWallpaperPreference = AmbientWallpaperPreference(context)
+    private val ambientDozeOnChargePreference = AmbientDozeOnChargePreference(context)
     private lateinit var keyedObserver: KeyedObserver<String>
 
     override val title: Int
@@ -158,6 +160,11 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
             if (context.isAmbientWallpaperOptionsAvailable) {
                 +Category("ambient_wallpaperGroup", R.string.doze_always_on_wallpaper_options) += {
                     +ambientWallpaperPreference
+                }
+            }
+            if (ambientDozeOnChargePreference.isAvailable(context)) {
+                +Category("ambient_chargingGroup", R.string.doze_on_charge_category) += {
+                    +ambientDozeOnChargePreference
                 }
             }
         }

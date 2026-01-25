@@ -134,6 +134,7 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Beim Laden immer anzeigen</string>
     <string name="doze_on_charge_summary">Informationen beim Laden des Geräts anzeigen</string>
+    <string name="doze_on_charge_category">Ladeoptionen</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux-Status</string>

@@ -116,11 +116,6 @@
             android:fragment="com.android.settings.display.AODSchedule"
             settings:controller="com.android.settings.display.AODSchedulePreferenceController" />
 
-        <SwitchPreferenceCompat
-            android:key="doze_on_charge"
-            android:title="@string/doze_on_charge_title"
-            android:summary="@string/doze_on_charge_summary" />
-
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="pulse_on_new_tracks"
             android:title="@string/pulse_on_new_tracks_title"
