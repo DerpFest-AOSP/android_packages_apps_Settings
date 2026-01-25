@@ -32,6 +32,7 @@ import com.android.settings.contract.KEY_AMBIENT_DISPLAY_ALWAYS_ON
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceScreenController.isAodSuppressedByBedtime
 import com.android.settings.display.AmbientDisplaySettingsController
+import com.android.settings.display.ambient.AmbientAODSchedulePreference
 import com.android.settings.display.ambient.AmbientDisplayIllustration
 import com.android.settings.display.ambient.AmbientDisplayMainSwitchPreference
 import com.android.settings.display.ambient.AmbientDisplayStorage
@@ -83,6 +84,7 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
 
     private val ambientWallpaperPreference = AmbientWallpaperPreference(context)
     private val ambientDozeOnChargePreference = AmbientDozeOnChargePreference(context)
+    private val ambientAODSchedulePreference = AmbientAODSchedulePreference(context)
     private lateinit var keyedObserver: KeyedObserver<String>
 
     override val title: Int
@@ -175,6 +177,7 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
             +AmbientDisplayTopIntroPreference()
             +AmbientDisplayIllustration(context)
             +AmbientDisplayMainSwitchPreference()
+            +ambientAODSchedulePreference
             if (context.isAmbientInactivityDetectionAvailable) {
                 +AmbientInactivityDetectionPreference(context)
             }
