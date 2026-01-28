@@ -131,7 +131,7 @@ public class FaceStatusUtils {
 
     /** Returns whether at least one face template has been enrolled. */
     public boolean hasEnrolled() {
-        return mFaceManager.hasEnrolledTemplates(mUserId);
+        return mFaceManager != null && mFaceManager.hasEnrolledTemplates(mUserId);
     }
 
     /** Indicates if the face feature is enabled or disabled by the Device Admin. */

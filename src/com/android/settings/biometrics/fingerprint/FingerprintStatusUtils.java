@@ -116,7 +116,7 @@ public class FingerprintStatusUtils {
             return mContext.getString(
                     com.android.settingslib.widget.restricted.R.string.disabled_by_admin);
         }
-        if (hasEnrolled()) {
+        if (hasEnrolled() && mFingerprintManager != null) {
             final int numEnrolled = mFingerprintManager.getEnrolledFingerprints(mUserId).size();
             return StringUtil.getIcuPluralsString(
                     mContext,
@@ -137,7 +137,7 @@ public class FingerprintStatusUtils {
 
     /** Returns whether at least one fingerprint has been enrolled. */
     public boolean hasEnrolled() {
-        return mFingerprintManager.hasEnrolledFingerprints(mUserId);
+        return mFingerprintManager != null && mFingerprintManager.hasEnrolledFingerprints(mUserId);
     }
 
     /** Indicates if the fingerprint feature should show the "Disabled by Admin" string. */

@@ -146,6 +146,14 @@ public class FaceStatusUtilsTest {
     }
 
     @Test
+    public void hasEnrolled_withNullFaceManager_returnsFalse() {
+        FaceStatusUtils utilsWithNullManager =
+                new FaceStatusUtils(mApplicationContext, null, USER_ID);
+
+        assertThat(utilsWithNullManager.hasEnrolled()).isFalse();
+    }
+
+    @Test
     @RequiresFlagsDisabled(android.app.supervision.flags.Flags.FLAG_DEPRECATE_DPM_SUPERVISION_APIS)
     @DisableFlags({android.app.admin.flags.Flags.FLAG_POLICY_TRANSPARENCY_REFACTOR_ENABLED})
     public void getDisabledAdmin_whenFaceDisabled_returnsEnforcedAdmin() {
@@ -254,6 +262,18 @@ public class FaceStatusUtilsTest {
                 .isEqualTo(ResourcesUtils.getResourcesString(
                         mApplicationContext,
                         "security_settings_face_preference_summary"));
+    }
+
+    @Test
+    @RequiresFlagsEnabled(com.android.settings.flags.Flags.FLAG_BIOMETRICS_ONBOARDING_EDUCATION)
+    public void getSummary_withNullFaceManager_returnsSummaryNone() {
+        FaceStatusUtils utilsWithNullManager =
+                new FaceStatusUtils(mApplicationContext, null, USER_ID);
+
+        assertThat(utilsWithNullManager.getSummary())
+                .isEqualTo(ResourcesUtils.getResourcesString(
+                        mApplicationContext,
+                        "security_settings_face_preference_summary_none_new"));
     }
 
 

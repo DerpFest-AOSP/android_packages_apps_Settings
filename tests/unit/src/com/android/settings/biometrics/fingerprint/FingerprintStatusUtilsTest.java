@@ -152,6 +152,14 @@ public class FingerprintStatusUtilsTest {
     }
 
     @Test
+    public void hasEnrolled_withNullFingerprintManager_returnsFalse() {
+        FingerprintStatusUtils utilsWithNullManager =
+                new FingerprintStatusUtils(mApplicationContext, null, USER_ID);
+
+        assertThat(utilsWithNullManager.hasEnrolled()).isFalse();
+    }
+
+    @Test
     @RequiresFlagsDisabled(android.app.supervision.flags.Flags.FLAG_DEPRECATE_DPM_SUPERVISION_APIS)
     public void getDisabledAdmin_whenFingerprintDisabled_returnsEnforcedAdmin() {
         when(mDevicePolicyManager.getProfileOwnerOrDeviceOwnerSupervisionComponent(USER_HANDLE))
@@ -240,6 +248,18 @@ public class FingerprintStatusUtilsTest {
         when(mFingerprintManager.hasEnrolledTemplates(anyInt())).thenReturn(false);
 
         assertThat(mFingerprintStatusUtils.getSummary())
+                .isEqualTo(ResourcesUtils.getResourcesString(
+                        mApplicationContext,
+                        "security_settings_fingerprint_preference_summary_none_new"));
+    }
+
+    @Test
+    @RequiresFlagsEnabled(com.android.settings.flags.Flags.FLAG_BIOMETRICS_ONBOARDING_EDUCATION)
+    public void getSummary_withNullFingerprintManager_returnsSummaryNone() {
+        FingerprintStatusUtils utilsWithNullManager =
+                new FingerprintStatusUtils(mApplicationContext, null, USER_ID);
+
+        assertThat(utilsWithNullManager.getSummary())
                 .isEqualTo(ResourcesUtils.getResourcesString(
                         mApplicationContext,
                         "security_settings_fingerprint_preference_summary_none_new"));

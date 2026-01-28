@@ -98,8 +98,8 @@ public final class BiometricSourcesUtils {
         FaceManager faceManager = Utils.getFaceManagerOrNull(context);
         FingerprintManager fingerprintManager = Utils.getFingerprintManagerOrNull(context);
         return Utils.isMultipleBiometricsSupported(context)
-                && !faceManager.hasEnrolledTemplates(userId)
-                && !fingerprintManager.hasEnrolledFingerprints(userId);
+                && (faceManager == null || !faceManager.hasEnrolledTemplates(userId))
+                && (fingerprintManager == null || !fingerprintManager.hasEnrolledFingerprints(userId));
     }
 
     /** Helper method for creating a pending intent. */
