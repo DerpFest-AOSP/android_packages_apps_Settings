@@ -82,6 +82,16 @@
     <string name="doze_always_on_inactivity_detection_purpose" translatable="false">Whether to turn off the always-on display automatically when no user activity is detected to save power</string>
     <string name="doze_always_on_wallpaper_enabled_purpose" translatable="false">Whether the lock screen wallpaper should be shown when the always-on display is active</string>
     <string name="always_on_display_schedule_purpose" translatable="false">When always-on display should turn on automatically, such as at night, on a custom schedule, or around sunrise and sunset</string>
+    <string name="doze_additional_settings_purpose" translatable="false">Opens device-specific ambient display gesture settings such as tilt, pickup, hand wave, and pocket</string>
+    <string name="doze_additional_group_purpose" translatable="false">doze_additional_group</string>
+    <string name="doze_sensor_group_purpose" translatable="false">doze_sensor_group</string>
+    <string name="doze_sensor_settings_purpose" translatable="false">Allows users to configure sensor-based ambient display gestures such as tilt, pickup, hand wave, and pocket</string>
+    <string name="tilt_gesture_purpose" translatable="false">Whether to briefly show notifications when the device is tilted</string>
+    <string name="pickup_gesture_purpose" translatable="false">Whether to briefly show notifications when the device is picked up</string>
+    <string name="handwave_gesture_purpose" translatable="false">Whether to briefly show notifications when a hand is waved over the device</string>
+    <string name="pocket_gesture_purpose" translatable="false">Whether to briefly show notifications when the device is removed from a pocket</string>
+    <string name="raise_to_wake_purpose" translatable="false">Whether sensor gestures should wake the device instead of pulsing notifications</string>
+    <string name="doze_vibrate_purpose" translatable="false">How long the device should vibrate when pulsing ambient display notifications</string>
     <string name="app_data_usage_screen_purpose" translatable="false">Provides a detailed breakdown of mobile data and Wi-Fi consumption for a specific app, and allows users to manage background data permissions and data saver exceptions.</string>
     <string name="app_data_usage_parameter_purpose" translatable="false">The package name of the app</string>
     <string name="app_package_name_unavailable" translatable="false">The application package information is currently unavailable</string>

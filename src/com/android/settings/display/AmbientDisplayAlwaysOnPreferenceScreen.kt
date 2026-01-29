@@ -31,6 +31,7 @@ import com.android.settings.R
 import com.android.settings.contract.KEY_AMBIENT_DISPLAY_ALWAYS_ON
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceScreenController.isAodSuppressedByBedtime
+import com.android.settings.display.ambient.AmbientAdditionalSettingsPreference
 import com.android.settings.display.ambient.AmbientAODSchedulePreference
 import com.android.settings.display.ambient.AmbientDisplayIllustration
 import com.android.settings.display.ambient.AmbientDisplayMainSwitchPreference
@@ -84,6 +85,7 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
     private val ambientWallpaperPreference = AmbientWallpaperPreference(context)
     private val ambientDozeOnChargePreference = AmbientDozeOnChargePreference(context)
     private val ambientAODSchedulePreference = AmbientAODSchedulePreference(context)
+    private val ambientAdditionalSettingsPreference = AmbientAdditionalSettingsPreference(context)
     private lateinit var keyedObserver: KeyedObserver<String>
 
     override val title: Int
@@ -195,6 +197,16 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
                     R.string.doze_on_charge_category,
                 ) += {
                     +ambientDozeOnChargePreference
+                }
+            }
+            // Additional settings category at the bottom
+            if (ambientAdditionalSettingsPreference.isAvailable(context)) {
+                +Category(
+                    "ambient_additionalGroup",
+                    R.string.doze_additional_group_purpose,
+                    R.string.doze_additional_settings_title
+                ) order 100 += {
+                    +ambientAdditionalSettingsPreference
                 }
             }
         }
