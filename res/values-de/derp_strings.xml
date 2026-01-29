@@ -179,4 +179,23 @@ Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meiste
     <string name="clear_calling_title">Glasklare Anrufe</string>
     <string name="clear_calling_toggle">„Glasklare Anrufe“ verwenden</string>
     <string name="clear_calling_topintro">Reduziert Hintergrundgeräusche während deiner Anrufe</string>
+
+    <!-- Doze settings -->
+    <string name="doze_additional_settings_title">Weitere Einstellungen</string>
+    <string name="doze_additional_settings_summary">Gerätespezifische Einstellungen des Ambient-Modus anpassen</string>
+    <string name="doze_sensor_title">Sensorenbasiert</string>
+    <string name="tilt_title">Neigen</string>
+    <string name="tilt_summary">Benachrichtigungen kurz anzeigen bei Neigen des Geräts</string>
+    <string name="pickup_title">Anheben</string>
+    <string name="pickup_summary">Benachrichtigungen kurz anzeigen bei Anheben des Gerätes</string>
+    <string name="handwave_title">Handbewegung</string>
+    <string name="handwave_summary">Benachrichtigungen kurz anzeigen bei Handbewegung am Gerät</string>
+    <string name="pocket_title">Tasche</string>
+    <string name="pocket_summary">Benachrichtigungen kurz anzeigen, wenn das Gerät aus der Tasche geholt wird</string>
+    <string name="raise_to_wake_title">Gerät aufwecken</string>
+    <string name="raise_to_wake_summary">Gerät aufwecken statt Benachrichtigungen kurz anzuzeigen</string>
+    <string name="doze_vibrate">Vibrieren</string>
+    <string name="doze_vibrate_summary">Vibrationsdauer bei kurz angezeigten Benachrichtigungen</string>
+    <string name="caution">Vorsicht</string>
+    <string name="sensor_warning_message">Einstellungen, die auf Sensoren basieren, unterliegen der Hardware-Kompatibilität. Die Aktivierung von Ambient-Modus-Sensoren kann die Stromaufnahme erhöhen.</string>
 </resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * SPDX-FileCopyrightText: DerpFest AOSP
+ * SPDX-License-Identifier: Apache-2.0
+ -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/doze_vibrate">
+
+    <org.derpfest.support.preferences.SecureSettingSeekBarPreference
+        android:key="doze_gesture_vibrate"
+        android:title="@string/doze_vibrate"
+        android:summary="@string/doze_vibrate_summary"
+        android:defaultValue="0"
+        android:max="2000"
+        settings:min="0"
+        settings:interval="10"
+        settings:units="@string/unit_milliseconds" />
+
+</PreferenceScreen>

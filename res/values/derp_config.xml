@@ -21,4 +21,12 @@
 
     <!-- Show high touch polling rate option -->
     <bool name="config_supportHighTouchRate" translatable="false">false</bool>
+
+    <!-- Minimum interval (ms) between pickup gestures before triggering doze pulse / wake.
+         Default: 2500. Overlay in device config to tune. -->
+    <integer name="config_dozePulsePickup_MinPulseIntervalMs" translatable="false">2500</integer>
+
+    <!-- Wakelock timeout (ms) when waking from pickup (raise-to-wake).
+         Default: 300. Overlay in device config to tune. -->
+    <integer name="config_dozePulsePickup_WakelockTimeoutMs" translatable="false">300</integer>
 </resources>

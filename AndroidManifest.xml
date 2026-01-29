@@ -159,6 +159,8 @@
     <!-- App lock -->
     <uses-permission android:name="android.permission.MANAGE_APP_LOCK" />
 
+    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -261,6 +263,16 @@
                 <action android:name="android.intent.action.LOCALE_CHANGED" />
             </intent-filter>
         </receiver>
+
+        <receiver android:name="com.android.settings.display.ambient.doze.DozeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.settings.display.ambient.doze.DozeService"
+                android:exported="false" />
 
         <service
             android:name=".development.PageAgnosticNotificationService"
