@@ -287,21 +287,10 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
         mProgressBar = findViewById(R.id.fingerprint_progress_bar);
         mVibrator = getSystemService(Vibrator.class);
 
-        mFooterBarMixin = getLayout().getMixin(FooterBarMixin.class);
-        mFooterBarMixin.setSecondaryButton(
-                new FooterButton.Builder(this)
-                        .setText(R.string.security_settings_fingerprint_enroll_enrolling_skip)
-                        .setListener(this::onSkipButtonClick)
-                        .setButtonType(FooterButton.ButtonType.SKIP)
-                        .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
-                        .build()
-        );
-
-        // If it's udfps, set the background color only for secondary button if necessary.
-        if (mCanAssumeUdfps) {
-            mShouldSetFooterBarBackground = false;
-            ((UdfpsEnrollEnrollingView) getLayout()).setSecondaryButtonBackground(
-                    getBackgroundColor());
+        // On UDFPS devices the footer skip button can overlap the low-positioned sensor with
+        // current footer styling. Skip the footer; the header back button is sufficient.
+        if (!mCanAssumeUdfps) {
+            setupEnrollmentFooter();
         }
 
         final LayerDrawable fingerprintDrawable = mProgressBar != null
@@ -341,6 +330,22 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
 
         final Configuration config = getApplicationContext().getResources().getConfiguration();
         maybeHideSfpsText(config);
+    }
+
+    /**
+     * Sets up the footer bar with the skip button. Not used on UDFPS devices, where the footer
+     * would overlap the low-positioned sensor and the header back button is sufficient.
+     */
+    private void setupEnrollmentFooter() {
+        mFooterBarMixin = getLayout().getMixin(FooterBarMixin.class);
+        mFooterBarMixin.setSecondaryButton(
+                new FooterButton.Builder(this)
+                        .setText(R.string.security_settings_fingerprint_enroll_enrolling_skip)
+                        .setListener(this::onSkipButtonClick)
+                        .setButtonType(FooterButton.ButtonType.SKIP)
+                        .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Secondary)
+                        .build()
+        );
     }
 
     @Override
