@@ -48,20 +48,15 @@ public class FaceEnrollActivityDirector extends FragmentActivity {
         Intent enrollIntent;
         boolean trafficLight =
                 getResources().getBoolean(R.bool.config_face_enroll_use_traffic_light);
-        // Use SettingsGoogleFutureFaceEnroll
-        if (trafficLight) {
+        String packageName = getString(R.string.config_face_enroll_traffic_light_package);
+        // Use SettingsGoogleFutureFaceEnroll only when traffic light is enabled and package is set
+        if (trafficLight && !TextUtils.isEmpty(packageName)) {
             enrollIntent =
                     new Intent(
                             "com.google.android.settings.future.biometrics.faceenroll.action.ENROLL");
+            enrollIntent.setPackage(packageName);
         } else {
             enrollIntent = new Intent(this, FaceEnrollEnrolling.class);
-        }
-        if (trafficLight) {
-            String packageName = getString(R.string.config_face_enroll_traffic_light_package);
-            if (TextUtils.isEmpty(packageName)) {
-                throw new IllegalStateException("Package name must not be empty");
-            }
-            enrollIntent.setPackage(packageName);
         }
         enrollIntent.putExtras(intent);
         startActivityForResult(enrollIntent, 1);
