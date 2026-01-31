@@ -95,11 +95,16 @@ public final class BiometricSourcesUtils {
 
     /** Check whether the multiple biometrics enrollment is needed. */
     public static boolean isMultipleBiometricsEnrollmentNeeded(Context context, int userId) {
+        if (!Utils.isMultipleBiometricsSupported(context)) {
+            return false;
+        }
         FaceManager faceManager = Utils.getFaceManagerOrNull(context);
         FingerprintManager fingerprintManager = Utils.getFingerprintManagerOrNull(context);
-        return Utils.isMultipleBiometricsSupported(context)
-                && (faceManager == null || !faceManager.hasEnrolledTemplates(userId))
-                && (fingerprintManager == null || !fingerprintManager.hasEnrolledFingerprints(userId));
+        boolean hasFaceEnrolled =
+                faceManager != null && faceManager.hasEnrolledTemplates(userId);
+        boolean hasFingerprintEnrolled =
+                fingerprintManager != null && fingerprintManager.hasEnrolledFingerprints(userId);
+        return !hasFaceEnrolled && !hasFingerprintEnrolled;
     }
 
     /** Helper method for creating a pending intent. */
