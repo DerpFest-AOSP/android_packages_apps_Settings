@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="top_level_connectivity">Подключения</string>
+    <string name="top_level_personalize">Персонализация</string>
+    <string name="top_level_system">Система</string>
+    <string name="top_level_info">Информация</string>
+    <string name="wellbeing_title">Цифровое благополучие и родительский контроль</string>
+    <string name="wellbeing_summary">Экранное время, таймеры приложений, ночной режим</string>
+</resources>
