@@ -30,8 +30,6 @@ import static org.mockito.Mockito.when;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.hardware.fingerprint.FingerprintManager;
-import android.platform.test.annotations.EnableFlags;
-import android.platform.test.flag.junit.SetFlagsRule;
 import android.provider.Settings;
 
 import com.android.settings.testutils.shadow.ShadowUtils;
@@ -53,8 +51,6 @@ import org.robolectric.util.ReflectionHelpers;
 @Config(shadows = {ShadowUtils.class})
 public class FingerprintSettingsScreenOffUnlockUdfpsPreferenceControllerTest {
 
-    @Rule
-    public final SetFlagsRule mSetFlagsRule = new SetFlagsRule();
     @Mock
     private FingerprintManager mFingerprintManager;
     @Mock
@@ -76,6 +72,7 @@ public class FingerprintSettingsScreenOffUnlockUdfpsPreferenceControllerTest {
         mController = spy(new FingerprintSettingsScreenOffUnlockUdfpsPreferenceController(mContext,
                 "test_key"));
         ReflectionHelpers.setField(mController, "mFingerprintManager", mFingerprintManager);
+        ReflectionHelpers.setField(mController, "mScreenOffUdfpsAvailable", true);
     }
 
     @After
@@ -96,7 +93,6 @@ public class FingerprintSettingsScreenOffUnlockUdfpsPreferenceControllerTest {
     }
 
     @Test
-    @EnableFlags(android.hardware.biometrics.Flags.FLAG_SCREEN_OFF_UNLOCK_UDFPS)
     public void isAvailable_isEnabled_whenUdfpsHardwareDetected_AndHasEnrolledFingerprints() {
         assertThat(mController.isAvailable()).isEqualTo(false);
         assertThat(mController.getAvailabilityStatus()).isEqualTo(UNSUPPORTED_ON_DEVICE);
@@ -109,7 +105,6 @@ public class FingerprintSettingsScreenOffUnlockUdfpsPreferenceControllerTest {
     }
 
     @Test
-    @EnableFlags(android.hardware.biometrics.Flags.FLAG_SCREEN_OFF_UNLOCK_UDFPS)
     public void isUnavailable_isDisabled_whenUdfpsHardwareDetected_AndNoEnrolledFingerprints() {
         assertThat(mController.isAvailable()).isEqualTo(false);
         assertThat(mController.getAvailabilityStatus()).isEqualTo(UNSUPPORTED_ON_DEVICE);
@@ -122,7 +117,6 @@ public class FingerprintSettingsScreenOffUnlockUdfpsPreferenceControllerTest {
     }
 
     @Test
-    @EnableFlags(android.hardware.biometrics.Flags.FLAG_SCREEN_OFF_UNLOCK_UDFPS)
     public void isUnavailable_whenHardwareNotDetected() {
         assertThat(mController.isAvailable()).isFalse();
         assertThat(mController.getAvailabilityStatus()).isEqualTo(UNSUPPORTED_ON_DEVICE);
@@ -135,13 +129,23 @@ public class FingerprintSettingsScreenOffUnlockUdfpsPreferenceControllerTest {
     }
 
     @Test
-    @EnableFlags(android.hardware.biometrics.Flags.FLAG_SCREEN_OFF_UNLOCK_UDFPS)
     public void isUnavailable_onNonUdfpsDevice() {
         assertThat(mController.isAvailable()).isFalse();
         assertThat(mController.getAvailabilityStatus()).isEqualTo(UNSUPPORTED_ON_DEVICE);
         configure_hardwareDetected_isUdfps_hasEnrolledTemplates(
                 true /* isHardwareDetected */,
                 true /* isPowerbuttonFps false implies udfps */,
+                true /* hasEnrolledTemplates */);
+        assertThat(mController.isAvailable()).isFalse();
+        assertThat(mController.getAvailabilityStatus()).isEqualTo(UNSUPPORTED_ON_DEVICE);
+    }
+
+    @Test
+    public void isUnavailable_whenConfigDisabled() {
+        ReflectionHelpers.setField(mController, "mScreenOffUdfpsAvailable", false);
+        configure_hardwareDetected_isUdfps_hasEnrolledTemplates(
+                true /* isHardwareDetected */,
+                false /* isPowerbuttonFps */,
                 true /* hasEnrolledTemplates */);
         assertThat(mController.isAvailable()).isFalse();
         assertThat(mController.getAvailabilityStatus()).isEqualTo(UNSUPPORTED_ON_DEVICE);
