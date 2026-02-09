@@ -75,7 +75,6 @@ public class AboutDevice extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        mDeviceNamePreferenceController = use(DeviceNamePreferenceController.class);
         if (mDeviceNamePreferenceController != null) {
             mDeviceNamePreferenceController.setHost(this /* parent */);
         }
@@ -99,9 +98,6 @@ public class AboutDevice extends DashboardFragment
     }
 
     public void onSetDeviceNameConfirm(boolean confirm) {
-        if (mDeviceNamePreferenceController == null) {
-            return;
-        }
         if (confirm && mPendingDeviceName != null) {
             // Update device name directly since we don't have a preference
             String deviceName = mPendingDeviceName;
