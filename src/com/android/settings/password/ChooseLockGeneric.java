@@ -720,6 +720,8 @@ public class ChooseLockGeneric extends SettingsActivity {
                     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new PowerButtonInstantLockPreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
+            mUnlockSettingsControllers.add(new StatusBarPreferenceController(
+                    getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new LockAfterTimeoutPreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
             mAutoPinConfirmPreferenceController = new AutoPinConfirmPreferenceController(
