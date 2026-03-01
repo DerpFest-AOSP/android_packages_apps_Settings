@@ -65,14 +65,6 @@
           settings:userRestriction="no_config_bluetooth" />
     </com.android.settingslib.widget.UntitledPreferenceCategory>
 
-    <androidx.preference.ListPreference
-        android:key="bluetooth_timeout"
-        android:title="@string/bluetooth_timeout"
-        android:summary="@string/summary_placeholder"
-        android:entries="@array/bluetooth_timeout_entries"
-        android:entryValues="@array/bluetooth_timeout_values"
-        settings:controller="com.android.settings.bluetooth.BluetoothTimeoutPreferenceController"/>
-
     <PreferenceCategory
         android:key="previously_connected_devices"
         android:title="@string/connected_device_saved_title"
@@ -102,6 +94,16 @@
             android:title="@string/connected_device_fast_pair_device_see_all"
             settings:searchable="false" />
     </PreferenceCategory>
+
+    <com.android.settingslib.widget.UntitledPreferenceCategory>
+      <ListPreference
+          android:key="bluetooth_timeout"
+          android:title="@string/bluetooth_timeout"
+          android:summary="@string/summary_placeholder"
+          android:entries="@array/bluetooth_timeout_entries"
+          android:entryValues="@array/bluetooth_timeout_values"
+          settings:controller="com.android.settings.bluetooth.BluetoothTimeoutPreferenceController"/>
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
 
     <com.android.settingslib.widget.UntitledPreferenceCategory>
       <Preference
