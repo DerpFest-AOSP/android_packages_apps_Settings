@@ -63,6 +63,7 @@ public final class SafetyCenterUtils {
             "privacy_work_profile_notifications_category";
     private static final String KEY_NOTIFICATION_WORK_PROFILE_NOTIFICATIONS =
             "privacy_lock_screen_work_profile_notifications";
+    private static final String APP_LOCK_PREF_KEY = "app_lock";
 
     /**
      * Returns preference controllers related to advanced security entries. This is used in {@link

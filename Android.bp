@@ -136,6 +136,11 @@ android_library {
         "androidx.appsearch_appsearch-builtin-types",
         "com.android.extensions.appfunctions.impl",
         "device-state-schema",
+        "androidx.fragment_fragment",
+        "androidx.fragment_fragment-ktx",
+        "kotlin-stdlib",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
 
         // Lineage dependencies
         "org.lineageos.platform.internal",
