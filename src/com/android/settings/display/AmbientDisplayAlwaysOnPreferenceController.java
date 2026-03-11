@@ -29,7 +29,6 @@ import androidx.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
-import com.android.settings.display.AmbientDisplaySettingsController;
 
 // LINT.IfChange
 public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreferenceController {
@@ -52,9 +51,6 @@ public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreference
 
     @Override
     public int getAvailabilityStatus() {
-        if (AmbientDisplaySettingsController.isExternallyManaged(mContext)) {
-            return CONDITIONALLY_UNAVAILABLE;
-        }
         return ambientAodMigration()
                 && isAvailable(getConfig())
                 && !SystemProperties.getBoolean(PROP_AWARE_AVAILABLE, false) ?
