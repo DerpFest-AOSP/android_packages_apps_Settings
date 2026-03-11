@@ -18,8 +18,8 @@ class AmbientDisplaySettingsController(
     key: String
 ) : TogglePreferenceController(context, key) {
 
-    override fun getAvailabilityStatus(): Int =
-        if (isExternallyManaged(mContext)) AVAILABLE else UNSUPPORTED_ON_DEVICE
+    // Never show LineageOS Doze entry; Catalyst AOD / built-in ambient is always first.
+    override fun getAvailabilityStatus(): Int = UNSUPPORTED_ON_DEVICE
 
     override fun getSliceHighlightMenuRes(): Int = R.string.menu_key_display
 
