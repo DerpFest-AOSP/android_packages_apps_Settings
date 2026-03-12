@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Random summary -->
+    <string-array name="derpfest_summaries">
+        <item>致力於開發，而非乞求捐款</item>
+        <item>警告：前方有超酷的玩意兒！</item>
+        <item>一些有趣的口號。blah blah blah...</item>
+        <item>準備好被帶入想像的世界吧</item>
+        <item>DerpNess 即將來襲</item>
+        <item>DerpFest 自訂設定，進來看看絕對是個好選擇</item>
+        <item>Derped 內容的空間</item>
+        <item>功能好到讓人想舔一口</item>
+        <item>小心！在你後面！</item>
+        <item>在一切條件相同的情況下，你註定會輸。</item>
+        <item>我需要的是與磁碟片之間的成熟關係</item>
+        <item>永遠不要讓學校教育干擾你的學習</item>
+        <item>如果沒有什麼值得後悔的，你的人生將會非常空虛</item>
+        <item>名聲或許是短暫的，但籍籍無名卻是永恆的</item>
+        <item>此條目將在五分鐘後自毀</item>
+        <item>事物並不總是看起來的那樣</item>
+        <item>需要自行組裝</item>
+        <item>最後笑的人，通常沒聽懂笑話</item>
+        <item>如果萬事都朝你而來，那你八成是逆向行駛了</item>
+        <item>有遺囑，就有遺產稅</item>
+        <item>這是一則未經授權的控制論公告</item>
+        <item>禁止停車或逗留</item>
+        <item>如果我當選，我會在坦佩爾霍夫機場發放免費鬆餅！</item>
+        <item>當所有溝通手段都失敗時，試著用言語表達</item>
+        <item>永遠不要吃比你頭還大的東西</item>
+        <item>過度的登入或登出訊息是衰老的徵兆</item>
+        <item>願 Fest 與你同在</item>
+        <item>討厭的人儘管討厭吧</item>
+        <item>自訂到你滿意為止</item>
+        <item>少想一點，多自訂一點</item>
+        <item>FBI：功能基礎隔離 (Feature Base Isolation)</item>
+        <item>這就是「很棒」的樣子</item>
+        <item>功能越大，責任越大</item>
+        <item>你親切的好鄰居 Derped Owl</item>
+        <item>別光想，直接做吧</item>
+        <item>自豪地為你呈現，而且完全不需要捐款</item>
+        <item>找不到退化過程</item>
+        <item>Derps 總是會發生，有時也會發生在你身上</item>
+        <item>在雨中搖擺...</item>
+        <item>#你現在被 Derped 了！</item>
+        <item>超多選擇！</item>
+        <item>酷小孩聚集的地方...</item>
+        <item>(把手機丟向 David)</item>
+        <item>聽起來是什麼樣，就是什麼樣...</item>
+        <item>裡面有好東西</item>
+        <item>免費糖果！！</item>
+        <item>&#8593; &#8593; &#8595; &#8595; &#8592; &#8594; &#8592; &#8594; B A</item> 
+    </string-array>
+</resources>

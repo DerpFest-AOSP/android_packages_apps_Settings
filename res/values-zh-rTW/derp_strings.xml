@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- DerpFest -->
+    <string name="derpfest_title" translatable="false">DerpFest</string>
+    <string name="about_device_name">裝置</string>
+
+    <!-- About phone screen, DerpFest version -->
+    <string name="derpfest_version">DerpFest 版本</string>
+    <string name="derpfest_version_default">未知</string>
+
+    <!-- Hardware info -->
+    <string name="soc_model">SoC 型號</string>
+    <string name="total_ram">總記憶體 (RAM)</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">顯示通知歷史紀錄</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">少於 1 分鐘</string> 
+ 
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今日使用 %1$s</string>
+
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">已複製到剪貼簿</string>
+    <string name="longpress_to_clipboard">長按以複製</string>
+
+    <!-- About Phone -->
+    <string name="keywords_top_level_device_info">關於手機, derpfest, 裝置名稱</string>
+    <string name="more_device_info">更多資訊</string>
+    <string name="more_device_info_summary">顯示更多裝置資訊</string>
+
+    <!-- About Device - Custom firmware version display -->
+    <string name="about_device_firmware_version">Android 16 QPR2</string>
+
+    <!-- About Phone Header -->
+    <string name="derpfest_device_title">裝置</string>
+    <string name="derpfest_memory_storage_title">記憶體</string>
+    <string name="derpfest_battery_size_title">電池容量</string>
+    <string name="derpfest_screen_res_title">螢幕解析度</string>
+
+    <!-- My Device - Phone Number Category -->
+    <string name="sim_num_info_cat">電話號碼</string>
+
+    <!-- DerpFest maintainer -->
+    <string name="derpfest_summary">由 %s 建構</string>
+    <string name="derpfest_maintainer">非官方維護者</string>
+
+    <!-- DerpFest official banner -->
+    <string name="derp_official_title">你知道嗎？</string>
+    <string name="derp_official_summary">您目前正在執行官方版本的 DerpFest。</string>
+
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">顯示環境顯示</string>
+    <string name="doze_gesture_ambient_summary">顯示微光顯示 (Ambient Display) 而非完全喚醒螢幕</string>
+    <string name="gesture_wake_ambient">顯示環境顯示</string>
+    <string name="gesture_wake">完全喚醒</string>
+
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">音樂跑馬燈</string>
+    <string name="pulse_on_new_tracks_summary">播放新曲目時顯示微光顯示</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">遊戲空間</string>
+    <string name="game_space_summary">增強您的遊戲體驗</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">惱人的通知</string>
+    <string name="notification_sound_vib_screen_on_summary">螢幕開啟時為通知播放音效與震動</string>
+
+    <!-- Heads up notifications -->
+    <string name="heads_up_notifications_title">懸浮通知</string>
+    <string name="heads_up_blacklist_title">懸浮通知黑名單</string>
+
+    <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
+    <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">三指滑動截圖</string>
+    <string name="swipe_to_screenshot_gesture_summary">三指滑動以進行螢幕截圖</string>
+
+    <!-- Smart Pause -->
+    <string name="adaptive_playback_screen_title">智慧暫停</string>
+    <string name="adaptive_playback_enabled">使用智慧暫停</string>
+    <string name="adaptive_playback_disabled_summary">關閉</string>
+    <string name="adaptive_playback_intro_text">當音量靜音時自動暫停媒體播放，並在設定時間內復原音量時自動復原播放。</string>
+    <string name="adaptive_playback_timeout_title">使用逾時時間</string>
+    <string name="adaptive_playback_timeout_none">無逾時</string>
+    <string name="adaptive_playback_timeout_none_summary">開啟 (無逾時)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">開啟 (30 秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
+    <string name="adaptive_playback_timeout_1_min_summary">開啟 (1 分鐘)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分鐘</string>
+    <string name="adaptive_playback_timeout_2_min_summary">開啟 (2 分鐘)</string>
+    <string name="adaptive_playback_timeout_5_min">5 分鐘</string>
+    <string name="adaptive_playback_timeout_5_min_summary">開啟 (5 分鐘)</string>
+    <string name="adaptive_playback_timeout_10_min">10 分鐘</string>
+    <string name="adaptive_playback_timeout_10_min_summary">開啟 (10 分鐘)</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通話震動選項</string>
+    <string name="incall_vibrate_connect_title">接通時震動</string>
+    <string name="incall_vibrate_connect_summary">啟用以在通話接通後震動</string>
+    <string name="incall_vibrate_call_wait_title">插撥時震動</string>
+    <string name="incall_vibrate_call_wait_summary">啟用以在有插撥時震動</string>
+    <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
+    <string name="incall_vibrate_disconnect_summary">啟用以在通話結束後震動</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">循環切換模式</string>
+    <string name="prevent_ringing_option_cycle_summary">開啟 (循環切換模式)</string>
+    <string name="prevent_ringing_option_normal">一般</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
+    <string name="display_cutout_force_fullscreen_summary">強制應用程式忽略瀏海區域</string>
+    <string name="app_list_search">搜尋</string>
+    <string name="app_list_search_apps">搜尋應用程式</string>
+    <string name="app_list_loading">正在載入應用程式\u2026</string>
+
+    <!-- Timeout entries -->
+    <string name="timeout_summary_never">永不</string>
+    <string name="timeout_summary_15secs">15 秒</string>
+    <string name="timeout_summary_30secs">30 秒</string>
+    <string name="timeout_summary_1min">1 分鐘</string>
+    <string name="timeout_summary_2mins">2 分鐘</string>
+    <string name="timeout_summary_5mins">5 分鐘</string>
+    <string name="timeout_summary_10mins">10 分鐘</string>
+    <string name="timeout_summary_30mins">30 分鐘</string>
+    <string name="timeout_summary_1hour">1 小時</string>
+    <string name="timeout_summary_2hours">2 小時</string>
+    <string name="timeout_summary_4hours">4 小時</string>
+    <string name="timeout_summary_8hours">8 小時</string>
+    <string name="timeout_summary_12hours">12 小時</string>
+    <string name="timeout_summary_24hours">24 小時</string>
+    <string name="timeout_summary_36hours">36 小時</string>
+    <string name="timeout_summary_48hours">48 小時</string>
+    <string name="timeout_summary_72hours">72 小時</string>
+
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">自動關閉 Wi-Fi</string>
+
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">若未連接網路，Wi-Fi 將會在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉</string>
+    <string name="wifi_timeout_summary2">已停用</string>
+
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">藍牙逾時</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">若無裝置連接，藍牙將會在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉</string>
+    <string name="bluetooth_timeout_summary2">不自動關閉藍牙</string>
+
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_ap_band_title">基地台頻段</string>
+    <string name="wifi_hotspot_hidden_ssid_title">隱藏網路</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的行動基地台名稱將不會出現在可用 WLAN 網路清單中。</string>
+    <string name="wifi_hotspot_client_manager_title">已連接裝置</string>
+    <string name="wifi_hotspot_client_manager_summary">列出並管理已連接至基地台的裝置</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出已連接至基地台的裝置</string>
+    <string name="wifi_hotspot_client_limit_title">已連接裝置限制</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已封鎖裝置</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已連接裝置</string>
+    <string name="wifi_hotspot_block_client_dialog_title">封鎖裝置</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此動作將使「<xliff:g id="device_name">%1$s</xliff:g>」與本裝置斷開連接並加入封鎖清單</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解除封鎖裝置</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">裝置「<xliff:g id="device_name">%1$s</xliff:g>」將能夠連接至此基地台</string>
+    <string name="wifi_hotspot_client_manager_footer_text">目前沒有可用的用戶端。連接與封鎖的裝置會在可用時列於此處。</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz 與 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz 與 6 GHz</string>
+    <string name="wifi_band_60ghz" translatable="false">60 GHz</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">最多可連接 <xliff:g id="device_num">%1$d</xliff:g> 個裝置至此基地台</item>
+        <item quantity="one">最多可連接 <xliff:g id="device_num">%1$d</xliff:g> 個裝置至此基地台</item>
+    </plurals>
+
+    <!-- Custom Timeouts -->
+    <string name="custom_timeout_summary_never">永不</string>
+    <string name="custom_timeout_summary_5secs">5 秒</string>
+    <string name="custom_timeout_summary_10secs">10 秒</string>
+    <string name="custom_timeout_summary_15secs">15 秒</string>
+    <string name="custom_timeout_summary_30secs">30 秒</string>
+    <string name="custom_timeout_summary_1min">1 分鐘</string>
+    <string name="custom_timeout_summary_2mins">2 分鐘</string>
+    <string name="custom_timeout_summary_5mins">5 分鐘</string>
+    <string name="custom_timeout_summary_10mins">10 分鐘</string>
+    <string name="custom_timeout_summary_20mins">20 分鐘</string>
+    <string name="custom_timeout_summary_30mins">30 分鐘</string>
+    <string name="custom_timeout_summary_1hour">1 小時</string>
+    <string name="custom_timeout_summary_2hours">2 小時</string>
+    <string name="custom_timeout_summary_4hours">4 小時</string>
+    <string name="custom_timeout_summary_8hours">8 小時</string>
+    <string name="custom_timeout_summary_12hours">12 小時</string>
+    <string name="custom_timeout_summary_24hours">24 小時</string>
+    <string name="custom_timeout_summary_36hours">36 小時</string>
+    <string name="custom_timeout_summary_48hours">48 小時</string>
+    <string name="custom_timeout_summary_72hours">72 小時</string>
+
+    <!-- Default Timeouts -->
+    <string name="custom_timeout_summary_1hour_def">1 小時 (預設)</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充電時永遠顯示</string>
+    <string name="doze_on_charge_summary">充電時永遠顯示時間與資訊</string>
+    <string name="doze_on_charge_category">充電選項</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux 狀態</string>
+    <string name="selinux_status_disabled">已停用</string>
+    <string name="selinux_status_permissive">寬容模式 (Permissive)</string>
+    <string name="selinux_status_enforcing">強制模式 (Enforcing)</string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB 設定</string>
+    <string name="usb_default_config_summary">選擇透過 USB 連接至裝置時的預設行為</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">無線電資訊</string>
+
+    <!-- Units -->
+    <string name="unit_milliseconds">毫秒</string>
+    <string name="unit_pixels">dp</string>
+    <string name="unit_hz">Hz</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">鈴聲震動模式</string>
+    <string name="notification_vibration_pattern_title">通知震動模式</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">自訂</string>
+    <string name="custom_vibration_pattern_title">自訂模式</string>
+    <string name="custom_vibration_pattern_summary">設定自訂震動模式</string>
+
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">自訂震動模式</string>
+    <string name="notification_custom_vibrate_summary">僅取代預設模式\n應用程式設定的模式優先</string>
+    <string name="notification_custom_vibrate_slider1">震動時間</string>
+    <string name="notification_custom_vibrate_slider2">暫停時間</string>
+
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">不驗證</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">未指定憑證。您的連接將不具備隱私性。</string>
+
+    <!-- Back gesture animation -->
+    <string name="navbar_gesture_handle_category">手勢控制條</string>
+    <string name="back_gesture_arrow_title">返回手勢動畫</string>
+    <string name="back_gesture_arrow_summary">顯示返回手勢的動畫箭頭</string>
+
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">觸覺回饋</string>
+    <string name="back_gesture_haptic_summary">執行返回手勢時震動</string>
+
+    <!-- DerpFest Customizations on homepage -->
+    <string name="derpfest_customizations_title">DerpFest 自訂設定</string>
+    <string name="derpfest_customizations_summary">存放故障與實驗性功能的區域</string>
+    <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
+
+    <!-- IME button space -->
+    <string name="show_ime_space_title">顯示輸入法按鈕空間</string>
+    <string name="show_ime_space_summary">啟用輸入法快速切換功能，以便在輸入時從螢幕底部的功能列切換輸入法或隱藏螢幕鍵盤</string>
+
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">背景程式</string>
+
+    <!-- Security dialog -->
+    <!-- DO NOT TRANSLATE -->
+    <string name="aosp_security_bulletin_url" translatable="false" />
+
+    <string name="security_dialog_title">安全性更新</string>
+    <string name="security_dialog_neutral_button">AOSP 安全性公告</string>
+    <string name="android_security_title">AOSP 安全性修補程式等級</string>
+    <string name="android_security_summary">Android 安全性更新是 Android 平台與驅動其執行之廠商二進位檔案的補丁集合。由於這些二進位檔案屬於閉源，我們必須依賴廠商提供給 OEM，再由 OEM 派送給使用者，我們才能將其加入建構中。由於我們完全無法控制此過程，我們希望說明清楚，我們僅會更新來自 Android 開放原始碼專案 (AOSP) 儲存庫的安全性修補程式等級。通常情況下，廠商安全性修補程式等級將與最新的原廠 ROM 版本相同。</string>
+    <string name="vendor_security_title">廠商修補程式等級</string>
+
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">隱藏開發者狀態</string>
+    <string name="hide_developer_status_summary">對選定的應用程式隱藏開發者狀態</string>
+
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">清除搜尋查詢</string>
+    <string name="language_picker_page">語言選擇頁面</string>
+    <string name="search_region">搜尋地區</string>
+    <string name="search_region_page">搜尋地區頁面</string>
+
+    <!-- Settings suggestions title shown at the bottom of system settings [CHAR LIMIT=60] -->
+    <string name="settings_suggestions_title">正在尋找其他設定？</string>
+
+    <!-- Button settings title [CHAR LIMIT=60] -->
+    <string name="button_settings_title">按鍵設定</string>
+    <string name="gamespace_title">遊戲空間 (GameSpace)</string>
+
+    <!-- DerpFest suggestion summaries for homepage suggestion card [CHAR LIMIT=55] -->
+    <string name="derpfest_suggestion_gamespace_summary">最佳化您的遊戲體驗</string>
+    <string name="derpfest_suggestion_customizations_title">DerpFest 自訂設定</string>
+    <string name="derpfest_suggestion_customizations_summary">自訂您的裝置外觀與行為</string>
+    <string name="derpfest_suggestion_spoofing_summary">管理裝置指紋與屬性</string>
+    <string name="derpfest_suggestion_button_settings_summary">設定硬體按鍵動作</string>
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">智慧 5G</string>
+    <string name="smart_5g_summary">自動在 5G 與 4G 間切換以減少電池消耗</string>
+
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">微光顯示 (AOD) 排程</string>
+    <string name="always_on_display_schedule_sunset">日落</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
+    <string name="always_on_display_schedule_mixed_sunset">從日落開始至指定時間開啟</string>
+    <string name="always_on_display_schedule_mixed_sunrise">從指定時間開始至日出開啟</string>
+    <string name="disabled">已停用</string>
+
+    <!-- Pocket mode -->
+    <string name="pocket_judge_title">口袋模式偵測</string>
+    <string name="pocket_judge_summary">當裝置在口袋中時，封鎖螢幕與按鍵輸入</string>
+
+    <!-- Enforce DNS for VPN -->
+    <string name="vpn_enforce_dns_title">VPN 連接時停用</string>
+    <string name="vpn_enforce_dns_summary">當連接 VPN 時停用私人 DNS。斷開連接後將會復原。</string>
+
+    <!-- Transient task mode (Tadi mode) -->
+    <string name="transient_task_mode_title">暫時任務模式</string>
+    <string name="transient_task_mode_dialog_title">暫時任務模式 (重啟裝置以套用變更)</string>
+    <string name="transient_task_mode_summary">當使用返回鍵關閉應用程式的最後一個活動時，將該應用程式從最近使用的應用程式中移除。</string>
+    <string name="transient_task_mode_default">停用 (預設)</string>
+    <string name="transient_task_mode_allow">啟用 (部分應用程式會保留)</string>
+    <string name="transient_task_mode_force">強制 (覆寫應用程式行為)</string>
+
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">重設偏好設定</string>
+    <string name="reset_auto_brightness_adjustment_summary">讓系統忘記您的亮度偏好設定並將其重設為預設值</string>
+    <string name="reset_auto_brightness_adjustment_done">自動亮度偏好設定已重設</string>
+
+    <!-- Data Usage Cycle -->
+    <string name="billing_cycle_type_title">行動數據使用週期類型</string>
+    <string name="billing_cycle_type_monthly">每月</string>
+    <string name="billing_cycle_type_weekly">每週</string>
+    <string name="billing_cycle_type_daily">每日</string>
+    <string name="billing_cycle_less_than_one_hour_left">剩餘少於 1 小時</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {剩餘 # 小時}
+        other   {剩餘 # 小時}
+        }</string>
+    <string name="cycle_type_weekly_title">使用週期重設日期</string>
+    <string name="cycle_type_weekly_sub">每週的第幾天：\n1 = 星期一</string>
+    <string name="cycle_type_daily_title">使用週期重設小時</string>
+    <string name="cycle_type_daily_sub">每天的第幾小時：</string>
+
+    <!-- wake gestures haptics -->
+    <string name="doze_gesture_vibrate_title">觸覺回饋</string>
+    <string name="doze_gesture_vibrate_summary">執行此手勢時震動</string>
+
+    <!-- Ambient timeout -->
+    <string name="ambient_time_out_title">環境通知逾時</string>
+    <string name="ambient_time_out_summary">%1$d 秒</string>
+
+    <!-- Per-app volume -->
+    <string name="app_volume">應用程式音量</string>
+    <string name="app_volume_title">個別應用程式音量控制</string>
+    <string name="app_volume_summary">在音量對話框中顯示個別應用程式的音量按鈕</string>
+
+    <!-- Per-app configs -->
+    <string name="per_app_config_empty_text">無已安裝應用程式支援目前設定</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="per_app_refresh_rate_title">個別應用程式更新率配置</string>
+    <string name="per_app_refresh_rate_summary">為每個應用程式個別配置更新率</string>
+    <string name="per_app_refresh_rate_default">遵循系統</string>
+
+    <!-- Screen refresh rate -->
+    <string name="screen_refresh_rate_title">螢幕更新率</string>
+    <string name="min_refresh_rate_title">最低更新率</string>
+    <string name="max_refresh_rate_title">最高更新率</string>
+    <string name="battery_saver_refresh_rate_title">降低更新率</string>
+    <string name="battery_saver_refresh_rate_summary">當省電模式開啟時，使用 60 Hz 螢幕更新率以節省電力</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">極致更新率已開啟</string>
+
+    <!-- Extreme refresh rate -->
+    <string name="extreme_refresh_rate_title">極致更新率</string>
+    <string name="extreme_refresh_rate_summary">強制所有應用程式使用最高更新率</string>
+    <string name="extreme_refresh_rate_warning">這將確保系統選取最高更新率，並忽略使用者選取或應用程式偏好的選項。需要特定更新率的應用程式可能會執行異常。</string>
+
+    <!-- Confirm dialog -->
+    <string name="confirm_before_enable_title">確定要啟用嗎？</string>
+</resources>
