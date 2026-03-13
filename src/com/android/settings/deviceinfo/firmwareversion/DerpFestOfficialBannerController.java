@@ -32,7 +32,6 @@ public class DerpFestOfficialBannerController extends BasePreferenceController {
     private static final String TAG = "derpfestOfficialBannerCtrl";
 
     private static final String KEY_DERP_VERSION_PROP = "ro.derpfest.releasetype";
-    private static final String DEFAULT_MAINTAINER = "Unofficial Maintainer";
 
     private boolean mIsOfficialBuild = false;
 
@@ -45,15 +44,12 @@ public class DerpFestOfficialBannerController extends BasePreferenceController {
         String mAvailable = SystemProperties.get(KEY_DERP_VERSION_PROP,
                 mContext.getString(R.string.unknown));
         String maintainer = mContext.getString(R.string.derpfest_maintainer);
-        
-        if (("Official".equals(mAvailable) || "OFFICIAL".equals(mAvailable)) && 
-            !TextUtils.isEmpty(maintainer) && 
-            !DEFAULT_MAINTAINER.equals(maintainer)) {
+        // Only show banner when build is official and device tree set a maintainer (non-empty)
+        if (("Official".equals(mAvailable) || "OFFICIAL".equals(mAvailable))
+                && !TextUtils.isEmpty(maintainer)) {
             return AVAILABLE;
         }
-        else {
-            return CONDITIONALLY_UNAVAILABLE;
-        }
+        return CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
