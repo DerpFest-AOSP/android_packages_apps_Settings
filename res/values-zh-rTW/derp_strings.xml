@@ -49,7 +49,7 @@
 
     <!-- DerpFest maintainer -->
     <string name="derpfest_summary">由 %s 建構</string>
-    <string name="derpfest_maintainer">非官方維護者</string>
+    <string name="derpfest_maintainer_unofficial">非官方維護者</string>
 
     <!-- DerpFest official banner -->
     <string name="derp_official_title">你知道嗎？</string>

@@ -7,6 +7,7 @@ package com.android.settings.deviceinfo.aboutphone;
 
 import android.content.Context;
 import android.os.SystemProperties;
+import android.text.TextUtils;
 import android.widget.TextView;
 import androidx.preference.Preference;
 import com.android.settings.R;
@@ -30,6 +31,9 @@ public class DerpFestHeaderPreferenceController extends BasePreferenceController
     public void updateState(Preference preference) {
         String summary = mContext.getString(R.string.derpfest_summary);
         String maintainer = mContext.getString(R.string.derpfest_maintainer);
+        if (TextUtils.isEmpty(maintainer)) {
+            maintainer = mContext.getString(R.string.derpfest_maintainer_unofficial);
+        }
         LayoutPreference layoutPreference = (LayoutPreference) preference;
         ((TextView) layoutPreference.findViewById(R.id.status_summary)).setText(String.format(summary, maintainer));
     }

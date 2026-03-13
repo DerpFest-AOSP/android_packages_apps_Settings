@@ -46,6 +46,7 @@
 
     <!-- DerpFest maintainer -->
     <string name="derpfest_summary">Gebaut von %s</string>
+    <string name="derpfest_maintainer_unofficial">Inoffizieller Maintainer</string>
 
     <!-- DerpFest official banner -->
     <string name="derp_official_title">Wusstest Du schon?</string>

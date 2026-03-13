@@ -47,9 +47,11 @@
     <!-- My Device - Phone Number Category -->
     <string name="sim_num_info_cat">Phone number</string>
 
-    <!-- DerpFest maintainer -->
+    <!-- DerpFest maintainer: empty by default; device trees overlay with maintainer name.
+         When empty, derpfest_maintainer_unofficial is shown (translatable). -->
     <string name="derpfest_summary">Built by %s</string>
-    <string name="derpfest_maintainer">Unofficial Maintainer</string>
+    <string name="derpfest_maintainer"></string>
+    <string name="derpfest_maintainer_unofficial">Unofficial Maintainer</string>
 
     <!-- DerpFest official banner -->
     <string name="derp_official_title">Did you know?</string>
