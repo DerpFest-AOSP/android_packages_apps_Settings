@@ -122,6 +122,11 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
+    <!-- Per-app extended dark theme -->
+    <string name="extended_dark_theme_per_app_title">Apps using standard dark</string>
+    <string name="extended_dark_theme_per_app_summary">Choose apps that use standard dark theme instead of expanded dark</string>
+
     <string name="app_list_search">Search</string>
     <string name="app_list_search_apps">Search apps</string>
     <string name="app_list_loading">Loading apps\u2026</string>

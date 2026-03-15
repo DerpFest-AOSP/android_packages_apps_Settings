@@ -82,6 +82,11 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
     <string name="display_cutout_force_fullscreen_summary">Apps dazu zwingen, die Display-Aussparung zu ignorieren</string>
+
+    <!-- Per-app extended dark theme -->
+    <string name="extended_dark_theme_per_app_title">Apps mit Standard-Dunkelmodus</string>
+    <string name="extended_dark_theme_per_app_summary">Apps wählen, die Standard-Dunkelmodus statt erweitertem Dunkelmodus nutzen</string>
+
     <string name="display_cutout_force_fullscreen_search">Suchen</string>
     <string name="display_cutout_force_fullscreen_search_apps">Apps suchen</string>
     <string name="display_cutout_force_fullscreen_loading">Apps werden geladen\u2026</string>
