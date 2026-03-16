@@ -42,7 +42,7 @@
                 android:fontFamily="@font/gsans_medium"
                 android:textColor="?android:attr/textColorSecondary"
                 android:textSize="20sp"
-                android:text="Did you know?"/>
+                android:text="@string/derp_official_title"/>
         </LinearLayout>
 
         <TextView
@@ -54,7 +54,7 @@
             android:fontFamily="@font/gsans_regular"
             android:textColor="?android:attr/textColorSecondary"
             android:textSize="14sp"
-            android:text="That you're currently running an official build of DerpFest?"/>
+            android:text="@string/derp_official_summary"/>
     </LinearLayout>
 
     <Space
