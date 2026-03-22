@@ -76,6 +76,45 @@
             settings:keywords="@string/keywords_color_temperature"
             settings:controller="com.android.settings.display.ColorTemperaturePreferenceController" />
 
+        <org.derpfest.support.preferences.ProperSeekBarPreference
+            android:key="color_hue"
+            android:title="@string/color_hue_title"
+            android:persistent="false"
+            android:defaultValue="0"
+            android:max="180"
+            settings:min="-180"
+            settings:units="°"
+            settings:showSign="true"
+            settings:showButtons="false"
+            settings:continuousUpdates="true"
+            settings:controller="com.android.settings.display.ColorHuePreferenceController" />
+
+        <org.derpfest.support.preferences.ProperSeekBarPreference
+            android:key="color_contrast"
+            android:title="@string/color_contrast_title"
+            android:persistent="false"
+            android:defaultValue="100"
+            android:max="200"
+            settings:min="50"
+            settings:units="%"
+            settings:showSign="true"
+            settings:showButtons="false"
+            settings:continuousUpdates="true"
+            settings:controller="com.android.settings.display.ColorContrastPreferenceController" />
+
+        <org.derpfest.support.preferences.ProperSeekBarPreference
+            android:key="color_picture_brightness"
+            android:title="@string/color_picture_brightness_title"
+            android:persistent="false"
+            android:defaultValue="100"
+            android:max="200"
+            settings:min="50"
+            settings:units="%"
+            settings:showSign="true"
+            settings:showButtons="false"
+            settings:continuousUpdates="true"
+            settings:controller="com.android.settings.display.ColorPictureBrightnessPreferenceController" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
