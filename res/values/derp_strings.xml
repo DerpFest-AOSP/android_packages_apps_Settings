@@ -449,6 +449,15 @@
     <string name="touch_rate_title">Increase touch polling rate</string>
     <string name="touch_rate_summary">Improves touch response by utilizing a higher polling rate</string>
 
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display engine</string>
+    <string name="display_engine_mode_title">Reality display engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality engine</string>
+    <string name="vivid_engine_mode_title">Vivid display</string>
+    <string name="triluminous_engine_mode_title">Triluminous display</string>
+    <string name="display_engine_default">Default</string>
+    <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, X-Reality mode for improved detail and color accuracy, and Triluminous mode for a wider color range.</string>
+
     <!-- Doze sensor settings -->
     <string name="doze_additional_settings_title">Additional settings</string>
     <string name="doze_additional_settings_summary">Customize device specific ambient display settings</string>
