@@ -180,6 +180,15 @@ Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meiste
     <string name="clear_calling_toggle">„Glasklare Anrufe“ verwenden</string>
     <string name="clear_calling_topintro">Reduziert Hintergrundgeräusche während deiner Anrufe</string>
 
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Display-Engine</string>
+    <string name="display_engine_mode_title">Reality-Display-Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality-Engine</string>
+    <string name="vivid_engine_mode_title">Lebendige Darstellung</string>
+    <string name="triluminous_engine_mode_title">Triluminous-Darstellung</string>
+    <string name="display_engine_default">Standard</string>
+    <string name="display_engine_mode_footer_text">Inspiriert von Sonys Bravia/X-Reality-Engine. Die Display-Engine bietet den Modus „Vivid“ für höhere Helligkeit und Farbsättigung, den Modus „X-Reality“ für mehr Details und Farbtreue sowie den Modus „Triluminous“ für einen erweiterten Farbraum.</string>
+
     <!-- Doze settings -->
     <string name="doze_additional_settings_title">Weitere Einstellungen</string>
     <string name="doze_additional_settings_summary">Gerätespezifische Einstellungen des Ambient-Modus anpassen</string>
