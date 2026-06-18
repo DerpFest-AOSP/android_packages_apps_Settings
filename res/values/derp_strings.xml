@@ -479,4 +479,19 @@
     <string name="caution">Caution</string>
     <string name="sensor_warning_message">Settings based on sensors are subject to hardware compatibility. Enabling sensors for ambient display may increase power drain.</string>
     <string name="pickup_sensor" translatable="false"></string>
+
+    <!-- Title text for update device category in system navigation [CHAR LIMIT=60] -->
+    <string name="update_device_category_title">Update device</string>
+
+    <!-- Title text for interaction category in system navigation [CHAR LIMIT=60] -->
+    <string name="interaction_category_title">Interaction</string>
+
+    <!-- Title text for automation & intelligence category in system navigation [CHAR LIMIT=60] -->
+    <string name="automation_intelligence_category_title">Automation &amp; Intelligence</string>
+
+    <!-- Title text for system management category in system navigation [CHAR LIMIT=60] -->
+    <string name="system_management_category_title">System management</string>
+
+    <!-- Title text for manage data category in system navigation [CHAR LIMIT=60] -->
+    <string name="manage_data_category_title">Manage data</string>
 </resources>

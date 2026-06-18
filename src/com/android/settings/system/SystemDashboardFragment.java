@@ -22,6 +22,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 
@@ -34,6 +35,8 @@ import com.android.settingslib.search.SearchIndexable;
 @SearchIndexable
 public class SystemDashboardFragment extends DashboardFragment {
 
+    private static final String KEY_ADVANCED = "advanced_category";
+
     private static final String TAG = "SystemDashboardFrag";
 
     @Override
@@ -45,6 +48,38 @@ public class SystemDashboardFragment extends DashboardFragment {
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
         }
+    }
+
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        super.onCreatePreferences(savedInstanceState, rootKey);
+
+        final PreferenceScreen screen = getPreferenceScreen();
+        if (screen == null) {
+            return;
+        }
+
+        // Move any remaining preferences that are not in a category to the Advanced category.
+        // Temporary fallback until all external dependencies are propagated to AOSP
+        final PreferenceCategory advancedCategory = findPreference(KEY_ADVANCED);
+        if (advancedCategory != null) {
+            for (int i = screen.getPreferenceCount() - 1; i >= 0; i--) {
+                final Preference preference = screen.getPreference(i);
+                if (!(preference instanceof PreferenceCategory)) {
+                    // This is a stray preference, move it to the advanced category
+                    movePreference(preference, advancedCategory);
+                }
+            }
+        }
+    }
+
+    private void movePreference(Preference preference, PreferenceCategory targetCategory) {
+        if (preference == null || targetCategory == null) {
+            return;
+        }
+
+        getPreferenceScreen().removePreference(preference);
+        targetCategory.addPreference(preference);
     }
 
     @Override
