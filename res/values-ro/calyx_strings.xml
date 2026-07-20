@@ -91,7 +91,7 @@
     <string name="update_info_title">Informații despre actualizările CalyxOS</string>
     <string name="work_hours_end_on_summary2">Oprește profilul de serviciu zilnic la <xliff:g id="end_time">%1$s</xliff:g></string>
     <string name="notify">Notifică</string>
-    <string name="private_space_separate_vpn_text"><b> Aplicațiile nu folosesc VPN-ul existent </b>\nPentru ca aplicațiile private să utilizeze un VPN, trebuie să configurezi și unul în spațiul privat. În mod alternativ, poți activa un VPN global</string>
+    <string name="private_space_separate_vpn_text"><b>Aplicațiile nu folosesc VPN-ul existent</b>\nPentru ca aplicațiile private să utilizeze un VPN, trebuie să configurezi și unul în spațiul privat. În mod alternativ, poți activa un VPN global</string>
     <string name="user_switch_on_lockscreen">Schimbă utilizatorii de pe ecranul de blocare</string>
     <string name="user_switch_on_lockscreen_summary">Permite comutarea atunci când acest utilizator este blocat</string>
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">Comutatorul utilizatorului este necesar pentru a adăuga utilizatori de pe ecranul de blocare</string>

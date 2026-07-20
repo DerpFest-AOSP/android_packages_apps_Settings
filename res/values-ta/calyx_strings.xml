@@ -19,7 +19,7 @@
     <string name="timeout_summary_15secs">15 வினாடிகள்</string>
     <string name="timeout_summary_30secs">30 வினாடிகள்</string>
     <string name="timeout_summary_30mins">30 நிமிடங்கள்</string>
-    <string name="timeout_summary_1hour">1 மணி நேரம்</string>
+    <string name="timeout_summary_1hour">1 மணிநேரம்</string>
     <string name="timeout_summary_2hours">2 மணி நேரம்</string>
     <string name="timeout_summary_4hours">4 மணி நேரம்</string>
     <string name="timeout_summary_8hours">8 மணி நேரம்</string>
