@@ -224,4 +224,8 @@
     <!-- Haptic feedback -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
+
+    <!-- Advanced VPN -->
+    <string name="advanced_vpn_preference_group_title">Built-in</string>
+    <string name="vpn_preference_group_title">Others</string>
 </resources>
