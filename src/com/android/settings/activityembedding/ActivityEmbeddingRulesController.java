@@ -52,6 +52,7 @@ import com.android.settings.privatespace.PrivateSpaceSetupActivity;
 import com.android.settings.privatespace.delete.PrivateSpaceDeleteActivity;
 import com.android.settings.remoteauth.RemoteAuthActivity;
 import com.android.settings.remoteauth.RemoteAuthActivityInternal;
+import com.android.settings.wifi.dpp.WifiDppConfiguratorActivity;
 import com.android.settingslib.users.CreateUserActivity;
 
 import java.util.Collection;
@@ -276,6 +277,7 @@ public class ActivityEmbeddingRulesController {
         addActivityFilter(activityFilters, ChooseLockPattern.class);
         addActivityFilter(activityFilters, PrivateSpaceSetupActivity.class);
         addActivityFilter(activityFilters, PrivateSpaceDeleteActivity.class);
+        addActivityFilter(activityFilters, WifiDppConfiguratorActivity.class);
         String action = mContext.getString(R.string.config_avatar_picker_action);
         addActivityFilter(activityFilters, new Intent(action));
         addActivityFilter(activityFilters, CreateUserActivity.class);

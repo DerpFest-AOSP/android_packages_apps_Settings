@@ -228,4 +228,7 @@
     <!-- Advanced VPN -->
     <string name="advanced_vpn_preference_group_title">Built-in</string>
     <string name="vpn_preference_group_title">Others</string>
+
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">pause the animation</string>
 </resources>
