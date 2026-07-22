@@ -190,4 +190,34 @@
     <string name="blur_intensity_value">%1$d%%</string>
     <string name="blur_settings_summary_on">An (%1$d%%)</string>
     <string name="blur_settings_summary_off">Aus</string>
+
+    <!-- App Lock -->
+    <string name="app_lock_settings_title">App-Sperre</string>
+    <string name="app_lock_settings_summary">App-Sperre anpassen und gesperrte Apps wählen</string>
+    <string name="app_lock_customization_category">Anpassung</string>
+    <string name="app_lock_apps_category">Gesperrte Apps</string>
+    <string name="app_lock_auto_biometric_prompt_title">Automatische biometrische Abfrage</string>
+    <string name="app_lock_auto_biometric_prompt_summary">Entsperrabfrage anzeigen, sobald eine gesperrte App geöffnet wird</string>
+    <string name="app_lock_relock_behavior_title">Verhalten beim erneuten Sperren</string>
+    <string name="app_lock_relock_behavior_after_timeout">Nach Zeitüberschreitung</string>
+    <string name="app_lock_relock_behavior_screen_off">Wenn der Bildschirm ausgeht</string>
+    <string name="app_lock_grace_period_title">Sperrzeitüberschreitung</string>
+    <string name="app_lock_grace_period_immediately">Sofort</string>
+    <string name="app_lock_grace_period_5_seconds">5 Sekunden</string>
+    <string name="app_lock_grace_period_15_seconds">15 Sekunden</string>
+    <string name="app_lock_grace_period_30_seconds">30 Sekunden</string>
+    <string name="app_lock_grace_period_1_minute">1 Minute</string>
+    <string name="app_lock_grace_period_5_minutes">5 Minuten</string>
+    <string name="app_lock_separate_credential_title">Anmeldedaten der App-Sperre</string>
+    <string name="app_lock_separate_credential_none">Geräteanmeldedaten (Standard)</string>
+    <string name="app_lock_separate_credential_pin">Separate PIN</string>
+    <string name="app_lock_separate_credential_pattern">Separates Muster</string>
+    <string name="app_lock_credential_set_pin">Separate PIN festlegen</string>
+    <string name="app_lock_credential_set_pattern">Separates Muster festlegen</string>
+    <string name="app_lock_credential_remove">Geräteanmeldedaten verwenden</string>
+    <string name="app_lock_no_lockable_apps">Keine Apps unterstützen die App-Sperre</string>
+    <plurals name="app_lock_summary_count">
+        <item quantity="one">1 App gesperrt</item>
+        <item quantity="other"><xliff:g id="count" example="3">%d</xliff:g> Apps gesperrt</item>
+    </plurals>
 </resources>

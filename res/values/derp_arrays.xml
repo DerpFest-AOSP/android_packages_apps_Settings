@@ -150,4 +150,30 @@
         <item>@string/pattern_da_dzzz_da</item>
         <item>@string/pattern_custom</item>
     </string-array>
+
+    <!-- App Lock -->
+    <string-array name="app_lock_relock_behavior_entries">
+        <item>@string/app_lock_relock_behavior_after_timeout</item>
+        <item>@string/app_lock_relock_behavior_screen_off</item>
+    </string-array>
+    <string-array name="app_lock_relock_behavior_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="app_lock_grace_period_entries">
+        <item>@string/app_lock_grace_period_immediately</item>
+        <item>@string/app_lock_grace_period_5_seconds</item>
+        <item>@string/app_lock_grace_period_15_seconds</item>
+        <item>@string/app_lock_grace_period_30_seconds</item>
+        <item>@string/app_lock_grace_period_1_minute</item>
+        <item>@string/app_lock_grace_period_5_minutes</item>
+    </string-array>
+    <string-array name="app_lock_grace_period_values" translatable="false">
+        <item>0</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+    </string-array>
 </resources>
