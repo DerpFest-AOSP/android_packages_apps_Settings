@@ -46,6 +46,7 @@ public class BackgroundCheckSummary extends InstrumentedPreferenceFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        super.onCreateView(inflater, container, savedInstanceState);
         // initialize the inflater
         mInflater = inflater;
 
