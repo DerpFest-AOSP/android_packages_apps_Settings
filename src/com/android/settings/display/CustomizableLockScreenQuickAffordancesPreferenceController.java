@@ -58,7 +58,12 @@ public class CustomizableLockScreenQuickAffordancesPreferenceController extends
                     intent.setPackage(packageName);
                 }
                 intent.putExtra("destination", "quick_affordances");
-                mContext.startActivity(intent);
+                if (intent.resolveActivity(mContext.getPackageManager()) == null) {
+                    intent.setPackage(null);
+                }
+                if (intent.resolveActivity(mContext.getPackageManager()) != null) {
+                    mContext.startActivity(intent);
+                }
                 return true;
             });
             refreshSummary(preference);

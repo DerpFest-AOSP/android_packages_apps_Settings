@@ -24,6 +24,7 @@ import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.Mockito.any;
 import static org.mockito.Mockito.anyInt;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -100,6 +101,7 @@ public class CustomizableLockScreenQuickAffordancesPreferenceControllerTest {
     @Test
     public void displayPreference_click() {
         setSelectedAffordanceNames("one", "two");
+        when(mPackageManager.resolveActivity(any(), anyInt())).thenReturn(new ResolveInfo());
         final Preference preference = invokeDisplayPreference();
 
         final ArgumentCaptor<Preference.OnPreferenceClickListener> clickCaptor =
@@ -119,6 +121,40 @@ public class CustomizableLockScreenQuickAffordancesPreferenceControllerTest {
                         CustomizableLockScreenUtils.LAUNCH_SOURCE_SETTINGS);
         assertThat(intentCaptor.getValue().getStringExtra("destination"))
                 .isEqualTo("quick_affordances");
+    }
+
+    @Test
+    public void displayPreference_clickConfiguredPickerUnavailable_fallsBackToGenericPicker() {
+        final ResolveInfo genericPicker = new ResolveInfo();
+        when(mContext.getString(R.string.config_wallpaper_picker_package))
+                .thenReturn("com.google.android.apps.wallpaper");
+        when(mPackageManager.resolveActivity(any(), anyInt())).thenAnswer(invocation -> {
+            final Intent intent = invocation.getArgument(0);
+            return intent.getPackage() == null ? genericPicker : null;
+        });
+        final Preference preference = invokeDisplayPreference();
+
+        final ArgumentCaptor<Preference.OnPreferenceClickListener> clickCaptor =
+                ArgumentCaptor.forClass(Preference.OnPreferenceClickListener.class);
+        verify(preference).setOnPreferenceClickListener(clickCaptor.capture());
+        clickCaptor.getValue().onPreferenceClick(preference);
+
+        final ArgumentCaptor<Intent> intentCaptor = ArgumentCaptor.forClass(Intent.class);
+        verify(mContext).startActivity(intentCaptor.capture());
+        assertThat(intentCaptor.getValue().getPackage()).isNull();
+    }
+
+    @Test
+    public void displayPreference_clickNoWallpaperPicker_doesNotStartActivity() {
+        when(mPackageManager.resolveActivity(any(), anyInt())).thenReturn(null);
+        final Preference preference = invokeDisplayPreference();
+
+        final ArgumentCaptor<Preference.OnPreferenceClickListener> clickCaptor =
+                ArgumentCaptor.forClass(Preference.OnPreferenceClickListener.class);
+        verify(preference).setOnPreferenceClickListener(clickCaptor.capture());
+        clickCaptor.getValue().onPreferenceClick(preference);
+
+        verify(mContext, never()).startActivity(any());
     }
 
     @Test
