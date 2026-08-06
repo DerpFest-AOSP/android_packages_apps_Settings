@@ -73,6 +73,12 @@
         android:title="@string/wifi_hotspot_client_manager_title"
         android:fragment="com.android.settings.wifi.tether.WifiTetherClientManager" />
 
+    <Preference
+        android:key="hotspot_data_limit"
+        android:title="@string/one_time_data_limit_title"
+        android:summary="@string/switch_off_text"
+        android:fragment="com.android.settings.wifi.tether.HotspotDataLimitSettings" />
+
     <SwitchPreferenceCompat
         android:key="wifi_tether_hidden_ssid"
         android:title="@string/wifi_hotspot_hidden_ssid_title"

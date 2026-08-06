@@ -83,6 +83,8 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
     @VisibleForTesting
     static final String KEY_INSTANT_HOTSPOT = "wifi_hotspot_instant";
     @VisibleForTesting
+    static final String KEY_HOTSPOT_DATA_LIMIT = "hotspot_data_limit";
+    @VisibleForTesting
     static final String KEY_WIFI_TETHER_CLIENT_MANAGER =
             WifiTetherClientManagerPreferenceController.PREF_KEY;
     @VisibleForTesting
@@ -308,6 +310,8 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         controllers.add(new WifiTetherMaximizeCompatibilityPreferenceController(context, listener));
         controllers.add(new WifiTetherClientManagerPreferenceController(context, listener));
         controllers.add(new WifiTetherHiddenSsidPreferenceController(context, listener));
+        controllers.add(new HotspotDataLimitEntryPreferenceController(
+                context, KEY_HOTSPOT_DATA_LIMIT));
         return controllers;
     }
 
@@ -414,6 +418,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
                 keys.add(KEY_WIFI_TETHER_AUTO_OFF);
                 keys.add(KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY);
                 keys.add(KEY_WIFI_TETHER_CLIENT_MANAGER);
+                keys.add(KEY_HOTSPOT_DATA_LIMIT);
                 keys.add(KEY_WIFI_TETHER_HIDDEN_SSID);
                 keys.add(KEY_WIFI_HOTSPOT_SPEED);
                 keys.add(KEY_INSTANT_HOTSPOT);

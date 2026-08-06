@@ -97,6 +97,13 @@
     <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Der Name Ihres mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt.</string>
     <string name="wifi_hotspot_client_manager_title">Verbundene Geräte</string>
+    <string name="one_time_data_limit_title">Einmaliges Datenlimit</string>
+    <string name="one_time_data_limit_size">Größe</string>
+    <string name="one_time_data_limit_size_dialog_message">Megabyte für diese Hotspot-Sitzung</string>
+    <string name="one_time_data_limit_size_value">%1$.1f MB</string>
+    <string name="one_time_data_limit_when_exceeded">Bei Überschreitung</string>
+    <string name="one_time_data_limit_turn_off_notify">Ausschalten und benachrichtigen</string>
+    <string name="one_time_data_limit_notify_only">Nur benachrichtigen</string>
     <string name="wifi_hotspot_client_manager_summary">Mit dem Hotspot verbundene Geräte anzeigen und verwalten</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Mit dem Hotspot verbundene Geräte auflisten</string>
     <string name="wifi_hotspot_client_limit_title">Max. Anzahl verbundener Geräte</string>
