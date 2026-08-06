@@ -222,6 +222,13 @@
             android:defaultValue="false"
             android:order="-109"/>
 
+        <!-- Multi Audio Focus -->
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="multi_audio_focus_enabled"
+            android:title="@string/multi_audio_focus_title"
+            android:summary="@string/multi_audio_focus_summary"
+            android:defaultValue="false"
+            android:order="-108"/>
 
         <!-- Spatial audio -->
         <Preference

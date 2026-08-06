@@ -375,6 +375,10 @@
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Show per-app volume button into volume dialog</string>
 
+    <!-- Multi Audio Focus -->
+    <string name="multi_audio_focus_title">Multi audio focus</string>
+    <string name="multi_audio_focus_summary">Allow multiple apps to play audio simultaneously</string>
+
     <!-- Per-app configs -->
     <string name="per_app_config_empty_text">No installed apps support current settings</string>
 
