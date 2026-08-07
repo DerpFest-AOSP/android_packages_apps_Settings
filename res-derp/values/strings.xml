@@ -23,4 +23,11 @@
     <string name="top_level_security" translatable="false">@string/security_settings_title</string>
     <string name="top_level_system">System</string>
     <string name="top_level_info">Information</string>
+
+    <!-- Window blur settings -->
+    <string name="window_blurs">Allow window-level blurs</string>
+    <string name="blur_intensity_title">Blur intensity</string>
+    <string name="blur_intensity_value">%1$d%%</string>
+    <string name="blur_settings_summary_on">On (%1$d%%)</string>
+    <string name="blur_settings_summary_off">Off</string>
 </resources>

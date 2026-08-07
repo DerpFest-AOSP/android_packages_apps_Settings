@@ -183,4 +183,11 @@
     <string name="notification_custom_vibrate_summary">Ersetzt nur das Standardmuster\nVom App gesetztes Muster hat Vorrang</string>
     <string name="notification_custom_vibrate_slider1">Vibrieren für</string>
     <string name="notification_custom_vibrate_slider2">Pause für</string>
+
+    <!-- Window blur settings -->
+    <string name="window_blurs">Weichzeichnen auf Fensterebene zulassen</string>
+    <string name="blur_intensity_title">Weichzeichnungsintensität</string>
+    <string name="blur_intensity_value">%1$d%%</string>
+    <string name="blur_settings_summary_on">An (%1$d%%)</string>
+    <string name="blur_settings_summary_off">Aus</string>
 </resources>
