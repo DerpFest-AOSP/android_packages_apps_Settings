@@ -124,7 +124,7 @@
         <ListPreference
             android:key="vibration_pattern"
             android:title="@string/vibration_pattern_title"
-            android:order="-95"
+            android:order="-99"
             android:entries="@array/vibration_pattern_entries"
             android:entryValues="@array/vibration_pattern_values"/>
 
@@ -133,7 +133,7 @@
             android:key="custom_vibration_pattern"
             android:title="@string/custom_vibration_pattern_title"
             android:summary="@string/custom_vibration_pattern_summary"
-            android:order="-99"
+            android:order="-98"
             android:fragment="com.android.settings.sound.CustomVibrationPreferenceFragment"
             android:visibility="gone"/>
 
@@ -142,7 +142,7 @@
             android:title="@string/notification_vibration_pattern_title"
             android:entries="@array/notification_vibration_pattern_entries"
             android:entryValues="@array/vibration_pattern_values"
-            android:order="-98" />
+            android:order="-97" />
 
         <!-- Custom notification vibration pattern preference -->
         <Preference
@@ -151,7 +151,7 @@
             android:summary="@string/custom_vibration_pattern_summary"
             android:fragment="com.android.settings.sound.CustomNotificationVibrationPreferenceFragment"
             android:visibility="gone"
-            android:order="-97" />
+            android:order="-96" />
     </com.android.settingslib.widget.UntitledPreferenceCategory>
 
     <!-- Sound patterns category -->
