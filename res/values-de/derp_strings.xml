@@ -168,6 +168,7 @@
 
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Klingelton-Vibrationsmuster</string>
+    <string name="notification_vibration_pattern_title">Benachrichtigungs-Vibrationsmuster</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
