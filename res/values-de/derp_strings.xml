@@ -60,6 +60,10 @@
     <string name="pulse_on_new_tracks_title">Musikticker</string>
     <string name="pulse_on_new_tracks_summary">Bei Titelwechsel Musikticker im Ambient-Modus anzeigen</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Verbessere dein Spielerlebnis</string>
+
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">Laute Benachrichtigungen</string>
     <string name="notification_sound_vib_screen_on_summary">Ton und Vibration bei Benachrichtigungen abspielen,  wenn Bildschirm an ist</string>
