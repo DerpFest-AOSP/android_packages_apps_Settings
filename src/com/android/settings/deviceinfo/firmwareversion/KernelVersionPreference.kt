@@ -17,6 +17,7 @@
 package com.android.settings.deviceinfo.firmwareversion
 
 import android.content.Context
+import android.util.Log
 import androidx.preference.Preference
 import com.android.settings.R
 import com.android.settingslib.DeviceInfoUtils
@@ -26,9 +27,19 @@ import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.SensitivityLevel
 import com.android.settingslib.preference.PreferenceBinding
+import java.io.BufferedReader
+import java.io.FileReader
+import java.io.IOException
 
 // LINT.IfChange
-class KernelVersionPreference : PersistentPreference<String>, PreferenceMetadata, PreferenceSummaryProvider, PreferenceBinding {
+class KernelVersionPreference :
+    PersistentPreference<String>,
+    PreferenceMetadata,
+    PreferenceSummaryProvider,
+    PreferenceBinding,
+    Preference.OnPreferenceClickListener {
+
+    private var isFullKernelVersionShown = false
 
     override val key: String
         get() = "kernel_version"
@@ -50,12 +61,37 @@ class KernelVersionPreference : PersistentPreference<String>, PreferenceMetadata
 
     override fun bind(preference: Preference, metadata: PreferenceMetadata) {
         super.bind(preference, metadata)
-        preference.isSelectable = false
+        preference.isSelectable = true
         preference.isCopyingEnabled = true
+        preference.onPreferenceClickListener = this
+    }
+
+    override fun onPreferenceClick(preference: Preference): Boolean {
+        isFullKernelVersionShown = !isFullKernelVersionShown
+        preference.summary =
+            if (isFullKernelVersionShown) {
+                getFullKernelVersion(preference.context)
+            } else {
+                DeviceInfoUtils.getFormattedKernelVersion(preference.context)
+            }
+        return true
+    }
+
+    private fun getFullKernelVersion(context: Context): CharSequence =
+        try {
+            BufferedReader(FileReader(FILENAME_PROC_VERSION), 256).use { it.readLine() }
+                ?: context.getString(android.R.string.unknownName)
+        } catch (e: IOException) {
+            Log.e(LOG_TAG, "Error reading kernel version", e)
+            context.getString(android.R.string.unknownName)
+        }
+
+    companion object {
+        private const val LOG_TAG = "KernelVersionPreference"
+        private const val FILENAME_PROC_VERSION = "/proc/version"
     }
 
     override val sensitivityLevel
         get() = SensitivityLevel.NO_SENSITIVITY
-
 }
 // LINT.ThenChange(KernelVersionPreferenceController.java)
