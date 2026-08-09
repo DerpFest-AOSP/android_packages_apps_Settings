@@ -101,7 +101,7 @@
             android:order="15"
             android:max="2000"
             settings:min="0"
-            settings:interval="100"
+            settings:interval="50"
             settings:units="@string/unit_milliseconds" />
 
         <!-- Custom vibration pattern 2 -->
@@ -111,7 +111,7 @@
             android:order="16"
             android:max="2000"
             settings:min="0"
-            settings:interval="100"
+            settings:interval="50"
             settings:units="@string/unit_milliseconds" />
 
         <!-- Custom vibration pattern 3 -->
@@ -121,7 +121,7 @@
             android:order="17"
             android:max="2000"
             settings:min="0"
-            settings:interval="100"
+            settings:interval="50"
             settings:units="@string/unit_milliseconds" />
 
     </PreferenceCategory>
