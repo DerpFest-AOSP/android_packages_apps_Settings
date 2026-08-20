@@ -6447,21 +6447,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="com.google.android.settings.localepicker.RegionSearchActivity"
-            android:exported="true"
-            android:excludeFromRecents="true"
-            android:launchMode="singleTask"
-            android:windowSoftInputMode="adjustResize|stateVisible">
-            <intent-filter android:priority="1">
-                <action android:name="com.google.android.settings.localepicker.REGION_SEARCH"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.google.android.settings.localepicker.RegionSearchFragment"/>
-        </activity>
-
         <receiver
             android:name="com.google.android.settings.localepicker.LocalePickerSetupWizardEventsReceiver"
             android:exported="true">

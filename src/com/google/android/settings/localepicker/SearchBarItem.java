@@ -2,11 +2,13 @@ package com.google.android.settings.localepicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.View;
 
 import com.google.android.setupdesign.R;
 import com.google.android.setupdesign.items.AbstractItem;
+import com.google.android.setupdesign.util.ItemStyler;
 import com.google.android.setupdesign.util.LayoutStyler;
 import com.google.android.setupdesign.util.ThemeHelper;
 
@@ -22,30 +24,27 @@ public class SearchBarItem extends AbstractItem {
     }
 
     public SearchBarItem() {
-        this.mEnabled = true;
-        this.mVisible = true;
-        this.mLayoutRes = getDefaultLayoutResource();
+        mEnabled = true;
+        mVisible = true;
+        mLayoutRes = getDefaultLayoutResource();
     }
 
-    public SearchBarItem(Context context, AttributeSet attributeSet) {
-        super(context, attributeSet);
-        this.mEnabled = true;
-        this.mVisible = true;
-        this.mShouldApplyGlifExpressiveStyle = ThemeHelper.shouldApplyGlifExpressiveStyle(context);
-        TypedArray obtainStyledAttributes =
-                context.obtainStyledAttributes(attributeSet, R.styleable.SudItem);
-        this.mEnabled =
-                obtainStyledAttributes.getBoolean(R.styleable.SudItem_android_enabled, true);
-        this.mLayoutRes =
-                obtainStyledAttributes.getResourceId(
+    public SearchBarItem(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        mEnabled = true;
+        mVisible = true;
+        mShouldApplyGlifExpressiveStyle = ThemeHelper.shouldApplyGlifExpressiveStyle(context);
+        TypedArray styledAttrs = context.obtainStyledAttributes(attrs, R.styleable.SudItem);
+        mEnabled = styledAttrs.getBoolean(R.styleable.SudItem_android_enabled, true);
+        mLayoutRes =
+                styledAttrs.getResourceId(
                         R.styleable.SudItem_android_layout, getDefaultLayoutResource());
-        this.mVisible =
-                obtainStyledAttributes.getBoolean(R.styleable.SudItem_android_visible, true);
-        obtainStyledAttributes.recycle();
+        mVisible = styledAttrs.getBoolean(R.styleable.SudItem_android_visible, true);
+        styledAttrs.recycle();
     }
 
     protected int getDefaultLayoutResource() {
-        if (this.mShouldApplyGlifExpressiveStyle) {
+        if (mShouldApplyGlifExpressiveStyle) {
             return com.android.settings.R.layout.search_bar_expressive_item;
         }
         return com.android.settings.R.layout.search_bar_item;
@@ -58,20 +57,20 @@ public class SearchBarItem extends AbstractItem {
 
     @Override
     public boolean isEnabled() {
-        return this.mEnabled;
+        return mEnabled;
     }
 
     @Override
     public int getLayoutResource() {
-        return this.mLayoutRes;
+        return mLayoutRes;
     }
 
-    public void setVisible(boolean z) {
-        if (this.mVisible == z) {
+    public void setVisible(boolean visible) {
+        if (mVisible == visible) {
             return;
         }
-        this.mVisible = z;
-        if (!z) {
+        mVisible = visible;
+        if (!visible) {
             notifyItemRangeRemoved(0, 1);
         } else {
             notifyItemRangeInserted(0, 1);
@@ -79,14 +78,18 @@ public class SearchBarItem extends AbstractItem {
     }
 
     public boolean isVisible() {
-        return this.mVisible;
+        return mVisible;
     }
 
     @Override
     public void onBindView(View view) {
-        if (this.mShouldApplyGlifExpressiveStyle) {
-            return;
+        if (!mShouldApplyGlifExpressiveStyle) {
+            LayoutStyler.applyPartnerCustomizationLayoutPaddingStyle(view);
         }
-        LayoutStyler.applyPartnerCustomizationLayoutPaddingStyle(view);
+        Context context = view.getContext();
+        if (Settings.Secure.getInt(context.getContentResolver(), "user_setup_complete", 0) != 1) {
+            ItemStyler.applyFocusRingDrawable(
+                    context, view, ItemStyler.FocusIndicatorShape.RECTANGLE, null);
+        }
     }
 }

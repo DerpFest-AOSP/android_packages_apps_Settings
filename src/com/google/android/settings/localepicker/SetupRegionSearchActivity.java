@@ -11,6 +11,7 @@ import android.util.Log;
 import android.util.Pair;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
 import android.widget.Filter;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
@@ -18,11 +19,15 @@ import android.widget.ScrollView;
 
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.internal.app.LocaleHelper;
 import com.android.internal.app.LocaleStore;
 import com.android.settings.overlay.FeatureFactory;
 
+import com.google.android.setupcompat.partnerconfig.PartnerConfig;
+import com.google.android.setupcompat.partnerconfig.PartnerConfigHelper;
 import com.google.android.setupdesign.GlifRecyclerLayout;
 import com.google.android.setupdesign.items.RecyclerItemAdapter;
 import com.google.android.setupdesign.template.FloatingBackButtonMixin;
@@ -38,6 +43,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SetupRegionSearchActivity extends Activity implements TextWatcher {
+    private static final int REQUEST_LOCALE_PICKER = 0;
+
     private RecyclerItemAdapter mAdapter;
     private AppCompatImageView mBackIcon;
     private AppCompatImageView mClearSearchQueryButton;
@@ -46,21 +53,43 @@ public class SetupRegionSearchActivity extends Activity implements TextWatcher {
     private List mLocaleOptions;
     private List mOriginalLocaleInfos;
     private CharSequence mPrefix;
+    private RecyclerView mRecyclerView;
     private AppCompatEditText mSearchActionBarText;
-    private SearchFilter mSearchFilter = null;
     private SetupLocalePickerListController mSetupLocalePickerListController;
+    private SearchFilter mSearchFilter = null;
+    private ViewTreeObserver.OnGlobalFocusChangeListener mFocusChangeListener = null;
 
     @Override
-    public void afterTextChanged(Editable editable) {}
+    public void afterTextChanged(Editable s) {}
 
     @Override
-    public void beforeTextChanged(CharSequence charSequence, int i, int i2, int i3) {}
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
     @Override
     protected void onCreate(Bundle bundle) {
         applySuwTheme();
         super.onCreate(bundle);
         setupLayout();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (mRecyclerView != null) {
+            mRecyclerView
+                    .getViewTreeObserver()
+                    .addOnGlobalFocusChangeListener(mFocusChangeListener);
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (mRecyclerView != null) {
+            mRecyclerView
+                    .getViewTreeObserver()
+                    .removeOnGlobalFocusChangeListener(mFocusChangeListener);
+        }
     }
 
     private void applySuwTheme() {
@@ -85,34 +114,35 @@ public class SetupRegionSearchActivity extends Activity implements TextWatcher {
     private void setupContent() {
         View findManagedViewById;
         Bundle extras = getIntent().getExtras();
-        this.mLocaleInfo = (LocaleStore.LocaleInfo) extras.getSerializable("extra_target_locale");
-        this.mIsNumberingMode = extras.getBoolean("extra_is_numbering_system");
-        GlifRecyclerLayout glifRecyclerLayout =
-                (GlifRecyclerLayout) findViewById(R.id.setup_wizard_region_search_layout);
-        ((HeaderMixin) glifRecyclerLayout.getMixin(HeaderMixin.class))
-                .getTextView()
-                .setVisibility(8);
-        if (glifRecyclerLayout.getMixin(FloatingBackButtonMixin.class) != null) {
-            ((FloatingBackButtonMixin) glifRecyclerLayout.getMixin(FloatingBackButtonMixin.class))
-                    .setVisibility(8);
+        mLocaleInfo = (LocaleStore.LocaleInfo) extras.getSerializable("extra_target_locale");
+        mIsNumberingMode = extras.getBoolean("extra_is_numbering_system");
+        boolean isSuwUseModalDialogEnabled =
+                PartnerConfigHelper.isSuwUseModalDialogEnabled(getApplicationContext());
+        GlifRecyclerLayout layout = findViewById(R.id.setup_wizard_region_search_layout);
+        ((HeaderMixin) layout.getMixin(HeaderMixin.class)).getTextView().setVisibility(View.GONE);
+        if (layout.getMixin(FloatingBackButtonMixin.class) != null) {
+            ((FloatingBackButtonMixin) layout.getMixin(FloatingBackButtonMixin.class))
+                    .setVisibility(View.GONE);
         }
         LinearLayout linearLayout =
                 (LinearLayout)
-                        glifRecyclerLayout.findManagedViewById(
+                        layout.findManagedViewById(
                                 com.google.android.setupdesign.R.id.sud_layout_header);
         if (linearLayout != null) {
-            linearLayout.setVisibility(8);
+            linearLayout.setVisibility(View.GONE);
         }
-        ViewGroup viewGroup =
-                (ViewGroup) findViewById(com.google.android.setupdesign.R.id.suc_layout_status);
+        ViewGroup viewGroup = findViewById(com.google.android.setupdesign.R.id.suc_layout_status);
+        if (isSuwUseModalDialogEnabled) {
+            viewGroup = findViewById(com.google.android.setupdesign.R.id.suc_intrinsic_size_layout);
+        }
         if (viewGroup != null) {
-            View inflate =
-                    getLayoutInflater().inflate(R.layout.search_bar_layout, (ViewGroup) null);
+            viewGroup.setClipChildren(true);
+            View inflate = getLayoutInflater().inflate(R.layout.search_bar_layout, null);
             int childCount = viewGroup.getChildCount();
             if (viewGroup instanceof FrameLayout) {
                 if (!ThemeHelper.shouldApplyGlifExpressiveStyle(getApplicationContext())
                         && (findManagedViewById =
-                                        glifRecyclerLayout.findManagedViewById(
+                                        layout.findManagedViewById(
                                                 com.google.android.setupdesign.R.id
                                                         .sud_landscape_content_area))
                                 != null) {
@@ -131,6 +161,27 @@ public class SetupRegionSearchActivity extends Activity implements TextWatcher {
                                 childAt.setLayoutParams(layoutParams);
                             }
                         });
+                if (isSuwUseModalDialogEnabled) {
+                    inflate.setPadding(
+                            inflate.getPaddingLeft(),
+                            (int)
+                                    PartnerConfigHelper.get(getApplicationContext())
+                                            .getDimension(
+                                                    getApplicationContext(),
+                                                    PartnerConfig.CONFIG_ICON_MARGIN_TOP),
+                            inflate.getPaddingRight(),
+                            inflate.getPaddingBottom());
+                    View findManagedViewById2 =
+                            layout.findManagedViewById(
+                                    com.google.android.setupdesign.R.id.sud_landscape_content_area);
+                    if (findManagedViewById2 != null) {
+                        findManagedViewById2.setPadding(
+                                findManagedViewById2.getPaddingLeft(),
+                                inflate.getHeight(),
+                                findManagedViewById2.getPaddingRight(),
+                                findManagedViewById2.getPaddingBottom());
+                    }
+                }
                 viewGroup.addView(inflate, childCount);
             } else {
                 int i = childCount + 1;
@@ -168,19 +219,16 @@ public class SetupRegionSearchActivity extends Activity implements TextWatcher {
                     viewGroup.addView(viewArr[i4], i4);
                 }
                 ScrollView scrollView =
-                        (ScrollView)
-                                findViewById(
-                                        com.google.android.setupdesign.R.id.sud_header_scroll_view);
+                        findViewById(com.google.android.setupdesign.R.id.sud_header_scroll_view);
                 if (scrollView != null) {
                     scrollView.setContentDescription(
                             getApplicationContext().getString(R.string.search_region_page));
                 }
             }
         }
-        AppCompatImageView appCompatImageView = (AppCompatImageView) findViewById(R.id.back_icon);
-        this.mBackIcon = appCompatImageView;
-        if (appCompatImageView != null) {
-            appCompatImageView.setOnClickListener(
+        mBackIcon = findViewById(R.id.back_icon);
+        if (mBackIcon != null) {
+            mBackIcon.setOnClickListener(
                     new View.OnClickListener() {
                         @Override
                         public final void onClick(View view) {
@@ -195,18 +243,14 @@ public class SetupRegionSearchActivity extends Activity implements TextWatcher {
                         }
                     });
         }
-        AppCompatEditText appCompatEditText =
-                (AppCompatEditText) findViewById(R.id.search_action_bar_text);
-        this.mSearchActionBarText = appCompatEditText;
-        if (appCompatEditText != null) {
-            appCompatEditText.addTextChangedListener(this);
-            this.mSearchActionBarText.requestFocus();
+        mSearchActionBarText = findViewById(R.id.search_action_bar_text);
+        if (mSearchActionBarText != null) {
+            mSearchActionBarText.addTextChangedListener(this);
+            mSearchActionBarText.requestFocus();
         }
-        AppCompatImageView appCompatImageView2 =
-                (AppCompatImageView) findViewById(R.id.clear_search_query);
-        this.mClearSearchQueryButton = appCompatImageView2;
-        if (appCompatImageView2 != null) {
-            appCompatImageView2.setOnClickListener(
+        mClearSearchQueryButton = findViewById(R.id.clear_search_query);
+        if (mClearSearchQueryButton != null) {
+            mClearSearchQueryButton.setOnClickListener(
                     new View.OnClickListener() {
                         @Override
                         public final void onClick(View view) {
@@ -214,143 +258,156 @@ public class SetupRegionSearchActivity extends Activity implements TextWatcher {
                         }
                     });
         }
-        this.mAdapter = (RecyclerItemAdapter) glifRecyclerLayout.getAdapter();
+        mRecyclerView = layout.getRecyclerView();
+        mAdapter = (RecyclerItemAdapter) layout.getAdapter();
         LocaleSelectedListener localeSelectedListener =
                 new LocaleSelectedListener() {
                     @Override
                     public void onLocaleSelected(LocaleStore.LocaleInfo localeInfo) {
                         Intent intent = new Intent();
                         intent.putExtra("localeInfo", (Serializable) localeInfo);
-                        SetupRegionSearchActivity.this.setResult(-1, intent);
-                        SetupRegionSearchActivity.this.finish();
+                        setResult(Activity.RESULT_OK, intent);
+                        finish();
+                    }
+                };
+        mFocusChangeListener =
+                new ViewTreeObserver.OnGlobalFocusChangeListener() {
+                    @Override
+                    public void onGlobalFocusChanged(View oldFocus, View newFocus) {
+                        if (mRecyclerView == null
+                                || mAdapter == null
+                                || newFocus == null
+                                || newFocus.getParent() != mRecyclerView) {
+                            return;
+                        }
+                        RecyclerView.LayoutManager layoutManager = mRecyclerView.getLayoutManager();
+                        if (layoutManager instanceof LinearLayoutManager) {
+                            LinearLayoutManager linearLayoutManager =
+                                    (LinearLayoutManager) layoutManager;
+                            int childAdapterPosition =
+                                    mRecyclerView.getChildAdapterPosition(newFocus);
+                            int itemCount = mAdapter.getItemCount();
+                            if (childAdapterPosition == -1 || childAdapterPosition >= itemCount) {
+                                return;
+                            }
+                            int findLastVisibleItemPosition =
+                                    linearLayoutManager.findLastVisibleItemPosition();
+                            int i5 = findLastVisibleItemPosition + 1;
+                            if (childAdapterPosition != findLastVisibleItemPosition
+                                    || i5 >= itemCount) {
+                                return;
+                            }
+                            mRecyclerView.smoothScrollToPosition(i5);
+                        }
                     }
                 };
         SetupLocalePickerListController setupLocalePickerListController =
                 new SetupLocalePickerListController(
-                        getApplicationContext(), this, this.mLocaleInfo, this.mIsNumberingMode);
-        this.mSetupLocalePickerListController = setupLocalePickerListController;
+                        getApplicationContext(), this, mLocaleInfo, mIsNumberingMode);
+        mSetupLocalePickerListController = setupLocalePickerListController;
         setupLocalePickerListController.setLocaleSelectedListener(localeSelectedListener);
-        this.mSetupLocalePickerListController.displayScreen(this.mAdapter);
-        SetupLocalePickerListController setupLocalePickerListController2 =
-                this.mSetupLocalePickerListController;
-        if (setupLocalePickerListController2 != null) {
-            List supportedLocaleList = setupLocalePickerListController2.getSupportedLocaleList();
-            this.mOriginalLocaleInfos = supportedLocaleList;
-            supportedLocaleList.addAll(
-                    this.mSetupLocalePickerListController.getSuggestedLocaleList());
+        mSetupLocalePickerListController.displayScreen(mAdapter);
+        if (mSetupLocalePickerListController != null) {
+            mOriginalLocaleInfos = mSetupLocalePickerListController.getSupportedLocaleList();
+            mOriginalLocaleInfos.addAll(mSetupLocalePickerListController.getSuggestedLocaleList());
         }
     }
 
     private void filterSearch(String str) {
-        if (this.mSearchFilter == null) {
-            this.mSearchFilter = new SearchFilter();
+        if (mSearchFilter == null) {
+            mSearchFilter = new SearchFilter();
         }
-        if (this.mOriginalLocaleInfos == null) {
+        if (mOriginalLocaleInfos == null) {
             Log.w(
                     "SetupRegionSearchActivity",
                     "Locales haven't loaded completely yet, so nothing can be filtered");
         } else {
-            this.mSearchFilter.filter(str);
+            mSearchFilter.filter(str);
         }
     }
 
     class SearchFilter extends Filter {
-        private SearchFilter() {}
-
         @Override
-        protected Filter.FilterResults performFiltering(CharSequence charSequence) {
-            Filter.FilterResults filterResults = new Filter.FilterResults();
-            SetupRegionSearchActivity.this.mPrefix = charSequence;
-            if (TextUtils.isEmpty(charSequence)) {
-                filterResults.values = SetupRegionSearchActivity.this.mOriginalLocaleInfos;
-                filterResults.count = SetupRegionSearchActivity.this.mOriginalLocaleInfos.size();
-                return filterResults;
+        protected FilterResults performFiltering(CharSequence prefix) {
+            FilterResults results = new FilterResults();
+            mPrefix = prefix;
+            if (TextUtils.isEmpty(prefix)) {
+                results.values = mOriginalLocaleInfos;
+                results.count = mOriginalLocaleInfos.size();
+                return results;
             }
-            ArrayList arrayList =
-                    new ArrayList(SetupRegionSearchActivity.this.mOriginalLocaleInfos);
+            List<LocaleStore.LocaleInfo> newList = new ArrayList<>(mOriginalLocaleInfos);
             Locale locale = Locale.getDefault();
-            String normalizeForSearch =
-                    LocaleHelper.normalizeForSearch(charSequence.toString(), locale);
-            ArrayList arrayList2 = new ArrayList();
-            int size = arrayList.size();
-            int i = 0;
-            while (i < size) {
-                Object obj = arrayList.get(i);
-                i++;
-                LocaleStore.LocaleInfo localeInfo = (LocaleStore.LocaleInfo) obj;
-                String normalizeForSearch2 =
-                        LocaleHelper.normalizeForSearch(
-                                localeInfo.getFullNameInUiLanguage(), locale);
-                if (wordMatches(
-                                LocaleHelper.normalizeForSearch(
-                                        localeInfo.getFullNameNative(), locale),
-                                normalizeForSearch)
-                        || wordMatches(normalizeForSearch2, normalizeForSearch)) {
-                    if (!arrayList2.contains(localeInfo)) {
-                        arrayList2.add(localeInfo);
+            String prefixString = LocaleHelper.normalizeForSearch(prefix.toString(), locale);
+            final ArrayList<LocaleStore.LocaleInfo> newValues = new ArrayList<>();
+            final int count = newList.size();
+            for (int i = 0; i < count; i++) {
+                final LocaleStore.LocaleInfo value = newList.get(i);
+                final String nameToCheck =
+                        LocaleHelper.normalizeForSearch(value.getFullNameInUiLanguage(), locale);
+                final String nativeNameToCheck =
+                        LocaleHelper.normalizeForSearch(value.getFullNameNative(), locale);
+                if (wordMatches(nativeNameToCheck, prefixString)
+                        || wordMatches(nameToCheck, prefixString)) {
+                    if (!newValues.contains(value)) {
+                        newValues.add(value);
                     }
                 }
             }
-            filterResults.values = arrayList2;
-            filterResults.count = arrayList2.size();
-            return filterResults;
+            results.values = newValues;
+            results.count = newValues.size();
+            return results;
         }
 
         @Override
-        protected void publishResults(
-                CharSequence charSequence, Filter.FilterResults filterResults) {
-            if (SetupRegionSearchActivity.this.mSetupLocalePickerListController == null) {
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            if (mSetupLocalePickerListController == null) {
                 Log.d("SetupRegionSearchActivity", "publishResults(), can not get item.");
                 return;
             }
-            SetupRegionSearchActivity.this.mLocaleOptions = (ArrayList) filterResults.values;
-            SetupRegionSearchActivity.this.mSetupLocalePickerListController.onSearchListChanged(
-                    SetupRegionSearchActivity.this.mLocaleOptions,
-                    SetupRegionSearchActivity.this.mPrefix);
+            mLocaleOptions = (ArrayList<LocaleStore.LocaleInfo>) results.values;
+            mSetupLocalePickerListController.onSearchListChanged(mLocaleOptions, mPrefix);
         }
 
-        private boolean wordMatches(String str, String str2) {
-            if (str == null) {
+        private boolean wordMatches(String valueText, String prefixString) {
+            if (valueText == null) {
                 return false;
             }
-            if (str.startsWith(str2)) {
+            if (valueText.startsWith(prefixString)) {
                 return true;
             }
-            Matcher matcher = Pattern.compile("^.*?\\((.*)").matcher(str);
+            Matcher matcher = Pattern.compile("^.*?\\((.*)").matcher(valueText);
             if (matcher.find()) {
-                return matcher.group(1).startsWith(str2);
+                return matcher.group(1).startsWith(prefixString);
             }
             return false;
         }
     }
 
     @Override
-    public void onTextChanged(CharSequence charSequence, int i, int i2, int i3) {
-        AppCompatImageView appCompatImageView = this.mClearSearchQueryButton;
-        if (appCompatImageView != null) {
-            appCompatImageView.setVisibility(charSequence.length() == 0 ? 8 : 0);
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+        if (mClearSearchQueryButton != null) {
+            mClearSearchQueryButton.setVisibility(s.length() == 0 ? View.GONE : View.VISIBLE);
         }
-        filterSearch(charSequence.toString());
+        filterSearch(s.toString());
     }
 
     private void clearLanguageSearchText() {
         Editable text;
-        AppCompatEditText appCompatEditText = this.mSearchActionBarText;
-        if (appCompatEditText == null || (text = appCompatEditText.getText()) == null) {
-            return;
+        if (mSearchActionBarText != null && (text = mSearchActionBarText.getText()) != null) {
+            text.clear();
         }
-        text.clear();
     }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == 0 && resultCode == -1) {
+        if (requestCode == REQUEST_LOCALE_PICKER && resultCode == RESULT_OK) {
             if (data != null) {
                 LocaleStore.LocaleInfo serializableExtra =
                         (LocaleStore.LocaleInfo) data.getSerializableExtra("localeInfo");
                 Intent intent = new Intent();
                 intent.putExtra("localeInfo", (Serializable) serializableExtra);
-                setResult(-1, intent);
+                setResult(Activity.RESULT_OK, intent);
             }
             finish();
         }

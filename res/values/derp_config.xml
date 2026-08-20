@@ -18,4 +18,7 @@
         <item>com.google.android.calendar</item>
         <item>com.google.android.gm</item>
     </string-array>
+
+    <!-- Locale Picker -->
+    <bool name="config_show_setuplocalepicker_region_searchbox">true</bool>
 </resources>

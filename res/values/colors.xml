@@ -329,5 +329,4 @@
     <color name="sc_materialColorOutline">@android:color/system_outline_light</color>
     <color name="sc_materialColorOutlineVariant">@android:color/system_outline_variant_light</color>
 
-   <color name="primary_text_disable_only_material_light">@*android:color/primary_text_disable_only_material_light</color>
 </resources>

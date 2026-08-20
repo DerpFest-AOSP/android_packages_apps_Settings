@@ -4,7 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
     <style name="SecurityDialogButton" parent="@android:style/Widget.Material.Button">
         <item name="android:textColor">?android:attr/colorAccent</item>
         <item name="android:textColorPrimary">?android:attr/colorAccent</item>
@@ -23,5 +25,11 @@
 
     <style name="TextAppearance_SettingsSuggestions_Item" parent="TextAppearance.SettingsLib.BodyMedium">
         <item name="android:textColor">?android:attr/colorAccent</item>
+    </style>
+
+    <style name="Theme.Settings.LocalePicker" parent="@style/Theme.Settings">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:clipChildren">true</item>
+        <item name="android:clipToPadding">true</item>
     </style>
 </resources> 

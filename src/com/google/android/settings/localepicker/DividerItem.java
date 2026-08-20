@@ -22,26 +22,23 @@ public class DividerItem extends AbstractItem {
     }
 
     public DividerItem() {
-        this.mEnabled = true;
-        this.mVisible = true;
-        this.mLayoutRes = getDefaultLayoutResource();
+        mEnabled = true;
+        mVisible = true;
+        mLayoutRes = getDefaultLayoutResource();
     }
 
-    public DividerItem(Context context, AttributeSet attributeSet) {
-        super(context, attributeSet);
-        this.mEnabled = true;
-        this.mVisible = true;
-        this.mShouldApplyGlifExpressiveStyle = ThemeHelper.shouldApplyGlifExpressiveStyle(context);
-        TypedArray obtainStyledAttributes =
-                context.obtainStyledAttributes(attributeSet, R.styleable.SudItem);
-        this.mEnabled =
-                obtainStyledAttributes.getBoolean(R.styleable.SudItem_android_enabled, true);
-        this.mLayoutRes =
-                obtainStyledAttributes.getResourceId(
+    public DividerItem(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        mEnabled = true;
+        mVisible = true;
+        mShouldApplyGlifExpressiveStyle = ThemeHelper.shouldApplyGlifExpressiveStyle(context);
+        TypedArray styledAttrs = context.obtainStyledAttributes(attrs, R.styleable.SudItem);
+        mEnabled = styledAttrs.getBoolean(R.styleable.SudItem_android_enabled, true);
+        mLayoutRes =
+                styledAttrs.getResourceId(
                         R.styleable.SudItem_android_layout, getDefaultLayoutResource());
-        this.mVisible =
-                obtainStyledAttributes.getBoolean(R.styleable.SudItem_android_visible, true);
-        obtainStyledAttributes.recycle();
+        mVisible = styledAttrs.getBoolean(R.styleable.SudItem_android_visible, true);
+        styledAttrs.recycle();
     }
 
     protected int getDefaultLayoutResource() {
@@ -55,19 +52,19 @@ public class DividerItem extends AbstractItem {
 
     @Override
     public boolean isEnabled() {
-        return this.mEnabled;
+        return mEnabled;
     }
 
     @Override
     public int getLayoutResource() {
-        return this.mLayoutRes;
+        return mLayoutRes;
     }
 
     public void setVisible(boolean z) {
-        if (this.mVisible == z) {
+        if (mVisible == z) {
             return;
         }
-        this.mVisible = z;
+        mVisible = z;
         if (!z) {
             notifyItemRangeRemoved(0, 1);
         } else {
@@ -76,12 +73,12 @@ public class DividerItem extends AbstractItem {
     }
 
     public boolean isVisible() {
-        return this.mVisible;
+        return mVisible;
     }
 
     @Override
     public void onBindView(View view) {
-        if (this.mShouldApplyGlifExpressiveStyle) {
+        if (mShouldApplyGlifExpressiveStyle) {
             return;
         }
         LayoutStyler.applyPartnerCustomizationLayoutPaddingStyle(view);
