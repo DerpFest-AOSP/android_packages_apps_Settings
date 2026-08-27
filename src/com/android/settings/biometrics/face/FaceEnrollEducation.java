@@ -363,7 +363,8 @@ public class FaceEnrollEducation extends BiometricEnrollBase {
         intent.putExtra(EXTRA_FROM_SETTINGS_SUMMARY, mFromSettingsSummary);
         BiometricUtils.copyMultiBiometricExtras(getIntent(), intent);
         final String flattenedString = getString(R.string.config_face_enroll);
-        if (!TextUtils.isEmpty(flattenedString)) {
+        final boolean hasExternalEnrollActivity = !TextUtils.isEmpty(flattenedString);
+        if (hasExternalEnrollActivity) {
             ComponentName componentName = ComponentName.unflattenFromString(flattenedString);
             intent.setComponent(componentName);
         } else {
@@ -394,15 +395,24 @@ public class FaceEnrollEducation extends BiometricEnrollBase {
         if (!mSwitchDiversity.isChecked() && mAccessibilityEnabled) {
             FaceEnrollAccessibilityDialog dialog = FaceEnrollAccessibilityDialog.newInstance();
             dialog.setPositiveButtonListener((dialog1, which) -> {
-                startActivityForResult(intent, BIOMETRIC_FIND_SENSOR_REQUEST);
-                mNextLaunched = true;
+                startEnrollmentActivity(intent, hasExternalEnrollActivity);
             });
             dialog.show(getSupportFragmentManager(), FaceEnrollAccessibilityDialog.class.getName());
         } else {
-            startActivityForResult(intent, BIOMETRIC_FIND_SENSOR_REQUEST);
-            mNextLaunched = true;
+            startEnrollmentActivity(intent, hasExternalEnrollActivity);
         }
 
+    }
+
+    private void startEnrollmentActivity(Intent intent, boolean hasExternalEnrollActivity) {
+        if (hasExternalEnrollActivity && mUserId != UserHandle.USER_NULL
+                && mUserId != UserHandle.myUserId()) {
+            startActivityForResultAsUser(intent, BIOMETRIC_FIND_SENSOR_REQUEST,
+                    UserHandle.of(mUserId));
+        } else {
+            startActivityForResult(intent, BIOMETRIC_FIND_SENSOR_REQUEST);
+        }
+        mNextLaunched = true;
     }
 
     public boolean isAccessibilityEnabled() {
