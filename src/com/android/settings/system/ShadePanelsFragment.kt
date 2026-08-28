@@ -29,6 +29,7 @@ import com.android.settings.system.ShadePanelsPreferenceController.Companion.isD
 import com.android.settings.system.ShadePanelsPreferenceController.Companion.setDualShadeEnabled
 import com.android.settings.utils.CandidateInfoExtra
 import com.android.settings.widget.RadioButtonPickerFragment
+import com.android.settings.widget.SettingsSuggestionsPreference
 import com.android.settingslib.search.SearchIndexable
 import com.android.settingslib.search.SearchIndexableRaw
 import com.android.settingslib.widget.CandidateInfo
@@ -84,6 +85,16 @@ class ShadePanelsFragment : RadioButtonPickerFragment(), HelpResourceProvider {
                 }
             )
         }
+
+        val suggestionsKey = ShadePanelsSuggestionsController.KEY_SUGGESTIONS
+        screen.addPreference(
+            SettingsSuggestionsPreference(context).apply {
+                key = suggestionsKey
+                isSelectable = false
+                order = 1000
+            }
+        )
+        ShadePanelsSuggestionsController(context, suggestionsKey).displayPreference(screen)
     }
 
     override fun bindPreferenceExtra(

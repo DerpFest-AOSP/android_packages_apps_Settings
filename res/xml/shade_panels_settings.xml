@@ -19,4 +19,5 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/shade_panels_title"
-    settings:keywords="@string/keywords_shade_panels"/>
+    settings:keywords="@string/keywords_shade_panels"
+    settings:staticPreferenceLocation="append"/>
