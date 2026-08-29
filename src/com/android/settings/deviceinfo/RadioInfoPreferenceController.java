@@ -17,30 +17,19 @@
 package com.android.settings.deviceinfo;
 
 import android.content.Context;
-import android.telephony.TelephonyManager;
 
-import androidx.preference.PreferenceScreen;
-
-import com.android.settings.R;
+import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
 
 public class RadioInfoPreferenceController extends BasePreferenceController {
 
-    private TelephonyManager mTelephonyManager;
-
     public RadioInfoPreferenceController(Context context, String key) {
         super(context, key);
-        mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
-    }
-
-    @Override
-    public void displayPreference(PreferenceScreen screen) {
-        super.displayPreference(screen);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return mTelephonyManager.isVoiceCapable()
+        return (Utils.isMobileDataCapable(mContext) || Utils.isVoiceCapable(mContext))
                 ? AVAILABLE
                 : UNSUPPORTED_ON_DEVICE;
     }
