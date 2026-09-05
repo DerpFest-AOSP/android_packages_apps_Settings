@@ -481,4 +481,9 @@
     <string name="triluminous_engine_mode_title">Triluminous display</string>
     <string name="display_engine_default">Default</string>
     <string name="display_engine_mode_footer_text">Inspired by Sony\'s Bravia/X-Reality engine, the Display Engine features Vivid mode for enhanced brightness and color saturation, X-Reality mode for improved detail and color accuracy, and Triluminous mode for a wider color range.</string>
+
+    <!-- Vibration settings for sliders -->
+    <string name="accessibility_slider_haptics_category_title">Sliders</string>
+    <string name="accessibility_brightness_slider_haptic_title">Brightness slider haptic</string>
+    <string name="accessibility_volume_dialog_haptic_title">Volume slider haptic</string>
 </resources>

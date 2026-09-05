@@ -287,4 +287,9 @@ Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meiste
     <string name="display_engine_default">Standard</string>
     <string name="display_engine_mode_footer_text">Inspiriert von Sony\'s Bravia/X-Reality engine, hat die Display engine den gesättigten Modus für verbesserte Helligkeit und Sättigung, den X-Reality Modus für verbesserte Details und Farbwiedergabe und den Triluminous Modus für ein breiteres Farbspektrum.</string>
 
+    <!-- Vibration settings for sliders -->
+    <string name="accessibility_slider_haptics_category_title">Schieberegler</string>
+    <string name="accessibility_brightness_slider_haptic_title">Haptik für Helligkeitsregler</string>
+    <string name="accessibility_volume_dialog_haptic_title">Haptik für Lautstärkeregler</string>
+
 </resources>

@@ -117,4 +117,21 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="toggle_vibration_category_sliders"
+        android:title="@string/accessibility_slider_haptics_category_title"
+        android:persistent="false">
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_brightness_slider_haptic"
+            android:title="@string/accessibility_brightness_slider_haptic_title"
+            android:defaultValue="true" />
+
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
+            android:key="volume_dialog_haptic_feedback"
+            android:title="@string/accessibility_volume_dialog_haptic_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
