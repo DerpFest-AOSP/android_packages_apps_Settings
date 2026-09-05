@@ -21,16 +21,16 @@ import android.hardware.display.ColorDisplayManager;
 import android.text.TextUtils;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SeekBarPreference;
 
 import com.android.settings.core.SliderPreferenceController;
+import com.android.settingslib.widget.SliderPreference;
 
 public class ColorBalancePreferenceController extends SliderPreferenceController {
 
     private final ColorDisplayManager mColorDisplayManager;
     private final int mChannel;
 
-    private SeekBarPreference mPreference;
+    private SliderPreference mPreference;
 
     public ColorBalancePreferenceController(Context context, String key) {
         super(context, key);
