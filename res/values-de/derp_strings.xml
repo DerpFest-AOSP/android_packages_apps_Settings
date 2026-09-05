@@ -274,4 +274,17 @@ Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meiste
     <string name="doze_vibrate_summary">Vibrationsdauer bei kurz angezeigten Benachrichtigungen</string>
     <string name="caution">Vorsicht</string>
     <string name="sensor_warning_message">Einstellungen, die auf Sensoren basieren, unterliegen der Hardware-Kompatibilität. Die Aktivierung von Ambient-Modus-Sensoren kann die Stromaufnahme erhöhen.</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Anzeige-Engine</string>
+    <string name="display_engine_mode_title">Reality-Anzeige-Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality-Engine</string>
+    <string name="vivid_engine_mode_title">Lebendige Anzeige</string>
+    <string name="triluminous_engine_mode_title">Trilluminöse Anzeige</string>
+    <string name="natural_engine_mode_title">Natürliche Anzeige</string>
+    <string name="cinema_engine_mode_title">Kinoanzeige</string>
+    <string name="reading_engine_mode_title">Komfortanzeige (Lesemodus)</string>
+    <string name="display_engine_default">Standard</string>
+    <string name="display_engine_mode_footer_text">Inspiriert von Sony\'s Bravia/X-Reality engine, hat die Display engine den gesättigten Modus für verbesserte Helligkeit und Sättigung, den X-Reality Modus für verbesserte Details und Farbwiedergabe und den Triluminous Modus für ein breiteres Farbspektrum.</string>
+
 </resources>

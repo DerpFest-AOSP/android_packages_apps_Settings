@@ -32,6 +32,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings.Secure;
 import android.util.Log;
 import android.view.View;
@@ -69,6 +70,7 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
     private static final String KEY_COLOR_MODE_PREFIX = "color_mode_";
     private static final String KEY_COLOR_TEMPERATURE = "color_temperature";
     private static final String KEY_COLOR_SATURATION = "color_saturation";
+    private static final String KEY_DISPLAY_ENGINE_CATEGORY = "display_engine_category";
 
     private static final int COLOR_MODE_FALLBACK = COLOR_MODE_NATURAL;
 
@@ -252,6 +254,12 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
             ColorBalancePreferenceController controller = new ColorBalancePreferenceController(
                     screen.getContext(), ColorBalancePreferenceController.channelToKey(channel));
             controller.displayPreference(screen);
+        }
+
+        if (ColorDisplayManager.isColorTransformAccelerated(screen.getContext())
+                && screen.findPreference(KEY_DISPLAY_ENGINE_CATEGORY) == null) {
+            getPreferenceManager().inflateFromResource(
+                    screen.getContext(), R.xml.display_engine_settings, screen);
         }
     }
 
@@ -448,6 +456,22 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider(R.xml.color_mode_settings) {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final List<SearchIndexableResource> resources = new ArrayList<>();
+                    final SearchIndexableResource colorModeXml = new SearchIndexableResource(context);
+                    colorModeXml.xmlResId = R.xml.color_mode_settings;
+                    resources.add(colorModeXml);
+                    if (ColorDisplayManager.isColorTransformAccelerated(context)) {
+                        final SearchIndexableResource displayEngineXml =
+                                new SearchIndexableResource(context);
+                        displayEngineXml.xmlResId = R.xml.display_engine_settings;
+                        resources.add(displayEngineXml);
+                    }
+                    return resources;
+                }
 
                 @Override
                 protected boolean isPageSearchEnabled(Context context) {
