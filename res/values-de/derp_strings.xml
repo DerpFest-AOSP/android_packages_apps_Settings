@@ -191,9 +191,9 @@
     <string name="blur_settings_summary_on">An (%1$d%%)</string>
     <string name="blur_settings_summary_off">Aus</string>
 
-    <!-- App Lock -->
+    <!-- App lock -->
     <string name="app_lock_settings_title">App-Sperre</string>
-    <string name="app_lock_settings_summary">App-Sperre anpassen und gesperrte Apps wählen</string>
+    <string name="app_lock_settings_summary">Apps schnell sperren, um unbefugten Zugriff zu verhindern</string>
     <string name="app_lock_customization_category">Anpassung</string>
     <string name="app_lock_apps_category">Gesperrte Apps</string>
     <string name="app_lock_auto_biometric_prompt_title">Automatische biometrische Abfrage</string>

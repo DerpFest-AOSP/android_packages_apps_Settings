@@ -69,6 +69,12 @@
             android:title="@string/permissions_usage_title"
             settings:controller="com.android.settings.privacy.PrivacyHubPreferenceController"
             settings:keywords="@string/safety_center_permission_usage_search_terms"/>
+        <Preference
+            android:key="app_lock_settings_security"
+            android:title="@string/app_lock_settings_title"
+            android:summary="@string/summary_placeholder"
+            android:fragment="com.android.settings.security.applock.AppLockSettings"
+            settings:controller="com.android.settings.security.applock.AppLockPreferenceController" />
         <com.android.settingslib.safetycenter.SafetySourcePreference
             android:key="private_space"
             settings:controller="com.android.settings.safetycenter.ui.SafetySourcePreferenceController"

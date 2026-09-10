@@ -241,9 +241,9 @@
     <!-- Expressive QR -->
     <string name="wifi_qr_code_animation_control">pause the animation</string>
 
-    <!-- App Lock -->
-    <string name="app_lock_settings_title">App Lock</string>
-    <string name="app_lock_settings_summary">Customize App Lock and choose locked apps</string>
+    <!-- App lock -->
+    <string name="app_lock_settings_title">App lock</string>
+    <string name="app_lock_settings_summary">Quickly lock apps to prevent unauthorized access</string>
     <string name="app_lock_customization_category">Customization</string>
     <string name="app_lock_apps_category">Locked apps</string>
     <string name="app_lock_auto_biometric_prompt_title">Automatic biometric prompt</string>
@@ -258,14 +258,14 @@
     <string name="app_lock_grace_period_30_seconds">30 seconds</string>
     <string name="app_lock_grace_period_1_minute">1 minute</string>
     <string name="app_lock_grace_period_5_minutes">5 minutes</string>
-    <string name="app_lock_separate_credential_title">App Lock credential</string>
+    <string name="app_lock_separate_credential_title">App lock credential</string>
     <string name="app_lock_separate_credential_none">Device credential (default)</string>
     <string name="app_lock_separate_credential_pin">Separate PIN</string>
     <string name="app_lock_separate_credential_pattern">Separate pattern</string>
     <string name="app_lock_credential_set_pin">Set separate PIN</string>
     <string name="app_lock_credential_set_pattern">Set separate pattern</string>
     <string name="app_lock_credential_remove">Use device credential</string>
-    <string name="app_lock_no_lockable_apps">No apps support App Lock</string>
+    <string name="app_lock_no_lockable_apps">No apps support App lock</string>
     <plurals name="app_lock_summary_count">
         <item quantity="one">1 app locked</item>
         <item quantity="other"><xliff:g id="count" example="3">%d</xliff:g> apps locked</item>

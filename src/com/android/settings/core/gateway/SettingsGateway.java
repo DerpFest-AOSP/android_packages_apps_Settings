@@ -202,6 +202,7 @@ import com.android.settings.security.LockscreenDashboardFragment;
 import com.android.settings.security.MemtagPage;
 import com.android.settings.security.SecurityAdvancedSettings;
 import com.android.settings.security.SecuritySettings;
+import com.android.settings.security.applock.AppLockSettings;
 import com.android.settings.shortcut.CreateShortcut;
 import com.android.settings.sound.MediaControlsSettings;
 import com.android.settings.supervision.SupervisionDashboardFragment;
@@ -439,6 +440,7 @@ public class SettingsGateway {
             SummarizationPreferenceFragment.class.getName(),
             SafetyCenterFragment.class.getName(),
             SafetyCenterQsFragment.class.getName(),
+            AppLockSettings.class.getName(),
             RunningServices.class.getName(),
             PrivateDnsSettings.class.getName(),
             ScreenRefreshRateFragment.class.getName(),
