@@ -35,6 +35,7 @@ import com.android.settingslib.search.SearchIndexableRaw
 import com.android.settingslib.widget.CandidateInfo
 import com.android.settingslib.widget.FooterPreference
 import com.android.settingslib.widget.SelectorWithWidgetPreference
+import com.android.settingslib.widget.SettingsThemeHelper
 
 /**
  * The preference fragment for the Settings page controlling Notifications & Quick Settings panels,
@@ -107,6 +108,18 @@ class ShadePanelsFragment : RadioButtonPickerFragment(), HelpResourceProvider {
         // Bind the summary of each radio button, as it's not included in the basic `CandidateInfo`.
         if (info is CandidateInfoExtra) {
             pref.setSummary(info.loadSummary())
+        }
+    }
+
+    /**
+     * Use the standard preference row so the radio button is placed in the end widget
+     * frame (right side in LTR) instead of the default left-aligned selector layout.
+     */
+    override fun getRadioButtonPreferenceCustomLayoutResId(): Int {
+        return if (SettingsThemeHelper.isExpressiveTheme(requireContext())) {
+            com.android.settingslib.widget.theme.R.layout.settingslib_expressive_preference
+        } else {
+            com.android.settingslib.widget.theme.R.layout.settingslib_preference
         }
     }
 
