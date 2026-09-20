@@ -18,6 +18,7 @@ package com.android.settings.fuelgauge
 
 import android.app.settings.SettingsEnums.ACTION_BATTERY_LEVEL
 import android.content.Context
+import android.os.BatteryManager
 import androidx.annotation.VisibleForTesting
 import androidx.preference.Preference
 import com.android.settings.R
@@ -145,10 +146,29 @@ class BatteryHeaderPreference :
         private fun quickUpdateHeaderPreference(preference: UsageProgressBarPreference) {
             val batteryIntent = BatteryUtils.getBatteryIntent(preference.context) ?: return
             val batteryLevel: Int = Utils.getBatteryLevel(batteryIntent)
+            val chargeCounterUah =
+                batteryIntent.getIntExtra(BatteryManager.EXTRA_CHARGE_COUNTER, -1)
             preference.apply {
                 setUsageSummary(com.android.settings.Utils.formatPercentage(batteryLevel))
+                if (chargeCounterUah > 0) {
+                    setTotalSummary(
+                        context.getString(
+                            R.string.battery_charge_counter_summary,
+                            chargeCounterUah / getBatteryDivider(context),
+                        )
+                    )
+                }
                 setPercent(batteryLevel.toLong(), BATTERY_MAX_LEVEL)
                 setBottomSummary("")
+            }
+        }
+
+        private fun getBatteryDivider(context: Context): Int {
+            return try {
+                val divider = context.resources.getInteger(R.integer.config_battery_divider)
+                if (divider in 1..10000) divider else 1000
+            } catch (_: Exception) {
+                1000
             }
         }
     }

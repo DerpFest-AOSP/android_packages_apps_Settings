@@ -118,8 +118,6 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
         Intent batteryBroadcast =
                 com.android.settingslib.fuelgauge.BatteryUtils.getBatteryIntent(mContext);
         final int batteryLevel = Utils.getBatteryLevel(batteryBroadcast);
-        final boolean discharging =
-                batteryBroadcast.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1) == 0;
         final int chargeCounterUah =
                 batteryBroadcast.getIntExtra(BatteryManager.EXTRA_CHARGE_COUNTER, -1);
 
