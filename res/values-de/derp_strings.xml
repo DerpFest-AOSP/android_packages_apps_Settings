@@ -295,4 +295,148 @@ Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meiste
     <!-- Fling scroll edge haptics -->
     <string name="scroll_fling_haptic_feedback_title">Haptik beim Wischen am Rand</string>
     <string name="scroll_fling_haptic_feedback_summary">Mit Klick-Effekt vibrieren, wenn ein Wisch-Scrollen den Rand einer Liste oder Seite erreicht</string>
+
+    <!-- Notifications -->
+    <string name="heads_up_notifications_title">Pop-up-Benachrichtigungen</string>
+    <string name="heads_up_blacklist_title">Pop-up-Sperrliste</string>
+    <string name="prevent_ringing_option_normal">Normal</string>
+
+    <!-- App list -->
+    <string name="app_list_search">Suchen</string>
+    <string name="app_list_search_apps">Apps suchen</string>
+    <string name="app_list_loading">Apps werden geladen\u2026</string>
+    <string name="per_app_config_empty_text">Keine installierte App unterstützt die aktuellen Einstellungen</string>
+
+    <!-- Wi-Fi and VPN -->
+    <string name="wifi_do_not_validate_eap_server">Nicht prüfen</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Die Verbindung ist nicht privat.</string>
+    <string name="wifi_qr_code_animation_control">Animation pausieren</string>
+    <string name="advanced_vpn_preference_group_title">Integriert</string>
+    <string name="vpn_preference_group_title">Weitere</string>
+    <string name="vpn_enforce_dns_title">Bei VPN deaktivieren</string>
+    <string name="vpn_enforce_dns_summary">Privates DNS deaktivieren, solange eine VPN-Verbindung besteht. Es wird nach dem Trennen wiederhergestellt.</string>
+
+    <!-- Navigation gestures -->
+    <string name="navbar_gesture_handle_category">Gestengriff</string>
+    <string name="back_gesture_arrow_title">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
+    <string name="back_gesture_haptic_title">Haptisches Feedback</string>
+    <string name="back_gesture_haptic_summary">Bei einer Zurück-Geste vibrieren</string>
+
+    <!-- DerpFest customizations -->
+    <string name="derpfest_customizations_title">DerpFest-Einstellungen</string>
+    <string name="derpfest_customizations_summary">Hier liegt das kaputte Zeug</string>
+    <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
+    <string name="gamespace_title">GameSpace</string>
+    <string name="hide_developer_status_title">Entwicklerstatus verbergen</string>
+    <string name="hide_developer_status_summary">Entwicklerstatus für ausgewählte Apps verbergen</string>
+
+    <!-- Security patch level -->
+    <string name="security_dialog_neutral_button">AOSP-Sicherheitsbulletins</string>
+    <string name="android_security_title">AOSP-Sicherheitspatch-Level</string>
+    <string name="android_security_summary">Android-Sicherheitsupdates sind eine Sammlung von Patches für die Android-Plattform und die Hersteller-Binärdateien, die sie zum Laufen braucht. Da diese Binärdateien proprietär sind, sind wir darauf angewiesen, dass die Hersteller sie an die OEMs liefern und die OEMs sie an die Nutzer ausliefern, damit wir sie in unsere Builds aufnehmen können. Da wir diesen Prozess nicht steuern können, möchten wir klarstellen, dass wir das Sicherheitspatch-Level nur in den Repositories aktualisieren, die aus dem Android Open Source Project stammen. Das Patch-Level des Herstellers entspricht in der Regel dem Patch-Level der neuesten Stock-ROM.</string>
+    <string name="vendor_security_title">Hersteller-Patch-Level</string>
+
+    <!-- Always on display -->
+    <string name="always_on_display_schedule_title">Zeitplan für Always-on-Display</string>
+    <string name="always_on_display_schedule_sunset">Sonnenuntergang</string>
+    <string name="always_on_display_schedule_sunrise">Sonnenaufgang</string>
+    <string name="always_on_display_schedule_mixed_sunset">Von Sonnenuntergang bis zu einer Uhrzeit aktiv</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Von einer Uhrzeit bis Sonnenaufgang aktiv</string>
+    <string name="disabled">Deaktiviert</string>
+    <string name="ambient_time_out_title">Zeitlimit für Ambient-Benachrichtigungen</string>
+    <string name="ambient_time_out_summary">%1$d Sekunden</string>
+
+    <!-- Pocket detection -->
+    <string name="pocket_judge_title">Taschenerkennung</string>
+    <string name="pocket_judge_summary">Bildschirm- und Tasteneingaben blockieren, wenn sich das Gerät in der Tasche befindet</string>
+
+    <!-- Transient tasks -->
+    <string name="transient_task_mode_title">Modus für flüchtige Aufgaben</string>
+    <string name="transient_task_mode_dialog_title">Modus für flüchtige Aufgaben (Gerät neu starten, um die Änderungen zu übernehmen)</string>
+    <string name="transient_task_mode_summary">Apps aus „Letzte Apps“ entfernen, wenn die letzte Aktivität mit der Zurück-Taste geschlossen wird.</string>
+    <string name="transient_task_mode_default">Deaktiviert (Standard)</string>
+    <string name="transient_task_mode_allow">Aktiviert (einige Apps bleiben)</string>
+    <string name="transient_task_mode_force">Erzwingen (App-Verhalten überschreiben)</string>
+
+    <!-- Auto brightness -->
+    <string name="reset_auto_brightness_adjustment_title">Präferenz zurücksetzen</string>
+    <string name="reset_auto_brightness_adjustment_summary">Das System vergisst die gespeicherte Helligkeitspräferenz und setzt sie auf den Standard zurück</string>
+    <string name="reset_auto_brightness_adjustment_done">Die Helligkeitspräferenz wurde zurückgesetzt</string>
+
+    <!-- Data usage cycle -->
+    <string name="billing_cycle_type_title">Zyklus der mobilen Datennutzung</string>
+    <string name="billing_cycle_type_monthly">Monatlich</string>
+    <string name="billing_cycle_type_weekly">Wöchentlich</string>
+    <string name="billing_cycle_type_daily">Täglich</string>
+    <string name="billing_cycle_less_than_one_hour_left">Weniger als 1 Stunde übrig</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {Noch # Stunde}
+        other   {Noch # Stunden}
+        }</string>
+    <string name="cycle_type_weekly_title">Tag der Zykluszurücksetzung</string>
+    <string name="cycle_type_weekly_sub">Wochentag:\n1 = Montag</string>
+    <string name="cycle_type_daily_title">Stunde der Zykluszurücksetzung</string>
+    <string name="cycle_type_daily_sub">Stunde des Tages:</string>
+
+    <!-- App volume -->
+    <string name="app_volume">App-Lautstärke</string>
+    <string name="app_volume_title">Lautstärke pro App</string>
+    <string name="app_volume_summary">Schaltfläche für die Lautstärke pro App im Lautstärkedialog anzeigen</string>
+    <string name="multi_audio_focus_title">Mehrfach-Audiofokus</string>
+    <string name="multi_audio_focus_summary">Mehreren Apps gleichzeitig die Audiowiedergabe erlauben</string>
+
+    <!-- Refresh rate -->
+    <string name="per_app_refresh_rate_title">Aktualisierungsrate pro App</string>
+    <string name="per_app_refresh_rate_summary">Aktualisierungsrate für jede App einzeln festlegen</string>
+    <string name="per_app_refresh_rate_default">Wie im System</string>
+    <string name="screen_refresh_rate_title">Bildschirm-Aktualisierungsrate</string>
+    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
+    <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
+    <string name="battery_saver_refresh_rate_title">Aktualisierungsrate verringern</string>
+    <string name="battery_saver_refresh_rate_summary">Bei aktivem Energiesparmodus 60 Hz verwenden, um Strom zu sparen</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">Extreme Aktualisierungsrate ist aktiv</string>
+    <string name="extreme_refresh_rate_title">Extreme Aktualisierungsrate</string>
+    <string name="extreme_refresh_rate_summary">Höchste Aktualisierungsrate für alle Apps erzwingen</string>
+    <string name="extreme_refresh_rate_warning">Damit wählt das System immer die höchste Aktualisierungsrate und ignoriert die vom Nutzer und von Apps bevorzugten Optionen. Apps, die eine bestimmte Aktualisierungsrate benötigen, funktionieren möglicherweise nicht richtig.</string>
+    <string name="confirm_before_enable_title">Wirklich aktivieren?</string>
+
+    <!-- Battery saver -->
+    <string name="adaptive_battery_entry_purpose">Ermöglicht, den intelligenten Akku ein- oder auszuschalten. Er optimiert den Akkuverbrauch von Apps anhand der Nutzungsgewohnheiten, damit der Akku länger hält.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Gibt an, ob der intelligente Akku aktiv ist und den Akkuverbrauch anhand der App-Nutzung optimiert.</string>
+    <string name="adaptive_battery_switch_title">Intelligenten Akku verwenden</string>
+    <string name="basic_battery_saver_title">Standard-Energiesparmodus</string>
+    <string name="basic_battery_saver_summary">Schränkt visuelle Effekte und Hintergrundaktivität ein. Aktiviert das dunkle Design, falls es nicht schon aktiv ist.</string>
+    <string name="basic_battery_saver_purpose">Aktiviert den Standard-Energiesparmodus, der visuelle Effekte und Hintergrundaktivität einschränkt</string>
+    <string name="battery_saver_reminder_category">Erinnerungen</string>
+    <string name="battery_saver_reminder_switch_title">Erinnerungen zum Energiesparmodus</string>
+    <string name="battery_saver_reminder_switch_summary">Erinnerungen erhalten, wenn der Akku schwach ist</string>
+    <string name="battery_saver_schedule_category">Zeitplan</string>
+    <string name="battery_saver_schedule_switch_title">Anhand des Akkustands aktivieren</string>
+    <string name="battery_saver_schedule_switch_summary">Der Energiesparmodus wird aktiviert, wenn der Akku einen festgelegten Stand erreicht</string>
+    <string name="battery_saver_schedule_purpose">Ermöglicht, Zeitpläne für den Energiesparmodus festzulegen, einschließlich automatischer Aktivierung anhand des Akkustands und automatischer Deaktivierung beim Laden, sowie Erinnerungen bei schwachem Akku.</string>
+    <string name="battery_schedule_title">Zeitplan und Erinnerungen</string>
+    <string name="battery_schedule_summary">Festlegen, wann der Energiesparmodus aktiviert wird</string>
+    <string name="extreme_battery_saver_title">Extremer Energiesparmodus</string>
+    <string name="extreme_battery_saver_summary">Umfasst alle oben genannten Änderungen. Hält außerdem nicht benötigte Apps und ihre Benachrichtigungen an.</string>
+    <string name="extreme_battery_saver_purpose">Aktiviert den extremen Energiesparmodus, der nicht benötigte Apps und Benachrichtigungen anhält</string>
+    <string name="low_power_mode_reminder_enabled_purpose">Gibt an, ob bei schwachem Akku Erinnerungen angezeigt werden</string>
+
+    <!-- Clear calling -->
+    <string name="clear_calling_footer_learn_more_link">https://support.google.com/pixelphone?p=clear_calling</string>
+
+    <!-- Color balance -->
+    <string name="color_mode_balance_red">Rotanteil</string>
+    <string name="color_mode_balance_green">Grünanteil</string>
+    <string name="color_mode_balance_blue">Blauanteil</string>
+    <string name="keywords_color_balance">Farbe, Farbbalance, Farbkorrektur, Rot, Grün, Blau, LiveDisplay</string>
+    <string name="color_mode_advanced_category">Erweiterte Steuerung</string>
+    <string name="color_temperature_title">Farbtemperatur</string>
+    <string name="color_temperature_start_label">Warm</string>
+    <string name="color_temperature_end_label">Kalt</string>
+    <string name="color_saturation_title">Sättigung</string>
+    <string name="keywords_color_saturation">Farbe, Farbtemperatur, warm, kalt, LiveDisplay</string>
+    <string name="color_hue_title">Farbton</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_picture_brightness_title">Bildhelligkeit</string>
 </resources>
