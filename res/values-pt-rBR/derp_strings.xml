@@ -143,4 +143,9 @@
     <string name="triluminous_engine_mode_title">Exibição Triluminous</string>
     <string name="display_engine_default">Padrão</string>
     <string name="display_engine_mode_footer_text">Inspirado no motor Bravia/X-Reality da Sony, o Motor de Exibição oferece o modo Vívido para maior brilho e saturação de cor, modo X-Reality para detalhes aprimorados e precisão de cor, e modo Triluminous para uma gama de cores mais ampla.</string>
+
+    <!-- Window blur settings -->
+    <string name="blur_intensity_title">Intensidade do desfoque</string>
+    <string name="blur_settings_summary_on">Ativado (%1$d%%)</string>
+    <string name="blur_settings_summary_off">Desativado</string>
 </resources>
