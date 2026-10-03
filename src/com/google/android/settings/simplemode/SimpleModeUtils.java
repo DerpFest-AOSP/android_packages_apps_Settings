@@ -30,12 +30,12 @@ import com.android.settings.R;
 import com.android.settings.overlay.FeatureFactory;
 
 import com.google.common.base.Strings;
-import com.google.common.collect.ImmutableList;
 
 import io.reactivex.Single;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.Executor;
@@ -44,8 +44,9 @@ import java.util.concurrent.Executors;
 public abstract class SimpleModeUtils {
     private static final String TAG = "SimpleModeUtils";
     private static final Executor sExecutor = Executors.newSingleThreadExecutor();
-    private static final ImmutableList<String> ONE_GRID_OPTION =
-            ImmutableList.of("small", "medium", "large", "xl");
+    /** DerpLauncher grid provider. Pixel's "medium" grid is 4 columns, which is {@code 4_by_5}. */
+    private static final String LAUNCHER_GRID_AUTHORITY = "com.android.launcher3.grid_control";
+    private static final String SIMPLE_VIEW_GRID_NAME = "4_by_5";
     protected static final Preferences.Key<Integer> KEY_USER_DISPLAY_SIZE =
             PreferencesKeys.intKey("user_display_size");
     protected static final Preferences.Key<Float> KEY_USER_FONT_SIZE =
@@ -109,13 +110,13 @@ public abstract class SimpleModeUtils {
     private static Uri getUriForGridOption(String path) {
         return new Uri.Builder()
                 .scheme("content")
-                .authority("com.google.android.apps.nexuslauncher.grid_control")
+                .authority(LAUNCHER_GRID_AUTHORITY)
                 .appendPath(path)
                 .build();
     }
 
     private static String getSimpleViewGridOption() {
-        return "medium";
+        return SIMPLE_VIEW_GRID_NAME;
     }
 
     private static String getSimpleViewNavigationMode() {
@@ -145,26 +146,101 @@ public abstract class SimpleModeUtils {
     }
 
     private static String getGridOption(Context context) {
-        String str = "small";
-        try {
-            Cursor cursor =
-                    context.getContentResolver()
-                            .query(getUriForGridOption("list_options"), null, null, null, null);
-            if (cursor != null) {
-                while (cursor.moveToNext()) {
-                    String name = cursor.getString(cursor.getColumnIndex("name"));
-                    if (Boolean.parseBoolean(
-                            cursor.getString(cursor.getColumnIndex("is_default")))) {
-                        str = name;
-                        break;
-                    }
-                }
-                cursor.close();
+        for (GridOption option : queryGridOptions(context)) {
+            if (option.isDefault) {
+                return option.name;
             }
-            return str;
+        }
+        return null;
+    }
+
+    /**
+     * Pixel launcher names (small/medium/large/xl) do not exist on DerpLauncher. Keep a name that
+     * list_options already advertises, and otherwise map the Pixel column count onto a real grid.
+     */
+    private static String resolveLauncherGridName(Context context, String requested) {
+        List<GridOption> options = queryGridOptions(context);
+        for (GridOption option : options) {
+            if (option.name.equals(requested)) {
+                return option.name;
+            }
+        }
+        int columns = columnsForGridName(requested);
+        if (columns < 0) {
+            return null;
+        }
+        String columnPrefix = columns + "_by_";
+        String fallback = null;
+        for (GridOption option : options) {
+            if (option.columns != columns) {
+                continue;
+            }
+            if (option.name.startsWith(columnPrefix)) {
+                return option.name;
+            }
+            if (fallback == null) {
+                fallback = option.name;
+            }
+        }
+        return fallback;
+    }
+
+    private static int columnsForGridName(String name) {
+        switch (name) {
+            case "small":
+                return 5;
+            case "medium":
+            case SIMPLE_VIEW_GRID_NAME:
+                return 4;
+            case "large":
+                return 3;
+            case "xl":
+                return 2;
+            default:
+                return -1;
+        }
+    }
+
+    private static List<GridOption> queryGridOptions(Context context) {
+        List<GridOption> options = new ArrayList<>();
+        try (Cursor cursor =
+                context.getContentResolver()
+                        .query(getUriForGridOption("list_options"), null, null, null, null)) {
+            if (cursor == null) {
+                return options;
+            }
+            int nameIndex = cursor.getColumnIndex("name");
+            int colsIndex = cursor.getColumnIndex("cols");
+            int defaultIndex = cursor.getColumnIndex("is_default");
+            if (nameIndex < 0) {
+                return options;
+            }
+            while (cursor.moveToNext()) {
+                String name = cursor.getString(nameIndex);
+                if (name == null) {
+                    continue;
+                }
+                int columns = colsIndex >= 0 ? cursor.getInt(colsIndex) : -1;
+                boolean isDefault =
+                        defaultIndex >= 0
+                                && Boolean.parseBoolean(cursor.getString(defaultIndex));
+                options.add(new GridOption(name, columns, isDefault));
+            }
         } catch (Exception e) {
-            Log.e(TAG, "Failed to get list options", e);
-            return "small";
+            Log.w(TAG, "Failed to get list options", e);
+        }
+        return options;
+    }
+
+    private static final class GridOption {
+        final String name;
+        final int columns;
+        final boolean isDefault;
+
+        GridOption(String name, int columns, boolean isDefault) {
+            this.name = name;
+            this.columns = columns;
+            this.isDefault = isDefault;
         }
     }
 
@@ -280,7 +356,7 @@ public abstract class SimpleModeUtils {
         final int touchTime =
                 Settings.Secure.getInt(
                         contentResolver, "long_press_timeout", Integer.parseInt(touchTimeArray[0]));
-        final String gridOption = getGridOption(context);
+        final String gridOption = Strings.nullToEmpty(getGridOption(context));
         final long initTime = System.currentTimeMillis();
         rxDataStore
                 .updateDataAsync(
@@ -525,7 +601,7 @@ public abstract class SimpleModeUtils {
                 + ","
                 + String.valueOf(touchTime)
                 + ","
-                + getGridOption(context);
+                + Strings.nullToEmpty(getGridOption(context));
     }
 
     protected static void restoreCurrentAccessibilityAppearance(Context context, final String str) {
@@ -533,7 +609,7 @@ public abstract class SimpleModeUtils {
             Log.d(TAG, "Skipping restore: no any backup data");
             return;
         }
-        String[] strArrSplit = str.split(",");
+        String[] strArrSplit = str.split(",", -1);
         if (strArrSplit.length != 7) {
             Log.d(TAG, "Skipping restore: data loss");
             return;
@@ -593,13 +669,21 @@ public abstract class SimpleModeUtils {
             }
         }
         Settings.Secure.putInt(contentResolver, "long_press_timeout", touchTime);
-        if (gridOption != null) {
-            if (!isOneGridOption(gridOption)) {
-                gridOption = remapToOneGridOption(gridOption);
-                Log.d(TAG, "remapToOneGridOption: " + gridOption);
+        if (!Strings.isNullOrEmpty(gridOption)) {
+            String resolved = resolveLauncherGridName(context, gridOption);
+            if (resolved == null) {
+                Log.w(TAG, "No launcher grid matches " + gridOption);
+            } else {
+                try {
+                    contentResolver.update(
+                            getUriForSetDefaultGrid(),
+                            getGridOptionContentValue(resolved),
+                            null,
+                            null);
+                } catch (Exception e) {
+                    Log.w(TAG, "Unable to update launcher grid", e);
+                }
             }
-            contentResolver.update(
-                    getUriForSetDefaultGrid(), getGridOptionContentValue(gridOption), null, null);
         }
     }
 
@@ -629,25 +713,4 @@ public abstract class SimpleModeUtils {
         return duration > FIVE_MINUTES ? 2 : 1;
     }
 
-    private static boolean isOneGridOption(String str) {
-        return ONE_GRID_OPTION.contains(str);
-    }
-
-    private static String remapToOneGridOption(String str) {
-        switch (str.hashCode()) {
-            case -1039745817:
-                str.equals("normal");
-                return "small";
-            case -621369835:
-                return str.equals("practical") ? "medium" : "small";
-            case 97536:
-                return str.equals("big") ? "large" : "small";
-            case 723019166:
-                return str.equals("reasonable") ? "medium" : "small";
-            case 2063491154:
-                return str.equals("crazy_big") ? "xl" : "small";
-            default:
-                return "small";
-        }
-    }
 }
