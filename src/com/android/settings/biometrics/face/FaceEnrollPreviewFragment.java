@@ -18,6 +18,7 @@ package com.android.settings.biometrics.face;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.pm.ActivityInfo;
 import android.graphics.Matrix;
 import android.graphics.SurfaceTexture;
 import android.hardware.camera2.CameraAccessException;
@@ -35,8 +36,6 @@ import android.util.Size;
 import android.util.TypedValue;
 import android.view.Surface;
 import android.view.TextureView;
-import android.view.View;
-import android.widget.ImageView;
 
 import com.android.settings.R;
 import com.android.settings.biometrics.BiometricEnrollSidecar;
@@ -56,10 +55,6 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
     private static final int MAX_PREVIEW_WIDTH = 1920;
     private static final int MAX_PREVIEW_HEIGHT = 1080;
 
-    public interface PreviewSurfaceCallback {
-        void onPreviewSurfaceCreated(Surface surface);
-    }
-
     private Handler mHandler = new Handler(Looper.getMainLooper());
     private CameraManager mCameraManager;
     private String mCameraId;
@@ -68,15 +63,14 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
     private CameraCaptureSession mCaptureSession;
     private CaptureRequest mPreviewRequest;
     private Size mPreviewSize;
-    private Surface mPreviewSurface;
+    private int mSensorOrientation;
     private ParticleCollection.Listener mListener;
-    private PreviewSurfaceCallback mPreviewSurfaceCallback;
+    private boolean mHalOwnsCamera;
+    private Surface mPreviewSurface;
+    private Runnable mSurfaceReadyListener;
 
     // View used to contain the circular cutout and enrollment animation drawable
-    private ImageView mCircleView;
-
-    // Drawable containing the circular cutout and enrollment animations
-    private FaceEnrollAnimationDrawable mAnimationDrawable;
+    private FaceEnrollProgressView mProgressView;
 
     // Texture used for showing the camera preview
     private FaceSquareTextureView mTextureView;
@@ -108,6 +102,10 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
 
         @Override
         public boolean onSurfaceTextureDestroyed(SurfaceTexture surfaceTexture) {
+            if (mPreviewSurface != null) {
+                mPreviewSurface.release();
+                mPreviewSurface = null;
+            }
             return true;
         }
 
@@ -129,20 +127,15 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
                 texture.setDefaultBufferSize(mPreviewSize.getWidth(), mPreviewSize.getHeight());
 
                 // This is the output Surface we need to start preview
-                mPreviewSurface = new Surface(texture);
-
-                // Notify callback that surface is created
-                if (mPreviewSurfaceCallback != null) {
-                    mPreviewSurfaceCallback.onPreviewSurfaceCreated(mPreviewSurface);
-                }
+                Surface surface = new Surface(texture);
 
                 // Set up a CaptureRequest.Builder with the output Surface
                 mPreviewRequestBuilder =
                         mCameraDevice.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW);
-                mPreviewRequestBuilder.addTarget(mPreviewSurface);
+                mPreviewRequestBuilder.addTarget(surface);
 
                 // Create a CameraCaptureSession for camera preview
-                mCameraDevice.createCaptureSession(Arrays.asList(mPreviewSurface),
+                mCameraDevice.createCaptureSession(Arrays.asList(surface),
                     new CameraCaptureSession.StateCallback() {
 
                         @Override
@@ -195,29 +188,17 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
         return SettingsEnums.FACE_ENROLL_PREVIEW;
     }
 
-    public Surface getPreviewSurface() {
-        return mPreviewSurface;
-    }
-
-    public void setPreviewSurfaceCallback(PreviewSurfaceCallback callback) {
-        mPreviewSurfaceCallback = callback;
-
-        if (mPreviewSurface != null && callback != null) {
-            callback.onPreviewSurfaceCreated(mPreviewSurface);
-        }
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mHalOwnsCamera = getResources().getBoolean(R.bool.config_face_enroll_hal_owns_camera);
+        if (mHalOwnsCamera) {
+            // The face HAL keeps rendering into the initial preview surface, which is gone once
+            // the activity is recreated. Unlike portrait, locked is respected on large screens.
+            getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
+        }
         mTextureView = getActivity().findViewById(R.id.texture_view);
-        mCircleView = getActivity().findViewById(R.id.circle_view);
-
-        // Must disable hardware acceleration for this view, otherwise transparency breaks
-        mCircleView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-
-        mAnimationDrawable = new FaceEnrollAnimationDrawable(getContext(), mAnimationListener);
-        mCircleView.setImageDrawable(mAnimationDrawable);
+        mProgressView = getActivity().findViewById(R.id.progress_view);
 
         mCameraManager = (CameraManager) getContext().getSystemService(Context.CAMERA_SERVICE);
     }
@@ -245,21 +226,41 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
 
     @Override
     public void onEnrollmentError(int errMsgId, CharSequence errString) {
-        mAnimationDrawable.onEnrollmentError(errMsgId, errString);
+        mProgressView.setErrorState();
     }
 
     @Override
     public void onEnrollmentHelp(int helpMsgId, CharSequence helpString) {
-        mAnimationDrawable.onEnrollmentHelp(helpMsgId, helpString);
+        mProgressView.setHelpState();
     }
 
     @Override
     public void onEnrollmentProgressChange(int steps, int remaining) {
-        mAnimationDrawable.onEnrollmentProgressChange(steps, remaining);
+        mProgressView.setProgress(steps, remaining);
+        if (remaining == 0) mProgressView.setCompleteState();
     }
 
     public void setListener(ParticleCollection.Listener listener) {
         mListener = listener;
+    }
+
+    /** Runs the listener once the surface returned by {@link #getPreviewSurface} is ready. */
+    public void setSurfaceReadyListener(Runnable listener) {
+        mSurfaceReadyListener = listener;
+        notifySurfaceReady();
+    }
+
+    /** Returns the surface the face HAL should render its camera preview into. */
+    public Surface getPreviewSurface() {
+        return mPreviewSurface;
+    }
+
+    private void notifySurfaceReady() {
+        if (mPreviewSurface != null && mSurfaceReadyListener != null) {
+            final Runnable listener = mSurfaceReadyListener;
+            mSurfaceReadyListener = null;
+            listener.run();
+        }
     }
 
     /**
@@ -282,6 +283,8 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
                 StreamConfigurationMap map = characteristics.get(
                         CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP);
                 mPreviewSize = chooseOptimalSize(map.getOutputSizes(SurfaceTexture.class));
+                mSensorOrientation =
+                        characteristics.get(CameraCharacteristics.SENSOR_ORIENTATION);
                 break;
             }
         } catch (CameraAccessException e) {
@@ -295,6 +298,15 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
      * @param height The height of the texture view
      */
     private void openCamera(int width, int height) {
+        if (mHalOwnsCamera) {
+            // The face HAL opens the camera itself, only provide it a surface to render into.
+            configureTransform(width, height);
+            if (mPreviewSurface == null) {
+                mPreviewSurface = new Surface(mTextureView.getSurfaceTexture());
+            }
+            notifySurfaceReady();
+            return;
+        }
         try {
             setUpCameraOutputs();
             mCameraManager.openCamera(mCameraId, mCameraStateCallback, mHandler);
@@ -331,14 +343,37 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
             return;
         }
 
-        // Fix the aspect ratio
-        float scaleX = (float) viewWidth / mPreviewSize.getWidth();
-        float scaleY = (float) viewHeight / mPreviewSize.getHeight();
+        final float centerX = viewWidth / 2f;
+        final float centerY = viewHeight / 2f;
 
-        // Now divide by smaller one so it fills up the original space.
-        float smaller = Math.min(scaleX, scaleY);
-        scaleX = scaleX / smaller;
-        scaleY = scaleY / smaller;
+        final float contentWidth;
+        final float contentHeight;
+        if (mHalOwnsCamera) {
+            // The face HAL picks the buffer size itself, assume it matches the view.
+            contentWidth = viewWidth;
+            contentHeight = viewHeight;
+        } else {
+            // Camera service rotates the buffers so they are upright in the natural display
+            // orientation, account for that when determining the content size.
+            final boolean swapDimensions = mSensorOrientation % 180 != 0;
+            contentWidth = swapDimensions
+                    ? mPreviewSize.getHeight() : mPreviewSize.getWidth();
+            contentHeight = swapDimensions
+                    ? mPreviewSize.getWidth() : mPreviewSize.getHeight();
+        }
+
+        // Compensate for the current display rotation, the view is not always in the natural
+        // display orientation (e.g. on large screens that ignore the requested orientation).
+        final int displayRotation = getActivity().getDisplay().getRotation();
+        final int rotationDegrees = displayRotation * 90;
+        final boolean rotated = displayRotation == Surface.ROTATION_90
+                || displayRotation == Surface.ROTATION_270;
+        final float rotatedWidth = rotated ? contentHeight : contentWidth;
+        final float rotatedHeight = rotated ? contentWidth : contentHeight;
+
+        // Scale so the preview fills up the original space while keeping its aspect ratio.
+        final float fillScale = Math.max(
+                viewWidth / rotatedWidth, viewHeight / rotatedHeight);
 
         final TypedValue tx = new TypedValue();
         final TypedValue ty = new TypedValue();
@@ -349,8 +384,11 @@ public class FaceEnrollPreviewFragment extends InstrumentedPreferenceFragment
 
         // Apply the transformation/scale
         final Matrix transform = new Matrix();
-        mTextureView.getTransform(transform);
-        transform.setScale(scaleX * scale.getFloat(), scaleY * scale.getFloat());
+        transform.setScale(contentWidth / viewWidth, contentHeight / viewHeight,
+                centerX, centerY);
+        transform.postRotate(-rotationDegrees, centerX, centerY);
+        transform.postScale(fillScale * scale.getFloat(), fillScale * scale.getFloat(),
+                centerX, centerY);
         transform.postTranslate(tx.getFloat(), ty.getFloat());
         mTextureView.setTransform(transform);
     }

@@ -34,14 +34,15 @@ public class FaceEnrollSidecar extends BiometricEnrollSidecar {
     private final int[] mDisabledFeatures;
 
     private FaceUpdater mFaceUpdater;
-    private Surface mPreviewSurface;
-    private boolean mEnrollmentRequested = false;
 
     private Intent mIntent;
 
-    public FaceEnrollSidecar(int[] disabledFeatures, Intent intent) {
+    private final Surface mPreviewSurface;
+
+    public FaceEnrollSidecar(int[] disabledFeatures, Intent intent, Surface previewSurface) {
         mDisabledFeatures = Arrays.copyOf(disabledFeatures, disabledFeatures.length);
         mIntent = intent;
+        mPreviewSurface = previewSurface;
     }
 
     @Override
@@ -53,26 +54,9 @@ public class FaceEnrollSidecar extends BiometricEnrollSidecar {
     @Override
     public void startEnrollment() {
         super.startEnrollment();
-
-        if (mPreviewSurface != null) {
-            doStartEnrollment();
-        } else {
-            mEnrollmentRequested = true;
-        }
-    }
-
-    public void setPreviewSurface(Surface surface) {
-        mPreviewSurface = surface;
-
-        if (mEnrollmentRequested && mPreviewSurface != null) {
-            doStartEnrollment();
-            mEnrollmentRequested = false;
-        }
-    }
-
-    private void doStartEnrollment() {
         mFaceUpdater.enroll(mUserId, mToken, mEnrollmentCancel,
-                mEnrollmentCallback, mDisabledFeatures, mPreviewSurface, false, mIntent);
+                mEnrollmentCallback, mDisabledFeatures, mPreviewSurface,
+                false /* debugConsent */, mIntent);
     }
 
     private FaceManager.EnrollmentCallback mEnrollmentCallback
