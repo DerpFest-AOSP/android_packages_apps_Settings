@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Tezkor kirish</string>
+    <string name="simple_mode_description">Matn va belgi oʻlchamini kattalashtirish, dizaynni soddalashtirish va navigatsiya tugmalarini qoʻshish. LINK_BEGINOddiy rejim haqida batafsil.LINK_END</string>
+    <string name="simple_mode_off_summary">Ekran maketini faolsizlantiing/soddalashtiring va matn oʻqilishini osonlashtiring</string>
+    <string name="simple_mode_on_summary">Ekran maketini yoqing/soddalashtiring va matn oʻqilishini osonlashtiring</string>
+    <string name="simple_mode_summary">Matn tushunilishini yaxshilang, ekran dizayni va navigatsiyani soddalashtiring</string>
+    <string name="simple_mode_suw_description">Pixel bilan tanishuvingizni osonlashtirish va interfeysni qulaylashtirish uchun qurilma muhim ilovalar va vidjetlarni avtomatik ravishda yuklab olishi, shuningdek, shriftni, elementlarning ekranda joylashuvi va boshqa parametrlarni sozlashi mumkin.</string>
+    <string name="simple_mode_suw_done_button">Tayyor</string>
+    <string name="simple_mode_switch_title">Oddiy rejim ishlatish</string>
+    <string name="simple_mode_title">Oddiy rejim</string>
+    <string name="simple_view_dialog_negative_button">Bekor qilish</string>
+    <string name="simple_view_dialog_positive_button">Davom etish</string>
+    <string name="simple_view_feature_disabled_dialog_message">Oddiy rejim faolsizlantirilsa, qurilmadagi shrift, ekran va dizayn sozlamalari asliga qaytariladi. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Ushbu maxsus shrift sozlamalarini oʻzgartirish haqida batafsil.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Qurilma avvalgi sozlamalarga qaytariladi</string>
+    <string name="simple_view_feature_enabled_dialog_message">Joriy shrift Oddiy koʻrinish sozlamalaridan kattaroq. Oddiy koʻrinishda shrift oʻlchami kichrayadi.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Shrift oʻlchami kichrayadi</string>
+</resources>

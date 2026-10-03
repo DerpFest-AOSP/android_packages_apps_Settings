@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Acceso rápido</string>
+    <string name="simple_mode_description">Aumenta el tamaño de los textos y los iconos, simplifica el diseño y añade botones de navegación. LINK_BEGINConsulta más información sobre Vista simpleLINK_END.</string>
+    <string name="simple_mode_off_summary">Desactivado / Simplifica el diseño de la pantalla y facilita la lectura del texto</string>
+    <string name="simple_mode_on_summary">Activado / Simplifica el diseño de la pantalla y facilita la lectura del texto</string>
+    <string name="simple_mode_summary">Mejora la legibilidad del texto y simplifica el diseño de la pantalla y la navegación</string>
+    <string name="simple_mode_suw_description">Diseño más limpio y configuración inicial más sencilla. Pixel descarga automáticamente las apps y widgets esenciales, optimiza el diseño de la pantalla, ajusta la fuente y más.</string>
+    <string name="simple_mode_suw_done_button">Hecho</string>
+    <string name="simple_mode_switch_title">Usar Vista simple</string>
+    <string name="simple_mode_title">Vista simple</string>
+    <string name="simple_view_dialog_negative_button">Cancelar</string>
+    <string name="simple_view_dialog_positive_button">Continuar</string>
+    <string name="simple_view_feature_disabled_dialog_message">Al desactivar Vista simple, tu dispositivo volverá a sus ajustes originales de fuente, pantalla y diseño. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Consulta cómo cambiar estos ajustes de fuente individuales</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Tu dispositivo volverá a los ajustes anteriores</string>
+    <string name="simple_view_feature_enabled_dialog_message">La fuente que usas es más grande que la del ajuste de Vista simple. Usar Vista simple reducirá el tamaño de la fuente.</string>
+    <string name="simple_view_feature_enabled_dialog_title">El tamaño de la fuente se reducirá</string>
+</resources>

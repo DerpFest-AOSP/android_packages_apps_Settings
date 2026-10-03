@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
+            android:height="@dimen/accessibility_icon_size"
+            android:width="@dimen/accessibility_icon_size"
+            android:color="@color/accessibility_feature_background"/>
+    </item>
+    <item android:gravity="center">
+        <vector
+            android:height="@dimen/accessibility_icon_foreground_size"
+            android:width="@dimen/accessibility_icon_foreground_size"
+            android:viewportWidth="960"
+            android:viewportHeight="960">
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M320,920Q287,920 263.5,896.5Q240,873 240,840L240,680L320,680L320,720L720,720L720,240L320,240L320,280L240,280L240,120Q240,87 263.5,63.5Q287,40 320,40L720,40Q753,40 776.5,63.5Q800,87 800,120L800,840Q800,873 776.5,896.5Q753,920 720,920L320,920ZM320,800L320,840Q320,840 320,840Q320,840 320,840L720,840Q720,840 720,840Q720,840 720,840L720,800L320,800ZM176,680L120,624L344,400L200,400L200,320L480,320L480,600L400,600L400,456L176,680ZM320,160L720,160L720,120Q720,120 720,120Q720,120 720,120L320,120Q320,120 320,120Q320,120 320,120L320,160ZM320,160L320,120Q320,120 320,120Q320,120 320,120L320,120Q320,120 320,120Q320,120 320,120L320,160L320,160ZM320,800L320,800L320,840Q320,840 320,840Q320,840 320,840L320,840Q320,840 320,840Q320,840 320,840L320,800Z"/>
+        </vector>
+    </item>
+</layer-list>

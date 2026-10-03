@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Akses cepat</string>
+    <string name="simple_mode_description">Memperbesar ukuran teks dan ikon, menyederhanakan tata letak, dan menambahkan tombol navigasi. LINK_BEGINPelajari lebih lanjut Tampilan Sederhana.LINK_END</string>
+    <string name="simple_mode_off_summary">Nonaktif / Sederhanakan tata letak layar dan buat teks lebih mudah dibaca</string>
+    <string name="simple_mode_on_summary">Aktifkan / Sederhanakan tata letak layar dan buat teks lebih mudah dibaca</string>
+    <string name="simple_mode_summary">Tingkatkan keterbacaan teks serta sederhanakan navigasi dan tata letak layar</string>
+    <string name="simple_mode_suw_description">Untuk memberikan desain dan proses orientasi yang lebih sederhana, Pixel dapat otomatis mendownload widget dan aplikasi penting, mengoptimalkan tata letak tampilan, menyesuaikan font, dan lain-lain</string>
+    <string name="simple_mode_suw_done_button">Selesai</string>
+    <string name="simple_mode_switch_title">Gunakan Tampilan Sederhana</string>
+    <string name="simple_mode_title">Tampilan Sederhana</string>
+    <string name="simple_view_dialog_negative_button">Batal</string>
+    <string name="simple_view_dialog_positive_button">Lanjutkan</string>
+    <string name="simple_view_feature_disabled_dialog_message">Dengan mematikan Tampilan Sederhana, perangkat Anda akan kembali ke setelan font, tampilan, dan tata letak awalnya. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Pelajari cara mengubah setelan font individual.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Perangkat Anda akan kembali ke setelan sebelumnya</string>
+    <string name="simple_view_feature_enabled_dialog_message">Font Anda saat ini lebih besar dari setelan Tampilan Sederhana. Menggunakan Tampilan Sederhana akan memperkecil ukuran font Anda.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Ukuran font akan berkurang</string>
+</resources>

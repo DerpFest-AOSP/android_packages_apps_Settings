@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">ತ್ವರಿತ ಆ್ಯಕ್ಸೆಸ್</string>
+    <string name="simple_mode_description">ಪಠ್ಯ ಮತ್ತು ಐಕಾನ್ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸಿ, ಲೇಔಟ್ ಅನ್ನು ಸರಳೀಕರಿಸಿ ಮತ್ತು ನ್ಯಾವಿಗೇಶನ್ ಬಟನ್‌ಗಳನ್ನು ಸೇರಿಸಿ. LINK_BEGINಸಿಂಪಲ್ ವ್ಯೂ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿLINK_END.</string>
+    <string name="simple_mode_off_summary">ಆಫ್ / ಸ್ಕ್ರೀನ್ ವಿನ್ಯಾಸವನ್ನು ಸರಳಗೊಳಿಸಿ ಮತ್ತು ಪಠ್ಯವನ್ನು ಓದಲು ಸುಲಭಗೊಳಿಸಿ</string>
+    <string name="simple_mode_on_summary">ಆನ್ / ಸ್ಕ್ರೀನ್ ವಿನ್ಯಾಸವನ್ನು ಸರಳಗೊಳಿಸಿ ಮತ್ತು ಪಠ್ಯವನ್ನು ಓದಲು ಸುಲಭಗೊಳಿಸಿ</string>
+    <string name="simple_mode_summary">ಪಠ್ಯದ ಸ್ಪಷ್ಟತೆಯನ್ನು ಸುಧಾರಿಸುತ್ತದೆ ಮತ್ತು ಸ್ಕ್ರೀನ್ ಲೇಔಟ್ ಹಾಗೂ ನ್ಯಾವಿಗೇಷನ್ ಅನ್ನು ಸರಳಗೊಳಿಸುತ್ತದೆ</string>
+    <string name="simple_mode_suw_description">ಸುವ್ಯವಸ್ಥಿತ ಡಿಸೈನ್ ಮತ್ತು ಸರಳ ಆನ್‌ಬೋರ್ಡಿಂಗ್‌ಗಾಗಿ, Pixel ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಗತ್ಯ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ವಿಜೆಟ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು, ಸ್ಕ್ರೀನ್ ಲೇಔಟ್ ಅನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಬಹುದು, ಫಾಂಟ್ ಅನ್ನು ಹೊಂದಿಸಬಹುದು ಮತ್ತು ಇನ್ನೂ ಹೆಚ್ಚಿನದನ್ನು ಮಾಡಬಹುದು</string>
+    <string name="simple_mode_suw_done_button">ಮುಗಿದಿದೆ</string>
+    <string name="simple_mode_switch_title">ಸಿಂಪಲ್ ವ್ಯೂ ಬಳಸಿ</string>
+    <string name="simple_mode_title">ಸಿಂಪಲ್ ವ್ಯೂ</string>
+    <string name="simple_view_dialog_negative_button">ರದ್ದುಮಾಡಿ</string>
+    <string name="simple_view_dialog_positive_button">ಮುಂದುವರಿಸಿ</string>
+    <string name="simple_view_feature_disabled_dialog_message">ಸಿಂಪಲ್ ವ್ಯೂ ಅನ್ನು ಆಫ್ ಮಾಡಿದಾಗ ನಿಮ್ಮ ಸಾಧನವು ತನ್ನ ಮೂಲ ಫಾಂಟ್, ಡಿಸ್‌ಪ್ಲೇ ಮತ್ತು ಲೇಔಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮರಳುತ್ತದೆ. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ಈ ಪ್ರತ್ಯೇಕ ಫಾಂಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸುವುದು ಹೇಗೆಂದು ತಿಳಿಯಿರಿ.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">ನಿಮ್ಮ ಸಾಧನವು ಹಿಂದಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮರಳುತ್ತದೆ</string>
+    <string name="simple_view_feature_enabled_dialog_message">ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಫಾಂಟ್, ಸಿಂಪಲ್ ವ್ಯೂ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗಿಂತ ದೊಡ್ಡದಾಗಿದೆ. ಸಿಂಪಲ್ ವ್ಯೂ ಅನ್ನು ಬಳಸಿದರೆ, ಫಾಂಟ್‌ನ ಗಾತ್ರ ಸಣ್ಣದಾಗುತ್ತದೆ.</string>
+    <string name="simple_view_feature_enabled_dialog_title">ಫಾಂಟ್‌ನ ಗಾತ್ರ ಸಣ್ಣದಾಗುತ್ತದೆ</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Шуурхай хандалт</string>
+    <string name="simple_mode_description">Текст, дүрс тэмдгийн хэмжээг нэмэгдүүлж, бүдүүвчийг хялбаршуулж, навигацын товчнууд нэмнэ үү. LINK_BEGINЭнгийн харагдах байдлын талаар нэмэлт мэдээлэл авна уу.LINK_END</string>
+    <string name="simple_mode_off_summary">Унтраалттай / Дэлгэцийн бүдүүвчийг хялбаршуулж, текстийг уншихад хялбар болгоно</string>
+    <string name="simple_mode_on_summary">Асаалттай / Дэлгэцийн бүдүүвчийг хялбарчилж, текстийг уншихад хялбар болгоно</string>
+    <string name="simple_mode_summary">Текстийн гаргацыг сайжруулж, дэлгэцийн бүдүүвч, навигацыг хялбарчилна уу</string>
+    <string name="simple_mode_suw_description">Дизайныг илүү цэвэрхэн байлгаж, дасан зохицох явцыг хялбаршуулахын тулд Pixel нь үндсэн апп, виджетийг автоматаар татах, дэлгэцийн бүдүүвчийг оновчлох, фонт тохируулах болон илүү олон зүйл хийх боломжтой</string>
+    <string name="simple_mode_suw_done_button">Болсон</string>
+    <string name="simple_mode_switch_title">Энгийн харагдах байдлыг ашиглах</string>
+    <string name="simple_mode_title">Энгийн харагдах байдал</string>
+    <string name="simple_view_dialog_negative_button">Цуцлах</string>
+    <string name="simple_view_dialog_positive_button">Үргэлжлүүлэх</string>
+    <string name="simple_view_feature_disabled_dialog_message">Энгийн харагдах байдлыг унтрааснаар таны төхөөрөмж фонт, дэлгэц, бүдүүвчийн үндсэн тохиргоо руугаа буцна. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Эдгээр тусдаа фонтын тохиргоог хэрхэн өөрчлөхийг мэдэж авна уу.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Таны төхөөрөмж өмнөх тохиргоо руугаа буцна</string>
+    <string name="simple_view_feature_enabled_dialog_message">Таны одоогийн фонт Энгийн харагдах байдлын тохиргооноос том байна. Энгийн харагдах байдлыг ашиглавал таны фонтын хэмжээг багасгана.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Фонтын хэмжээг багасгана</string>
+</resources>

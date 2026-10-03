@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">فوری رسائی</string>
+    <string name="simple_mode_description">ٹیکسٹ اور آئیکن کا سائز بڑھائیں، لے آؤٹ کو آسان بنائيں اور نیویگیشن بٹنز شامل کریں۔ LINK_BEGINآسان منظر کے بارے میں مزید جانیں۔LINK_END</string>
+    <string name="simple_mode_off_summary">آف کریں / اسکرین لے آؤٹ کو آسان بنائیں اور ٹیکسٹ کو پڑھنے میں آسان بنائیں</string>
+    <string name="simple_mode_on_summary">آن کریں / اسکرین لے آؤٹ کو آسان بنائیں اور ٹیکسٹ کو پڑھنے میں آسان بنائیں</string>
+    <string name="simple_mode_summary">ٹیکسٹ کی شفافیت کو بہتر بنائیں اور اسکرین لے آؤٹ اور نیویگیشن کو آسان بنائیں</string>
+    <string name="simple_mode_suw_description">‏صاف ستھرا ڈیزائن اور آسان آن بورڈنگ کے لیے، Pixel خودکار طور پر ضروری ایپس اور ویجیٹس ڈاؤن لوڈ کر سکتا ہے، اسکرین لے آؤٹ کو بہتر بنا سکتا ہے، فونٹ کو ایڈجسٹ کر سکتا ہے اور بہت کچھ کر سکتا ہے</string>
+    <string name="simple_mode_suw_done_button">ہو گیا</string>
+    <string name="simple_mode_switch_title">آسان منظر استعمال کریں</string>
+    <string name="simple_mode_title">آسان منظر</string>
+    <string name="simple_view_dialog_negative_button">منسوخ کریں</string>
+    <string name="simple_view_dialog_positive_button">آگے بڑھیں</string>
+    <string name="simple_view_feature_disabled_dialog_message">آسان منظر کو آف کرنے پر، آپ کا آلہ اپنے اصل فونٹ، ڈسپلے اور لے آؤٹ کی ترتیبات پر واپس لوٹ جائے گا۔ <a href="https://support.google.com/pixelphone?p=pixel_simple_view">فونٹ کی ان انفرادی ترتیبات کو بدلنے کا طریقہ جانیں۔</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">آپ کا آلہ پچھلی ترتیبات پر واپس لوٹ جائے گا</string>
+    <string name="simple_view_feature_enabled_dialog_message">آپ کا موجودہ فونٹ آسان منظر کی ترتیبات سے بڑا ہے۔ آسان منظر استعمال کرنے سے آپ کے فونٹ کا سائز کم ہو جائے گا۔</string>
+    <string name="simple_view_feature_enabled_dialog_title">فونٹ کا سائز کم ہو جائے گا</string>
+</resources>

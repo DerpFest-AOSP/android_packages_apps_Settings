@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Бърз достъп</string>
+    <string name="simple_mode_description">Увеличаване на размера на текста и иконите, опростяване на оформлението и добавяне на бутони за навигация. LINK_BEGINНаучете повече за опростения изгледLINK_END.</string>
+    <string name="simple_mode_off_summary">Изкл./Опростяване на оформлението на екрана и улесняване на четенето на текста</string>
+    <string name="simple_mode_on_summary">Вкл./Опростяване на оформлението на екрана и улесняване на четенето на текста</string>
+    <string name="simple_mode_summary">Подобрете четливостта на текста и опростете навигацията и оформлението на екрана</string>
+    <string name="simple_mode_suw_description">За по-изчистен дизайн и лесно използване на устройството Pixel може автоматично да изтегли основните приложения и приспособления, да оптимизира оформлението на екрана, да коригира шрифта и др.</string>
+    <string name="simple_mode_suw_done_button">Готово</string>
+    <string name="simple_mode_switch_title">Използване на опростения изглед</string>
+    <string name="simple_mode_title">Опростен изглед</string>
+    <string name="simple_view_dialog_negative_button">Отказ</string>
+    <string name="simple_view_dialog_positive_button">Напред</string>
+    <string name="simple_view_feature_disabled_dialog_message">С изключването на опростения изглед устройството ви ще се върне към първоначалните настройки за шрифта, начина на показване и оформлението. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Научете как да променяте тези отделни настройки за шрифта</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Устройството ви ще се върне към предишните настройки</string>
+    <string name="simple_view_feature_enabled_dialog_message">Текущият размер на шрифта е по-голям от този в настройките за опростения изглед. Ако използвате опростения изглед, размерът на шрифта ще бъде намален.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Размерът на шрифта ще бъде намален</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">ਤਤਕਾਲ ਪਹੁੰਚ</string>
+    <string name="simple_mode_description">ਲਿਖਤ ਅਤੇ ਪ੍ਰਤੀਕ ਦਾ ਆਕਾਰ ਵਧਾਓ, ਖਾਕਾ ਅਸਾਨ ਬਣਾਓ ਅਤੇ ਨੈਵੀਗੇਸ਼ਨ ਬਟਨਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ। LINK_BEGINਸਿੰਪਲ ਵਿਊ ਬਾਰੇ ਹੋਰ ਜਾਣੋ।LINK_END</string>
+    <string name="simple_mode_off_summary">ਬੰਦ ਕਰੋ / ਸਕ੍ਰੀਨ ਦੇ ਖਾਕੇ ਨੂੰ ਸਰਲ ਬਣਾਓ ਅਤੇ ਲਿਖਤ ਨੂੰ ਪੜ੍ਹਨਾ ਆਸਾਨ ਬਣਾਓ</string>
+    <string name="simple_mode_on_summary">ਚਾਲੂ ਕਰੋ / ਸਕ੍ਰੀਨ ਦੇ ਖਾਕੇ ਨੂੰ ਸਰਲ ਬਣਾਓ ਅਤੇ ਲਿਖਤ ਨੂੰ ਪੜ੍ਹਨਾ ਆਸਾਨ ਬਣਾਓ</string>
+    <string name="simple_mode_summary">ਲਿਖਤ ਸਪਸ਼ਟਤਾ ਨੂੰ ਬਿਹਤਰ ਬਣਾਓ ਅਤੇ ਸਕ੍ਰੀਨ ਖਾਕੇ ਅਤੇ ਨੈਵੀਗੇਸ਼ਨ ਨੂੰ ਸਰਲ ਬਣਾਓ</string>
+    <string name="simple_mode_suw_description">ਬਿਹਤਰ ਡਿਜ਼ਾਈਨ ਅਤੇ ਸਰਲ ਆਨਬੋਰਡਿੰਗ ਲਈ, Pixel ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਜ਼ਰੂਰੀ ਐਪਾਂ ਅਤੇ ਵਿਜੇਟਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦਾ ਹੈ, ਸਕ੍ਰੀਨ ਖਾਕੇ ਨੂੰ ਸੁਯੋਗ ਬਣਾ ਸਕਦਾ ਹੈ, ਫ਼ੌਂਟ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਕਰ ਸਕਦਾ ਹੈ</string>
+    <string name="simple_mode_suw_done_button">ਹੋ ਗਿਆ</string>
+    <string name="simple_mode_switch_title">ਸਿੰਪਲ ਵਿਊ ਵਰਤੋ</string>
+    <string name="simple_mode_title">ਸਿੰਪਲ ਵਿਊ</string>
+    <string name="simple_view_dialog_negative_button">ਰੱਦ ਕਰੋ</string>
+    <string name="simple_view_dialog_positive_button">ਅੱਗੇ ਵਧੋ</string>
+    <string name="simple_view_feature_disabled_dialog_message">"ਸਿੰਪਲ ਵਿਊ ਨੂੰ ਬੰਦ ਕਰਨ 'ਤੇ, ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਆਪਣੇ ਮੂਲ ਫ਼ੌਂਟ, ਡਿਸਪਲੇ ਅਤੇ ਖਾਕਾ ਸੈਟਿੰਗਾਂ 'ਤੇ ਵਾਪਸ ਚਲਾ ਜਾਵੇਗਾ। "<a href="https://support.google.com/pixelphone?p=pixel_simple_view">ਇਨ੍ਹਾਂ ਵਿਅਕਤੀਗਤ ਫ਼ੌਂਟ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲਣ ਦੇ ਤਰੀਕੇ ਬਾਰੇ ਜਾਣੋ।</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਪਿਛਲੀਆਂ ਸੈਟਿੰਗਾਂ \'ਤੇ ਵਾਪਸ ਚਲਾ ਜਾਵੇਗਾ</string>
+    <string name="simple_view_feature_enabled_dialog_message">ਤੁਹਾਡਾ ਮੌਜੂਦਾ ਫ਼ੌਂਟ ਸਿੰਪਲ ਵਿਊ ਸੰਬੰਧੀ ਸੈਟਿੰਗਾਂ ਤੋਂ ਵੱਡਾ ਹੈ। ਸਿੰਪਲ ਵਿਊ ਦੀ ਵਰਤੋਂ ਕਰਨ ਨਾਲ ਤੁਹਾਡਾ ਫੌਂਟ ਆਕਾਰ ਛੋਟਾ ਹੋ ਜਾਵੇਗਾ।</string>
+    <string name="simple_view_feature_enabled_dialog_title">ਫੌਂਟ ਆਕਾਰ ਛੋਟਾ ਹੋ ਜਾਵੇਗਾ</string>
+</resources>

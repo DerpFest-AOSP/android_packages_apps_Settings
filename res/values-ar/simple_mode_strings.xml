@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">الوصول السريع</string>
+    <string name="simple_mode_description">يمكنك تكبير حجم النص والرموز، وتبسيط التصميم، وإضافة أزرار التنقّل. LINK_BEGINمزيد من المعلومات حول ميزة \"العرض المبسّط\"LINK_END</string>
+    <string name="simple_mode_off_summary">غير مفعَّل / تبسيط تنسيق الشاشة وتسهيل قراءة النص</string>
+    <string name="simple_mode_on_summary">مفعَّل / يعمل الوضع على تبسيط تنسيق الشاشة وتسهيل قراءة النص</string>
+    <string name="simple_mode_summary">تحسين وضوح النص وتبسيط تنسيق الشاشة وطريقة التنقّل</string>
+    <string name="simple_mode_suw_description">‏يمكن لجهاز Pixel تلقائيًا تنزيل التطبيقات العادية والمصغّرة الأساسية وتحسين مظهر الشاشة وتعديل الخط وغير ذلك بهدف تسهيل عملية الإعداد وتقديم تصميم أوضح.</string>
+    <string name="simple_mode_suw_done_button">تم</string>
+    <string name="simple_mode_switch_title">استخدام ميزة \"العرض المبسّط\"</string>
+    <string name="simple_mode_title">العرض المبسّط</string>
+    <string name="simple_view_dialog_negative_button">إلغاء</string>
+    <string name="simple_view_dialog_positive_button">متابعة</string>
+    <string name="simple_view_feature_disabled_dialog_message">عند إيقاف ميزة \"العرض المبسّط\"، سيتم ضبط جهازك على الإعدادات الأصلية للخط والعرض والتصميم. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">كيفية تغيير إعدادات الخط بشكل فردي</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">سيتم ضبط جهازك على الإعدادات السابقة</string>
+    <string name="simple_view_feature_enabled_dialog_message">حجم الخط الذي تستخدمه حاليًا أكبر من الحجم المستخدَم في إعدادات ميزة \"العرض المبسّط\". وسيؤدي استخدام الميزة إلى تقليل حجم الخط.</string>
+    <string name="simple_view_feature_enabled_dialog_title">سيتم تقليل حجم الخط</string>
+</resources>

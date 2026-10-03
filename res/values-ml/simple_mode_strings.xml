@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">അതിവേഗ ആക്‌സസ്</string>
+    <string name="simple_mode_description">ടെക്‌സ്‌റ്റിന്റെയും ഐക്കണിന്റെയും വലുപ്പം വർദ്ധിപ്പിക്കുക, ലേഔട്ട് ലളിതമാക്കുക, നാവിഗേഷൻ ബട്ടണുകൾ ചേർക്കുക. LINK_BEGINലളിതമായ കാഴ്ച്ചയെ കുറിച്ച് കൂടുതലറിയുക.LINK_END</string>
+    <string name="simple_mode_off_summary">ഓഫാണ് / സ്‌ക്രീൻ ലേഔട്ട് ലളിതമാക്കി ടെക്‌സ്‌റ്റ് വായിക്കാൻ എളുപ്പമാക്കുക</string>
+    <string name="simple_mode_on_summary">ഓണാണ് / സ്‌ക്രീൻ ലേഔട്ട് ലളിതമാക്കി ടെക്‌സ്‌റ്റ് വായിക്കാൻ എളുപ്പമാക്കുക</string>
+    <string name="simple_mode_summary">ടെക്സ്റ്റിന്റെ വ്യക്തത മെച്ചപ്പെടുത്തുക, സ്ക്രീൻ ലേഔട്ടും നാവിഗേഷനും ലളിതമാക്കുക</string>
+    <string name="simple_mode_suw_description">കൂടുതൽ വൃത്തിയുള്ള ഡിസൈനിനും ലളിതമായ ഓൺബോർഡിംഗിനുമായി, Pixel-ന് ആവശ്യമുള്ള ആപ്പുകളും വിജറ്റുകളും സ്വയമേവ ഡൗൺലോഡ് ചെയ്യാനും സ്ക്രീൻ ലേഔട്ട് ഒപ്റ്റിമൈസ് ചെയ്യാനും ഫോണ്ട് ക്രമീകരിക്കാനും മറ്റും കഴിയും</string>
+    <string name="simple_mode_suw_done_button">പൂർത്തിയായി</string>
+    <string name="simple_mode_switch_title">ലളിതമായ കാഴ്‌ച ഉപയോഗിക്കുക</string>
+    <string name="simple_mode_title">ലളിതമായ കാഴ്ച</string>
+    <string name="simple_view_dialog_negative_button">റദ്ദാക്കുക</string>
+    <string name="simple_view_dialog_positive_button">തുടരുക</string>
+    <string name="simple_view_feature_disabled_dialog_message">ലളിതമായ കാഴ്‌ച ഓഫാക്കുന്നതിലൂടെ, നിങ്ങളുടെ ഉപകരണം അതിന്റെ ഒറിജിനൽ ഫോണ്ട്, ഡിസ്‌പ്ലേ, ലേഔട്ട് ക്രമീകരണത്തിലേക്ക് മടങ്ങും. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ഈ വ്യക്തിഗത ഫോണ്ട് ക്രമീകരണം എങ്ങനെ മാറ്റാമെന്ന് അറിയുക.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">നിങ്ങളുടെ ഉപകരണം മുമ്പത്തെ ക്രമീകരണത്തിലേക്ക് മടങ്ങും</string>
+    <string name="simple_view_feature_enabled_dialog_message">നിങ്ങളുടെ നിലവിലെ ഫോണ്ട് ലളിതമായ കാഴ്‌ച ക്രമീകരണത്തേക്കാൾ വലുതാണ്. ലളിതമായ കാഴ്‌ച ഉപയോഗിക്കുന്നത് നിങ്ങളുടെ ഫോണ്ട് വലുപ്പം കുറയ്ക്കും.</string>
+    <string name="simple_view_feature_enabled_dialog_title">ഫോണ്ട് വലുപ്പം കുറയ്ക്കും</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">क्विक ऐक्सेस</string>
+    <string name="simple_mode_description">टेक्स्ट और आइकॉन का साइज़ बढ़ाएं, लेआउट बेहतर करें, और नेविगेशन बटन जोड़ें. LINK_BEGINसिंपल व्यू की सुविधा के बारे में ज़्यादा जानें.LINK_END</string>
+    <string name="simple_mode_off_summary">बंद है / स्क्रीन के लेआउट को सरल बनाएं और टेक्स्ट को आसानी से पढ़ने लायक बनाएं</string>
+    <string name="simple_mode_on_summary">चालू करें / स्क्रीन के लेआउट को आसान बनाएं और टेक्स्ट को आसानी से पढ़ने लायक बनाएं</string>
+    <string name="simple_mode_summary">टेक्स्ट को आसानी से पढ़ने लायक बनाएं और स्क्रीन के लेआउट और नेविगेशन को आसान बनाएं</string>
+    <string name="simple_mode_suw_description">आपके लिए बेहतर डिज़ाइन उपलब्ध कराने और डिवाइस का इस्तेमाल शुरू करने की प्रोसेस आसान बनाने के लिए, Pixel ज़रूरी ऐप्लिकेशन और विजेट अपने-आप डाउनलोड कर सकता है. साथ ही, यह स्क्रीन का लेआउट ऑप्टिमाइज़ करने, फ़ॉन्ट का साइज़ बदलने वगैरह जैसे काम कर सकता है</string>
+    <string name="simple_mode_suw_done_button">हो गया</string>
+    <string name="simple_mode_switch_title">\'सिंपल व्यू\' सुविधा का इस्तेमाल करें</string>
+    <string name="simple_mode_title">सिंपल व्यू</string>
+    <string name="simple_view_dialog_negative_button">रद्द करें</string>
+    <string name="simple_view_dialog_positive_button">आगे बढ़ें</string>
+    <string name="simple_view_feature_disabled_dialog_message">सिंपल व्यू की सुविधा बंद करने पर आपके डिवाइस का फ़ॉन्ट, डिसप्ले, और लेआउट पहले जैसा हो जाएगा. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">फ़ॉन्ट की इन सेटिंग में बदलाव करने का तरीका जानें.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">आपके डिवाइस की सेटिंग पहले जैसी हो जाएंगी</string>
+    <string name="simple_view_feature_enabled_dialog_message">फ़िलहाल, आपके फ़ॉन्ट का साइज़ सिंपल व्यू की सेटिंग के फ़ॉन्ट साइज़ से बड़ा है. सिंपल व्यू का इस्तेमाल करने पर, फ़ॉन्ट साइज़ छोटा हो जाएगा.</string>
+    <string name="simple_view_feature_enabled_dialog_title">फ़ॉन्ट साइज़ छोटा हो जाएगा</string>
+</resources>

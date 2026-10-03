@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Acesso rápido</string>
+    <string name="simple_mode_description">Aumente o tamanho do texto e dos ícones, simplifique o layout e adicione botões de navegação. LINK_BEGINSaiba mais sobre a Tela SimplificadaLINK_END.</string>
+    <string name="simple_mode_off_summary">Desativado / Simplificar o layout da tela e facilitar a leitura do texto</string>
+    <string name="simple_mode_on_summary">Ativado / Simplificar o layout da tela e facilitar a leitura do texto</string>
+    <string name="simple_mode_summary">Melhora a legibilidade do texto e simplifica o layout e a navegação da tela</string>
+    <string name="simple_mode_suw_description">Para simplificar o design e a integração, o Pixel pode baixar automaticamente apps e widgets essenciais, otimizar o layout da tela, ajustar a fonte e muito mais</string>
+    <string name="simple_mode_suw_done_button">Concluído</string>
+    <string name="simple_mode_switch_title">Usar a Tela Simplificada</string>
+    <string name="simple_mode_title">Tela Simplificada</string>
+    <string name="simple_view_dialog_negative_button">Cancelar</string>
+    <string name="simple_view_dialog_positive_button">Continuar</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ao desativar a Tela Simplificada, seu dispositivo vai retornar às configurações originais de fonte, exibição e layout. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Aprenda a mudar essas configurações de fonte individuais</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Seu dispositivo vai retornar às configurações anteriores</string>
+    <string name="simple_view_feature_enabled_dialog_message">Sua fonte atual é maior que as configurações da Tela Simplificada. Usar esse recurso vai reduzir o tamanho da fonte.</string>
+    <string name="simple_view_feature_enabled_dialog_title">O tamanho da fonte será reduzido</string>
+</resources>

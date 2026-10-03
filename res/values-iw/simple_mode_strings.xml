@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">גישה מהירה</string>
+    <string name="simple_mode_description">הגדלת הטקסט והסמלים, פריסה פשוטה יותר והוספת כפתורי ניווט. LINK_BEGINמידע נוסף על תצוגה פשוטהLINK_END</string>
+    <string name="simple_mode_off_summary">מושבתת / פריסת מסך פשוטה יותר וטקסט קל יותר לקריאה</string>
+    <string name="simple_mode_on_summary">מופעלת / פריסת מסך פשוטה יותר וטקסט קל יותר לקריאה</string>
+    <string name="simple_mode_summary">שיפור הקריאוּת של הטקסט, תצוגת מסך פשוטה יותר וניווט נוח</string>
+    <string name="simple_mode_suw_description">‏לעיצוב נקי יותר וכדי לפשט את התחלת השימוש במכשיר, Pixel יכול להוריד אוטומטית אפליקציות ווידג\'טים חיוניים, לסדר את פריסת המסך באופן מיטיבי, לשנות את גודל הגופן ועוד</string>
+    <string name="simple_mode_suw_done_button">סיום</string>
+    <string name="simple_mode_switch_title">הפעלת התצוגה הפשוטה</string>
+    <string name="simple_mode_title">תצוגה פשוטה</string>
+    <string name="simple_view_dialog_negative_button">ביטול</string>
+    <string name="simple_view_dialog_positive_button">הבנתי</string>
+    <string name="simple_view_feature_disabled_dialog_message">לאחר ההשבתה של התצוגה הפשוטה, המכשיר חוזר להגדרות הגופן, התצוגה והפריסה המקוריות. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">איך לשנות את הגדרות הגופן האלה</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">המכשיר יחזור להגדרות הקודמות</string>
+    <string name="simple_view_feature_enabled_dialog_message">הגופן הנוכחי גדול יותר מההגדרות של התצוגה הפשוטה. מעבר לתצוגה הפשוטה יקטין את גודל הגופן.</string>
+    <string name="simple_view_feature_enabled_dialog_title">הגופן יהיה קטן יותר</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Pikakäyttö</string>
+    <string name="simple_mode_description">Suurenna tekstin ja kuvakkeen kokoa, yksinkertaista asettelua ja lisää navigointipainikkeet. LINK_BEGINLue lisää yksinkertaisesta näkymästä.LINK_END</string>
+    <string name="simple_mode_off_summary">Pois päältä / Yksinkertaista näytön asettelua ja helpota tekstin lukemista</string>
+    <string name="simple_mode_on_summary">Päällä / Yksinkertaista näytön asettelua ja helpota tekstin lukemista</string>
+    <string name="simple_mode_summary">Paranna tekstin luettavuutta ja yksinkertaista näytöllä siirtymistä ja sen asettelua</string>
+    <string name="simple_mode_suw_description">Pixel voi esimerkiksi ladata tärkeät sovellukset ja widgetit, optimoida näytön asettelun ja säätää fonttia automaattisesti, jotta asettelu on selkeää ja käyttöönotto helppoa</string>
+    <string name="simple_mode_suw_done_button">Valmis</string>
+    <string name="simple_mode_switch_title">Käytä yksinkertaista näkymää</string>
+    <string name="simple_mode_title">Yksinkertainen näkymä</string>
+    <string name="simple_view_dialog_negative_button">Peru</string>
+    <string name="simple_view_dialog_positive_button">Jatka</string>
+    <string name="simple_view_feature_disabled_dialog_message">Jos laitat yksinkertaisen näkymän pois päältä, laite palaa käyttämään alkuperäisiä fontti-, näyttö- ja asetteluasetuksia. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Katso, miten voit muuttaa näitä yksittäisiä fonttiasetuksia.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Laite palaa käyttämään aiempia asetuksia</string>
+    <string name="simple_view_feature_enabled_dialog_message">Nykyinen fontti on suurempi kuin yksinkertaisen näkymän asetus. Yksinkertaisen näkymän käyttäminen pienentää fonttikokoa.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Fonttikokoa pienennetään</string>
+</resources>

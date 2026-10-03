@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Acceso rápido</string>
+    <string name="simple_mode_description">Aumenta o tamaño do texto e das iconas, simplifica o deseño e engade botóns de navegación. LINK_BEGINMáis información sobre a Vista sinxela.LINK_END</string>
+    <string name="simple_mode_off_summary">Opción desactivada / Simplifica o deseño da pantalla e facilita a lectura do texto</string>
+    <string name="simple_mode_on_summary">Opción activada / Simplifica o deseño da pantalla e facilita a lectura do texto</string>
+    <string name="simple_mode_summary">Mellora a lexibilidade do texto e simplifica o deseño da pantalla e a navegación</string>
+    <string name="simple_mode_suw_description">Pixel pode descargar automaticamente widgets e aplicacións esenciais, optimizar o deseño da pantalla e axustar o tipo de letra, entre outras cousas, para conseguir un aspecto máis limpo e un proceso de incorporación sinxelo</string>
+    <string name="simple_mode_suw_done_button">Feito</string>
+    <string name="simple_mode_switch_title">Usar Vista sinxela</string>
+    <string name="simple_mode_title">Vista sinxela</string>
+    <string name="simple_view_dialog_negative_button">Cancelar</string>
+    <string name="simple_view_dialog_positive_button">Continuar</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ao desactivar a Vista sinxela, o dispositivo recuperará a configuración orixinal do tipo de letra, a pantalla e o deseño. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Máis información sobre como cambiar as opcións individuais do tipo de letra.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">O dispositivo recuperará a configuración anterior</string>
+    <string name="simple_view_feature_enabled_dialog_message">O tipo de letra actual é máis grande que o da configuración de Vista sinxela. Reduciráselle o tamaño se usas Vista sinxela.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Reducirase o tamaño do tipo de letra</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Rýchly prístup</string>
+    <string name="simple_mode_description">Zväčšite veľkosť textu a ikon, zjednodušte rozloženie a pridajte tlačidlá navigácie. LINK_BEGINĎalšie informácie o jednoduchom režimeLINK_END</string>
+    <string name="simple_mode_off_summary">Vypnuté / Zjednodušte rozloženie obrazovky a zlepšite čitateľnosť textu</string>
+    <string name="simple_mode_on_summary">Zapnuté / Zjednodušte rozloženie obrazovky a zlepšite čitateľnosť textu</string>
+    <string name="simple_mode_summary">Zlepšiť čitateľnosť textu a zjednodušiť rozloženie obrazovky aj ovládanie</string>
+    <string name="simple_mode_suw_description">Prehľadnejší vzhľad a ľahšie nastavenie ponúka jednoduchý režim. Pixel v ňom automaticky, okrem iného, sťahuje dôležité aplikácie a miniaplikácie, optimalizuje rozloženie obrazovky a upravuje písmo.</string>
+    <string name="simple_mode_suw_done_button">Hotovo</string>
+    <string name="simple_mode_switch_title">Používať jednoduchý režim</string>
+    <string name="simple_mode_title">Jednoduchý režim</string>
+    <string name="simple_view_dialog_negative_button">Zrušiť</string>
+    <string name="simple_view_dialog_positive_button">Pokračovať</string>
+    <string name="simple_view_feature_disabled_dialog_message">Keď vypnete jednoduchý režim, v zariadení sa obnovia pôvodné nastavenia písma, zobrazenia a rozloženia. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Zistite, ako zmeniť tieto jednotlivé nastavenia písma.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Vo vašom zariadení sa obnovia predchádzajúce nastavenia</string>
+    <string name="simple_view_feature_enabled_dialog_message">Vaše aktuálne písmo je väčšie ako písmo v nastaveniach jednoduchého režimu. Pomocou jednoduchého režimu môžete zmenšiť veľkosť písma.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Písmo bude zmenšené</string>
+</resources>

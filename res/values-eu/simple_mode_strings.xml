@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Sarbide bizkorra</string>
+    <string name="simple_mode_description">Handitu testuaren eta ikonoen tamaina, sinplifikatu diseinua eta gehitu nabigazio-botoiak. LINK_BEGINLortu informazio gehiago ikuspegi sinpleari buruz.LINK_END</string>
+    <string name="simple_mode_off_summary">Desaktibatuta: sinplifikatu pantailaren diseinua, testua errazago irakurri ahal izateko</string>
+    <string name="simple_mode_on_summary">Aktibatuta: sinplifikatu pantailaren diseinua, testua errazago irakurri ahal izateko</string>
+    <string name="simple_mode_summary">Hobetu testuaren irakurgarritasuna eta sinplifikatu pantailaren diseinua eta nabigazioa</string>
+    <string name="simple_mode_suw_description">Diseinu garbiagoa eta hasierako prestakuntza errazagoa eskaintzeko, Pixel-ek automatikoki deskarga ditzake ezinbesteko aplikazio eta widgetak, baita pantailaren diseinua optimizatu, letra doitu, eta beste gauza asko egin ere</string>
+    <string name="simple_mode_suw_done_button">Eginda</string>
+    <string name="simple_mode_switch_title">Erabili Ikuspegi sinplea</string>
+    <string name="simple_mode_title">Ikuspegi sinplea</string>
+    <string name="simple_view_dialog_negative_button">Utzi</string>
+    <string name="simple_view_dialog_positive_button">Egin aurrera</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ikuspegi sinplea desaktibatzen baduzu, letraren, bistaratzearen eta diseinuaren jatorrizko ezarpenak leheneratuko dira gailuan. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Lortu letraren banako ezarpen horiek aldatzeko argibideak.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Aurreko ezarpenak leheneratuko dira gailuan</string>
+    <string name="simple_view_feature_enabled_dialog_message">Oraingo letra ikuspegi sinplearen ezarpenei dagokiena baino handiagoa da. Ikuspegi sinplea erabiltzen baduzu, letra-tamaina txikiagoa izango da.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Letra-tamaina txikitu egingo da</string>
+</resources>

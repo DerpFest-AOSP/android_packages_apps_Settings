@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Acces rapid</string>
+    <string name="simple_mode_description">Mărește dimensiunea textului și a pictogramelor, simplifică aspectul și adaugă butoane de navigare. LINK_BEGINAflă mai multeLINK_END despre Afișarea simplificată.</string>
+    <string name="simple_mode_off_summary">Dezactivat / Simplifică aspectul ecranului și fă textul mai ușor de citit</string>
+    <string name="simple_mode_on_summary">Activat / Simplifică aspectul ecranului și fă textul mai ușor de citit</string>
+    <string name="simple_mode_summary">Îmbunătățește lizibilitatea textului și simplifică navigarea și aspectul ecranului</string>
+    <string name="simple_mode_suw_description">Pentru un design mai curat și o integrare mai simplă, Pixel poate descărca automat aplicațiile și widgeturile esențiale, poate optimiza aspectul ecranelor, poate ajusta fontul și altele</string>
+    <string name="simple_mode_suw_done_button">Gata</string>
+    <string name="simple_mode_switch_title">Folosește Vizualizarea simplificată</string>
+    <string name="simple_mode_title">Afișare simplificată</string>
+    <string name="simple_view_dialog_negative_button">Anulează</string>
+    <string name="simple_view_dialog_positive_button">Continuă</string>
+    <string name="simple_view_feature_disabled_dialog_message">Dacă dezactivezi Afișarea simplificată, dispozitivul va reveni la setările inițiale pentru font, afișare și aspect. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Află cum să modifici aceste setări individuale pentru font.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Dispozitivul va reveni la setările anterioare</string>
+    <string name="simple_view_feature_enabled_dialog_message">Fontul actual este mai mare decât cel din setările Vizualizării simplificate. Dacă folosești Vizualizarea simplificată, dimensiunea fontului va fi redusă.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Dimensiunea fontului va fi redusă</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">କୁଇକ ଆକ୍ସେସ</string>
+    <string name="simple_mode_description">ଟେକ୍ସଟ ଏବଂ ଆଇକନର ସାଇଜ ବଢ଼ାନ୍ତୁ, ଲେଆଉଟକୁ ସରଳ କରନ୍ତୁ ଏବଂ ନାଭିଗେସନ ବଟନଗୁଡ଼ିକ ଯୋଗ କରନ୍ତୁ। LINK_BEGINସିମ୍ପଲ ଭ୍ୟୁ ବିଷୟରେ ଅଧିକ ଜାଣନ୍ତୁ।LINK_END</string>
+    <string name="simple_mode_off_summary">ବନ୍ଦ ଅଛି / ସ୍କ୍ରିନ ଲେଆଉଟକୁ ସରଳ କରନ୍ତୁ ଏବଂ ଟେକ୍ସଟ ପଢ଼ିବାକୁ ସହଜ କରନ୍ତୁ</string>
+    <string name="simple_mode_on_summary">ଚାଲୁ ଅଛି / ସ୍କ୍ରିନ ଲେଆଉଟକୁ ସରଳ କରନ୍ତୁ ଏବଂ ଟେକ୍ସଟ ପଢ଼ିବାକୁ ସହଜ କରନ୍ତୁ</string>
+    <string name="simple_mode_summary">ଟେକ୍ସଟ ସ୍ପଷ୍ଟତା ଉନ୍ନତ କରନ୍ତୁ ଏବଂ ସ୍କ୍ରିନ ଲେଆଉଟ ଓ ନାଭିଗେସନକୁ ସରଳ କରନ୍ତୁ</string>
+    <string name="simple_mode_suw_description">ଏକ ସରଳ ଡିଜାଇନ ଏବଂ ସହଜ ଅନବୋର୍ଡିଂ ପାଇଁ Pixel ସ୍ୱତଃ ଅତ୍ୟାବଶ୍ୟକ ଆପ୍ସ ଓ ୱିଜେଟକୁ ଡାଉନଲୋଡ କରିପାରିବ, ସ୍କ୍ରିନ ଲେଆଉଟକୁ ଅପ୍ଟିମାଇଜ କରିପାରିବ, ଫଣ୍ଟ ଆଡଜଷ୍ଟ କରିପାରିବ ଏବଂ ଆହୁରି ଅନେକ କିଛି କରିପାରିବ</string>
+    <string name="simple_mode_suw_done_button">ହୋଇଗଲା</string>
+    <string name="simple_mode_switch_title">ସିମ୍ପଲ ଭ୍ୟୁ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="simple_mode_title">ସିମ୍ପଲ ଭ୍ୟୁ</string>
+    <string name="simple_view_dialog_negative_button">ବାତିଲ କରନ୍ତୁ</string>
+    <string name="simple_view_dialog_positive_button">ଆଗକୁ ବଢ଼ନ୍ତୁ</string>
+    <string name="simple_view_feature_disabled_dialog_message">ସିମ୍ପଲ ଭ୍ୟୁକୁ ବନ୍ଦ କରିବା ଫଳରେ ଆପଣଙ୍କ ଡିଭାଇସ ଏହାର ମୂଳ ଫଣ୍ଟ, ଡିସପ୍ଲେ ଏବଂ ଲେଆଉଟ ସେଟିଂସକୁ ଫେରିଯିବ। <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ଏହି ଅଲଗା ଫଣ୍ଟ ସେଟିଂସକୁ କିପରି ପରିବର୍ତ୍ତନ କରିବେ ତାହା ଜାଣନ୍ତୁ।</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">ଆପଣଙ୍କ ଡିଭାଇସ ପୂର୍ବ ସେଟିଂସକୁ ଫେରିଯିବ</string>
+    <string name="simple_view_feature_enabled_dialog_message">ଆପଣଙ୍କ ବର୍ତ୍ତମାନର ଫଣ୍ଟ ସରଳ ଭ୍ୟୁ ସେଟିଂସଠାରୁ ବଡ଼ ଅଟେ। ସରଳ ଭ୍ୟୁ ବ୍ୟବହାର କରିବା ଫଳରେ ଏହା ଆପଣଙ୍କ ଫଣ୍ଟର ସାଇଜକୁ ହ୍ରାସ କରିଦେବ।</string>
+    <string name="simple_view_feature_enabled_dialog_title">ଫଣ୍ଟ ସାଇଜ ହ୍ରାସ ପାଇବ</string>
+</resources>

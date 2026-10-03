@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Hitri dostop</string>
+    <string name="simple_mode_description">Povečanje velikosti besedila in ikon, poenostavitev postavitve in dodajanje gumbov za premikanje. LINK_BEGINPreberite več o preprostem pogledu.LINK_END</string>
+    <string name="simple_mode_off_summary">Izklopljeno / Poenostavitev postavitve zaslona in izboljšanje berljivosti besedila</string>
+    <string name="simple_mode_on_summary">Vklopljeno / Poenostavitev postavitve zaslona in izboljšanje berljivosti besedila</string>
+    <string name="simple_mode_summary">Izboljšajte berljivost besedila ter poenostavite postavitev zaslona in premikanje po njem</string>
+    <string name="simple_mode_suw_description">Za preglednejši videz in preprostejši začetek uporabe lahko Pixel samodejno prenese osnovne aplikacije in pripomočke, optimizira postavitev zaslona, prilagodi pisavo in drugo.</string>
+    <string name="simple_mode_suw_done_button">Končano</string>
+    <string name="simple_mode_switch_title">Uporabi Preprosti pogled</string>
+    <string name="simple_mode_title">Preprosti pogled</string>
+    <string name="simple_view_dialog_negative_button">Prekliči</string>
+    <string name="simple_view_dialog_positive_button">Nadaljuj</string>
+    <string name="simple_view_feature_disabled_dialog_message">Če izklopite preprost pogled, bo naprava preklopila nazaj na prvotne nastavitve pisave, prikaza in postavitve. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Preberite, kako spremenite te posamezne nastavitve pisave.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Naprava bo preklopila nazaj na prejšnje nastavitve</string>
+    <string name="simple_view_feature_enabled_dialog_message">Trenutna velikost pisave je večja od velikosti pri nastavitvah preprostega pogleda. Če uporabite preprosti pogled, se bo velikost pisave zmanjšala.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Velikost pisave se bo zmanjšala</string>
+</resources>

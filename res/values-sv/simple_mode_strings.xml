@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Snabbåtkomst</string>
+    <string name="simple_mode_description">Öka storleken på text och ikoner, förenkla layouten och lägg till navigeringsknappar. LINK_BEGINLäs mer om Enkel vy.LINK_END</string>
+    <string name="simple_mode_off_summary">Av/Förenkla skärmlayouten och gör texten lättare att läsa</string>
+    <string name="simple_mode_on_summary">På/Förenkla skärmlayouten och gör texten lättare att läsa</string>
+    <string name="simple_mode_summary">Förbättra läsbarheten för text och förenkla skärmlayouten och navigeringen</string>
+    <string name="simple_mode_suw_description">Pixel kan automatiskt ladda ned viktiga appar och widgetar, optimera skärmlayout, justera font med mera för en stilrenare design och smidig konfigurering</string>
+    <string name="simple_mode_suw_done_button">Klar</string>
+    <string name="simple_mode_switch_title">Använd enkel vy</string>
+    <string name="simple_mode_title">Enkel vy</string>
+    <string name="simple_view_dialog_negative_button">Avbryt</string>
+    <string name="simple_view_dialog_positive_button">Fortsätt</string>
+    <string name="simple_view_feature_disabled_dialog_message">Genom att stänga av Enkel vy återgår telefonen till de ursprungliga inställningarna för font, visning och layout. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Läs mer om hur du ändrar dessa individuella fontinställningar.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Enheten återgår till de tidigare inställningarna</string>
+    <string name="simple_view_feature_enabled_dialog_message">Den nuvarande fonten är större än inställningen för enkel vy. Om du använder enkel vy blir fonten mindre.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Fonten blir mindre</string>
+</resources>

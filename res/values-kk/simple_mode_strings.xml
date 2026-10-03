@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Жылдам кіру</string>
+    <string name="simple_mode_description">Мәтін мен белгіше өлшемін үлкейтіңіз, форматты жеңілдетіңіз және навигация түймелерін қосыңыз. LINK_BEGINҚарапайым режим туралы толық ақпарат алыңыз.LINK_END</string>
+    <string name="simple_mode_off_summary">Өшірулі / Экран дизайнын жеңілдету және мәтін оңай оқылатындай қылу</string>
+    <string name="simple_mode_on_summary">Қосулы / Экран дизайнын жеңілдету және мәтін оңай оқылатындай қылу</string>
+    <string name="simple_mode_summary">Мәтіннің оқылуын, экран дизайнын, навигацияны жеңілдету</string>
+    <string name="simple_mode_suw_description">Дизайны анық, сондай-ақ алғаш қолданған адамға қарапайым әрі түсінікті болуы үшін, Pixel маңызды қолданбалар мен виджеттерді автоматты түрде жүктеп алып, экран форматын оңтайландыруы, қаріпті реттеуі және т.б. әрекеттерді орындауы мүмкін.</string>
+    <string name="simple_mode_suw_done_button">Дайын</string>
+    <string name="simple_mode_switch_title">Қарапайым режимді пайдалану</string>
+    <string name="simple_mode_title">Қарапайым режим</string>
+    <string name="simple_view_dialog_negative_button">Бас тарту</string>
+    <string name="simple_view_dialog_positive_button">Жалғастыру</string>
+    <string name="simple_view_feature_disabled_dialog_message">Қарапайым режимді өшірсеңіз, құрылғыңыз бастапқы қаріп, дисплей мен формат параметрлеріне оралады. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Осы жеке қаріп параметрлерін өзгерту жолын біліңіз.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Құрылғыңыз бұрынғы параметрлеріне оралады</string>
+    <string name="simple_view_feature_enabled_dialog_message">Қолданыстағы қаріп қарапайым режим параметрлеріндегі қаріптен үлкенірек. Қарапайым режимді қолдану кезінде қаріп өлшемі кішірейеді.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Қаріп өлшемі кішірейеді</string>
+</resources>

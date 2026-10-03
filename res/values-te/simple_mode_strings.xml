@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">క్విక్ యాక్సెస్</string>
+    <string name="simple_mode_description">టెక్స్ట్, చిహ్నం సైజ్‌ను పెంచండి, లేఅవుట్‌ను సింప్లిఫై చేసి, నావిగేషన్ బటన్‌లను జోడించండి. LINK_BEGINసింపుల్ వీక్షణ గురించి మరింత తెలుసుకోండిLINK_END.</string>
+    <string name="simple_mode_off_summary">స్క్రీన్ లేఅవుట్‌ను ఆఫ్ చేసి / సులభతరం చేసి, టెక్స్ట్‌ను సులభంగా చదవగలిగేలా చేయండి</string>
+    <string name="simple_mode_on_summary">స్క్రీన్ లేఅవుట్‌ను ఆన్ చేసి / సులభతరం చేసి, టెక్స్ట్‌ను సులభంగా చదవగలిగేలా చేయండి</string>
+    <string name="simple_mode_summary">టెక్స్ట్ స్పష్టతను మెరుగుపరుస్తుంది, స్క్రీన్ లేఅవుట్‌ను, నావిగేషన్‌ను సులభతరం చేస్తుంది</string>
+    <string name="simple_mode_suw_description">మీకు సులువైన ఆన్‌బోర్డింగ్‌ను, సరళమైన డిజైన్‌ను, అందించడానికి Pixel ఆటోమేటిక్‌గా ముఖ్యమైన యాప్‌లను, విడ్జెట్‌లను డౌన్‌లోడ్ చేయవచ్చు, స్క్రీన్ లేఅవుట్‌ను ఆప్టిమైజ్ చేయవచ్చు, ఫాంట్‌ను సర్దుబాటు చేయవచ్చు, అలాగే మరికొన్ని చర్యలు చేయవచ్చు</string>
+    <string name="simple_mode_suw_done_button">పూర్తయింది</string>
+    <string name="simple_mode_switch_title">సింపుల్ వీక్షణను ఉపయోగించండి</string>
+    <string name="simple_mode_title">సింపుల్ వీక్షణ</string>
+    <string name="simple_view_dialog_negative_button">రద్దు చేయండి</string>
+    <string name="simple_view_dialog_positive_button">కొనసాగించండి</string>
+    <string name="simple_view_feature_disabled_dialog_message">సింపుల్ వీక్షణను ఆఫ్ చేయడం ద్వారా, మీ డివైజ్ తిరిగి దాని ఒరిజినల్ ఫాంట్, డిస్‌ప్లే, లేఅవుట్ సెట్టింగ్‌లకు మారుతుంది. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ఒక్కొక్క ఫాంట్ సెట్టింగ్‌ను మార్చడం ఎలాగో తెలుసుకోండి.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">మీ డివైజ్ మునుపటి సెట్టింగ్‌లకు తిరిగి మారుతుంది</string>
+    <string name="simple_view_feature_enabled_dialog_message">మీ ప్రస్తుత ఫాంట్, సులభమైన వీక్షణ సెట్టింగ్‌ల కంటే పెద్దది. సులభమైన వీక్షణను ఉపయోగిస్తే మీ ఫాంట్ సైజ్ తగ్గుతుంది.</string>
+    <string name="simple_view_feature_enabled_dialog_title">ఫాంట్ సైజ్ తగ్గుతుంది</string>
+</resources>

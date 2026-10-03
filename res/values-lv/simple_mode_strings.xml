@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Ātrā piekļuve</string>
+    <string name="simple_mode_description">Lielāki teksta un ikonu izmēri, vienkāršots izkārtojums un pievienotas navigācijas pogas. LINK_BEGINUzziniet vairāk par vienkāršo skatuLINK_END.</string>
+    <string name="simple_mode_off_summary">Izslēgts / Vienkāršot ekrāna izkārtojumu un padarīt tekstu salasāmāku</string>
+    <string name="simple_mode_on_summary">Ieslēgts / Vienkāršot ekrāna izkārtojumu un padarīt tekstu salasāmāku</string>
+    <string name="simple_mode_summary">Uzlabojiet teksta salasāmību un vienkāršojiet ekrāna izkārtojumu un navigāciju ekrānā.</string>
+    <string name="simple_mode_suw_description">Pārskatāmākam noformējumam un vienkāršai darba sākšanai Pixel var automātiski lejupielādēt svarīgas lietotnes un logrīkus, optimizēt ekrāna izkārtojumu, pielāgot fontu un paveikt daudz ko citu.</string>
+    <string name="simple_mode_suw_done_button">Gatavs</string>
+    <string name="simple_mode_switch_title">Izmantot vienkāršo skatu</string>
+    <string name="simple_mode_title">Vienkāršais skats</string>
+    <string name="simple_view_dialog_negative_button">Atcelt</string>
+    <string name="simple_view_dialog_positive_button">Turpināt</string>
+    <string name="simple_view_feature_disabled_dialog_message">Izslēdzot vienkāršo skatu, ierīcē tiks atjaunoti sākotnējie fonta, attēlojuma un izkārtojuma iestatījumi. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Uzziniet, kā mainīt šos atsevišķos fontu iestatījumus</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Ierīcē tiks atjaunoti iepriekšējie iestatījumi</string>
+    <string name="simple_view_feature_enabled_dialog_message">Jūsu pašreizējais fonta lielums ir lielāks par vienkāršā skata iestatījumos noteikto. Izmantojot vienkāršo skatu, fonta lielums samazināsies.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Fonta lielums samazināsies</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Hurtig adgang</string>
+    <string name="simple_mode_description">Forøg tekst- og ikonstørrelsen, gør layoutet mere enkelt, og tilføj navigationsknapper. LINK_BEGINFå flere oplysninger om Enkel visning.LINK_END</string>
+    <string name="simple_mode_off_summary">Fra/Forenkling af skærmlayout og forbedring af læsbarhed</string>
+    <string name="simple_mode_on_summary">Til/Forenkling af skærmlayout og forbedring af læsbarhed</string>
+    <string name="simple_mode_summary">Forbedret tekstlæsbarhed og forenklet skærmlayout og navigation</string>
+    <string name="simple_mode_suw_description">Pixel kan automatisk downloade vigtige apps og widgets, optimere skærmlayoutet, justere skrifttypen m.m. for at opnå et mere enkelt design og nemmere onboarding.</string>
+    <string name="simple_mode_suw_done_button">Udfør</string>
+    <string name="simple_mode_switch_title">Brug Enkel visning</string>
+    <string name="simple_mode_title">Enkel visning</string>
+    <string name="simple_view_dialog_negative_button">Annuller</string>
+    <string name="simple_view_dialog_positive_button">Fortsæt</string>
+    <string name="simple_view_feature_disabled_dialog_message">Hvis du deaktiverer Enkel visning, vender din enhed tilbage til dens oprindelige skrifttype, visningsform og layoutindstillinger. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Se, hvordan du ændrer disse skrifttypeindstillinger enkeltvis.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Enheden vender tilbage til sine tidligere indstillinger</string>
+    <string name="simple_view_feature_enabled_dialog_message">Din nuværende skrifttype er større end i indstillingerne for Enkel visning. Hvis du bruger Enkel visning, mindskes skriftstørrelsen.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Skriftstørrelsen mindskes</string>
+</resources>

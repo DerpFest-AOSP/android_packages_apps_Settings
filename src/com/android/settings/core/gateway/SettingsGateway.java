@@ -225,6 +225,8 @@ import com.android.settings.wifi.details.WifiNetworkDetailsFragment;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
+import com.google.android.settings.simplemode.SimpleModeSettingsFragment;
+
 import org.derpfest.settings.display.refreshrate.ScreenRefreshRateFragment;
 
 import org.derpfest.customizations.DerpFestCustomizations;
@@ -285,6 +287,7 @@ public class SettingsGateway {
             DeviceAdminSettings.class.getName(),
             AccessibilityDetailsSettingsFragment.class.getName(),
             AccessibilitySettings.class.getName(),
+            SimpleModeSettingsFragment.class.getName(),
             AccessibilitySettingsForSetupWizard.class.getName(),
             EditShortcutsPreferenceFragment.class.getName(),
             TextReadingPreferenceFragment.class.getName(),

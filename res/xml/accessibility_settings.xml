@@ -75,6 +75,20 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="simple_mode_category"
+        android:persistent="false"
+        android:title="@string/simple_mode_category"
+        settings:controller="com.google.android.settings.simplemode.SimpleModeCategoryController">
+        <Preference
+            android:fragment="com.google.android.settings.simplemode.SimpleModeSettingsFragment"
+            android:key="simple_mode_settings"
+            android:icon="@drawable/ic_simplemode_settings"
+            android:persistent="false"
+            android:title="@string/simple_mode_title"
+            settings:controller="com.google.android.settings.simplemode.SimpleModePreferenceController"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="interaction_control_category"
         android:persistent="false"
         android:title="@string/interaction_control_category_title">

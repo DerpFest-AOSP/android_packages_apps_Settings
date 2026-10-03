@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Akses pantas</string>
+    <string name="simple_mode_description">Meningkatkan saiz teks dan ikon, meringkaskan reka letak dan menambahkan butang navigasi. LINK_BEGINKetahui perihal Paparan Ringkas dengan lebih lanjut.LINK_END</string>
+    <string name="simple_mode_off_summary">Mati / Ringkaskan reka letak skrin dan jadikan teks lebih mudah dibaca</string>
+    <string name="simple_mode_on_summary">Dihidupkan / Meringkaskan reka letak skrin dan menjadikan teks lebih mudah dibaca</string>
+    <string name="simple_mode_summary">Tingkatkan kemudahbacaan teks dan ringkaskan reka letak serta navigasi skrin</string>
+    <string name="simple_mode_suw_description">Untuk mendapatkan reka bentuk yang lebih kemas dan permulaan yang lebih ringkas, Pixel boleh memuat turun apl dan widget asas, mengoptimumkan reka letak skrin, melaraskan fon dan pelbagai lagi secara automatik</string>
+    <string name="simple_mode_suw_done_button">Selesai</string>
+    <string name="simple_mode_switch_title">Gunakan Paparan Ringkas</string>
+    <string name="simple_mode_title">Paparan Ringkas</string>
+    <string name="simple_view_dialog_negative_button">Batal</string>
+    <string name="simple_view_dialog_positive_button">Teruskan</string>
+    <string name="simple_view_feature_disabled_dialog_message">Dengan mematikan Paparan Ringkas, peranti anda akan kembali kepada tetapan fon, paparan dan reka letak asal peranti tersebut. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Ketahui cara menukar tetapan fon secara berasingan ini.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Peranti anda kembali kepada tetapan yang sebelumnya</string>
+    <string name="simple_view_feature_enabled_dialog_message">Fon semasa anda lebih besar daripada tetapan Paparan Ringkas. Penggunaan Paparan Ringkas akan mengecilkan saiz fon anda.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Saiz fon akan dikecilkan</string>
+</resources>

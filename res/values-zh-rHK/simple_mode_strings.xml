@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">快速存取</string>
+    <string name="simple_mode_description">放大文字和圖示、簡化版面配置和新增導覽按鈕。LINK_BEGIN進一步瞭解「精簡版面」。LINK_END</string>
+    <string name="simple_mode_off_summary">關/簡化螢幕版面配置，令文字更易閱讀</string>
+    <string name="simple_mode_on_summary">開/簡化螢幕版面配置，令文字更易於閱讀</string>
+    <string name="simple_mode_summary">讓文字更容易閱讀，並簡化螢幕版面配置和瀏覽方式</string>
+    <string name="simple_mode_suw_description">Pixel 可自動下載必要應用程式和小工具、優化螢幕版面配置、調整字型等，令設計更簡約，並幫助新手更易上手</string>
+    <string name="simple_mode_suw_done_button">完成</string>
+    <string name="simple_mode_switch_title">使用「精簡版面」</string>
+    <string name="simple_mode_title">精簡版面</string>
+    <string name="simple_view_dialog_negative_button">取消</string>
+    <string name="simple_view_dialog_positive_button">繼續</string>
+    <string name="simple_view_feature_disabled_dialog_message">關閉「精簡版面」後，裝置會回復原本的字型、顯示和版面配置設定。<a href="https://support.google.com/pixelphone?p=pixel_simple_view">瞭解如何變更個別字型設定。</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">裝置會回復先前的設定</string>
+    <string name="simple_view_feature_enabled_dialog_message">目前的字型比「精簡版面」設定大。使用「精簡版面」會縮小字型。</string>
+    <string name="simple_view_feature_enabled_dialog_title">字型會縮小</string>
+</resources>

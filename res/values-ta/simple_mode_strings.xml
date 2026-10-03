@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">விரைவு அணுகல்</string>
+    <string name="simple_mode_description">வார்த்தை மற்றும் ஐகான் அளவை அதிகரிக்கலாம், தளவமைப்பை எளிமையாக்கலாம், வழிசெலுத்தலுக்கான பட்டன்களைச் சேர்க்கலாம். LINK_BEGINஎளிய காட்சி அம்சம் குறித்து மேலும் அறிக.LINK_END</string>
+    <string name="simple_mode_off_summary">ஆஃப் / திரைத் தளவமைப்பை எளிமையாக்கி வார்த்தைகளைப் படிப்பதற்கு எளிதாக்கும்</string>
+    <string name="simple_mode_on_summary">ஆன் / திரைத் தளவமைப்பை எளிமையாக்கி வார்த்தைகளைப் படிப்பதற்கு எளிதாக்கும்</string>
+    <string name="simple_mode_summary">வார்த்தைகளின் தெளிவுத்தன்மையை மேம்படுத்தலாம், திரையின் தளவமைப்பையும் வழிசெலுத்தலையும் எளிமையாக்கலாம்</string>
+    <string name="simple_mode_suw_description">தெளிவான வடிமைப்பு மற்றும் எளிமையான தாெடக்கச் செயல்முறைக்கு, அத்தியாவசிய ஆப்ஸையும் விட்ஜெட்களையும் தானாகவே பதிவிறக்கம் செய்தல், திரைத் தளவமைப்பை மேம்படுத்துதல், எழுத்து வடிவத்தைச் சரிசெய்தல் மற்றும் பலவற்றை Pixel மேற்கொள்ளலாம்</string>
+    <string name="simple_mode_suw_done_button">முடிந்தது</string>
+    <string name="simple_mode_switch_title">எளிய காட்சியைப் பயன்படுத்துதல்</string>
+    <string name="simple_mode_title">எளிய காட்சி</string>
+    <string name="simple_view_dialog_negative_button">ரத்துசெய்</string>
+    <string name="simple_view_dialog_positive_button">தொடர்க</string>
+    <string name="simple_view_feature_disabled_dialog_message">எளிய காட்சி அம்சத்தை ஆஃப் செய்தால், உங்கள் சாதனம் அதன் அசல் எழுத்து வடிவம், காட்சி மற்றும் தளவமைப்பு அமைப்புகளுக்கு மாறிவிடும். <a href="https://support.google.com/pixelphone?p=pixel_simple_view">இந்தத் தனிப்பட்ட எழுத்து வடிவ அமைப்புகளை மாற்றுவதற்கான வழிமுறையைத் தெரிந்துகொள்ளுங்கள்</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">உங்கள் சாதனம் முந்தைய அமைப்புகளுக்கு மாறிவிடும்</string>
+    <string name="simple_view_feature_enabled_dialog_message">உங்கள் தற்போதைய எழுத்து வடிவம் எளிய காட்சி அமைப்புகளில் இருப்பதைவிடப் பெரிதாக உள்ளது. எளிய காட்சியைப் பயன்படுத்தினால் உங்கள் எழுத்து வடிவத்தின் அளவு குறைந்துவிடும்.</string>
+    <string name="simple_view_feature_enabled_dialog_title">எழுத்து வடிவத்தின் அளவு குறைந்துவிடும்</string>
+</resources>

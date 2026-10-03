@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Snelle toegang</string>
+    <string name="simple_mode_description">Maak tekst en iconen groter, vereenvoudig de lay-out en voeg navigatieknoppen toe. LINK_BEGINMeer informatie over Eenvoudige weergave.LINK_END</string>
+    <string name="simple_mode_off_summary">Uit/Vereenvoudig de schermindeling en maak tekst makkelijker leesbaar</string>
+    <string name="simple_mode_on_summary">Aan/Vereenvoudig de schermindeling en maak tekst makkelijker leesbaar</string>
+    <string name="simple_mode_summary">Verbeter de leesbaarheid van tekst en vereenvoudig de schermindeling en navigatie</string>
+    <string name="simple_mode_suw_description">Voor een overzichtelijke indeling waarin je je apps makkelijk kunt vinden, kan je Pixel automatisch essentiële apps en widgets downloaden, de schermindeling optimaliseren en het lettertype aanpassen</string>
+    <string name="simple_mode_suw_done_button">Klaar</string>
+    <string name="simple_mode_switch_title">Eenvoudige weergave gebruiken</string>
+    <string name="simple_mode_title">Eenvoudige weergave</string>
+    <string name="simple_view_dialog_negative_button">Annuleren</string>
+    <string name="simple_view_dialog_positive_button">Doorgaan</string>
+    <string name="simple_view_feature_disabled_dialog_message">Als je Eenvoudige weergave uitzet, keert je apparaat terug naar de oorspronkelijke instellingen voor lettertype, weergave en lay-out. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Meer informatie over hoe je deze individuele lettertype-instellingen wijzigt.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Je apparaat keert terug naar de vorige instellingen</string>
+    <string name="simple_view_feature_enabled_dialog_message">Je huidige lettertype is groter dan de instellingen voor Eenvoudige weergave. Als je Eenvoudige weergave gebruikt, wordt de lettergrootte kleiner.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Lettergrootte wordt verkleind</string>
+</resources>

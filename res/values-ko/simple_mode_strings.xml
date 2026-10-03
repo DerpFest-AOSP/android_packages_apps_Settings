@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">빠른 액세스</string>
+    <string name="simple_mode_description">텍스트와 아이콘 크기를 늘리고, 레이아웃을 단순화하고, 탐색 버튼을 추가하세요. LINK_BEGIN심플 화면 모드에 관해 자세히 알아보기LINK_END</string>
+    <string name="simple_mode_off_summary">사용 안함/화면 레이아웃을 단순화하고 텍스트의 가독성 높이기</string>
+    <string name="simple_mode_on_summary">사용/화면 레이아웃을 간소화하고 텍스트의 가독성을 높입니다.</string>
+    <string name="simple_mode_summary">텍스트 가독성을 개선하고 화면 레이아웃과 탐색 간소화</string>
+    <string name="simple_mode_suw_description">더 깔끔한 디자인과 간편한 온보딩을 위해 Pixel이 필수 앱과 위젯을 자동으로 다운로드하고, 화면 레이아웃을 최적화하며, 글꼴을 조정할 수 있습니다.</string>
+    <string name="simple_mode_suw_done_button">완료</string>
+    <string name="simple_mode_switch_title">심플 화면 모드 사용</string>
+    <string name="simple_mode_title">심플 화면 모드</string>
+    <string name="simple_view_dialog_negative_button">취소</string>
+    <string name="simple_view_dialog_positive_button">계속</string>
+    <string name="simple_view_feature_disabled_dialog_message">"'심플 화면 모드'를 사용 중지하면 기기가 원래 글꼴, 디스플레이, 레이아웃 설정으로 돌아갑니다. "<a href="https://support.google.com/pixelphone?p=pixel_simple_view">개별 글꼴 설정을 변경하는 방법 알아보기</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">기기가 이전 설정으로 돌아갑니다</string>
+    <string name="simple_view_feature_enabled_dialog_message">현재 글꼴은 간단히 보기 설정보다 큽니다. 간단히 보기를 사용하면 글꼴 크기가 작아집니다.</string>
+    <string name="simple_view_feature_enabled_dialog_title">글꼴 크기가 작아집니다</string>
+</resources>

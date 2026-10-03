@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Acesso rápido</string>
+    <string name="simple_mode_description">Aumente o tamanho do texto e dos ícones, simplifique o esquema e adicione botões de navegação LINK_BEGINSaiba mais sobre a Vista simples.LINK_END</string>
+    <string name="simple_mode_off_summary">Desativado/Simplifique o esquema do ecrã e facilite a leitura do texto</string>
+    <string name="simple_mode_on_summary">Ativado/Simplifique o esquema do ecrã e facilite a leitura do texto</string>
+    <string name="simple_mode_summary">Melhore a legibilidade do texto e simplifique a navegação e o esquema do ecrã</string>
+    <string name="simple_mode_suw_description">Para um design mais limpo e um processo de integração simples, o Pixel pode, de forma automática, transferir as apps e os widgets essenciais, otimizar o esquema do ecrã, ajustar o tipo de letra e muito mais</string>
+    <string name="simple_mode_suw_done_button">Concluir</string>
+    <string name="simple_mode_switch_title">Usar Vista simples</string>
+    <string name="simple_mode_title">Vista simples</string>
+    <string name="simple_view_dialog_negative_button">Cancelar</string>
+    <string name="simple_view_dialog_positive_button">Continuar</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ao desativar a Vista simples, o dispositivo volta às definições do tipo de letra, da visualização e do esquema originais. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Saiba como alterar estas definições do tipo de letra individuais.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">O dispositivo vai voltar às definições anteriores</string>
+    <string name="simple_view_feature_enabled_dialog_message">O tipo de letra atual é maior do que as definições da Vista simples. A utilização da Vista simples reduz o tamanho do tipo de letra.</string>
+    <string name="simple_view_feature_enabled_dialog_title">O tamanho do tipo de letra vai ser reduzido</string>
+</resources>

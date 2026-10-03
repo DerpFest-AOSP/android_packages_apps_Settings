@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">クイック アクセス</string>
+    <string name="simple_mode_description">テキストとアイコンを大きくし、レイアウトをシンプルにして、ナビゲーション ボタンを追加します。LINK_BEGINシンプル設定の詳細LINK_ENDをご確認ください。</string>
+    <string name="simple_mode_off_summary">OFF / 画面のレイアウトをシンプルにし、テキストを読みやすくします</string>
+    <string name="simple_mode_on_summary">ON / 画面のレイアウトをシンプルにし、テキストを読みやすくします</string>
+    <string name="simple_mode_summary">テキストの読みやすさを改善し、画面のレイアウトやナビゲーションをシンプルにします</string>
+    <string name="simple_mode_suw_description">画面をすっきりさせて、簡単に使い始められるように、必要なアプリやウィジェットのダウンロード、画面レイアウトの調整、フォントの設定などを自動的に行います。</string>
+    <string name="simple_mode_suw_done_button">完了</string>
+    <string name="simple_mode_switch_title">シンプル設定を使用する</string>
+    <string name="simple_mode_title">シンプル設定</string>
+    <string name="simple_view_dialog_negative_button">キャンセル</string>
+    <string name="simple_view_dialog_positive_button">続行</string>
+    <string name="simple_view_feature_disabled_dialog_message">シンプル設定を OFF にすると、デバイスのフォント、表示、レイアウトの設定が元に戻ります。<a href="https://support.google.com/pixelphone?p=pixel_simple_view">フォントの設定を個別に変更する方法</a>をご確認ください。</string>
+    <string name="simple_view_feature_disabled_dialog_title">デバイスの設定が前の状態に戻ります</string>
+    <string name="simple_view_feature_enabled_dialog_message">現在のフォントは、シンプル設定のサイズより大きくなっています。シンプル設定を使用すると、フォントのサイズが小さくなります。</string>
+    <string name="simple_view_feature_enabled_dialog_title">フォントのサイズが小さくなります</string>
+</resources>

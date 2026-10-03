@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:persistent="false"
+    android:title="@string/simple_mode_title"
+    android:key="simple_mode_settings">
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/simple_mode_description"
+        android:key="simple_mode_top_description"/>
+    <com.android.settingslib.widget.IllustrationPreference android:key="simple_mode_preview"/>
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:title="@string/simple_mode_switch_title"
+        android:key="simple_mode_switch"
+        settings:controller="com.google.android.settings.simplemode.SimpleModeTogglePreferenceController"/>
+</PreferenceScreen>

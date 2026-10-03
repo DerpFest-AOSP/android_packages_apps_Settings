@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Γρήγορη πρόσβαση</string>
+    <string name="simple_mode_description">Αύξηση του μεγέθους του κειμένου και των εικονιδίων, απλοποίηση της διάταξης και προσθήκη κουμπιών πλοήγησης. LINK_BEGINΜάθετε περισσότερα σχετικά με την Απλή προβολή.LINK_END</string>
+    <string name="simple_mode_off_summary">Ανενεργή/Απλοποίηση διάταξης οθόνης και ευκολότερη ανάγνωση κειμένου</string>
+    <string name="simple_mode_on_summary">Ενεργή/Απλοποίηση διάταξης οθόνης και ευκολότερη ανάγνωση κειμένου</string>
+    <string name="simple_mode_summary">Βελτιώστε την αναγνωσιμότητα του κειμένου και απλοποιήστε τη διάταξη της οθόνης και την πλοήγηση</string>
+    <string name="simple_mode_suw_description">Για πιο καθαρή σχεδίαση και πιο απλή ενσωμάτωση, το Pixel μπορεί να κατεβάσει αυτόματα βασικές εφαρμογές και γραφικά στοιχεία, να βελτιστοποιήσει τη διάταξη οθόνης, να προσαρμόσει τη γραμματοσειρά και πολλά άλλα</string>
+    <string name="simple_mode_suw_done_button">Τέλος</string>
+    <string name="simple_mode_switch_title">Χρήση Απλής προβολής</string>
+    <string name="simple_mode_title">Απλή προβολή</string>
+    <string name="simple_view_dialog_negative_button">Ακύρωση</string>
+    <string name="simple_view_dialog_positive_button">Συνέχεια</string>
+    <string name="simple_view_feature_disabled_dialog_message">Απενεργοποιώντας την Απλή προβολή, η συσκευή σας θα επιστρέψει στις αρχικές ρυθμίσεις γραμματοσειράς, οθόνης και διάταξης. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Μάθετε πώς μπορείτε να αλλάξετε αυτές τις μεμονωμένες ρυθμίσεις γραμματοσειράς.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Η συσκευή σας θα επιστρέψει στις προηγούμενες ρυθμίσεις</string>
+    <string name="simple_view_feature_enabled_dialog_message">Η τρέχουσα γραμματοσειρά σας είναι μεγαλύτερη από τις ρυθμίσεις της Απλής προβολής. Η χρήση της Απλής προβολής θα μειώσει το μέγεθος της γραμματοσειράς σας.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Το μέγεθος της γραμματοσειράς θα μειωθεί</string>
+</resources>

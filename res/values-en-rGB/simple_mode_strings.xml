@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Quick access</string>
+    <string name="simple_mode_description">Increase text and icon size, simplify layout and add navigation buttons. LINK_BEGINLearn more about Simple View.LINK_END</string>
+    <string name="simple_mode_off_summary">Off/Simplify screen layout and make text easier to read</string>
+    <string name="simple_mode_on_summary">On/Simplify screen layout and make text easier to read</string>
+    <string name="simple_mode_summary">Improve text legibility and simplify screen layout and navigation</string>
+    <string name="simple_mode_suw_description">For a cleaner design and simple onboarding, Pixel can automatically download essential apps and widgets, optimise screen layout, adjust font and more</string>
+    <string name="simple_mode_suw_done_button">Done</string>
+    <string name="simple_mode_switch_title">Use Simple View</string>
+    <string name="simple_mode_title">Simple View</string>
+    <string name="simple_view_dialog_negative_button">Cancel</string>
+    <string name="simple_view_dialog_positive_button">Proceed</string>
+    <string name="simple_view_feature_disabled_dialog_message">By turning off Simple View, your device will return to its original font, display and layout settings. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Learn how to change these individual font settings.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Your device will return to previous settings</string>
+    <string name="simple_view_feature_enabled_dialog_message">Your current font is larger than the Simple View settings. Using Simple View will reduce your font size.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Font size will be reduced</string>
+</resources>

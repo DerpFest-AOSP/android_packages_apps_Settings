@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">क्विक एक्सेस</string>
+    <string name="simple_mode_description">टेक्स्ट र आइकनको आकार बढाउनुहोस्, लेआउट सरल बनाउनुहोस् र नेभिगेसन बटनहरू हाल्नुहोस्। LINK_BEGINसिम्पल भ्यूका बारेमा थप जान्नुहोस्।LINK_END</string>
+    <string name="simple_mode_off_summary">अफ छ / स्क्रिनको लेआउट सरल बनाउनुहोस् र टेक्स्ट सजिलैसँग पढ्न सकिने बनाउनुहोस्</string>
+    <string name="simple_mode_on_summary">अन छ / स्क्रिनको लेआउट सरल बनाउनुहोस् र टेक्स्ट सजिलैसँग पढ्न सकिने बनाउनुहोस्</string>
+    <string name="simple_mode_summary">टेक्स्ट अझ सजिलोसँग पढ्न मिल्ने बनाउनुहोस् र स्क्रिनको लेआउट तथा नेभिगेसन गर्ने सुविधा अझ सरल बनाउनुहोस्</string>
+    <string name="simple_mode_suw_description">डिजाइन र अनबोर्डिङ प्रक्रिया सरल बनाउन Pixel ले अत्यावश्यक एप र विजेट स्वतः डाउनलोड गर्ने, स्क्रिनको लेआउट अप्टिमाइज गर्ने, फन्ट मिलाउनेलगायतका कार्यहरू गर्न सक्छ</string>
+    <string name="simple_mode_suw_done_button">सम्पन्न भयो</string>
+    <string name="simple_mode_switch_title">सिम्पल भ्यू प्रयोग गर्नुहोस्</string>
+    <string name="simple_mode_title">सिम्पल भ्यू</string>
+    <string name="simple_view_dialog_negative_button">रद्द गर्नुहोस्</string>
+    <string name="simple_view_dialog_positive_button">अघि बढ्नुहोस्</string>
+    <string name="simple_view_feature_disabled_dialog_message">तपाईंले सिम्पल भ्यू अफ गर्नुभयो भने तपाईंको डिभाइसमा फन्ट, डिस्प्ले र लेआउटसम्बन्धी मूल सेटिङ लागू हुने छन्। <a href="https://support.google.com/pixelphone?p=pixel_simple_view">प्रत्येक फन्टसम्बन्धी यी सेटिङ परिवर्तन गर्ने तरिका सिक्नुहोस्।</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">तपाईंको डिभाइसमा योभन्दा पहिलेकै सेटिङ लागू हुने छ</string>
+    <string name="simple_view_feature_enabled_dialog_message">तपाईंले हाल सेट गर्नुभएको फन्ट \"सिम्पल भ्यू\" का सेटिङमा सेट गरिएको फन्टभन्दा अझ ठुलो छ। तपाईंले \"सिम्पल भ्यू\" अन गर्नुभयो भने फन्टको आकार कम हुने छ।</string>
+    <string name="simple_view_feature_enabled_dialog_title">फन्टको आकार कम हुने छ</string>
+</resources>

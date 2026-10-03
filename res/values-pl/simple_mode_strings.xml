@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Szybki dostęp</string>
+    <string name="simple_mode_description">Powiększ tekst i ikony, uprość układ i dodaj przyciski nawigacyjne. LINK_BEGINDowiedz się więcej o widoku uproszczonymLINK_END</string>
+    <string name="simple_mode_off_summary">Wyłączono / Uprość układ ekranu i zwiększ czytelność tekstu</string>
+    <string name="simple_mode_on_summary">Włączono / Uprość układ ekranu i zwiększ czytelność tekstu</string>
+    <string name="simple_mode_summary">Popraw czytelność tekstu i uprość nawigację oraz układ ekranu</string>
+    <string name="simple_mode_suw_description">Aby było Ci łatwiej i wygodniej zacząć korzystać z urządzenia, Pixel może automatycznie pobrać niezbędne aplikacje i widżety, zoptymalizować układ ekranu, zmienić czcionki i zastosować inne optymalizacje</string>
+    <string name="simple_mode_suw_done_button">Gotowe</string>
+    <string name="simple_mode_switch_title">Używaj widoku uproszczonego</string>
+    <string name="simple_mode_title">Widok uproszczony</string>
+    <string name="simple_view_dialog_negative_button">Anuluj</string>
+    <string name="simple_view_dialog_positive_button">Dalej</string>
+    <string name="simple_view_feature_disabled_dialog_message">Po wyłączeniu widoku uproszczonego na urządzeniu zostaną przywrócone oryginalne ustawienia czcionki, wyświetlania i układu. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Dowiedz się, jak zmienić indywidualne ustawienia czcionki.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Na urządzeniu zostaną przywrócone poprzednie ustawienia</string>
+    <string name="simple_view_feature_enabled_dialog_message">Obecna czcionka jest większa niż w ustawieniach widoku uproszczonego. Użycie widoku uproszczonego spowoduje zmniejszenie czcionki.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Czcionka zostanie zmniejszona</string>
+</resources>

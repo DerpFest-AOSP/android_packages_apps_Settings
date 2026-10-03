@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">ඉක්මන් ප්‍රවේශය</string>
+    <string name="simple_mode_description">පාඨ සහ නිරූපකවල ප්‍රමාණය වැඩි කරන්න, පිරිසැලසුම සරල කරන්න, සහ සංචලන බොත්තම් එක් කරන්න LINK_BEGINසරල දසුන ගැන තව දැන ගන්න.LINK_END</string>
+    <string name="simple_mode_off_summary">ක්‍රියාවිරහිත කරන්න / තිර පිරිසැලසුම සරල කර පෙළ කියවීමට පහසු කරයි</string>
+    <string name="simple_mode_on_summary">ක්‍රියාත්මක කරන්න / තිර පිරිසැලසුම සරල කර පෙළ කියවීමට පහසු කරයි</string>
+    <string name="simple_mode_summary">පාඨ පැහැදිලි බව දියුණු කරන්න, සහ තිර පිරිසැලසුම සහ සංචලනය සරල කරන්න</string>
+    <string name="simple_mode_suw_description">පිරිසිදු නිර්මාණයක් සහ සරල ඇතුල් වීමක් සඳහා, Pixel හට අත්‍යාවශ්‍ය යෙදුම් සහ විජට් ස්වයංක්‍රීයව බාගැනීමට, තිර පිරිසැලසුම ප්‍රශස්ත කිරීමට, අකුරු සීරුමාරු කිරීමට සහ තවත් බොහෝ දේ කළ හැක.</string>
+    <string name="simple_mode_suw_done_button">නිමයි</string>
+    <string name="simple_mode_switch_title">සරල දසුන භාවිත කරන්න</string>
+    <string name="simple_mode_title">සරල දසුන</string>
+    <string name="simple_view_dialog_negative_button">අවලංගු කරන්න</string>
+    <string name="simple_view_dialog_positive_button">ඉදිරියට යන්න</string>
+    <string name="simple_view_feature_disabled_dialog_message">සරල දසුන ක්‍රියාවිරහිත කිරීමෙන්, ඔබේ උපාංගය එහි මුල් අකුරු වර්ග, සංදර්ශන, සහ පිරිසැලසුම් සැකසීම් වෙත ආපසු යයි. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">මෙම තනි අකුරු වර්ග සැකසීම් වෙනස් කරන ආකාරය දැන ගන්න.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">ඔබේ උපාංගය පෙර සැකසීම්වලට ආපසු යයි</string>
+    <string name="simple_view_feature_enabled_dialog_message">ඔබේ වත්මන් අකුරු වර්ගය සරල දසුන් සැකසීම්වලට වඩා විශාලයි. සරල දසුන භාවිත කිරීම ඔබේ අකුරු ප්‍රමාණය අඩු කරයි.</string>
+    <string name="simple_view_feature_enabled_dialog_title">අකුරු ප්‍රමාණය අඩු වෙයි</string>
+</resources>

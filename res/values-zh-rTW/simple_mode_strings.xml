@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">快速存取</string>
+    <string name="simple_mode_description">放大文字和圖示、簡化版面配置和新增操作按鈕。LINK_BEGIN進一步瞭解「簡易模式」。LINK_END</string>
+    <string name="simple_mode_off_summary">已關閉 / 簡化螢幕版面配置，讓文字更容易閱讀</string>
+    <string name="simple_mode_on_summary">已開啟 / 簡化螢幕版面配置，讓文字更容易閱讀</string>
+    <string name="simple_mode_summary">方便使用者閱讀文字，並簡化螢幕版面配置和瀏覽方式</string>
+    <string name="simple_mode_suw_description">Pixel 可自動下載必要的應用程式和小工具、最佳化畫面版面配置、調整字型等等，讓使用者好上手，畫面設計更簡潔</string>
+    <string name="simple_mode_suw_done_button">完成</string>
+    <string name="simple_mode_switch_title">使用簡易模式</string>
+    <string name="simple_mode_title">簡易模式</string>
+    <string name="simple_view_dialog_negative_button">取消</string>
+    <string name="simple_view_dialog_positive_button">繼續</string>
+    <string name="simple_view_feature_disabled_dialog_message">關閉「簡易模式」後，裝置將恢復原本的字型、顯示和版面配置設定。<a href="https://support.google.com/pixelphone?p=pixel_simple_view">瞭解如何變更個別字型設定。</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">裝置將恢復先前的設定</string>
+    <string name="simple_view_feature_enabled_dialog_message">目前的字型比簡易模式設定的字型大。如果使用簡易模式，字型會變小。</string>
+    <string name="simple_view_feature_enabled_dialog_title">字型會變小</string>
+</resources>

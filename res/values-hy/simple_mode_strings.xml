@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Արագ մուտք</string>
+    <string name="simple_mode_description">Մեծացրեք տեքստի և պատկերակների չափսը, պարզեցրեք դասավորությունը և ավելացրեք նավիգացիայի կոճակներ։ LINK_BEGINԻմանալ ավելին «Պարզ դիտակերպ» ռեժիմի մասինLINK_END։</string>
+    <string name="simple_mode_off_summary">Անջատված է / Պարզեցնել դասավորությունը և ավելի ընթեռնելի դարձնել տեքստը</string>
+    <string name="simple_mode_on_summary">Միացված է / Պարզեցնել դասավորությունը և ավելի ընթեռնելի դարձնել տեքստը</string>
+    <string name="simple_mode_summary">Բարելավեք տեքստի ընթեռնելիությունը և պարզեցրեք էկրանի տեսքն ու նավիգացիան</string>
+    <string name="simple_mode_suw_description">Որպեսզի ավելի հեշտ ծանոթանաք ձեր Pixel սարքին և ավելի հարմար ինտերֆեյս ունենաք, սարքը կարող է ավտոմատ ներբեռնել հիմնական հավելվածներն ու վիջեթները, օպտիմալացնել էկրանի դասավորությունը, կարգավորել տառատեսակը և այլ գործողություններ կատարել։</string>
+    <string name="simple_mode_suw_done_button">Պատրաստ է</string>
+    <string name="simple_mode_switch_title">Օգտագործել պարզ դիտակերպը</string>
+    <string name="simple_mode_title">Պարզ դիտակերպ</string>
+    <string name="simple_view_dialog_negative_button">Չեղարկել</string>
+    <string name="simple_view_dialog_positive_button">Շարունակել</string>
+    <string name="simple_view_feature_disabled_dialog_message">Եթե անջատեք «Պարզ դիտակերպ» ռեժիմը, ձեր սարքում կվերականգնվեն տառատեսակի, էկրանի և դասավորության սկզբնական կարգավորումները։ <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Իմացեք, թե ինչպես փոխել տառատեսակի առանձին կարգավորումները</a>։</string>
+    <string name="simple_view_feature_disabled_dialog_title">Ձեր սարքում կվերականգնվեն նախկին կարգավորումները</string>
+    <string name="simple_view_feature_enabled_dialog_message">Ձեր ընթացիկ տառատեսակն ավելի մեծ է, քան պարզ դիտակերպի կարգավորումներում սահմանվածը։ Եթե միացնեք պարզ դիտակերպը, տառատեսակի չափսը կփոքրանա։</string>
+    <string name="simple_view_feature_enabled_dialog_title">Տառատեսակի չափսը կփոքրանա</string>
+</resources>

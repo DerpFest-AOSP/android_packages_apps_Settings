@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Accés ràpid</string>
+    <string name="simple_mode_description">Augmenta la mida del text i de les icones, simplifica el disseny i afegeix botons de navegació. LINK_BEGINObtén més informació Vista simplificadaLINK_END.</string>
+    <string name="simple_mode_off_summary">Desactivat / Simplifica el disseny de la pantalla i facilita la lectura del text</string>
+    <string name="simple_mode_on_summary">Activat / Simplifica el disseny de la pantalla i facilita la lectura del text</string>
+    <string name="simple_mode_summary">Millora la llegibilitat del text i simplifica la navegació i el disseny de la pantalla</string>
+    <string name="simple_mode_suw_description">Perquè el disseny sigui més net i perquè el procés d\'incorporació sigui més senzill, Pixel pot baixar automàticament widgets i aplicacions essencials, optimitzar el disseny de la pantalla i ajustar la font, entre d\'altres</string>
+    <string name="simple_mode_suw_done_button">Fet</string>
+    <string name="simple_mode_switch_title">Utilitza Vista simplificada</string>
+    <string name="simple_mode_title">Vista simplificada</string>
+    <string name="simple_view_dialog_negative_button">Cancel·la</string>
+    <string name="simple_view_dialog_positive_button">Continua</string>
+    <string name="simple_view_feature_disabled_dialog_message">Si desactives Vista simplificada, el dispositiu tornarà a la configuració original de font, pantalla i disseny. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Obtén informació sobre com pots canviar la configuració individual de la font</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">El dispositiu tornarà a la configuració anterior</string>
+    <string name="simple_view_feature_enabled_dialog_message">El cos de font actual és superior al de la configuració de Vista simplificada. Vista simplificada reduirà el cos de font.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Es reduirà el cos de font</string>
+</resources>

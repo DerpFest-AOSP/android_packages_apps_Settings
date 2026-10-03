@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">ઝડપી ઍક્સેસ</string>
+    <string name="simple_mode_description">ટેક્સ્ટ અને આઇકનનું કદ વધારો, લેઆઉટને સરળ બનાવો અને નૅવિગેશન બટન ઉમેરો. LINK_BEGINસિમ્પલ વ્યૂ વિશે વધુ જાણો.LINK_END</string>
+    <string name="simple_mode_off_summary">બંધ છે / સ્ક્રીન લેઆઉટને અને ટેક્સ્ટ વાંચવાનું વધુ સરળ બનાવો</string>
+    <string name="simple_mode_on_summary">ચાલુ / સ્ક્રીન લેઆઉટને સિમ્પ્લિફાય કરો અને ટેક્સ્ટ વાંચવાનું વધુ સરળ બનાવો</string>
+    <string name="simple_mode_summary">ટેક્સ્ટની સુવાચ્યતા બહેતર બનાવો તેમજ સ્ક્રીન લેઆઉટ અને નૅવિગેશનને સરળ બનાવો</string>
+    <string name="simple_mode_suw_description">કોઈ વધુ સ્વચ્છ ડિઝાઇન અને સરળ ઑનબોર્ડિંગ માટે, Pixel આવશ્યક ઍપ અને વિજેટ ઑટોમૅટિક રીતે ડાઉનલોડ કરી શકે છે, સ્ક્રીન લેઆઉટ ઑપ્ટિમાઇઝ કરી શકે છે, ફૉન્ટ ગોઠવી શકે છે તેમજ બીજું ઘણું કરી શકે છે</string>
+    <string name="simple_mode_suw_done_button">થઈ ગયું</string>
+    <string name="simple_mode_switch_title">સિમ્પલ વ્યૂનો ઉપયોગ કરો</string>
+    <string name="simple_mode_title">સિમ્પલ વ્યૂ</string>
+    <string name="simple_view_dialog_negative_button">રદ કરો</string>
+    <string name="simple_view_dialog_positive_button">આગળ વધો</string>
+    <string name="simple_view_feature_disabled_dialog_message">સિમ્પલ વ્યૂ બંધ કરવાથી, તમારું ડિવાઇસ તેના ઑરિજિનલ ફૉન્ટ, ડિસ્પ્લે અને લેઆઉટ સેટિંગ પર પાછું ફરશે. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">આ વ્યક્તિગત ફૉન્ટના સેટિંગ બદલવાની રીત જાણો.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">તમારું ડિવાઇસ અગાઉના સેટિંગ પર પાછું ફરશે</string>
+    <string name="simple_view_feature_enabled_dialog_message">તમારો વર્તમાન ફૉન્ટ સિમ્પલ વ્યૂ સેટિંગ કરતાં મોટો છે. સિમ્પલ વ્યૂનો ઉપયોગ કરવાથી તમારા ફૉન્ટનું કદ ઘટશે.</string>
+    <string name="simple_view_feature_enabled_dialog_title">ફૉન્ટનું કદ ઘટશે</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">ፈጣን መዳረሻ</string>
+    <string name="simple_mode_description">የጽሑፍ እና የአዶ መጠን ጨምር፣ አቀማመጥን አቃልል እና የአሰሳ አዝራሮችን አክል። LINK_BEGINስለ ቀላል ዕይታ የበለጠ ይወቁ።LINK_END</string>
+    <string name="simple_mode_off_summary">ጠፍቷል / የማያ ገፅ አቀማመጥን አቅልል እና ጽሑፍን ለማንበብ ቀላል አድርግ</string>
+    <string name="simple_mode_on_summary">በርቷል / የማያ ገፅ አቀማመጥን አቅልል እና ጽሑፍን ለማንበብ ቀላል አድርግ</string>
+    <string name="simple_mode_summary">የጽሁፍ ተነባቢነትን ያሻሽሉ እና የማያ ገፅ አቀማመጥን እና አሰሳን ያቅልሉ</string>
+    <string name="simple_mode_suw_description">የበለጠ ንጹህ ለሆነ ንድፍ እና ቀላል ማሳፈር፣ Pixel በራስ ሰር መሠረታዊ መተግበሪያዎች እና ምግብሮችን ማውረድ፣ የማያ ገፅ አቀማመጥ ማትባት፣ ቅርጸ-ቁምፊ ማስተካከል እና ሌሎችንም ማድረግ ይችላል</string>
+    <string name="simple_mode_suw_done_button">ተከናውኗል</string>
+    <string name="simple_mode_switch_title">ቀላል ዕይታን ይጠቀሙ</string>
+    <string name="simple_mode_title">ቀላል ዕይታ</string>
+    <string name="simple_view_dialog_negative_button">ይቅር</string>
+    <string name="simple_view_dialog_positive_button">ቀጥል</string>
+    <string name="simple_view_feature_disabled_dialog_message">ቀላል ዕይታን በማጥፋት መሣሪያዎ ወደ መጀመሪያው ቅርጸ-ቁምፊ፣ ማሳያ እና አቀማመጥ ቅንብሮች ይመለሳል። <a href="https://support.google.com/pixelphone?p=pixel_simple_view">እንዴት እነዚህን ተናጠል የቅርጸ-ቁምፊ ቅንብሮች መለወጥ እንደሚቻል ይወቁ።</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">መሣሪያዎ ወደ ቀዳሚዎቹ ቅንብሮች ይመለሳል</string>
+    <string name="simple_view_feature_enabled_dialog_message">የአሁኑ ቅርጸ-ቁምፊዎ ከቀላል ዕይታ ቅንብሮች የበለጠ ነው። ቀላል ዕይታን መጠቀም የቅርጸ-ቁምፊዎን መጠን ይቀንሳል።</string>
+    <string name="simple_view_feature_enabled_dialog_title">የቅርጸ-ቁምፊ መጠን ይቀንሳል</string>
+</resources>

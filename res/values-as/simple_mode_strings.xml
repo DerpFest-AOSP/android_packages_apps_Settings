@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">তাৎক্ষণিক এক্সেছ</string>
+    <string name="simple_mode_description">পাঠ আৰু চিহ্নৰ আকাৰ বৃদ্ধি কৰক, লে’আউট সৰল কৰক আৰু নেভিগেশ্বন বুটামসমূহ যোগ দিয়ক। LINK_BEGINসৰল ভিউৰ বিষয়ে অধিক জানকLINK_END</string>
+    <string name="simple_mode_off_summary">অফ আছে / স্ক্ৰীনৰ লে’আউট সৰল কৰক আৰু পাঠটো পঢ়িবলৈ সহজ কৰক</string>
+    <string name="simple_mode_on_summary">অন আছে / স্ক্ৰীনৰ লে’আউট সৰল কৰক আৰু পাঠটো পঢ়িবলৈ সহজ কৰক</string>
+    <string name="simple_mode_summary">পাঠৰ স্পষ্টতা উন্নত কৰক আৰু স্ক্ৰীনৰ লে’আউট আৰু নেভিগে’শ্বন সৰল কৰক</string>
+    <string name="simple_mode_suw_description">আগতকৈ পৰিষ্কাৰ এটা ডিজাইন আৰু সৰল অনব’ৰ্ডিঙৰ বাবে Pixelএ স্বয়ংক্ৰিয়ভাৱে অত্যাৱশ্যকীয় এপ্‌ আৰু ৱিজেট ডাউনল’ড কৰিব পাৰে, স্ক্ৰীনৰ লে’আউট অপ্টিমাইজ কৰিব পাৰে, ফণ্ট মিলাব পাৰে আৰু অন্য বহুতো কাৰ্য কৰিব পাৰে</string>
+    <string name="simple_mode_suw_done_button">হ’ল</string>
+    <string name="simple_mode_switch_title">সৰল ভিউ ব্যৱহাৰ কৰক</string>
+    <string name="simple_mode_title">সৰল ভিউ</string>
+    <string name="simple_view_dialog_negative_button">বাতিল কৰক</string>
+    <string name="simple_view_dialog_positive_button">আগবাঢ়ক</string>
+    <string name="simple_view_feature_disabled_dialog_message">সৰল ভিউ অফ কৰি, আপোনাৰ ডিভাইচটো নিজৰ প্ৰকৃত ফণ্ট, ডিছপ্লে’ আৰু লে’আউটৰ ছেটিংলৈ উভতি যাব। <a href="https://support.google.com/pixelphone?p=pixel_simple_view">এই ব্যক্তিগত ফণ্টৰ ছেটিংসমূহ কেনেকৈ সলনি কৰে জানক।</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">আপোনাৰ ডিভাইচটো পূৰ্বৱৰ্তী ছেটিঙলৈ উভতি যাব</string>
+    <string name="simple_view_feature_enabled_dialog_message">আপোনাৰ বৰ্তমানৰ ফণ্টটো সৰল ভিউৰ ছেটিঙতকৈ ডাঙৰ। সৰল ভিউ ব্যৱহাৰ কৰাটোৱে আপোনাৰ ফণ্টৰ আকাৰ কমাব।</string>
+    <string name="simple_view_feature_enabled_dialog_title">ফণ্টৰ আকাৰ কমিব</string>
+</resources>

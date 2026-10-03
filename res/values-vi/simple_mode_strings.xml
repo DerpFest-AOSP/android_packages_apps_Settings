@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Truy cập nhanh</string>
+    <string name="simple_mode_description">Tăng kích thước văn bản và biểu tượng, đơn giản hoá bố cục và thêm các nút điều hướng. LINK_BEGINTìm hiểu thêm về Chế độ xem đơn giản.LINK_END</string>
+    <string name="simple_mode_off_summary">Tắt/Đơn giản hoá bố cục màn hình và giúp văn bản dễ đọc hơn</string>
+    <string name="simple_mode_on_summary">Bật/Đơn giản hoá bố cục màn hình và giúp văn bản dễ đọc hơn</string>
+    <string name="simple_mode_summary">Cải thiện văn bản để dễ đọc hơn, đồng thời đơn giản hoá bố cục và cách điều hướng trên màn hình</string>
+    <string name="simple_mode_suw_description">Để mang đến một thiết kế gọn gàng hơn và giúp người dùng dễ làm quen, Pixel có thể tự động tải các ứng dụng và tiện ích thiết yếu xuống, tối ưu hoá bố cục màn hình, điều chỉnh phông chữ, v.v.</string>
+    <string name="simple_mode_suw_done_button">Xong</string>
+    <string name="simple_mode_switch_title">Sử dụng Chế độ xem đơn giản</string>
+    <string name="simple_mode_title">Chế độ xem đơn giản</string>
+    <string name="simple_view_dialog_negative_button">Huỷ</string>
+    <string name="simple_view_dialog_positive_button">Tiếp tục</string>
+    <string name="simple_view_feature_disabled_dialog_message">Khi bạn tắt Chế độ xem đơn giản, các chế độ cài đặt phông chữ, hiển thị và bố cục trên thiết bị sẽ trở về như ban đầu. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Tìm hiểu cách thay đổi từng chế độ cài đặt phông chữ này.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Thiết bị của bạn sẽ quay về các chế độ cài đặt trước</string>
+    <string name="simple_view_feature_enabled_dialog_message">Phông chữ hiện tại lớn hơn phông chữ được đặt trong Chế độ xem đơn giản. Cỡ chữ sẽ giảm xuống khi bạn dùng Chế độ xem đơn giản.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Cỡ chữ sẽ giảm</string>
+</resources>

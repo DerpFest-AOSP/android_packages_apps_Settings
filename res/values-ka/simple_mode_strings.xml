@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">სწრაფი წვდომა</string>
+    <string name="simple_mode_description">გაზარდეთ ტექსტის და ხატულას ზომა, გაამარტივეთ განლაგება და დაამატეთ ნავიგაციის ღილაკები. LINK_BEGINშეიტყვეთ მეტი მარტივი ხედის პარამეტრის შესახებ.LINK_END</string>
+    <string name="simple_mode_off_summary">გამორთული / გაამარტივეთ ეკრანის განლაგება და გახადეთ ტექსტის წაკითხვა უფრო ადვილი</string>
+    <string name="simple_mode_on_summary">ჩართული / გაამარტივეთ ეკრანის განლაგება და გახადეთ ტექსტის წაკითხვა უფრო ადვილი</string>
+    <string name="simple_mode_summary">ტექსტის გარჩევადობის გაუმჯობესება და ეკრანის განლაგების და ნავიგაციის გამარტივება</string>
+    <string name="simple_mode_suw_description">უფრო მინიმალისტური დიზაინისა და მარტივი მიჩვევისთვის Pixel-ს შეუძლია ავტომატურად ჩამოტვირთოს არსებითი აპები და ვიჯეტები, მოახდინოს ეკრანის განლაგების ოპტიმიზაცია, დააკორექტიროს შრიფტი და სხვა</string>
+    <string name="simple_mode_suw_done_button">მზადაა</string>
+    <string name="simple_mode_switch_title">მარტივი ხედის გამოყენება</string>
+    <string name="simple_mode_title">მარტივი ხედი</string>
+    <string name="simple_view_dialog_negative_button">გაუქმება</string>
+    <string name="simple_view_dialog_positive_button">გაგრძელება</string>
+    <string name="simple_view_feature_disabled_dialog_message">მარტივი ხედის პარამეტრის გამორთვით თქვენი მოწყობილობა დაბრუნდება შრიფტის, ეკრანისა და განლაგების საწყის პარამეტრებზე. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">შეიტყვეთ, თუ როგორ შეცვალოთ შრიფტის ეს ინდივიდუალური პარამეტრები.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">თქვენი მოწყობილობა დაბრუნდება წინა პარამეტრებზე</string>
+    <string name="simple_view_feature_enabled_dialog_message">თქვენი მიმდინარე შრიფტი მარტივი ხედის პარამეტრებზე დიდია. მარტივი ხედის პარამეტრის გამოყენება შეამცირებს თქვენი შრიფტის ზომას.</string>
+    <string name="simple_view_feature_enabled_dialog_title">შრიფტის ზომა შემცირდება</string>
+</resources>

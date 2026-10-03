@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Mabilis na pag-access</string>
+    <string name="simple_mode_description">Lakihan ang text at icon, pasimplehin ang layout, at magdagdag ng mga button sa pag-navigate LINK_BEGINMatuto pa tungkol sa Simple View.LINK_END</string>
+    <string name="simple_mode_off_summary">Naka-off / Pasimplehin ang layout ng screen at gawing mas madaling basahin ang text</string>
+    <string name="simple_mode_on_summary">Naka-on / Pasimplehin ang layout ng screen at gawing mas madaling basahin ang text</string>
+    <string name="simple_mode_summary">Padaliing mabasa ang text, at pasimplehin ang layout ng screen at navigation</string>
+    <string name="simple_mode_suw_description">Para sa mas maayos na disenyo at simpleng onboarding, awtomatikong magagawa ng Pixel na i-download ang mga mahalagang app at widget, i-optimize ang layout ng screen, i-adjust ang font, at higit pa</string>
+    <string name="simple_mode_suw_done_button">Tapos na</string>
+    <string name="simple_mode_switch_title">Gamitin ang Simple View</string>
+    <string name="simple_mode_title">Simple View</string>
+    <string name="simple_view_dialog_negative_button">Kanselahin</string>
+    <string name="simple_view_dialog_positive_button">Magpatuloy</string>
+    <string name="simple_view_feature_disabled_dialog_message">Kapag na-off ang Simple View, babalik ang iyong device sa orihinal nitong mga setting ng font, display, at layout. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Alamin kung paano baguhin ang mga indibidwal na setting ng font na ito.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Babalik ang iyong device sa mga dating setting</string>
+    <string name="simple_view_feature_enabled_dialog_message">Mas malaki ang kasalukuyan mong font kaysa sa mga setting ng Simple View. Kapag ginamit ang Simple View, liliit ang font mo.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Liliit ang font</string>
+</resources>

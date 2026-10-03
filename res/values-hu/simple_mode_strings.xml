@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Gyors hozzáférés</string>
+    <string name="simple_mode_description">Növelheti a szöveg és az ikonok méretét, egyszerűsítheti az elrendezést és navigációs gombokat adhat hozzá. LINK_BEGINTovábbi információ az Egyszerűsített nézetről.LINK_END</string>
+    <string name="simple_mode_off_summary">Ki / A képernyő-elrendezés egyszerűsítése és a szöveg olvashatóságának javítása</string>
+    <string name="simple_mode_on_summary">Be / A képernyő-elrendezés egyszerűsítése és a szöveg olvashatóságának javítása</string>
+    <string name="simple_mode_summary">Szöveg olvashatóságának javítása, valamint a képernyőelrendezés és a navigáció egyszerűsítése</string>
+    <string name="simple_mode_suw_description">A letisztultabb kinézet és a használat egyszerű megkezdése érdekében a Pixel automatikusan letöltheti az alapvető alkalmazásokat és modulokat, optimalizálhatja a képernyő elrendezését, beállíthatja a betűméretet, stb.</string>
+    <string name="simple_mode_suw_done_button">Kész</string>
+    <string name="simple_mode_switch_title">Egyszerűsített nézet használata</string>
+    <string name="simple_mode_title">Egyszerűsített nézet</string>
+    <string name="simple_view_dialog_negative_button">Mégse</string>
+    <string name="simple_view_dialog_positive_button">Folytatás</string>
+    <string name="simple_view_feature_disabled_dialog_message">Az Egyszerűsített nézet kikapcsolásával eszköze visszaáll az eredeti betűtípus-, kijelző- és elrendezési beállításaira. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">További információ arról, hogyan módosíthatja az egyes betűtípus-beállításokat.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Eszköze visszaáll a korábbi beállításaira</string>
+    <string name="simple_view_feature_enabled_dialog_message">Az aktuális betűméret nagyobb, mint ami az Egyszerűsített nézet beállításaiban található. Az Egyszerűsített nézet használatával kisebbre állítja a betűméretet.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Kisebb lesz a betűméret</string>
+</resources>

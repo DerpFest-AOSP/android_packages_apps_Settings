@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Sparčioji prieiga</string>
+    <string name="simple_mode_description">Padidinkite tekstą ir piktogramą, supaprastinkite išdėstymą ir pridėkite naršymo mygtukų. LINK_BEGINSužinokite daugiau apie Įprastą rodinį.LINK_END</string>
+    <string name="simple_mode_off_summary">Išjungta / supaprastinti ekrano išdėstymą ir padaryti tekstą lengviau skaitomą</string>
+    <string name="simple_mode_on_summary">Įjungta / supaprastinti ekrano išdėstymą ir padaryti tekstą lengviau skaitomą</string>
+    <string name="simple_mode_summary">Pagerinkite teksto skaitomumą ir supaprastinkite ekrano išdėstymą bei naršymą</string>
+    <string name="simple_mode_suw_description">Siekiant švaresnio dizaino ir paprasto naudojimo „Pixel“ gali automatiškai atsisiųsti būtinąsias programas ir valdiklius, optimizuoti ekrano išdėstymą, reguliuoti šriftą ir kt.</string>
+    <string name="simple_mode_suw_done_button">Atlikta</string>
+    <string name="simple_mode_switch_title">Naudoti paprastą rodinį</string>
+    <string name="simple_mode_title">Paprastas rodinys</string>
+    <string name="simple_view_dialog_negative_button">Atšaukti</string>
+    <string name="simple_view_dialog_positive_button">Tęsti</string>
+    <string name="simple_view_feature_disabled_dialog_message">Išjungus Įprastą rodinį bus grąžinti pradiniai įrenginio šrifto, pateikties ir išdėstymo nustatymai. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Sužinokite, kaip pakeisti šiuos atskirus šrifto nustatymus.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Bus grąžinti ankstesni įrenginio nustatymai</string>
+    <string name="simple_view_feature_enabled_dialog_message">Dabartinis šriftas didesnis nei nurodyta paprasto rodinio nustatymuose. Naudodami paprastą rodinį sumažinkite šriftą.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Šriftas bus sumažintas</string>
+</resources>

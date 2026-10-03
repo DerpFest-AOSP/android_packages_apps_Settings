@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Швидкий доступ</string>
+    <string name="simple_mode_description">Збільште розмір тексту й значків, спростіть макет і додайте кнопки навігації. LINK_BEGINДокладніше про простий режим.LINK_END</string>
+    <string name="simple_mode_off_summary">Вимкнено / Спростити дизайн екрана й полегшити читання тексту</string>
+    <string name="simple_mode_on_summary">Увімкнено / Спростити дизайн екрана й полегшити читання тексту</string>
+    <string name="simple_mode_summary">Зробити текст більш розбірливим, спростити дизайн екрана й навігацію</string>
+    <string name="simple_mode_suw_description">Щоб працювати з пристроєм було легше, а інтерфейс був зручнішим, Pixel може автоматично завантажити важливі додатки й віджети, оптимізувати вигляд екрана, налаштувати шрифт і багато іншого</string>
+    <string name="simple_mode_suw_done_button">Готово</string>
+    <string name="simple_mode_switch_title">Використовувати простий режим</string>
+    <string name="simple_mode_title">Простий режим</string>
+    <string name="simple_view_dialog_negative_button">Скасувати</string>
+    <string name="simple_view_dialog_positive_button">Продовжити</string>
+    <string name="simple_view_feature_disabled_dialog_message">Якщо вимкнути простий режим, на пристрої відновляться стандартні налаштування шрифту, екрана й макета. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Дізнайтеся, як змінити ці індивідуальні налаштування шрифту.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">На пристрої відновляться попередні налаштування</string>
+    <string name="simple_view_feature_enabled_dialog_message">Поточний шрифт більший, ніж у налаштуваннях простого режиму. Якщо ввімкнути простий режим, розмір шрифту зменшиться.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Розмір шрифту зменшиться</string>
+</resources>

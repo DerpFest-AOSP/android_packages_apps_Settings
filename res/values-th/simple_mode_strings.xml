@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">การเข้าถึงด่วน</string>
+    <string name="simple_mode_description">เพิ่มขนาดข้อความและไอคอน ปรับเลย์เอาต์ให้อ่านง่าย และเพิ่มปุ่มการไปยังส่วนต่างๆ LINK_BEGINดูข้อมูลเพิ่มเติมเกี่ยวกับมุมมองเรียบง่ายLINK_END</string>
+    <string name="simple_mode_off_summary">ปิด/ปรับเลย์เอาต์หน้าจอและทำให้ข้อความอ่านง่ายขึ้น</string>
+    <string name="simple_mode_on_summary">เปิด/ปรับเลย์เอาต์หน้าจอและทำให้ข้อความอ่านง่ายขึ้น</string>
+    <string name="simple_mode_summary">ปรับปรุงข้อความให้อ่านง่ายขึ้น รวมถึงลดความซับซ้อนของเลย์เอาต์หน้าจอและการไปยังส่วนต่างๆ</string>
+    <string name="simple_mode_suw_description">Pixel สามารถดาวน์โหลดแอปและวิดเจ็ตที่จำเป็นโดยอัตโนมัติ เพิ่มประสิทธิภาพเลย์เอาต์หน้าจอ ปรับแบบอักษร และอื่นๆ เพื่อการออกแบบที่ดูสะอาดตาและการเริ่มต้นใช้งานที่เรียบง่าย</string>
+    <string name="simple_mode_suw_done_button">เสร็จสิ้น</string>
+    <string name="simple_mode_switch_title">ใช้มุมมองเรียบง่าย</string>
+    <string name="simple_mode_title">มุมมองเรียบง่าย</string>
+    <string name="simple_view_dialog_negative_button">ยกเลิก</string>
+    <string name="simple_view_dialog_positive_button">ดำเนินการต่อ</string>
+    <string name="simple_view_feature_disabled_dialog_message">การปิดมุมมองเรียบง่ายจะทำให้อุปกรณ์เปลี่ยนกลับไปใช้การตั้งค่าแบบอักษร การแสดงผล และเลย์เอาต์เดิม <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ดูวิธีเปลี่ยนการตั้งค่าแบบอักษรแต่ละแบบเหล่านี้</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">อุปกรณ์จะเปลี่ยนกลับไปใช้การตั้งค่าก่อนหน้า</string>
+    <string name="simple_view_feature_enabled_dialog_message">แบบอักษรปัจจุบันใหญ่กว่าการตั้งค่าของมุมมองเรียบง่าย การใช้มุมมองเรียบง่ายจะลดขนาดแบบอักษร</string>
+    <string name="simple_view_feature_enabled_dialog_title">ขนาดแบบอักษรจะลดลง</string>
+</resources>

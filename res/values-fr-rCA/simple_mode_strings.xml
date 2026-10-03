@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Accès rapide</string>
+    <string name="simple_mode_description">Augmentez la taille du texte et des icônes, simplifiez la mise en page et ajoutez des boutons de navigation. LINK_BEGINApprenez-en plus sur l\'Affichage simplifié.LINK_END</string>
+    <string name="simple_mode_off_summary">Désactivé – Simplifiez la mise en page de l\'écran et rendez le texte plus facile à lire</string>
+    <string name="simple_mode_on_summary">Activé – Simplifiez la mise en page de l\'écran et rendez le texte plus facile à lire</string>
+    <string name="simple_mode_summary">Améliorez la lisibilité du texte et simplifiez la mise en page de l\'écran ainsi que la navigation</string>
+    <string name="simple_mode_suw_description">Pour une conception plus épurée et une intégration simplifiée, Pixel peut télécharger automatiquement les applis et les widgets essentiels, optimiser la mise en page de l\'écran, ajuster la police et plus</string>
+    <string name="simple_mode_suw_done_button">Terminé</string>
+    <string name="simple_mode_switch_title">Utiliser l\'Affichage simplifié</string>
+    <string name="simple_mode_title">Affichage simplifié</string>
+    <string name="simple_view_dialog_negative_button">Annuler</string>
+    <string name="simple_view_dialog_positive_button">Continuer</string>
+    <string name="simple_view_feature_disabled_dialog_message">"En désactivant l'Affichage simplifié, votre appareil retrouvera ses paramètres de police, d'affichage et de mise en page d'origine. "<a href="https://support.google.com/pixelphone?p=pixel_simple_view">Découvrez comment modifier ces paramètres de police individuels.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Votre appareil reviendra aux paramètres précédents</string>
+    <string name="simple_view_feature_enabled_dialog_message">Votre police actuelle est plus grande que celle des paramètres de l\'Affichage simplifié. L\'utilisation de l\'Affichage simplifié réduira la taille de police.</string>
+    <string name="simple_view_feature_enabled_dialog_title">La taille de police sera réduite</string>
+</resources>

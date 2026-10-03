@@ -87,6 +87,11 @@ android_library {
         "androidx.slice_slice-core",
         "androidx.slice_slice-view",
         "androidx.window_window-java",
+        "androidx.datastore_datastore-preferences-rxjava2",
+        "androidx.datastore_datastore-preferences-core",
+        "androidx.datastore_datastore-rxjava2",
+        "kotlinx_coroutines_reactive",
+        "rxjava",
         "gson",
         "guava",
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Kitstoegang</string>
+    <string name="simple_mode_description">Vergroot teks- en ikoongrootte, vereenvoudig uitleg en voeg navigasieknoppies by. LINK_BEGINKry meer inligting oor Skoonaansig.LINK_END</string>
+    <string name="simple_mode_off_summary">Af / Vereenvoudig skermuitleg en maak teks makliker om te lees</string>
+    <string name="simple_mode_on_summary">Aan / Vereenvoudig skermuitleg en maak teks makliker om te lees</string>
+    <string name="simple_mode_summary">Verbeter teksleesbaarheid en vereenvoudig skermuitleg en navigasie</string>
+    <string name="simple_mode_suw_description">Pixel kan, vir ’n skoner ontwerp en eenvoudige opstelling, noodsaaklike apps en legstukke outomaties aflaai, skermuitleg optimeer, lettertipe aanpas, en meer</string>
+    <string name="simple_mode_suw_done_button">Klaar</string>
+    <string name="simple_mode_switch_title">Gebruik Skoonaansig</string>
+    <string name="simple_mode_title">Skoonaansig</string>
+    <string name="simple_view_dialog_negative_button">Kanselleer</string>
+    <string name="simple_view_dialog_positive_button">Gaan voort</string>
+    <string name="simple_view_feature_disabled_dialog_message">Deur Skoonaansig af te skakel, sal jou toestel na die oorspronklike lettertipe-, skerm- en uitleginstellings terugkeer. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Vind uit hoe om hierdie individuele lettertipe-instellings te verander.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Jou toestel sal na vorige instellings terugkeer</string>
+    <string name="simple_view_feature_enabled_dialog_message">Jou huidige lettertipe is groter as die Skoonaansig-instellings. As jy Skoonaansig gebruik, sal dit jou lettergrootte verminder.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Lettergrootte sal verminder</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Kiirjuurdepääs</string>
+    <string name="simple_mode_description">Saate suurendada teksti ja ikoonide suurust, lihtsustada paigutust ja lisada navigeerimisnuppe. LINK_BEGINLugege lisateavet lihtsa vaate kohta.LINK_END</string>
+    <string name="simple_mode_off_summary">Väljas / Lihtsustage ekraanipaigutust ja muutke tekst loetavamaks</string>
+    <string name="simple_mode_on_summary">Sees / Lihtsustage ekraanipaigutust ja muutke tekst loetavamaks</string>
+    <string name="simple_mode_summary">Täiustage teksti loetavust ning hõlbustage ekraanipaigutust ja navigeerimist</string>
+    <string name="simple_mode_suw_description">Pixel saab puhtama disaini ja lihtsama kasutuselevõtu jaoks olulised rakendused ja vidinad automaatselt alla laadida, optimeerida ekraanipaigutust, kohandada fonti ja muud.</string>
+    <string name="simple_mode_suw_done_button">Valmis</string>
+    <string name="simple_mode_switch_title">Kasuta lihtsat vaadet</string>
+    <string name="simple_mode_title">Lihtne vaade</string>
+    <string name="simple_view_dialog_negative_button">Tühista</string>
+    <string name="simple_view_dialog_positive_button">Jätka</string>
+    <string name="simple_view_feature_disabled_dialog_message">Lihtsa vaate väljalülitamise korral hakkab seade jälle kasutama algseid fondi-, kuva- ja paigutusseadeid. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Vaadake, kuidas neid üksikuid fondiseadeid muuta.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Teie seade naaseb eelmistele seadetele</string>
+    <string name="simple_view_feature_enabled_dialog_message">Teie praegune font on suurem kui režiimi Lihtne vaade seadetes. Režiimi Lihtne vaade kasutamisel muutub teie fondi suurus väiksemaks.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Fondi suurus muutub väiksemaks</string>
+</resources>

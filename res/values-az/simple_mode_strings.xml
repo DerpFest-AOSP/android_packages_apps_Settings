@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Sürətli Giriş</string>
+    <string name="simple_mode_description">Mətn və ikona ölçüsünü böyüdün, düzəni sadələşdirin və naviqasiya düymələri əlavə edin. LINK_BEGINSadə baxış haqqında ətraflı məlumat.LINK_END</string>
+    <string name="simple_mode_off_summary">Deaktiv/Ekran düzənini sadələşdirin və mətnin oxunmasını asanlaşdırın</string>
+    <string name="simple_mode_on_summary">Aktiv/Ekran düzənini sadələşdirin və mətnin oxunmasını asanlaşdırın</string>
+    <string name="simple_mode_summary">Mətn oxunuşunu təkmilləşdirin, ekran düzəni və naviqasiyanı sadələşdirin</string>
+    <string name="simple_mode_suw_description">Təmiz dizayn və sadə quraşdırma üçün Pixel əsas tətbiq və vidcetləri avtomatik endirə, ekran düzənini optimallaşdıra, şrifti tənzimləyə və s. edə bilər</string>
+    <string name="simple_mode_suw_done_button">Hazırdır</string>
+    <string name="simple_mode_switch_title">Sadə Baxışdan istifadə edin</string>
+    <string name="simple_mode_title">Sadə Baxış</string>
+    <string name="simple_view_dialog_negative_button">Ləğv edin</string>
+    <string name="simple_view_dialog_positive_button">Davam edin</string>
+    <string name="simple_view_feature_disabled_dialog_message">Sadə baxışı söndürdükdə cihaz orijinal şrift, displey və düzən ayarlarına qayıdacaq. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Bu fərdi şrift ayarlarını dəyişmək haqqında məlumat əldə edin.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Cihaz əvvəlki ayarlara qayıdacaq</string>
+    <string name="simple_view_feature_enabled_dialog_message">Cari şrift Sadə Baxış ayarlarından böyükdür. Sadə Baxışdan istifadə etdikdə şrift ölçüsü kiçildiləcək.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Şrift ölçüsü kiçildiləcək</string>
+</resources>

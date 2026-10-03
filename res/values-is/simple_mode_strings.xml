@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Skjótur aðgangur</string>
+    <string name="simple_mode_description">Stækkaðu texta og tákn, einfaldaðu uppsetningu og bættu við flettihnöppum. LINK_BEGINNánar um Simple View.LINK_END</string>
+    <string name="simple_mode_off_summary">Slökkt / Einfaldað skjáútlit og auðlæsilegri texti</string>
+    <string name="simple_mode_on_summary">Kveikt / Einfaldað skjáútlit og auðlæsilegri texti</string>
+    <string name="simple_mode_summary">Bættu læsileika texta og einfaldaðu skjáútlit og flettur</string>
+    <string name="simple_mode_suw_description">Pixel getur sótt nauðsynleg forrit og græjur sjálfkrafa, fínstillt útlit skjásins, breytt letri og fleira til að gera hönnunina stílhreinni og nýskráningu einfaldari.</string>
+    <string name="simple_mode_suw_done_button">Lokið</string>
+    <string name="simple_mode_switch_title">Nota Einfalda sýn</string>
+    <string name="simple_mode_title">Einföld sýn</string>
+    <string name="simple_view_dialog_negative_button">Hætta við</string>
+    <string name="simple_view_dialog_positive_button">Halda áfram</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ef slökkt er á Simple View fer tækið aftur í upprunalegar stillingar fyrir letur, skjá og uppsetningu. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Nánar um hvernig á að breyta einstökum stillingum.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Fyrri stillingar tækisins virkjast aftur</string>
+    <string name="simple_view_feature_enabled_dialog_message">Núverandi letur er stærra en í einfaldri sýn. Ef þú notar einfalda sýn mun letrið minnka.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Letur mun minnka</string>
+</resources>

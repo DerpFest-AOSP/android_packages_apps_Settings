@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workspace>
+  <!-- hotseat apps -->
+  <appicon
+      container="hotseat"
+      packageName="com.google.android.dialer"
+      className="com.google.android.dialer.extensions.GoogleDialtactsActivity"
+      rank="0" />
+
+  <appicon
+      container="hotseat"
+      packageName="com.google.android.apps.messaging"
+      className="com.google.android.apps.messaging.ui.ConversationListActivity"
+      rank="1" />
+
+  <appicon
+      container="hotseat"
+      packageName="com.android.chrome"
+      className="com.google.android.apps.chrome.Main"
+      rank="2" />
+
+  <appicon
+      container="hotseat"
+      packageName="com.google.android.GoogleCamera"
+      className="com.android.camera.CameraLauncher"
+      rank="3" />
+
+  <!-- desktop apps -->
+  <appicon
+      container="desktop"
+      packageName="com.google.android.apps.tips"
+      className="com.google.android.apps.tips.TipsMain"
+      screen="0"
+      x="0"
+      y="2" />
+
+  <appicon
+      container="desktop"
+      packageName="com.google.android.apps.maps"
+      className="com.google.android.maps.MapsActivity"
+      screen="0"
+      x="1"
+      y="2" />
+
+  <appicon
+      container="desktop"
+      packageName="com.google.android.apps.safetyhub"
+      className="com.google.android.apps.safetyhub.LauncherActivity"
+      screen="0"
+      x="2"
+      y="2" />
+
+  <appicon
+      container="desktop"
+      packageName="com.android.settings"
+      className="com.android.settings.Settings"
+      screen="0"
+      x="3"
+      y="2" />
+
+  <appicon
+      container="desktop"
+      packageName="com.android.vending"
+      className="com.android.vending.AssetBrowserActivity"
+      screen="0"
+      x="0"
+      y="3" />
+
+  <appicon
+      container="desktop"
+      packageName="com.google.android.gm"
+      className="com.google.android.gm.ConversationListActivityGmail"
+      screen="0"
+      x="1"
+      y="3" />
+
+  <appicon
+      container="desktop"
+      packageName="com.google.android.apps.photos"
+      className="com.google.android.apps.photos.home.HomeActivity"
+      screen="0"
+      x="2"
+      y="3" />
+
+  <appicon
+      container="desktop"
+      packageName="com.google.android.youtube"
+      className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+      screen="0"
+      x="3"
+      y="3" />
+
+  <!-- app widgets -->
+  <appwidget
+      packageName="com.google.android.apps.weather"
+      className="com.google.android.apps.weather.widget.CurrentForecastWidgetReceiver"
+      screen="1"
+      x="2"
+      y="0"
+      spanX="2"
+      spanY="2" />
+
+  <appwidget
+      packageName="com.google.android.deskclock"
+      className="com.android.alarmclock.DigitalAppWidgetProvider"
+      screen="1"
+      x="0"
+      y="0"
+      spanX="2"
+      spanY="2" />
+
+  <appwidget
+      packageName="com.google.android.contacts"
+      className="com.google.android.apps.contacts.widget.singlecontact.SingleContactWidgetProvider"
+      screen="1"
+      x="0"
+      y="2"
+      spanX="2"
+      spanY="2">
+    <extra key="simple_view" value = "empty" />
+  </appwidget>
+
+  <appwidget
+      packageName="com.google.android.contacts"
+      className="com.google.android.apps.contacts.widget.singlecontact.SingleContactWidgetProvider"
+      screen="1"
+      x="2"
+      y="2"
+      spanX="2"
+      spanY="2">
+    <extra key="simple_view" value = "empty" />
+  </appwidget>
+</workspace>

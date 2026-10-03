@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Брз пристап</string>
+    <string name="simple_mode_description">Зголемете ги текстот и иконите, поедноставете го распоредот и додајте копчиња за навигација. LINK_BEGINДознајте повеќе за „Едноставен приказ“.LINK_END</string>
+    <string name="simple_mode_off_summary">Исклучено / Го поедноставува распоредот на екранот и го прави текстот полесен за читање</string>
+    <string name="simple_mode_on_summary">Вклучено / Го поедноставува распоредот на екранот и го прави текстот полесен за читање</string>
+    <string name="simple_mode_summary">Подобрете ја читливоста на текстот и поедноставете ги распоредот и движењето на екранот</string>
+    <string name="simple_mode_suw_description">За почист дизајн и едноставно воведување, Pixel може да ги презема неопходните апликации и виџети автоматски, да го оптимизира распоредот на екранот, да го приспособува фонтот и друго</string>
+    <string name="simple_mode_suw_done_button">Готово</string>
+    <string name="simple_mode_switch_title">Користи „Едноставен приказ“</string>
+    <string name="simple_mode_title">Едноставен приказ</string>
+    <string name="simple_view_dialog_negative_button">Откажи</string>
+    <string name="simple_view_dialog_positive_button">Продолжи</string>
+    <string name="simple_view_feature_disabled_dialog_message">Со исклучување на „Едноставен приказ“, вашиот уред ќе се врати на првичните поставки за фонтот, приказот и распоредот. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Дознајте како да ги менувате овие поединечни поставки за фонтот.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Вашиот уред ќе се врати на претходните поставки</string>
+    <string name="simple_view_feature_enabled_dialog_message">Вашиот фонт во моментов е поголем од поставките за „Едноставен приказ“. Вашиот фонт ќе се намали ако користите „Едноставен приказ“.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Фонтот ќе се намали</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Rychlý přístup</string>
+    <string name="simple_mode_description">Funkce Jednoduchý režim zvětší text a ikony, zjednoduší rozvržení a přidá navigační tlačítka. LINK_BEGINDalší informace o Jednoduchém režimuLINK_END</string>
+    <string name="simple_mode_off_summary">Vypnuto / Jednodušší rozvržení obrazovky a snadnější čtení textu</string>
+    <string name="simple_mode_on_summary">Zapnuto / Jednodušší rozvržení obrazovky a snadnější čtení textu</string>
+    <string name="simple_mode_summary">Lepší čitelnost textu, jednodušší rozvržení obrazovky a snazší navigace</string>
+    <string name="simple_mode_suw_description">Za účelem jednoduššího designu a registrace může Pixel automaticky stáhnout důležité aplikace a widgety, optimalizovat rozvržení obrazovky, upravit písmo atd.</string>
+    <string name="simple_mode_suw_done_button">Hotovo</string>
+    <string name="simple_mode_switch_title">Používat Jednoduchý režim</string>
+    <string name="simple_mode_title">Jednoduchý režim</string>
+    <string name="simple_view_dialog_negative_button">Zrušit</string>
+    <string name="simple_view_dialog_positive_button">Pokračovat</string>
+    <string name="simple_view_feature_disabled_dialog_message">Když Jednoduchý režim vypnete, zařízení se vrátí k původnímu nastavení písma, zobrazení a rozvržení. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Jak změnit tato jednotlivá nastavení písma</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Zařízení se vrátí k předchozímu nastavení</string>
+    <string name="simple_view_feature_enabled_dialog_message">Aktuální písmo je větší než nastavení zjednodušeného zobrazení. Když použijete zjednodušené zobrazení, písmo se zmenší.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Písmo se zmenší</string>
+</resources>

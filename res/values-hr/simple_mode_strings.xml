@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Brzi pristup</string>
+    <string name="simple_mode_description">Povećajte veličinu ikona i teksta, pojednostavite izgled i dodajte gumbe za navigaciju. LINK_BEGINSaznajte više o jednostavnom prikazu.LINK_END</string>
+    <string name="simple_mode_off_summary">Isključeno / Pojednostavite izgled zaslona radi lakšeg čitanja teksta</string>
+    <string name="simple_mode_on_summary">Uključeno / Pojednostavite izgled zaslona radi lakšeg čitanja teksta</string>
+    <string name="simple_mode_summary">Poboljšajte čitljivost teksta i pojednostavite izgled zaslona i kretanje njime</string>
+    <string name="simple_mode_suw_description">Za pregledniji dizajn i jednostavnu integraciju Pixel može automatski preuzeti nužne aplikacije i widgete, optimizirati izgled zaslona, prilagoditi font i izvršiti druge radnje</string>
+    <string name="simple_mode_suw_done_button">Gotovo</string>
+    <string name="simple_mode_switch_title">Koristi jednostavni prikaz</string>
+    <string name="simple_mode_title">Jednostavni prikaz</string>
+    <string name="simple_view_dialog_negative_button">Odustani</string>
+    <string name="simple_view_dialog_positive_button">Nastavi</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ako isključite jednostavni prikaz, vaš će se uređaj vratiti na izvorne postavke fonta, prikaza i izgleda. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Saznajte kako promijeniti te pojedinačne postavke fonta.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Vaš će se uređaj vratiti na prethodne postavke</string>
+    <string name="simple_view_feature_enabled_dialog_message">Vaš je trenutačni font veći od postavki jednostavnog prikaza. Ako upotrijebite jednostavni prikaz, smanjit će se veličina fonta.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Veličina fonta će se smanjiti</string>
+</resources>

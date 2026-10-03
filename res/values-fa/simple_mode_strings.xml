@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">دسترسی سریع</string>
+    <string name="simple_mode_description">اندازه نماد و نوشتار را افزایش دهید، چیدمان را ساده‌سازی کنید، و دکمه‌های پیمایش اضافه کنید. LINK_BEGINدرباره «نمای ساده» بیشتر بدانیدLINK_END.</string>
+    <string name="simple_mode_off_summary">خاموش / چیدمان صفحه‌نمایش را ساده می‌کند و خواندن متن را آسان‌تر می‌کند</string>
+    <string name="simple_mode_on_summary">روشن / چیدمان صفحه‌نمایش را ساده می‌کند و خواندن متن را آسان‌تر می‌کند</string>
+    <string name="simple_mode_summary">می‌توانید خوانایی نوشتار را بهبود دهید و پیمایش و چیدمان صفحه را ساده کنید</string>
+    <string name="simple_mode_suw_description">‏برای داشتن طراحی ساده‌تر و آماده‌سازی آسان، Pixel می‌تواند برنامه‌ها و ابزاره‌های ضروری را به‌طور خودکار بارگیری کند، چیدمان صفحه را بهینه‌سازی کند، و قلم و موارد دیگر را تنظیم کند</string>
+    <string name="simple_mode_suw_done_button">تمام</string>
+    <string name="simple_mode_switch_title">استفاده از «نمای ساده»</string>
+    <string name="simple_mode_title">نمای ساده</string>
+    <string name="simple_view_dialog_negative_button">لغو کردن</string>
+    <string name="simple_view_dialog_positive_button">ادامه دادن</string>
+    <string name="simple_view_feature_disabled_dialog_message">با خاموش کردن «نمای ساده»، دستگاه شما به تنظیمات طرح‌بندی، نمایشگر، و قلم اصلی خود برمی‌گردد. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">با نحوه تغییر دادن این تنظیمات قلم مجزا آشنا شوید.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">دستگاه شما به تنظیمات قبلی برمی‌گردد</string>
+    <string name="simple_view_feature_enabled_dialog_message">قلم فعلی شما بزرگ‌تر از تنظیمات «نمای ساده» است. استفاده از «نمای ساده» اندازه قلم را کاهش می‌دهد.</string>
+    <string name="simple_view_feature_enabled_dialog_title">اندازه قلم کاهش خواهد یافت</string>
+</resources>

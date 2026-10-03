@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Schnellzugriff</string>
+    <string name="simple_mode_description">In dieser Ansicht werden Text und Symbole größer angezeigt, das Layout wird vereinfacht und Navigationsbuttons werden hinzugefügt. LINK_BEGINWeitere Informationen zur einfachen AnsichtLINK_END</string>
+    <string name="simple_mode_off_summary">Aus – Bildschirmlayout vereinfachen und Text besser lesbar machen</string>
+    <string name="simple_mode_on_summary">Ein – Bildschirmlayout vereinfachen und Text besser lesbar machen</string>
+    <string name="simple_mode_summary">Lesbarkeit von Text verbessern und Bildschirmlayout sowie ‑bedienung vereinfachen</string>
+    <string name="simple_mode_suw_description">Für ein klareres Design und eine einfachere Einrichtung kann Pixel automatisch unter anderem wichtige Apps und Widgets herunterladen, das Displaylayout optimieren und die Schriftart anpassen</string>
+    <string name="simple_mode_suw_done_button">Fertig</string>
+    <string name="simple_mode_switch_title">Einfache Ansicht verwenden</string>
+    <string name="simple_mode_title">Einfache Ansicht</string>
+    <string name="simple_view_dialog_negative_button">Abbrechen</string>
+    <string name="simple_view_dialog_positive_button">Weiter</string>
+    <string name="simple_view_feature_disabled_dialog_message">Wenn du die einfache Ansicht deaktivierst, verwendet dein Gerät wieder die ursprünglichen Einstellungen für Schriftart, Anzeige und Layout. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Informationen zum Ändern der individuellen Schriftarteinstellungen</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Dein Gerät wird auf die vorherigen Einstellungen zurückgesetzt</string>
+    <string name="simple_view_feature_enabled_dialog_message">Deine aktuelle Schriftgröße ist größer als die der einfachen Ansicht. Wenn du die einfache Ansicht nutzt, wird die Schriftgröße verkleinert.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Schriftgröße wird verkleinert</string>
+</resources>

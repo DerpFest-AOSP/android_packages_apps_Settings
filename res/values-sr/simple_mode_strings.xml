@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Брз приступ</string>
+    <string name="simple_mode_description">Повећајте величину текста и икона, поједноставите изглед и додајте дугмад за навигацију. LINK_BEGINСазнајте више о jедноставном приказу.LINK_END</string>
+    <string name="simple_mode_off_summary">Искључено / Поједностављује изглед екрана и олакшава читање текста</string>
+    <string name="simple_mode_on_summary">Укључено / Поједностављује изглед екрана и олакшава читање текста</string>
+    <string name="simple_mode_summary">Побољшајте читљивост текста, поједноставите изглед екрана и кретање по њему</string>
+    <string name="simple_mode_suw_description">За прегледнији дизајн и једноставну припрему, Pixel може аутоматски да преузме неопходне апликације и виџете, оптимизује изглед екрана, прилагоди фонт и друго</string>
+    <string name="simple_mode_suw_done_button">Готово</string>
+    <string name="simple_mode_switch_title">Користи једноставан приказ</string>
+    <string name="simple_mode_title">Једноставан приказ</string>
+    <string name="simple_view_dialog_negative_button">Откажи</string>
+    <string name="simple_view_dialog_positive_button">Настави</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ако искључите Једноставан приказ, уређај ће се вратити на првобитна подешавања фонта, приказа и изгледа. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Сазнајте како да промените ова појединачна подешавања фонта.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Уређај ће се вратити на претходна подешавања</string>
+    <string name="simple_view_feature_enabled_dialog_message">Тренутни фонт је већи него у подешавањима једноставног приказа. Коришћење једноставног приказа ће смањити величину фонта.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Величина фонта ће се смањити</string>
+</resources>

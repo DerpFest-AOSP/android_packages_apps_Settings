@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">အမြန်သုံးခွင့်</string>
+    <string name="simple_mode_description">စာသားနှင့် သင်္ကေတအရွယ်အစားကို ကြီးအောင်လုပ်၍ အပြင်အဆင်ကို ရိုးရှင်းအောင်လုပ်ကာ လမ်းညွှန်ခလုတ်များ ထည့်ပေးသည်။ LINK_BEGINရိုးရှင်းမြင်ကွင်းအကြောင်း ပိုလေ့လာရန်။LINK_END</string>
+    <string name="simple_mode_off_summary">ပိတ်ထားသည် / စခရင်အပြင်အဆင်ကို ရိုးရှင်းအောင်လုပ်ပြီး စာသားများကို ဖတ်ရပိုလွယ်အောင်လုပ်သည်</string>
+    <string name="simple_mode_on_summary">ဖွင့်ထားသည် / စခရင်အပြင်အဆင်ကို ရိုးရှင်းအောင်လုပ်ပြီး စာသားများကို ဖတ်ရပိုလွယ်အောင်လုပ်သည်</string>
+    <string name="simple_mode_summary">စာသားရှင်းလင်းပီသပြီး စခရင်အပြင်အဆင်နှင့် လမ်းညွှန်တို့ ရိုးရှင်းသည်</string>
+    <string name="simple_mode_suw_description">သပ်ရပ်သော ဒီဇိုင်းနှင့် ရိုးရှင်းသော မိတ်ဆက်သင်ကြားခြင်းအတွက် Pixel က မရှိမဖြစ် အက်ပ်နှင့် ဝိဂျက်များ ဒေါင်းလုဒ် လုပ်ခြင်း၊ စခရင်အပြင်အဆင် အကောင်းဆုံးဖြစ်အောင်လုပ်ခြင်း၊ ဖောင့် ချိန်ညှိခြင်း စသည်တို့ကို အလိုအလျောက် ပြုလုပ်နိုင်သည်</string>
+    <string name="simple_mode_suw_done_button">ပြီးပြီ</string>
+    <string name="simple_mode_switch_title">ရိုးရှင်းမြင်ကွင်း သုံးရန်</string>
+    <string name="simple_mode_title">ရိုးရှင်းမြင်ကွင်း</string>
+    <string name="simple_view_dialog_negative_button">မလုပ်တော့</string>
+    <string name="simple_view_dialog_positive_button">ဆက်လုပ်ရန်</string>
+    <string name="simple_view_feature_disabled_dialog_message">‘ရိုးရှင်းမြင်ကွင်း’ ကို ပိတ်ခြင်းဖြင့် သင့်စက်သည် ၎င်း၏ မူရင်းဖောင့်၊ ပြသမှုနှင့် အပြင်အဆင် ဆက်တင်များသို့ ပြန်ပြောင်းပါမည်။ <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ဤဖောင့်တစ်ခုချင်းဆက်တင်များ ပြောင်းသည့် နည်းလမ်းကို လေ့လာရန်။</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">သင့်စက်သည် ယခင်ဆက်တင်များသို့ ပြန်ပြောင်းပါမည်</string>
+    <string name="simple_view_feature_enabled_dialog_message">သင့်လက်ရှိဖောင့်သည် ‘ရိုးရှင်းမြင်ကွင်း’ ဆက်တင်များထက် ပိုကြီးသည်။ ‘ရိုးရှင်းမြင်ကွင်း’ သုံးခြင်းဖြင့် ဖောင့်အရွယ်အစား သေးသွားပါမည်။</string>
+    <string name="simple_view_feature_enabled_dialog_title">ဖောင့်အရွယ်အစား သေးသွားပါမည်</string>
+</resources>

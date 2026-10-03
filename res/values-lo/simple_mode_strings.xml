@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">ການເຂົ້າເຖິງດ່ວນ</string>
+    <string name="simple_mode_description">ເພີ່ມຂະໜາດຂໍ້ຄວາມ ແລະ ໄອຄອນ, ປັບໂຄງຮ່າງໃຫ້ອ່ານງ່າຍ ແລະ ເພີ່ມປຸ່ມການນຳທາງໄປຫາສ່ວນຕ່າງໆ. LINK_BEGINສຶກສາເພີ່ມເຕີມກ່ຽວກັບມຸມມອງແບບງ່າຍ.LINK_END</string>
+    <string name="simple_mode_off_summary">ປິດ / ຫຼຸດຄວາມຊັບຊ້ອນຂອງໂຄງຮ່າງໜ້າຈໍ ແລະ ເຮັດໃຫ້ຂໍ້ຄວາມອ່ານໄດ້ງ່າຍຂຶ້ນ</string>
+    <string name="simple_mode_on_summary">ເປີດ / ຫຼຸດຄວາມຊັບຊ້ອນຂອງໂຄງຮ່າງໜ້າຈໍ ແລະ ເຮັດໃຫ້ຂໍ້ຄວາມອ່ານໄດ້ງ່າຍຂຶ້ນ</string>
+    <string name="simple_mode_summary">ປັບປຸງຂໍ້ຄວາມໃຫ້ອ່ານງ່າຍຂຶ້ນ, ພ້ອມທັງຫຼຸດຄວາມຊັບຊ້ອນຂອງໂຄງຮ່າງໜ້າຈໍ ແລະ ການນຳທາງ</string>
+    <string name="simple_mode_suw_description">ສຳລັບການອອກແບບທີ່ເບິ່ງສະອາດຕາ ແລະ ການເລີ່ມຕົ້ນນຳໃຊ້ທີ່ຮຽບງ່າຍ, Pixel ສາມາດດາວໂຫຼດແອັບ ແລະ ວິດເຈັດສຳຄັນໂດຍອັດຕະໂນມັດ, ເພີ່ມປະສິດທິພາບໂຄງຮ່າງໜ້າຈໍ, ປັບຟອນ ແລະ ອື່ນໆ</string>
+    <string name="simple_mode_suw_done_button">ແລ້ວໆ</string>
+    <string name="simple_mode_switch_title">ໃຊ້ມຸມມອງແບບງ່າຍ</string>
+    <string name="simple_mode_title">ມຸມມອງແບບງ່າຍ</string>
+    <string name="simple_view_dialog_negative_button">ຍົກເລີກ</string>
+    <string name="simple_view_dialog_positive_button">ດຳເນີນການຕໍ່</string>
+    <string name="simple_view_feature_disabled_dialog_message">ໂດຍການປິດມຸມມອງແບບງ່າຍ, ອຸປະກອນຂອງທ່ານຈະກັບໄປໃຊ້ການຕັ້ງຄ່າຟອນ, ການສະແດງຜົນ ແລະ ໂຄງຮ່າງແບບເກົ່າ. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ສຶກສາວິທີປ່ຽນການຕັ້ງຄ່າຟອນແຕ່ລະແບບເຫຼົ່ານີ້.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">ອຸປະກອນຂອງທ່ານຈະກັບໄປໃຊ້ການຕັ້ງຄ່າກ່ອນໜ້າ</string>
+    <string name="simple_view_feature_enabled_dialog_message">ຟອນປັດຈຸບັນຂອງທ່ານໃຫຍ່ກວ່າການຕັ້ງຄ່າຂອງມຸມມອງແບບງ່າຍ. ການໃຊ້ມຸມມອງແບບງ່າຍຈະຫຼຸດຂະໜາດຟອນຂອງທ່ານ.</string>
+    <string name="simple_view_feature_enabled_dialog_title">ຂະໜາດຟອນຈະຫຼຸດລົງ</string>
+</resources>

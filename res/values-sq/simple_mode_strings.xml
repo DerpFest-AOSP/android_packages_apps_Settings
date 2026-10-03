@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Qasja e shpejtë</string>
+    <string name="simple_mode_description">Rrit madhësinë e tekstit dhe të ikonave, thjeshto strukturën dhe shto butona navigimi. LINK_BEGINMëso më shumë rreth \"Pamjes së thjeshtë\".LINK_END</string>
+    <string name="simple_mode_off_summary">Joaktiv / Thjeshto strukturën e ekranit dhe bëje tekstin më të lehtë për ta lexuar</string>
+    <string name="simple_mode_on_summary">Aktiv / Thjeshto strukturën e ekranit dhe bëje tekstin më të lehtë për ta lexuar</string>
+    <string name="simple_mode_summary">Përmirëso lexueshmërinë e tekstit dhe thjeshto navigimin dhe strukturën e ekranit</string>
+    <string name="simple_mode_suw_description">Për një dizajn më të pastër dhe integrim më të thjeshtë, Pixel mund të shkarkojë automatikisht aplikacionet dhe miniaplikacionet thelbësore, të optimizojë strukturën e ekranit, të rregullojë fontin etj.</string>
+    <string name="simple_mode_suw_done_button">U krye</string>
+    <string name="simple_mode_switch_title">Përdor \"Pamjen e thjeshtë\"</string>
+    <string name="simple_mode_title">Pamja e thjeshtë</string>
+    <string name="simple_view_dialog_negative_button">Anulo</string>
+    <string name="simple_view_dialog_positive_button">Vazhdo</string>
+    <string name="simple_view_feature_disabled_dialog_message">Duke çaktivizuar \"Pamjen e thjeshtë\", pajisja jote do të kthehet te cilësimet e saj origjinale të fontit, ekranit dhe strukturës. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">"Mëso se si t'i ndryshosh këto cilësime individuale të fontit."</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Pajisja jote do të kthehet te cilësimet e mëparshme</string>
+    <string name="simple_view_feature_enabled_dialog_message">Fonti yt aktual është më i madh se në cilësimet e \"Pamjes së thjeshtë\". Përdorimi i \"Pamjes së thjeshtë\" do të zvogëlojë madhësinë e fontit.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Madhësia e fontit do të zvogëlohet</string>
+</resources>

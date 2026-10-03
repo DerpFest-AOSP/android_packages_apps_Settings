@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">झटपट ॲक्सेस</string>
+    <string name="simple_mode_description">मजकूराचा आणि आयकनचा आकार वाढवा, लेआउट साधा करा आणि नेव्हिगेशन बटणे जोडा. LINK_BEGINसुलभ दृश्य याविषयी अधिक जाणून घ्या.LINK_END</string>
+    <string name="simple_mode_off_summary">बंद / स्क्रीन लेआउट साधा करा आणि मजकूर वाचण्यास सोपा करा</string>
+    <string name="simple_mode_on_summary">सुरू / स्क्रीन लेआउट साधा करा आणि मजकूर वाचण्यास सोपा करा</string>
+    <string name="simple_mode_summary">मजकुराच्या सुवाच्यतेमध्ये सुधारणा करा आणि स्क्रीन लेआउट व नेव्हिगेशन सोपे करा</string>
+    <string name="simple_mode_suw_description">सुटसुटीत डिझाइन आणि सहजसोप्या ऑनबोर्डिंगसाठी, Pixel हे आवश्यक ॲप्स व विजेट आपोआप डाउनलोड करू शकते, स्क्रीन लेआउट ऑप्टिमाइझ करू शकते, फॉंट अ‍ॅडजस्ट करू शकते आणि आणखी बरेच काही करू शकते</string>
+    <string name="simple_mode_suw_done_button">पूर्ण झाले</string>
+    <string name="simple_mode_switch_title">सुलभ दृश्य वापरा</string>
+    <string name="simple_mode_title">सुलभ दृश्य</string>
+    <string name="simple_view_dialog_negative_button">रद्द करा</string>
+    <string name="simple_view_dialog_positive_button">पुढे सुरू ठेवा</string>
+    <string name="simple_view_feature_disabled_dialog_message">सुलभ दृश्य बंद केल्यामुळे, तुमचे डिव्हाइस त्याच्या मूळ फाँट, डिस्प्ले आणि लेआउट सेटिंग्जवर परत येईल. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ही स्वतंत्र फाँट सेटिंग्ज कशी बदलावी हे जाणून घ्या</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">तुमचे डिव्हाइस मागील सेटिंग्जवर परत येईल</string>
+    <string name="simple_view_feature_enabled_dialog_message">तुमचा सद्य फाँट हा सिंपल व्ह्यू च्या सेटिंग्जहून मोठा आहे. सिंपल व्ह्यू वापरल्याने तुमच्या फाँटचा आकार कमी होईल.</string>
+    <string name="simple_view_feature_enabled_dialog_title">फाँटचा आकार कमी होईल</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Accès rapide</string>
+    <string name="simple_mode_description">Augmentez la taille du texte et des icônes, simplifiez la mise en page et ajoutez des boutons de navigation. LINK_BEGINEn savoir plus sur Vue simplifiéeLINK_END</string>
+    <string name="simple_mode_off_summary">Désactivé / Simplifier la disposition de l\'écran et faciliter la lecture du texte</string>
+    <string name="simple_mode_on_summary">Activé / Simplifier la disposition de l\'écran et faciliter la lecture du texte</string>
+    <string name="simple_mode_summary">Améliorer la lisibilité du texte et simplifier la navigation ainsi que la disposition de l\'écran</string>
+    <string name="simple_mode_suw_description">Pour offrir un design plus épuré et faciliter la prise en main, le Pixel peut automatiquement télécharger les applis et widgets essentiels, optimiser le format d\'écran, adapter la police et bien plus.</string>
+    <string name="simple_mode_suw_done_button">Terminé</string>
+    <string name="simple_mode_switch_title">Utiliser la Vue simplifiée</string>
+    <string name="simple_mode_title">Vue simplifiée</string>
+    <string name="simple_view_dialog_negative_button">Annuler</string>
+    <string name="simple_view_dialog_positive_button">Continuer</string>
+    <string name="simple_view_feature_disabled_dialog_message">"Si vous désactivez Vue simplifiée, votre appareil retrouvera ses paramètres de police, d'affichage et de mise en page d'origine. "<a href="https://support.google.com/pixelphone?p=pixel_simple_view">Découvrez comment modifier ces paramètres de police individuels.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Votre appareil reviendra aux paramètres précédents</string>
+    <string name="simple_view_feature_enabled_dialog_message">Votre police actuelle est plus grande que celle définie dans les paramètres Simple View. L\'utilisation de Simple View réduira votre taille de police.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Réduction de la taille de police</string>
+</resources>

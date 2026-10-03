@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Acceso rápido</string>
+    <string name="simple_mode_description">Aumenta el tamaño del texto y de los íconos, simplifica el diseño y agrega botones de navegación. LINK_BEGINObtén más información sobre Vista simple.LINK_END</string>
+    <string name="simple_mode_off_summary">Función desactivada / Simplifica el diseño de la pantalla y facilita la lectura del texto</string>
+    <string name="simple_mode_on_summary">Función activada / Simplifica el diseño de la pantalla y facilita la lectura del texto</string>
+    <string name="simple_mode_summary">Mejora la legibilidad del texto y simplifica el diseño de la pantalla y la navegación</string>
+    <string name="simple_mode_suw_description">Para un diseño más limpio y una incorporación simple, Pixel puede descargar automáticamente widgets y apps esenciales, optimizar el diseño en pantalla, ajustar la fuente y mucho más</string>
+    <string name="simple_mode_suw_done_button">Listo</string>
+    <string name="simple_mode_switch_title">Usar Vista simple</string>
+    <string name="simple_mode_title">Vista simple</string>
+    <string name="simple_view_dialog_negative_button">Cancelar</string>
+    <string name="simple_view_dialog_positive_button">Continuar</string>
+    <string name="simple_view_feature_disabled_dialog_message">Si desactivas Vista simple, tu dispositivo volverá a tener la configuración de diseño, pantalla y fuente original. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Consulta cómo cambiar la configuración individual de la fuente.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Tu dispositivo volverá a la configuración anterior</string>
+    <string name="simple_view_feature_enabled_dialog_message">Tu fuente actual es más grande que la de la configuración de la Vista simple. Si usas la Vista simple, se reducirá el tamaño.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Se reducirá el tamaño de la fuente</string>
+</resources>

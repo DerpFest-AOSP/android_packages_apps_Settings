@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Hızlı erişim</string>
+    <string name="simple_mode_description">Metin ve simge boyutunu büyütün, düzeni basitleştirin ve gezinme düğmeleri ekleyin. LINK_BEGINSade Görünüm hakkında daha fazla bilgi edininLINK_END.</string>
+    <string name="simple_mode_off_summary">Kapalı / Ekran düzenini basitleştirin ve metnin daha kolay okunmasını sağlayın</string>
+    <string name="simple_mode_on_summary">Açık/Ekran düzenini basitleştirin ve metnin daha kolay okunmasını sağlayın</string>
+    <string name="simple_mode_summary">Metin okunabilirliğini artırın, ekran düzenini ve gezinme işlemini basitleştirin</string>
+    <string name="simple_mode_suw_description">Daha sade bir tasarım ve basitleştirilmiş ilk katılım süreci sunmak için Pixel, gerekli uygulamaları ve widget\'ları otomatik olarak indirmek, ekran düzenini optimize etmek ve yazı tipini ayarlamak gibi pek çok işlemi gerçekleştirebilir</string>
+    <string name="simple_mode_suw_done_button">Bitti</string>
+    <string name="simple_mode_switch_title">Sade Görünüm\'ü kullan</string>
+    <string name="simple_mode_title">Sade Görünüm</string>
+    <string name="simple_view_dialog_negative_button">İptal</string>
+    <string name="simple_view_dialog_positive_button">Devam et</string>
+    <string name="simple_view_feature_disabled_dialog_message">"Sade Görünüm'ü kapattığınızda cihazınız orijinal yazı tipi, görüntü ve düzen ayarlarına döner. "<a href="https://support.google.com/pixelphone?p=pixel_simple_view">Bu yazı tipi ayarlarını ayrı ayrı nasıl değiştireceğinizi öğrenin</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Cihazınız önceki ayarlara geri döner</string>
+    <string name="simple_view_feature_enabled_dialog_message">Mevcut yazı tipiniz, Sade Görünüm ayarlarından daha büyük. Sade Görünüm\'ü kullandığınızda yazı tipi boyutunuz küçültülür.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Yazı tipi boyutu küçültülecek</string>
+</resources>

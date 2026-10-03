@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Ufikiaji wa haraka</string>
+    <string name="simple_mode_description">Ongeza ukubwa wa maandishi na aikoni, rahisisha muundo na uweke vitufe vya usogezaji. LINK_BEGINPata maelezo zaidi kuhusu Mwonekano Rahisi.LINK_END</string>
+    <string name="simple_mode_off_summary">Imezimwa / Rahisisha mpangilio wa skrini na ufanye maandishi yawe rahisi kusoma</string>
+    <string name="simple_mode_on_summary">Imewashwa / Rahisisha mpangilio wa skrini na ufanye maandishi yawe rahisi kusoma</string>
+    <string name="simple_mode_summary">Boresha hali ya kusomeka kwa maandishi na ufanye muundo na utumiaji wa skrini uwe rahisi</string>
+    <string name="simple_mode_suw_description">Ili kuweka muundo safi na utaratibu rahisi wa kuanza kutumia, Pixel inaweza kupakua kiotomatiki programu na wijeti muhimu, kuboresha muundo wa skrini, kurekebisha fonti na mengineyo</string>
+    <string name="simple_mode_suw_done_button">Nimemaliza</string>
+    <string name="simple_mode_switch_title">Tumia Mwonekano Rahisi</string>
+    <string name="simple_mode_title">Mwonekano Rahisi</string>
+    <string name="simple_view_dialog_negative_button">Acha</string>
+    <string name="simple_view_dialog_positive_button">Endelea</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ukizima kipengele cha Mwonekano Rahisi, kifaa chako kitarejesha mipangilio yake halisi ya fonti, skrini na muundo. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Pata maelezo kuhusu jinsi ya kubadilisha mipangilio hii mahususi ya fonti.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Kifaa chako kitarejesha mipangilio ya awali</string>
+    <string name="simple_view_feature_enabled_dialog_message">Fonti yako ya sasa ni kubwa kuliko ya mipangilio ya kipengele cha Mwonekano Rahisi. Hatua ya kutumia kipengele cha Mwonekano Rahisi, itapunguza ukubwa wa fonti yako.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Ukubwa wa fonti utapunguka</string>
+</resources>

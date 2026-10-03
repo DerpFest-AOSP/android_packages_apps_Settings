@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">快速访问</string>
+    <string name="simple_mode_description">增大文字和图标、简化布局，并添加导航按钮。LINK_BEGIN详细了解精简视图LINK_END。</string>
+    <string name="simple_mode_off_summary">已关闭/简化屏幕布局，方便阅读文字</string>
+    <string name="simple_mode_on_summary">开启 / 简化屏幕布局，让文字更易于阅读</string>
+    <string name="simple_mode_summary">提高文字易读性，简化屏幕布局和导航体验</string>
+    <string name="simple_mode_suw_description">想要界面简洁易上手？让 Pixel 自动下载必需应用和微件、优化界面布局、调整字体等</string>
+    <string name="simple_mode_suw_done_button">完成</string>
+    <string name="simple_mode_switch_title">启用精简视图</string>
+    <string name="simple_mode_title">精简视图</string>
+    <string name="simple_view_dialog_negative_button">取消</string>
+    <string name="simple_view_dialog_positive_button">继续</string>
+    <string name="simple_view_feature_disabled_dialog_message">关闭“精简视图”后，设备将恢复原先的字体、显示和布局设置。<a href="https://support.google.com/pixelphone?p=pixel_simple_view">了解如何逐项更改这些字体设置</a>。</string>
+    <string name="simple_view_feature_disabled_dialog_title">设备将恢复原先的设置</string>
+    <string name="simple_view_feature_enabled_dialog_message">当前的字体大于“精简视图”设置所应用的字体。使用“精简视图”将减小字号。</string>
+    <string name="simple_view_feature_enabled_dialog_title">字号将会减小</string>
+</resources>

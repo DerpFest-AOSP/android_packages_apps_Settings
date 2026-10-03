@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">দ্রুত অ্যাক্সেস</string>
+    <string name="simple_mode_description">টেক্সট ও আইকনের সাইজ বাড়ান, লেআউট আরও সহজ করুন ও নেভিগেশন বোতাম যোগ করুন। \'সহজ ভিউ\' সম্পর্কে LINK_BEGINআরও জানুনLINK_END</string>
+    <string name="simple_mode_off_summary">বন্ধ করুন / স্ক্রিন লেআউট সহজ করুন এবং টেক্সট সহজে যাতে পড়া যায় সেইভাবে তৈরি করুন</string>
+    <string name="simple_mode_on_summary">চালু করুন / স্ক্রিন লেআউট সহজ করুন এবং টেক্সট সহজে যাতে পড়া যায় সেইভাবে তৈরি করুন</string>
+    <string name="simple_mode_summary">টেক্সট আরও সুস্পষ্ট করুন এবং স্ক্রিনের লেআউট ও নেভিগেশন সহজ করুন</string>
+    <string name="simple_mode_suw_description">স্পষ্ট ডিজাইন ও সাধারণ অনবোর্ডিংয়ের জন্য, Pixel অটোমেটিক জরুরি অ্যাপ ও উইজেট ডাউনলোড করতে, স্ক্রিন লেআউট অপ্টিমাইজ করতে, ফন্ট অ্যাডজাস্ট করতে ও আরও অনেক কিছু করতে পারবে</string>
+    <string name="simple_mode_suw_done_button">হয়ে গেছে</string>
+    <string name="simple_mode_switch_title">\'সিম্পেল ভিউ\' ব্যবহার করুন</string>
+    <string name="simple_mode_title">সিম্পেল ভিউ</string>
+    <string name="simple_view_dialog_negative_button">বাতিল করুন</string>
+    <string name="simple_view_dialog_positive_button">চালিয়ে যান</string>
+    <string name="simple_view_feature_disabled_dialog_message">"'সহজ ভিউ' বন্ধ করলে, আপনার ডিভাইস তার নিজস্ব আসল ফন্ট, ডিসপ্লে ও লেআউট সেটিংসে ফিরে যাবে। এইসব স্বতন্ত্র ফন্ট সেটিং পরিবর্তন করবেন"<a href="https://support.google.com/pixelphone?p=pixel_simple_view">কীভাবে তা জানুন</a>।</string>
+    <string name="simple_view_feature_disabled_dialog_title">আপনার ডিভাইস আগের সেটিংসে ফিরে যাবে</string>
+    <string name="simple_view_feature_enabled_dialog_message">আপনার বর্তমান ফন্টের সাইজ \'সিম্পেল ভিউ\' সেটিংসের থেকে বড়। \'সিম্পেল ভিউ\' ব্যবহার করলে আপনার ফন্টের সাইজ ছোট হয়ে যাবে।</string>
+    <string name="simple_view_feature_enabled_dialog_title">ফন্টের সাইজ ছোট হয়ে যাবে</string>
+</resources>

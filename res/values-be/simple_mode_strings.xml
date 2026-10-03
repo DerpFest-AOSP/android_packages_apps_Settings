@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Хуткі доступ</string>
+    <string name="simple_mode_description">Гэты набор налад дазваляе павялічыць памер тэксту і значкоў, спрасціць дызайн і дадаць кнопкі навігацыі. LINK_BEGINДаведацца больш пра просты рэжым.LINK_END</string>
+    <string name="simple_mode_off_summary">Выключана – спрасціць макет экрана і зрабіць тэкст больш зручным для чытання</string>
+    <string name="simple_mode_on_summary">Уключана – спрасціць макет экрана і зрабіць тэкст больш зручным для чытання</string>
+    <string name="simple_mode_summary">Павышаная разборлівасць тэксту, спрошчаная кампаноўка экрана і навігацыя</string>
+    <string name="simple_mode_suw_description">Для больш зручнага дызайну і простай інтэграцыі Pixel можа аўтаматычна спампоўваць важныя праграмы і віджэты, аптымізаваць макет экрана, рэгуляваць шрыфт і многае іншае</string>
+    <string name="simple_mode_suw_done_button">Гатова</string>
+    <string name="simple_mode_switch_title">Выкарыстоўваць просты рэжым</string>
+    <string name="simple_mode_title">Просты рэжым</string>
+    <string name="simple_view_dialog_negative_button">Скасаваць</string>
+    <string name="simple_view_dialog_positive_button">Працягнуць</string>
+    <string name="simple_view_feature_disabled_dialog_message">Калі адключыць просты рэжым, прылада вернецца да зыходных налад шрыфту, дысплэя і дызайну інтэрфейсу. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Даведацца, як змяніць параметры шрыфту.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Прылада вернецца да папярэдніх налад</string>
+    <string name="simple_view_feature_enabled_dialog_message">Бягучы шрыфт большы, чым той, які зададзены ў простым рэжыме. Калі ўключыць гэты рэжым, памер шрыфту будзе паменшаны.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Памер шрыфту паменшыцца</string>
+</resources>

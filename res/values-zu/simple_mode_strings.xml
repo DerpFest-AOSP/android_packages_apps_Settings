@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Ukufinyelela okusheshayo</string>
+    <string name="simple_mode_description">Khulisa usayizi wombhalo nesithonjana, yenza isakhiwo sibe lula, futhi wengeze izinkinobho zokufuna. LINK_BEGINFunda kabanzi mayelana Nokubuka Okulula.LINK_END</string>
+    <string name="simple_mode_off_summary">Kuvaliwe / Yenza uhlaka lwesikrini lube lula futhi wenze umbhalo ufundeke kalula</string>
+    <string name="simple_mode_on_summary">Kuvuliwe / Yenza lube lula uhlaka lwesikrini futhi wenze umbhalo ufundeke kalula</string>
+    <string name="simple_mode_summary">Thuthukisa ukufaneleka kombhalo, futhi wenze lula uhlaka lwesikrini nokufuna</string>
+    <string name="simple_mode_suw_description">Ukuze uthole umklamo ohlanzekile kanye nohlelo lokucathuliswa olulula, iPixel ingadawuniloda ngokuzenzakalelayo ama-app abalulekile kanye namawijethi, ithuthukise uhlaka lwesikrini, ilungise ifonti, kanye nokuningi</string>
+    <string name="simple_mode_suw_done_button">Kwenziwe</string>
+    <string name="simple_mode_switch_title">Sebenzisa Ukubuka Okulula</string>
+    <string name="simple_mode_title">Ukubuka Okulula</string>
+    <string name="simple_view_dialog_negative_button">Khansela</string>
+    <string name="simple_view_dialog_positive_button">Qhubeka</string>
+    <string name="simple_view_feature_disabled_dialog_message">Ngokuvala Ukubuka Okulula, idivayisi yakho izobuyela efontini, esibonisini, nakusethingi yesakhiwo sayo soqobo. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Funda indlela yokushintsha lawa masethingi efonti ngayinye.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Idivayisi yakho izobuyela kumasethingi angaphambilini</string>
+    <string name="simple_view_feature_enabled_dialog_message">Ifonti yakho yamanje yinkulu kunamasethingi Wokubuka Okulula. Ukusebenzisa Ukubuka Okulula kuzokwehlisa usayizi wefonti yakho.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Usayizi wefonti uzokwehla</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Ыкчам ачуу мүмкүнчүлүгү</string>
+    <string name="simple_mode_description">Тексттин жана сүрөтчөлөрдүн өлчөмүн чоңойтуп, калыпты жөнөкөйлөтүп, чабыттоо баскычтарын кошо аласыз. LINK_BEGINЖөнөкөй көрүнүш жөнүндө кеңири маалымат.LINK_END</string>
+    <string name="simple_mode_off_summary">Өчүк/Экрандын калыбы жөнөкөйлөштүрүлүп, текст оңой окулат</string>
+    <string name="simple_mode_on_summary">Күйүк/Экрандын калыбы жөнөкөйлөштүрүлүп, текст оңой окулат</string>
+    <string name="simple_mode_summary">Текстти тагыраак көрсөтүп, жасалганы жана өтүү аракетин жөнөкөйлөтөсүз</string>
+    <string name="simple_mode_suw_description">Pixel түзмөгү жөнөкөй жана ыңгайлуу болушу үчүн керектүү колдонмолор менен вижеттер автоматтык түрдө жүктөлүп алынып, ариптер жана башка параметрлер туураланып, экрандагы нерселердин жайгашкан орду өзгөрүп турат.</string>
+    <string name="simple_mode_suw_done_button">Бүттү</string>
+    <string name="simple_mode_switch_title">Жөнөкөй көрүнүштү колдонуу</string>
+    <string name="simple_mode_title">Жөнөкөй көрүнүш</string>
+    <string name="simple_view_dialog_negative_button">Жокко чыгаруу</string>
+    <string name="simple_view_dialog_positive_button">Улантуу</string>
+    <string name="simple_view_feature_disabled_dialog_message">Жөнөкөй көрүнүштү өчүрсөңүз, түзмөгүңүз арип, экран жана калыптын баштапкы параметрлерине кайтат. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Бул жеке арип параметрлерин өзгөртүүнү билип алыңыз.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Түзмөгүңүз мурунку параметрлерге кайтат</string>
+    <string name="simple_view_feature_enabled_dialog_message">Учурдагы арибиңиз Жөнөкөй көрүнүштүн параметрлериндеги ариптен чоңураак. Жөнөкөй көрүнүштү колдонсоңуз, арибиңиздин өлчөмү азаят.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Ариптин өлчөмү азаят</string>
+</resources>

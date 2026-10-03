@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Быстрый доступ</string>
+    <string name="simple_mode_description">Размер текста и значков будет увеличен, дизайн интерфейса – упрощен, и будет включена навигация с помощью трех кнопок. Подробнее LINK_BEGINо простом режимеLINK_END…</string>
+    <string name="simple_mode_off_summary">Отключено/Упростить дизайн и сделать текст более удобным для чтения</string>
+    <string name="simple_mode_on_summary">Включено/Упростить дизайн и сделать текст более удобным для чтения</string>
+    <string name="simple_mode_summary">Сделать текст более различимым, упростить дизайн и навигацию</string>
+    <string name="simple_mode_suw_description">Чтобы ваше знакомство с Pixel было проще, а интерфейс удобнее, устройство может автоматически скачать важные приложения и виджеты, а также настроить шрифт, расположение элементов на экране и другие параметры.</string>
+    <string name="simple_mode_suw_done_button">Готово</string>
+    <string name="simple_mode_switch_title">Простой режим</string>
+    <string name="simple_mode_title">Простой режим</string>
+    <string name="simple_view_dialog_negative_button">Отмена</string>
+    <string name="simple_view_dialog_positive_button">Продолжить</string>
+    <string name="simple_view_feature_disabled_dialog_message">Если отключить простой режим, на устройстве восстановятся исходные настройки шрифта, экрана и дизайна интерфейса. Узнайте, <a href="https://support.google.com/pixelphone?p=pixel_simple_view">как по отдельности изменить эти настройки</a>.</string>
+    <string name="simple_view_feature_disabled_dialog_title">Устройство будет использовать прежние настройки</string>
+    <string name="simple_view_feature_enabled_dialog_message">Текущий шрифт крупнее того, что задан в настройках простого режима. Если включить этот режим, размер шрифта уменьшится.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Размер шрифта уменьшится</string>
+</resources>

@@ -6500,6 +6500,34 @@
                 android:value="true" />
         </activity>
 
+        <!-- Simple View -->
+        <provider
+            android:name="com.google.android.settings.simplemode.AccessibilityAppearanceProvider"
+            android:exported="true"
+            android:authorities="com.android.settings.matcha.accessibilityappearanceprovider"/>
+
+        <activity
+            android:name="com.google.android.settings.simplemode.SimpleModeSettingsActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask">
+            <intent-filter android:priority="1">
+                <action android:name="com.google.android.settings.matcha.ACCESSIBILITY_APPEARANCE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.google.android.settings.simplemode.SimpleModeSettingsFragment"/>
+        </activity>
+
+        <receiver
+            android:name="com.google.android.settings.simplemode.SimpleModeSetupWizardEventsReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.setupwizard.SETUP_WIZARD_FINISHED"/>
+            </intent-filter>
+        </receiver>
+
         <!-- Screen refresh rate -->
         <activity android:name="Settings$ScreenRefreshRateActivity"
             android:label="@string/screen_refresh_rate_title"

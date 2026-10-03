@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">Accesso rapido</string>
+    <string name="simple_mode_description">Aumenta le dimensioni del testo e delle icone, semplifica il layout e aggiungi pulsanti per la navigazione. LINK_BEGINScopri di più su Visualizzazione Semplice.LINK_END</string>
+    <string name="simple_mode_off_summary">Off / Semplifica il layout della schermata e facilita la lettura del testo</string>
+    <string name="simple_mode_on_summary">On/Semplifica il layout della schermata e facilita la lettura del testo</string>
+    <string name="simple_mode_summary">Migliora la leggibilità dei testi e semplifica la navigazione e il layout dello schermo</string>
+    <string name="simple_mode_suw_description">Per rendere il design più lineare e semplificare le operazioni preliminari, Pixel può scaricare automaticamente le app e i widget essenziali, ottimizzare il layout dello schermo, regolare i caratteri e molto altro</string>
+    <string name="simple_mode_suw_done_button">Fine</string>
+    <string name="simple_mode_switch_title">Usa Visualizzazione Semplice</string>
+    <string name="simple_mode_title">Visualizzazione Semplice</string>
+    <string name="simple_view_dialog_negative_button">Annulla</string>
+    <string name="simple_view_dialog_positive_button">Procedi</string>
+    <string name="simple_view_feature_disabled_dialog_message">Se disattivi Visualizzazione Semplice, il dispositivo tornerà alle impostazioni di carattere, display e layout originali. <a href="https://support.google.com/pixelphone?p=pixel_simple_view">Scopri come modificare le singole impostazioni del carattere.</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">Il dispositivo tornerà alle impostazioni precedenti</string>
+    <string name="simple_view_feature_enabled_dialog_message">Le dimensioni attuali del carattere superano quelle previste dalle impostazioni di Visualizzazione Semplice. Con Visualizzazione Semplice verranno ridotte.</string>
+    <string name="simple_view_feature_enabled_dialog_title">Le dimensioni del carattere verranno ridotte</string>
+</resources>

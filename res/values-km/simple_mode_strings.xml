@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Simple Mode -->
+    <string name="simple_mode_category">ចូល​ប្រើប្រាស់​រហ័ស</string>
+    <string name="simple_mode_description">បង្កើនទំហំរូបតំណាងនិងអក្សរ សម្រួលប្លង់ និងបញ្ចូលប៊ូតុងរុករក។ LINK_BEGINស្វែងយល់បន្ថែមអំពីទិដ្ឋភាពសាមញ្ញ។LINK_END</string>
+    <string name="simple_mode_off_summary">បិទ / សម្រួលប្លង់អេក្រង់ និងធ្វើឱ្យអក្សរកាន់តែងាយស្រួលអាន</string>
+    <string name="simple_mode_on_summary">បើក / សម្រួលប្លង់អេក្រង់ និងធ្វើឱ្យអក្សរកាន់តែងាយស្រួលអាន</string>
+    <string name="simple_mode_summary">កែលម្អភាពច្បាស់នៃអក្សរ និងសម្រួលការរុករកនិងប្លង់អេក្រង់</string>
+    <string name="simple_mode_suw_description">សម្រាប់ការរចនាកាន់តែស្អាត និងការណែនាំសាមញ្ញ Pixel អាចទាញយកកម្មវិធី និងធាតុក្រាហ្វិកចាំបាច់ដោយស្វ័យប្រវត្តិ បង្កើនប្រសិទ្ធភាពប្លង់អេក្រង់ កែតម្រូវពុម្ពអក្សរ និងធ្វើអ្វីៗជាច្រើនទៀត</string>
+    <string name="simple_mode_suw_done_button">រួចរាល់</string>
+    <string name="simple_mode_switch_title">ប្រើទិដ្ឋភាពសាមញ្ញ</string>
+    <string name="simple_mode_title">ទិដ្ឋភាពសាមញ្ញ</string>
+    <string name="simple_view_dialog_negative_button">បោះបង់</string>
+    <string name="simple_view_dialog_positive_button">បន្ត</string>
+    <string name="simple_view_feature_disabled_dialog_message">តាមរយៈការបិទទិដ្ឋភាពសាមញ្ញ ឧបករណ៍របស់អ្នកនឹងត្រឡប់ទៅការកំណត់ពុម្ពអក្សរ ការបង្ហាញ និងប្លង់ដើមរបស់វាវិញ។ <a href="https://support.google.com/pixelphone?p=pixel_simple_view">ស្វែងយល់អំពីរបៀបផ្លាស់ប្ដូរការកំណត់ពុម្ព​អក្សរ​នីមួយៗទាំងនេះ។</a></string>
+    <string name="simple_view_feature_disabled_dialog_title">ឧបករណ៍របស់អ្នកនឹងត្រឡប់ទៅការកំណត់ពីមុនវិញ</string>
+    <string name="simple_view_feature_enabled_dialog_message">ពុម្ពអក្សរបច្ចុប្បន្នរបស់អ្នកធំជាងការកំណត់ទិដ្ឋភាពសាមញ្ញ។ ការប្រើទិដ្ឋភាពសាមញ្ញនឹងកាត់បន្ថយទំហំពុម្ពអក្សររបស់អ្នក។</string>
+    <string name="simple_view_feature_enabled_dialog_title">ទំហំពុម្ពអក្សរនឹងកាត់បន្ថយ</string>
+</resources>
