@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">Memória RAM total</string>
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
+    <string name="doze_gesture_ambient_title">Mostrar Tela Ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar a Tela Ambiente em vez de acender totalmente a tela</string>
+    <string name="gesture_wake_ambient">Mostrar Tela Ambiente</string>
+    <string name="gesture_wake">Acender totalmente</string>
+    <string name="doze_gesture_vibrate_title">Resposta tátil</string>
+    <string name="doze_gesture_vibrate_summary">Vibrar quando este gesto for executado</string>
+    <string name="pulse_on_new_tracks_title">Info da música</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar a Tela Ambiente quando uma nova música começar a tocar</string>
+    <string name="game_space_title">Espaço de Jogos</string>
+    <string name="game_space_summary">Aprimore sua experiência de jogo</string>
+    <string name="incall_vibration_category">Opções de vibração na chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso Wi-Fi não aparecerá na lista de redes WLAN disponíveis.</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Listar e gerenciar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_limit_title">Limite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta ação desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e o adicionará à lista de bloqueio</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">O dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" poderá se conectar a este ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível no momento. Dispositivos conectados e bloqueados serão listados aqui quando disponíveis.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivos podem se conectar a este ponto de acesso</item>
+        <item quantity="one">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivo pode se conectar a este ponto de acesso</item>
+    </plurals>
+    <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_5secs">5 segundos</string>
+    <string name="custom_timeout_summary_10secs">10 segundos</string>
+    <string name="custom_timeout_summary_15secs">15 segundos</string>
+    <string name="custom_timeout_summary_30secs">30 segundos</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_2mins">2 minutos</string>
+    <string name="custom_timeout_summary_5mins">5 minutos</string>
+    <string name="custom_timeout_summary_10mins">10 minutos</string>
+    <string name="custom_timeout_summary_20mins">20 minutos</string>
+    <string name="custom_timeout_summary_30mins">30 minutos</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="custom_timeout_summary_2hours">2 horas</string>
+    <string name="custom_timeout_summary_4hours">4 horas</string>
+    <string name="custom_timeout_summary_8hours">8 horas</string>
+    <string name="custom_timeout_summary_12hours">12 horas</string>
+    <string name="custom_timeout_summary_24hours">24 horas</string>
+    <string name="custom_timeout_summary_36hours">36 horas</string>
+    <string name="custom_timeout_summary_48hours">48 horas</string>
+    <string name="custom_timeout_summary_72hours">72 horas</string>
+    <string name="custom_timeout_summary_1hour_def">1 hora (Padrão)</string>
+    <string name="doze_on_charge_title">Sempre mostrar ao carregar</string>
+    <string name="doze_on_charge_summary">Exibir informações enquanto o dispositivo estiver carregando</string>
+    <string name="usb_default_config_title">Configuração USB</string>
+    <string name="usb_default_config_summary">Escolha o comportamento padrão quando conectado a um dispositivo via USB</string>
+    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
+    <string name="wifi_do_not_validate_eap_server">Não validar</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. Sua conexão não será privada.</string>
+    <string name="back_gesture_arrow_title">Animação do gesto de voltar</string>
+    <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar</string>
+    <string name="back_gesture_haptic_title">Vibração no gesto de voltar</string>
+    <string name="back_gesture_haptic_summary">Vibrar ao executar o gesto de voltar</string>
+    <string name="advanced_vpn_preference_group_title">Integradas</string>
+    <string name="vpn_preference_group_title">Outras</string>
+    <string name="wifi_qr_code_animation_control">pausar a animação</string>
+    <string name="app_lock_settings_title">Configurações de bloqueio de apps</string>
+    <string name="app_lock_settings_summary">Configurar o tempo limite e o método de autenticação</string>
+    <string name="show_ime_space_title">Mostrar espaço do botão IME</string>
+    <string name="show_ime_space_summary">Ativar o recurso de troca rápida de método de entrada para alternar métodos de entrada ou ocultar o teclado virtual a partir da barra de recursos na parte inferior da tela ao digitar</string>
+    <string name="background_processes_settings_title">Processos em segundo plano</string>
+    <string name="clear_search_query_description">Limpar pesquisa</string>
+    <string name="language_picker_page">Página de seleção de idioma</string>
+    <string name="search_region">Pesquisar regiões</string>
+    <string name="search_region_page">Página de pesquisa de região</string>
+    <string name="vpn_enforce_dns_title">Desativar para VPN</string>
+    <string name="vpn_enforce_dns_summary">Desativa o DNS privado quando conectado a uma VPN\nSerá restaurado ao desconectar</string>
+    <string name="app_volume">Volume de apps</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Mostrar o botão de volume por app no painel de volume</string>
+    <string name="multi_audio_focus_title">Foco de áudio múltiplo</string>
+    <string name="multi_audio_focus_summary">Permitir que vários aplicativos reproduzam áudio simultaneamente</string>
+    <string name="per_app_config_empty_text">Nenhum app instalado suporta as configurações atuais</string>
+    <string name="per_app_refresh_rate_title">Taxa de atualização por aplicativo</string>
+    <string name="per_app_refresh_rate_summary">Configurar a taxa de atualização individualmente para cada aplicativo</string>
+    <string name="per_app_refresh_rate_default">Seguir o sistema</string>
+    <string name="screen_refresh_rate_title">Taxa de atualização da tela</string>
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar taxa de atualização de 60 Hz para economizar energia quando a Economia de Bateria estiver ativa</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">A taxa de atualização extrema está ativa</string>
+    <string name="adaptive_battery_entry_purpose">Permite que os usuários ativem ou desativem a Bateria Adaptável, que otimiza o uso da bateria com base nos padrões de uso do telefone para estender a duração da bateria.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Se a Bateria Adaptável está ativada para otimizar o uso da bateria com base nos padrões de uso dos aplicativos.</string>
+    <string name="adaptive_battery_switch_title">Usar Bateria Adaptável</string>
+    <string name="basic_battery_saver_title">Economia de Bateria Padrão</string>
+    <string name="basic_battery_saver_summary">Limita efeitos visuais e atividades em segundo plano. Ativa o tema escuro, se já não estiver ativo.</string>
+    <string name="basic_battery_saver_purpose">Ativa o modo de Economia de Bateria Padrão, que limita efeitos visuais e atividades em segundo plano</string>
+    <string name="battery_saver_reminder_category">Lembretes</string>
+    <string name="battery_saver_reminder_switch_title">Lembretes da Economia de Bateria</string>
+    <string name="battery_saver_reminder_switch_summary">Receba lembretes quando a bateria estiver fraca</string>
+    <string name="battery_saver_schedule_category">Agendamento</string>
+    <string name="battery_saver_schedule_switch_title">Ativar com base no nível da bateria</string>
+    <string name="battery_saver_schedule_switch_summary">A Economia de Bateria é ativada quando a bateria atinge o nível definido</string>
+    <string name="battery_saver_schedule_purpose">Permite que os usuários configurem os agendamentos da Economia de Bateria, incluindo ativação automática com base na porcentagem e desativação automática ao carregar, além de gerenciar lembretes de notificação de bateria fraca.</string>
+    <string name="battery_schedule_title">Programação e lembretes</string>
+    <string name="battery_schedule_summary">Gerenciar quando a Economia de Bateria é ativada</string>
+    <string name="extreme_battery_saver_title">Economia de Bateria Extrema</string>
+    <string name="extreme_battery_saver_summary">Inclui todas as alterações listadas acima. Também pausa aplicativos não essenciais e suas notificações.</string>
+    <string name="extreme_battery_saver_purpose">Ativa o modo de Economia de Bateria Extrema, que pausa aplicativos e notificações não essenciais</string>
+    <string name="low_power_mode_reminder_enabled_purpose">Se deve receber lembretes de notificação quando a bateria estiver fraca</string>
+    <string name="adaptive_battery_category_purpose" translatable="false">adaptive_battery_category</string>
+    <string name="adaptive_battery_illustration_purpose" translatable="false">adaptive_battery_illustration</string>
+    <string name="adaptive_battery_top_intro_purpose" translatable="false">adaptive_battery_top_intro</string>
+    <string name="battery_saver_group_purpose" translatable="false">battery_saver_group</string>
+    <string name="battery_saver_reminder_entry_purpose" translatable="false">battery_saver_reminder_entry</string>
+    <string name="battery_saver_schedule_category_purpose" translatable="false">battery_saver_schedule_category</string>
+    <string name="extreme_refresh_rate_title">Taxa de atualização extrema</string>
+    <string name="extreme_refresh_rate_summary">Forçar a maior taxa de atualização para todos os aplicativos</string>
+    <string name="extreme_refresh_rate_warning">Isso garantirá que o sistema selecione a maior taxa de atualização, ignorando as opções selecionadas pelo usuário e as preferências dos apps. Aplicativos que exigem uma taxa específica podem funcionar incorretamente.</string>
+    <string name="confirm_before_enable_title">Continuar para ativar?</string>
+    <string name="display_engine_category">Motor de exibição</string>
+    <string name="display_engine_mode_title">Reality display engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality engine</string>
+    <string name="vivid_engine_mode_title">Exibição Vívida</string>
+    <string name="triluminous_engine_mode_title">Exibição Triluminous</string>
+    <string name="display_engine_default">Padrão</string>
+    <string name="display_engine_mode_footer_text">Inspirado no motor Bravia/X-Reality da Sony, o Motor de Exibição oferece o modo Vívido para maior brilho e saturação de cor, modo X-Reality para detalhes aprimorados e precisão de cor, e modo Triluminous para uma gama de cores mais ampla.</string>
+</resources>

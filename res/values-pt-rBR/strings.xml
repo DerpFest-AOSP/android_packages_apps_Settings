@@ -4474,8 +4474,8 @@
     <string name="manage_agent_app_function_access_settings_summary" msgid="5513761879561499076">"Permitir que este agente acesse informações ou realize ações em apps"</string>
     <string name="manage_target_app_function_access_settings_title" msgid="6517416582918633839">"Acesso do agente"</string>
     <string name="manage_target_app_function_access_settings_summary" msgid="3578937757835411954">"Agentes que podem acessar informações ou realizar ações neste app"</string>
-    <string name="tap_to_wake" msgid="3313433536261440068">"Tocar para ativar"</string>
-    <string name="tap_to_wake_summary" msgid="6641039858241611072">"Toque duas vezes em qualquer parte da tela para ativar o dispositivo"</string>
+    <string name="tap_to_wake" msgid="3313433536261440068">"Toque para ligar a tela"</string>
+    <string name="tap_to_wake_summary" msgid="6641039858241611072">"Toque duas vezes em qualquer parte da tela para ligar a tela"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"Abrir links"</string>
     <string name="domain_urls_summary_none" msgid="1132578967643384733">"Não abrir links compatíveis"</string>
     <string name="domain_urls_summary_one" msgid="3312008753802762892">"Abrir <xliff:g id="DOMAIN">%s</xliff:g>"</string>
