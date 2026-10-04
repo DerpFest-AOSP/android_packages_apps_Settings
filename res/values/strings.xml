@@ -12287,11 +12287,11 @@
     <!-- Category for system panels showing notifications and Quick Settings. [CHAR LIMIT=NONE]-->
     <string name="shade_panels_category">Panels</string>
 
-    <!-- Title text for the separate panels mode. In this mode, notifications and Quick Settings are shown in separate panels, each opened by swiping down on a different side of the top edge of the screen. [CHAR_LIMIT=60] -->
+    <!-- Title text for the separate panels mode. In this mode, notifications and Quick Settings are shown in separate panels, each opened by swiping down on a different side of the screen. [CHAR_LIMIT=60] -->
     <string name="shade_panels_separate_title">Separate</string>
 
-    <!-- Summary text for the separate panels mode. In this mode, notifications and Quick Settings are shown in separate panels, each opened by swiping down on a different side of the top edge of the screen. [CHAR_LIMIT=250] -->
-    <string name="shade_panels_separate_summary">Swipe down from the top right to open Quick Settings. Swipe down from the top left to open notifications.</string>
+    <!-- Summary text for the separate panels mode. In this mode, notifications and Quick Settings are shown in separate panels, each opened by swiping down on a different side of the screen. [CHAR_LIMIT=250] -->
+    <string name="shade_panels_separate_summary">Swipe down on the right side of the screen to open Quick Settings. Swipe down on the left side to open notifications.</string>
 
     <!-- Title text for the combined panels mode. In this mode, notifications and Quick Settings are shown a single panel, opened by swiping down from the top edge of the screen. In the past this used to be the only mode, so it is also referred to as "classic" mode. [CHAR_LIMIT=60] -->
     <string name="shade_panels_combined_title">Combined (classic)</string>

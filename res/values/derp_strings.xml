@@ -495,4 +495,12 @@
     <string name="accessibility_slider_haptics_category_title">Sliders</string>
     <string name="accessibility_brightness_slider_haptic_title">Brightness slider haptic</string>
     <string name="accessibility_volume_dialog_haptic_title">Volume slider haptic</string>
+
+    <!-- Dual shade split ratio. The value is how much of the screen, from the start edge, opens notifications. -->
+    <string name="status_bar_shade_split_percentage_title">Shade split ratio</string>
+    <string name="status_bar_shade_split_percentage_summary">Notifications %1$d%% · Quick Settings %2$d%%</string>
+    <string name="status_bar_shade_split_percentage_value">%1$d%%</string>
+    <string name="status_bar_shade_split_more_quick_settings">More Quick Settings</string>
+    <string name="status_bar_shade_split_more_notifications">More notifications</string>
+    <string name="keywords_shade_split_ratio">shade, split, ratio, notifications, quick settings, boundary</string>
 </resources>

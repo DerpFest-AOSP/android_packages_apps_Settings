@@ -4929,7 +4929,7 @@
     <string name="keywords_shade_panels" msgid="6181844937287087945">"Farbtönung, Bereiche, Benachrichtigungen, Schnelleinstellungen, getrennt, kombiniert, doppelt, einzeln"</string>
     <string name="shade_panels_category" msgid="3262351355390846546">"Bereiche"</string>
     <string name="shade_panels_separate_title" msgid="7839124123668116363">"Trennen"</string>
-    <string name="shade_panels_separate_summary" msgid="4879360492042964895">"Wenn du die Schnelleinstellungen öffnen möchtest, wische von rechts oben nach unten. Wenn du die Benachrichtigungen öffnen möchtest, wische von links oben nach unten."</string>
+    <string name="shade_panels_separate_summary" msgid="4879360492042964895">"Wenn du die Schnelleinstellungen öffnen möchtest, wische auf der rechten Bildschirmseite nach unten. Wenn du die Benachrichtigungen öffnen möchtest, wische auf der linken Seite nach unten."</string>
     <string name="shade_panels_combined_title" msgid="2812149031368941984">"Kombiniert (klassisch)"</string>
     <string name="shade_panels_combined_summary" msgid="5884627562590432068">"Wenn du auf den klassischen Bereich zugreifen möchtest, in dem Benachrichtigungen und Schnelleinstellungen kombiniert werden, wische vom oberen Displayrand nach unten."</string>
     <string name="shade_panels_foldables_footer_message" msgid="3974376428811063936">"Die kombinierte (klassische) Ansicht funktioniert nur auf dem äußeren Display deines faltbaren Geräts"</string>

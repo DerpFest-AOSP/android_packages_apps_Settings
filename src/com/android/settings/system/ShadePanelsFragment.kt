@@ -18,10 +18,14 @@ package com.android.settings.system
 
 import android.app.settings.SettingsEnums
 import android.content.Context
+import android.content.pm.PackageManager
+import android.provider.Settings
 import android.view.View.LAYOUT_DIRECTION_RTL
 import androidx.annotation.VisibleForTesting
+import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
 import com.android.settings.R
+import com.android.settings.Utils
 import com.android.settings.Utils.isDeviceFoldable
 import com.android.settings.search.BaseSearchIndexProvider
 import com.android.settings.support.actionbar.HelpResourceProvider
@@ -36,6 +40,9 @@ import com.android.settingslib.widget.CandidateInfo
 import com.android.settingslib.widget.FooterPreference
 import com.android.settingslib.widget.SelectorWithWidgetPreference
 import com.android.settingslib.widget.SettingsThemeHelper
+import com.android.settingslib.widget.SliderPreference
+import com.android.settingslib.widget.UntitledPreferenceCategory
+import kotlin.math.roundToInt
 
 /**
  * The preference fragment for the Settings page controlling Notifications & Quick Settings panels,
@@ -79,6 +86,15 @@ class ShadePanelsFragment : RadioButtonPickerFragment(), HelpResourceProvider {
 
     override fun addStaticPreferences(screen: PreferenceScreen) {
         val context = requireContext()
+        if (getDefaultKey() == KEY_DUAL_SHADE_PREFERENCE) {
+            // Own category so the slider is a single rounded card. A sibling preference would
+            // share its expressive background and square off the bottom corners.
+            val sliderCategory = UntitledPreferenceCategory(context).apply {
+                key = KEY_SPLIT_RATIO_CATEGORY
+            }
+            screen.addPreference(sliderCategory)
+            sliderCategory.addPreference(createSplitRatioPreference(context))
+        }
         if (isDeviceFoldable(context)) {
             screen.addPreference(
                 FooterPreference(context).apply {
@@ -88,11 +104,15 @@ class ShadePanelsFragment : RadioButtonPickerFragment(), HelpResourceProvider {
         }
 
         val suggestionsKey = ShadePanelsSuggestionsController.KEY_SUGGESTIONS
-        screen.addPreference(
+        val suggestionsCategory = UntitledPreferenceCategory(context).apply {
+            key = KEY_SUGGESTIONS_CATEGORY
+            order = 1000
+        }
+        screen.addPreference(suggestionsCategory)
+        suggestionsCategory.addPreference(
             SettingsSuggestionsPreference(context).apply {
                 key = suggestionsKey
                 isSelectable = false
-                order = 1000
             }
         )
         ShadePanelsSuggestionsController(context, suggestionsKey).displayPreference(screen)
@@ -146,6 +166,48 @@ class ShadePanelsFragment : RadioButtonPickerFragment(), HelpResourceProvider {
         }
     }
 
+    /**
+     * Material slider for the dual-shade boundary. The value is the share of the screen, measured
+     * from the start edge, that opens notifications. The rest opens Quick Settings.
+     */
+    private fun createSplitRatioPreference(context: Context): SliderPreference {
+        val currentValue = currentSplitPercent(context)
+        return SliderPreference(context).apply {
+            key = Settings.System.STATUS_BAR_SHADE_SPLIT_PERCENTAGE
+            title = context.getString(R.string.status_bar_shade_split_percentage_title)
+            summary = splitSummary(context, currentValue)
+            isPersistent = false
+            setMin(MIN_SPLIT_PERCENT)
+            setMax(MAX_SPLIT_PERCENT)
+            // Snap to whole percents without drawing a tick for every step.
+            setSliderIncrement(1)
+            setTickVisible(false)
+            setShowSliderValue(true)
+            setHapticFeedbackMode(SliderPreference.HAPTIC_FEEDBACK_MODE_ON_ENDS)
+            setTextStart(R.string.status_bar_shade_split_more_quick_settings)
+            setTextEnd(R.string.status_bar_shade_split_more_notifications)
+            setLabelFormater { value ->
+                context.getString(
+                    R.string.status_bar_shade_split_percentage_value,
+                    value.toInt(),
+                )
+            }
+            value = currentValue
+            onPreferenceChangeListener =
+                Preference.OnPreferenceChangeListener { preference, newValue ->
+                    val percentage =
+                        (newValue as Int).coerceIn(MIN_SPLIT_PERCENT, MAX_SPLIT_PERCENT)
+                    Settings.System.putInt(
+                        context.contentResolver,
+                        Settings.System.STATUS_BAR_SHADE_SPLIT_PERCENTAGE,
+                        percentage,
+                    )
+                    preference.summary = splitSummary(context, percentage)
+                    true
+                }
+        }
+    }
+
     private fun setIllustrationForSelection(selectedKey: String) {
         val configuration = requireContext().getResources().getConfiguration()
         val isRtl = configuration.getLayoutDirection() == LAYOUT_DIRECTION_RTL
@@ -168,6 +230,54 @@ class ShadePanelsFragment : RadioButtonPickerFragment(), HelpResourceProvider {
         const val KEY_DUAL_SHADE_PREFERENCE = "dual_shade"
         @VisibleForTesting
         const val KEY_SINGLE_SHADE_PREFERENCE = "single_shade"
+        private const val KEY_SPLIT_RATIO_CATEGORY = "shade_split_ratio_category"
+        private const val KEY_SUGGESTIONS_CATEGORY = "shade_panels_suggestions_category"
+
+        private const val MIN_SPLIT_PERCENT = 10
+        private const val MAX_SPLIT_PERCENT = 90
+        private const val DEFAULT_SPLIT_PERCENT = 50
+
+        private fun currentSplitPercent(context: Context): Int {
+            return Settings.System.getInt(
+                    context.contentResolver,
+                    Settings.System.STATUS_BAR_SHADE_SPLIT_PERCENTAGE,
+                    defaultSplitPercent(context),
+                )
+                .coerceIn(MIN_SPLIT_PERCENT, MAX_SPLIT_PERCENT)
+        }
+
+        /** Matches the unset default used by SystemUI: config_invocationGestureSplitRatio. */
+        private fun defaultSplitPercent(context: Context): Int {
+            return try {
+                val sysuiContext =
+                    context.createPackageContext(Utils.SYSTEMUI_PACKAGE_NAME, 0 /* flags */)
+                val resId =
+                    sysuiContext.resources.getIdentifier(
+                        "config_invocationGestureSplitRatio",
+                        "dimen",
+                        Utils.SYSTEMUI_PACKAGE_NAME,
+                    )
+                if (resId == 0) {
+                    DEFAULT_SPLIT_PERCENT
+                } else {
+                    (sysuiContext.resources.getFloat(resId) * 100)
+                        .roundToInt()
+                        .coerceIn(MIN_SPLIT_PERCENT, MAX_SPLIT_PERCENT)
+                }
+            } catch (e: PackageManager.NameNotFoundException) {
+                DEFAULT_SPLIT_PERCENT
+            } catch (e: SecurityException) {
+                DEFAULT_SPLIT_PERCENT
+            }
+        }
+
+        private fun splitSummary(context: Context, notificationsPercent: Int): String {
+            return context.getString(
+                R.string.status_bar_shade_split_percentage_summary,
+                notificationsPercent,
+                100 - notificationsPercent,
+            )
+        }
 
         // Expose as a static field for the @SearchIndexable annotation processor.
         @JvmField
@@ -188,6 +298,16 @@ class ShadePanelsFragment : RadioButtonPickerFragment(), HelpResourceProvider {
                             title = context.getString(R.string.shade_panels_combined_title)
                             summaryOn = context.getString(R.string.shade_panels_combined_summary)
                             key = KEY_SINGLE_SHADE_PREFERENCE
+                        },
+                        SearchIndexableRaw(context).apply {
+                            title =
+                                context.getString(
+                                    R.string.status_bar_shade_split_percentage_title
+                                )
+                            summaryOn =
+                                splitSummary(context, currentSplitPercent(context))
+                            keywords = context.getString(R.string.keywords_shade_split_ratio)
+                            key = Settings.System.STATUS_BAR_SHADE_SPLIT_PERCENTAGE
                         },
                     )
                 }

@@ -439,4 +439,12 @@ Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meiste
     <string name="color_hue_title">Farbton</string>
     <string name="color_contrast_title">Kontrast</string>
     <string name="color_picture_brightness_title">Bildhelligkeit</string>
+
+    <!-- Dual shade split ratio -->
+    <string name="status_bar_shade_split_percentage_title">Aufteilungsverhältnis</string>
+    <string name="status_bar_shade_split_percentage_summary">Benachrichtigungen %1$d\u00a0%% · Schnelleinstellungen %2$d\u00a0%%</string>
+    <string name="status_bar_shade_split_percentage_value">%1$d\u00a0%%</string>
+    <string name="status_bar_shade_split_more_quick_settings">Mehr Schnelleinstellungen</string>
+    <string name="status_bar_shade_split_more_notifications">Mehr Benachrichtigungen</string>
+    <string name="keywords_shade_split_ratio">Bereich, Aufteilung, Verhältnis, Benachrichtigungen, Schnelleinstellungen, Grenze</string>
 </resources>

@@ -26,11 +26,14 @@ import android.platform.test.flag.junit.SetFlagsRule
 import android.provider.Settings
 import androidx.fragment.app.testing.FragmentScenario
 import androidx.fragment.app.testing.launchFragmentInContainer
+import androidx.preference.Preference
 import com.android.settings.R
 import com.android.settings.system.ShadePanelsFragment.Companion.KEY_DUAL_SHADE_PREFERENCE
 import com.android.settings.system.ShadePanelsFragment.Companion.KEY_SINGLE_SHADE_PREFERENCE
 import com.android.settingslib.preference.PreferenceFragment
 import com.android.settingslib.widget.SelectorWithWidgetPreference
+import com.android.settingslib.widget.SliderPreference
+import com.android.settingslib.widget.UntitledPreferenceCategory
 import com.android.systemui.Flags
 import com.google.common.truth.Truth.assertThat
 import org.junit.Before
@@ -120,6 +123,57 @@ class ShadePanelsFragmentTest {
 
         assertThat(allKeys).isNotEmpty()
         assertThat(nonIndexableKeys).isEmpty()
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_SCENE_CONTAINER)
+    fun splitRatioSlider_dualShade_persistsPercentage() {
+        Settings.System.putInt(
+            context.contentResolver,
+            Settings.System.STATUS_BAR_SHADE_SPLIT_PERCENTAGE,
+            40,
+        )
+        launchFragment(dualShadeEnabled = true)
+        fragmentScenario.onFragment { fragment ->
+            val slider =
+                fragment.preferenceScreen.findPreference<SliderPreference>(
+                    Settings.System.STATUS_BAR_SHADE_SPLIT_PERCENTAGE
+                )
+            checkNotNull(slider)
+            assertThat(slider.value).isEqualTo(40)
+            // Slider and suggestion card must be separate sections so both keep rounded corners.
+            val suggestions =
+                fragment.preferenceScreen.findPreference<Preference>(
+                    ShadePanelsSuggestionsController.KEY_SUGGESTIONS
+                )
+            assertThat(slider.parent).isInstanceOf(UntitledPreferenceCategory::class.java)
+            assertThat(suggestions!!.parent).isInstanceOf(UntitledPreferenceCategory::class.java)
+            assertThat(slider.parent).isNotSameInstanceAs(suggestions.parent)
+
+            assertThat(slider.callChangeListener(70)).isTrue()
+            assertThat(
+                    Settings.System.getInt(
+                        context.contentResolver,
+                        Settings.System.STATUS_BAR_SHADE_SPLIT_PERCENTAGE,
+                        -1,
+                    )
+                )
+                .isEqualTo(70)
+            assertThat(slider.summary.toString()).contains("70")
+        }
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_SCENE_CONTAINER)
+    fun splitRatioSlider_singleShade_isHidden() {
+        launchFragment(dualShadeEnabled = false)
+        fragmentScenario.onFragment { fragment ->
+            val slider =
+                fragment.preferenceScreen.findPreference<SliderPreference>(
+                    Settings.System.STATUS_BAR_SHADE_SPLIT_PERCENTAGE
+                )
+            assertThat(slider).isNull()
+        }
     }
 
     @Test
