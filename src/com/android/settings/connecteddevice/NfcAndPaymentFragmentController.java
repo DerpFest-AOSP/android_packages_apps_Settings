@@ -30,7 +30,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
-import com.android.settingslib.core.lifecycle.events.OnResume;
+import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
 
 /**
@@ -38,13 +38,12 @@ import com.android.settingslib.core.lifecycle.events.OnStop;
  */
 // LINT.IfChange
 public class NfcAndPaymentFragmentController extends BasePreferenceController
-        implements LifecycleObserver, OnResume, OnStop {
+        implements LifecycleObserver, OnStart, OnStop {
     private final NfcAdapter mNfcAdapter;
     private final PackageManager mPackageManager;
     private final UserManager mUserManager;
     private final IntentFilter mIntentFilter;
     private Preference mPreference;
-    private boolean mReceiverRegistered = false;
 
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
@@ -100,23 +99,21 @@ public class NfcAndPaymentFragmentController extends BasePreferenceController
     }
 
     @Override
-    public void onStop() {
-        if (!isNfcAvailable() || !mReceiverRegistered) {
-            return;
-        }
-
-        mContext.unregisterReceiver(mReceiver);
-        mReceiverRegistered = false;
-    }
-
-    @Override
-    public void onResume() {
-        if (!isNfcAvailable() || mReceiverRegistered) {
+    public void onStart() {
+        if (!isNfcAvailable()) {
             return;
         }
 
         mContext.registerReceiver(mReceiver, mIntentFilter);
-        mReceiverRegistered = true;
+    }
+
+    @Override
+    public void onStop() {
+        if (!isNfcAvailable()) {
+            return;
+        }
+
+        mContext.unregisterReceiver(mReceiver);
     }
 
     private boolean isNfcAvailable() {

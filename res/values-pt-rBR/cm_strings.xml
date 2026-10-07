@@ -50,6 +50,7 @@
 
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
     <string name="show_dev_on_cm">Você ativou as configurações de desenvolvedor!</string>
+    <string name="show_dev_already_cm">Não é necessário, você já ativou as configurações de desenvolvedor.</string>
 
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Toque para desligar a tela</string>
