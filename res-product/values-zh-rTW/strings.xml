@@ -583,6 +583,7 @@
     <string name="no_5g_in_dsds_text" product="desktop" msgid="2081735896122371350">"使用 2 張 SIM 卡時，這部裝置只能連線到 4G 網路。"<annotation id="url">"瞭解詳情"</annotation></string>
     <string name="reset_internet_text" product="default" msgid="8672305377652449075">"通話將因此結束"</string>
     <string name="reset_internet_text" product="tablet" msgid="8672305377652449075">"通話將因此結束"</string>
+    <string name="unified_battery_saver_page_intro">節省電力，讓手機在兩次充電之間使用更久</string>
     <string name="lockpassword_confirm_your_pattern_details_frp" product="default" msgid="8795084788352126815">"你的手機已恢復原廠設定。如要使用這支手機，請畫出先前使用的解鎖圖案。"</string>
     <string name="lockpassword_confirm_your_pattern_details_frp" product="tablet" msgid="1816846183732787701">"平板電腦已恢復原廠設定。如要使用這台平板電腦，請畫出先前使用的解鎖圖案。"</string>
     <string name="lockpassword_confirm_your_pattern_details_frp" product="device" msgid="7897925268003690167">"裝置已恢復原廠設定。如要使用這部裝置，請畫出先前使用的解鎖圖案。"</string>

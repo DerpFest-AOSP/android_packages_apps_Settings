@@ -5200,6 +5200,7 @@
     <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"切換應用程式相容性變更"</string>
     <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"預設啟用的應用程式有相容性異動"</string>
     <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"預設停用的應用程式有相容性異動"</string>
+    <string name="platform_compat_target_sdk_title">targetSdkVersion &gt;= <xliff:g id="number" example="29">%d</xliff:g> 時啟用</string>
     <string name="platform_compat_dialog_text_no_apps" msgid="5715226015751055812">"你只能修改可偵錯應用程式的應用程式相容性變更。請安裝可進行偵錯的應用程式，然後再試一次。"</string>
     <string name="disabled_dependent_setting_summary" msgid="4508635725315852504">"必須一併變更其他設定"</string>
     <string name="my_device_info_account_preference_title" msgid="9197139254007133175">"帳戶"</string>
@@ -5823,6 +5824,7 @@
     <string name="background_install_before" msgid="8608614957688912715">"{count,plural, =1{過去 # 個月內安裝的應用程式}other{過去 # 個月內安裝的應用程式}}"</string>
     <string name="background_install_after" msgid="7983488897570908149">"{count,plural, =1{超過 # 個月前安裝的應用程式}other{超過 # 個月前安裝的應用程式}}"</string>
     <string name="ai_assist_category" msgid="6115635022788919643">"螢幕存取權"</string>
+    <string name="personal_context_title">個人情境管理員</string>
     <string name="personal_context_switch_summary" msgid="1766362196303258988">"允許存取這個應用程式的畫面內容，以主動提供協助"</string>
     <string name="aspect_ratio_title" msgid="2451826875939676101">"顯示比例"</string>
     <string name="aspect_ratio_summary" msgid="4056406351663726494">"如果這個應用程式不適合用 <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 的預設比例顯示，請嘗試新比例"</string>

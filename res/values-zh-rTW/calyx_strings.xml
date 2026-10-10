@@ -82,5 +82,6 @@
     <string name="work_hours_end_on_summary">每天在 <xliff:g id="end_time">%1$s</xliff:g> 顯示關閉工作資料夾的通知</string>
     <string name="work_hours_end_off_summary">顯示每日通知以關閉工作資料夾</string>
     <string name="work_hours_end_notification_title">工作日結束</string>
+    <string name="private_space_separate_vpn_text"><b>應用程式不會使用您現有的 VPN</b>\n若要讓私人空間中的應用程式使用 VPN，也必須在該空間中設定 VPN。您也可以開啟全域 VPN。</string>
     <string name="private_space_hide_apps_summary_calyx">將私人應用程式隱藏或鎖定於獨立的空間。</string>
 </resources>
