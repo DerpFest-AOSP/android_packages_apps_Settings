@@ -145,15 +145,14 @@ public class WifiHotspotSpeedViewModelTest {
     @Test
     @UiThreadTest
     @EnableFlags(FLAG_ENABLE_2_AND_6_GHZ_HOTSPOT_SPEED)
-    public void on6gAvailableChanged_flagEnabledDualBandAnd6gAvailable_showDualBand() {
+    public void on6gAvailableChanged_flagEnabledDualBandAnd6gAvailable_showSingleBand() {
         when(mWifiHotspotRepository.isDualBand()).thenReturn(true);
 
         mViewModel.on6gAvailableChanged(true);
 
         verify(mSpeedInfoMapData).setValue(mViewModel.mSpeedInfoMap);
-        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_2GHZ_6GHZ).mIsVisible).isTrue();
-        // The single 6G option is disabled when dual band is shown
-        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_6GHZ).mIsVisible).isFalse();
+        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_2GHZ_6GHZ).mIsVisible).isFalse();
+        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_6GHZ).mIsVisible).isTrue();
     }
 
     @Test
@@ -194,6 +193,17 @@ public class WifiHotspotSpeedViewModelTest {
         verify(mSpeedInfoMapData).setValue(mViewModel.mSpeedInfoMap);
         assertThat(mViewModel.mSpeedInfoMap.containsKey(SPEED_2GHZ_6GHZ)).isFalse();
         assertThat(mViewModel.mSpeedInfoMap.get(SPEED_6GHZ).mIsVisible).isTrue();
+    }
+
+    @Test
+    @UiThreadTest
+    public void on6gAvailableChanged_bandUnsupported_hide6gOption() {
+        when(mWifiHotspotRepository.is6GHzBandSupported()).thenReturn(false);
+
+        mViewModel.on6gAvailableChanged(false);
+
+        assertThat(mViewModel.mSpeedInfo6g.mIsVisible).isFalse();
+        assertThat(mViewModel.mSpeedInfo2g6g.mIsVisible).isFalse();
     }
 
     @Test
@@ -250,15 +260,15 @@ public class WifiHotspotSpeedViewModelTest {
 
     @Test
     @UiThreadTest
-    public void on5gAvailableChanged_inDualBandAnd5gAvailable_setLiveDataToShowDualBand() {
+    public void on5gAvailableChanged_inDualBandAnd5gAvailable_setLiveDataToShowSingleBand() {
         when(mWifiHotspotRepository.isDualBand()).thenReturn(true);
 
         mViewModel.on5gAvailableChanged(true);
 
         verify(mSpeedInfoMapData).setValue(mViewModel.mSpeedInfoMap);
-        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_2GHZ).mIsVisible).isFalse();
-        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_5GHZ).mIsVisible).isFalse();
-        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_2GHZ_5GHZ).mIsVisible).isTrue();
+        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_2GHZ).mIsVisible).isTrue();
+        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_5GHZ).mIsVisible).isTrue();
+        assertThat(mViewModel.mSpeedInfoMap.get(SPEED_2GHZ_5GHZ).mIsVisible).isFalse();
     }
 
     @Test

@@ -56,11 +56,11 @@ public class WifiHotspotSpeedViewModel extends AndroidViewModel {
     protected final WifiHotspotRepository mWifiHotspotRepository;
     protected Map<Integer, SpeedInfo> mSpeedInfoMap = new HashMap<>();
     protected MutableLiveData<Map<Integer, SpeedInfo>> mSpeedInfoMapData;
-    protected SpeedInfo mSpeedInfo2g = new SpeedInfo(false, true, false);
-    protected SpeedInfo mSpeedInfo5g = new SpeedInfo(false, true, false);
-    protected SpeedInfo mSpeedInfo2g5g = new SpeedInfo(false, true, true);
+    protected SpeedInfo mSpeedInfo2g = new SpeedInfo(false, true, true);
+    protected SpeedInfo mSpeedInfo5g = new SpeedInfo(false, true, true);
+    protected SpeedInfo mSpeedInfo2g5g = new SpeedInfo(false, true, false);
     protected SpeedInfo mSpeedInfo6g = new SpeedInfo(false, true, true);
-    protected SpeedInfo mSpeedInfo2g6g = new SpeedInfo(false, true, true);
+    protected SpeedInfo mSpeedInfo2g6g = new SpeedInfo(false, true, false);
 
     protected final Observer<Boolean> m6gAvailableObserver = a -> on6gAvailableChanged(a);
     protected final Observer<Boolean> m5gAvailableObserver = a -> on5gAvailableChanged(a);
@@ -74,7 +74,7 @@ public class WifiHotspotSpeedViewModel extends AndroidViewModel {
         mWifiHotspotRepository.get5gAvailable().observeForever(m5gAvailableObserver);
         mWifiHotspotRepository.getSpeedType().observeForever(mSpeedTypeObserver);
 
-        // The visibility of the 6 GHz speed option will not change on a Pixel device.
+        // Show individual bands regardless of bridged AP concurrency support.
         mSpeedInfo6g.mIsVisible = mWifiHotspotRepository.is6GHzBandSupported();
     }
 
@@ -91,12 +91,8 @@ public class WifiHotspotSpeedViewModel extends AndroidViewModel {
         mSpeedInfo6g.mSummary = getApplication()
                 .getString(available ? RES_SPEED_6G_SUMMARY : RES_SUMMARY_UNAVAILABLE);
 
-        boolean showDualBand = mWifiHotspotRepository.isDualBand()
-                && available
-                && Flags.enable2And6GhzHotspotSpeed();
-        log("on6gAvailableChanged(), showDualBand:" + showDualBand);
-        mSpeedInfo2g6g.mIsVisible = showDualBand;
-        mSpeedInfo6g.mIsVisible = !showDualBand;
+        mSpeedInfo2g6g.mIsVisible = false;
+        mSpeedInfo6g.mIsVisible = mWifiHotspotRepository.is6GHzBandSupported();
         updateSpeedInfoMapData();
     }
 
@@ -106,11 +102,9 @@ public class WifiHotspotSpeedViewModel extends AndroidViewModel {
         mSpeedInfo5g.mSummary = getApplication()
                 .getString(available ? RES_SPEED_5G_SUMMARY : RES_SUMMARY_UNAVAILABLE);
 
-        boolean showDualBand = mWifiHotspotRepository.isDualBand() && available;
-        log("on5gAvailableChanged(), showDualBand:" + showDualBand);
-        mSpeedInfo2g5g.mIsVisible = showDualBand;
-        mSpeedInfo2g.mIsVisible = !showDualBand;
-        mSpeedInfo5g.mIsVisible = !showDualBand;
+        mSpeedInfo2g5g.mIsVisible = false;
+        mSpeedInfo2g.mIsVisible = true;
+        mSpeedInfo5g.mIsVisible = true;
         updateSpeedInfoMapData();
     }
 
