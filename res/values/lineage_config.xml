@@ -32,6 +32,9 @@
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">false</bool>
 
+    <!-- Divides the reported battery voltage before displaying it. -->
+    <integer name="config_battery_voltage_divider">1</integer>
+
     <!-- Battery Info: mAh divider
          Some devices with prebuilt kernels report battery capacity in different units.
          This value is used to convert from microampere-hours (uAh) to milliampere-hours (mAh).
