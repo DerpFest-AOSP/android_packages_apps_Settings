@@ -209,6 +209,9 @@
     <string name="doze_on_charge_summary">充電時永遠顯示時間與資訊</string>
     <string name="doze_on_charge_category">充電選項</string>
 
+    <string name="factory_reset_battery_low_dialog_title">低電量</string>
+    <string name="factory_reset_battery_low_dialog_message">電量至少須達 15%，才能復原原廠設定。\n\n請連接充電器以繼續。</string>
+    <string name="factory_reset_battery_low_dialog_button_text">知道了</string>
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux 狀態</string>
     <string name="selinux_status_disabled">已停用</string>
@@ -264,6 +267,39 @@
     <string name="derpfest_customizations_summary">存放故障與實驗性功能的區域</string>
     <string name="menu_key_derpfest">top_level_derpfest_customizations</string>
 
+    <string name="scroll_fling_haptic_feedback_title">快速滑動捲動時震動</string>
+    <string name="scroll_fling_haptic_feedback_summary">快速滑動捲動至邊緣時震動</string>
+    <string name="advanced_vpn_preference_group_title">內建</string>
+    <string name="vpn_preference_group_title">其他</string>
+    <string name="wifi_qr_code_animation_control">暫停動畫</string>
+    <string name="app_lock_settings_title">應用程式鎖</string>
+    <string name="app_lock_settings_summary">快速鎖定應用程式，防止未經授權的存取</string>
+    <string name="app_lock_customization_category">自訂</string>
+    <string name="app_lock_apps_category">已鎖定的應用程式</string>
+    <string name="app_lock_auto_biometric_prompt_title">自動顯示生物辨識提示</string>
+    <string name="app_lock_auto_biometric_prompt_summary">開啟已鎖定的應用程式時，立即顯示解鎖提示</string>
+    <string name="app_lock_relock_behavior_title">重新鎖定時機</string>
+    <string name="app_lock_relock_behavior_after_timeout">逾時後</string>
+    <string name="app_lock_relock_behavior_screen_off">螢幕關閉時</string>
+    <string name="app_lock_grace_period_title">重新鎖定等待時間</string>
+    <string name="app_lock_grace_period_immediately">立即</string>
+    <string name="app_lock_grace_period_5_seconds">5 秒</string>
+    <string name="app_lock_grace_period_15_seconds">15 秒</string>
+    <string name="app_lock_grace_period_30_seconds">30 秒</string>
+    <string name="app_lock_grace_period_1_minute">1 分鐘</string>
+    <string name="app_lock_grace_period_5_minutes">5 分鐘</string>
+    <string name="app_lock_separate_credential_title">應用程式鎖的解鎖方式</string>
+    <string name="app_lock_separate_credential_none">裝置解鎖方式（預設）</string>
+    <string name="app_lock_separate_credential_pin">獨立 PIN 碼</string>
+    <string name="app_lock_separate_credential_pattern">獨立圖案</string>
+    <string name="app_lock_credential_set_pin">設定獨立 PIN 碼</string>
+    <string name="app_lock_credential_set_pattern">設定獨立圖案</string>
+    <string name="app_lock_credential_remove">使用裝置解鎖方式</string>
+    <string name="app_lock_no_lockable_apps">沒有支援應用程式鎖的應用程式</string>
+    <plurals name="app_lock_summary_count">
+        <item quantity="one">已鎖定 1 個應用程式</item>
+        <item quantity="other">已鎖定 <xliff:g id="count" example="3">%d</xliff:g> 個應用程式</item>
+    </plurals>
     <!-- IME button space -->
     <string name="show_ime_space_title">顯示輸入法按鈕空間</string>
     <string name="show_ime_space_summary">啟用輸入法快速切換功能，以便在輸入時從螢幕底部的功能列切換輸入法或隱藏螢幕鍵盤</string>
@@ -298,11 +334,16 @@
     <string name="button_settings_title">按鍵設定</string>
     <string name="gamespace_title">遊戲空間 (GameSpace)</string>
 
+    <string name="derpfest_suggestion_welcome_title">歡迎使用 DerpFest</string>
+    <string name="derpfest_suggestion_welcome_summary">探索全新的 ROM，打造專屬體驗</string>
+    <string name="derpfest_suggestion_gamespace_title">遊戲空間 (GameSpace)</string>
     <!-- DerpFest suggestion summaries for homepage suggestion card [CHAR LIMIT=55] -->
     <string name="derpfest_suggestion_gamespace_summary">最佳化您的遊戲體驗</string>
     <string name="derpfest_suggestion_customizations_title">DerpFest 自訂設定</string>
     <string name="derpfest_suggestion_customizations_summary">自訂您的裝置外觀與行為</string>
+    <string name="derpfest_suggestion_spoofing_title">偽裝設定</string>
     <string name="derpfest_suggestion_spoofing_summary">管理裝置指紋與屬性</string>
+    <string name="derpfest_suggestion_button_settings_title">按鍵設定</string>
     <string name="derpfest_suggestion_button_settings_summary">設定硬體按鍵動作</string>
 
     <!-- Smart 5G -->
@@ -366,6 +407,8 @@
     <string name="app_volume_title">個別應用程式音量控制</string>
     <string name="app_volume_summary">在音量對話框中顯示個別應用程式的音量按鈕</string>
 
+    <string name="multi_audio_focus_title">多重音訊焦點</string>
+    <string name="multi_audio_focus_summary">允許多個應用程式同時播放音訊</string>
     <!-- Per-app configs -->
     <string name="per_app_config_empty_text">無已安裝應用程式支援目前設定</string>
 
@@ -382,6 +425,25 @@
     <string name="battery_saver_refresh_rate_summary">當省電模式開啟時，使用 60 Hz 螢幕更新率以節省電力</string>
     <string name="battery_saver_refresh_rate_disabled_summary">極致更新率已開啟</string>
 
+    <string name="adaptive_battery_entry_purpose">可開啟或關閉智慧電池功能。這項功能會根據手機使用習慣最佳化應用程式的耗電情形，延長電池續航力。</string>
+    <string name="adaptive_battery_management_enabled_purpose">是否啟用智慧電池功能，依應用程式使用習慣最佳化耗電情形。</string>
+    <string name="adaptive_battery_switch_title">使用智慧電池</string>
+    <string name="basic_battery_saver_title">標準省電模式</string>
+    <string name="basic_battery_saver_summary">限制視覺效果和背景活動，並開啟深色主題（如尚未開啟）。</string>
+    <string name="basic_battery_saver_purpose">啟用標準省電模式，限制視覺效果和背景活動</string>
+    <string name="battery_saver_reminder_category">提醒</string>
+    <string name="battery_saver_reminder_switch_title">省電模式提醒</string>
+    <string name="battery_saver_reminder_switch_summary">電量低時接收提醒</string>
+    <string name="battery_saver_schedule_category">排程</string>
+    <string name="battery_saver_schedule_switch_title">根據電量自動開啟</string>
+    <string name="battery_saver_schedule_switch_summary">電量降至指定程度時，自動開啟省電模式</string>
+    <string name="battery_saver_schedule_purpose">可設定省電模式排程，包括依電量百分比自動開啟、充電後自動關閉，以及管理低電量通知提醒。</string>
+    <string name="battery_schedule_title">排程和提醒</string>
+    <string name="battery_schedule_summary">管理省電模式的開啟時機</string>
+    <string name="extreme_battery_saver_title">超級省電模式</string>
+    <string name="extreme_battery_saver_summary">包含上述所有變更，並暫停非必要應用程式及其通知。</string>
+    <string name="extreme_battery_saver_purpose">啟用超級省電模式，暫停非必要應用程式及其通知</string>
+    <string name="low_power_mode_reminder_enabled_purpose">是否在電量低時接收通知提醒</string>
     <!-- Extreme refresh rate -->
     <string name="extreme_refresh_rate_title">極致更新率</string>
     <string name="extreme_refresh_rate_summary">強制所有應用程式使用最高更新率</string>
@@ -389,4 +451,53 @@
 
     <!-- Confirm dialog -->
     <string name="confirm_before_enable_title">確定要啟用嗎？</string>
+    <string name="clear_calling_footer">為保護你的隱私，清晰通話功能絕不會將音訊或對話傳送給 Google。清晰通話功能是否可用，取決於 Wi-Fi 和行動網路狀況。</string>
+    <string name="clear_calling_title">清晰通話</string>
+    <string name="clear_calling_toggle">使用清晰通話</string>
+    <string name="clear_calling_topintro">減少通話時的背景噪音</string>
+    <string name="doze_additional_settings_title">其他設定</string>
+    <string name="doze_additional_settings_summary">自訂裝置專屬的主動式螢幕設定</string>
+    <string name="doze_sensor_title">感應器觸發</string>
+    <string name="tilt_title">傾斜</string>
+    <string name="tilt_summary">傾斜裝置時短暫顯示通知</string>
+    <string name="pickup_title">拿起</string>
+    <string name="pickup_summary">拿起裝置時短暫顯示通知</string>
+    <string name="handwave_title">揮手</string>
+    <string name="handwave_summary">揮手時短暫顯示通知</string>
+    <string name="pocket_title">口袋</string>
+    <string name="pocket_summary">從口袋取出裝置時短暫顯示通知</string>
+    <string name="raise_to_wake_title">喚醒螢幕</string>
+    <string name="raise_to_wake_summary">喚醒裝置，取代短暫顯示通知</string>
+    <string name="doze_vibrate">震動</string>
+    <string name="doze_vibrate_summary">短暫顯示通知時的震動時間</string>
+    <string name="caution">注意</string>
+    <string name="sensor_warning_message">感應器相關設定取決於硬體相容性。啟用主動式螢幕的感應器功能可能增加耗電量。</string>
+    <string name="color_mode_balance_red">紅色強度</string>
+    <string name="color_mode_balance_green">綠色強度</string>
+    <string name="color_mode_balance_blue">藍色強度</string>
+    <string name="keywords_color_balance">色彩, 色彩平衡, 色彩校正, 紅色, 綠色, 藍色, LiveDisplay</string>
+    <string name="color_mode_advanced_category">進階控制</string>
+    <string name="color_temperature_title">色溫</string>
+    <string name="color_temperature_start_label">暖色</string>
+    <string name="color_temperature_end_label">冷色</string>
+    <string name="color_saturation_title">飽和度</string>
+    <string name="keywords_color_saturation">色彩, 色溫, 暖色, 冷色, LiveDisplay</string>
+    <string name="color_hue_title">色相</string>
+    <string name="color_contrast_title">對比度</string>
+    <string name="color_picture_brightness_title">畫面亮度</string>
+    <string name="display_engine_category">顯示引擎</string>
+    <string name="display_engine_mode_title">真實影像顯示引擎</string>
+    <string name="x_reality_engine_mode_title">X-Reality 引擎</string>
+    <string name="vivid_engine_mode_title">鮮明顯示</string>
+    <string name="triluminous_engine_mode_title">Triluminous 顯示</string>
+    <string name="display_engine_default">預設</string>
+    <string name="display_engine_mode_footer_text">顯示引擎的設計靈感來自 Sony 的 Bravia/X-Reality 引擎。鮮明模式可提升亮度與色彩飽和度，X-Reality 模式可改善細節與色彩準確度，Triluminous 模式則可呈現更廣的色域。</string>
+    <string name="accessibility_slider_haptics_category_title">滑桿</string>
+    <string name="accessibility_brightness_slider_haptic_title">亮度滑桿觸覺回饋</string>
+    <string name="accessibility_volume_dialog_haptic_title">音量滑桿觸覺回饋</string>
+    <string name="status_bar_shade_split_percentage_title">通知與快速設定分界比例</string>
+    <string name="status_bar_shade_split_percentage_summary">通知 %1$d%% · 快速設定 %2$d%%</string>
+    <string name="status_bar_shade_split_more_quick_settings">增加快速設定區域</string>
+    <string name="status_bar_shade_split_more_notifications">增加通知區域</string>
+    <string name="keywords_shade_split_ratio">下拉面板, 分界, 比例, 通知, 快速設定, 邊界</string>
 </resources>

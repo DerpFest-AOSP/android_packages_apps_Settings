@@ -45,7 +45,6 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import com.android.settings.R;
-import com.android.settings.flags.Flags;
 import com.android.settings.overlay.FeatureFactory;
 
 import java.util.List;
@@ -261,11 +260,8 @@ public class WifiHotspotRepository {
     }
 
     /**
-     * Get the intended speed type of a SoftApConfiguration, taking into account the currently
-     * available channels and dual band capabilities.
-     *
-     * Single-band configurations may be upgraded to DBS by the framework if available.
-     * (see config_wifiSoftapUpgradeTetheredTo2g5gBridgedIfBandsAreSubset).
+     * Get the highest supported band requested by a SoftApConfiguration. Legacy configurations
+     * with multiple bands retain their preferred band until the user selects a single band.
      */
     private int getSpeedTypeOfConfiguration(@NonNull SoftApConfiguration config) {
         boolean specifies2ghz = false;
@@ -284,20 +280,16 @@ public class WifiHotspotRepository {
                 + ", specifies6ghz=" + specifies6ghz
         );
 
-        // Check configured bands in order of compatibility.
+        // Check configured bands from highest to lowest frequency.
         if (specifies6ghz && is6gAvailable()) {
-            if (isDualBand() && Flags.enable2And6GhzHotspotSpeed()) return SPEED_2GHZ_6GHZ;
             return SPEED_6GHZ;
         }
 
         if (specifies5ghz && is5gAvailable()) {
-            if (isDualBand()) return SPEED_2GHZ_5GHZ;
             return SPEED_5GHZ;
         }
 
         if (specifies2ghz) { // Assume 2 GHz is always available
-            // Upgrade to 2 + 5 GHz if available
-            if (isDualBand() && is5gAvailable()) return SPEED_2GHZ_5GHZ;
             return SPEED_2GHZ;
         }
 
@@ -339,11 +331,6 @@ public class WifiHotspotRepository {
         if (mSpeedType == null) {
             getSpeedType();
         }
-        if (speedType == mSpeedType.getValue()) {
-            Log.w(TAG, "setSpeedType() is no changed! mSpeedType:" + mSpeedType.getValue());
-            return;
-        }
-
         SoftApConfiguration config = mWifiManager.getSoftApConfiguration();
         if (config == null) {
             mSpeedType.setValue(SPEED_UNKNOWN);
@@ -356,15 +343,15 @@ public class WifiHotspotRepository {
         switch (speedType) {
             case SPEED_2GHZ:
                 log("setSpeedType(), setBand(BAND_2GHZ)");
-                configBuilder.setBand(BAND_2GHZ);
+                configBuilder.setBand(BAND_2GHZ).setBandOptimizationEnabled(false);
                 break;
             case SPEED_5GHZ:
-                log("setSpeedType(), setBand(BAND_2GHZ_5GHZ)");
-                configBuilder.setBand(BAND_2GHZ_5GHZ);
+                log("setSpeedType(), setBand(BAND_5GHZ)");
+                configBuilder.setBand(BAND_5GHZ).setBandOptimizationEnabled(false);
                 break;
             case SPEED_6GHZ:
-                log("setSpeedType(), setBand(BAND_2GHZ_5GHZ_6GHZ)");
-                configBuilder.setBand(BAND_2GHZ_5GHZ_6GHZ);
+                log("setSpeedType(), setBand(BAND_6GHZ)");
+                configBuilder.setBand(BAND_6GHZ).setBandOptimizationEnabled(false);
                 newSpeedHas6g = true;
                 break;
             case SPEED_2GHZ_5GHZ:
@@ -398,7 +385,14 @@ public class WifiHotspotRepository {
             }
         }
 
-        setSoftApConfiguration(configBuilder.build());
+        // Compare the actual configuration so reselecting a legacy preference removes fallback
+        // bands and disables the framework's automatic band expansion.
+        SoftApConfiguration newConfig = configBuilder.build();
+        if (newConfig.equals(config)) {
+            log("setSpeedType(), configuration unchanged");
+            return;
+        }
+        setSoftApConfiguration(newConfig);
     }
 
     /**

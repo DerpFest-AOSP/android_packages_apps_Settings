@@ -49,7 +49,9 @@ public class BatteryVoltagePreferenceController extends BasePreferenceController
         final int voltageMillivolts = batteryIntent.getIntExtra(BatteryManager.EXTRA_VOLTAGE, -1);
 
         if (voltageMillivolts > 0) {
-            float voltage = voltageMillivolts / 1_000f;
+            final int voltageDivider = Math.max(
+                    mContext.getResources().getInteger(R.integer.config_battery_voltage_divider), 1);
+            float voltage = voltageMillivolts / (1_000f * voltageDivider);
 
             return MeasureFormat.getInstance(Locale.getDefault(), MeasureFormat.FormatWidth.SHORT)
                     .format(new Measure(voltage, MeasureUnit.VOLT));

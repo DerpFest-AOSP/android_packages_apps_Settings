@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="installed_app_detail_settings_screen_purpose">提供指定已安裝應用程式的詳細資訊與管理選項，包括權限、儲存空間、通知及狀態。</string>
+    <string name="installed_app_detail_unused_apps_switch_purpose">啟用後，若長時間未使用應用程式，系統將移除其權限、刪除暫存檔案、停止通知並封存該應用程式。</string>
+    <string name="installed_app_detail_manage_app_unused_precondition_disabled_globally">裝置目前已停用「管理未使用的應用程式」功能。</string>
+    <string name="installed_app_detail_manage_app_unused_precondition_archived_app">已封存的應用程式無法以未使用的應用程式管理。</string>
+    <string name="installed_app_detail_manage_app_unused_precondition_exempt_app">這是重要的系統應用程式，不適用「管理未使用的應用程式」功能。</string>
+    <string name="installed_app_detail_manage_app_unused_precondition_null_app">在裝置上找不到指定的應用程式。</string>
+    <string name="non_carrier_app_data_usage_screen_purpose">顯示應用程式透過行動數據與 Wi-Fi 連線使用的資料量</string>
+</resources>

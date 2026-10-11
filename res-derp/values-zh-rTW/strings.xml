@@ -22,4 +22,10 @@
     <string name="top_level_personalize">個人化</string>
     <string name="top_level_system">系統</string>
     <string name="top_level_info">資訊</string>
+    <string name="wellbeing_title">數位健康與家長監護</string>
+    <string name="wellbeing_summary">螢幕使用時間、應用程式計時器、就寢排程</string>
+    <string name="window_blurs">允許視窗層級模糊處理</string>
+    <string name="blur_intensity_title">模糊強度</string>
+    <string name="blur_settings_summary_on">已開啟（%1$d%%）</string>
+    <string name="blur_settings_summary_off">已關閉</string>
 </resources>
