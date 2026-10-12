@@ -7,11 +7,4 @@
 
     <color name="derpfest_icon_background">@android:color/system_neutral2_700</color>
 
-    <!-- Dark theme: white at 20% opacity, matching the Edit pill. -->
-    <color name="about_header_maintainer_chip">#33FFFFFF</color>
-    <color name="about_header_maintainer_chip_text">#FFFFFFFF</color>
-    <color name="about_header_scrim_start">#33000000</color>
-    <color name="about_header_scrim_center">#14000000</color>
-    <color name="about_header_scrim_end">#24000000</color>
-
 </resources>

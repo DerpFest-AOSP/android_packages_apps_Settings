@@ -10,12 +10,17 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
+import android.graphics.RenderEffect;
+import android.graphics.Shader;
 import android.graphics.drawable.BitmapDrawable;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.text.TextUtils;
 import android.util.Log;
+import android.util.TypedValue;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -134,6 +139,7 @@ public class DerpFestHeaderPreferenceController extends BasePreferenceController
             return;
         }
         wallpaper.setImageDrawable(source.drawable);
+        applyWallpaperBlur(wallpaper, source.drawable != null);
         if (source.captureLiveFrame) {
             startLiveCapture(generation);
         }
@@ -171,6 +177,7 @@ public class DerpFestHeaderPreferenceController extends BasePreferenceController
             ImageView wallpaper = wallpaperView();
             if (wallpaper != null) {
                 wallpaper.setImageDrawable(new BitmapDrawable(mContext.getResources(), bitmap));
+                applyWallpaperBlur(wallpaper, true);
             } else {
                 bitmap.recycle();
             }
@@ -182,6 +189,22 @@ public class DerpFestHeaderPreferenceController extends BasePreferenceController
         } else {
             closeWallpaperLayer();
         }
+    }
+
+    private void applyWallpaperBlur(ImageView wallpaper, boolean enabled) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) {
+            return;
+        }
+        if (!enabled) {
+            wallpaper.setRenderEffect(null);
+            return;
+        }
+        boolean night = (mContext.getResources().getConfiguration().uiMode
+                & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+        float radius = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, night ? 8f : 14f,
+                mContext.getResources().getDisplayMetrics());
+        wallpaper.setRenderEffect(RenderEffect.createBlurEffect(
+                radius, radius, Shader.TileMode.CLAMP));
     }
 
     private ImageView wallpaperView() {
