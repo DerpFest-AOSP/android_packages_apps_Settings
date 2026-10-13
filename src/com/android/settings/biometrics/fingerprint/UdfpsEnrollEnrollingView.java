@@ -195,6 +195,9 @@ public class UdfpsEnrollEnrollingView extends GlifLayout {
 
     void setFocusOnDescription() {
         final ScrollView headerScrollView = findViewById(R.id.sud_header_scroll_view);
+        if (headerScrollView == null) {
+            return;
+        }
         final TextView descriptionView = getDescriptionTextView();
         if (descriptionView != null && !descriptionView.getText().isEmpty()) {
             descriptionView.post(
