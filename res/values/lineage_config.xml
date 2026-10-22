@@ -67,4 +67,8 @@
 
     <!-- Face enroll finish text -->
     <string name="security_settings_face_enroll_finish_description_with_bp">Now you can use your face to unlock your phone or verify it’s you, like when you sign in to apps or approve a purchase</string>
+
+    <!-- Whether the display size preference should allow separate DPI settings for each display
+         on foldables by having the display size slider only affect the default display. -->
+    <bool name="config_independent_display_dpi_setting">false</bool>
 </resources>
