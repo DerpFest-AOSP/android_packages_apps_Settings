@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">Toplam RAM</string>
+    <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
+    <string name="duration_less_than_one_minute">1 dakikadan az</string>
+    <string name="screen_time_summary_usage_today">bugün %1$s</string>
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
+    <string name="doze_gesture_ambient_title">Ortam ekranını göster</string>
+    <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
+    <string name="gesture_wake_ambient">Ortam ekranını göster</string>
+    <string name="gesture_wake">Tamamen uyan</string>
+    <string name="pulse_on_new_tracks_title">Müzik bilgisi</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses çıkar ve titre</string>
+    <string name="incall_vibration_category">Arama titreşimi</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
+    <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
+    <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yok saymaya zorla</string>
+    <string name="app_list_search">Ara</string>
+    <string name="app_list_search_apps">Uygulama ara</string>
+    <string name="app_list_loading">Uygulamalar yükleniyor\u2026</string>
+    <string name="wifi_hotspot_ap_band_title">Erişim Noktası Bant Adı</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Hotspot isminiz kullanılabilir WLAN ağları listesinde görünmeyecektir.</string>
+    <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_client_manager_summary">Hotspot\'a bağlı cihazları listeleyin ve yönetin</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Hotspot\'a bağlı cihazları listeleyin</string>
+    <string name="wifi_hotspot_client_limit_title">Bağlı cihaz sınırı</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Engellenen cihazlar</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Cihazı engelle</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Bu eylem \"<xliff:g id="device_name">%1$s</xliff:g>\" bu cihazla olan bağlantısını kesecek ve onu engellenenler listesine ekleyecektir</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Cihaz engelini kaldır</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot\'a bağlanabilecek</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+            <item quantity="other">Bu hotspot\'a en fazla <xliff:g id="device_num">%1$d</xliff:g> cihazlar bağlanabilir</item>
+            <item quantity="one">Bu hotspot\'a en fazla <xliff:g id="device_num">%1$d</xliff:g> cihaz bağlanabilir</item>
+        </plurals>
+    <string name="custom_timeout_summary_never">Asla</string>
+    <string name="custom_timeout_summary_5secs">5 saniye</string>
+    <string name="custom_timeout_summary_10secs">10 saniye</string>
+    <string name="custom_timeout_summary_15secs">15 saniye</string>
+    <string name="custom_timeout_summary_30secs">30 saniye</string>
+    <string name="custom_timeout_summary_1min">1 dakika</string>
+    <string name="custom_timeout_summary_2mins">2 dakika</string>
+    <string name="custom_timeout_summary_5mins">5 dakika</string>
+    <string name="custom_timeout_summary_10mins">10 dakika</string>
+    <string name="custom_timeout_summary_20mins">20 dakika</string>
+    <string name="custom_timeout_summary_30mins">30 dakika</string>
+    <string name="custom_timeout_summary_1hour">1 saat</string>
+    <string name="custom_timeout_summary_2hours">2 saat</string>
+    <string name="custom_timeout_summary_4hours">4 saat</string>
+    <string name="custom_timeout_summary_8hours">8 saat</string>
+    <string name="custom_timeout_summary_12hours">12 saat</string>
+    <string name="custom_timeout_summary_24hours">24 saat</string>
+    <string name="custom_timeout_summary_36hours">36 saat</string>
+    <string name="custom_timeout_summary_48hours">48 saat</string>
+    <string name="custom_timeout_summary_72hours">72 saat</string>
+    <string name="custom_timeout_summary_1hour_def">1 saat (varsayılan)</string>
+    <string name="doze_on_charge_title">Şarj olurken her zaman göster</string>
+    <string name="factory_reset_battery_low_dialog_title">Düşük pil</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
+    <string name="radio_info_title">Radyo bilgisi</string>
+    <string name="unit_milliseconds">milisaniye</string>
+    <string name="vibration_pattern_title">Zil sesi titreşim deseni</string>
+    <string name="pattern_custom">Özel</string>
+    <string name="custom_vibration_pattern_title">Özel model</string>
+    <string name="custom_vibration_pattern_summary">Özel bir titreşim modeli ayarlayın</string>
+    <string name="wifi_do_not_validate_eap_server">Doğrulama</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Sertifika belirtilmedi. Bağlantınız gizli olmayacak.</string>
+    <string name="back_gesture_arrow_title">Geri hareketi animasyonu</string>
+    <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
+    <string name="back_gesture_haptic_title">Dokunumsal geri bildirim</string>
+    <string name="back_gesture_haptic_summary">Geri hareketi gerçekleştirirken titret</string>
+    <string name="app_lock_settings_title">Uygulama kilidi</string>
+    <string name="app_lock_grace_period_5_seconds">5 saniye</string>
+    <string name="app_lock_grace_period_15_seconds">15 saniye</string>
+    <string name="app_lock_grace_period_30_seconds">30 saniye</string>
+    <string name="app_lock_grace_period_1_minute">1 dakika</string>
+    <string name="app_lock_grace_period_5_minutes">5 dakika</string>
+    <string name="show_ime_space_title">IME düğme alanını göster</string>
+    <string name="show_ime_space_summary">Giriş yöntemlerini değiştirmek için giriş yöntemi hızlı geçiş özelliğini etkinleştirin veya yazarken ekran klavyesini ekranın altındaki özellik çubuğundan gizleyin</string>
+    <string name="background_processes_settings_title">Arka plan işlemleri</string>
+    <string name="clear_search_query_description">Sorguyu temizle</string>
+    <string name="language_picker_page">Dil seçimi sayfası</string>
+    <string name="search_region">Bölgeleri ara</string>
+    <string name="search_region_page">Bölge arama sayfası</string>
+    <string name="always_on_display_schedule_sunset">Gün batımı</string>
+    <string name="always_on_display_schedule_sunrise">Gün doğumu</string>
+    <string name="always_on_display_schedule_mixed_sunset">Gün doğumuyla etkinleşir</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Gün batımına kadar etkinleşir</string>
+    <string name="disabled">Devre dışı</string>
+    <string name="pocket_judge_title">Cep algılama</string>
+    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
+    <string name="vpn_enforce_dns_title">VPN için devre dışı bırak</string>
+    <string name="billing_cycle_type_title">Mobil veri kullanım döngüsü türü</string>
+    <string name="billing_cycle_type_monthly">Aylık</string>
+    <string name="billing_cycle_type_weekly">Haftalık</string>
+    <string name="billing_cycle_type_daily">Günlük</string>
+    <string name="billing_cycle_less_than_one_hour_left">1 saatten az kaldı</string>
+    <string name="cycle_type_weekly_title">Kullanım döngüsü sıfırlama günü</string>
+    <string name="cycle_type_weekly_sub">Haftanın günü:\n1 = Pazartesi</string>
+    <string name="cycle_type_daily_title">Kullanım döngüsü sıfırlama saati</string>
+    <string name="cycle_type_daily_sub">Her gün şu saatte:</string>
+    <string name="app_volume">Uygulama ses düzeyi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Ses düzeyi iletişim kutusunda uygulama başına ses tuşlarını göster</string>
+    <string name="multi_audio_focus_title">Çoklu ses odağı</string>
+    <string name="multi_audio_focus_summary">Aynı anda birçok uygulamanın ses oynatmasına izin ver</string>
+    <string name="doze_additional_settings_title">Ek ayarlar</string>
+    <string name="doze_additional_settings_summary">Cihaza özel ortam ekranı ayarlarını özelleştirin</string>
+    <string name="doze_sensor_title">Sensör tabanlı</string>
+    <string name="tilt_title">Eğim</string>
+    <string name="tilt_summary">Eğim sensöründe bildirimleri göster</string>
+    <string name="pickup_title">Kaldır</string>
+    <string name="pickup_summary">Telefonu kaldırınca bildirimleri göster</string>
+    <string name="handwave_title">El sallama</string>
+    <string name="handwave_summary">El sallayınca bildirimleri göster</string>
+    <string name="pocket_title">Cep</string>
+    <string name="pocket_summary">Cepten çıkarıldığında bildirimleri göster</string>
+    <string name="raise_to_wake_title">Uyandır</string>
+    <string name="raise_to_wake_summary">Titreşimli bildirim yerine cihazı uyandırın</string>
+    <string name="doze_vibrate">Titreşim</string>
+    <string name="doze_vibrate_summary">Bildirimler gönderilirken titreşim süresi</string>
+    <string name="caution">Dikkat</string>
+    <string name="sensor_warning_message">Sensörlere bağlı ayarlar, donanım uyumluluğuna tabidir. Ortam göstergesi için sensörleri etkinleştirmek güç tüketimini artırabilir.</string>
+    <string name="display_engine_category">Görüntü motoru</string>
+    <string name="display_engine_mode_title">Gerçeklik görüntü motoru</string>
+    <string name="x_reality_engine_mode_title">X-Reality motoru</string>
+    <string name="vivid_engine_mode_title">Canlı ekran</string>
+    <string name="triluminous_engine_mode_title">Triluminos ekran</string>
+    <string name="display_engine_default">Varsayılan</string>
+    <string name="display_engine_mode_footer_text">Sony\'nin Bravia/X-Reality motorundan esinlenen Görüntü Motoru; zenginleştirilmiş parlaklık ve renk doygunluğu için Canlı modu, geliştirilmiş ayrıntı ve renk doğruluğu için X-Reality modunu, daha geniş renk aralığı için Triluminos modunu sunar.</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+            =1      {# saat kaldı}
+            other   {# saat kaldı}
+            }</string>
+</resources>

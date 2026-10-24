@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">Ümumi RAM</string>
+    <string name="notification_log_summary">Bildirişlərin tarixçə jurnalını göstər</string>
+    <string name="duration_less_than_one_minute">1 dəqiqədən az</string>
+    <string name="screen_time_summary_usage_today">Bu gün %1$s</string>
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="longpress_to_clipboard">Kopyalamaq üçün uzun basın</string>
+    <string name="pulse_on_new_tracks_title">Musiqi qeydi</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıq ikən Xəbərdarlıqlar üçün səs çıxar və ya titrə</string>
+    <string name="incall_vibration_category">Zəng Vibrasiyası</string>
+    <string name="incall_vibrate_connect_title">Başlanğıcda Titrət</string>
+    <string name="incall_vibrate_call_wait_title">Zəng Gözləmədə Titrət</string>
+    <string name="incall_vibrate_disconnect_title">Əlaqə kəsildiyində titrəşim</string>
+    <string name="display_cutout_force_fullscreen_title">Tam ekran proqramları</string>
+    <string name="display_cutout_force_fullscreen_summary">Tədbiqlərin çərtik sahəsini yox saymağa məcbur et</string>
+    <string name="timeout_summary_never">Heç vaxt</string>
+    <string name="timeout_summary_15secs">15 saniyə</string>
+    <string name="timeout_summary_30secs">30 saniyə</string>
+    <string name="timeout_summary_1min">1 dəqiqə</string>
+    <string name="timeout_summary_2mins">2 dəqiqə</string>
+    <string name="timeout_summary_5mins">5 dəqiqə</string>
+    <string name="timeout_summary_10mins">10 dəqiqə</string>
+    <string name="timeout_summary_30mins">30 dəqiqə</string>
+    <string name="timeout_summary_1hour">1 saat</string>
+    <string name="timeout_summary_2hours">2 saat</string>
+    <string name="timeout_summary_4hours">4 saat</string>
+    <string name="timeout_summary_8hours">8 saat</string>
+    <string name="wifi_timeout_summary2">Deaktiv</string>
+    <string name="bluetooth_timeout">Bluetooth bitmə vaxtı</string>
+    <string name="bluetooth_timeout_summary">Bluetooth, heç bir cihaza qoşulmayıbsa <xliff:g id="timeout_description">%1$s</xliff:g> sonra söndürüləcək</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth-u avtomatik söndürmə</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli şəbəkə</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Mobil \"Hotspot\"unuzun adı mövcud WLAN şəbəkələri siyahısından görünməyəcək.</string>
+    <string name="wifi_hotspot_client_manager_title">Qoşulmuş cihazlar</string>
+    <string name="wifi_hotspot_client_manager_summary">\"Hotspot\"a bağlanmış cihazları siyahılayın və idarə edin</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">\"Hotspot\"a bağlanmış cihazları siyahılayın</string>
+    <string name="wifi_hotspot_client_limit_title">Qoşulu cihaz limiti</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Əngəllənən cihazlar</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Bağlantı qurulmuş cihazlar</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Cihazı əngəllə</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Bu əməliyyat əlaqəni kəsəcək \"<xliff:g id="device_name">%1$s</xliff:g>\" bu cihazla olan əlaqəni kəsəcək və onu blok siyahısına əlavə edəcək</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Cihaz blokunu qaldır</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" Bu hotspota qoşula biləcək</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Hazırda heç bir müştəri yoxdur. Qoşulmuş və bloklanmış cihazlar mövcud olduqda burada siyahıya alınacaq.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+            <item quantity="other">Bu hotspota ən çox <xliff:g id="device_num">%1$d</xliff:g> cihazlar bağlana bilər</item>
+            <item quantity="one">Bu hotspota ən çox <xliff:g id="device_num">%1$d</xliff:g> cihaz qoşula bilər</item>
+        </plurals>
+    <string name="custom_timeout_summary_never">Heç vaxt</string>
+    <string name="custom_timeout_summary_5secs">5 saniyə</string>
+    <string name="custom_timeout_summary_10secs">10 saniyə</string>
+    <string name="custom_timeout_summary_15secs">15 saniyə</string>
+    <string name="custom_timeout_summary_30secs">30 saniyə</string>
+    <string name="custom_timeout_summary_1min">1 dəqiqə</string>
+    <string name="custom_timeout_summary_2mins">2 dəqiqə</string>
+    <string name="custom_timeout_summary_5mins">5 dəqiqə</string>
+    <string name="custom_timeout_summary_10mins">10 dəqiqə</string>
+    <string name="custom_timeout_summary_20mins">20 dəqiqə</string>
+    <string name="custom_timeout_summary_30mins">30 dəqiqə</string>
+    <string name="custom_timeout_summary_1hour">1 saat</string>
+    <string name="custom_timeout_summary_2hours">2 saat</string>
+    <string name="custom_timeout_summary_4hours">4 saat</string>
+    <string name="custom_timeout_summary_8hours">8 saat</string>
+    <string name="factory_reset_battery_low_dialog_title">Batareka azdır</string>
+    <string name="selinux_status_disabled">Deaktiv</string>
+    <string name="unit_milliseconds">Millisaniyə</string>
+    <string name="vibration_pattern_title">Zəng səsi üçün vibrasiya nümunəsi</string>
+    <string name="pattern_custom">Özəl</string>
+    <string name="custom_vibration_pattern_title">Özəl model </string>
+    <string name="custom_vibration_pattern_summary">Özəl vibrasiya nümunəsi təyin edin</string>
+    <string name="back_gesture_arrow_title">Geri jesti animasiyası</string>
+    <string name="back_gesture_arrow_summary">Geri jesti üçün animasiyalı oxu göstərin</string>
+    <string name="back_gesture_haptic_summary">Arxa hərəkəti yerinə yetirərkən titrəyin</string>
+    <string name="app_lock_grace_period_5_seconds">5 saniyə</string>
+    <string name="app_lock_grace_period_15_seconds">15 saniyə</string>
+    <string name="app_lock_grace_period_30_seconds">30 saniyə</string>
+    <string name="app_lock_grace_period_1_minute">1 dəqiqə</string>
+    <string name="app_lock_grace_period_5_minutes">5 dəqiqə</string>
+    <string name="background_processes_settings_title">Arxa Plan Əməliyyatları</string>
+    <string name="disabled">Deaktiv</string>
+    <string name="pocket_judge_title">Cib aşkarlanması</string>
+    <string name="pocket_judge_summary">Cihaz Cibdə olduqda ekran və düymə girişlərini bloklayın</string>
+    <string name="app_volume">Proqram səs səviyyəsi</string>
+    <string name="app_volume_title">Proqram başına səs səviyyəsinə nəzarət</string>
+    <string name="app_volume_summary">Səs dialoqunda hər proqram üçün səs düyməsini göstərin</string>
+    <string name="doze_additional_settings_title">Əlavə tənzimləmələr</string>
+    <string name="doze_additional_settings_summary">Cihazın xüsusi ortam ekranı parametrlərini fərdiləşdirin</string>
+    <string name="doze_sensor_title">Sensora bağlı</string>
+    <string name="tilt_summary">Telefonu götürdükdə bildirişləri göstər</string>
+    <string name="pickup_title">Qaldır</string>
+    <string name="pickup_summary">Telefonu götürdükdə bildirişləri göstər</string>
+    <string name="handwave_title">Əl yelləməsi</string>
+    <string name="handwave_summary">Ekranın üstündə əl yelləyəndə bildirişləri göstər</string>
+    <string name="pocket_title">Cib</string>
+    <string name="pocket_summary">Cibdən çıxararkən bildirişləri göstər</string>
+    <string name="raise_to_wake_title">Telefonu oyat</string>
+    <string name="raise_to_wake_summary">Bildirimləri titrətləşdirmək əvəzinə cihazı oyandırın</string>
+    <string name="doze_vibrate">Vibrasiya</string>
+    <string name="doze_vibrate_summary">Titrəşimli bildirişlər zamanı titrəmənin vaxt aralığı</string>
+    <string name="caution">Xәbәrdarlıq</string>
+    <string name="sensor_warning_message">Sensorlara bağlı tənzimləmələr donanım uyumluluğuna bağlıdır. Ortam ekranı üçün sensorların aktivləşdirilməsi əlavə sərfiyyata səbəb ola bilər.</string>
+    <string name="display_engine_default">Defolt</string>
+</resources>

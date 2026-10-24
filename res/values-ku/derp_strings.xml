@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">سەرجەمی ڕام</string>
+    <string name="copied_to_clipboard">لەبەرگیراوە بۆ تەختەنووس</string>
+    <string name="longpress_to_clipboard">ڕایبگرە بۆ لەبەرگرتنەوە</string>
+    <string name="prevent_ringing_option_normal">ئاسایی</string>
+    <string name="timeout_summary_never">هەرگیز</string>
+    <string name="timeout_summary_15secs">15 چرکە</string>
+    <string name="timeout_summary_30secs">30 چرکە</string>
+    <string name="timeout_summary_1min">١ خوله‌ک</string>
+    <string name="timeout_summary_2mins">2 خوله‌ک</string>
+    <string name="timeout_summary_5mins">5 خوله‌ک</string>
+    <string name="timeout_summary_10mins">10 خوله‌ک</string>
+    <string name="wifi_timeout_summary2">ناچالاکه‌</string>
+    <string name="custom_timeout_summary_never">هەرگیز</string>
+    <string name="custom_timeout_summary_5secs">5 چرکە</string>
+    <string name="custom_timeout_summary_10secs">10 چرکە</string>
+    <string name="custom_timeout_summary_15secs">15 چرکە</string>
+    <string name="custom_timeout_summary_30secs">30 چرکە</string>
+    <string name="custom_timeout_summary_1min">١ خوله‌ک</string>
+    <string name="custom_timeout_summary_2mins">2 خوله‌ک</string>
+    <string name="custom_timeout_summary_5mins">5 خوله‌ک</string>
+    <string name="custom_timeout_summary_10mins">10 خوله‌ک</string>
+    <string name="factory_reset_battery_low_dialog_title">پاتری کەمە</string>
+    <string name="selinux_status_disabled">ناچالاکه‌</string>
+    <string name="unit_milliseconds">میلی چرکە</string>
+    <string name="pattern_custom">دڵخواز</string>
+    <string name="back_gesture_haptic_title">کاردانەوەی لەرینەر</string>
+    <string name="app_lock_grace_period_5_seconds">5 چرکە</string>
+    <string name="app_lock_grace_period_15_seconds">15 چرکە</string>
+    <string name="app_lock_grace_period_30_seconds">30 چرکە</string>
+    <string name="app_lock_grace_period_1_minute">١ خوله‌ک</string>
+    <string name="app_lock_grace_period_5_minutes">5 خوله‌ک</string>
+    <string name="disabled">ناچالاکه‌</string>
+    <string name="display_engine_default">Destçûnî</string>
+</resources>

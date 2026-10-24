@@ -334,4 +334,31 @@
     <!-- DerpFest official banner -->
     <string name="derp_official_title">Lo sapevi?</string>
     <string name="derp_official_summary">Stai attualmente utilizzando una build ufficiale di DerpFest.</string>
+
+    <string name="app_list_search_apps">Cerca applicazioni</string>
+    <string name="factory_reset_battery_low_dialog_title">Batteria scarica</string>
+    <string name="app_lock_settings_title">Blocco app</string>
+    <string name="app_lock_grace_period_5_seconds">5 secondi</string>
+    <string name="app_lock_grace_period_15_seconds">15 secondi</string>
+    <string name="app_lock_grace_period_30_seconds">30 secondi</string>
+    <string name="app_lock_grace_period_1_minute">1 minuto</string>
+    <string name="app_lock_grace_period_5_minutes">5 minuti</string>
+    <string name="doze_additional_settings_title">Impostazioni aggiuntive</string>
+    <string name="doze_additional_settings_summary">Personalizza le impostazioni di visualizzazione ambientale specifiche del dispositivo</string>
+    <string name="doze_sensor_title">Basato sul sensore</string>
+    <string name="tilt_title">Inclinazione</string>
+    <string name="tilt_summary">Notifiche lampeggianti sull\'inclinazione</string>
+    <string name="pickup_title">Sollevamento</string>
+    <string name="pickup_summary">Notifiche lampeggianti al sollevamento</string>
+    <string name="handwave_title">Movimento della mano</string>
+    <string name="handwave_summary">Notifiche pulseggianti al movimento della mano</string>
+    <string name="pocket_title">Tasca</string>
+    <string name="pocket_summary">Mostra le notifiche quando estrai il dispositivo dalla tasca</string>
+    <string name="raise_to_wake_title">Risveglia dispositivo</string>
+    <string name="raise_to_wake_summary">Risveglia il dispositivo invece di visualizzare le notifiche</string>
+    <string name="doze_vibrate">Vibrazione</string>
+    <string name="doze_vibrate_summary">Durata della vibrazione quando ci sono notifiche lampeggianti</string>
+    <string name="caution">Attenzione</string>
+    <string name="sensor_warning_message">Le impostazioni basate sui sensori sono soggette a compatibilità hardware. L\'abilitazione dei sensori per monitorare l\'ambient display può aumentare il consumo di energia.</string>
+    <string name="display_engine_default">Predefinito</string>
 </resources>

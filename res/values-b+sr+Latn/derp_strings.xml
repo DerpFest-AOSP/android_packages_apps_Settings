@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">Ukupno RAM-a</string>
+    <string name="notification_log_summary">Prikaži zapis istorije obaveštenja</string>
+    <string name="duration_less_than_one_minute">Manje od minuta</string>
+    <string name="screen_time_summary_usage_today">%1$s danas</string>
+    <string name="copied_to_clipboard">Kopirano u međuspremnik</string>
+    <string name="longpress_to_clipboard">Duže pritisći da kopiraš</string>
+    <string name="pulse_on_new_tracks_title">Muzički tiker</string>
+    <string name="notification_sound_vib_screen_on_summary">Koristi zvuk i vibraciju za obaveštenja kada je ekran upaljen</string>
+    <string name="incall_vibration_category">Opcije vibracija u toku poziva</string>
+    <string name="incall_vibrate_connect_title">Vibriraj na uspostavljanju veze</string>
+    <string name="incall_vibrate_call_wait_title">Vibriraj na poziv na čekanju</string>
+    <string name="incall_vibrate_disconnect_title">Vibriraj na prekidu poziva</string>
+    <string name="display_cutout_force_fullscreen_title">Aplikacije preko celog ekrana</string>
+    <string name="display_cutout_force_fullscreen_summary">Prisili aplikacije da ignorišu prostor za izrez</string>
+    <string name="timeout_summary_never">Nikad</string>
+    <string name="timeout_summary_15secs">15 sekundi</string>
+    <string name="timeout_summary_30secs">30 sekundi</string>
+    <string name="timeout_summary_1min">1 minut</string>
+    <string name="timeout_summary_2mins">2 minuta</string>
+    <string name="timeout_summary_5mins">5 minuta</string>
+    <string name="timeout_summary_10mins">10 minuta</string>
+    <string name="timeout_summary_30mins">30 minuta</string>
+    <string name="timeout_summary_1hour">1 sat</string>
+    <string name="timeout_summary_2hours">2 sata</string>
+    <string name="timeout_summary_4hours">4 sata</string>
+    <string name="timeout_summary_8hours">8 sati</string>
+    <string name="bluetooth_timeout">Istek vremena Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Bluetooth će se isključiti posle <xliff:g id="timeout_description">%1$s</xliff:g> ako nema spojenih aparata</string>
+    <string name="bluetooth_timeout_summary2">Nemoj isključivati Bluetooth automatski</string>
+    <string name="wifi_hotspot_client_manager_title">Povezani uredjaji</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Lista uredjaja povezanih na hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Najveći broj povezanih uredjaja</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blokirani uredjaji</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Povezani uredjaji</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokiraj uredjaj</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ova akcija će skinuti \"<xliff:g id="device_name">%1$s</xliff:g>\" sa ovog uredjaja i ddodati ga na listu blokiranih</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Deblokiraj uredjaj</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nijedan klijent nije trenutno dostupan. Pobezani i blokirani uredjaji će biti prikazani ovde kada budu dostupni.</string>
+    <string name="custom_timeout_summary_never">Nikad</string>
+    <string name="custom_timeout_summary_5secs">5 sekundi</string>
+    <string name="custom_timeout_summary_10secs">10 sekundi</string>
+    <string name="custom_timeout_summary_15secs">15 sekundi</string>
+    <string name="custom_timeout_summary_30secs">30 sekundi</string>
+    <string name="custom_timeout_summary_1min">1 minut</string>
+    <string name="custom_timeout_summary_2mins">2 minuta</string>
+    <string name="custom_timeout_summary_5mins">5 minuta</string>
+    <string name="custom_timeout_summary_10mins">10 minuta</string>
+    <string name="custom_timeout_summary_20mins">20 minuta</string>
+    <string name="custom_timeout_summary_30mins">30 minuta</string>
+    <string name="custom_timeout_summary_1hour">1 sat</string>
+    <string name="custom_timeout_summary_2hours">2 sata</string>
+    <string name="custom_timeout_summary_4hours">4 sata</string>
+    <string name="custom_timeout_summary_8hours">8 sati</string>
+    <string name="factory_reset_battery_low_dialog_title">Baterija je prazna</string>
+    <string name="unit_milliseconds">milisеkundе</string>
+    <string name="vibration_pattern_title">Šablon vibracije zvona</string>
+    <string name="pattern_custom">Prilagođeno</string>
+    <string name="back_gesture_arrow_title">Animacija pokreta \"Nazad\"</string>
+    <string name="back_gesture_arrow_summary">Prikaži animiranu strelicu za pokret \"Nazad\".</string>
+    <string name="back_gesture_haptic_summary">Vibriraj pri pokretu \"Nazad\"</string>
+    <string name="app_lock_grace_period_5_seconds">5 sekundi</string>
+    <string name="app_lock_grace_period_15_seconds">15 sekundi</string>
+    <string name="app_lock_grace_period_30_seconds">30 sekundi</string>
+    <string name="app_lock_grace_period_1_minute">1 minut</string>
+    <string name="app_lock_grace_period_5_minutes">5 minuta</string>
+    <string name="background_processes_settings_title">Pozadinski procesi</string>
+    <string name="pocket_judge_title">Detekcija položaja u džepu</string>
+    <string name="pocket_judge_summary">Blokiraj ekran i korišćenje tastera kada je uređaj u džepu</string>
+    <string name="doze_additional_settings_title">Dodatna podešavanja</string>
+    <string name="doze_additional_settings_summary">Prilagodi podešavanja ambijentalnog prikaza za ovaj uredjaj</string>
+    <string name="doze_sensor_title">Zasnovano na senzorima</string>
+    <string name="tilt_title">Naginjanje</string>
+    <string name="tilt_summary">Pulsirajuća obaveštenja prilikom naginjanja</string>
+    <string name="pickup_title">Podizanje uredjaja</string>
+    <string name="pickup_summary">Pulsirajuća obaveštenja prilikom podizanja</string>
+    <string name="handwave_title">Mahanje rukom</string>
+    <string name="handwave_summary">Pulsirajuća obaveštenja prilikom mahanja rukom</string>
+    <string name="pocket_title">Džep</string>
+    <string name="pocket_summary">Pulsirajuća obaveštenja prilikom vađenja iz džepa</string>
+    <string name="raise_to_wake_title">Probudi uredjaj</string>
+    <string name="raise_to_wake_summary">Probudi uredjaj umesto pulsirajućih obaveštenja</string>
+    <string name="doze_vibrate">Vibriraj</string>
+    <string name="doze_vibrate_summary">Period vibriranja prilikom pulsiranja obaveštenja</string>
+    <string name="caution">Upozorenje</string>
+    <string name="sensor_warning_message">Podešavanja zasnovana na senzorima zavise od kompatibilnosti hardvera. Uključivanje senzora za ambijentalno osvetljenje će možda pojačati potrošnju baterije.</string>
+    <string name="display_engine_default">Podrazumevano</string>
+</resources>

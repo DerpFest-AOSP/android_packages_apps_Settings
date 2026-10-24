@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">ٹوٹل ریم</string>
+    <string name="notification_log_summary">اطلاع کی سرگزشت استعمال کریں</string>
+    <string name="duration_less_than_one_minute">1 منٹ سے کم</string>
+    <string name="screen_time_summary_usage_today">%1$s آج</string>
+    <string name="pulse_on_new_tracks_title">میوزک ٹکر</string>
+    <string name="notification_sound_vib_screen_on_summary">اسکرین آن ہونے پر اطلاعات کے لیے آواز اور تھرتھراہٹ چلائیں۔</string>
+    <string name="incall_vibration_category">کال میں تھرتھراہٹ کے اختیارات</string>
+    <string name="incall_vibrate_connect_title">کنیکٹ ہونے پر تھرتھراہٹ</string>
+    <string name="incall_vibrate_call_wait_title">کال ویٹنگ پر تھرتھراہٹ کریں۔</string>
+    <string name="incall_vibrate_disconnect_title">ڈس-کنیکٹ ہونے پر تھرتھراہٹ</string>
+    <string name="prevent_ringing_option_normal">عام</string>
+    <string name="display_cutout_force_fullscreen_title">فل سکرین ایپس</string>
+    <string name="display_cutout_force_fullscreen_summary">ایپس کو نوچ اسپیس کو نظر انداز کرنے پر مجبور کریں۔</string>
+    <string name="timeout_summary_never">کبھی نہیں</string>
+    <string name="timeout_summary_15secs">15 سیکنڈز</string>
+    <string name="timeout_summary_30secs">30 سیکنڈز</string>
+    <string name="timeout_summary_1min">1 منٹ</string>
+    <string name="timeout_summary_2mins">2 منٹس</string>
+    <string name="timeout_summary_5mins">5 منٹس</string>
+    <string name="timeout_summary_10mins">10 منٹ</string>
+    <string name="timeout_summary_30mins">30 منٹس</string>
+    <string name="timeout_summary_1hour">ایک گھنٹہ</string>
+    <string name="timeout_summary_2hours">2 گھنٹے</string>
+    <string name="timeout_summary_4hours">4 گھنٹے</string>
+    <string name="timeout_summary_8hours">8 گھنٹے</string>
+    <string name="bluetooth_timeout">بلوٹوتھ ٹائم آؤٹ</string>
+    <string name="bluetooth_timeout_summary">بلوٹوتھ اس کے بعد بند ہو جائے گا۔ <xliff:g id="timeout_description">%1$s</xliff:g> اگر کوئی آلات منسلک نہیں ہیں۔</string>
+    <string name="bluetooth_timeout_summary2">بلیو ٹوتھ کو خود بخود بند نہ کریں۔</string>
+    <string name="custom_timeout_summary_never">کبھی نہیں</string>
+    <string name="custom_timeout_summary_5secs">5 سیکنڈز</string>
+    <string name="custom_timeout_summary_10secs">10 سیکنڈز</string>
+    <string name="custom_timeout_summary_15secs">15 سیکنڈز</string>
+    <string name="custom_timeout_summary_30secs">30 سیکنڈز</string>
+    <string name="custom_timeout_summary_1min">1 منٹ</string>
+    <string name="custom_timeout_summary_2mins">2 منٹس</string>
+    <string name="custom_timeout_summary_5mins">5 منٹس</string>
+    <string name="custom_timeout_summary_10mins">10 منٹ</string>
+    <string name="custom_timeout_summary_20mins">20 منٹس</string>
+    <string name="custom_timeout_summary_30mins">30 منٹس</string>
+    <string name="custom_timeout_summary_1hour">ایک گھنٹہ</string>
+    <string name="custom_timeout_summary_2hours">2 گھنٹے</string>
+    <string name="custom_timeout_summary_4hours">4 گھنٹے</string>
+    <string name="custom_timeout_summary_8hours">8 گھنٹے</string>
+    <string name="factory_reset_battery_low_dialog_title">بیٹری کم ہے</string>
+    <string name="unit_milliseconds">ملی سیکنڈ</string>
+    <string name="vibration_pattern_title">رنگ ٹون تھرتھراہٹ نقش</string>
+    <string name="pattern_custom">حسب ضرورت</string>
+    <string name="back_gesture_arrow_title">پیچھے کے اشارے کی حرکت پذیری۔</string>
+    <string name="back_gesture_arrow_summary">پیچھے کے اشارے کے لیے ایک متحرک تیر دکھائیں۔</string>
+    <string name="back_gesture_haptic_summary">پیچھے کا اشارہ کرتے وقت وائبریٹ کریں۔</string>
+    <string name="app_lock_grace_period_5_seconds">5 سیکنڈز</string>
+    <string name="app_lock_grace_period_15_seconds">15 سیکنڈز</string>
+    <string name="app_lock_grace_period_30_seconds">30 سیکنڈز</string>
+    <string name="app_lock_grace_period_1_minute">1 منٹ</string>
+    <string name="app_lock_grace_period_5_minutes">5 منٹس</string>
+    <string name="background_processes_settings_title">پس منظر کے عوامل</string>
+    <string name="pocket_judge_title">جیب کا پتہ لگانا</string>
+    <string name="pocket_judge_summary">جب ڈیوائس جیب میں ہو تو اسکرین اور بٹن ان پٹ کو مسدود کریں۔</string>
+    <string name="app_volume">App والیم</string>
+    <string name="app_volume_title">Per-app والیم کا اختیار</string>
+    <string name="app_volume_summary">والیوم ڈائیلاگ میں فی ایپ والیوم بٹن دکھائیں۔</string>
+    <string name="doze_additional_settings_title">اضافی ترتیبات</string>
+    <string name="doze_additional_settings_summary">مخصوص آلے کے لحاظ سے محیطی- ڈسپلے کو ترتیب دیں</string>
+    <string name="doze_sensor_title">محسوس کرنے والے آلہ پر منحصر</string>
+    <string name="tilt_title">جھکاؤ</string>
+    <string name="tilt_summary">جھکائو پر دھڑکتی اطلاعات</string>
+    <string name="pickup_title">اٹھائیں</string>
+    <string name="pickup_summary">آلہ کو اٹھانے پر پر دھڑکتی اطلاعات</string>
+    <string name="handwave_title">ہاتھ ہلانا</string>
+    <string name="handwave_summary">ہاتھ ہلانے پر دھڑکتی اطلاعات</string>
+    <string name="pocket_title">جیب</string>
+    <string name="pocket_summary">جیب سے نکالنے پر دھڑکتی اطلاعات</string>
+    <string name="raise_to_wake_title">جاگنا</string>
+    <string name="raise_to_wake_summary">اطلاعات پر آلہ کو دھڑکنے کی بجائے سکرین آن کرے</string>
+    <string name="doze_vibrate">تھرتھراہٹ</string>
+    <string name="doze_vibrate_summary">پلسنگ اطلاعات کے وقت تھپتھپاہٹ کا دورانیہ</string>
+    <string name="caution">انتباہ</string>
+    <string name="sensor_warning_message">سینسر کی بنیاد پر ترتیبات ہارڈ ویئر مطابقت کے تابع ہیں. وسیع پیمانے پر ڈسپلے کے لئے سینسر کو چالو کرنے میں بجلی کے ضیاں میں اضافہ ہوسکتا ہے.</string>
+    <string name="display_engine_default">پہلے سے طے شدہ</string>
+</resources>

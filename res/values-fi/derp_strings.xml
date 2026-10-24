@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">RAM-muisti</string>
+    <string name="notification_log_summary">Näytä ilmoitushistorian loki</string>
+    <string name="duration_less_than_one_minute">Alle 1 minuutti</string>
+    <string name="screen_time_summary_usage_today">%1$s tänään</string>
+    <string name="copied_to_clipboard">Kopioitu leikepöydälle</string>
+    <string name="longpress_to_clipboard">Paina pitkään kopioidaksesi</string>
+    <string name="pulse_on_new_tracks_title">Musiikki lippu</string>
+    <string name="incall_vibration_category">Värinän asetukset puhelun aikana</string>
+    <string name="incall_vibrate_connect_title">Värise yhdistettäessä</string>
+    <string name="incall_vibrate_call_wait_title">Värise puhelua odottaessa</string>
+    <string name="incall_vibrate_disconnect_title">Värinä katkaistaessa</string>
+    <string name="prevent_ringing_option_normal">Normaali</string>
+    <string name="display_cutout_force_fullscreen_title">Koko näytön sovellukset</string>
+    <string name="display_cutout_force_fullscreen_summary">Pakota sovellukset olemaan huomioimatta näyttölovea</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Piilotettu verkko</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Mobiiliyhteyspisteesi nimi ei näy saatavilla olevien Wi-Fi-verkkojen listalla.</string>
+    <string name="wifi_hotspot_client_manager_title">Yhdistetyt laitteet</string>
+    <string name="wifi_hotspot_client_manager_summary">Listaa ja hallitse yhteyspisteeseen yhdistettyjä laitteita</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listaa yhteyspisteeseen yhdistetyt laitteet</string>
+    <string name="wifi_hotspot_client_limit_title">Liitettyjen laitteiden rajoitus</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Estetyt laitteet</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Yhdistetyt laitteet</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Estä laite</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Tämä toiminto katkaisee laitteen \"<xliff:g id="device_name">%1$s</xliff:g>\" yhteyden tästä laitteesta ja lisää sen estolistalle</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Kumoa laitteen esto</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Laite \"<xliff:g id="device_name">%1$s</xliff:g>\" voi muodostaa yhteyden tähän hotspottiin</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Yhteyksiä ei ole tällä hetkellä saatavilla. Yhdistetyt ja estetyt laitteet näkyvät täällä kun ne ovat saatavilla.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+            <item quantity="other">Enintään <xliff:g id="device_num">%1$d</xliff:g> laitetta voi muodostaa yhteyden tähän hotspottiin</item>
+            <item quantity="one">Enintään <xliff:g id="device_num">%1$d</xliff:g> laite voi muodostaa yhteyden tähän hotspottiin</item>
+        </plurals>
+    <string name="custom_timeout_summary_never">Ei koskaan</string>
+    <string name="custom_timeout_summary_5secs">5 sekuntia</string>
+    <string name="custom_timeout_summary_10secs">10 sekuntia</string>
+    <string name="custom_timeout_summary_15secs">15 sekuntia</string>
+    <string name="custom_timeout_summary_30secs">30 sekuntia</string>
+    <string name="custom_timeout_summary_1min">1 minuutti</string>
+    <string name="custom_timeout_summary_2mins">2 minuuttia</string>
+    <string name="custom_timeout_summary_5mins">5 minuuttia</string>
+    <string name="custom_timeout_summary_10mins">10 minuuttia</string>
+    <string name="custom_timeout_summary_20mins">20 minuuttia</string>
+    <string name="custom_timeout_summary_30mins">30 minuuttia</string>
+    <string name="custom_timeout_summary_1hour">1 tunti</string>
+    <string name="custom_timeout_summary_2hours">2 tuntia</string>
+    <string name="custom_timeout_summary_4hours">4 tuntia</string>
+    <string name="custom_timeout_summary_8hours">8 tuntia</string>
+    <string name="factory_reset_battery_low_dialog_title">Akku vähissä</string>
+    <string name="selinux_status_disabled">Poistettu käytöstä</string>
+    <string name="unit_milliseconds">millisekuntia</string>
+    <string name="pattern_custom">Mukautettu</string>
+    <string name="back_gesture_arrow_title">Takaisin eleen animaatio</string>
+    <string name="back_gesture_arrow_summary">Näytä animoitu nuoli takaisin-eleelle</string>
+    <string name="back_gesture_haptic_title">Haptinen palaute</string>
+    <string name="back_gesture_haptic_summary">Värinä tehdessäsi takaisin-eleen</string>
+    <string name="app_lock_grace_period_5_seconds">5 sekuntia</string>
+    <string name="app_lock_grace_period_15_seconds">15 sekuntia</string>
+    <string name="app_lock_grace_period_30_seconds">30 sekuntia</string>
+    <string name="app_lock_grace_period_1_minute">1 minuutti</string>
+    <string name="app_lock_grace_period_5_minutes">5 minuuttia</string>
+    <string name="background_processes_settings_title">Taustaprosessit</string>
+    <string name="disabled">Poistettu käytöstä</string>
+    <string name="pocket_judge_title">Taskun tunnistus</string>
+    <string name="pocket_judge_summary">Estä näyttö ja painikkeet, kun laite on taskussa</string>
+    <string name="app_volume">Sovelluksen äänenvoimakkuus</string>
+    <string name="app_volume_title">Sovelluskohtainen äänenvoimakkuuden säätö</string>
+    <string name="app_volume_summary">Näytä sovelluskohtainen äänenvoimakkuuden painike äänenvoimakkuuden valintaikkunassa</string>
+    <string name="doze_additional_settings_title">Lisäasetukset</string>
+    <string name="doze_additional_settings_summary">Määritä laitekohtaiset ambient-näytön asetukset</string>
+    <string name="doze_sensor_title">Anturipohjainen</string>
+    <string name="tilt_title">Kallistus</string>
+    <string name="tilt_summary">Vilkuta ilmoituksia kallistettaessa</string>
+    <string name="pickup_title">Nosta</string>
+    <string name="pickup_summary">Vilkuta ilmoituksia nostaessa</string>
+    <string name="handwave_title">Käden heilautus</string>
+    <string name="handwave_summary">Vilkuta ilmoituksia käden heilautuksella</string>
+    <string name="pocket_title">Tasku</string>
+    <string name="pocket_summary">Vilkuta ilmoituksia taskusta poistettaessa</string>
+    <string name="raise_to_wake_title">Herätä</string>
+    <string name="raise_to_wake_summary">Herätä laite pulssi-ilmoituksen sijaan</string>
+    <string name="doze_vibrate">Värinä</string>
+    <string name="doze_vibrate_summary">Värinän kesto ilmoituksen vilkkuessa</string>
+    <string name="caution">Varoitus</string>
+    <string name="sensor_warning_message">Antureihin perustuvat asetukset riippuvat laitteiston yhteensopivuudesta. Antureiden ottaminen käyttöön ambient-näyttöä varten voi lisätä virrankulutusta.</string>
+    <string name="display_engine_default">Oletus</string>
+</resources>

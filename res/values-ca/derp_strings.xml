@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">RAM total</string>
+    <string name="notification_log_summary">Mostra el registre de notificacions</string>
+    <string name="duration_less_than_one_minute">Menys d\'un minut</string>
+    <string name="screen_time_summary_usage_today">%1$s avui</string>
+    <string name="copied_to_clipboard">S\'ha copiat al porta-retalls</string>
+    <string name="longpress_to_clipboard">Premeu prolongadament per a copiar</string>
+    <string name="pulse_on_new_tracks_title">Ticker de música</string>
+    <string name="notification_sound_vib_screen_on_summary">Sona i vibra per a notificacions quan la pantalla està encesa</string>
+    <string name="incall_vibration_category">Opcions de vibració durant les telefonades</string>
+    <string name="incall_vibrate_connect_title">Vibrar en connectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibra quan hi hagi una trucada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar en desconnectar</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicacions a pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Força les aplicacions a ignorar l\'espai de notch</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Xarxa oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nom del punt d\'accés mòbil no apareixerà a la llista de xarxes WLAN disponibles.</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositius connectats</string>
+    <string name="wifi_hotspot_client_manager_summary">Mostra i gestiona els dispositius connectats al punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mostra els dispositius connectats al punt d\'accés</string>
+    <string name="wifi_hotspot_client_limit_title">Límit de dispositius connectats</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositius bloquejats</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositius connectats</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloqueja el dispositiu</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Aquesta acció desconnectarà \"<xliff:g id="device_name">%1$s</xliff:g>\" d\'aquest dispositiu i l\'afegirà a la llista de bloqueig</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloqueja el dispositiu</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">El dispositiu «<xliff:g id="device_name">%1$s</xliff:g>» podrà connectar-se al punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Actualment no hi ha clients disponibles. Els dispositius connectats i bloquejats es mostraran aquí quan estiguin disponibles.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz &amp; 6 GHz</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+            <item quantity="other">Es poden connectar fins a <xliff:g id="device_num">%1$d</xliff:g> dispositius a aquest punt d\'accés</item>
+            <item quantity="one">Es pot connectar fins a <xliff:g id="device_num">%1$d</xliff:g> dispositiu a aquest punt d\'accés</item>
+        </plurals>
+    <string name="custom_timeout_summary_never">Mai</string>
+    <string name="custom_timeout_summary_5secs">5 segons</string>
+    <string name="custom_timeout_summary_10secs">10 segons</string>
+    <string name="custom_timeout_summary_15secs">15 segons</string>
+    <string name="custom_timeout_summary_30secs">30 segons</string>
+    <string name="custom_timeout_summary_1min">1 minut</string>
+    <string name="custom_timeout_summary_2mins">2 minuts</string>
+    <string name="custom_timeout_summary_5mins">5 minuts</string>
+    <string name="custom_timeout_summary_10mins">10 minuts</string>
+    <string name="custom_timeout_summary_20mins">20 minuts</string>
+    <string name="custom_timeout_summary_30mins">30 minuts</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="custom_timeout_summary_2hours">2 hores</string>
+    <string name="custom_timeout_summary_4hours">4 hores</string>
+    <string name="custom_timeout_summary_8hours">8 hores</string>
+    <string name="factory_reset_battery_low_dialog_title">Bateria baixa</string>
+    <string name="selinux_status_disabled">Desactivat</string>
+    <string name="unit_milliseconds">mil·lisegons</string>
+    <string name="vibration_pattern_title">Patró de vibració del to de trucada</string>
+    <string name="pattern_custom">Personalitzat</string>
+    <string name="custom_vibration_pattern_title">Patró personalitzat</string>
+    <string name="custom_vibration_pattern_summary">Estableix un patró de vibració personalitzat</string>
+    <string name="back_gesture_arrow_title">Animació del gest cap enrere</string>
+    <string name="back_gesture_arrow_summary">Mostra una fletxa animada en fer el gest cap enrere</string>
+    <string name="back_gesture_haptic_summary">Vibra quan es realitzi el gest cap enrere</string>
+    <string name="app_lock_settings_title">Bloqueig d\'aplicacions</string>
+    <string name="app_lock_grace_period_5_seconds">5 segons</string>
+    <string name="app_lock_grace_period_15_seconds">15 segons</string>
+    <string name="app_lock_grace_period_30_seconds">30 segons</string>
+    <string name="app_lock_grace_period_1_minute">1 minut</string>
+    <string name="app_lock_grace_period_5_minutes">5 minuts</string>
+    <string name="background_processes_settings_title">Processos de fons</string>
+    <string name="disabled">Desactivat</string>
+    <string name="pocket_judge_title">Detecció de butxaca</string>
+    <string name="pocket_judge_summary">Bloqueja les entrades de pantalla i de botó quan el dispositiu es troba a la butxaca</string>
+    <string name="app_volume">Volum de l\'aplicació</string>
+    <string name="app_volume_title">Control de volum per aplicació</string>
+    <string name="app_volume_summary">Mostra el botó de volum per aplicació al quadre de diàleg de volum</string>
+    <string name="doze_additional_settings_title">Configuració addicional</string>
+    <string name="doze_additional_settings_summary">Personalitzar la configuració de pantalla ambiental específica del dispositiu</string>
+    <string name="doze_sensor_title">Basat en el sensor</string>
+    <string name="tilt_title">Inclinació</string>
+    <string name="tilt_summary">Mostra notificacions polsants al inclinar</string>
+    <string name="pickup_title">Recollir</string>
+    <string name="pickup_summary">Mostra notificacions polsants al agafar</string>
+    <string name="handwave_title">Passa la mà</string>
+    <string name="handwave_summary">Mostra notificacions polsants al passar la mà</string>
+    <string name="pocket_title">Butxaca</string>
+    <string name="pocket_summary">Mostra notificacions al treure de la butxaca</string>
+    <string name="raise_to_wake_title">Despertar-se</string>
+    <string name="raise_to_wake_summary">Activar el dispositiu en lloc de la notificació polsant</string>
+    <string name="doze_vibrate">Vibrar</string>
+    <string name="doze_vibrate_summary">Duració de la vibració amb notificacions polsants</string>
+    <string name="caution">Precaució</string>
+    <string name="sensor_warning_message">La configuració basada en sensors està subjecta a la compatibilitat del dispositiu. L\'activació dels sensors per a la visualització ambiental pot augmentar el consum d\'energia.</string>
+    <string name="display_engine_default">Per defecte</string>
+</resources>

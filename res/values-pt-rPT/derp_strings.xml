@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">RAM total</string>
+    <string name="notification_log_summary">Mostrar histórico de notificações</string>
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <string name="screen_time_summary_usage_today">%1$s hoje</string>
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="longpress_to_clipboard">Mantenha premido para copiar</string>
+    <string name="doze_gesture_ambient_title">Mostrar Visualização Ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar Visualização Ambiente em vez de acordar completamente o ecrã</string>
+    <string name="gesture_wake_ambient">Mostrar Visualização Ambiente</string>
+    <string name="gesture_wake">Acordar totalmente</string>
+    <string name="pulse_on_new_tracks_title">Ticker de música</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibrar ao receber uma notificação com o ecrã ligado</string>
+    <string name="incall_vibration_category">Opções de vibração durante a chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao ligar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar com chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
+    <string name="prevent_ringing_option_cycle">Percorrer os modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ligado (percorrer os modos)</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicações em ecrã inteiro</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar apps a ignorar o espaço do entalhe</string>
+    <string name="app_list_search">Procurar</string>
+    <string name="app_list_search_apps">Pesquisar aplicações</string>
+    <string name="app_list_loading">A Carregar aplicações\u2026</string>
+    <string name="wifi_hotspot_ap_band_title">Banda do ponto de acesso</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso não aparecerá na lista de redes Wi-Fi disponíveis.</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Listar e gerir dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_limit_title">Limite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta ação desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e adicioná-lo-á à lista de bloqueio</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">O dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar a este ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível atualmente. Dispositivos conectados e bloqueados serão listados aqui quando disponíveis.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz e 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz e 6 GHz</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+            <item quantity="other">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivos podem conectar-se a este ponto de acesso</item>
+            <item quantity="one">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivo pode conectar-se a este ponto de acesso</item>
+        </plurals>
+    <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_5secs">5 segundos</string>
+    <string name="custom_timeout_summary_10secs">10 segundos</string>
+    <string name="custom_timeout_summary_15secs">15 segundos</string>
+    <string name="custom_timeout_summary_30secs">30 segundos</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_2mins">2 minutos</string>
+    <string name="custom_timeout_summary_5mins">5 minutos</string>
+    <string name="custom_timeout_summary_10mins">10 minutos</string>
+    <string name="custom_timeout_summary_20mins">20 minutos</string>
+    <string name="custom_timeout_summary_30mins">30 minutos</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="custom_timeout_summary_2hours">2 horas</string>
+    <string name="custom_timeout_summary_4hours">4 horas</string>
+    <string name="custom_timeout_summary_8hours">8 horas</string>
+    <string name="custom_timeout_summary_12hours">12 horas</string>
+    <string name="custom_timeout_summary_24hours">24 horas</string>
+    <string name="custom_timeout_summary_36hours">36 horas</string>
+    <string name="custom_timeout_summary_48hours">48 horas</string>
+    <string name="custom_timeout_summary_72hours">72 horas</string>
+    <string name="custom_timeout_summary_1hour_def">1 hora (Padrão)</string>
+    <string name="doze_on_charge_title">Mostrar sempre ao carregar</string>
+    <string name="factory_reset_battery_low_dialog_title">Bateria fraca</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="radio_info_title">Informações de rede móvel</string>
+    <string name="unit_milliseconds">milissegundos</string>
+    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="pattern_custom">Personalizada</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
+    <string name="wifi_do_not_validate_eap_server">Não validar</string>
+    <string name="back_gesture_arrow_title">Animação do gesto de voltar</string>
+    <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar</string>
+    <string name="back_gesture_haptic_title">Vibração</string>
+    <string name="back_gesture_haptic_summary">Vibrar ao executar o gesto de voltar</string>
+    <string name="app_lock_settings_title">Bloqueio de aplicações</string>
+    <string name="app_lock_grace_period_5_seconds">5 segundos</string>
+    <string name="app_lock_grace_period_15_seconds">15 segundos</string>
+    <string name="app_lock_grace_period_30_seconds">30 segundos</string>
+    <string name="app_lock_grace_period_1_minute">1 minuto</string>
+    <string name="app_lock_grace_period_5_minutes">5 minutos</string>
+    <string name="show_ime_space_title">Mostrar espaço do botão IME</string>
+    <string name="show_ime_space_summary">Ativar a mudança de método de entrada para alternar entre métodos de entrada ou ocultar o teclado na tela da barra de recursos na parte inferior da tela quando digitar</string>
+    <string name="background_processes_settings_title">Processos em segundo plano</string>
+    <string name="clear_search_query_description">Limpar consulta</string>
+    <string name="language_picker_page">Página para escolher linguagem</string>
+    <string name="search_region">Procurar regiões</string>
+    <string name="search_region_page">Página de pesquisa de região</string>
+    <string name="always_on_display_schedule_sunset">Ocaso</string>
+    <string name="always_on_display_schedule_sunrise">Amanhecer</string>
+    <string name="always_on_display_schedule_mixed_sunset">Ativar do anoitecer até uma determinada hora</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Ativar de uma determinada hora até ao amanhecer</string>
+    <string name="disabled">Desativado</string>
+    <string name="pocket_judge_title">Deteção de bolso</string>
+    <string name="pocket_judge_summary">Bloquear o ecrã e os botões quando o dispositivo estiver no bolso</string>
+    <string name="vpn_enforce_dns_title">Desabilitar para VPN</string>
+    <string name="billing_cycle_type_title">Tipo de ciclo de utilização dos dados móveis</string>
+    <string name="billing_cycle_type_monthly">Mensalmente</string>
+    <string name="billing_cycle_type_weekly">Semanalmente</string>
+    <string name="billing_cycle_type_daily">Diariamente</string>
+    <string name="billing_cycle_less_than_one_hour_left">Menos de 1 hora restante</string>
+    <string name="cycle_type_weekly_sub">Dia de cada semana:\n1 = segunda-feira</string>
+    <string name="cycle_type_daily_sub">Hora de cada dia:</string>
+    <string name="app_volume">Volume por app</string>
+    <string name="app_volume_title">Controlo de volume por app</string>
+    <string name="app_volume_summary">Mostrar botão de volume por app na caixa de diálogo de volume</string>
+    <string name="multi_audio_focus_title">Múltiplas fontes de áudio</string>
+    <string name="multi_audio_focus_summary">Permitir que várias aplicações reproduzam áudio simultaneamente</string>
+    <string name="doze_additional_settings_title">Configurações adicionais</string>
+    <string name="doze_additional_settings_summary">Personalizar configurações específicas do ecrã ambiente</string>
+    <string name="doze_sensor_title">Baseado no sensor</string>
+    <string name="tilt_title">Inclinação</string>
+    <string name="tilt_summary">Pulsar notificações ao inclinar o dispositivo</string>
+    <string name="pickup_title">Levantar</string>
+    <string name="pickup_summary">Pulsar notificações ao levantar o dispositivo</string>
+    <string name="handwave_title">Passar a mão</string>
+    <string name="handwave_summary">Pulsar notificações ao passar a mão</string>
+    <string name="pocket_title">Bolso</string>
+    <string name="pocket_summary">Pulsar notificações ao retirar do bolso</string>
+    <string name="raise_to_wake_title">Acordar o dispositivo</string>
+    <string name="raise_to_wake_summary">Acordar o dispositivo em vez pulsar notificações</string>
+    <string name="doze_vibrate">Vibrar</string>
+    <string name="doze_vibrate_summary">Duração da vibração quando pulsar notificações</string>
+    <string name="caution">Cuidado</string>
+    <string name="sensor_warning_message">Configurações baseadas nos sensores estão sujeitas à compatibilidade de hardware. Ativar os sensores para a exibição do ecrã ambiente pode aumentar o consumo de energia.</string>
+    <string name="display_engine_category">Motor de visualização</string>
+    <string name="display_engine_mode_title">Motor de exibição realístico</string>
+    <string name="x_reality_engine_mode_title">Motor Realidade-X</string>
+    <string name="vivid_engine_mode_title">Tela vívida</string>
+    <string name="triluminous_engine_mode_title">Modo extra-luminoso</string>
+    <string name="display_engine_default">Predefinido</string>
+    <string name="display_engine_mode_footer_text">Inspirado pelo mecanismo Bravia/X-Realidade de Sony, o mecanismo de exibição apresenta recursos vivivid para melhor brilho e saturação de cor Modo de Realidade X para melhorar detalhes e precisão de cor e o modo Triluminoso para um intervalo de cores mais amplo.</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+            =1      {# hora restante}
+            other   {# horas restantes}
+            }</string>
+</resources>

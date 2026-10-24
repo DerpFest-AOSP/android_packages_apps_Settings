@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">மொத்த RAM</string>
+    <string name="notification_log_summary">அறிவிப்புகள் வரலாறு பதிவைக் காட்டு</string>
+    <string name="duration_less_than_one_minute">ஒரு நிமிடத்திற்கும் குறைவு</string>
+    <string name="screen_time_summary_usage_today">இன்று %1$s</string>
+    <string name="copied_to_clipboard">Clipboard-க்கு நகலெடுக்கப்பட்டது</string>
+    <string name="longpress_to_clipboard">நகலெடுக்க நீண்டு அழுத்தவும்</string>
+    <string name="prevent_ringing_option_normal">சாதாரண</string>
+    <string name="display_cutout_force_fullscreen_title">முழுத் திரை பயன்பாடுகள்</string>
+    <string name="custom_timeout_summary_never">ஒருபோதுமில்லை</string>
+    <string name="custom_timeout_summary_5secs">5 விநாடிகள்</string>
+    <string name="custom_timeout_summary_10secs">10 விநாடிகள்</string>
+    <string name="custom_timeout_summary_15secs">15 விநாடிகள்</string>
+    <string name="custom_timeout_summary_30secs">30 விநாடிகள்</string>
+    <string name="custom_timeout_summary_1min">1 நிமிடம்</string>
+    <string name="custom_timeout_summary_2mins">2 நிமிடங்கள்</string>
+    <string name="custom_timeout_summary_5mins">5 நிமிடங்கள்</string>
+    <string name="custom_timeout_summary_10mins">10 நிமிடங்கள்</string>
+    <string name="custom_timeout_summary_20mins">20 நிமிடங்கள்</string>
+    <string name="custom_timeout_summary_30mins">30 நிமிடங்கள்</string>
+    <string name="factory_reset_battery_low_dialog_title">குறைந்த மின்கலம்</string>
+    <string name="selinux_status_disabled">நெட்வொர்க்_டிராபிக்_லொகேஷன்_டிசபல்</string>
+    <string name="unit_milliseconds">மில்லி வினாடி</string>
+    <string name="pattern_custom">தனிப்பயன்</string>
+    <string name="back_gesture_arrow_title">Show an animated arrow for back gesture.</string>
+    <string name="app_lock_grace_period_5_seconds">5 விநாடிகள்</string>
+    <string name="app_lock_grace_period_15_seconds">15 விநாடிகள்</string>
+    <string name="app_lock_grace_period_30_seconds">30 விநாடிகள்</string>
+    <string name="app_lock_grace_period_1_minute">1 நிமிடம்</string>
+    <string name="app_lock_grace_period_5_minutes">5 நிமிடங்கள்</string>
+    <string name="background_processes_settings_title">பின்னணி செயலாக்கங்கள்</string>
+    <string name="disabled">நெட்வொர்க்_டிராபிக்_லொகேஷன்_டிசபல்</string>
+    <string name="doze_additional_settings_title">கூடுதல் அமைப்புகள்</string>
+    <string name="doze_sensor_title">சென்சார் அடிப்படையிலானது</string>
+    <string name="tilt_title">சுழற்று</string>
+    <string name="pickup_title">எடு</string>
+    <string name="handwave_title">கை அசைவு</string>
+    <string name="pocket_title">பாக்கெட்</string>
+    <string name="raise_to_wake_title">விழித்தெழ</string>
+    <string name="doze_vibrate">அதிர்வு</string>
+    <string name="caution">கவனம் தேவை</string>
+    <string name="display_engine_default">இயல்புநிலை</string>
+</resources>

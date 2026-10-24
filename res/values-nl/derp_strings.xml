@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DerpFest AOSP
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="total_ram">Totale RAM</string>
+    <string name="notification_log_summary">Toon meldingsgeschiedenis</string>
+    <string name="duration_less_than_one_minute">Minder dan 1 minuut</string>
+    <string name="screen_time_summary_usage_today">%1$s vandaag</string>
+    <string name="copied_to_clipboard">Naar klembord gekopieerd</string>
+    <string name="longpress_to_clipboard">Lang ingedrukt houden om te kopiëren</string>
+    <string name="doze_gesture_ambient_title">Toon Ambient</string>
+    <string name="doze_gesture_ambient_summary">Ambient Display weergeven in plaats van het scherm volledig aan te zetten</string>
+    <string name="gesture_wake_ambient">Toon Ambient</string>
+    <string name="gesture_wake">Volledig ontwaken</string>
+    <string name="pulse_on_new_tracks_title">Muziekticker</string>
+    <string name="notification_sound_vib_screen_on_summary">Geluid en trillen afspelen voor meldingen wanneer het scherm aan is</string>
+    <string name="incall_vibration_category">Tijdens gesprek trilopties</string>
+    <string name="incall_vibrate_connect_title">Trillen bij verbinden</string>
+    <string name="incall_vibrate_call_wait_title">Trillen bij wisselgesprek</string>
+    <string name="incall_vibrate_disconnect_title">Trillen bij verbreken</string>
+    <string name="prevent_ringing_option_cycle">Door modi gaan</string>
+    <string name="prevent_ringing_option_cycle_summary">Aan (door modi gaan)</string>
+    <string name="prevent_ringing_option_normal">Normaal</string>
+    <string name="display_cutout_force_fullscreen_title">Volledige scherm apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Dwing apps om notch ruimte te negeren</string>
+    <string name="app_list_search">Zoeken</string>
+    <string name="app_list_search_apps">Apps zoeken</string>
+    <string name="app_list_loading">Apps laden\u2026</string>
+    <string name="wifi_hotspot_ap_band_title">AP band</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Verborgen netwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">De naam van uw mobiele hotspot zal niet worden weergegeven in de lijst met beschikbare WLAN-netwerken.</string>
+    <string name="wifi_hotspot_client_manager_title">Verbonden apparaten</string>
+    <string name="wifi_hotspot_client_manager_summary">Toon en beheer apparaten verbonden met hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Toon apparaten verbonden met hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Maximaal aantal verbonden apparaten</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Geblokkeerde apparaten</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Verbonden apparaten</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokkeer apparaat</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Deze actie zal \"<xliff:g id="device_name">%1$s</xliff:g>\" van dit apparaat ontkoppelen en toevoegen aan de blokkeerlijst</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Apparaat deblokkeren</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Het apparaat \"<xliff:g id="device_name">%1$s</xliff:g>\" zal kunnen verbinden met deze hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Er zijn momenteel geen clients beschikbaar. Verbonden en geblokkeerde apparaten zullen hier worden weergegeven wanneer beschikbaar.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+            <item quantity="other">Er kunnen maximaal <xliff:g id="device_num">%1$d</xliff:g> apparaten verbonden zijn met deze hotspot</item>
+            <item quantity="one">Er kan maximaal <xliff:g id="device_num">%1$d</xliff:g> apparaat verbonden zijn met deze hotspot</item>
+        </plurals>
+    <string name="custom_timeout_summary_never">Nooit</string>
+    <string name="custom_timeout_summary_5secs">5 seconden</string>
+    <string name="custom_timeout_summary_10secs">10 seconden</string>
+    <string name="custom_timeout_summary_15secs">15 seconden</string>
+    <string name="custom_timeout_summary_30secs">30 seconden</string>
+    <string name="custom_timeout_summary_1min">1 minuut</string>
+    <string name="custom_timeout_summary_2mins">2 minuten</string>
+    <string name="custom_timeout_summary_5mins">5 minuten</string>
+    <string name="custom_timeout_summary_10mins">10 minuten</string>
+    <string name="custom_timeout_summary_20mins">20 minuten</string>
+    <string name="custom_timeout_summary_30mins">30 minuten</string>
+    <string name="custom_timeout_summary_1hour">1 uur</string>
+    <string name="custom_timeout_summary_2hours">2 uur</string>
+    <string name="custom_timeout_summary_4hours">4 uur</string>
+    <string name="custom_timeout_summary_8hours">8 uur</string>
+    <string name="custom_timeout_summary_12hours">12 uur</string>
+    <string name="custom_timeout_summary_24hours">24 uur</string>
+    <string name="custom_timeout_summary_36hours">36 uur</string>
+    <string name="custom_timeout_summary_48hours">48 uur</string>
+    <string name="custom_timeout_summary_72hours">72 uur</string>
+    <string name="custom_timeout_summary_1hour_def">1 uur (standaard)</string>
+    <string name="doze_on_charge_title">Altijd laten zien bij opladen</string>
+    <string name="factory_reset_battery_low_dialog_title">Laag batterijniveau</string>
+    <string name="selinux_status_disabled">Uitgeschakeld</string>
+    <string name="radio_info_title">Radio informatie</string>
+    <string name="unit_milliseconds">milliseconden</string>
+    <string name="vibration_pattern_title">Beltoon vibratie patroon</string>
+    <string name="pattern_custom">Aangepast</string>
+    <string name="custom_vibration_pattern_title">Aangepast patroon</string>
+    <string name="custom_vibration_pattern_summary">Stel aangepast trillingspatroon in</string>
+    <string name="wifi_do_not_validate_eap_server">Niet valideren</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Geen certificaat opgegeven. Je verbinding is niet privé.</string>
+    <string name="back_gesture_arrow_title">Terug-gebaar animatie</string>
+    <string name="back_gesture_arrow_summary">Toon een geanimeerde pijl voor terug-gebaar</string>
+    <string name="back_gesture_haptic_title">Haptische feedback</string>
+    <string name="back_gesture_haptic_summary">Trillen bij het uitvoeren van een terug-gebaar</string>
+    <string name="app_lock_settings_title">Appvergrendeling</string>
+    <string name="app_lock_grace_period_5_seconds">5 seconden</string>
+    <string name="app_lock_grace_period_15_seconds">15 seconden</string>
+    <string name="app_lock_grace_period_30_seconds">30 seconden</string>
+    <string name="app_lock_grace_period_1_minute">1 minuut</string>
+    <string name="app_lock_grace_period_5_minutes">5 minuten</string>
+    <string name="show_ime_space_title">Toon IME knop ruimte</string>
+    <string name="show_ime_space_summary">Schakel de snel overschakelen invoermethode in om invoermethoden te switchen of bij het typen het on-screen toetsenbord van de functiebalk onderaan het scherm te verbergen</string>
+    <string name="background_processes_settings_title">Achtergrondprocessen</string>
+    <string name="clear_search_query_description">Wachtrij wissen</string>
+    <string name="language_picker_page">Taal pagina lijst</string>
+    <string name="search_region">Zoek een regio</string>
+    <string name="search_region_page">Zoek regio pagina</string>
+    <string name="always_on_display_schedule_sunset">Zonsondergang</string>
+    <string name="always_on_display_schedule_sunrise">Zonsopgang</string>
+    <string name="always_on_display_schedule_mixed_sunset">Schakelt in vanaf zonsondergang tot een tijd</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Schakelt in vanaf een tijd tot zonsopgang</string>
+    <string name="disabled">Uitgeschakeld</string>
+    <string name="pocket_judge_title">Broekzak detectie</string>
+    <string name="pocket_judge_summary">Scherm en toetsaanrakingen blokkeren wanneer het apparaat in de broekzak zit</string>
+    <string name="vpn_enforce_dns_title">Schakel uit voor VPN</string>
+    <string name="billing_cycle_type_title">Type data verbruik cyclus</string>
+    <string name="billing_cycle_type_monthly">Maandelijks</string>
+    <string name="billing_cycle_type_weekly">Wekelijks</string>
+    <string name="billing_cycle_type_daily">Dagelijks</string>
+    <string name="billing_cycle_less_than_one_hour_left">Minder dan een uur over</string>
+    <string name="cycle_type_weekly_title">Datum voor resetten gebruikscyclus</string>
+    <string name="cycle_type_weekly_sub">Dag van elke week:\n1 = maandag</string>
+    <string name="cycle_type_daily_title">Uur gebruikscyclus reset</string>
+    <string name="cycle_type_daily_sub">Uur van elke dag:</string>
+    <string name="app_volume_title">Volume per app beheer</string>
+    <string name="app_volume_summary">Volumeknop per app in volumevenster weergeven</string>
+    <string name="multi_audio_focus_summary">Sta meerdere apps toe om audio tegelijkertijd af te spelen</string>
+    <string name="doze_additional_settings_title">Aanvullende instellingen</string>
+    <string name="doze_additional_settings_summary">Pas apparaatspecifieke omgevingsweergave-instellingen aan</string>
+    <string name="doze_sensor_title">Sensor gebaseerd</string>
+    <string name="tilt_title">Kantelen</string>
+    <string name="tilt_summary">Meldingen laten knipperen bij kantelen</string>
+    <string name="pickup_title">Oppakken</string>
+    <string name="pickup_summary">Meldingen laten knipperen bij oppakken</string>
+    <string name="handwave_title">Handgebaar</string>
+    <string name="handwave_summary">Meldingen laten knipperen bij handgebaar</string>
+    <string name="pocket_title">Broekzak</string>
+    <string name="pocket_summary">Pulse meldingen bij uit broekzak halen</string>
+    <string name="raise_to_wake_title">Ontwaken</string>
+    <string name="raise_to_wake_summary">Toestel wekken in plaats van puls meldingen</string>
+    <string name="doze_vibrate">Trillen</string>
+    <string name="doze_vibrate_summary">Duur van trillen bij pulserende meldingen</string>
+    <string name="caution">Let op</string>
+    <string name="sensor_warning_message">Instellingen op basis van sensoren zijn onderworpen aan de compatibiliteit van het hardwareapparaat. Inschakelen van de sensoren voor ambient weergave kan batterij-drain verhogen.</string>
+    <string name="display_engine_category">Toon engine</string>
+    <string name="display_engine_mode_title">Realiteit toon engine</string>
+    <string name="vivid_engine_mode_title">Levendige display</string>
+    <string name="triluminous_engine_mode_title">Trilumineuze weergave</string>
+    <string name="display_engine_default">Standaard</string>
+    <string name="display_engine_mode_footer_text">Geïnspireerd door Sony\'s Bravia/X-Reality engine, de Display Engine heeft een Vivid modus voor verbeterde helderheid en kleurverzadiging, X-Reality modus voor verbeterde nauwkeurigheid en kleurnauwkeurigheid en Trilumineuze modus voor een groter kleurbereik.</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+            =1      {# uur resterend}
+            other   {# uren resterend}
+            }</string>
+</resources>
