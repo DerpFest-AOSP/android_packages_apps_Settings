@@ -454,4 +454,8 @@ Die Funktion „Glasklare Anrufe“ ist bei der WLAN-Telefonie und in den meiste
     <string name="status_bar_shade_split_more_quick_settings">Mehr Schnelleinstellungen</string>
     <string name="status_bar_shade_split_more_notifications">Mehr Benachrichtigungen</string>
     <string name="keywords_shade_split_ratio">Bereich, Aufteilung, Verhältnis, Benachrichtigungen, Schnelleinstellungen, Grenze</string>
+
+    <!-- Edge grip suppression -->
+    <string name="edge_grip_suppression_title">Breite der Kantengriff-Unterdrückung</string>
+    <string name="edge_grip_suppression_summary">Breite der Griffunterdrückung an gewölbten Kanten anpassen. 3 ist die Standardbreite</string>
 </resources>

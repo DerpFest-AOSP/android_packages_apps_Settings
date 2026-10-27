@@ -510,4 +510,8 @@
     <string name="status_bar_shade_split_more_quick_settings">More Quick Settings</string>
     <string name="status_bar_shade_split_more_notifications">More notifications</string>
     <string name="keywords_shade_split_ratio">shade, split, ratio, notifications, quick settings, boundary</string>
+
+    <!-- Edge grip suppression -->
+    <string name="edge_grip_suppression_title">Edge grip suppression width</string>
+    <string name="edge_grip_suppression_summary">Adjust the curved-edge grip suppression width. 3 is the stock width</string>
 </resources>

@@ -304,6 +304,17 @@
             android:defaultValue="false"
             settings:requiresFeature="lineagehardware:FEATURE_HIGH_TOUCH_SENSITIVITY" />
 
+        <org.derpfest.support.preferences.ProperSeekBarPreference
+            android:key="edge_grip_suppression"
+            android:title="@string/edge_grip_suppression_title"
+            android:summary="@string/edge_grip_suppression_summary"
+            android:persistent="false"
+            android:defaultValue="3"
+            android:max="5"
+            settings:min="1"
+            settings:interval="1"
+            settings:controller="com.android.settings.display.EdgeGripSuppressionPreferenceController" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
