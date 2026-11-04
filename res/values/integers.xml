@@ -25,6 +25,8 @@
     <integer name="power_monitor_receiver">106</integer>
     <integer name="primary_subscription_list_changed">107</integer>
     <integer name="satellite_eligibility_job">108</integer>
+    <integer name="keybox_status_check">109</integer>
+    <integer name="keybox_status_check_now">110</integer>
 
     <!-- Controls the maximum number of faces enrollable during SUW -->
     <integer name="suw_max_faces_enrollable">1</integer>

@@ -6389,6 +6389,19 @@
             </intent-filter>
         </service>
 
+        <receiver
+            android:name="org.derpfest.customizations.keybox.KeyboxStatusReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="org.derpfest.customizations.keybox.KeyboxStatusJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
         <!-- DerpFest Customizations activity -->
         <activity android:name=".Settings$DerpFestCustomizationsActivity"
                   android:label="@string/derpfest_customizations_title"
