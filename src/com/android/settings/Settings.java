@@ -827,4 +827,6 @@ public class Settings extends SettingsActivity {
      * DerpFest Customizations Activity
      */
     public static class DerpFestCustomizationsActivity extends SettingsActivity {}
+
+    public static class HeadsUpSettingsActivity extends SettingsActivity {}
 }

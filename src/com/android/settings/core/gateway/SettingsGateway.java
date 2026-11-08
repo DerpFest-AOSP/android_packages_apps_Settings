@@ -230,6 +230,7 @@ import com.google.android.settings.simplemode.SimpleModeSettingsFragment;
 import org.derpfest.settings.display.refreshrate.ScreenRefreshRateFragment;
 
 import org.derpfest.customizations.DerpFestCustomizations;
+import org.derpfest.customizations.fragment.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -447,6 +448,7 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             PrivateDnsSettings.class.getName(),
             ScreenRefreshRateFragment.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
