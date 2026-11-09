@@ -17,6 +17,10 @@
 package com.android.settings.fuelgauge;
 
 import android.content.Context;
+import android.database.ContentObserver;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.UserHandle;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -24,8 +28,12 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.internal.util.ArrayUtils;
 import com.android.settings.core.BasePreferenceController;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnStart;
+import com.android.settingslib.core.lifecycle.events.OnStop;
 
 import lineageos.health.HealthInterface;
+import lineageos.providers.LineageSettings;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,19 +43,41 @@ import java.util.List;
  * Controller to change and update the fast charging settings
  */
 public class ChargingSpeedPreferenceController extends BasePreferenceController
-        implements Preference.OnPreferenceChangeListener {
+        implements Preference.OnPreferenceChangeListener, LifecycleObserver, OnStart, OnStop {
 
     private HealthInterface mHealthInterface;
     private ListPreference mListPreference;
+    private final ContentObserver mSettingsObserver;
 
     public ChargingSpeedPreferenceController(Context context, String key) {
         super(context, key);
+
+        mSettingsObserver = new ContentObserver(new Handler(Looper.getMainLooper())) {
+            @Override
+            public void onChange(boolean selfChange) {
+                if (mHealthInterface != null && mListPreference != null) {
+                    updateState(mListPreference);
+                }
+            }
+        };
 
         try {
             mHealthInterface = HealthInterface.getInstance(context);
         } catch (RuntimeException e) {
             // Not supported.
         }
+    }
+
+    @Override
+    public void onStart() {
+        mContext.getContentResolver().registerContentObserver(
+                LineageSettings.System.getUriFor(LineageSettings.System.FAST_CHARGE_MODE),
+                false, mSettingsObserver, UserHandle.USER_CURRENT);
+    }
+
+    @Override
+    public void onStop() {
+        mContext.getContentResolver().unregisterContentObserver(mSettingsObserver);
     }
 
     @Override
