@@ -17,21 +17,29 @@ import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.database.ContentObserver;
 import android.hardware.display.AmbientDisplayConfiguration;
+import android.os.Handler;
+import android.os.Looper;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.TextUtils;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnStart;
+import com.android.settingslib.core.lifecycle.events.OnStop;
 
 public class AmbientDisplayNotificationsPreferenceController extends
-        TogglePreferenceController implements Preference.OnPreferenceChangeListener {
+        TogglePreferenceController implements Preference.OnPreferenceChangeListener,
+        LifecycleObserver, OnStart, OnStop {
 
     private final int ON = 1;
     private final int OFF = 0;
@@ -41,11 +49,39 @@ public class AmbientDisplayNotificationsPreferenceController extends
     private static final int MY_USER = UserHandle.myUserId();
 
     private final MetricsFeatureProvider mMetricsFeatureProvider;
+    private final ContentObserver mSettingsObserver;
     private AmbientDisplayConfiguration mConfig;
+    private Preference mPreference;
 
     public AmbientDisplayNotificationsPreferenceController(Context context, String key) {
         super(context, key);
         mMetricsFeatureProvider = FeatureFactory.getFeatureFactory().getMetricsFeatureProvider();
+        mSettingsObserver = new ContentObserver(new Handler(Looper.getMainLooper())) {
+            @Override
+            public void onChange(boolean selfChange) {
+                if (mPreference != null) {
+                    updateState(mPreference);
+                }
+            }
+        };
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        mPreference = screen.findPreference(getPreferenceKey());
+    }
+
+    @Override
+    public void onStart() {
+        mContext.getContentResolver().registerContentObserver(
+                Settings.Secure.getUriFor(DOZE_ENABLED), false, mSettingsObserver,
+                UserHandle.USER_CURRENT);
+    }
+
+    @Override
+    public void onStop() {
+        mContext.getContentResolver().unregisterContentObserver(mSettingsObserver);
     }
 
     /**
