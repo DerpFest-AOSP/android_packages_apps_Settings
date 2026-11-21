@@ -7,9 +7,11 @@ package com.android.settings.deviceinfo.aboutphone;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.RenderEffect;
@@ -21,6 +23,7 @@ import android.os.Looper;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -41,6 +44,12 @@ public class DerpFestHeaderPreferenceController extends BasePreferenceController
     private static final String TAG = "DerpFestHeader";
     private static final int CAPTURE_ATTEMPTS = 20;
     private static final long CAPTURE_INTERVAL_MS = 150L;
+    private static final String CHANGELOG_ACTIVITY = "org.derpfest.changelog.MainActivity";
+    /** Product package first. The suffix is the sideloaded debug build. */
+    private static final String[] CHANGELOG_PACKAGES = {
+            "org.derpfest.changelog",
+            "org.derpfest.changelog.dev",
+    };
 
     private final Handler mHandler = new Handler(Looper.getMainLooper());
     private final BroadcastReceiver mWallpaperReceiver = new BroadcastReceiver() {
@@ -52,6 +61,7 @@ public class DerpFestHeaderPreferenceController extends BasePreferenceController
 
     private LayoutPreference mPreference;
     private AboutHeaderWallpaper.Layer mWallpaperLayer;
+    private ComponentName mChangelogActivity;
     private int mGeneration;
     private boolean mListening;
 
@@ -103,6 +113,61 @@ public class DerpFestHeaderPreferenceController extends BasePreferenceController
         if (summary != null) {
             summary.setText(getMaintainerLabel());
         }
+        bindChangelog();
+    }
+
+    private void bindChangelog() {
+        View card = mPreference.findViewById(R.id.about_header_card);
+        View chip = mPreference.findViewById(R.id.about_header_changelog);
+        mChangelogActivity = findChangelogActivity();
+        boolean available = mChangelogActivity != null;
+        if (chip != null) {
+            chip.setVisibility(available ? View.VISIBLE : View.GONE);
+        }
+        if (card == null) {
+            return;
+        }
+        card.setClickable(available);
+        card.setFocusable(available);
+        if (!available) {
+            card.setOnClickListener(null);
+            card.setContentDescription(null);
+            return;
+        }
+        card.setOnClickListener(v -> openChangelog());
+        card.setContentDescription(mContext.getString(
+                R.string.derpfest_about_header_content_description,
+                getMaintainerLabel(),
+                mContext.getString(R.string.derpfest_whats_new)));
+    }
+
+    private ComponentName findChangelogActivity() {
+        PackageManager packageManager = mContext.getPackageManager();
+        for (String packageName : CHANGELOG_PACKAGES) {
+            ComponentName component = new ComponentName(packageName, CHANGELOG_ACTIVITY);
+            try {
+                packageManager.getActivityInfo(component, 0);
+                return component;
+            } catch (PackageManager.NameNotFoundException exception) {
+                // This package is not installed. Try the next one.
+            }
+        }
+        return null;
+    }
+
+    private void openChangelog() {
+        if (mChangelogActivity == null) {
+            return;
+        }
+        Intent intent = new Intent();
+        intent.setComponent(mChangelogActivity);
+        Activity activity = AboutHeaderWallpaper.findActivity(mContext);
+        if (activity != null) {
+            activity.startActivity(intent);
+            return;
+        }
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        mContext.startActivity(intent);
     }
 
     private String getMaintainerLabel() {

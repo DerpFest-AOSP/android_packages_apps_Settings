@@ -21,12 +21,14 @@
     android:orientation="vertical">
 
     <FrameLayout
+        android:id="@+id/about_header_card"
         android:layout_width="match_parent"
-        android:layout_height="184dp"
+        android:layout_height="216dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/brand_header_background"
         android:clipToOutline="true"
+        android:foreground="?android:attr/selectableItemBackground"
         android:outlineProvider="background">
 
         <ImageView
@@ -79,6 +81,29 @@
                 android:text="@string/summary_placeholder"
                 android:textColor="@color/about_header_maintainer_chip_text"
                 android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/about_header_changelog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/about_header_maintainer_chip"
+                android:drawableEnd="@drawable/about_header_changelog_arrow"
+                android:drawablePadding="4dp"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:paddingStart="16dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="6dp"
+                android:text="@string/derpfest_whats_new"
+                android:textColor="@color/about_header_maintainer_chip_text"
+                android:textSize="14sp"
+                android:visibility="gone" />
         </LinearLayout>
     </FrameLayout>
 </LinearLayout>

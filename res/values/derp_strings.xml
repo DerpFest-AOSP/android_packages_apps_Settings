@@ -30,6 +30,11 @@
     <string name="derpfest_summary">Built by %s</string>
     <string name="derpfest_maintainer"></string>
     <string name="derpfest_maintainer_unofficial">Unofficial Maintainer</string>
+    <!-- Chip on the About phone header. Opens the changelog. -->
+    <string name="derpfest_whats_new">What\'s new</string>
+    <!-- TalkBack description for the About phone header when it opens the changelog.
+         %1$s is the maintainer line, %2$s is derpfest_whats_new. -->
+    <string name="derpfest_about_header_content_description">%1$s. %2$s</string>
 
     <!-- DerpFest official banner -->
     <string name="derp_official_title">Did you know?</string>
