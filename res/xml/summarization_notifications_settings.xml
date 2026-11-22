@@ -67,5 +67,15 @@
 
     </PreferenceCategory>
 
+    <!-- DerpFest: on-device summary model management -->
+    <Preference
+        android:key="notification_summarization_model"
+        android:title="@string/notification_summarization_model_title"
+        android:summary="@string/notification_summarization_model_summary"
+        settings:controller="com.android.settings.notification.SummarizationModelPreferenceController">
+        <intent
+            android:action="org.derpfest.summarizer.action.MODEL_SETTINGS"
+            android:targetPackage="org.derpfest.summarizer" />
+    </Preference>
 
 </PreferenceScreen>
